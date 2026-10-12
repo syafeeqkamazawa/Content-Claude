@@ -265,8 +265,8 @@ add_sfx("pop", t0, 0.5)
 t0, t1 = overlay(
     "ov-ingr", SEG["S08"]["start"] + 0.1, SEG["S08"]["end"],
     '<div class="ingr top"><div class="ingr-head" id="in-h">BAHAN DALAMNYA</div>'
-    '<div class="chip" id="in-1">BROMELAIN</div>'
-    '<div class="chip" id="in-2">MILK THISTLE</div></div>',
+    '<div class="chip" id="in-1"><img class="chip-ico" src="assets/visuals/pineapple.png" alt="" />BROMELAIN</div>'
+    '<div class="chip" id="in-2"><img class="chip-ico" src="assets/visuals/herb.png" alt="" />MILK THISTLE</div></div>',
 )
 t_b, t_m = word_time("S08", "bromelain"), word_time("S08", "milk")
 js += [
@@ -322,6 +322,115 @@ js += [
 add_sfx("ping", t0, 0.45)
 
 gfx_dom, gfx_js = dom, js
+dom, js = [], []  # visuals sub-composition from here
+
+# ── 2b. Illustrated stickers (Fluent Emoji 3D, MIT) ─────────────────────────
+# Placed only in the zones the speaker never occupies: the wall band above his
+# head (y 200–650) and the kitchen counter to his left (x 40–440, y 700–1100).
+LEFT = (70, 760)
+TOP_R = (740, 250)
+
+
+def sticker(sid, img, t0, t1, xy, size, rot=0, pop=True, float_amp=10, z=1):
+    t0, t1 = q(t0), q(min(t1, TOTAL))
+    x, y = xy
+    dom.append(
+        f'<div id="st-{sid}" class="clip st" data-start="{t0}" data-duration="{q(t1 - t0)}" data-track-index="4" '
+        f'style="left:{x}px;top:{y}px;width:{size}px;height:{size}px;z-index:{z}">'
+        f'<div class="st-in" id="st-{sid}-in"><div class="st-img" style="background-image:url(assets/visuals/{img}.png)"></div></div></div>'
+    )
+    sel = f"#st-{sid}-in"
+    js.append(f'tl.fromTo("{sel}", {{ scale: 0, rotation: {rot - 25} }}, {{ scale: 1, rotation: {rot}, duration: 0.34, ease: "back.out(2.2)" }}, {t0});')
+    hold = t1 - t0 - 0.55
+    if float_amp and hold > 0.5:
+        reps = max(1, int(hold / 0.6) - 1)
+        js.append(f'tl.fromTo("{sel}", {{ y: 0 }}, {{ y: -{float_amp}, duration: 0.6, ease: "sine.inOut", yoyo: true, repeat: {reps}, immediateRender: false }}, {q(t0 + 0.34)});')
+    js.append(f'tl.to("{sel}", {{ scale: 0, duration: 0.18, ease: "power2.in" }}, {q(t1 - 0.18)});')
+    if pop:
+        add_sfx("pop", t0, 0.3)
+    return t0, t1
+
+
+# S01–S02: gout strikes the big toe.
+t_g = word_time("S01", "gout?")
+sticker("foot", "foot", t_g - 0.05, word_time("S02", "korang") + 0.9, LEFT, 300, rot=-6, pop=False)
+sticker("foot-hit", "collision", t_g + 0.05, word_time("S02", "korang") + 0.9, (LEFT[0] - 30, LEFT[1] + 110), 150, rot=10, pop=False, float_amp=0)
+js.append(f'tl.fromTo("#st-foot-hit-in", {{ scale: 1 }}, {{ scale: 1.25, duration: 0.25, ease: "sine.inOut", yoyo: true, repeat: 3, immediateRender: false }}, {q(t_g + 0.45)});')
+
+t_sak = word_time("S02", "sakitnya")
+sticker("face-pain", "persevering", t_sak - 0.05, SEG["S02"]["end"] + 0.1, TOP_R, 290, rot=4)
+sticker("sweat-1", "sweat", t_sak + 0.15, SEG["S02"]["end"] + 0.1, (TOP_R[0] + 210, TOP_R[1] - 40), 120, rot=-10, pop=False)
+
+t_men = word_time("S02", "menyerang.")
+sticker("bolt", "voltage", t_men - 0.05, SEG["S03"]["start"] + 0.5, (LEFT[0] + 200, LEFT[1] - 30), 170, rot=12, pop=False, float_amp=0)
+t0, t1 = q(t_men - 0.05), q(SEG["S03"]["start"] + 0.5)
+dom.append(
+    f'<div id="st-aduh" class="clip st" data-start="{t0}" data-duration="{q(t1 - t0)}" data-track-index="4" '
+    f'style="left:{LEFT[0]}px;top:{LEFT[1] + 40}px;width:330px;height:220px">'
+    f'<div class="st-in aduh" id="st-aduh-in"><span>ADUHH!</span></div></div>'
+)
+js.append(f'tl.fromTo("#st-aduh-in", {{ scale: 0, rotation: -18 }}, {{ scale: 1, rotation: -6, duration: 0.3, ease: "back.out(2.6)" }}, {t0});')
+js.append(f'tl.fromTo("#st-aduh-in", {{ x: -6 }}, {{ x: 6, duration: 0.05, ease: "none", yoyo: true, repeat: 7, immediateRender: false }}, {q(t0 + 0.3)});')
+add_sfx("impact-bass-1", t0, 0.3)
+
+# S03: years of it.
+sticker("calendar", "calendar", word_time("S03", "bertahun-tahun") - 0.1, SEG["S03"]["end"], TOP_R, 270, rot=6)
+
+# S04: pain meter climbs to 10, faces get worse.
+s4 = SEG["S04"]
+t0, t1 = q(s4["start"] + 0.15), q(s4["end"])
+dom.append(
+    f'<div id="pm" class="clip pm" data-start="{t0}" data-duration="{q(t1 - t0)}" data-track-index="4">'
+    '<div class="pm-in" id="pm-in">'
+    '<div class="pm-title">TAHAP SAKIT</div>'
+    '<div class="pm-num"><span id="pm-num">0</span><small>/10</small></div>'
+    '<div class="pm-track"><div class="pm-fill" id="pm-fill"></div></div>'
+    "</div></div>"
+)
+t_sakit, t_teruk = word_time("S04", "sakit"), word_time("S04", "teruk,")
+js += [
+    f'tl.fromTo("#pm-in", {{ opacity: 0, x: 80 }}, {{ opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }}, {t0});',
+    f'tl.fromTo("#pm-fill", {{ scaleY: 0.04 }}, {{ scaleY: 1, duration: {q(t_teruk + 0.3 - t_sakit)}, ease: "power2.in" }}, {t_sakit});',
+    f'(function () {{ const o = {{ v: 0 }}; tl.to(o, {{ v: 10, duration: {q(t_teruk + 0.3 - t_sakit)}, ease: "power2.in", '
+    f'onUpdate: function () {{ const el = document.getElementById("pm-num"); if (el) el.textContent = String(Math.round(o.v)); }} }}, {t_sakit}); }})();',
+    f'tl.fromTo("#pm-in", {{ rotation: -2 }}, {{ rotation: 2, duration: 0.06, ease: "none", yoyo: true, repeat: 9, immediateRender: false }}, {q(t_teruk + 0.3)});',
+    f'tl.to("#pm-in", {{ opacity: 0, x: 80, duration: 0.2, ease: "power2.in" }}, {q(t1 - 0.2)});',
+]
+add_sfx("click-soft", t0, 0.35)
+add_sfx("impact-bass-1", t_teruk + 0.28, 0.25)
+t_samp, t_ters = word_time("S04", "sampai"), word_time("S04", "terseksa")
+sticker("face-bandage", "bandage", t_samp - 0.05, t_ters - 0.02, LEFT, 300, rot=-5)
+sticker("face-tired", "tired", t_ters - 0.02, s4["end"] + 0.05, LEFT, 320, rot=5, pop=False)
+sticker("sweat-2", "sweat", t_ters + 0.1, s4["end"] + 0.05, (LEFT[0] + 230, LEFT[1] - 50), 130, rot=-8, pop=False)
+
+# S05: "cari macam-macam cara untuk jaga kesihatan".
+t_cari, t_mac = word_time("S05", "cari"), word_time("S05", "macam-macam")
+sticker("search", "magnifier", t_cari - 0.1, t_mac + 0.25, (400, 260), 250, rot=-8, float_amp=0)
+js.append(f'tl.fromTo("#st-search", {{ x: -300 }}, {{ x: 260, duration: {q(t_mac + 0.25 - t_cari)}, ease: "sine.inOut", immediateRender: false }}, {q(t_cari - 0.1)});')
+for i, (img, x) in enumerate([("herb", 70), ("droplet", 310), ("leafy", 550), ("pill", 790)]):
+    sticker(f"way-{i}", img, t_mac + 0.3 + i * 0.22, SEG["S05"]["end"] + 0.05, (x, 300 + (i % 2) * 70), 210, rot=(-8, 6, -4, 10)[i], pop=i == 0)
+
+# S06: doctor's treatment still matters.
+sticker("pill-doc", "pill", word_time("S06", "ubat") - 0.05, SEG["S06"]["end"], (LEFT[0] + 190, LEFT[1] + 140), 180, rot=-20, pop=False)
+sticker("steth", "stethoscope", word_time("S06", "doktor") - 0.05, SEG["S06"]["end"], LEFT, 270, rot=4)
+
+# S07: the product reveal.
+sticker("spark-1", "sparkles", word_time("S07", "produk") - 0.05, word_time("S07", "namanya") + 0.05, TOP_R, 230, rot=0)
+
+# S10: ikhtiar.
+t_ik = word_time("S10", "ikhtiar")
+sticker("doa", "folded", t_ik - 0.1, SEG["S10"]["end"], LEFT, 290, rot=-4)
+sticker("cup", "cup", word_time("S10", "cara") - 0.05, SEG["S10"]["end"], TOP_R, 260, rot=6)
+
+# S11: "saya sangat rekomen".
+t_rek = word_time("S11", "rekomen,")
+sticker("thumb", "thumbsup", t_rek - 0.1, word_time("S11", "anda") + 0.1, LEFT, 310, rot=-8)
+sticker("spark-2", "sparkles", t_rek, word_time("S11", "anda") + 0.1, TOP_R, 230, rot=0, pop=False)
+
+# S14: enjoy.
+sticker("spark-3", "sparkles", SEG["S14"]["start"] + 0.1, TOTAL, (780, 560), 220, rot=0, pop=False)
+
+vis_dom, vis_js = dom, js
 dom, js = [], []  # captions sub-composition from here
 
 # ── 3. Captions: 1–3 word chunks, active word highlighted ───────────────────
@@ -441,6 +550,27 @@ html, body {{ width: {W}px; height: {H}px; overflow: hidden; background: #0d0a05
 .cta span {{ font-family: "Archivo Black"; font-size: 54px; color: #1b1205; line-height: 1; }}
 .cta-arrow {{ width: 64px; height: 64px; fill: none; stroke: #1b1205; stroke-width: 7; stroke-linecap: round; stroke-linejoin: round; }}
 
+.chip-ico {{ width: 78px; height: 78px; margin: -10px 0 -10px -12px; }}
+
+/*SPLIT-VIS*/
+#vis-root {{ position: absolute; inset: 0; font-family: "Archivo Black", "Montserrat", sans-serif; }}
+.st {{ position: absolute; }}
+.st-in {{ width: 100%; height: 100%; transform-origin: 50% 60%; }}
+.st-img {{ width: 100%; height: 100%; background: center / contain no-repeat;
+  filter: drop-shadow(4px 0 0 #fff) drop-shadow(-4px 0 0 #fff) drop-shadow(0 4px 0 #fff) drop-shadow(0 -4px 0 #fff) drop-shadow(0 14px 18px rgba(0,0,0,.35)); }}
+.aduh {{ display: flex; align-items: center; justify-content: center; background: #fff8e6; border: 6px solid #1b1205; border-radius: 48% 52% 46% 54%;
+  box-shadow: 0 10px 0 #1b1205; }}
+.aduh span {{ font-family: "Archivo Black"; font-size: 72px; color: #d62828; line-height: 1; }}
+.pm {{ position: absolute; left: 790px; top: 230px; width: 240px; height: 460px; }}
+.pm-in {{ width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 18px 16px 20px;
+  background: rgba(20,14,4,.84); border-radius: 26px; box-shadow: 0 14px 30px rgba(0,0,0,.35); }}
+.pm-title {{ font-family: "Montserrat"; font-weight: 900; font-size: 26px; letter-spacing: 2px; color: #fff8e6; text-align: center; }}
+.pm-num {{ font-family: "Archivo Black"; font-size: 76px; line-height: 1; color: #ff5a3c; }}
+.pm-num small {{ font-size: 32px; color: #fff8e6; }}
+.pm-track {{ position: relative; flex: 1; width: 74px; border-radius: 40px; background: rgba(255,248,230,.18); overflow: hidden; border: 4px solid #fff8e6; }}
+.pm-fill {{ position: absolute; left: 0; right: 0; bottom: 0; height: 100%; transform-origin: 50% 100%;
+  background: linear-gradient(to top, #2f9e44 0%, #ffc61a 50%, #e03131 100%); }}
+
 /*SPLIT-CAP*/
 #cap-root {{ position: absolute; inset: 0; font-family: "Montserrat", sans-serif; }}
 .cap {{ position: absolute; left: 50px; right: 130px; top: 1150px; height: 260px; display: flex; align-items: center; justify-content: center; }}
@@ -451,7 +581,8 @@ html, body {{ width: {W}px; height: {H}px; overflow: hidden; background: #0d0a05
 """
 
 CSS_MAIN, rest = CSS.split("/*SPLIT-GFX*/")
-CSS_GFX, CSS_CAP = rest.split("/*SPLIT-CAP*/")
+CSS_GFX, rest = rest.split("/*SPLIT-VIS*/")
+CSS_VIS, CSS_CAP = rest.split("/*SPLIT-CAP*/")
 
 
 def lines(items, indent):
@@ -486,11 +617,14 @@ def subcomp(comp_id, root_id, css, dom_items, js_items):
 
 (ROOT / "compositions").mkdir(exist_ok=True)
 (ROOT / "compositions/graphics.html").write_text(subcomp("graphics", "gfx-root", CSS_GFX, gfx_dom, gfx_js))
+(ROOT / "compositions/visuals.html").write_text(subcomp("visuals", "vis-root", CSS_VIS, vis_dom, vis_js))
 (ROOT / "compositions/captions.html").write_text(subcomp("captions", "cap-root", CSS_CAP, cap_dom, cap_js))
 
 hosts = [
     f'<div id="graphics" data-composition-id="graphics" data-composition-src="compositions/graphics.html" '
     f'data-start="0" data-duration="{TOTAL}" data-track-index="2" data-width="{W}" data-height="{H}"></div>',
+    f'<div id="visuals" data-composition-id="visuals" data-composition-src="compositions/visuals.html" '
+    f'data-start="0" data-duration="{TOTAL}" data-track-index="4" data-width="{W}" data-height="{H}"></div>',
     f'<div id="captions" data-track-kind="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" '
     f'data-start="0" data-duration="{TOTAL}" data-track-index="3" data-width="{W}" data-height="{H}"></div>',
 ]

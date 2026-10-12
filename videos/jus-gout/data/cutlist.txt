@@ -1,4 +1,4 @@
-TOTAL 53.03s  (14 A-roll segments, 7 B-roll overlays, 19 SFX, 46 caption cards)
+TOTAL 53.03s  (14 A-roll segments, 7 B-roll overlays, 32 SFX, 46 caption cards)
 
   0.00-  1.87  S01  src  19.00- 20.85  Siapa dekat sini yang ada gout?
   1.87-  6.80  S02  src  21.20- 26.15  Kalau korang ada gout, korang mesti faham macam mana sakitnya bila gout ni menyerang.
