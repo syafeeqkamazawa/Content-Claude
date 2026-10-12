@@ -351,15 +351,37 @@ def sticker(sid, img, t0, t1, xy, size, rot=0, pop=True, float_amp=10, z=1):
     return t0, t1
 
 
+def photo(pid, img, t0, t1, xy, w, rot=0):
+    """AI-generated photo card (4:5) with a white frame and a slow push-in."""
+    t0, t1 = q(t0), q(min(t1, TOTAL))
+    x, y = xy
+    h = round(w * 1.25)
+    dom.append(
+        f'<div id="ph-{pid}" class="clip ph" data-start="{t0}" data-duration="{q(t1 - t0)}" data-track-index="4" '
+        f'style="left:{x}px;top:{y}px;width:{w}px;height:{h}px;z-index:0">'
+        f'<div class="ph-in" id="ph-{pid}-in"><div class="ph-crop"><div class="ph-img" id="ph-{pid}-img" '
+        f'style="background-image:url(assets/photos/{img}.jpg)"></div></div><div class="ph-tag">ILUSTRASI AI</div></div></div>'
+    )
+    js.append(f'tl.fromTo("#ph-{pid}-in", {{ opacity: 0, y: -50, scale: 0.85, rotation: {rot - 10} }}, {{ opacity: 1, y: 0, scale: 1, rotation: {rot}, duration: 0.4, ease: "back.out(1.6)" }}, {t0});')
+    js.append(f'tl.fromTo("#ph-{pid}-img", {{ scale: 1 }}, {{ scale: 1.1, duration: {q(t1 - t0)}, ease: "none" }}, {t0});')
+    js.append(f'tl.to("#ph-{pid}-in", {{ opacity: 0, scale: 0.9, duration: 0.2, ease: "power2.in" }}, {q(t1 - 0.2)});')
+    add_sfx("whoosh-short", t0 - 0.05, 0.3)
+    return t0, t1
+
+
+PH_LEFT = (45, 700)
+PH_TOP_R = (670, 190)
+
 # S01–S02: gout strikes the big toe.
 t_g = word_time("S01", "gout?")
-sticker("foot", "foot", t_g - 0.05, word_time("S02", "korang") + 0.9, LEFT, 300, rot=-6, pop=False)
-sticker("foot-hit", "collision", t_g + 0.05, word_time("S02", "korang") + 0.9, (LEFT[0] - 30, LEFT[1] + 110), 150, rot=10, pop=False, float_amp=0)
-js.append(f'tl.fromTo("#st-foot-hit-in", {{ scale: 1 }}, {{ scale: 1.25, duration: 0.25, ease: "sine.inOut", yoyo: true, repeat: 3, immediateRender: false }}, {q(t_g + 0.45)});')
+t_end = word_time("S02", "korang") + 0.9
+photo("foot", "gout-foot", t_g - 0.05, t_end, PH_LEFT, 380, rot=-4)
+sticker("foot-hit", "collision", t_g + 0.1, t_end, (PH_LEFT[0] + 230, PH_LEFT[1] + 230), 150, rot=10, pop=False, float_amp=0, z=2)
+js.append(f'tl.fromTo("#st-foot-hit-in", {{ scale: 1 }}, {{ scale: 1.25, duration: 0.25, ease: "sine.inOut", yoyo: true, repeat: 3, immediateRender: false }}, {q(t_g + 0.5)});')
 
 t_sak = word_time("S02", "sakitnya")
-sticker("face-pain", "persevering", t_sak - 0.05, SEG["S02"]["end"] + 0.1, TOP_R, 290, rot=4)
-sticker("sweat-1", "sweat", t_sak + 0.15, SEG["S02"]["end"] + 0.1, (TOP_R[0] + 210, TOP_R[1] - 40), 120, rot=-10, pop=False)
+photo("pain", "pain-bed", t_sak - 0.1, SEG["S02"]["end"] + 0.1, PH_TOP_R, 370, rot=4)
+sticker("sweat-1", "sweat", t_sak + 0.2, SEG["S02"]["end"] + 0.1, (PH_TOP_R[0] - 40, PH_TOP_R[1] + 300), 130, rot=-10, pop=False, z=2)
 
 t_men = word_time("S02", "menyerang.")
 sticker("bolt", "voltage", t_men - 0.05, SEG["S03"]["start"] + 0.5, (LEFT[0] + 200, LEFT[1] - 30), 170, rot=12, pop=False, float_amp=0)
@@ -376,7 +398,7 @@ add_sfx("impact-bass-1", t0, 0.3)
 # S03: years of it.
 sticker("calendar", "calendar", word_time("S03", "bertahun-tahun") - 0.1, SEG["S03"]["end"], TOP_R, 270, rot=6)
 
-# S04: pain meter climbs to 10, faces get worse.
+# S04: pain meter climbs to 10 while he describes barely being able to move.
 s4 = SEG["S04"]
 t0, t1 = q(s4["start"] + 0.15), q(s4["end"])
 dom.append(
@@ -399,11 +421,11 @@ js += [
 add_sfx("click-soft", t0, 0.35)
 add_sfx("impact-bass-1", t_teruk + 0.28, 0.25)
 t_samp, t_ters = word_time("S04", "sampai"), word_time("S04", "terseksa")
-sticker("face-bandage", "bandage", t_samp - 0.05, t_ters - 0.02, LEFT, 300, rot=-5)
-sticker("face-tired", "tired", t_ters - 0.02, s4["end"] + 0.05, LEFT, 320, rot=5, pop=False)
-sticker("sweat-2", "sweat", t_ters + 0.1, s4["end"] + 0.05, (LEFT[0] + 230, LEFT[1] - 50), 130, rot=-8, pop=False)
+photo("limp", "limping", t_samp - 0.1, s4["end"] + 0.05, PH_LEFT, 380, rot=-3)
+sticker("face-tired", "tired", t_ters - 0.02, s4["end"] + 0.05, (PH_LEFT[0] + 220, PH_LEFT[1] - 45), 170, rot=8, z=2)
 
 # S05: "cari macam-macam cara untuk jaga kesihatan".
+photo("search", "searching", word_time("S05", "orang") - 0.1, SEG["S05"]["end"] + 0.05, PH_LEFT, 380, rot=3)
 t_cari, t_mac = word_time("S05", "cari"), word_time("S05", "macam-macam")
 sticker("search", "magnifier", t_cari - 0.1, t_mac + 0.25, (400, 260), 250, rot=-8, float_amp=0)
 js.append(f'tl.fromTo("#st-search", {{ x: -300 }}, {{ x: 260, duration: {q(t_mac + 0.25 - t_cari)}, ease: "sine.inOut", immediateRender: false }}, {q(t_cari - 0.1)});')
@@ -411,8 +433,8 @@ for i, (img, x) in enumerate([("herb", 70), ("droplet", 310), ("leafy", 550), ("
     sticker(f"way-{i}", img, t_mac + 0.3 + i * 0.22, SEG["S05"]["end"] + 0.05, (x, 300 + (i % 2) * 70), 210, rot=(-8, 6, -4, 10)[i], pop=i == 0)
 
 # S06: doctor's treatment still matters.
-sticker("pill-doc", "pill", word_time("S06", "ubat") - 0.05, SEG["S06"]["end"], (LEFT[0] + 190, LEFT[1] + 140), 180, rot=-20, pop=False)
-sticker("steth", "stethoscope", word_time("S06", "doktor") - 0.05, SEG["S06"]["end"], LEFT, 270, rot=4)
+photo("doctor", "doctor", word_time("S06", "rawatan") - 0.1, SEG["S06"]["end"] + 0.1, PH_LEFT, 380, rot=-3)
+sticker("steth", "stethoscope", word_time("S06", "doktor") - 0.05, SEG["S06"]["end"] + 0.1, (PH_LEFT[0] + 210, PH_LEFT[1] - 50), 170, rot=6, z=2)
 
 # S07: the product reveal.
 sticker("spark-1", "sparkles", word_time("S07", "produk") - 0.05, word_time("S07", "namanya") + 0.05, TOP_R, 230, rot=0)
@@ -561,6 +583,13 @@ html, body {{ width: {W}px; height: {H}px; overflow: hidden; background: #0d0a05
 .aduh {{ display: flex; align-items: center; justify-content: center; background: #fff8e6; border: 6px solid #1b1205; border-radius: 48% 52% 46% 54%;
   box-shadow: 0 10px 0 #1b1205; }}
 .aduh span {{ font-family: "Archivo Black"; font-size: 72px; color: #d62828; line-height: 1; }}
+.ph {{ position: absolute; }}
+.ph-in {{ position: relative; width: 100%; height: 100%; padding: 12px 12px 12px; background: #fff8e6; border-radius: 20px;
+  box-shadow: 0 18px 36px rgba(0,0,0,.38); transform-origin: 50% 40%; }}
+.ph-crop {{ position: relative; width: 100%; height: 100%; overflow: hidden; border-radius: 12px; }}
+.ph-img {{ position: absolute; inset: 0; background: center / cover no-repeat; transform-origin: 50% 50%; }}
+.ph-tag {{ position: absolute; left: 22px; top: 22px; font-family: "Montserrat"; font-weight: 700; font-size: 15px; letter-spacing: 1.5px;
+  color: #fff8e6; background: rgba(20,14,4,.62); padding: 4px 9px; border-radius: 6px; }}
 .pm {{ position: absolute; left: 790px; top: 230px; width: 240px; height: 460px; }}
 .pm-in {{ width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 18px 16px 20px;
   background: rgba(20,14,4,.84); border-radius: 26px; box-shadow: 0 14px 30px rgba(0,0,0,.35); }}
@@ -619,6 +648,16 @@ def subcomp(comp_id, root_id, css, dom_items, js_items):
 (ROOT / "compositions/graphics.html").write_text(subcomp("graphics", "gfx-root", CSS_GFX, gfx_dom, gfx_js))
 (ROOT / "compositions/visuals.html").write_text(subcomp("visuals", "vis-root", CSS_VIS, vis_dom, vis_js))
 (ROOT / "compositions/captions.html").write_text(subcomp("captions", "cap-root", CSS_CAP, cap_dom, cap_js))
+
+# Music bed: HeyGen catalog track (bgm_001), looped to length and loudness-normalised
+# in assets/audio/bgm-bed.m4a. Its carve (data-* EQ dips under the voice) lives in
+# data/bgm-carve.json so a rebuild keeps it.
+CARVE_PATH = ROOT / "data/bgm-carve.json"
+carve_attrs = ""
+if CARVE_PATH.exists():
+    carve_attrs = "".join(f" {k}='{v}'" for k, v in json.loads(CARVE_PATH.read_text()).items())
+sfx.insert(0, f'<audio id="music-bed" class="clip" src="assets/audio/bgm-bed.m4a" data-start="0" data-duration="{TOTAL}" '
+              f'data-track-index="10" data-volume="1"{carve_attrs}></audio>')
 
 hosts = [
     f'<div id="graphics" data-composition-id="graphics" data-composition-src="compositions/graphics.html" '

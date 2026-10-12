@@ -28,9 +28,11 @@ Preview dulu."
 - Hook kinetik "SIAPA DEKAT SINI / YANG ADA / GOUT?" + punch-in + impact
 - Grafik: tag pengalaman sendiri, nota "rawatan & ubat doktor tetap penting", nama produk, cip bahan (Bromelain, Milk Thistle), "semak dulu", beg kuning, lencana harga promo, butang CTA check out
 - SFX dari pustaka bundled HyperFrames (whoosh, pop, impact, chime, sparkle, ping, click)
+- "tambahkan visual sekali untuk setiap timeline dalam bentuk overlay contohnya ekspresi orang tengah sakit gout ... tapi tak menutupi sepenuhnya klip saya tengah bercakap depan camera" → kad foto AI (ChatGPT) + sticker Fluent Emoji 3D di dinding atas kepala dan kaunter kiri sahaja; meter TAHAP SAKIT
+- Muzik latar dari katalog HeyGen (akaun pemilik), di-carve di bawah suara
 
 ## Notes
 
-- Tiada muzik latar (katalog BGM perlukan akaun HeyGen); boleh tambah kemudian.
+- Foto ialah ilustrasi AI dan dilabel "ILUSTRASI AI"; tandakan juga AI-generated content semasa posting TikTok.
 - Ayat "untuk sembuhkan gout" dikekalkan dalam audio seperti asal — perlu semakan pemilik sebelum iklan (dakwaan kesihatan).
 - Cut list: data/edl.json → tools/build.py menjana index.html + compositions/.

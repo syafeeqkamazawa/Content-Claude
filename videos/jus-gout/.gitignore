@@ -6,3 +6,6 @@ snapshots/
 .hyperframes/
 data/v1-rms.json
 tools/__pycache__/
+node_modules/
+.media/images/
+.media/audio/
