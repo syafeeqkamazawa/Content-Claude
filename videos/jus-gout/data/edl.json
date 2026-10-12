@@ -1,0 +1,204 @@
+{
+  "_note": "Edit decision list. Source times are seconds in assets/v1.mp4 (A-roll, talking head) and assets/v2.mp4 (B-roll, muted). tools/build.py turns this into index.html. 'text' is the reviewed transcript of each kept range; caption word timing is spread by syllable over the speech detected in that range.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "segments": [
+    {
+      "id": "S01",
+      "in": 19.0,
+      "out": 20.85,
+      "zoom": 1.0,
+      "note": "HOOK - take 2 'Siapa dekat sini yang ada gout?' (take 1 @15.1 dibuang)",
+      "text": "Siapa dekat sini yang ada gout?"
+    },
+    {
+      "id": "S02",
+      "in": 21.2,
+      "out": 26.15,
+      "zoom": 1.12,
+      "note": "Kalau korang ada gout... sakitnya bila gout ni menyerang",
+      "text": "Kalau korang ada gout, korang mesti faham macam mana sakitnya bila gout ni menyerang."
+    },
+    {
+      "id": "S03",
+      "in": 48.35,
+      "out": 50.9,
+      "zoom": 1.0,
+      "note": "take 2 'Saya sendiri dah bertahun-tahun ada gout' (take 1 @31.8 + flub @36-41 dibuang)",
+      "text": "Saya sendiri dah bertahun-tahun ada gout."
+    },
+    {
+      "id": "S04",
+      "in": 51.35,
+      "out": 57.8,
+      "zoom": 1.1,
+      "note": "Memang ada masa sakitnya... terseksa yang amat",
+      "text": "Memang ada masa sakit dia tu sangat-sangat teruk, sampai nak bergerak pun terseksa yang amat."
+    },
+    {
+      "id": "S05",
+      "in": 65.22,
+      "out": 71.45,
+      "zoom": 1.0,
+      "note": "restart 'Sebab tu saya faham...' (false start @63.0 + pause 2s dibuang)",
+      "text": "Sebab tu saya faham bila orang yang ada gout ni sentiasa cari macam-macam cara untuk jaga kesihatan."
+    },
+    {
+      "id": "S06",
+      "in": 71.95,
+      "out": 75.4,
+      "zoom": 1.12,
+      "note": "Tapi rawatan dan ubat doktor tetap penting",
+      "text": "Tapi rawatan dan ubat yang doktor bagi tu tetap penting."
+    },
+    {
+      "id": "S07",
+      "in": 110.72,
+      "out": 113.4,
+      "zoom": 1.0,
+      "note": "take 4 'Saya ada jumpa satu produk ni namanya jus gout' (take 1-3 @83-108 dibuang)",
+      "text": "Saya ada jumpa satu produk ni, namanya Jus Gout."
+    },
+    {
+      "id": "S08",
+      "in": 113.75,
+      "out": 117.45,
+      "zoom": 1.0,
+      "note": "Dalam produk ni ada bahan macam bromelain dan milk thistle",
+      "text": "Dalam produk ni ada bahan macam bromelain dan milk thistle."
+    },
+    {
+      "id": "S09",
+      "in": 124.12,
+      "out": 128.25,
+      "zoom": 1.1,
+      "note": "take 2 'Saya kongsikan dengan korang...' (false start @117.7-122.5 + pause dibuang)",
+      "text": "Saya kongsikan dengan korang sebagai satu pilihan produk yang korang boleh tengok dan semak dulu."
+    },
+    {
+      "id": "S10",
+      "in": 208.28,
+      "out": 213.25,
+      "zoom": 1.0,
+      "note": "Untuk korang yang sedang ikhtiar... (gangguan anak @128-208 dibuang)",
+      "text": "Untuk korang yang sedang ikhtiar macam-macam cara untuk sembuhkan gout,"
+    },
+    {
+      "id": "S11",
+      "in": 213.55,
+      "out": 218.58,
+      "zoom": 1.12,
+      "note": "Saya sangat rekomen... dekat beg kuning",
+      "text": "saya sangat rekomen, anda boleh dapatkan Jus Gout ni dekat beg kuning."
+    },
+    {
+      "id": "S12",
+      "in": 219.22,
+      "out": 220.8,
+      "zoom": 1.0,
+      "note": "Harga pun ada promosi (pause 0.7s dibuang)",
+      "text": "Harga pun ada promosi,"
+    },
+    {
+      "id": "S13",
+      "in": 221.25,
+      "out": 224.58,
+      "zoom": 1.1,
+      "note": "Sementara harga masih murah, boleh check out terus (pause dibuang)",
+      "text": "sementara harga masih murah, boleh check out terus!"
+    },
+    {
+      "id": "S14",
+      "in": 230.7,
+      "out": 232.85,
+      "zoom": 1.0,
+      "note": "Selamat menikmati",
+      "text": "Selamat menikmati!"
+    }
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "seg": "S07",
+      "from": "namanya",
+      "to": "end",
+      "src": 18.4,
+      "note": "label depan Jus GOUT"
+    },
+    {
+      "id": "B2",
+      "seg": "S08",
+      "from": "start",
+      "to": "end",
+      "src": 12.0,
+      "note": "label belakang / bahan"
+    },
+    {
+      "id": "B3",
+      "seg": "S09",
+      "from": "pilihan",
+      "to": "end",
+      "src": 53.5,
+      "note": "buka balang, serbuk"
+    },
+    {
+      "id": "B4",
+      "seg": "S11",
+      "from": "anda",
+      "to": "end",
+      "src": 70.0,
+      "note": "cedok serbuk"
+    },
+    {
+      "id": "B5",
+      "seg": "S12",
+      "from": "start",
+      "to": "end",
+      "src": 118.0,
+      "note": "kacau"
+    },
+    {
+      "id": "B6",
+      "seg": "S13",
+      "from": "start",
+      "to": "end",
+      "src": 196.0,
+      "note": "sudu angkat jus"
+    },
+    {
+      "id": "B7",
+      "seg": "S14",
+      "from": "start",
+      "to": "end",
+      "src": 200.5,
+      "note": "jus siap"
+    }
+  ],
+  "keywords": [
+    "gout",
+    "gout?",
+    "gout,",
+    "sakitnya",
+    "teruk",
+    "terseksa",
+    "bertahun-tahun",
+    "doktor",
+    "penting",
+    "jus",
+    "bromelain",
+    "milk",
+    "thistle",
+    "beg",
+    "kuning",
+    "promosi",
+    "murah",
+    "check",
+    "out",
+    "terus",
+    "rekomen",
+    "menikmati",
+    "semak",
+    "ikhtiar"
+  ]
+}

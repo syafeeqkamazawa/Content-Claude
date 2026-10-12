@@ -1,0 +1,7 @@
+# Large media stays out of git (source footage lives on Google Drive).
+assets/v1.mp4
+assets/v2.mp4
+renders/
+snapshots/
+.hyperframes/
+data/v1-rms.json
