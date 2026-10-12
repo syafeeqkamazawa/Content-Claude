@@ -24,7 +24,7 @@ Preview dulu."
 
 ## Customizations
 
-- Captions perkataan-demi-perkataan, kata kunci kuning (warna label produk)
+- Captions perkataan-demi-perkataan, Plus Jakarta Sans 56px huruf biasa atas pil gelap lut sinar, kata kunci kuning (warna label produk)
 - Hook kinetik "SIAPA DEKAT SINI / YANG ADA / GOUT?" + punch-in + impact
 - Grafik: tag pengalaman sendiri, nota "rawatan & ubat doktor tetap penting", nama produk, cip bahan (Bromelain, Milk Thistle), "semak dulu", beg kuning, lencana harga promo, butang CTA check out
 - SFX dari pustaka bundled HyperFrames (whoosh, pop, impact, chime, sparkle, ping, click)
@@ -36,3 +36,4 @@ Preview dulu."
 - Foto ialah ilustrasi AI dan dilabel "ILUSTRASI AI"; tandakan juga AI-generated content semasa posting TikTok.
 - Ayat "untuk sembuhkan gout" dikekalkan dalam audio seperti asal — perlu semakan pemilik sebelum iklan (dakwaan kesihatan).
 - Cut list: data/edl.json → tools/build.py menjana index.html + compositions/.
+- Revisi: "overlay biar skrin penuh, tak perlu guna simbol emoji, hanya realistik visual sahaja ... semua overlay mestilah menutup aurat sempurna ... caption juga lebih kecil dan font yang lebih sedap mata memandang" → 7 cutaway skrin penuh (ChatGPT, semuanya menutup aurat), emoji/sticker/ikon dibuang; panduan tetap disimpan dalam /CLAUDE.md.

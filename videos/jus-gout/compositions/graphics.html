@@ -66,18 +66,29 @@
 
 .chip-ico { width: 78px; height: 78px; margin: -10px 0 -10px -12px; }
 
+.pm { position: absolute; left: 790px; top: 230px; width: 240px; height: 460px; }
+.pm-in { width: 100%; height: 100%; display: flex; flex-direction: column; align-items: center; gap: 8px; padding: 18px 16px 20px;
+  background: rgba(20,14,4,.84); border-radius: 26px; box-shadow: 0 14px 30px rgba(0,0,0,.35); }
+.pm-title { font-family: "Montserrat"; font-weight: 900; font-size: 26px; letter-spacing: 2px; color: #fff8e6; text-align: center; }
+.pm-num { font-family: "Archivo Black"; font-size: 76px; line-height: 1; color: #ff5a3c; }
+.pm-num small { font-size: 32px; color: #fff8e6; }
+.pm-track { position: relative; flex: 1; width: 74px; border-radius: 40px; background: rgba(255,248,230,.18); overflow: hidden; border: 4px solid #fff8e6; }
+.pm-fill { position: absolute; left: 0; right: 0; bottom: 0; height: 100%; transform-origin: 50% 100%;
+  background: linear-gradient(to top, #2f9e44 0%, #ffc61a 50%, #e03131 100%); }
+
 </style>
       <div id="gfx-root" data-composition-id="graphics" data-width="1080" data-height="1920">
         <div id="ov-hook" class="clip overlay" data-start="0.0" data-duration="2.3667" data-track-index="2"><div class="hook"><div class="hook-line" id="hk-1">SIAPA DEKAT SINI</div><div class="hook-line" id="hk-2">YANG ADA</div><div class="hook-big" id="hk-3">GOUT?</div></div></div>
         <div id="ov-cred" class="clip overlay" data-start="6.9" data-duration="3.6333" data-track-index="2"><div class="tag top"><div class="tag-kicker" id="cr-k">PENGALAMAN SENDIRI</div><div class="tag-main" id="cr-m">BERTAHUN-TAHUN<br/>HIDAP GOUT</div></div></div>
         <div id="ov-pain" class="clip overlay" data-start="14.3" data-duration="1.4667" data-track-index="2"><div class="pain-vignette" id="pain-v"></div></div>
-        <div id="ov-doc" class="clip overlay" data-start="22.4333" data-duration="3.4333" data-track-index="2"><div class="note top" id="doc-card"><svg class="note-ico" viewBox="0 0 48 48"><rect x="18" y="4" width="12" height="40" rx="3"/><rect x="4" y="18" width="40" height="12" rx="3"/></svg><div class="note-txt">RAWATAN &amp; UBAT DOKTOR<br/>TETAP PENTING</div></div></div>
+        <div id="ov-doc" class="clip overlay" data-start="22.4333" data-duration="3.4333" data-track-index="2"><div class="note top" id="doc-card"><div class="note-txt">RAWATAN &amp; UBAT DOKTOR<br/>TETAP PENTING</div></div></div>
         <div id="ov-prod" class="clip overlay" data-start="27.7333" data-duration="0.4" data-track-index="2"><div class="prod top"><div class="prod-kicker" id="pd-k">PRODUK YANG SAYA JUMPA</div><div class="prod-name" id="pd-n">JUS GOUT</div></div></div>
-        <div id="ov-ingr" class="clip overlay" data-start="28.2333" data-duration="3.6" data-track-index="2"><div class="ingr top"><div class="ingr-head" id="in-h">BAHAN DALAMNYA</div><div class="chip" id="in-1"><img class="chip-ico" src="assets/visuals/pineapple.png" alt="" />BROMELAIN</div><div class="chip" id="in-2"><img class="chip-ico" src="assets/visuals/herb.png" alt="" />MILK THISTLE</div></div></div>
-        <div id="ov-semak" class="clip overlay" data-start="35.3667" data-duration="0.8" data-track-index="2"><div class="chip check top-chip" id="sm-c"><svg viewBox="0 0 48 48" class="chk"><path d="M8 25 L20 37 L40 11"/></svg>SEMAK DULU</div></div>
-        <div id="ov-beg" class="clip overlay" data-start="45.3" data-duration="0.7667" data-track-index="2"><div class="beg" id="bg-c"><svg viewBox="0 0 64 64" class="basket"><path d="M10 24 H54 L49 52 H15 Z"/><path class="handle" d="M22 24 L30 10 M42 24 L34 10"/></svg><div class="beg-txt">BEG KUNING</div></div></div>
+        <div id="ov-ingr" class="clip overlay" data-start="28.2333" data-duration="3.6" data-track-index="2"><div class="ingr top"><div class="ingr-head" id="in-h">BAHAN DALAMNYA</div><div class="chip" id="in-1">BROMELAIN</div><div class="chip" id="in-2">MILK THISTLE</div></div></div>
+        <div id="ov-semak" class="clip overlay" data-start="35.3667" data-duration="0.8" data-track-index="2"><div class="chip check top-chip" id="sm-c">SEMAK DULU</div></div>
+        <div id="ov-beg" class="clip overlay" data-start="45.3" data-duration="0.7667" data-track-index="2"><div class="beg" id="bg-c"><div class="beg-txt">BEG KUNING</div></div></div>
         <div id="ov-promo" class="clip overlay" data-start="46.8667" data-duration="4.0" data-track-index="2"><div class="promo" id="pr-b"><div class="promo-burst" id="pr-burst"></div><div class="promo-txt">HARGA<br/>PROMO</div></div></div>
         <div id="ov-cta" class="clip overlay" data-start="49.8" data-duration="3.2333" data-track-index="2"><div class="cta" id="cta-b"><svg viewBox="0 0 48 48" class="cta-arrow"><path d="M38 10 L12 36 M12 16 V36 H32"/></svg><span>CHECK OUT SEKARANG</span></div></div>
+        <div id="pm" class="clip pm" data-start="9.4667" data-duration="6.3" data-track-index="2"><div class="pm-in" id="pm-in"><div class="pm-title">TAHAP SAKIT</div><div class="pm-num"><span id="pm-num">0</span><small>/10</small></div><div class="pm-track"><div class="pm-fill" id="pm-fill"></div></div></div></div>
       </div>
       <script>
         (function () {
@@ -104,6 +115,11 @@
           tl.fromTo("#pr-burst", { rotation: 0 }, { rotation: 90, duration: 4.0, ease: "none" }, 46.8667);
           tl.fromTo("#cta-b", { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.8)" }, 49.8);
           tl.fromTo("#cta-b", { scale: 1 }, { scale: 1.06, duration: 0.4, ease: "sine.inOut", yoyo: true, repeat: 6, immediateRender: false }, 50.1);
+          tl.fromTo("#pm-in", { opacity: 0, x: 80 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 9.4667);
+          tl.fromTo("#pm-fill", { scaleY: 0.04 }, { scaleY: 1, duration: 1.9333, ease: "power2.in" }, 10.7);
+          (function () { const o = { v: 0 }; tl.to(o, { v: 10, duration: 1.9333, ease: "power2.in", onUpdate: function () { const el = document.getElementById("pm-num"); if (el) el.textContent = String(Math.round(o.v)); } }, 10.7); })();
+          tl.fromTo("#pm-in", { rotation: -2 }, { rotation: 2, duration: 0.06, ease: "none", yoyo: true, repeat: 9, immediateRender: false }, 12.6333);
+          tl.to("#pm-in", { opacity: 0, x: 80, duration: 0.2, ease: "power2.in" }, 15.5667);
           window.__timelines["graphics"] = tl;
         })();
       </script>
