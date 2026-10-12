@@ -1,0 +1,248 @@
+{
+  "_note": "Voiceover-driven edit. 'vo' ranges are seconds in assets/vo.m4a (Recorder - 20261012-2356.m4a), laid end to end. 'shots' are muted picture from assets/c1..c4.mp4 (or a full-screen photo); each shot starts at its anchor and runs until the next one. Anchors are [vo id, 'start' | a word in that vo range]. tools/build.py turns this into index.html + compositions/.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "vo": [
+    {
+      "id": "V01",
+      "in": 3.05,
+      "out": 5.4,
+      "text": "Brookies ni tak semua orang buat jadi tau.",
+      "note": "hook"
+    },
+    {
+      "id": "V02",
+      "in": 5.85,
+      "out": 8.22,
+      "text": "Tapi yang ni masyaAllah, sedap betul!",
+      "note": "false start 'Brokis ni saya order dekat' @8.04-9.94 dibuang"
+    },
+    {
+      "id": "V03",
+      "in": 11.1,
+      "out": 13.8,
+      "text": "Brookies ni saya dapat dekat TikTok Shop Dadaus."
+    },
+    {
+      "id": "V04",
+      "in": 14.7,
+      "out": 19.2,
+      "text": "Tak nak pilih flavour pun boleh jadi rambang mata tau, sebab flavour dia semua sedap-sedap."
+    },
+    {
+      "id": "V05",
+      "in": 21.38,
+      "out": 21.78,
+      "text": "Ada",
+      "note": "false start 'Ada original hazelnut dengan cookies dan' @19.18-21.42 dibuang; jeda 1s selepas 'Ada' dibuang"
+    },
+    {
+      "id": "V06",
+      "in": 22.72,
+      "out": 25.35,
+      "text": "original, hazelnut dengan cookies & cream."
+    },
+    {
+      "id": "V07",
+      "in": 26.85,
+      "out": 28.4,
+      "text": "Kalau nak mix pun boleh tau."
+    },
+    {
+      "id": "V08",
+      "in": 31.9,
+      "out": 37.75,
+      "text": "Sebelum saya order brookies ni, adalah saya tengok-tengok review dulu. Patutlah ramai kata sedap, sebab dia pakai pure butter.",
+      "note": "take 1 @28.22-30.88 dibuang"
+    },
+    {
+      "id": "V09",
+      "in": 38.4,
+      "out": 44.9,
+      "text": "Brookies ni size ni 5 inci tau. Tapi kalau korang memang suka makan benda macam ni, korang kena beli lebih, sebab memang tak cukup."
+    },
+    {
+      "id": "V10",
+      "in": 47.05,
+      "out": 49.1,
+      "text": "Dia punya manis pun tak terlalu manis sangat.",
+      "note": "false start 'Dia punya manis tu' @45.02-46.46 dibuang"
+    },
+    {
+      "id": "V11",
+      "in": 50.3,
+      "out": 54.6,
+      "text": "Untuk dessert yang jenis macam ni, dia punya manis tu memang ngam-ngam je."
+    },
+    {
+      "id": "V12",
+      "in": 55.0,
+      "out": 62.45,
+      "text": "Lepas ni kalau korang nak cari brookies yang freshly baked, tak terlalu manis sangat, dan guna pure butter, korang boleh beli je dekat beg kuning saya ni.",
+      "note": "'ok' @62.36 dibuang"
+    }
+  ],
+  "shots": [
+    {
+      "at": [
+        "V01",
+        "start"
+      ],
+      "clip": "c4",
+      "src": 32.4,
+      "note": "gigit brookies"
+    },
+    {
+      "at": [
+        "V02",
+        "start"
+      ],
+      "clip": "c4",
+      "src": 35.6,
+      "note": "kunyah, reaksi"
+    },
+    {
+      "at": [
+        "V03",
+        "start"
+      ],
+      "clip": "c1",
+      "src": 3.0,
+      "note": "kotak Dadaus Bakes"
+    },
+    {
+      "at": [
+        "V04",
+        "start"
+      ],
+      "clip": "c1",
+      "src": 12.2,
+      "note": "buka kotak"
+    },
+    {
+      "at": [
+        "V04",
+        "sebab"
+      ],
+      "clip": "c1",
+      "src": 27.0,
+      "note": "buka bubble wrap"
+    },
+    {
+      "at": [
+        "V05",
+        "start"
+      ],
+      "clip": "c1",
+      "src": 44.4,
+      "note": "angkat brookies bulat"
+    },
+    {
+      "at": [
+        "V07",
+        "start"
+      ],
+      "clip": "c2",
+      "src": 0.6,
+      "note": "atas papan, campur"
+    },
+    {
+      "at": [
+        "V08",
+        "start"
+      ],
+      "photo": "review",
+      "note": "AI: tangan pegang phone, review"
+    },
+    {
+      "at": [
+        "V08",
+        "patutlah"
+      ],
+      "photo": "butter",
+      "note": "AI: mentega tulen"
+    },
+    {
+      "at": [
+        "V09",
+        "start"
+      ],
+      "clip": "c3",
+      "src": 18.0,
+      "note": "overhead penuh, ukur 5 inci"
+    },
+    {
+      "at": [
+        "V09",
+        "tapi"
+      ],
+      "clip": "c3",
+      "src": 39.0,
+      "note": "potong dengan pisau"
+    },
+    {
+      "at": [
+        "V10",
+        "start"
+      ],
+      "clip": "c4",
+      "src": 38.8,
+      "note": "makan"
+    },
+    {
+      "at": [
+        "V11",
+        "start"
+      ],
+      "clip": "c4",
+      "src": 29.2,
+      "note": "pegang kotak, ambil lagi"
+    },
+    {
+      "at": [
+        "V12",
+        "start"
+      ],
+      "clip": "c3",
+      "src": 46.0,
+      "note": "hero, dah dipotong"
+    },
+    {
+      "at": [
+        "V12",
+        "boleh"
+      ],
+      "clip": "c2",
+      "src": 9.0,
+      "note": "hero atas papan"
+    }
+  ],
+  "keywords": [
+    "brookies",
+    "jadi",
+    "sedap",
+    "sedap-sedap",
+    "masyaallah",
+    "dadaus",
+    "flavour",
+    "rambang",
+    "original",
+    "hazelnut",
+    "cookies",
+    "cream",
+    "mix",
+    "review",
+    "pure",
+    "butter",
+    "5",
+    "inci",
+    "lebih",
+    "manis",
+    "ngam-ngam",
+    "freshly",
+    "baked",
+    "beg",
+    "kuning"
+  ]
+}

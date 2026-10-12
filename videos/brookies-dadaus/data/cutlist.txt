@@ -1,0 +1,30 @@
+TOTAL 42.70s  (12 voiceover ranges, 15 shots, 16 audio fx, 43 caption cards)
+
+  0.00-  2.37  V01  vo   3.05-  5.40  Brookies ni tak semua orang buat jadi tau.
+  2.37-  4.73  V02  vo   5.85-  8.22  Tapi yang ni masyaAllah, sedap betul!
+  4.73-  7.43  V03  vo  11.10- 13.80  Brookies ni saya dapat dekat TikTok Shop Dadaus.
+  7.43- 11.93  V04  vo  14.70- 19.20  Tak nak pilih flavour pun boleh jadi rambang mata tau, sebab flavour dia semua sedap-sedap.
+ 11.93- 12.33  V05  vo  21.38- 21.78  Ada
+ 12.33- 14.97  V06  vo  22.72- 25.35  original, hazelnut dengan cookies & cream.
+ 14.97- 16.50  V07  vo  26.85- 28.40  Kalau nak mix pun boleh tau.
+ 16.50- 22.37  V08  vo  31.90- 37.75  Sebelum saya order brookies ni, adalah saya tengok-tengok review dulu. Patutlah ramai kata sedap, sebab dia pakai pure butter.
+ 22.37- 28.87  V09  vo  38.40- 44.90  Brookies ni size ni 5 inci tau. Tapi kalau korang memang suka makan benda macam ni, korang kena beli lebih, sebab memang tak cukup.
+ 28.87- 30.93  V10  vo  47.05- 49.10  Dia punya manis pun tak terlalu manis sangat.
+ 30.93- 35.23  V11  vo  50.30- 54.60  Untuk dessert yang jenis macam ni, dia punya manis tu memang ngam-ngam je.
+ 35.23- 42.70  V12  vo  55.00- 62.45  Lepas ni kalau korang nak cari brookies yang freshly baked, tak terlalu manis sangat, dan guna pure butter, korang boleh beli je dekat beg kuning saya ni.
+
+  0.00-  2.37  P01  c4 @32.4s        gigit brookies
+  2.37-  4.73  P02  c4 @35.6s        kunyah, reaksi
+  4.73-  7.43  P03  c1 @3.0s         kotak Dadaus Bakes
+  7.43- 10.00  P04  c1 @12.2s        buka kotak
+ 10.00- 11.93  P05  c1 @27.0s        buka bubble wrap
+ 11.93- 14.97  P06  c1 @44.4s        angkat brookies bulat
+ 14.97- 16.50  P07  c2 @0.6s         atas papan, campur
+ 16.50- 19.67  P08  photo review     AI: tangan pegang phone, review
+ 19.67- 22.37  P09  photo butter     AI: mentega tulen
+ 22.37- 23.93  P10  c3 @18.0s        overhead penuh, ukur 5 inci
+ 23.93- 28.87  P11  c3 @39.0s        potong dengan pisau
+ 28.87- 30.93  P12  c4 @38.8s        makan
+ 30.93- 35.23  P13  c4 @29.2s        pegang kotak, ambil lagi
+ 35.23- 40.90  P14  c3 @46.0s        hero, dah dipotong
+ 40.90- 42.70  P15  c2 @9.0s         hero atas papan
