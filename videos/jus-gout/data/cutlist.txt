@@ -1,4 +1,4 @@
-TOTAL 53.03s  (14 A-roll segments, 7 B-roll overlays, 28 SFX, 46 caption cards)
+TOTAL 51.70s  (14 A-roll segments, 7 B-roll overlays, 28 SFX, 45 caption cards)
 
   0.00-  1.87  S01  src  19.00- 20.85  Siapa dekat sini yang ada gout?
   1.87-  6.80  S02  src  21.20- 26.15  Kalau korang ada gout, korang mesti faham macam mana sakitnya bila gout ni menyerang.
@@ -9,8 +9,8 @@ TOTAL 53.03s  (14 A-roll segments, 7 B-roll overlays, 28 SFX, 46 caption cards)
  25.47- 28.13  S07  src 110.72-113.40  Saya ada jumpa satu produk ni, namanya Jus Gout.
  28.13- 31.83  S08  src 113.75-117.45  Dalam produk ni ada bahan macam bromelain dan milk thistle.
  31.83- 35.97  S09  src 124.12-128.25  Saya kongsikan dengan korang sebagai satu pilihan produk yang korang boleh tengok dan semak dulu.
- 35.97- 40.93  S10  src 208.28-213.25  Untuk korang yang sedang ikhtiar macam-macam cara untuk sembuhkan gout,
- 40.93- 45.97  S11  src 213.55-218.58  saya sangat rekomen, anda boleh dapatkan Jus Gout ni dekat beg kuning.
- 45.97- 47.53  S12  src 219.22-220.80  Harga pun ada promosi,
- 47.53- 50.87  S13  src 221.25-224.58  sementara harga masih murah, boleh check out terus!
- 50.87- 53.03  S14  src 230.70-232.85  Selamat menikmati!
+ 35.97- 39.60  S10  src 208.28-211.91  Untuk korang yang sedang ikhtiar macam-macam cara,
+ 39.60- 44.63  S11  src 213.55-218.58  saya sangat rekomen, anda boleh dapatkan Jus Gout ni dekat beg kuning.
+ 44.63- 46.20  S12  src 219.22-220.80  Harga pun ada promosi,
+ 46.20- 49.53  S13  src 221.25-224.58  sementara harga masih murah, boleh check out terus!
+ 49.53- 51.70  S14  src 230.70-232.85  Selamat menikmati!

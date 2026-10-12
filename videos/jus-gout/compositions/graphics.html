@@ -85,9 +85,9 @@
         <div id="ov-prod" class="clip overlay" data-start="27.7333" data-duration="0.4" data-track-index="2"><div class="prod top"><div class="prod-kicker" id="pd-k">PRODUK YANG SAYA JUMPA</div><div class="prod-name" id="pd-n">JUS GOUT</div></div></div>
         <div id="ov-ingr" class="clip overlay" data-start="28.2333" data-duration="3.6" data-track-index="2"><div class="ingr top"><div class="ingr-head" id="in-h">BAHAN DALAMNYA</div><div class="chip" id="in-1">BROMELAIN</div><div class="chip" id="in-2">MILK THISTLE</div></div></div>
         <div id="ov-semak" class="clip overlay" data-start="35.3667" data-duration="0.8" data-track-index="2"><div class="chip check top-chip" id="sm-c">SEMAK DULU</div></div>
-        <div id="ov-beg" class="clip overlay" data-start="45.3" data-duration="0.7667" data-track-index="2"><div class="beg" id="bg-c"><div class="beg-txt">BEG KUNING</div></div></div>
-        <div id="ov-promo" class="clip overlay" data-start="46.8667" data-duration="4.0" data-track-index="2"><div class="promo" id="pr-b"><div class="promo-burst" id="pr-burst"></div><div class="promo-txt">HARGA<br/>PROMO</div></div></div>
-        <div id="ov-cta" class="clip overlay" data-start="49.8" data-duration="3.2333" data-track-index="2"><div class="cta" id="cta-b"><svg viewBox="0 0 48 48" class="cta-arrow"><path d="M38 10 L12 36 M12 16 V36 H32"/></svg><span>CHECK OUT SEKARANG</span></div></div>
+        <div id="ov-beg" class="clip overlay" data-start="43.9667" data-duration="0.7667" data-track-index="2"><div class="beg" id="bg-c"><div class="beg-txt">BEG KUNING</div></div></div>
+        <div id="ov-promo" class="clip overlay" data-start="45.5333" data-duration="4.0" data-track-index="2"><div class="promo" id="pr-b"><div class="promo-burst" id="pr-burst"></div><div class="promo-txt">HARGA<br/>PROMO</div></div></div>
+        <div id="ov-cta" class="clip overlay" data-start="48.4667" data-duration="3.2333" data-track-index="2"><div class="cta" id="cta-b"><svg viewBox="0 0 48 48" class="cta-arrow"><path d="M38 10 L12 36 M12 16 V36 H32"/></svg><span>CHECK OUT SEKARANG</span></div></div>
         <div id="pm" class="clip pm" data-start="9.4667" data-duration="6.3" data-track-index="2"><div class="pm-in" id="pm-in"><div class="pm-title">TAHAP SAKIT</div><div class="pm-num"><span id="pm-num">0</span><small>/10</small></div><div class="pm-track"><div class="pm-fill" id="pm-fill"></div></div></div></div>
       </div>
       <script>
@@ -110,11 +110,11 @@
           tl.fromTo("#in-1", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.28, ease: "back.out(2.4)" }, 30.4);
           tl.fromTo("#in-2", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.28, ease: "back.out(2.4)" }, 31.2);
           tl.fromTo("#sm-c", { opacity: 0, scale: 0.4 }, { opacity: 1, scale: 1, duration: 0.28, ease: "back.out(2.4)" }, 35.3667);
-          tl.fromTo("#bg-c", { opacity: 0, y: 80, scale: 0.6 }, { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "back.out(2)" }, 45.3);
-          tl.fromTo("#pr-b", { opacity: 0, scale: 0.3, rotation: -30 }, { opacity: 1, scale: 1, rotation: 8, duration: 0.35, ease: "back.out(2.2)" }, 46.8667);
-          tl.fromTo("#pr-burst", { rotation: 0 }, { rotation: 90, duration: 4.0, ease: "none" }, 46.8667);
-          tl.fromTo("#cta-b", { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.8)" }, 49.8);
-          tl.fromTo("#cta-b", { scale: 1 }, { scale: 1.06, duration: 0.4, ease: "sine.inOut", yoyo: true, repeat: 6, immediateRender: false }, 50.1);
+          tl.fromTo("#bg-c", { opacity: 0, y: 80, scale: 0.6 }, { opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "back.out(2)" }, 43.9667);
+          tl.fromTo("#pr-b", { opacity: 0, scale: 0.3, rotation: -30 }, { opacity: 1, scale: 1, rotation: 8, duration: 0.35, ease: "back.out(2.2)" }, 45.5333);
+          tl.fromTo("#pr-burst", { rotation: 0 }, { rotation: 90, duration: 4.0, ease: "none" }, 45.5333);
+          tl.fromTo("#cta-b", { opacity: 0, y: 60 }, { opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.8)" }, 48.4667);
+          tl.fromTo("#cta-b", { scale: 1 }, { scale: 1.06, duration: 0.4, ease: "sine.inOut", yoyo: true, repeat: 6, immediateRender: false }, 48.7667);
           tl.fromTo("#pm-in", { opacity: 0, x: 80 }, { opacity: 1, x: 0, duration: 0.3, ease: "power3.out" }, 9.4667);
           tl.fromTo("#pm-fill", { scaleY: 0.04 }, { scaleY: 1, duration: 1.9333, ease: "power2.in" }, 10.7);
           (function () { const o = { v: 0 }; tl.to(o, { v: 10, duration: 1.9333, ease: "power2.in", onUpdate: function () { const el = document.getElementById("pm-num"); if (el) el.textContent = String(Math.round(o.v)); } }, 10.7); })();

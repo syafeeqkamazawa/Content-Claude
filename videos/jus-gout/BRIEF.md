@@ -34,6 +34,6 @@ Preview dulu."
 ## Notes
 
 - Foto ialah ilustrasi AI dan dilabel "ILUSTRASI AI"; tandakan juga AI-generated content semasa posting TikTok.
-- Ayat "untuk sembuhkan gout" dikekalkan dalam audio seperti asal — perlu semakan pemilik sebelum iklan (dakwaan kesihatan).
+- Frasa "untuk sembuhkan gout" dipotong atas arahan pemilik ("ayat sembuhkan gout tu potong ya").
 - Cut list: data/edl.json → tools/build.py menjana index.html + compositions/.
 - Revisi: "overlay biar skrin penuh, tak perlu guna simbol emoji, hanya realistik visual sahaja ... semua overlay mestilah menutup aurat sempurna ... caption juga lebih kecil dan font yang lebih sedap mata memandang" → 7 cutaway skrin penuh (ChatGPT, semuanya menutup aurat), emoji/sticker/ikon dibuang; panduan tetap disimpan dalam /CLAUDE.md.

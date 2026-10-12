@@ -79,10 +79,11 @@
     {
       "id": "S10",
       "in": 208.28,
-      "out": 213.25,
+      "out": 211.91,
       "zoom": 1.0,
-      "note": "Untuk korang yang sedang ikhtiar... (gangguan anak @128-208 dibuang)",
-      "text": "Untuk korang yang sedang ikhtiar macam-macam cara untuk sembuhkan gout,"
+      "note": "Untuk korang yang sedang ikhtiar macam-macam cara (gangguan anak @128-208 dibuang; frasa 'untuk sembuhkan gout' @211.91-213.25 dipotong atas arahan pemilik)",
+      "text": "Untuk korang yang sedang ikhtiar macam-macam cara,",
+      "fade_out": 0.03
     },
     {
       "id": "S11",

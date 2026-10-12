@@ -143,12 +143,22 @@ def add_sfx(name, t, vol, dur=None):
     )
 
 
+def fade_attr(seg):
+    """Short volume ramp at a cut that lands mid-phrase, so it ends without a click."""
+    f = seg.get("fade_out")
+    if not f:
+        return ""
+    lane = {"version": 1, "lanes": [{"target": "volume", "points": [
+        {"t": 0, "v": 1}, {"t": round(seg["dur"] - f, 3), "v": 1}, {"t": seg["dur"], "v": 0}]}]}
+    return f" data-automation='{json.dumps(lane, separators=(',', ':'))}'"
+
+
 # A-roll: one <video> per kept segment, inside an untimed wrapper we can zoom.
 for s in segs:
     dom.append(
         f'<div class="frame-wrap" id="wrap-{s["id"]}">'
         f'<video id="a-{s["id"]}" class="clip aroll" src="assets/v1.mp4" playsinline data-has-audio="true" '
-        f'data-start="{s["start"]}" data-duration="{s["dur"]}" data-media-start="{s["in"]}" data-track-index="0"></video>'
+        f'data-start="{s["start"]}" data-duration="{s["dur"]}" data-media-start="{s["in"]}" data-track-index="0"{fade_attr(s)}></video>'
         f"</div>"
     )
     js.append(f'tl.set("#wrap-{s["id"]}", {{ scale: {s["zoom"]} }}, 0);')
