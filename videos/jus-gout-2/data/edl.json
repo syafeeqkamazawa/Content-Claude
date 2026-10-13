@@ -14,7 +14,7 @@
     {"id": "V06", "in": 32.65, "out": 38.4, "text": "Jus ni senang je korang nak consume. Ambil dua scoop masuk dalam air, kacau-kacau, minum."},
     {"id": "V07", "in": 38.85, "out": 40.7, "text": "Rasa dia sedap sangat, jangan risau.", "note": "'Boleh minum' @40.9 dibuang"},
     {"id": "V08", "in": 42.3, "out": 44.95, "text": "Rasa dia macam rasa jus nenas plus dengan halia."},
-    {"id": "V09", "in": 46.02, "out": 48.3, "text": "Yang bestnya, tak ada kandungan gula putih.", "note": "'Tak mempengaruhi gula dalam darah' @48.5 dibuang (dakwaan kesihatan) — perlu pengesahan pemilik"},
+    {"id": "V09", "in": 46.02, "out": 48.3, "text": "Yang bestnya, tak ada kandungan gula putih.", "note": "'Tak mempengaruhi gula dalam darah' @48.5 dibuang (dakwaan kesihatan); pemilik luluskan draf tanpanya (13 Okt)"},
     {"id": "V10", "in": 54.08, "out": 57.9, "text": "Boleh baca feedback dekat beg kuning tu.", "note": "false start 'Macam feedback' @50.1 dibuang"},
     {"id": "V11", "in": 60.44, "out": 62.84, "text": "Yang dua kali minum pun dah ada yang lega.", "note": "false start 'Dua kali minum' @57.7 dibuang"},
     {"id": "V12", "in": 1.04, "out": 2.9, "text": "Bagus ni, boleh try tau!", "note": "baris pembuka asal dipindah ke sebelum CTA"},
