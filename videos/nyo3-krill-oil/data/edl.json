@@ -1,0 +1,382 @@
+{
+  "_note": "Edit decision list. Source times are seconds in assets/a.mp4 (A-roll VID_20261014_015427, front camera so mirrored back in CSS) and assets/b.mp4 (B-roll VID_20261014_015722, NYO3 bottle and softgels, muted). Full-screen realistic AI cutaways per the owner's standing rules. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 12.75,
+      "out": 22.7,
+      "zoom": 1.0,
+      "text": "Korang tahu tak, kolesterol dengan triglyceride tinggi ni bukan benda boleh buat main-main tau. Kadang-kadang badan rasa sihat je, tapi dalam diam ada risiko yang kita tak sedar.",
+      "note": "HOOK take 2; take 1 @3.3-8.9 dibuang. 'tak sedar' (Whisper dengar 'dah sedar', 'tak' lebih tepat ikut log-prob dan maksud)"
+    },
+    {
+      "id": "S02",
+      "in": 26.85,
+      "out": 37.65,
+      "zoom": 1.1,
+      "text": "Kalau masalah ni tak dikawal dari awal, lama-lama boleh meningkatkan risiko salur darah tersumbat, serangan jantung, malah mungkin berisiko terkena stroke. Benda ni yang kita takut sebenarnya."
+    },
+    {
+      "id": "S03",
+      "in": 56.45,
+      "out": 71.2,
+      "zoom": 1.0,
+      "text": "Sebab tu penting kita jaga kesihatan. Kalau korang cari tambahan omega 3, boleh tengok NYO3 Antarctic krill oil ni. Dia ada EPA, DHA, phospholipid, choline dengan astaxanthin, sejenis antioksidan.",
+      "note": "take 3; take 1 @40.6-44.1 dan take 2 @45.2-53.1 dibuang"
+    },
+    {
+      "id": "S04",
+      "in": 78.1,
+      "out": 89.45,
+      "zoom": 1.1,
+      "text": "Siap ada vitamin D3 dengan K2. Dua softgel ni membekalkan 250mg omega 3. Jadi bukan sekadar tengok nama fish oil guys, kandungan dia pun kena ambil tahu.",
+      "note": "jeda @71.2-78 dibuang"
+    },
+    {
+      "id": "S05",
+      "in": 92.45,
+      "out": 105.3,
+      "zoom": 1.0,
+      "text": "Jangan tunggu sampai kesihatan bermasalah baru nak jaga diri. Jaga makan, aktif bergerak dan buat pemeriksaan. Nak tahu pasal NYO3 ni, tekan beg kuning guys. Check harga sekarang, kalau tengah promo, grab terus!",
+      "note": "'terima kasih' @105.3+ dibuang"
+    }
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S03",
+        "nyo3"
+      ],
+      "to": [
+        "S03",
+        "dia"
+      ],
+      "src": 6.5,
+      "push": [
+        1.0,
+        1.2
+      ],
+      "origin": "50% 50%",
+      "note": "botol NYO3 Antarctic krill oil"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S03",
+        "dia"
+      ],
+      "to": [
+        "S03",
+        "sejenis"
+      ],
+      "src": 10.5,
+      "push": [
+        1.1,
+        1.4
+      ],
+      "origin": "48% 62%",
+      "note": "label: omega-3, phospholipids, choline, astaxanthin, vitamin D3 & K2"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S04",
+        "dua"
+      ],
+      "to": [
+        "S04",
+        "jadi"
+      ],
+      "src": 28.0,
+      "note": "softgel merah di tapak tangan"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S04",
+        "kandungan"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "src": 34.0,
+      "note": "botol dan softgel"
+    }
+  ],
+  "photos": [
+    {
+      "id": "artery",
+      "from": [
+        "S01",
+        "kolesterol"
+      ],
+      "to": [
+        "S01",
+        "bukan"
+      ],
+      "note": "AI: kolesterol dalam salur darah"
+    },
+    {
+      "id": "healthyman",
+      "from": [
+        "S01",
+        "kadang-kadang"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "note": "AI: badan rasa sihat"
+    },
+    {
+      "id": "heart",
+      "from": [
+        "S02",
+        "serangan"
+      ],
+      "to": [
+        "S02",
+        "malah"
+      ],
+      "note": "AI: serangan jantung (berpakaian)"
+    },
+    {
+      "id": "doctor",
+      "from": [
+        "S02",
+        "malah"
+      ],
+      "to": [
+        "S02",
+        "benda"
+      ],
+      "note": "AI: risiko strok, konsultasi doktor"
+    },
+    {
+      "id": "family",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "kalau"
+      ],
+      "note": "AI: jaga kesihatan"
+    },
+    {
+      "id": "krill",
+      "from": [
+        "S03",
+        "kalau"
+      ],
+      "to": [
+        "S03",
+        "boleh"
+      ],
+      "note": "AI: krill Antartik (sumber omega 3)"
+    },
+    {
+      "id": "jogging",
+      "from": [
+        "S05",
+        "jaga#2"
+      ],
+      "to": [
+        "S05",
+        "pemeriksaan"
+      ],
+      "note": "AI: jaga makan, aktif bergerak"
+    },
+    {
+      "id": "checkup",
+      "from": [
+        "S05",
+        "pemeriksaan"
+      ],
+      "to": [
+        "S05",
+        "nak#2"
+      ],
+      "note": "AI: pemeriksaan kesihatan"
+    }
+  ],
+  "titles": [
+    {
+      "text": "KOLESTEROL & TRIGLYCERIDE TINGGI",
+      "from": [
+        "S01",
+        "kolesterol"
+      ],
+      "to": [
+        "S01",
+        "kadang-kadang"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "RISIKO YANG TAK DISEDARI",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SALUR DARAH TERSUMBAT",
+      "from": [
+        "S02",
+        "salur"
+      ],
+      "to": [
+        "S02",
+        "serangan"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "NYO3 ANTARCTIC KRILL OIL",
+      "from": [
+        "S03",
+        "nyo3"
+      ],
+      "to": [
+        "S03",
+        "dia"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.28
+    },
+    {
+      "text": "EPA · DHA · PHOSPHOLIPID",
+      "from": [
+        "S03",
+        "dia"
+      ],
+      "to": [
+        "S03",
+        "choline"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "CHOLINE · ASTAXANTHIN",
+      "from": [
+        "S03",
+        "choline"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "+ VITAMIN D3 & K2",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "dua"
+      ],
+      "pos": "top",
+      "sfx": "ping",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "2 SOFTGEL = 250MG OMEGA-3",
+      "from": [
+        "S04",
+        "dua"
+      ],
+      "to": [
+        "S04",
+        "jadi"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "JAGA MAKAN · AKTIF · PEMERIKSAAN",
+      "from": [
+        "S05",
+        "jaga#2"
+      ],
+      "to": [
+        "S05",
+        "nak#2"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S05",
+        "tekan"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "kolesterol",
+    "triglyceride",
+    "tinggi",
+    "sihat",
+    "risiko",
+    "salur",
+    "darah",
+    "tersumbat",
+    "serangan",
+    "jantung",
+    "stroke",
+    "kesihatan",
+    "omega",
+    "3",
+    "nyo3",
+    "antarctic",
+    "krill",
+    "oil",
+    "epa",
+    "dha",
+    "phospholipid",
+    "choline",
+    "astaxanthin",
+    "antioksidan",
+    "d3",
+    "k2",
+    "softgel",
+    "250mg",
+    "kandungan",
+    "makan",
+    "aktif",
+    "pemeriksaan",
+    "beg",
+    "kuning",
+    "promo",
+    "grab",
+    "terus"
+  ]
+}
