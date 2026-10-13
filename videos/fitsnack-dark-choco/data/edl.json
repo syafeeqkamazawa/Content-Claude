@@ -1,0 +1,337 @@
+{
+  "_note": "Voiceover-driven edit (2nd Fitsnack video, Dark Chocolate only). 'vo' ranges are seconds in assets/vo.m4a (Fitsnack Dark Choco.m4a). 'shots' are muted picture from assets/k1.mp4 (VID_20261013_215410, overhead; dark-choco part 39-58s only) and k2.mp4 (VID_20261013_215559, eating the dark choco bar; 0-66s only), or a full-screen AI photo. No source range used in the first Fitsnack video (k1 12.5-15.8, 27-29, 60.5-62.9, 75-80.7; k2 18-20.3, 24-27, 28.5-32) is reused, and the light-bar clip (k3) is not used. Anchors are [vo id, 'start' | word]. tools/build.py turns this into index.html + compositions/.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tail": 0.6,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -40,
+    "blip": 0.03
+  },
+  "vo": [
+    {
+      "id": "V01",
+      "in": 2.6,
+      "out": 10.15,
+      "text": "Korang pernah tak tengah semangat nak jaga makan, tiba-tiba craving coklat? Haa, time ni lah paling mencabar.",
+      "note": "HOOK"
+    },
+    {
+      "id": "V02",
+      "in": 10.95,
+      "out": 19.65,
+      "text": "Lagi-lagi kalau tengah buat kerja atau malam-malam tengok TV, mulalah tangan tu mencari coklat, biskut, macam-macam nak dikunyahnya."
+    },
+    {
+      "id": "V03",
+      "in": 20.8,
+      "out": 34.9,
+      "text": "Kalau korang memang peminat coklat, cuba tengok Fitsnack protein bar perisa dark chocolate ni. Satu keping sekitar 100 kalori je. Yang menarik, setiap keping ada 7 gram protein, 3 gram serat dan tak ada gula tambahan weh."
+    },
+    {
+      "id": "V04",
+      "in": 35.1,
+      "out": 39.6,
+      "text": "Bahan dia pun ada roll oats, dark chocolate, biji labu dengan biji bunga matahari."
+    },
+    {
+      "id": "V05",
+      "in": 40.65,
+      "out": 46.2,
+      "text": "Datang dalam pek individu, jadi senang nak bawa pergi kerja, simpan dalam beg atau standby bila terasa nak mengunyah."
+    },
+    {
+      "id": "V06",
+      "in": 49.2,
+      "out": 57.95,
+      "text": "Kaki coklat yang tengah jaga makan tu, boleh tengok dekat beg kuning Fitsnack dark chocolate ni. Tengok harga sekarang, kalau tengah ada promo tu, grab terus!"
+    }
+  ],
+  "shots": [
+    {
+      "at": [
+        "V01",
+        "start"
+      ],
+      "photo": "craving",
+      "note": "AI: jaga makan tapi craving coklat"
+    },
+    {
+      "at": [
+        "V01",
+        "haa"
+      ],
+      "clip": "k2",
+      "src": 36.0,
+      "note": "gigit bar dark choco"
+    },
+    {
+      "at": [
+        "V02",
+        "start"
+      ],
+      "photo": "desknight",
+      "note": "AI: buat kerja malam, capai coklat"
+    },
+    {
+      "at": [
+        "V02",
+        "malam-malam"
+      ],
+      "photo": "sofanight",
+      "note": "AI: tengok TV dengan coklat"
+    },
+    {
+      "at": [
+        "V02",
+        "mulalah"
+      ],
+      "photo": "handjar",
+      "note": "AI: tangan mencari coklat, biskut"
+    },
+    {
+      "at": [
+        "V03",
+        "start"
+      ],
+      "clip": "k2",
+      "src": 4.0,
+      "note": "keluarkan bar dark choco"
+    },
+    {
+      "at": [
+        "V03",
+        "fitsnack"
+      ],
+      "clip": "k1",
+      "src": 39.3,
+      "note": "kotak penuh bar dark choco"
+    },
+    {
+      "at": [
+        "V03",
+        "satu"
+      ],
+      "clip": "k1",
+      "src": 51.0,
+      "note": "sekeping bar dark choco di tangan"
+    },
+    {
+      "at": [
+        "V03",
+        "yang"
+      ],
+      "clip": "k2",
+      "src": 7.0,
+      "note": "tunjuk bar dalam bungkusan"
+    },
+    {
+      "at": [
+        "V03",
+        "tak"
+      ],
+      "clip": "k2",
+      "src": 11.0,
+      "note": "buka bungkusan"
+    },
+    {
+      "at": [
+        "V04",
+        "start"
+      ],
+      "photo": "darkingredients",
+      "note": "AI: oats, dark chocolate, biji labu, biji bunga matahari"
+    },
+    {
+      "at": [
+        "V05",
+        "start"
+      ],
+      "clip": "k1",
+      "src": 46.5,
+      "note": "pek individu di tangan"
+    },
+    {
+      "at": [
+        "V05",
+        "standby"
+      ],
+      "clip": "k2",
+      "src": 46.5,
+      "note": "makan"
+    },
+    {
+      "at": [
+        "V06",
+        "start"
+      ],
+      "clip": "k2",
+      "src": 60.0,
+      "note": "makan, reaksi"
+    },
+    {
+      "at": [
+        "V06",
+        "tengok#2"
+      ],
+      "clip": "k1",
+      "src": 42.0,
+      "note": "angkat bar dark choco dari kotak"
+    }
+  ],
+  "titles": [
+    {
+      "text": "JAGA MAKAN, TAPI CRAVING COKLAT?",
+      "from": [
+        "V01",
+        "start"
+      ],
+      "to": [
+        "V01",
+        "haa"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "FITSNACK DARK CHOCOLATE",
+      "from": [
+        "V03",
+        "fitsnack"
+      ],
+      "to": [
+        "V03",
+        "satu"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.28
+    },
+    {
+      "text": "SEKITAR 100 KALORI SEKEPING",
+      "from": [
+        "V03",
+        "satu"
+      ],
+      "to": [
+        "V03",
+        "yang"
+      ],
+      "pos": "top",
+      "sfx": "ping",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "7 G PROTEIN · 3 G SERAT",
+      "from": [
+        "V03",
+        "7"
+      ],
+      "to": [
+        "V03",
+        "tak"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TANPA GULA TAMBAHAN",
+      "from": [
+        "V03",
+        "tak"
+      ],
+      "to": [
+        "V03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "ROLL OATS · DARK CHOCOLATE",
+      "from": [
+        "V04",
+        "roll"
+      ],
+      "to": [
+        "V04",
+        "biji"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "BIJI LABU · BIJI BUNGA MATAHARI",
+      "from": [
+        "V04",
+        "biji"
+      ],
+      "to": [
+        "V04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PEK INDIVIDU, SENANG BAWA",
+      "from": [
+        "V05",
+        "pek"
+      ],
+      "to": [
+        "V05",
+        "standby"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "V06",
+        "beg"
+      ],
+      "to": [
+        "V06",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "jaga",
+    "makan",
+    "craving",
+    "coklat",
+    "mencabar",
+    "kerja",
+    "tv",
+    "biskut",
+    "fitsnack",
+    "protein",
+    "bar",
+    "dark",
+    "chocolate",
+    "100",
+    "kalori",
+    "7",
+    "gram",
+    "3",
+    "serat",
+    "gula",
+    "tambahan",
+    "roll",
+    "oats",
+    "biji",
+    "labu",
+    "bunga",
+    "matahari",
+    "pek",
+    "individu",
+    "bawa",
+    "beg",
+    "kuning",
+    "promo",
+    "grab",
+    "terus"
+  ]
+}

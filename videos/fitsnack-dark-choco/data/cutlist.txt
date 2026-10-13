@@ -1,0 +1,24 @@
+TOTAL 48.50s  (6 voiceover ranges, 15 shots, 15 audio fx, 46 caption cards)
+
+  0.00-  7.30  V01  vo   2.60- 10.15  (2 pc)  Korang pernah tak tengah semangat nak jaga makan, tiba-tiba craving coklat? Haa, time ni lah paling mencabar.
+  7.30- 16.00  V02  vo  10.95- 19.65  (1 pc)  Lagi-lagi kalau tengah buat kerja atau malam-malam tengok TV, mulalah tangan tu mencari coklat, biskut, macam-macam nak dikunyahnya.
+ 16.00- 29.10  V03  vo  20.80- 34.90  (2 pc)  Kalau korang memang peminat coklat, cuba tengok Fitsnack protein bar perisa dark chocolate ni. Satu keping sekitar 100 kalori je. Yang menarik, setiap keping ada 7 gram protein, 3 gram serat dan tak ada gula tambahan weh.
+ 29.10- 33.60  V04  vo  35.10- 39.60  (1 pc)  Bahan dia pun ada roll oats, dark chocolate, biji labu dengan biji bunga matahari.
+ 33.60- 39.17  V05  vo  40.65- 46.20  (1 pc)  Datang dalam pek individu, jadi senang nak bawa pergi kerja, simpan dalam beg atau standby bila terasa nak mengunyah.
+ 39.17- 47.90  V06  vo  49.20- 57.95  (1 pc)  Kaki coklat yang tengah jaga makan tu, boleh tengok dekat beg kuning Fitsnack dark chocolate ni. Tengok harga sekarang, kalau tengah ada promo tu, grab terus!
+
+  0.00-  5.20  P01  photo craving    AI: jaga makan tapi craving coklat
+  5.20-  7.30  P02  k2 @36.0s        gigit bar dark choco
+  7.30- 10.70  P03  photo desknight  AI: buat kerja malam, capai coklat
+ 10.70- 11.97  P04  photo sofanight  AI: tengok TV dengan coklat
+ 11.97- 16.00  P05  photo handjar    AI: tangan mencari coklat, biskut
+ 16.00- 18.70  P06  k2 @4.0s         keluarkan bar dark choco
+ 18.70- 21.10  P07  k1 @39.3s        kotak penuh bar dark choco
+ 21.10- 23.90  P08  k1 @51.0s        sekeping bar dark choco di tangan
+ 23.90- 27.47  P09  k2 @7.0s         tunjuk bar dalam bungkusan
+ 27.47- 29.10  P10  k2 @11.0s        buka bungkusan
+ 29.10- 33.60  P11  photo darkingredients AI: oats, dark chocolate, biji labu, biji bunga matahari
+ 33.60- 37.50  P12  k1 @46.5s        pek individu di tangan
+ 37.50- 39.17  P13  k2 @46.5s        makan
+ 39.17- 44.10  P14  k2 @60.0s        makan, reaksi
+ 44.10- 48.50  P15  k1 @42.0s        angkat bar dark choco dari kotak
