@@ -1,0 +1,287 @@
+{
+  "_note": "Voiceover-driven edit. 'vo' ranges are seconds in assets/vo.m4a (Recorder - 20261013-0027.m4a); pauses longer than 0.45s inside a range are tightened automatically. 'shots' are muted picture from assets/k1..k6.mp4 (optionally sped up with 'rate') or a full-screen photo; each shot runs until the next one. Anchors are [vo id, 'start' | a word in that vo range]. tools/build.py turns this into index.html + compositions/.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -30,
+    "blip": 0.1
+  },
+  "vo": [
+    {
+      "id": "V01",
+      "in": 1.82,
+      "out": 8.62,
+      "text": "Eh korang tengok ni, tak sangka tilam setebal 10 inci ni boleh sampai rumah dalam keadaan bergulung macam ni.",
+      "note": "hook; klik @1.1 dibuang"
+    },
+    {
+      "id": "V02",
+      "in": 9.45,
+      "out": 12.38,
+      "text": "Ini tilam Bed Wave daripada Steady Line Bedding tau."
+    },
+    {
+      "id": "V03",
+      "in": 12.5,
+      "out": 18.25,
+      "text": "Bila buka je plastik dia, tilam ni mula mengembang. Memang menarik tengok proses dia weh."
+    },
+    {
+      "id": "V04",
+      "in": 19.25,
+      "out": 23.8,
+      "text": "Yang menariknya, harga untuk saiz queen boleh jadi serendah RM300 je masa promo."
+    },
+    {
+      "id": "V05",
+      "in": 23.95,
+      "out": 26.4,
+      "text": "Cuba tengok ketebalan dia, 10 inci tau."
+    },
+    {
+      "id": "V06",
+      "in": 26.55,
+      "out": 34.15,
+      "text": "Bila baring dia, baru boleh rasa sendiri tahap keselesaan dia, memang sangat empuk dan feel premium je."
+    },
+    {
+      "id": "V07",
+      "in": 34.95,
+      "out": 39.34,
+      "text": "Tilam ni menggunakan pocketed spring system untuk sokongan yang lebih stabil."
+    },
+    {
+      "id": "V08",
+      "in": 42.24,
+      "out": 48.7,
+      "text": "Dia juga ada 3D mesh fabric layer dan material breathable untuk membantu pengudaraan supaya lebih selesa waktu tidur.",
+      "note": "take 1 'dia juga ada 3D' @39.73-41.93 dibuang"
+    },
+    {
+      "id": "V09",
+      "in": 49.15,
+      "out": 53.8,
+      "text": "Kalau tidur berdua, pergerakan pasangan pun boleh jadi kurang terasa sebab sistem spring dia,"
+    },
+    {
+      "id": "V10",
+      "in": 56.26,
+      "out": 59.4,
+      "text": "tapi mestilah bergantung pada cara kita bergerak juga.",
+      "note": "take 1 'tapi mestilah bergantung pada ciri kita' @53.76-56.24 dibuang"
+    },
+    {
+      "id": "V11",
+      "in": 60.0,
+      "out": 63.25,
+      "text": "Tilam ni ada pilihan single, super single, queen dan king."
+    },
+    {
+      "id": "V12",
+      "in": 63.3,
+      "out": 68.18,
+      "text": "Kalau korang tengah cari tilam baru untuk bilik sendiri atau keluarga, boleh tengok Bed Wave ni."
+    },
+    {
+      "id": "V13",
+      "in": 69.74,
+      "out": 74.92,
+      "text": "Tekan beg kuning, sementara harga promo, kalau tengah murah tu, terus check out guys!",
+      "note": "'Tapi' tergantung @68.10-69.14 dan hujung @75.0+ dibuang; 'sementara' disahkan dengan Whisper (log-prob terbaik), perlu pengesahan pemilik"
+    }
+  ],
+  "shots": [
+    {
+      "at": [
+        "V01",
+        "start"
+      ],
+      "clip": "k1",
+      "src": 4.0,
+      "note": "tilam bergulung atas katil"
+    },
+    {
+      "at": [
+        "V01",
+        "tilam"
+      ],
+      "clip": "k1",
+      "src": 60.0,
+      "rate": 2,
+      "note": "buka plastik bergulung"
+    },
+    {
+      "at": [
+        "V02",
+        "start"
+      ],
+      "clip": "k6",
+      "src": 0.5,
+      "note": "hero — Bed Wave"
+    },
+    {
+      "at": [
+        "V03",
+        "start"
+      ],
+      "clip": "k1",
+      "src": 100.0,
+      "rate": 4,
+      "note": "timelapse buka plastik"
+    },
+    {
+      "at": [
+        "V03",
+        "mula"
+      ],
+      "clip": "k1",
+      "src": 129.4,
+      "note": "tilam mengembang"
+    },
+    {
+      "at": [
+        "V04",
+        "start"
+      ],
+      "clip": "k6",
+      "src": 3.0,
+      "note": "hero — harga queen"
+    },
+    {
+      "at": [
+        "V05",
+        "start"
+      ],
+      "clip": "k2",
+      "src": 0.5,
+      "note": "close-up ketebalan 10 inci"
+    },
+    {
+      "at": [
+        "V06",
+        "start"
+      ],
+      "clip": "k3",
+      "src": 3.0,
+      "note": "baring"
+    },
+    {
+      "at": [
+        "V06",
+        "memang"
+      ],
+      "clip": "k4",
+      "src": 1.5,
+      "note": "tangan tekan, empuk"
+    },
+    {
+      "at": [
+        "V07",
+        "start"
+      ],
+      "photo": "spring",
+      "note": "AI: keratan rentas pocketed spring"
+    },
+    {
+      "at": [
+        "V08",
+        "start"
+      ],
+      "clip": "k5",
+      "src": 0.5,
+      "note": "jalur sisi 3D mesh"
+    },
+    {
+      "at": [
+        "V08",
+        "breathable"
+      ],
+      "clip": "k2",
+      "src": 4.0,
+      "note": "sisi tilam"
+    },
+    {
+      "at": [
+        "V09",
+        "start"
+      ],
+      "clip": "k5",
+      "src": 6.0,
+      "rate": 1.5,
+      "note": "ujian gulung tisu — berguling"
+    },
+    {
+      "at": [
+        "V10",
+        "start"
+      ],
+      "clip": "k5",
+      "src": 34.0,
+      "rate": 1.5,
+      "note": "ujian gulung tisu — berjalan atas tilam"
+    },
+    {
+      "at": [
+        "V11",
+        "start"
+      ],
+      "clip": "k6",
+      "src": 5.0,
+      "note": "hero — pilihan saiz"
+    },
+    {
+      "at": [
+        "V12",
+        "start"
+      ],
+      "clip": "k3",
+      "src": 20.0,
+      "note": "duduk di birai"
+    },
+    {
+      "at": [
+        "V13",
+        "start"
+      ],
+      "clip": "k6",
+      "src": 1.0,
+      "note": "hero CTA"
+    }
+  ],
+  "keywords": [
+    "10",
+    "inci",
+    "bergulung",
+    "bed",
+    "wave",
+    "steady",
+    "line",
+    "bedding",
+    "mengembang",
+    "rm300",
+    "queen",
+    "promo",
+    "keselesaan",
+    "empuk",
+    "premium",
+    "pocketed",
+    "spring",
+    "3d",
+    "mesh",
+    "breathable",
+    "pengudaraan",
+    "selesa",
+    "berdua",
+    "pasangan",
+    "single",
+    "super",
+    "king",
+    "beg",
+    "kuning",
+    "check",
+    "out"
+  ]
+}
