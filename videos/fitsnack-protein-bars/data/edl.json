@@ -4,43 +4,345 @@
   "width": 1080,
   "height": 1920,
   "tail": 0.6,
-  "tighten": {"max_pause": 0.4, "keep": 0.14, "threshold_db": -38, "blip": 0.03},
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -38,
+    "blip": 0.03
+  },
   "vo": [
-    {"id": "V01", "in": 1.1, "out": 7.05, "text": "Korang ni jenis mulut tak boleh berhenti mengunyah ke? Tengah buat kerja nak makan, tengah tengok TV pun nak mengunyah.", "note": "HOOK"},
-    {"id": "V02", "in": 14.3, "out": 21.38, "text": "Masalahnya kalau asyik capai jajan, biskut manis, coklat setiap kali terasa nak makan, memang susah juga nak kawal pemakanan kan?", "note": "take 2; take 1 @7.8-13.7 (terputus di 'nak') dibuang"},
-    {"id": "V03", "in": 21.8, "out": 25.15, "text": "Haa, sebab tu korang boleh tengok Fitsnack protein bars ni,", "note": "false start 'snack yang lebih mudah kita nak' @25.4-26.7 dibuang"},
-    {"id": "V04", "in": 27.55, "out": 32.0, "text": "snack yang lebih mudah kita portion, dan setiap keping ada sekitar 100 kalori je."},
-    {"id": "V05", "in": 33.65, "out": 42.3, "text": "Dalam satu keping ni ada 7 gram protein, 3 gram serat dan tak ada gula tambahan tau. Bahan dia pun ada roll oats, biji-bijian dan macam-macam lagi."},
-    {"id": "V06", "in": 43.95, "out": 48.38, "text": "Siap ada 7 pilihan perisa, termasuk dark chocolate, kopi dengan peanut caramel."},
-    {"id": "V07", "in": 48.45, "out": 57.7, "text": "Kalau korang tengah cari snack untuk standby dekat rumah atau pejabat, cuba check dekat beg kuning, tengok perisa mana yang korang suka, harga tengah promo tu guys. Check out terus!"}
+    {
+      "id": "V01",
+      "in": 1.1,
+      "out": 7.05,
+      "text": "Korang ni jenis mulut tak boleh berhenti mengunyah ke? Tengah buat kerja nak makan, tengah tengok TV pun nak mengunyah.",
+      "note": "HOOK"
+    },
+    {
+      "id": "V02",
+      "in": 14.3,
+      "out": 21.38,
+      "text": "Masalahnya kalau asyik capai jajan, biskut manis, coklat setiap kali terasa nak makan, memang susah juga nak kawal pemakanan kan?",
+      "note": "take 2; take 1 @7.8-13.7 (terputus di 'nak') dibuang"
+    },
+    {
+      "id": "V03",
+      "in": 21.8,
+      "out": 25.15,
+      "text": "Haa, sebab tu korang boleh tengok Fitsnack protein bars ni,",
+      "note": "false start 'snack yang lebih mudah kita nak' @25.4-26.7 dibuang"
+    },
+    {
+      "id": "V04",
+      "in": 27.55,
+      "out": 32.0,
+      "text": "snack yang lebih mudah kita portion, dan setiap keping ada sekitar 100 kalori je."
+    },
+    {
+      "id": "V05",
+      "in": 33.65,
+      "out": 42.3,
+      "text": "Dalam satu keping ni ada 7 gram protein, 3 gram serat dan tak ada gula tambahan tau. Bahan dia pun ada roll oats, biji-bijian dan macam-macam lagi."
+    },
+    {
+      "id": "V06",
+      "in": 43.95,
+      "out": 48.38,
+      "text": "Siap ada 7 pilihan perisa, termasuk dark chocolate, kopi dengan peanut caramel."
+    },
+    {
+      "id": "V07",
+      "in": 48.45,
+      "out": 57.7,
+      "text": "Kalau korang tengah cari snack untuk standby dekat rumah atau pejabat, cuba check dekat beg kuning, tengok perisa mana yang korang suka, harga tengah promo tu guys. Check out terus!"
+    }
   ],
   "shots": [
-    {"at": ["V01", "start"], "clip": "k2", "src": 24.0, "note": "mengunyah"},
-    {"at": ["V01", "tengah"], "photo": "office", "note": "AI: makan sambil buat kerja"},
-    {"at": ["V01", "tengah#2"], "photo": "tv", "note": "AI: mengunyah depan TV"},
-    {"at": ["V02", "start"], "photo": "sweets", "note": "AI: jajan, biskut manis, coklat"},
-    {"at": ["V02", "memang"], "photo": "scale", "note": "AI: susah kawal pemakanan"},
-    {"at": ["V03", "start"], "clip": "k1", "src": 12.5, "note": "kotak Fitsnack"},
-    {"at": ["V04", "start"], "clip": "k1", "src": 27.0, "note": "buka, bar dibungkus satu-satu"},
-    {"at": ["V04", "setiap"], "clip": "k1", "src": 60.5, "note": "sekeping bar di tangan"},
-    {"at": ["V05", "start"], "clip": "k3", "src": 8.5, "note": "tunjuk bar dekat kamera"},
-    {"at": ["V05", "bahan"], "photo": "ingredients", "note": "AI: oats, biji-bijian, kismis, cranberry"},
-    {"at": ["V06", "start"], "clip": "k1", "src": 75.0, "note": "dua kotak dibuka"},
-    {"at": ["V06", "dark"], "clip": "k2", "src": 18.0, "note": "bar dark choco"},
-    {"at": ["V07", "start"], "clip": "k2", "src": 28.5, "note": "makan, thumbs up"},
-    {"at": ["V07", "cuba"], "clip": "k3", "src": 27.6, "note": "makan bar, thumbs up"},
-    {"at": ["V07", "harga"], "clip": "k1", "src": 78.0, "note": "dua kotak hero"}
+    {
+      "at": [
+        "V01",
+        "start"
+      ],
+      "clip": "k2",
+      "src": 24.0,
+      "note": "mengunyah"
+    },
+    {
+      "at": [
+        "V01",
+        "tengah"
+      ],
+      "photo": "office",
+      "note": "AI: makan sambil buat kerja"
+    },
+    {
+      "at": [
+        "V01",
+        "tengah#2"
+      ],
+      "photo": "tv",
+      "note": "AI: mengunyah depan TV"
+    },
+    {
+      "at": [
+        "V02",
+        "start"
+      ],
+      "photo": "sweets",
+      "note": "AI: jajan, biskut manis, coklat"
+    },
+    {
+      "at": [
+        "V02",
+        "memang"
+      ],
+      "photo": "scale",
+      "note": "AI: susah kawal pemakanan"
+    },
+    {
+      "at": [
+        "V03",
+        "start"
+      ],
+      "clip": "k1",
+      "src": 12.5,
+      "note": "kotak Fitsnack"
+    },
+    {
+      "at": [
+        "V04",
+        "start"
+      ],
+      "clip": "k1",
+      "src": 27.0,
+      "note": "buka, bar dibungkus satu-satu"
+    },
+    {
+      "at": [
+        "V04",
+        "setiap"
+      ],
+      "clip": "k1",
+      "src": 60.5,
+      "note": "sekeping bar di tangan"
+    },
+    {
+      "at": [
+        "V05",
+        "start"
+      ],
+      "clip": "k3",
+      "src": 8.5,
+      "note": "tunjuk bar dekat kamera"
+    },
+    {
+      "at": [
+        "V05",
+        "bahan"
+      ],
+      "photo": "ingredients",
+      "note": "AI: oats, biji-bijian, kismis, cranberry"
+    },
+    {
+      "at": [
+        "V06",
+        "start"
+      ],
+      "clip": "k1",
+      "src": 75.0,
+      "note": "dua kotak dibuka"
+    },
+    {
+      "at": [
+        "V06",
+        "dark"
+      ],
+      "clip": "k2",
+      "src": 18.0,
+      "note": "bar dark choco"
+    },
+    {
+      "at": [
+        "V07",
+        "start"
+      ],
+      "clip": "k2",
+      "src": 28.5,
+      "note": "makan, thumbs up"
+    },
+    {
+      "at": [
+        "V07",
+        "cuba"
+      ],
+      "clip": "k3",
+      "src": 27.6,
+      "note": "makan bar, thumbs up"
+    },
+    {
+      "at": [
+        "V07",
+        "harga"
+      ],
+      "clip": "k1",
+      "src": 78.0,
+      "note": "dua kotak hero"
+    }
   ],
   "titles": [
-    {"text": "TAK BOLEH BERHENTI MENGUNYAH?", "from": ["V01", "start"], "to": ["V01", "tengah"], "sfx": "impact-bass-1", "sfx_vol": 0.3},
-    {"text": "JAJAN · BISKUT MANIS · COKLAT", "from": ["V02", "jajan"], "to": ["V02", "memang"], "pos": "top"},
-    {"text": "FITSNACK PROTEIN BARS", "from": ["V03", "fitsnack"], "to": ["V03", "end"], "pos": "top", "sfx": "sparkle", "sfx_vol": 0.28},
-    {"text": "SEKITAR 100 KALORI SEKEPING", "from": ["V04", "setiap"], "to": ["V04", "end"], "pos": "top", "sfx": "ping", "sfx_vol": 0.3},
-    {"text": "7 G PROTEIN · 3 G SERAT", "from": ["V05", "7"], "to": ["V05", "tak"], "pos": "top"},
-    {"text": "TANPA GULA TAMBAHAN", "from": ["V05", "tak"], "to": ["V05", "bahan"], "pos": "top"},
-    {"text": "ROLL OATS · BIJI-BIJIAN", "from": ["V05", "roll"], "to": ["V05", "end"], "pos": "top"},
-    {"text": "7 PILIHAN PERISA", "from": ["V06", "7"], "to": ["V06", "end"], "pos": "top"},
-    {"text": "TEKAN BEG KUNING", "from": ["V07", "check"], "to": ["V07", "end"], "cta": true}
+    {
+      "text": "TAK BOLEH BERHENTI MENGUNYAH?",
+      "from": [
+        "V01",
+        "start"
+      ],
+      "to": [
+        "V01",
+        "tengah"
+      ],
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "JAJAN · BISKUT MANIS · COKLAT",
+      "from": [
+        "V02",
+        "jajan"
+      ],
+      "to": [
+        "V02",
+        "memang"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "FITSNACK PROTEIN BARS",
+      "from": [
+        "V03",
+        "fitsnack"
+      ],
+      "to": [
+        "V03",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.28
+    },
+    {
+      "text": "SEKITAR 100 KALORI SEKEPING",
+      "from": [
+        "V04",
+        "setiap"
+      ],
+      "to": [
+        "V04",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "ping",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "7 G PROTEIN · 3 G SERAT",
+      "from": [
+        "V05",
+        "7"
+      ],
+      "to": [
+        "V05",
+        "tak"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TANPA GULA TAMBAHAN",
+      "from": [
+        "V05",
+        "tak"
+      ],
+      "to": [
+        "V05",
+        "bahan"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "ROLL OATS · BIJI-BIJIAN",
+      "from": [
+        "V05",
+        "roll"
+      ],
+      "to": [
+        "V05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "7 PILIHAN PERISA",
+      "from": [
+        "V06",
+        "7"
+      ],
+      "to": [
+        "V06",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "V07",
+        "check"
+      ],
+      "to": [
+        "V07",
+        "end"
+      ],
+      "cta": true
+    }
   ],
-  "keywords": ["mengunyah", "kerja", "tv", "jajan", "biskut", "manis", "coklat", "kawal", "pemakanan", "fitsnack", "protein", "bars", "portion", "100", "kalori", "7", "gram", "3", "serat", "gula", "tambahan", "roll", "oats", "biji-bijian", "perisa", "dark", "chocolate", "kopi", "peanut", "caramel", "rumah", "pejabat", "beg", "kuning", "promo", "check", "out", "terus"]
+  "keywords": [
+    "mengunyah",
+    "kerja",
+    "tv",
+    "jajan",
+    "biskut",
+    "manis",
+    "coklat",
+    "kawal",
+    "pemakanan",
+    "fitsnack",
+    "protein",
+    "bars",
+    "portion",
+    "100",
+    "kalori",
+    "7",
+    "gram",
+    "3",
+    "serat",
+    "gula",
+    "tambahan",
+    "roll",
+    "oats",
+    "biji-bijian",
+    "perisa",
+    "dark",
+    "chocolate",
+    "kopi",
+    "peanut",
+    "caramel",
+    "rumah",
+    "pejabat",
+    "beg",
+    "kuning",
+    "promo",
+    "check",
+    "out",
+    "terus"
+  ],
+  "_owner_decisions": "13 Okt: draf diluluskan — final dirender."
 }
