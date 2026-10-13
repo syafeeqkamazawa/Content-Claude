@@ -1,0 +1,275 @@
+{
+  "_note": "Edit decision list. Source times are seconds in assets/a.mp4 (A-roll, talking head, front camera so mirrored back in CSS) and assets/b.mp4 (B-roll, hands only, muted: its audio has the kids' names). Each A-roll segment is split around pauses longer than tighten.max_pause. 'broll' and 'photos' are anchored [segment id, 'start' | word | 'end'] and run to their 'to' anchor. tools/build.py turns this into index.html + compositions/.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.12,
+    "threshold_db": -40,
+    "blip": 0.1
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 1.9,
+      "out": 9.6,
+      "zoom": 1.0,
+      "text": "Setiap kali suruh anak gosok gigi, mesti ada drama kan? Ada yang lari, ada yang tak suka rasa ubat gigi.",
+      "note": "HOOK. 'lari' vs 'lagi' sama skor Whisper; 'lari' ikut maksud ayat — perlu pengesahan pemilik"
+    },
+    {
+      "id": "S02",
+      "in": 22.4,
+      "out": 32.2,
+      "zoom": 1.1,
+      "text": "Parent, tak perlu risau lagi. Cuba tengok Dr.Ritta Berry Buddies ni, ubat gigi khas untuk kanak-kanak umur 3 hingga 12 tahun tau, dengan perisa strawberi.",
+      "note": "'Parent jangan risau' x2 @15.6-20.5 dan jeda panjang @10-15 dibuang"
+    },
+    {
+      "id": "S03",
+      "in": 41.15,
+      "out": 47.5,
+      "zoom": 1.0,
+      "text": "Menariknya dia ada dual fluoride synergy yang membantu menguatkan enamel gigi dan memberi perlindungan terhadap kaviti.",
+      "note": "take 1 'Menariknya dia ada dual fluoride synergy' @37.5-40.2 dibuang"
+    },
+    {
+      "id": "S04",
+      "in": 62.28,
+      "out": 71.45,
+      "zoom": 1.1,
+      "text": "Bukan tu je, formulanya ada dua enzim, papain dan lysozyme, yang membantu proses pembersihan gigi tau. Sesuai untuk rutin penjagaan gigi anak setiap hari.",
+      "note": "take 1 @51.6-61.0 dibuang (jeda panjang dalam ayat)"
+    },
+    {
+      "id": "S05",
+      "in": 78.3,
+      "out": 86.75,
+      "zoom": 1.0,
+      "text": "Tekstur pembersihan yang lembut, ditambah pula dengan perisa strawberi yang sedap. Jadi bolehlah kita cuba jadikan rutin gosok gigi lebih menyeronokkan untuk anak-anak kita.",
+      "note": "jeda 5s @71.9-77.4 dibuang"
+    },
+    {
+      "id": "S06",
+      "in": 98.45,
+      "out": 106.5,
+      "zoom": 1.1,
+      "text": "Parent yang tengah cari ubat gigi untuk anak-anak, boleh check out Dr.Ritta Berry Buddies ni. Tekan beg kuning, tengok harga dia dan check out terus!",
+      "note": "CTA take 2; take 1 @87.9-97.2 dan 'Ini untuk ni' @108.7 dibuang"
+    }
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S02",
+        "cuba"
+      ],
+      "to": [
+        "S02",
+        "ubat"
+      ],
+      "src": 0.3,
+      "note": "kotak depan"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S02",
+        "ubat"
+      ],
+      "to": [
+        "S02",
+        "dengan"
+      ],
+      "src": 19.0,
+      "note": "tiub depan"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S02",
+        "dengan"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "src": 9.0,
+      "note": "kotak — Strawberry Flavor"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S03",
+        "dual"
+      ],
+      "to": [
+        "S03",
+        "menguatkan"
+      ],
+      "src": 33.0,
+      "note": "buka penutup tiub"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S04",
+        "yang"
+      ],
+      "to": [
+        "S04",
+        "rutin"
+      ],
+      "src": 50.0,
+      "note": "tiub di tangan"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "menyeronokkan"
+      ],
+      "src": 71.0,
+      "note": "picit atas berus pink (dipanjangkan sampai 'menyeronokkan')"
+    },
+    {
+      "id": "B7",
+      "from": [
+        "S06",
+        "boleh"
+      ],
+      "to": [
+        "S06",
+        "tekan"
+      ],
+      "src": 114.5,
+      "note": "picit atas berus ungu"
+    },
+    {
+      "id": "B8",
+      "from": [
+        "S06",
+        "tekan"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 121.0,
+      "note": "berus siap dengan ubat gigi"
+    }
+  ],
+  "photos": [
+    {
+      "id": "drama",
+      "from": [
+        "S01",
+        "mesti"
+      ],
+      "to": [
+        "S01",
+        "ada#2"
+      ],
+      "note": "AI: ibu berhijab, anak enggan gosok gigi"
+    },
+    {
+      "id": "yucky",
+      "from": [
+        "S01",
+        "ada#2"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: anak tak suka rasa ubat gigi"
+    },
+    {
+      "id": "smile",
+      "from": [
+        "S03",
+        "menguatkan"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "note": "AI: senyum gigi sihat"
+    },
+    {
+      "id": "papaya",
+      "from": [
+        "S04",
+        "papain"
+      ],
+      "to": [
+        "S04",
+        "yang"
+      ],
+      "note": "AI: betik (papain)"
+    },
+    {
+      "id": "routine",
+      "from": [
+        "S04",
+        "rutin"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: ibu dan anak gosok gigi bersama"
+    },
+    {
+      "id": "fun",
+      "from": [
+        "S05",
+        "menyeronokkan"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "note": "AI: adik-beradik gosok gigi gembira"
+    }
+  ],
+  "keywords": [
+    "drama",
+    "lari",
+    "rasa",
+    "risau",
+    "dr.ritta",
+    "berry",
+    "buddies",
+    "3",
+    "12",
+    "tahun",
+    "strawberi",
+    "dual",
+    "fluoride",
+    "synergy",
+    "enamel",
+    "kaviti",
+    "enzim",
+    "papain",
+    "lysozyme",
+    "pembersihan",
+    "setiap",
+    "hari",
+    "lembut",
+    "sedap",
+    "menyeronokkan",
+    "beg",
+    "kuning",
+    "harga",
+    "check",
+    "out",
+    "terus"
+  ]
+}
