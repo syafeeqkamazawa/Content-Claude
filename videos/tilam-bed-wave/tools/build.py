@@ -263,6 +263,7 @@ t0, t1 = card(
     '<div class="hook-md" id="hk-3">sampai rumah<br/>dalam keadaan bergulung!</div>'
     "</div>",
 )
+gfx_js.append(f'tl.fromTo("#ov-hook .hook", {{ opacity: 0 }}, {{ opacity: 1, duration: 0.25, ease: "power2.out" }}, {q(word_time("V01", "tak") - 0.1)});')
 pop_in("#hk-1", word_time("V01", "tak"), 0.8, "power3.out")
 pop_in("#hk-2", word_time("V01", "10"), 0.4, "back.out(2.4)")
 pop_in("#hk-3", word_time("V01", "bergulung"), 0.8, "power3.out")
@@ -457,7 +458,7 @@ CSS_GFX = FONT_FACE + f"""
 .hook {{ position: absolute; left: 60px; right: 60px; top: 200px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 6px;
   background: rgba(16,20,28,.66); padding: 26px 24px 30px; border-radius: 32px; }}
 .hook-sm {{ font-family: "Plus Jakarta Sans"; font-weight: 700; font-size: 54px; color: #ffffff; text-shadow: 0 3px 14px rgba(0,0,0,.55); }}
-.hook-big {{ font-family: "Archivo Black"; font-size: 118px; line-height: 1; color: {ACCENT}; text-shadow: 0 8px 0 {CHOC}, 0 0 30px rgba(0,0,0,.4); transform-origin: 50% 60%; }}
+.hook-big {{ font-family: "Archivo Black"; font-size: 100px; white-space: nowrap; line-height: 1; color: {ACCENT}; text-shadow: 0 8px 0 {CHOC}, 0 0 30px rgba(0,0,0,.4); transform-origin: 50% 60%; }}
 .hook-md {{ font-family: "Plus Jakarta Sans"; font-weight: 800; font-size: 60px; line-height: 1.1; color: #ffffff; text-shadow: 0 4px 18px rgba(0,0,0,.6); }}
 .stack {{ display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }}
 .kicker {{ font-weight: 800; font-size: 26px; letter-spacing: 3px; color: {CREAM}; background: rgba(30,24,20,.78); padding: 8px 16px; border-radius: 10px; }}
