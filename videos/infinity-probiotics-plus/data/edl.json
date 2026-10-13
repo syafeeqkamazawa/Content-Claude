@@ -1,0 +1,44 @@
+{
+  "_note": "Edit decision list, structured after the owner's reference TikTok (a talking-head script with a visual at every point). Source times are seconds in assets/a.mp4 (A-roll VID_20261014_001500, front camera so mirrored back in CSS) and assets/b.mp4 (B-roll VID_20261014_001726, box/bottle/capsules, muted). Visuals are full-screen per the owner's standing rules (the reference's small pop-up stickers and bare-skin images are replaced by full-screen, fully covered AI photos). Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {"max_pause": 0.4, "keep": 0.14, "threshold_db": -45, "blip": 0.03},
+  "segments": [
+    {"id": "S01", "in": 6.1, "out": 13.35, "zoom": 1.0, "text": "Kalau muka korang macam ni, tapi nak macam ni, atau perut korang macam ni, tapi nak macam ni,", "note": "HOOK; false start 'Kalau' @4.8 dibuang"},
+    {"id": "S02", "in": 14.05, "out": 34.4, "zoom": 1.1, "text": "korang tak akan dapat, sampailah korang rawat usus dulu. Sebab kalau perut korang dah tersumbat, benda ni akan ada kat mana-mana. Itu sebab korang akan nampak muka blotek, perut kembung, termasuk selulit dan stretch mark sekali. Semua ni boleh jadi makin teruk kalau korang terus abaikan usus korang,"},
+    {"id": "S03", "in": 39.8, "out": 44.15, "zoom": 1.0, "text": "badan korang hanya akan terus simpan toksin, sampailah korang flush keluar.", "note": "jeda 5s @34.7-39.6 dibuang"},
+    {"id": "S04", "in": 59.45, "out": 65.25, "zoom": 1.1, "text": "Cara terbaik untuk ubah dari sini ke sini adalah dengan Probiotics Plus Infinity ni.", "note": "take 2; take 1 @43.9-48.7 terputus, take 3 @71-78.5 dibuang"},
+    {"id": "S05", "in": 95.05, "out": 110.05, "zoom": 1.0, "text": "Infinity Probiotics ni mengandungi probiotik dan prebiotik sekali yang akan rawat dari dalam tau, untuk bantu sihatkan usus dan bantu flush toksin dalam badan. Ambil satu biji je setiap hari, rawat dari dalam dan korang akan tengok hasilnya di luar.", "note": "take 2; take 1 @78.5-85.8 terputus dibuang"},
+    {"id": "S06", "in": 114.9, "out": 120.35, "zoom": 1.1, "text": "Memang mudah sebenarnya, satu botol ni boleh makan 30 hari. Halal, ada sijil KKM,", "note": "'dan ada... dan' @120.2-122.5 tersangkut dibuang"},
+    {"id": "S07", "in": 123.45, "out": 125.85, "zoom": 1.0, "text": "dan dah ratusan ribu botol terjual guys.", "note": "ulangan 'dan kalau korang nak tahu ratusan ribu botol dah terjual' @128.2-131.2 dibuang"},
+    {"id": "S08", "in": 131.6, "out": 135.5, "zoom": 1.1, "text": "Kalau korang tengok beg kuning masih ada, korang gerak cepat sebelum habis!", "note": "'terima kasih...' @135.2+ dibuang"}
+  ],
+  "broll": [
+    {"id": "B1", "from": ["S05", "start"], "to": ["S05", "mengandungi"], "src": 3.5, "note": "kotak Infinity Probiotics Plus"},
+    {"id": "B2", "from": ["S05", "mengandungi"], "to": ["S05", "yang"], "src": 16.0, "push": [1.0, 1.25], "origin": "45% 55%", "note": "botol, zoom label"},
+    {"id": "B3", "from": ["S05", "ambil"], "to": ["S05", "rawat#2"], "src": 50.0, "note": "kapsul di tapak tangan"},
+    {"id": "B4", "from": ["S06", "satu"], "to": ["S06", "halal"], "src": 57.0, "note": "botol dan kapsul dalam penutup"},
+    {"id": "B5", "from": ["S06", "halal"], "to": ["S06", "end"], "src": 18.5, "push": [1.15, 1.45], "origin": "60% 72%", "note": "label botol — logo halal"}
+  ],
+  "photos": [
+    {"id": "faceacne", "from": ["S01", "muka"], "to": ["S01", "tapi"], "note": "AI: muka macam ni"},
+    {"id": "faceclear", "from": ["S01", "tapi"], "to": ["S01", "atau"], "note": "AI: nak macam ni"},
+    {"id": "bloated", "from": ["S01", "perut"], "to": ["S01", "tapi#2"], "note": "AI: perut macam ni (berpakaian)"},
+    {"id": "comfy", "from": ["S01", "tapi#2"], "to": ["S01", "end"], "note": "AI: nak macam ni"},
+    {"id": "gut", "from": ["S02", "rawat"], "to": ["S02", "sebab"], "note": "AI: usus"},
+    {"id": "mirror", "from": ["S02", "itu"], "to": ["S02", "semua"], "note": "AI: menggantikan imej kulit terdedah (aurat)"},
+    {"id": "toxins", "from": ["S03", "start"], "to": ["S03", "end"], "note": "AI: badan simpan toksin"}
+  ],
+  "titles": [
+    {"text": "RAWAT USUS DULU", "from": ["S02", "rawat"], "to": ["S02", "sebab"], "pos": "top", "sfx": "impact-bass-1", "sfx_vol": 0.3},
+    {"text": "INFINITY PROBIOTICS PLUS", "from": ["S04", "probiotics"], "to": ["S04", "end"], "pos": "top", "sfx": "sparkle", "sfx_vol": 0.28},
+    {"text": "PROBIOTIK + PREBIOTIK", "from": ["S05", "mengandungi"], "to": ["S05", "yang"], "pos": "top"},
+    {"text": "1 BIJI SETIAP HARI", "from": ["S05", "ambil"], "to": ["S05", "rawat#2"], "pos": "top", "sfx": "ping", "sfx_vol": 0.3},
+    {"text": "1 BOTOL = 30 HARI", "from": ["S06", "satu"], "to": ["S06", "halal"], "pos": "top"},
+    {"text": "HALAL · SIJIL KKM", "from": ["S06", "halal"], "to": ["S06", "end"], "pos": "top"},
+    {"text": "RATUSAN RIBU BOTOL TERJUAL", "from": ["S07", "ratusan"], "to": ["S07", "end"], "pos": "top", "sfx": "sparkle", "sfx_vol": 0.25},
+    {"text": "TEKAN BEG KUNING", "from": ["S08", "beg"], "to": ["S08", "end"], "cta": true}
+  ],
+  "keywords": ["muka", "perut", "rawat", "usus", "tersumbat", "blotek", "kembung", "selulit", "stretch", "mark", "teruk", "toksin", "flush", "infinity", "probiotics", "probiotik", "prebiotik", "satu", "biji", "30", "hari", "halal", "kkm", "ratusan", "ribu", "terjual", "beg", "kuning", "cepat", "habis"]
+}
