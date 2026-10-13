@@ -16,7 +16,7 @@
       "out": 9.6,
       "zoom": 1.0,
       "text": "Setiap kali suruh anak gosok gigi, mesti ada drama kan? Ada yang lari, ada yang tak suka rasa ubat gigi.",
-      "note": "HOOK. 'lari' vs 'lagi' sama skor Whisper; 'lari' ikut maksud ayat — perlu pengesahan pemilik"
+      "note": "HOOK. 'lari' disahkan pemilik (13 Okt)"
     },
     {
       "id": "S02",
@@ -286,17 +286,6 @@
       ]
     },
     {
-      "text": "PAPAIN + LYSOZYME",
-      "from": [
-        "S04",
-        "papain"
-      ],
-      "to": [
-        "S04",
-        "end"
-      ]
-    },
-    {
       "text": "RUTIN GOSOK GIGI LEBIH FUN!",
       "from": [
         "S05",
@@ -321,5 +310,6 @@
       ],
       "cta": true
     }
-  ]
+  ],
+  "_owner_decisions": "13 Okt: 'Ada yang lari' disahkan; nota 'bawah 6 tahun' dibuang terus; tiada dakwaan tambahan (5X anti-sugar, FDA, ISO). Tajuk 'PAPAIN + LYSOZYME' dibuang supaya ubat gigi keluar dari tiub nampak jelas."
 }
