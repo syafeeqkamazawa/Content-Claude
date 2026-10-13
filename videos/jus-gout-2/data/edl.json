@@ -1,0 +1,43 @@
+{
+  "_note": "Voiceover-driven edit. 'vo' ranges are seconds in assets/vo.m4a (Jus Gout.m4a), reordered so the strongest line leads; pauses longer than tighten.max_pause inside a range are removed. 'shots' are muted picture from assets/k1.mp4 (VID_20261013_160712, optionally sped up with 'rate') or a full-screen AI photo; each shot runs until the next one. Anchors are [vo id, 'start' | word]. tools/build.py turns this into index.html + compositions/.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tail": 0.8,
+  "tighten": {"max_pause": 0.4, "keep": 0.14, "threshold_db": -38, "blip": 0.1},
+  "vo": [
+    {"id": "V01", "in": 23.75, "out": 30.12, "text": "Bangun pagi nak bergerak tu, Ya Allah, sakit sangat! Dah macam robot nak bergerak tau.", "note": "HOOK (asal @23.2); 'Nak bergerak tu memang sakit sangat' @30.6 (ulangan) dibuang"},
+    {"id": "V02", "in": 18.98, "out": 23.75, "text": "Seksa tau yang mana kena gout tu. Diorang tahulah macam mana rasa seksa dia."},
+    {"id": "V03", "in": 5.08, "out": 9.02, "text": "Yang mana mak ayah korang yang ada masalah gout, uric acid tinggi tu,", "note": "'Bagus ni boleh try' take 2 @3.7 dibuang; ASR dengar 'yuri asid' = uric acid"},
+    {"id": "V04", "in": 9.3, "out": 10.9, "text": "korang boleh belikan untuk diorang."},
+    {"id": "V05", "in": 16.55, "out": 18.58, "text": "Jus Gout ni sesuai sangat untuk diorang.", "note": "'Jus gout ni untuk diorang' @10.9 dan take 1 @13.8 dibuang"},
+    {"id": "V06", "in": 32.65, "out": 38.4, "text": "Jus ni senang je korang nak consume. Ambil dua scoop masuk dalam air, kacau-kacau, minum."},
+    {"id": "V07", "in": 38.85, "out": 40.7, "text": "Rasa dia sedap sangat, jangan risau.", "note": "'Boleh minum' @40.9 dibuang"},
+    {"id": "V08", "in": 42.3, "out": 44.95, "text": "Rasa dia macam rasa jus nenas plus dengan halia."},
+    {"id": "V09", "in": 46.02, "out": 48.3, "text": "Yang bestnya, tak ada kandungan gula putih.", "note": "'Tak mempengaruhi gula dalam darah' @48.5 dibuang (dakwaan kesihatan) — perlu pengesahan pemilik"},
+    {"id": "V10", "in": 54.08, "out": 57.9, "text": "Boleh baca feedback dekat beg kuning tu.", "note": "false start 'Macam feedback' @50.1 dibuang"},
+    {"id": "V11", "in": 60.44, "out": 62.84, "text": "Yang dua kali minum pun dah ada yang lega.", "note": "false start 'Dua kali minum' @57.7 dibuang"},
+    {"id": "V12", "in": 1.04, "out": 2.9, "text": "Bagus ni, boleh try tau!", "note": "baris pembuka asal dipindah ke sebelum CTA"},
+    {"id": "V13", "in": 62.86, "out": 64.45, "text": "Korang pergi check out dekat beg kuning!", "note": "CTA take 1; 'klik beg kuning' @65 dan 'check dekat beg kuning, tengok di' @68.5 dibuang"}
+  ],
+  "shots": [
+    {"at": ["V01", "start"], "photo": "wake", "note": "AI: bangun pagi, sakit kaki"},
+    {"at": ["V01", "dah"], "photo": "robot", "note": "AI: berjalan kaku macam robot"},
+    {"at": ["V02", "start"], "photo": "seksa", "note": "AI: ibu jari kaki bengkak"},
+    {"at": ["V03", "start"], "photo": "parents", "note": "AI: mak ayah, ayah sakit kaki"},
+    {"at": ["V04", "start"], "photo": "give", "note": "AI: anak hulur jus kepada ayah"},
+    {"at": ["V05", "start"], "clip": "k1", "src": 121.0, "note": "label depan Jus GOUT"},
+    {"at": ["V06", "start"], "clip": "k1", "src": 0.5, "note": "buka balang, gelas air"},
+    {"at": ["V06", "ambil"], "clip": "k1", "src": 8.5, "note": "cedok serbuk"},
+    {"at": ["V06", "masuk"], "clip": "k1", "src": 30.0, "rate": 4, "note": "isi air (timelapse)"},
+    {"at": ["V06", "kacau-kacau"], "clip": "k1", "src": 92.0, "note": "kacau"},
+    {"at": ["V07", "start"], "clip": "k1", "src": 136.0, "note": "sudu angkat jus"},
+    {"at": ["V08", "start"], "photo": "fruits", "note": "AI: nenas dan halia"},
+    {"at": ["V09", "start"], "clip": "k1", "src": 124.0, "note": "label depan"},
+    {"at": ["V10", "start"], "photo": "review", "note": "AI: baca feedback di telefon"},
+    {"at": ["V11", "start"], "photo": "relief", "note": "AI: ayah berjalan selesa"},
+    {"at": ["V12", "start"], "clip": "k1", "src": 128.0, "note": "kacau, label nampak"},
+    {"at": ["V13", "start"], "clip": "k1", "src": 120.5, "note": "hero label CTA"}
+  ],
+  "keywords": ["bangun", "pagi", "sakit", "sangat", "robot", "seksa", "gout", "mak", "ayah", "uric", "acid", "tinggi", "jus", "dua", "scoop", "air", "kacau-kacau", "minum", "sedap", "nenas", "halia", "gula", "putih", "feedback", "lega", "beg", "kuning", "check", "out", "try"]
+}

@@ -1,0 +1,33 @@
+TOTAL 40.87s  (13 voiceover ranges, 17 shots, 20 audio fx, 41 caption cards)
+
+  0.00-  5.93  V01  vo  23.75- 30.12  (3 pc)  Bangun pagi nak bergerak tu, Ya Allah, sakit sangat! Dah macam robot nak bergerak tau.
+  5.93- 10.70  V02  vo  18.98- 23.75  (1 pc)  Seksa tau yang mana kena gout tu. Diorang tahulah macam mana rasa seksa dia.
+ 10.70- 14.63  V03  vo   5.08-  9.02  (1 pc)  Yang mana mak ayah korang yang ada masalah gout, uric acid tinggi tu,
+ 14.63- 16.23  V04  vo   9.30- 10.90  (1 pc)  korang boleh belikan untuk diorang.
+ 16.23- 18.27  V05  vo  16.55- 18.58  (1 pc)  Jus Gout ni sesuai sangat untuk diorang.
+ 18.27- 24.00  V06  vo  32.65- 38.40  (1 pc)  Jus ni senang je korang nak consume. Ambil dua scoop masuk dalam air, kacau-kacau, minum.
+ 24.00- 25.87  V07  vo  38.85- 40.70  (1 pc)  Rasa dia sedap sangat, jangan risau.
+ 25.87- 28.53  V08  vo  42.30- 44.95  (1 pc)  Rasa dia macam rasa jus nenas plus dengan halia.
+ 28.53- 30.80  V09  vo  46.02- 48.30  (1 pc)  Yang bestnya, tak ada kandungan gula putih.
+ 30.80- 34.20  V10  vo  54.08- 57.90  (2 pc)  Boleh baca feedback dekat beg kuning tu.
+ 34.20- 36.60  V11  vo  60.44- 62.84  (1 pc)  Yang dua kali minum pun dah ada yang lega.
+ 36.60- 38.47  V12  vo   1.04-  2.90  (1 pc)  Bagus ni, boleh try tau!
+ 38.47- 40.07  V13  vo  62.86- 64.45  (1 pc)  Korang pergi check out dekat beg kuning!
+
+  0.00-  3.53  P01  photo wake       AI: bangun pagi, sakit kaki
+  3.53-  5.93  P02  photo robot      AI: berjalan kaku macam robot
+  5.93- 10.70  P03  photo seksa      AI: ibu jari kaki bengkak
+ 10.70- 14.63  P04  photo parents    AI: mak ayah, ayah sakit kaki
+ 14.63- 16.23  P05  photo give       AI: anak hulur jus kepada ayah
+ 16.23- 18.27  P06  k1 @121.0s       label depan Jus GOUT
+ 18.27- 20.50  P07  k1 @0.5s         buka balang, gelas air
+ 20.50- 21.40  P08  k1 @8.5s         cedok serbuk
+ 21.40- 22.47  P09  k1 @30.0s x4     isi air (timelapse)
+ 22.47- 24.00  P10  k1 @92.0s        kacau
+ 24.00- 25.87  P11  k1 @136.0s       sudu angkat jus
+ 25.87- 28.53  P12  photo fruits     AI: nenas dan halia
+ 28.53- 30.80  P13  k1 @124.0s       label depan
+ 30.80- 34.20  P14  photo review     AI: baca feedback di telefon
+ 34.20- 36.60  P15  photo relief     AI: ayah berjalan selesa
+ 36.60- 38.47  P16  k1 @128.0s       kacau, label nampak
+ 38.47- 40.87  P17  k1 @120.5s       hero label CTA

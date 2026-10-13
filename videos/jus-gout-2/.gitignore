@@ -1,0 +1,11 @@
+# Large media stays out of git (source footage lives on Google Drive).
+assets/k1.mp4
+renders/
+snapshots/
+.hyperframes/
+node_modules/
+.media/images/
+.media/audio/
+.media/gen-map.txt
+data/vo-rms.json
+tools/__pycache__/
