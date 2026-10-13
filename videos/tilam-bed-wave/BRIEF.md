@@ -2,7 +2,7 @@
 workflow: general-video
 flow: automation
 storyboard: no
-message: "Tilam Bed Wave 10 inci — sampai bergulung, empuk, pocketed spring; queen dari RM300 masa promo, tekan beg kuning"
+message: "Tilam Back-Wave (Starryland Bedding) 10 inci — sampai bergulung, empuk, pocketed spring; queen dari RM300 masa promo, tekan beg kuning"
 destination: tiktok
 aspect: 1080x1920
 language: ms
@@ -28,7 +28,7 @@ penuh realistik sahaja dengan aurat ditutup, caption kecil Plus Jakarta Sans, pr
 
 ## Customizations
 
-- Hook "Tak sangka… TILAM 10 INCI sampai rumah dalam keadaan bergulung!", kad jenama Bed Wave, harga queen RM300 (*harga promo), garis ukur 10 inci, cip ciri, ujian gulung tisu, pilihan saiz, butang "Tekan beg kuning"
+- Hook "Tak sangka… TILAM 10 INCI sampai rumah dalam keadaan bergulung!", kad jenama Back-Wave (Starryland Bedding, Model Q-Comfort), harga queen RM300 (*harga promo), garis ukur 10 inci, cip ciri, ujian gulung tisu, pilihan saiz, butang "Tekan beg kuning"
 - Timelapse k1 (2x/4x) untuk proses buka plastik; detik tilam mengembang pada kelajuan asal
 - 1 visual AI skrin penuh (ChatGPT): keratan rentas pocketed spring, tiada orang
 - Muzik latar HeyGen, di-carve di bawah voiceover; jeda >0.4s dalam ayat diketatkan automatik
@@ -37,3 +37,4 @@ penuh realistik sahaja dengan aurat ditutup, caption kecil Plus Jakarta Sans, pr
 
 - Frasa CTA "sementara harga promo" dipilih ikut padanan Whisper terbaik (sebutan kurang jelas) — perlu pengesahan pemilik.
 - Audio asal k1–k6 dimute.
+- Nama produk dibetulkan ikut maklumat pemilik: "Mattress Back-Wave Tilam Starryland Bedding Model-Q-Comfort King/Queen/ Super Single/Single TechFlex Pocket Spring Mattress" (VO kedengaran "bed wave" / "steady line bedding").

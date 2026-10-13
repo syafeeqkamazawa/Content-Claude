@@ -1,7 +1,7 @@
 TOTAL 61.07s  (13 voiceover ranges, 17 shots, 17 audio fx, 49 caption cards)
 
   0.00-  6.47  V01  vo   1.82-  8.62  (2 pc)  Eh korang tengok ni, tak sangka tilam setebal 10 inci ni boleh sampai rumah dalam keadaan bergulung macam ni.
-  6.47-  9.40  V02  vo   9.45- 12.38  (1 pc)  Ini tilam Bed Wave daripada Steady Line Bedding tau.
+  6.47-  9.40  V02  vo   9.45- 12.38  (1 pc)  Ini tilam Back-Wave daripada Starryland Bedding tau.
   9.40- 15.13  V03  vo  12.50- 18.25  (1 pc)  Bila buka je plastik dia, tilam ni mula mengembang. Memang menarik tengok proses dia weh.
  15.13- 19.70  V04  vo  19.25- 23.80  (1 pc)  Yang menariknya, harga untuk saiz queen boleh jadi serendah RM300 je masa promo.
  19.70- 22.13  V05  vo  23.95- 26.40  (1 pc)  Cuba tengok ketebalan dia, 10 inci tau.
@@ -11,12 +11,12 @@ TOTAL 61.07s  (13 voiceover ranges, 17 shots, 17 audio fx, 49 caption cards)
  40.30- 44.93  V09  vo  49.15- 53.80  (1 pc)  Kalau tidur berdua, pergerakan pasangan pun boleh jadi kurang terasa sebab sistem spring dia,
  44.93- 48.07  V10  vo  56.26- 59.40  (1 pc)  tapi mestilah bergantung pada cara kita bergerak juga.
  48.07- 51.33  V11  vo  60.00- 63.25  (1 pc)  Tilam ni ada pilihan single, super single, queen dan king.
- 51.33- 55.90  V12  vo  63.30- 68.18  (2 pc)  Kalau korang tengah cari tilam baru untuk bilik sendiri atau keluarga, boleh tengok Bed Wave ni.
+ 51.33- 55.90  V12  vo  63.30- 68.18  (2 pc)  Kalau korang tengah cari tilam baru untuk bilik sendiri atau keluarga, boleh tengok Back-Wave ni.
  55.90- 61.07  V13  vo  69.74- 74.92  (1 pc)  Tekan beg kuning, sementara harga promo, kalau tengah murah tu, terus check out guys!
 
   0.00-  1.70  P01  k1 @4.0s         tilam bergulung atas katil
   1.70-  6.47  P02  k1 @60.0s x2     buka plastik bergulung
-  6.47-  9.40  P03  k6 @0.5s         hero — Bed Wave
+  6.47-  9.40  P03  k6 @0.5s         hero — Back-Wave
   9.40- 11.70  P04  k1 @100.0s x4    timelapse buka plastik
  11.70- 15.13  P05  k1 @129.4s       tilam mengembang
  15.13- 19.70  P06  k6 @3.0s         hero — harga queen

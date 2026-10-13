@@ -21,7 +21,8 @@
       "id": "V02",
       "in": 9.45,
       "out": 12.38,
-      "text": "Ini tilam Bed Wave daripada Steady Line Bedding tau."
+      "text": "Ini tilam Back-Wave daripada Starryland Bedding tau.",
+      "note": "nama produk ikut maklumat pemilik: Mattress Back-Wave, Starryland Bedding, Model Q-Comfort, TechFlex Pocket Spring"
     },
     {
       "id": "V03",
@@ -83,7 +84,7 @@
       "id": "V12",
       "in": 63.3,
       "out": 68.18,
-      "text": "Kalau korang tengah cari tilam baru untuk bilik sendiri atau keluarga, boleh tengok Bed Wave ni."
+      "text": "Kalau korang tengah cari tilam baru untuk bilik sendiri atau keluarga, boleh tengok Back-Wave ni."
     },
     {
       "id": "V13",
@@ -120,7 +121,7 @@
       ],
       "clip": "k6",
       "src": 0.5,
-      "note": "hero — Bed Wave"
+      "note": "hero — Back-Wave"
     },
     {
       "at": [
@@ -255,11 +256,6 @@
     "10",
     "inci",
     "bergulung",
-    "bed",
-    "wave",
-    "steady",
-    "line",
-    "bedding",
     "mengembang",
     "rm300",
     "queen",
@@ -282,6 +278,10 @@
     "beg",
     "kuning",
     "check",
-    "out"
+    "out",
+    "back-wave",
+    "starryland",
+    "bedding",
+    "techflex"
   ]
 }

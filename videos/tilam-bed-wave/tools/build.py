@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build index.html + compositions/ for the Bed Wave mattress review from data/edl.json.
+"""Build index.html + compositions/ for the Back-Wave (Starryland Bedding) mattress review from data/edl.json.
 
 Run from the project root:  python3 tools/build.py
 Edit data/edl.json (voiceover ranges, shot list) and re-run; never hand-edit the HTML.
@@ -273,11 +273,13 @@ fade_out("#ov-hook .hook", t1)
 # Brand.
 v2 = VO["V02"]
 t0, t1 = card(
-    "ov-brand", word_time("V02", "bed") - 0.05, v2["end"] + 0.3,
-    '<div class="brand"><div class="brand-lg" id="br-1">Bed Wave</div><div class="brand-sm" id="br-2">oleh Steady Line Bedding</div></div>',
+    "ov-brand", word_time("V02", "back-wave") - 0.05, v2["end"] + 0.3,
+    '<div class="brand"><div class="brand-k" id="br-0">TILAM</div><div class="brand-lg" id="br-1">Back-Wave</div>'
+    '<div class="brand-sm" id="br-2">oleh Starryland Bedding</div><div class="brand-m" id="br-3">Model Q-Comfort</div></div>',
 )
 pop_in("#br-1", t0, 0.6, "back.out(2)")
-pop_in("#br-2", word_time("V02", "steady"), 0.8, "power3.out")
+pop_in("#br-2", word_time("V02", "starryland"), 0.8, "power3.out")
+pop_in("#br-3", word_time("V02", "bedding"), 0.8, "power3.out")
 add_sfx("sparkle", t0, 0.3)
 fade_out("#ov-brand .brand", t1)
 
@@ -324,7 +326,7 @@ fade_out("#ov-comfort .stack", t1)
 
 # Tech features.
 t0, t1 = card("ov-spring", word_time("V07", "pocketed") - 0.1, VO["V07"]["end"],
-              '<div class="stack top"><div class="kicker" id="sp-k">TEKNOLOGI</div><div class="chip dark" id="sp-1">Pocketed spring system</div>'
+              '<div class="stack top"><div class="kicker" id="sp-k">TEKNOLOGI</div><div class="chip dark" id="sp-1">TechFlex Pocket Spring</div>'
               '<div class="chip" id="sp-2">Sokongan lebih stabil</div></div>')
 pop_in("#sp-k", t0, 0.8, "power3.out")
 pop_in("#sp-1", t0 + 0.05)
@@ -465,9 +467,11 @@ CSS_GFX = FONT_FACE + f"""
 .chip {{ font-weight: 800; font-size: 48px; color: {CHOC}; background: {CREAM}; padding: 12px 28px; border-radius: 999px;
   box-shadow: 0 10px 24px rgba(0,0,0,.25); transform-origin: 0% 50%; }}
 .chip.dark {{ color: {CHOC}; background: {ACCENT}; }}
-.brand {{ position: absolute; left: 0; right: 0; top: 250px; margin: 0 auto; width: 720px; display: flex; flex-direction: column; align-items: center; gap: 4px;
+.brand {{ position: absolute; left: 0; right: 0; top: 250px; margin: 0 auto; width: 800px; display: flex; flex-direction: column; align-items: center; gap: 4px;
   background: {CREAM}; padding: 26px 30px 30px; border-radius: 30px; box-shadow: 0 16px 34px rgba(0,0,0,.28); }}
-.brand-lg {{ font-family: "Archivo Black"; font-size: 120px; line-height: 1; color: #1f2a3a; }}
+.brand-lg {{ font-family: "Archivo Black"; font-size: 112px; line-height: 1; color: #1f2a3a; white-space: nowrap; }}
+.brand-k {{ font-weight: 800; font-size: 26px; letter-spacing: 4px; color: #6b5a4a; }}
+.brand-m {{ font-weight: 700; font-size: 32px; color: #1f2a3a; margin-top: 6px; }}
 .brand-sm {{ font-weight: 800; font-size: 38px; color: #1f2a3a; background: {ACCENT}; padding: 8px 22px; border-radius: 999px; }}
 .price {{ position: absolute; left: 60px; top: 240px; display: flex; flex-direction: column; align-items: flex-start; gap: 2px;
   background: {CREAM}; padding: 22px 34px 20px; border-radius: 28px; box-shadow: 0 16px 34px rgba(0,0,0,.3); transform-origin: 0% 50%; }}
@@ -545,7 +549,7 @@ hosts = [
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width={W}, height={H}" />
-    <title>Tilam Bed Wave — review</title>
+    <title>Tilam Back-Wave — review</title>
     <script src="assets/vendor/gsap.min.js"></script>
     <style>{CSS_MAIN}</style>
   </head>
