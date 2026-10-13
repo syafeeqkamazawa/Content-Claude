@@ -1,0 +1,362 @@
+{
+  "_note": "Edit decision list. Source times are seconds in assets/a.mp4 (A-roll VID_20261013_213426, front camera so mirrored back in CSS) and assets/b.mp4 (B-roll VID_20261013_213717, overhead box/sachet footage, muted). Each A-roll segment is split around pauses longer than tighten.max_pause. 'broll', 'photos' and 'titles' are anchored [segment id, 'start' | word | 'end']. tools/build.py turns this into index.html + compositions/.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 1.75,
+      "out": 16.95,
+      "zoom": 1.0,
+      "text": "Korang pernah tak risau anak kita nanti cukup tinggi ke tak? Lagi-lagi kalau anak jenis memilih makanan. Budak zaman sekarang ni, jajan, gula-gula, gummies, semua diorang suka. Tapi bila suruh makan makanan berkhasiat, mulalah macam-macam alasan.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 20.35,
+      "out": 28.4,
+      "zoom": 1.1,
+      "text": "Kadang-kadang kita terfikir, cukup ke tak kalsium anak kita setiap hari. Sebab bukan tulang je kita nak jaga, gigi anak kita pun nak kuat juga. Betul tak?",
+      "note": "take 1; take 2 dan 'kadang-kadang kita jadi terfikir tau' @30.5-45.6 dibuang"
+    },
+    {
+      "id": "S03",
+      "in": 81.15,
+      "out": 93.3,
+      "zoom": 1.0,
+      "text": "Kalau korang cari tambahan nutrisi, boleh tengok Tiny Titanz 180+ UP ni. Minuman botani dengan prune, blueberry dan acerola. Yang menarik, dia tinggi kalsium untuk membantu pembentukan tulang dan gigi yang kuat.",
+      "note": "take 2 (take 1 @59.5-77.1 sebut 'sangat kuat', dibuang)"
+    },
+    {
+      "id": "S04",
+      "in": 101.5,
+      "out": 110.5,
+      "zoom": 1.1,
+      "text": "Datang dalam bentuk liquid sachet, senang nak sediakan dan bawa ke mana-mana. Kalau korang nak tahu lebih lanjut, tekan lah beg kuning. Check harga, kalau tengah harga promo tu, check out terus!",
+      "note": "jeda @93.3-101.5 dan 'terima kasih' / bunyi selepas 110.5 dibuang"
+    }
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S03",
+        "tiny"
+      ],
+      "to": [
+        "S03",
+        "minuman"
+      ],
+      "src": 2.3,
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "50% 40%",
+      "note": "kotak 180 depan"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S03",
+        "yang"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "src": 30.0,
+      "note": "sachet 180 Growth Support"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "senang"
+      ],
+      "src": 46.0,
+      "note": "koyak sachet"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S04",
+        "senang"
+      ],
+      "to": [
+        "S04",
+        "bawa"
+      ],
+      "src": 59.5,
+      "note": "tuang"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S04",
+        "bawa"
+      ],
+      "to": [
+        "S04",
+        "kalau"
+      ],
+      "src": 34.0,
+      "note": "sachet di tangan"
+    }
+  ],
+  "photos": [
+    {
+      "id": "measure",
+      "from": [
+        "S01",
+        "cukup"
+      ],
+      "to": [
+        "S01",
+        "lagi-lagi"
+      ],
+      "note": "AI: ukur tinggi anak"
+    },
+    {
+      "id": "picky",
+      "from": [
+        "S01",
+        "lagi-lagi"
+      ],
+      "to": [
+        "S01",
+        "budak"
+      ],
+      "note": "AI: anak memilih makanan"
+    },
+    {
+      "id": "snacks",
+      "from": [
+        "S01",
+        "budak"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "note": "AI: jajan, gula-gula, gummies"
+    },
+    {
+      "id": "active",
+      "from": [
+        "S02",
+        "sebab"
+      ],
+      "to": [
+        "S02",
+        "gigi"
+      ],
+      "note": "AI: anak aktif (tulang)"
+    },
+    {
+      "id": "teeth",
+      "from": [
+        "S02",
+        "gigi"
+      ],
+      "to": [
+        "S02",
+        "betul"
+      ],
+      "note": "AI: senyum gigi kuat"
+    },
+    {
+      "id": "fruits",
+      "from": [
+        "S03",
+        "minuman"
+      ],
+      "to": [
+        "S03",
+        "yang"
+      ],
+      "note": "AI: prune, blueberry, acerola"
+    }
+  ],
+  "titles": [
+    {
+      "text": "PERNAH RISAU PASAL ANAK?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "cukup"
+      ],
+      "sfx": "whoosh-short",
+      "sfx_vol": 0.25,
+      "pos": "top"
+    },
+    {
+      "text": "ANAK MEMILIH MAKANAN?",
+      "from": [
+        "S01",
+        "lagi-lagi"
+      ],
+      "to": [
+        "S01",
+        "budak"
+      ]
+    },
+    {
+      "text": "JAJAN & GULA-GULA",
+      "from": [
+        "S01",
+        "budak"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ]
+    },
+    {
+      "text": "CUKUP KE KALSIUM SETIAP HARI?",
+      "from": [
+        "S02",
+        "cukup"
+      ],
+      "to": [
+        "S02",
+        "sebab"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TULANG & GIGI",
+      "from": [
+        "S02",
+        "sebab"
+      ],
+      "to": [
+        "S02",
+        "betul"
+      ]
+    },
+    {
+      "text": "TINY TITANZ 180+ LIQUID SACHET",
+      "from": [
+        "S03",
+        "tiny"
+      ],
+      "to": [
+        "S03",
+        "minuman"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.28
+    },
+    {
+      "text": "PRUNE · BLUEBERRY · ACEROLA",
+      "from": [
+        "S03",
+        "minuman"
+      ],
+      "to": [
+        "S03",
+        "yang"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TINGGI KALSIUM",
+      "from": [
+        "S03",
+        "kalsium"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "ping",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "KOYAK, MINUM, SIAP!",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "bawa"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "UMUR 2–18 TAHUN",
+      "from": [
+        "S04",
+        "bawa"
+      ],
+      "to": [
+        "S04",
+        "kalau"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S04",
+        "tekan"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "risau",
+    "tinggi",
+    "memilih",
+    "makanan",
+    "jajan",
+    "gula-gula",
+    "gummies",
+    "berkhasiat",
+    "alasan",
+    "kalsium",
+    "tulang",
+    "gigi",
+    "kuat",
+    "tiny",
+    "titanz",
+    "180+",
+    "up",
+    "prune",
+    "blueberry",
+    "acerola",
+    "liquid",
+    "sachet",
+    "senang",
+    "bawa",
+    "beg",
+    "kuning",
+    "harga",
+    "promo",
+    "check",
+    "out",
+    "terus"
+  ]
+}
