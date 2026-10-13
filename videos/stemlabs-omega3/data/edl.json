@@ -1,0 +1,486 @@
+{
+  "_note": "Edit decision list. Source times are seconds in assets/a.mp4 (A-roll, VID_20261013_180049, front camera so mirrored back in CSS) and assets/b.mp4 (B-roll VID_20261013_180342, bottle and capsules, muted). Each A-roll segment is split around pauses longer than tighten.max_pause. 'broll', 'photos' and 'titles' are anchored [segment id, 'start' | word | 'end']. tools/build.py turns this into index.html + compositions/.",
+  "_plan": "Owner's visual plan (13 Okt): 0-7 muka bercakap lalu ikan + kapsul omega-3; 7-17 individu sibuk, makanan harian, ikan berlemak; 17-31 botol StemLabs, zoom label EPA 300mg + DHA 200mg; 31-42 otak, mata, jantung; 42-53 kapsul, ikan anchovy, botol; 53-65 pegang botol, tunjuk label, beg kuning.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 30.05,
+      "out": 39.85,
+      "zoom": 1.0,
+      "text": "Korang nak jaga tak kesihatan jantung, otak dan mata? Ada satu nutrien ni yang korang patut ambil tahu, iaitu omega 3, khususnya EPA dan DHA.",
+      "note": "HOOK take 2; take 1 'korang nak jaga kesihatan jantung' @27.4 dan permulaan @0-26 dibuang"
+    },
+    {
+      "id": "S02",
+      "in": 43.0,
+      "out": 53.6,
+      "zoom": 1.1,
+      "text": "Masalahnya, bukan semua orang selalu makan ikan yang kaya dalam omega 3. Kalau korang rasa pengambilan omega 3 dalam diet harian masih tak mencukupi, boleh pertimbangkan supplement fish oil,"
+    },
+    {
+      "id": "S03",
+      "in": 54.7,
+      "out": 71.05,
+      "zoom": 1.0,
+      "text": "contohnya StemLabs Omega 3 Fish Oil Double Strength ni. Dalam setiap satu kapsul ada 1000 mg fish oil, yang membekalkan 300 mg EPA dan 200 mg DHA. Ini yang korang kena tengok bila pilih fish oil, bukan angka 1000 mg semata-mata.",
+      "note": "ASR 'double strand' = Double Strength (ikut label)"
+    },
+    {
+      "id": "S04",
+      "in": 88.5,
+      "out": 101.2,
+      "zoom": 1.1,
+      "text": "EPA dan DHA ni merupakan asid lemak omega 3 yang penting untuk fungsi normal badan. DHA juga memainkan peranan dalam struktur otak dan retina mata, manakala EPA dan DHA turut dikaji untuk kesihatan kardiovaskular.",
+      "note": "take 1 dan 2 'EPA dan DHA ni...' @75.8-82.5 dan 'sana sana sana' @104.9 dibuang"
+    },
+    {
+      "id": "S05",
+      "in": 119.0,
+      "out": 125.95,
+      "zoom": 1.0,
+      "text": "Yang menariknya, fish oil ni menggunakan sumber ikan anchovy Peru dan diproses menggunakan teknologi molecular distillation.",
+      "note": "'yang menarik menurut maklumat produk' @111.9 dan take 1 @114.8 dibuang"
+    },
+    {
+      "id": "S06",
+      "in": 128.38,
+      "out": 130.45,
+      "zoom": 1.1,
+      "text": "Produk ni juga dibuat di New Zealand tau.",
+      "note": "false start 'produk ni juga di nyata' @126.7 dibuang"
+    },
+    {
+      "id": "S07",
+      "in": 133.95,
+      "out": 147.4,
+      "zoom": 1.0,
+      "text": "Jadi kalau korang tengah cari omega 3 dengan kandungan EPA dan DHA yang jelas, boleh masukkan StemLabs ni dalam senarai pilihan korang. Tekan beg kuning sekarang, tengok detail produk, semak harga semasa, dan kalau sesuai dengan keperluan korang, check out terus!",
+      "note": "CTA; 'selamat menikmati' @147.4 dibuang"
+    }
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S02",
+        "boleh"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "src": 15.0,
+      "note": "penutup berisi kapsul"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "dalam"
+      ],
+      "src": 12.0,
+      "note": "botol + penutup berisi kapsul atas rumput"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S03",
+        "dalam"
+      ],
+      "to": [
+        "S03",
+        "ini"
+      ],
+      "src": 0.0,
+      "push": [
+        1.0,
+        1.45
+      ],
+      "origin": "42% 52%",
+      "note": "pegang botol, zoom label EPA DHA 300/200"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "anchovy"
+      ],
+      "src": 30.0,
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "35% 70%",
+      "note": "close-up kapsul dalam penutup"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S05",
+        "diproses"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 34.0,
+      "note": "botol atas rumput"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 36.5,
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "55% 55%",
+      "note": "botol, Made in New Zealand"
+    }
+  ],
+  "photos": [
+    {
+      "id": "fishcaps",
+      "from": [
+        "S01",
+        "iaitu"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: ikan berlemak + kapsul omega-3"
+    },
+    {
+      "id": "busy",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "ikan"
+      ],
+      "note": "AI: individu sibuk bekerja"
+    },
+    {
+      "id": "fattyfish",
+      "from": [
+        "S02",
+        "ikan"
+      ],
+      "to": [
+        "S02",
+        "kalau"
+      ],
+      "note": "AI: ikan berlemak"
+    },
+    {
+      "id": "dailyfood",
+      "from": [
+        "S02",
+        "kalau"
+      ],
+      "to": [
+        "S02",
+        "boleh"
+      ],
+      "note": "AI: makanan harian"
+    },
+    {
+      "id": "brain",
+      "from": [
+        "S04",
+        "dha#2"
+      ],
+      "to": [
+        "S04",
+        "retina"
+      ],
+      "fx": "shine",
+      "note": "AI: otak"
+    },
+    {
+      "id": "eye",
+      "from": [
+        "S04",
+        "retina"
+      ],
+      "to": [
+        "S04",
+        "manakala"
+      ],
+      "fx": "shine",
+      "note": "AI: mata"
+    },
+    {
+      "id": "heart",
+      "from": [
+        "S04",
+        "manakala"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "fx": "shine",
+      "note": "AI: jantung"
+    },
+    {
+      "id": "anchovy",
+      "from": [
+        "S05",
+        "anchovy"
+      ],
+      "to": [
+        "S05",
+        "diproses"
+      ],
+      "note": "AI: ikan anchovy"
+    }
+  ],
+  "titles": [
+    {
+      "text": "JAGA JANTUNG, OTAK & MATA?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "iaitu"
+      ],
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "OMEGA 3: EPA + DHA",
+      "from": [
+        "S01",
+        "iaitu"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "sfx": "sparkle",
+      "sfx_vol": 0.28
+    },
+    {
+      "text": "JARANG MAKAN IKAN?",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "kalau"
+      ]
+    },
+    {
+      "text": "DIET HARIAN TAK CUKUP?",
+      "from": [
+        "S02",
+        "kalau"
+      ],
+      "to": [
+        "S02",
+        "boleh"
+      ]
+    },
+    {
+      "text": "STEMLABS OMEGA 3 DOUBLE STRENGTH",
+      "from": [
+        "S03",
+        "stemlabs"
+      ],
+      "to": [
+        "S03",
+        "dalam"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.28
+    },
+    {
+      "text": "1000 MG FISH OIL",
+      "from": [
+        "S03",
+        "1000"
+      ],
+      "to": [
+        "S03",
+        "300"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "300 MG EPA + 200 MG DHA",
+      "from": [
+        "S03",
+        "300"
+      ],
+      "to": [
+        "S03",
+        "ini"
+      ],
+      "pos": "top",
+      "sfx": "ping",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "TENGOK EPA + DHA, BUKAN 1000 MG JE",
+      "from": [
+        "S03",
+        "bukan"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ]
+    },
+    {
+      "text": "OTAK",
+      "from": [
+        "S04",
+        "dha#2"
+      ],
+      "to": [
+        "S04",
+        "retina"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "RETINA MATA",
+      "from": [
+        "S04",
+        "retina"
+      ],
+      "to": [
+        "S04",
+        "manakala"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "KESIHATAN KARDIOVASKULAR",
+      "from": [
+        "S04",
+        "kardiovaskular"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "IKAN ANCHOVY PERU",
+      "from": [
+        "S05",
+        "anchovy"
+      ],
+      "to": [
+        "S05",
+        "diproses"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "MOLECULAR DISTILLATION",
+      "from": [
+        "S05",
+        "diproses"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "DIBUAT DI NEW ZEALAND",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S07",
+        "tekan"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "jantung",
+    "otak",
+    "mata",
+    "omega",
+    "3",
+    "epa",
+    "dha",
+    "ikan",
+    "diet",
+    "harian",
+    "supplement",
+    "fish",
+    "oil",
+    "stemlabs",
+    "double",
+    "strength",
+    "1000",
+    "300",
+    "200",
+    "mg",
+    "retina",
+    "kardiovaskular",
+    "anchovy",
+    "peru",
+    "molecular",
+    "distillation",
+    "new",
+    "zealand",
+    "beg",
+    "kuning",
+    "check",
+    "out",
+    "terus"
+  ]
+}
