@@ -1,4 +1,4 @@
-TOTAL 48.60s  (6 A-roll segments, 8 B-roll shots, 6 photos, 22 audio fx, 41 caption cards)
+TOTAL 48.60s  (6 A-roll segments, 5 B-roll shots, 7 photos, 10 audio fx, 44 caption cards)
 
   0.00-  7.27  S01  src   1.90-  9.60  (2 pc)  Setiap kali suruh anak gosok gigi, mesti ada drama kan? Ada yang lari, ada yang tak suka rasa ubat gigi.
   7.27- 16.87  S02  src  22.40- 32.20  (2 pc)  Parent, tak perlu risau lagi. Cuba tengok Dr.Ritta Berry Buddies ni, ubat gigi khas untuk kanak-kanak umur 3 hingga 12 tahun tau, dengan perisa strawberi.
@@ -7,17 +7,15 @@ TOTAL 48.60s  (6 A-roll segments, 8 B-roll shots, 6 photos, 22 audio fx, 41 capt
  32.10- 40.57  S05  src  78.30- 86.75  (1 pc)  Tekstur pembersihan yang lembut, ditambah pula dengan perisa strawberi yang sedap. Jadi bolehlah kita cuba jadikan rutin gosok gigi lebih menyeronokkan untuk anak-anak kita.
  40.57- 48.60  S06  src  98.45-106.50  (1 pc)  Parent yang tengah cari ubat gigi untuk anak-anak, boleh check out Dr.Ritta Berry Buddies ni. Tekan beg kuning, tengok harga dia dan check out terus!
 
-  cutaway   2.33-  3.73
+  cutaway   0.00-  3.73
   cutaway   3.73-  7.27
   cutaway   8.97- 11.07
   cutaway  11.07- 15.47
   cutaway  15.47- 16.87
   cutaway  17.97- 19.57
   cutaway  19.57- 23.23
-  cutaway  25.53- 26.57
-  cutaway  26.57- 29.77
-  cutaway  29.77- 32.10
-  cutaway  32.10- 38.70
+  cutaway  25.03- 28.80
+  cutaway  28.80- 32.10
+  cutaway  32.10- 35.63
+  cutaway  35.63- 38.70
   cutaway  38.70- 40.57
-  cutaway  43.50- 46.03
-  cutaway  46.03- 48.60

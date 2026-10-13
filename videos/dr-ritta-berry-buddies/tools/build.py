@@ -245,8 +245,11 @@ for p in EDL["photos"]:
     vis_dom.append(
         f'<div id="fs-{p["id"]}" class="clip fs" data-start="{t0}" data-duration="{fr_dur(round((t1 - t0) * FPS))}" data-track-index="4">'
         f'<div class="fs-in" id="fs-{p["id"]}-in" style="background-image:url(assets/photos/{p["id"]}.jpg)"></div>'
-        f'<div class="fs-tag">ILUSTRASI AI</div></div>'
+        + (f'<div class="fs-shine" id="fs-{p["id"]}-sh"></div>' if p.get("fx") == "shine" else "")
+        + '<div class="fs-tag">ILUSTRASI AI</div></div>'
     )
+    if p.get("fx") == "shine":  # light sweep across the enamel, twice
+        vis_js.append(f'tl.fromTo("#fs-{p["id"]}-sh", {{ x: -1300, skewX: -18 }}, {{ x: 1300, skewX: -18, duration: 1.1, ease: "power2.inOut", repeat: 1, repeatDelay: 0.3 }}, {q(t0 + 0.3)});')
     vis_js.append(f'tl.fromTo("#fs-{p["id"]}-in", {{ scale: 1.16 }}, {{ scale: 1.04, duration: 0.35, ease: "power3.out" }}, {t0});')
     vis_js.append(
         f'tl.fromTo("#fs-{p["id"]}-in", {{ scale: 1.04 }}, {{ scale: 1.1, duration: {q(max(0.1, t1 - t0 - 0.4))}, ease: "none", immediateRender: false }}, {q(t0 + 0.4)});'
@@ -256,7 +259,7 @@ for p in EDL["photos"]:
 # A whoosh only where a cutaway starts from the talking head (not cutaway → cutaway).
 cover.sort()
 for i, (t0, t1) in enumerate(cover):
-    if i == 0 or abs(cover[i - 1][1] - t0) > 0.05:
+    if t0 > 0.1 and (i == 0 or abs(cover[i - 1][1] - t0) > 0.05):
         add_sfx("whoosh-short", t0 - 0.08, 0.3)
 
 # ── 4. Graphics (text cards; no emoji or symbol icons) ─────────────────────
@@ -279,123 +282,31 @@ def fade_out(sel, t):
 
 wt = word_time
 
-# Hook: "Suruh anak gosok gigi… mesti ada DRAMA!"
-t0, t1 = card(
-    "ov-hook", 0, wt("S01", "ada#2") - 0.05,
-    '<div class="hook"><div class="hook-sm" id="hk-1">Suruh anak gosok gigi…</div>'
-    '<div class="hook-big" id="hk-2">MESTI ADA DRAMA!</div></div>',
-)
-gfx_js.append(f'tl.fromTo("#ov-hook .hook", {{ opacity: 0 }}, {{ opacity: 1, duration: 0.2, ease: "power2.out" }}, 0);')
-pop_in("#hk-1", 0.05, 0.8, "power3.out")
-pop_in("#hk-2", wt("S01", "drama"), 0.4, "back.out(2.4)")
-add_sfx("impact-bass-1", wt("S01", "drama") - 0.02, 0.35)
-fade_out("#ov-hook .hook", t1)
+# One title per beat, from the owner's visual plan (data/edl.json "titles").
+for i, t in enumerate(EDL["titles"]):
+    tid = f"tt-{i + 1}"
+    t0, t1 = card(f"ov-{tid}", anchor(t["from"]) if t["from"][1] != "start" else SEG[t["from"][0]]["start"],
+                  anchor(t["to"]) if t["to"][1] not in ("start", "end") else (SEG[t["to"][0]]["end"] if t["to"][1] == "end" else SEG[t["to"][0]]["start"]),
+                  f'<div class="{"cta" if t.get("cta") else "title"}" id="{tid}">{html.escape(t["text"])}</div>')
+    if t.get("cta"):
+        gfx_js.append(f'tl.fromTo("#{tid}", {{ opacity: 0, y: 60 }}, {{ opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.8)" }}, {t0});')
+        gfx_js.append(
+            f'tl.fromTo("#{tid}", {{ scale: 1 }}, {{ scale: 1.06, duration: 0.4, ease: "sine.inOut", yoyo: true, '
+            f'repeat: {max(1, int((t1 - t0 - 0.4) / 0.4) - 1)}, immediateRender: false }}, {q(t0 + 0.35)});'
+        )
+        add_sfx("ping", t0, 0.4)
+    else:
+        gfx_js.append(f'tl.fromTo("#{tid}", {{ opacity: 0, scale: 0.6, y: -20 }}, {{ opacity: 1, scale: 1, y: 0, duration: 0.32, ease: "back.out(2)" }}, {t0});')
+        add_sfx(t.get("sfx", "pop"), t0 - 0.02, t.get("sfx_vol", 0.32))
+        if t1 < TOTAL - 0.1:
+            fade_out(f"#{tid}", t1)
 
-# Brand reveal over the box shot.
-s2 = SEG["S02"]
-t_br = wt("S02", "dr.ritta")
-t0, t1 = card(
-    "ov-brand", t_br - 0.05, wt("S02", "ubat") - 0.05,
-    '<div class="brand" id="br-card"><div class="brand-k">UBAT GIGI KANAK-KANAK</div>'
-    '<div class="brand-lg">Dr.Ritta</div><div class="brand-sm" id="br-2">Berry Buddies</div></div>',
-)
-pop_in("#br-card", t0, 0.6, "back.out(1.8)")
-pop_in("#br-2", wt("S02", "berry"), 0.8, "power3.out")
-add_sfx("sparkle", t0, 0.3)
-fade_out("#br-card", t1)
-
-t0, t1 = card(
-    "ov-age", wt("S02", "ubat") - 0.05, s2["end"] + 0.1,
-    '<div class="stack top"><div class="kicker" id="ag-k">KHAS UNTUK KANAK-KANAK</div>'
-    '<div class="chip dark" id="ag-1">Umur 3–12 tahun</div><div class="chip" id="ag-2">Perisa strawberi</div></div>',
-)
-pop_in("#ag-k", t0, 0.8, "power3.out")
-pop_in("#ag-1", wt("S02", "umur"))
-pop_in("#ag-2", wt("S02", "perisa"))
-add_sfx("pop", wt("S02", "umur"), 0.3)
-add_sfx("pop", wt("S02", "perisa"), 0.3)
-fade_out("#ov-age .stack", t1)
-
-# Fluoride.
-s3 = SEG["S03"]
-t0, t1 = card(
-    "ov-fluo", wt("S03", "dual") - 0.1, s3["end"] + 0.1,
-    '<div class="stack top"><div class="kicker" id="fl-k">FORMULA</div><div class="chip dark" id="fl-1">Dual fluoride synergy</div>'
-    '<div class="chip" id="fl-2">Kuatkan enamel gigi</div><div class="chip" id="fl-3">Lindungi daripada kaviti</div></div>',
-)
-pop_in("#fl-k", t0, 0.8, "power3.out")
-pop_in("#fl-1", wt("S03", "dual"))
-pop_in("#fl-2", wt("S03", "menguatkan"))
-pop_in("#fl-3", wt("S03", "perlindungan"))
-for w in ("dual", "menguatkan", "perlindungan"):
-    add_sfx("pop", wt("S03", w), 0.3)
-fade_out("#ov-fluo .stack", t1)
-
-# Enzymes.
-s4 = SEG["S04"]
-t0, t1 = card(
-    "ov-enz", wt("S04", "dua") - 0.1, wt("S04", "sesuai") - 0.05,
-    '<div class="stack top"><div class="kicker" id="en-k">DUA ENZIM</div><div class="chip dark" id="en-1">Papain</div>'
-    '<div class="chip dark" id="en-2">Lysozyme</div><div class="chip" id="en-3">Bantu bersihkan gigi</div></div>',
-)
-pop_in("#en-k", t0, 0.8, "power3.out")
-pop_in("#en-1", wt("S04", "papain"))
-pop_in("#en-2", wt("S04", "lysozyme"))
-pop_in("#en-3", wt("S04", "pembersihan"))
-for w in ("papain", "lysozyme", "pembersihan"):
-    add_sfx("pop", wt("S04", w), 0.3)
-fade_out("#ov-enz .stack", t1)
-t0, t1 = card("ov-daily", wt("S04", "rutin") - 0.1, s4["end"] + 0.1,
-              '<div class="stack top"><div class="chip dark" id="dy-1">Rutin harian anak</div></div>')
-pop_in("#dy-1", t0)
-add_sfx("pop", t0, 0.3)
-fade_out("#ov-daily .stack", t1)
-
-# Texture + taste, with the label's under-6 usage note on the squeeze shot.
-s5 = SEG["S05"]
-t0, t1 = card(
-    "ov-tex", wt("S05", "lembut") - 0.1, wt("S05", "jadi") - 0.05,
-    '<div class="stack top"><div class="chip" id="tx-1">Tekstur lembut</div><div class="chip dark" id="tx-2">Perisa strawberi</div></div>'
-    '<div class="safety" id="tx-n">Bawah 6 tahun: guna sebesar kacang pea, dengan pengawasan dewasa</div>',
-)
-pop_in("#tx-1", wt("S05", "lembut"))
-pop_in("#tx-2", wt("S05", "perisa"))
-gfx_js.append(f'tl.fromTo("#tx-n", {{ opacity: 0, y: 20 }}, {{ opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }}, {q(t0 + 0.3)});')
-add_sfx("pop", wt("S05", "lembut"), 0.3)
-add_sfx("pop", wt("S05", "perisa"), 0.3)
-fade_out("#ov-tex .stack", t1)
-fade_out("#tx-n", t1)
-t0, t1 = card("ov-fun", wt("S05", "menyeronokkan") - 0.1, s5["end"] + 0.1,
-              '<div class="stack top"><div class="chip dark" id="fn-1">Gosok gigi jadi seronok!</div></div>')
-pop_in("#fn-1", t0)
-add_sfx("sparkle", t0, 0.25)
-fade_out("#ov-fun .stack", t1)
-
-# CTA.
-s6 = SEG["S06"]
-t0, t1 = card(
-    "ov-name", wt("S06", "dr.ritta") - 0.1, wt("S06", "tekan") - 0.05,
-    '<div class="brand" id="nm-card"><div class="brand-k">CHECK OUT</div><div class="brand-lg">Dr.Ritta</div>'
-    '<div class="brand-sm">Berry Buddies</div></div>',
-)
-pop_in("#nm-card", t0, 0.6, "back.out(1.8)")
-add_sfx("pop", t0, 0.3)
-fade_out("#nm-card", t1)
-t_beg = wt("S06", "tekan")
-t0, t1 = card("ov-cta", t_beg - 0.1, TOTAL, '<div class="cta" id="ct-btn">Tekan beg kuning</div>')
-gfx_js.append(f'tl.fromTo("#ct-btn", {{ opacity: 0, y: 60 }}, {{ opacity: 1, y: 0, duration: 0.3, ease: "back.out(1.8)" }}, {t0});')
-gfx_js.append(
-    f'tl.fromTo("#ct-btn", {{ scale: 1 }}, {{ scale: 1.06, duration: 0.4, ease: "sine.inOut", yoyo: true, '
-    f'repeat: {max(1, int((TOTAL - t0 - 0.4) / 0.4) - 1)}, immediateRender: false }}, {q(t0 + 0.35)});'
-)
-add_sfx("ping", t0, 0.4)
 
 # ── 5. Captions ────────────────────────────────────────────────────────────
 cap_dom, cap_js = [], []
 cap_id = 0
-hook_end = wt("S01", "ada#2")
 for s in segs:
-    ws = [w for w in s["words"] if not (s["id"] == "S01" and w["s"] < hook_end)]  # hook title carries these
+    ws = s["words"]
     chunks, cur = [], []
     for w in ws:
         cur.append(w)
@@ -419,7 +330,7 @@ for s in segs:
                 continue
         k += 1
     for i, ch in enumerate(chunks):
-        c0 = ch[0]["s"] if (i or s["id"] == "S01") else s["start"]
+        c0 = ch[0]["s"] if i else s["start"]
         c1 = chunks[i + 1][0]["s"] if i + 1 < len(chunks) else s["end"]
         if c1 - c0 < 0.1:
             continue
@@ -464,30 +375,17 @@ CSS_VIS = f"""
 #vis-root {{ position: absolute; inset: 0; }}
 .fs {{ position: absolute; inset: 0; overflow: hidden; background: #1a0b10; }}
 .fs-in {{ position: absolute; inset: 0; background: center / cover no-repeat; transform-origin: 50% 45%; }}
+.fs-shine {{ position: absolute; top: -10%; bottom: -10%; left: 0; width: 100%; transform: translateX(-1300px) skewX(-18deg);
+  background: linear-gradient(90deg, rgba(255,255,255,0) 30%, rgba(255,255,255,.45) 50%, rgba(255,255,255,0) 70%); }}
 .fs-tag {{ position: absolute; left: 36px; top: 160px; font-family: "Montserrat"; font-weight: 700; font-size: 18px; letter-spacing: 1.5px;
-  color: {CREAM}; background: rgba(30,10,16,.55); padding: 5px 10px; border-radius: 6px; }}
+  color: {CREAM}; background: rgba(30,10,16,.72); padding: 5px 10px; border-radius: 6px; }}
 """
 
 CSS_GFX = FONT_FACE + f"""
 #gfx-root {{ position: absolute; inset: 0; font-family: "Plus Jakarta Sans", sans-serif; }}
 .overlay {{ position: absolute; inset: 0; pointer-events: none; }}
-.top {{ position: absolute; left: 60px; top: 230px; }}
-.hook {{ position: absolute; left: 60px; right: 60px; top: 220px; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 10px;
-  background: rgba(40,12,22,.72); padding: 26px 24px 32px; border-radius: 32px; }}
-.hook-sm {{ font-weight: 700; font-size: 54px; color: #ffffff; }}
-.hook-big {{ font-family: "Archivo Black"; font-size: 76px; white-space: nowrap; line-height: 1; color: {ACCENT}; text-shadow: 0 6px 0 {INK}; transform-origin: 50% 60%; }}
-.stack {{ display: flex; flex-direction: column; align-items: flex-start; gap: 14px; }}
-.kicker {{ font-weight: 800; font-size: 26px; letter-spacing: 3px; color: {CREAM}; background: rgba(60,16,32,.82); padding: 8px 16px; border-radius: 10px; }}
-.chip {{ font-weight: 800; font-size: 48px; color: {INK}; background: {CREAM}; padding: 12px 28px; border-radius: 999px;
-  box-shadow: 0 10px 24px rgba(0,0,0,.25); transform-origin: 0% 50%; white-space: nowrap; }}
-.chip.dark {{ color: #ffffff; background: {BERRY}; }}
-.brand {{ position: absolute; left: 0; right: 0; top: 200px; margin: 0 auto; width: 760px; display: flex; flex-direction: column; align-items: center; gap: 6px;
-  background: {CREAM}; padding: 24px 30px 30px; border-radius: 30px; box-shadow: 0 16px 34px rgba(0,0,0,.28); }}
-.brand-k {{ font-weight: 800; font-size: 26px; letter-spacing: 4px; color: #8a4a5e; }}
-.brand-lg {{ font-family: "Archivo Black"; font-size: 120px; line-height: 1; color: {BERRY}; white-space: nowrap; }}
-.brand-sm {{ font-weight: 800; font-size: 44px; color: #ffffff; background: {BERRY}; padding: 8px 26px; border-radius: 999px; white-space: nowrap; }}
-.safety {{ position: absolute; left: 60px; right: 60px; top: 1050px; font-weight: 700; font-size: 30px; line-height: 1.3; text-align: center;
-  color: {INK}; background: rgba(255,246,248,.92); padding: 12px 22px; border-radius: 16px; }}
+.title {{ position: absolute; left: 50px; right: 50px; top: 980px; text-align: center; font-family: "Archivo Black"; font-size: 70px; line-height: 1.08;
+  color: #ffffff; background: rgba(140,20,56,.94); padding: 22px 28px 26px; border-radius: 28px; box-shadow: 0 14px 30px rgba(0,0,0,.3); transform-origin: 50% 50%; }}
 .cta {{ position: absolute; left: 60px; bottom: 420px; font-family: "Archivo Black"; font-size: 54px; color: #2a1a05; background: {YELLOW};
   padding: 22px 36px; border-radius: 999px; box-shadow: 0 12px 0 #2a1a05; transform-origin: 0% 50%; }}
 """
@@ -496,7 +394,7 @@ CSS_CAP = FONT_FACE + f"""
 #cap-root {{ position: absolute; inset: 0; font-family: "Plus Jakarta Sans", sans-serif; }}
 .cap {{ position: absolute; left: 60px; right: 140px; top: 1210px; height: 200px; display: flex; align-items: center; justify-content: center; }}
 .cap-in {{ display: flex; flex-wrap: wrap; justify-content: center; text-align: center; max-width: 820px;
-  padding: 10px 22px 12px; border-radius: 20px; background: rgba(30,8,16,.55);
+  padding: 10px 22px 12px; border-radius: 20px; background: rgba(30,8,16,.62);
   font-family: "Plus Jakarta Sans"; font-weight: 800; font-size: 56px; line-height: 1.22; color: #ffffff; letter-spacing: -0.5px;
   text-shadow: 0 2px 10px rgba(0,0,0,.45); }}
 .cap .w {{ display: inline-block; margin: 0 12px; transform-origin: 50% 70%; }}

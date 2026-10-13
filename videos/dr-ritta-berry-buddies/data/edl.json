@@ -70,8 +70,8 @@
         "S02",
         "ubat"
       ],
-      "src": 0.3,
-      "note": "kotak depan"
+      "src": 19.0,
+      "note": "close-up tiub depan"
     },
     {
       "id": "B2",
@@ -83,8 +83,8 @@
         "S02",
         "dengan"
       ],
-      "src": 19.0,
-      "note": "tiub depan"
+      "src": 15.5,
+      "note": "close-up muncung tiub"
     },
     {
       "id": "B3",
@@ -109,60 +109,21 @@
         "S03",
         "menguatkan"
       ],
-      "src": 33.0,
-      "note": "buka penutup tiub"
+      "src": 45.0,
+      "note": "tunjuk produk (tiub di tangan)"
     },
     {
       "id": "B5",
       "from": [
         "S04",
-        "yang"
+        "dua"
       ],
       "to": [
         "S04",
-        "rutin"
+        "sesuai"
       ],
-      "src": 50.0,
-      "note": "tiub di tangan"
-    },
-    {
-      "id": "B6",
-      "from": [
-        "S05",
-        "start"
-      ],
-      "to": [
-        "S05",
-        "menyeronokkan"
-      ],
-      "src": 71.0,
-      "note": "picit atas berus pink (dipanjangkan sampai 'menyeronokkan')"
-    },
-    {
-      "id": "B7",
-      "from": [
-        "S06",
-        "boleh"
-      ],
-      "to": [
-        "S06",
-        "tekan"
-      ],
-      "src": 114.5,
-      "note": "picit atas berus ungu"
-    },
-    {
-      "id": "B8",
-      "from": [
-        "S06",
-        "tekan"
-      ],
-      "to": [
-        "S06",
-        "end"
-      ],
-      "src": 121.0,
-      "note": "berus siap dengan ubat gigi"
+      "src": 70.5,
+      "note": "picit ubat gigi atas berus"
     }
   ],
   "photos": [
@@ -170,13 +131,13 @@
       "id": "drama",
       "from": [
         "S01",
-        "mesti"
+        "start"
       ],
       "to": [
         "S01",
         "ada#2"
       ],
-      "note": "AI: ibu berhijab, anak enggan gosok gigi"
+      "note": "AI: anak enggan gosok gigi, ibu pegang berus"
     },
     {
       "id": "yucky",
@@ -191,7 +152,7 @@
       "note": "AI: anak tak suka rasa ubat gigi"
     },
     {
-      "id": "smile",
+      "id": "enamel",
       "from": [
         "S03",
         "menguatkan"
@@ -200,31 +161,44 @@
         "S03",
         "end"
       ],
-      "note": "AI: senyum gigi sihat"
+      "fx": "shine",
+      "note": "AI: enamel gigi dengan lapisan pelindung, animasi kilauan"
     },
     {
-      "id": "papaya",
+      "id": "brushing",
       "from": [
         "S04",
-        "papain"
-      ],
-      "to": [
-        "S04",
-        "yang"
-      ],
-      "note": "AI: betik (papain)"
-    },
-    {
-      "id": "routine",
-      "from": [
-        "S04",
-        "rutin"
+        "sesuai"
       ],
       "to": [
         "S04",
         "end"
       ],
+      "note": "AI: demo memberus (close-up)"
+    },
+    {
+      "id": "routine",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "jadi"
+      ],
       "note": "AI: ibu dan anak gosok gigi bersama"
+    },
+    {
+      "id": "father",
+      "from": [
+        "S05",
+        "jadi"
+      ],
+      "to": [
+        "S05",
+        "menyeronokkan"
+      ],
+      "note": "AI: ayah bantu anak gosok gigi"
     },
     {
       "id": "fun",
@@ -271,5 +245,81 @@
     "check",
     "out",
     "terus"
+  ],
+  "_plan": "Owner's visual plan (13 Oct): 0-5 anak enggan gosok gigi / ANAK SUSAH GOSOK GIGI?; 5-12 close-up tiub + strawberi / STRAWBERRY FLAVOR; 12-22 produk lalu animasi enamel / DUAL FLUORIDE SYNERGY; 22-32 ubat gigi atas berus, demo memberus / PAPAIN + LYSOZYME; 32-39 anak memberus dengan ibu bapa / RUTIN GOSOK GIGI LEBIH FUN!; 39-45 pegang produk, tunjuk beg kuning / CHECK BEG KUNING. Emoji in the plan left out per the owner's standing no-emoji rule. Anything without footage is an AI photo.",
+  "titles": [
+    {
+      "text": "ANAK SUSAH GOSOK GIGI?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "STRAWBERRY FLAVOR",
+      "from": [
+        "S02",
+        "cuba"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "sfx": "sparkle",
+      "sfx_vol": 0.28
+    },
+    {
+      "text": "DUAL FLUORIDE SYNERGY",
+      "from": [
+        "S03",
+        "dual"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ]
+    },
+    {
+      "text": "PAPAIN + LYSOZYME",
+      "from": [
+        "S04",
+        "papain"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ]
+    },
+    {
+      "text": "RUTIN GOSOK GIGI LEBIH FUN!",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "CHECK BEG KUNING",
+      "from": [
+        "S06",
+        "check"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "cta": true
+    }
   ]
 }
