@@ -1,0 +1,25 @@
+TOTAL 43.70s  (7 voiceover ranges, 15 shots, 15 audio fx, 48 caption cards)
+
+  0.00-  5.93  V01  vo   1.10-  7.05  (1 pc)  Korang ni jenis mulut tak boleh berhenti mengunyah ke? Tengah buat kerja nak makan, tengah tengok TV pun nak mengunyah.
+  5.93- 13.00  V02  vo  14.30- 21.38  (1 pc)  Masalahnya kalau asyik capai jajan, biskut manis, coklat setiap kali terasa nak makan, memang susah juga nak kawal pemakanan kan?
+ 13.00- 16.33  V03  vo  21.80- 25.15  (1 pc)  Haa, sebab tu korang boleh tengok Fitsnack protein bars ni,
+ 16.33- 20.77  V04  vo  27.55- 32.00  (1 pc)  snack yang lebih mudah kita portion, dan setiap keping ada sekitar 100 kalori je.
+ 20.77- 29.40  V05  vo  33.65- 42.30  (1 pc)  Dalam satu keping ni ada 7 gram protein, 3 gram serat dan tak ada gula tambahan tau. Bahan dia pun ada roll oats, biji-bijian dan macam-macam lagi.
+ 29.40- 33.83  V06  vo  43.95- 48.38  (1 pc)  Siap ada 7 pilihan perisa, termasuk dark chocolate, kopi dengan peanut caramel.
+ 33.83- 43.10  V07  vo  48.45- 57.70  (1 pc)  Kalau korang tengah cari snack untuk standby dekat rumah atau pejabat, cuba check dekat beg kuning, tengok perisa mana yang korang suka, harga tengah promo tu guys. Check out terus!
+
+  0.00-  2.97  P01  k2 @24.0s        mengunyah
+  2.97-  4.27  P02  photo office     AI: makan sambil buat kerja
+  4.27-  5.93  P03  photo tv         AI: mengunyah depan TV
+  5.93- 10.67  P04  photo sweets     AI: jajan, biskut manis, coklat
+ 10.67- 13.00  P05  photo scale      AI: susah kawal pemakanan
+ 13.00- 16.33  P06  k1 @12.5s        kotak Fitsnack
+ 16.33- 18.30  P07  k1 @27.0s        buka, bar dibungkus satu-satu
+ 18.30- 20.77  P08  k1 @60.5s        sekeping bar di tangan
+ 20.77- 25.83  P09  k3 @8.5s         tunjuk bar dekat kamera
+ 25.83- 29.40  P10  photo ingredients AI: oats, biji-bijian, kismis, cranberry
+ 29.40- 31.53  P11  k1 @75.0s        dua kotak dibuka
+ 31.53- 33.83  P12  k2 @18.0s        bar dark choco
+ 33.83- 37.40  P13  k2 @28.5s        makan, thumbs up
+ 37.40- 40.97  P14  k3 @27.6s        makan bar, thumbs up
+ 40.97- 43.70  P15  k1 @78.0s        dua kotak hero
