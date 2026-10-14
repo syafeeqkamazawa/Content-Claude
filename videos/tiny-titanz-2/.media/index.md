@@ -1,0 +1,4 @@
+# .media · 1 asset
+
+id         type   dur   dims   path                         description
+image_001  image  —     —      .media/images/image_001.png  A 5-year-old Malay boy in a long-sleeved t-shirt and long trousers at the dining table covering his mouth with both hands and turning away from a spoonful of broccoli held out by his mother in a hijab and loose long-sleeved baju kurung. Everyone is fully and modestly dressed: women and girls wear a hijab that fully covers the hair, neck and chest plus loose long sleeves and a long skirt or loose trousers to the ankles; men and boys wear long sleeves and long trousers to the ankles, never shorts. Malaysian Malay people. Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.

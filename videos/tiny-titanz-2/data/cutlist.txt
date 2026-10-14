@@ -1,0 +1,25 @@
+TOTAL 51.53s  (8 A-roll segments, 5 B-roll shots, 9 photos, 15 audio fx, 51 caption cards)
+
+  0.00-  2.63  S01  src   4.00-  6.62  (1 pc)  Anak korang jenis memilih makanan tak?
+  2.63-  8.63  S02  src  16.35- 22.72  (2 pc)  Sayur tak nak, buah pun susah. Pernah tak terfikir, cukup ke tak nutrisi dia untuk membesar?
+  8.63- 16.67  S03  src  23.35- 31.40  (1 pc)  Lagi-lagi waktu anak tengah membesar ni, badan perlukan nutrisi yang cukup untuk menyokong perkembangan tulang, gigi dan kesihatan keseluruhan.
+ 16.67- 21.33  S04  src  38.30- 42.95  (1 pc)  Sebab tu korang boleh tengok Tiny Titanz 180+ Growth Support ni.
+ 21.33- 29.87  S05  src  42.95- 51.50  (1 pc)  Dia ada Aquamin, sumber kalsium marin untuk tulang dan gigi, siap dengan collagen HMB, bird nest peptide dan omega 3 daripada tuna.
+ 29.87- 41.33  S06  src  61.90- 73.62  (3 pc)  Yang menariknya, ada juga blueberry, acerola, prune, elderberry dengan campuran sayuran tau. Tak perlu bancuh, koyak sachet terus minum. Sesuai untuk umur 2 hingga 18 tahun.
+ 41.33- 44.27  S07  src  77.30- 80.22  (1 pc)  Sebagai ibu ayah, mestilah kita nak yang terbaik untuk anak-anak kan?
+ 44.27- 51.53  S08  src  80.22- 87.70  (2 pc)  Kalau nak tahu lebih lanjut pasal 180+ ni, tekan beg kuning dan check harga. Kalau harga tengah promo, boleh check out terus!
+
+  cutaway   0.00-  2.63
+  cutaway   2.63-  3.60
+  cutaway   3.60-  4.37
+  cutaway  11.03- 14.13
+  cutaway  16.67- 18.37
+  cutaway  21.93- 24.80
+  cutaway  24.80- 28.03
+  cutaway  28.03- 29.87
+  cutaway  29.87- 35.67
+  cutaway  35.67- 36.77
+  cutaway  36.77- 38.33
+  cutaway  38.33- 41.33
+  cutaway  41.33- 44.27
+  cutaway  49.07- 51.53

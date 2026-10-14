@@ -1,0 +1,442 @@
+{
+  "_note": "Tiny Titanz 180+ #2. A-roll: new recording (Drive 1ONL-r8q…, 14 Oct, front camera so mirrored back in CSS). B-roll: the same overhead footage as videos/tiny-titanz-180 (Drive 1cAfKNw4…) — only ranges video #1 did not use (it used src 2.3-4.67, 30.0-34.97, 46.0-47.53, 59.5-60.47). Every AI photo, title and the music track are new. Anchors are [segment id, 'start' | word | 'end']; word times come from data/transcript-a.json.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 4.0,
+      "out": 6.62,
+      "zoom": 1.05,
+      "text": "Anak korang jenis memilih makanan tak?",
+      "note": "HOOK take 1; take 2 (8.9-16.0, long pause) dropped"
+    },
+    {
+      "id": "S02",
+      "in": 16.35,
+      "out": 22.72,
+      "zoom": 1.12,
+      "text": "Sayur tak nak, buah pun susah. Pernah tak terfikir, cukup ke tak nutrisi dia untuk membesar?",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 23.35,
+      "out": 31.4,
+      "zoom": 1.05,
+      "text": "Lagi-lagi waktu anak tengah membesar ni, badan perlukan nutrisi yang cukup untuk menyokong perkembangan tulang, gigi dan kesihatan keseluruhan.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 38.3,
+      "out": 42.95,
+      "zoom": 1.12,
+      "text": "Sebab tu korang boleh tengok Tiny Titanz 180+ Growth Support ni.",
+      "note": "take 2; take 1 (34.5-36.8) trails off"
+    },
+    {
+      "id": "S05",
+      "in": 42.95,
+      "out": 51.5,
+      "zoom": 1.05,
+      "text": "Dia ada Aquamin, sumber kalsium marin untuk tulang dan gigi, siap dengan collagen HMB, bird nest peptide dan omega 3 daripada tuna.",
+      "note": "'collagen HM(B)' — heard as HM/HEM; confirm with owner"
+    },
+    {
+      "id": "S06",
+      "in": 61.9,
+      "out": 73.62,
+      "zoom": 1.12,
+      "text": "Yang menariknya, ada juga blueberry, acerola, prune, elderberry dengan campuran sayuran tau. Tak perlu bancuh, koyak sachet terus minum. Sesuai untuk umur 2 hingga 18 tahun.",
+      "note": "take 2 of the fruit line; take 1 (55.0-58.8) dropped"
+    },
+    {
+      "id": "S07",
+      "in": 77.3,
+      "out": 80.22,
+      "zoom": 1.05,
+      "text": "Sebagai ibu ayah, mestilah kita nak yang terbaik untuk anak-anak kan?",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 80.22,
+      "out": 87.7,
+      "zoom": 1.12,
+      "text": "Kalau nak tahu lebih lanjut pasal 180+ ni, tekan beg kuning dan check harga. Kalau harga tengah promo, boleh check out terus!",
+      "note": ""
+    }
+  ],
+  "punch": [
+    [
+      "S02",
+      "cukup",
+      1.1
+    ],
+    [
+      "S08",
+      "tekan",
+      1.1
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S05",
+        "siap"
+      ],
+      "to": [
+        "S05",
+        "omega"
+      ],
+      "src": 38.0,
+      "note": "sachet 180 Growth Support dikipas (36-42)"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S06",
+        "tak"
+      ],
+      "to": [
+        "S06",
+        "koyak"
+      ],
+      "src": 49.0,
+      "note": "buka penutup sachet"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S06",
+        "koyak"
+      ],
+      "to": [
+        "S06",
+        "sesuai"
+      ],
+      "src": 62.5,
+      "note": "picit/tuang ke mangkuk"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S08",
+        "kalau#2"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "src": 22.0,
+      "note": "genggam banyak sachet"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "tiny"
+      ],
+      "src": 5.6,
+      "note": "kotak 180 (condong)",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 30%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "broccoli",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: budak tutup mulut tolak sudu brokoli dari ibu"
+    },
+    {
+      "id": "sayur",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "buah"
+      ],
+      "note": "AI: budak perempuan bertudung tolak pinggan sayur"
+    },
+    {
+      "id": "buah",
+      "from": [
+        "S02",
+        "buah"
+      ],
+      "to": [
+        "S02",
+        "pernah"
+      ],
+      "note": "AI: budak lelaki masam muka tengok buah potong"
+    },
+    {
+      "id": "main",
+      "from": [
+        "S03",
+        "badan"
+      ],
+      "to": [
+        "S03",
+        "tulang"
+      ],
+      "note": "AI: kanak-kanak main bola di padang (seluar panjang)"
+    },
+    {
+      "id": "aquamin",
+      "from": [
+        "S05",
+        "aquamin"
+      ],
+      "to": [
+        "S05",
+        "siap"
+      ],
+      "note": "AI: alga merah marin (sumber Aquamin) dalam laut"
+    },
+    {
+      "id": "tuna",
+      "from": [
+        "S05",
+        "omega"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "note": "AI: ikan tuna segar"
+    },
+    {
+      "id": "fruits",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "tak"
+      ],
+      "note": "AI: blueberry, acerola, prune, elderberry, sayur"
+    },
+    {
+      "id": "ages",
+      "from": [
+        "S06",
+        "sesuai"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "note": "AI: adik 2 tahun dan abang remaja"
+    },
+    {
+      "id": "family",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "note": "AI: ibu bapa peluk anak-anak"
+    }
+  ],
+  "titles": [
+    {
+      "text": "ANAK CEREWET MAKAN?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "CUKUP KE NUTRISI DIA?",
+      "from": [
+        "S02",
+        "cukup"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "low"
+    },
+    {
+      "text": "TULANG · GIGI · KESIHATAN",
+      "from": [
+        "S03",
+        "tulang"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "low"
+    },
+    {
+      "text": "TINY TITANZ 180+ GROWTH SUPPORT",
+      "from": [
+        "S04",
+        "tiny"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "low",
+      "sfx": "sparkle",
+      "sfx_vol": 0.26
+    },
+    {
+      "text": "AQUAMIN · KALSIUM MARIN",
+      "from": [
+        "S05",
+        "aquamin"
+      ],
+      "to": [
+        "S05",
+        "siap"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "COLLAGEN · BIRD NEST · OMEGA 3",
+      "from": [
+        "S05",
+        "siap"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "BLUEBERRY · ACEROLA · PRUNE · ELDERBERRY",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "tak"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "KOYAK & TERUS MINUM",
+      "from": [
+        "S06",
+        "tak"
+      ],
+      "to": [
+        "S06",
+        "sesuai"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SESUAI 2–18 TAHUN",
+      "from": [
+        "S06",
+        "sesuai"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S08",
+        "tekan"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "memilih",
+    "makanan",
+    "sayur",
+    "buah",
+    "nutrisi",
+    "membesar",
+    "tulang",
+    "gigi",
+    "kesihatan",
+    "tiny",
+    "titanz",
+    "180+",
+    "growth",
+    "support",
+    "aquamin",
+    "kalsium",
+    "marin",
+    "collagen",
+    "hmb",
+    "bird",
+    "nest",
+    "peptide",
+    "omega",
+    "3",
+    "blueberry",
+    "acerola",
+    "prune",
+    "elderberry",
+    "sayuran",
+    "koyak",
+    "minum",
+    "2",
+    "18",
+    "terbaik",
+    "beg",
+    "kuning",
+    "harga",
+    "promo",
+    "check",
+    "out",
+    "terus"
+  ],
+  "_owner_decisions": ""
+}
