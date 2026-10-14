@@ -403,6 +403,7 @@ CSS_GFX = FONT_FACE + f"""
 .title {{ position: absolute; left: 50px; right: 50px; top: 980px; text-align: center; font-family: "Archivo Black"; font-size: 62px; line-height: 1.08;
   color: {INK}; background: {CREAM}; border-left: 18px solid {BERRY}; padding: 22px 28px 26px; border-radius: 10px; box-shadow: 0 14px 30px rgba(0,0,0,.3); transform-origin: 50% 50%; }}
 .title.top {{ top: 230px; }}
+.title {{ white-space: pre-line; }}
 .cta {{ position: absolute; left: 60px; bottom: 210px; font-family: "Archivo Black"; font-size: 54px; color: #2a1a05; background: {YELLOW};
   padding: 22px 36px; border-radius: 999px; box-shadow: 0 12px 0 #2a1a05; transform-origin: 0% 50%; }}
 """

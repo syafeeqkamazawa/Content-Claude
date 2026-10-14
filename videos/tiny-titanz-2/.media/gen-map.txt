@@ -1,1 +1,9 @@
 broccoli .media/images/image_001.png
+sayur .media/images/image_002.png
+buah .media/images/image_003.png
+main .media/images/image_004.png
+aquamin .media/images/image_005.png
+tuna .media/images/image_006.png
+fruits .media/images/image_007.png
+ages .media/images/image_008.png
+family .media/images/image_009.png

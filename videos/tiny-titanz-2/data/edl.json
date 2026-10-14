@@ -48,7 +48,7 @@
       "out": 51.5,
       "zoom": 1.05,
       "text": "Dia ada Aquamin, sumber kalsium marin untuk tulang dan gigi, siap dengan collagen HMB, bird nest peptide dan omega 3 daripada tuna.",
-      "note": "'collagen HM(B)' — heard as HM/HEM; confirm with owner"
+      "note": "'collagen HMB' confirmed by the sachet label (Collagen HMB (Cod Fish)); Aquamin® (Red Algae)"
     },
     {
       "id": "S06",
@@ -294,10 +294,10 @@
         "S02",
         "end"
       ],
-      "pos": "low"
+      "pos": "top"
     },
     {
-      "text": "TULANG · GIGI · KESIHATAN",
+      "text": "TULANG, GIGI &\nKESIHATAN",
       "from": [
         "S03",
         "tulang"
@@ -306,10 +306,10 @@
         "S03",
         "end"
       ],
-      "pos": "low"
+      "pos": "top"
     },
     {
-      "text": "TINY TITANZ 180+ GROWTH SUPPORT",
+      "text": "TINY TITANZ 180+\nGROWTH SUPPORT",
       "from": [
         "S04",
         "tiny"
@@ -318,12 +318,12 @@
         "S04",
         "end"
       ],
-      "pos": "low",
+      "pos": "top",
       "sfx": "sparkle",
       "sfx_vol": 0.26
     },
     {
-      "text": "AQUAMIN · KALSIUM MARIN",
+      "text": "AQUAMIN\nKALSIUM MARIN",
       "from": [
         "S05",
         "aquamin"
@@ -335,7 +335,7 @@
       "pos": "top"
     },
     {
-      "text": "COLLAGEN · BIRD NEST · OMEGA 3",
+      "text": "COLLAGEN HMB\nBIRD NEST · OMEGA 3",
       "from": [
         "S05",
         "siap"
@@ -347,7 +347,7 @@
       "pos": "top"
     },
     {
-      "text": "BLUEBERRY · ACEROLA · PRUNE · ELDERBERRY",
+      "text": "BLUEBERRY · ACEROLA\nPRUNE · ELDERBERRY",
       "from": [
         "S06",
         "start"
