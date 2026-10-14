@@ -1,0 +1,392 @@
+{
+  "_note": "Voiceover-driven edit. 'vo' ranges are seconds in assets/vo.m4a (owner's VO, Google Drive 1reaQaHD…); 'shots' are muted picture from assets/v.mp4 (tripod demo on a white carpet, Drive 1pgiQ4qp…: dirty spots 0-2.5s, spray 2.6-5.5s, brushing 8.5-29.5s, spray 30.5-32s, brushing 33-57s, clean carpet 57-69s) — 'push' [from,to] + 'origin' crop into it — or a full-screen AI photo. Anchors are [vo id, 'start' | word]. tools/build.py turns this into index.html + compositions/.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tail": 0.6,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -42,
+    "blip": 0.03
+  },
+  "vo": [
+    {
+      "id": "V01",
+      "in": 0.55,
+      "out": 5.65,
+      "text": "Korang tengok karpet ni dah kotor macam ni, takkan setiap kali nak basuh kena hantar dobi kot?",
+      "note": "HOOK"
+    },
+    {
+      "id": "V02",
+      "in": 5.75,
+      "out": 10.95,
+      "text": "Lagi-lagi kalau karpet besar dan berat, nak angkat pun satu hal, nak tunggu kering lagi, memang leceh kan.",
+      "note": ""
+    },
+    {
+      "id": "V03",
+      "in": 27.3,
+      "out": 30.55,
+      "text": "Sebab tu korang kena tengok PerySmith M2 Lite II.",
+      "note": "take 5 of 6 (the one that names the model); 12.3-24.9 and 33.4-40.0 takes dropped"
+    },
+    {
+      "id": "V04",
+      "in": 49.4,
+      "out": 54.25,
+      "text": "Isi air dalam tangki, sembur dekat kawasan kotor, lepas tu sedut balik air bersama kotoran.",
+      "note": "take 3; takes at 40.2 and 45.8 dropped"
+    },
+    {
+      "id": "V05",
+      "in": 57.6,
+      "out": 60.42,
+      "text": "Korang tengok ni, air yang dia sedut masuk dalam tangki ni.",
+      "note": "'Fuhh korang tengok…' take at 54.9 dropped"
+    },
+    {
+      "id": "V06",
+      "in": 65.7,
+      "out": 68.1,
+      "text": "Baru nampak berapa banyak kotoran yang ada.",
+      "note": "take 2; 60.5 take ('…yang berjaya') dropped"
+    },
+    {
+      "id": "V07",
+      "in": 68.25,
+      "out": 70.2,
+      "text": "Memang puas hati dengan hasil dia weh.",
+      "note": ""
+    },
+    {
+      "id": "V08",
+      "in": 73.95,
+      "out": 77.0,
+      "text": "Yang best bukan karpet je, sofa, tilam semua boleh.",
+      "note": "take 2; 70.9 take dropped"
+    },
+    {
+      "id": "V09",
+      "in": 82.3,
+      "out": 87.9,
+      "text": "Kalau korang nak senang bersihkan kotoran dekat rumah, tekan beg kuning dan check out sekarang!",
+      "note": "CTA take 2; take 1 (76.8-80.7) trails off"
+    }
+  ],
+  "shots": [
+    {
+      "at": [
+        "V01",
+        "start"
+      ],
+      "clip": "v",
+      "src": 0.0,
+      "push": [
+        1.7,
+        1.85
+      ],
+      "origin": "50% 78%",
+      "note": "close-up tompok kotor atas karpet"
+    },
+    {
+      "at": [
+        "V01",
+        "takkan"
+      ],
+      "photo": "dobi",
+      "note": "AI: lelaki angkat karpet gulung ke kedai dobi"
+    },
+    {
+      "at": [
+        "V02",
+        "nak"
+      ],
+      "photo": "angkat",
+      "note": "AI: suami isteri angkat karpet besar yang berat"
+    },
+    {
+      "at": [
+        "V02",
+        "nak#2"
+      ],
+      "photo": "jemur",
+      "note": "AI: karpet basah dijemur di pagar, tak kering"
+    },
+    {
+      "at": [
+        "V03",
+        "start"
+      ],
+      "clip": "v",
+      "src": 57.5,
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "50% 35%",
+      "note": "produk penuh, karpet bersih"
+    },
+    {
+      "at": [
+        "V04",
+        "start"
+      ],
+      "clip": "v",
+      "src": 60.5,
+      "push": [
+        1.6,
+        1.7
+      ],
+      "origin": "50% 25%",
+      "note": "tangki air (zoom)"
+    },
+    {
+      "at": [
+        "V04",
+        "sembur"
+      ],
+      "clip": "v",
+      "src": 2.6,
+      "push": [
+        1.25,
+        1.35
+      ],
+      "origin": "30% 75%",
+      "note": "sembur kawasan kotor"
+    },
+    {
+      "at": [
+        "V04",
+        "lepas"
+      ],
+      "clip": "v",
+      "src": 9.0,
+      "push": [
+        1.3,
+        1.4
+      ],
+      "origin": "40% 80%",
+      "note": "berus sedut kotoran"
+    },
+    {
+      "at": [
+        "V05",
+        "start"
+      ],
+      "clip": "v",
+      "src": 14.5,
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "50% 40%",
+      "note": "tangki semasa menyedut"
+    },
+    {
+      "at": [
+        "V06",
+        "start"
+      ],
+      "clip": "v",
+      "src": 40.0,
+      "push": [
+        1.3,
+        1.45
+      ],
+      "origin": "40% 85%",
+      "note": "berus atas karpet, kotoran disedut"
+    },
+    {
+      "at": [
+        "V07",
+        "start"
+      ],
+      "clip": "v",
+      "src": 62.0,
+      "push": [
+        1.7,
+        1.85
+      ],
+      "origin": "50% 78%",
+      "note": "kawasan sama — dah bersih (before/after)"
+    },
+    {
+      "at": [
+        "V08",
+        "start"
+      ],
+      "photo": "sofa",
+      "note": "AI: wanita bertudung cuci sofa dengan muncung hos"
+    },
+    {
+      "at": [
+        "V08",
+        "tilam"
+      ],
+      "photo": "tilam",
+      "note": "AI: lelaki cuci tilam dengan muncung hos"
+    },
+    {
+      "at": [
+        "V09",
+        "start"
+      ],
+      "clip": "v",
+      "src": 45.0,
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 50%",
+      "note": "demo penuh"
+    },
+    {
+      "at": [
+        "V09",
+        "tekan"
+      ],
+      "clip": "v",
+      "src": 64.0,
+      "push": [
+        1.05,
+        1.12
+      ],
+      "origin": "50% 35%",
+      "note": "produk, CTA"
+    }
+  ],
+  "titles": [
+    {
+      "text": "KARPET KOTOR?",
+      "from": [
+        "V01",
+        "start"
+      ],
+      "to": [
+        "V01",
+        "takkan"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "BERAT & LAMBAT KERING",
+      "from": [
+        "V02",
+        "nak"
+      ],
+      "to": [
+        "V02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PERYSMITH M2 LITE II",
+      "from": [
+        "V03",
+        "perysmith"
+      ],
+      "to": [
+        "V03",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.26
+    },
+    {
+      "text": "SEMBUR & SEDUT",
+      "from": [
+        "V04",
+        "sembur"
+      ],
+      "to": [
+        "V04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SEDUTAN 17,000Pa",
+      "from": [
+        "V05",
+        "start"
+      ],
+      "to": [
+        "V05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "HASIL LEPAS CUCI",
+      "from": [
+        "V07",
+        "start"
+      ],
+      "to": [
+        "V07",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "KARPET · SOFA · TILAM",
+      "from": [
+        "V08",
+        "start"
+      ],
+      "to": [
+        "V08",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "V09",
+        "tekan"
+      ],
+      "to": [
+        "V09",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "karpet",
+    "kotor",
+    "dobi",
+    "berat",
+    "kering",
+    "leceh",
+    "perysmith",
+    "m2",
+    "lite",
+    "ii",
+    "air",
+    "tangki",
+    "sembur",
+    "sedut",
+    "kotoran",
+    "puas",
+    "hasil",
+    "sofa",
+    "tilam",
+    "senang",
+    "beg",
+    "kuning",
+    "check",
+    "out",
+    "sekarang"
+  ],
+  "_owner_decisions": ""
+}

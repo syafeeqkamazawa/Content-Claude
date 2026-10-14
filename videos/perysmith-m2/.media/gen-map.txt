@@ -1,0 +1,5 @@
+dobi .media/images/image_001.png
+angkat .media/images/image_002.png
+jemur .media/images/image_003.png
+sofa .media/images/image_004.png
+tilam .media/images/image_005.png

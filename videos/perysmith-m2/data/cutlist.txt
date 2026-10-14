@@ -1,0 +1,27 @@
+TOTAL 34.87s  (9 voiceover ranges, 15 shots, 14 audio fx, 37 caption cards)
+
+  0.00-  5.10  V01  vo   0.55-  5.65  (1 pc)  Korang tengok karpet ni dah kotor macam ni, takkan setiap kali nak basuh kena hantar dobi kot?
+  5.10- 10.30  V02  vo   5.75- 10.95  (1 pc)  Lagi-lagi kalau karpet besar dan berat, nak angkat pun satu hal, nak tunggu kering lagi, memang leceh kan.
+ 10.30- 13.57  V03  vo  27.30- 30.55  (1 pc)  Sebab tu korang kena tengok PerySmith M2 Lite II.
+ 13.57- 18.43  V04  vo  49.40- 54.25  (1 pc)  Isi air dalam tangki, sembur dekat kawasan kotor, lepas tu sedut balik air bersama kotoran.
+ 18.43- 21.27  V05  vo  57.60- 60.42  (1 pc)  Korang tengok ni, air yang dia sedut masuk dalam tangki ni.
+ 21.27- 23.67  V06  vo  65.70- 68.10  (1 pc)  Baru nampak berapa banyak kotoran yang ada.
+ 23.67- 25.63  V07  vo  68.25- 70.20  (1 pc)  Memang puas hati dengan hasil dia weh.
+ 25.63- 28.67  V08  vo  73.95- 77.00  (1 pc)  Yang best bukan karpet je, sofa, tilam semua boleh.
+ 28.67- 34.27  V09  vo  82.30- 87.90  (1 pc)  Kalau korang nak senang bersihkan kotoran dekat rumah, tekan beg kuning dan check out sekarang!
+
+  0.00-  2.70  P01  v @0.0s          close-up tompok kotor atas karpet
+  2.70-  7.00  P02  photo dobi       AI: lelaki angkat karpet gulung ke kedai dobi
+  7.00-  8.30  P03  photo angkat     AI: suami isteri angkat karpet besar yang berat
+  8.30- 10.30  P04  photo jemur      AI: karpet basah dijemur di pagar, tak kering
+ 10.30- 13.57  P05  v @57.5s         produk penuh, karpet bersih
+ 13.57- 14.93  P06  v @60.5s         tangki air (zoom)
+ 14.93- 16.43  P07  v @2.6s          sembur kawasan kotor
+ 16.43- 18.43  P08  v @9.0s          berus sedut kotoran
+ 18.43- 21.27  P09  v @14.5s         tangki semasa menyedut
+ 21.27- 23.67  P10  v @40.0s         berus atas karpet, kotoran disedut
+ 23.67- 25.63  P11  v @62.0s         kawasan sama — dah bersih (before/after)
+ 25.63- 27.57  P12  photo sofa       AI: wanita bertudung cuci sofa dengan muncung hos
+ 27.57- 28.67  P13  photo tilam      AI: lelaki cuci tilam dengan muncung hos
+ 28.67- 32.50  P14  v @45.0s         demo penuh
+ 32.50- 34.87  P15  v @64.0s         produk, CTA
