@@ -454,7 +454,7 @@
         "S05",
         "end"
       ],
-      "pos": "top",
+      "pos": "low",
       "sfx": "sparkle",
       "sfx_vol": 0.25
     },

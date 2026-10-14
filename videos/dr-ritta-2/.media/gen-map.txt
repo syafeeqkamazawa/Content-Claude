@@ -1,2 +1,12 @@
 strawberry .media/images/image_001.png
 aisle .media/images/image_003.png
+sink .media/images/image_004.png
+sulk .media/images/image_005.png
+run .media/images/image_006.png
+grimace .media/images/image_007.png
+siblings .media/images/image_008.png
+dentist .media/images/image_009.png
+papaya .media/images/image_010.png
+school .media/images/image_011.png
+nenek .media/images/image_012.png
+timer .media/images/image_013.png
