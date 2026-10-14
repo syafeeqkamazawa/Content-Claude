@@ -1,0 +1,2 @@
+strawberry .media/images/image_001.png
+aisle .media/images/image_003.png
