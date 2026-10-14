@@ -1,0 +1,389 @@
+{
+  "_note": "StemLabs Fish Oil #2. A-roll: Drive 1oSFp4FE… (14 Oct, front camera, mirrored back in CSS). B-roll: Drive 1Erel6c0… — the same clip as videos/magnesium; only its fish-oil part (44-80 s) is used here, and none of it was used before. All AI photos, titles and the music differ from videos/stemlabs-omega3. Word times come from data/transcript-a.json.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 0.4,
+      "out": 9.35,
+      "zoom": 1.05,
+      "text": "Fish oil 1000mg, tapi korang tahu tak, bukan semua fish oil ada kandungan EPA dan DHA yang sama tau.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 10.4,
+      "out": 18.8,
+      "zoom": 1.12,
+      "text": "Ramai orang beli omega-3 tengok angka 1000mg je, padahal EPA dengan DHA ni antara kandungan penting yang korang kena perasan.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 27.3,
+      "out": 37.05,
+      "zoom": 1.05,
+      "text": "Cuba tengok StemLabs Fish Oil Double Strength ni, setiap kapsul ada 1000mg fish oil dengan EPA 300mg dan DHA 200mg.",
+      "note": "'Haa, cuba korang tengok ok' false start (22.2-25.6) dropped"
+    },
+    {
+      "id": "S04",
+      "in": 37.6,
+      "out": 44.85,
+      "zoom": 1.12,
+      "text": "EPA dan DHA ni merupakan asid lemak omega-3 yang penting untuk tubuh tau.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 45.85,
+      "out": 49.92,
+      "zoom": 1.05,
+      "text": "Produk ni juga dibuat di New Zealand dan satu botol ada 30 kapsul.",
+      "note": "label in B-roll: 30's"
+    },
+    {
+      "id": "S06",
+      "in": 57.0,
+      "out": 62.68,
+      "zoom": 1.12,
+      "text": "Jadi lepas ni jangan tengok angka 1000mg je tau. Semak sekali kandungan EPA dengan DHA dia.",
+      "note": "stutter 'Jadi,' at 53.8-56.6 dropped"
+    },
+    {
+      "id": "S07",
+      "in": 63.0,
+      "out": 68.15,
+      "zoom": 1.05,
+      "text": "Nak cuba StemLabs ni, tekan beg kuning, cek harga. Kalau tengah promo, boleh check out terus!",
+      "note": ""
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "bukan",
+      1.1
+    ],
+    [
+      "S07",
+      "tekan",
+      1.1
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S03",
+        "stemlabs"
+      ],
+      "to": [
+        "S03",
+        "setiap"
+      ],
+      "src": 45.5,
+      "note": "botol depan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 30%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S03",
+        "setiap"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "src": 49.0,
+      "note": "label EPA DHA 300/200",
+      "push": [
+        1.3,
+        1.45
+      ],
+      "origin": "35% 25%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "merupakan"
+      ],
+      "src": 64.0,
+      "note": "softgel dalam penutup + botol"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S05",
+        "dan"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 70.0,
+      "note": "botol + softgel (30's)",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "45% 40%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S06",
+        "semak"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 52.5,
+      "note": "label EPA DHA 300/200 dekat",
+      "push": [
+        1.35,
+        1.5
+      ],
+      "origin": "35% 25%"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S07",
+        "kalau"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "src": 67.0,
+      "note": "softgel + botol (CTA)"
+    }
+  ],
+  "photos": [
+    {
+      "id": "compare",
+      "from": [
+        "S01",
+        "bukan"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: wanita bertudung banding dua botol fish oil di farmasi"
+    },
+    {
+      "id": "label",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "padahal"
+      ],
+      "note": "AI: lelaki baca label botol suplemen di kedai"
+    },
+    {
+      "id": "oil",
+      "from": [
+        "S04",
+        "merupakan"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: makro titisan minyak omega-3 keemasan"
+    },
+    {
+      "id": "nz",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "dan"
+      ],
+      "note": "AI: pemandangan New Zealand (gunung & tasik)"
+    }
+  ],
+  "titles": [
+    {
+      "text": "FISH OIL 1000MG?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "bukan"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "EPA & DHA TAK SAMA",
+      "from": [
+        "S01",
+        "bukan"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "JANGAN TENGOK\n1000MG JE",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "STEMLABS FISH OIL\nDOUBLE STRENGTH",
+      "from": [
+        "S03",
+        "stemlabs"
+      ],
+      "to": [
+        "S03",
+        "setiap"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.26
+    },
+    {
+      "text": "EPA 300MG + DHA 200MG",
+      "from": [
+        "S03",
+        "setiap"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "ASID LEMAK OMEGA-3",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "DIBUAT DI NEW ZEALAND",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "dan"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "30 KAPSUL SEBOTOL",
+      "from": [
+        "S05",
+        "dan"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SEMAK EPA & DHA",
+      "from": [
+        "S06",
+        "semak"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S07",
+        "tekan"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "fish",
+    "oil",
+    "1000mg",
+    "epa",
+    "dha",
+    "omega-3",
+    "angka",
+    "penting",
+    "perasan",
+    "stemlabs",
+    "double",
+    "strength",
+    "300mg",
+    "200mg",
+    "asid",
+    "lemak",
+    "new",
+    "zealand",
+    "30",
+    "kapsul",
+    "semak",
+    "beg",
+    "kuning",
+    "harga",
+    "promo",
+    "check",
+    "out",
+    "terus"
+  ],
+  "_owner_decisions": ""
+}

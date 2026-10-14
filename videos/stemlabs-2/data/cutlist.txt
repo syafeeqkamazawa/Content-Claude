@@ -1,0 +1,20 @@
+TOTAL 48.47s  (7 A-roll segments, 6 B-roll shots, 4 photos, 15 audio fx, 39 caption cards)
+
+  0.00-  8.93  S01  src   0.40-  9.35  (1 pc)  Fish oil 1000mg, tapi korang tahu tak, bukan semua fish oil ada kandungan EPA dan DHA yang sama tau.
+  8.93- 17.33  S02  src  10.40- 18.80  (1 pc)  Ramai orang beli omega-3 tengok angka 1000mg je, padahal EPA dengan DHA ni antara kandungan penting yang korang kena perasan.
+ 17.33- 27.07  S03  src  27.30- 37.05  (1 pc)  Cuba tengok StemLabs Fish Oil Double Strength ni, setiap kapsul ada 1000mg fish oil dengan EPA 300mg dan DHA 200mg.
+ 27.07- 33.57  S04  src  37.60- 44.85  (2 pc)  EPA dan DHA ni merupakan asid lemak omega-3 yang penting untuk tubuh tau.
+ 33.57- 37.63  S05  src  45.85- 49.92  (1 pc)  Produk ni juga dibuat di New Zealand dan satu botol ada 30 kapsul.
+ 37.63- 43.30  S06  src  57.00- 62.68  (1 pc)  Jadi lepas ni jangan tengok angka 1000mg je tau. Semak sekali kandungan EPA dengan DHA dia.
+ 43.30- 48.47  S07  src  63.00- 68.15  (1 pc)  Nak cuba StemLabs ni, tekan beg kuning, cek harga. Kalau tengah promo, boleh check out terus!
+
+  cutaway   4.37-  8.93
+  cutaway   8.93- 12.50
+  cutaway  17.97- 19.73
+  cutaway  19.73- 27.07
+  cutaway  27.07- 28.60
+  cutaway  28.60- 33.57
+  cutaway  33.57- 35.60
+  cutaway  35.60- 37.63
+  cutaway  40.47- 43.30
+  cutaway  45.97- 48.47

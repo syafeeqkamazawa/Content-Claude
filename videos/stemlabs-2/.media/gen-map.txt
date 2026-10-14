@@ -1,0 +1,4 @@
+compare .media/images/image_001.png
+label .media/images/image_002.png
+oil .media/images/image_003.png
+nz .media/images/image_004.png
