@@ -1,0 +1,5 @@
+insomnia .media/images/image_001.png
+night .media/images/image_002.png
+foods .media/images/image_003.png
+otot .media/images/image_004.png
+tenaga .media/images/image_005.png

@@ -1,0 +1,312 @@
+{
+  "_note": "Nature's Key Magnesium Capsules. A-roll: Drive 1vGxsKeM… (front camera, mirrored back in CSS). B-roll: Drive 1FsoDAeJ… — only the magnesium part (0-38s) is used; its StemLabs fish-oil part (44-80s) is not. Anchors are [segment id, 'start' | word | 'end']; word times come from data/transcript-a.json.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 1.4,
+      "out": 6.95,
+      "zoom": 1.05,
+      "text": "Korang pernah tak, badan dah penat gila, tapi bila baring atas katil, mata pula tak nak lelap. Geram kan?",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 6.9,
+      "out": 17.75,
+      "zoom": 1.12,
+      "text": "Kadang-kadang kita sibuk fikir pasal tidur, tapi terlupa badan kita ni perlukan mineral penting macam magnesium.",
+      "note": "pauses 7.0-9.7, 11.5-12.1 tightened"
+    },
+    {
+      "id": "S03",
+      "in": 20.2,
+      "out": 27.35,
+      "zoom": 1.05,
+      "text": "Ni Nature's Key Magnesium Capsules, dia guna magnesium glycinate, sejenis magnesium yang biasanya lebih mudah diterima perut.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 27.3,
+      "out": 32.52,
+      "zoom": 1.12,
+      "text": "Setiap kapsul ni ada 250mg magnesium.",
+      "note": "'dan satu botol ni ada 60 kapsul' cut: the label in the B-roll says 30 CAPSULES"
+    },
+    {
+      "id": "S05",
+      "in": 37.8,
+      "out": 45.8,
+      "zoom": 1.05,
+      "text": "Magnesium ni penting untuk fungsi otot, saraf dan metabolisme tenaga. Jadi kalau pengambilan magnesium korang tak mencukupi, memang elok ambil tau.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 61.2,
+      "out": 68.5,
+      "zoom": 1.12,
+      "text": "Kalau korang nak cuba produk ni, klik beg kuning, tengok harga dia berapa. Kalau harga tengah ada promo tu, check out terus!",
+      "note": "CTA take 3; 48.1 and 53.2 takes dropped"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "geram",
+      1.1
+    ],
+    [
+      "S06",
+      "klik",
+      1.1
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "dia"
+      ],
+      "src": 3.0,
+      "note": "botol depan — label",
+      "push": [
+        1.05,
+        1.2
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S03",
+        "dia"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "src": 19.0,
+      "note": "kapsul atas tapak tangan + botol"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "src": 14.2,
+      "note": "tuang kapsul ke tangan"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S06",
+        "tengok"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 28.5,
+      "note": "kapsul + botol (CTA)"
+    }
+  ],
+  "photos": [
+    {
+      "id": "insomnia",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "geram"
+      ],
+      "note": "AI: lelaki baring di katil malam, mata terbuka, penat"
+    },
+    {
+      "id": "night",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "tapi"
+      ],
+      "note": "AI: wanita bertudung duduk di birai katil malam, letih"
+    },
+    {
+      "id": "foods",
+      "from": [
+        "S02",
+        "tapi"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: makanan kaya magnesium (bayam, badam, biji labu, pisang, alpukat)"
+    },
+    {
+      "id": "otot",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "saraf"
+      ],
+      "note": "AI: lelaki regangan otot selepas jogging"
+    },
+    {
+      "id": "tenaga",
+      "from": [
+        "S05",
+        "saraf"
+      ],
+      "to": [
+        "S05",
+        "jadi"
+      ],
+      "note": "AI: wanita bertudung bertenaga kayuh basikal pagi"
+    }
+  ],
+  "titles": [
+    {
+      "text": "PENAT TAPI TAK BOLEH TIDUR?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "geram"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "MINERAL PENTING:\nMAGNESIUM",
+      "from": [
+        "S02",
+        "terlupa"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "NATURE'S KEY\nMAGNESIUM CAPSULES",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "dia"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.26
+    },
+    {
+      "text": "MAGNESIUM GLYCINATE",
+      "from": [
+        "S03",
+        "dia"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "250MG SETIAP KAPSUL",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "OTOT · SARAF · TENAGA",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "jadi"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S06",
+        "klik"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "penat",
+    "tidur",
+    "lelap",
+    "magnesium",
+    "mineral",
+    "penting",
+    "nature's",
+    "key",
+    "capsules",
+    "glycinate",
+    "perut",
+    "250mg",
+    "kapsul",
+    "otot",
+    "saraf",
+    "metabolisme",
+    "tenaga",
+    "beg",
+    "kuning",
+    "harga",
+    "promo",
+    "check",
+    "out",
+    "terus"
+  ],
+  "_owner_decisions": ""
+}

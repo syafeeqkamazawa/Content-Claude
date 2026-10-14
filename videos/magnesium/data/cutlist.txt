@@ -1,0 +1,18 @@
+TOTAL 42.37s  (6 A-roll segments, 4 B-roll shots, 5 photos, 10 audio fx, 36 caption cards)
+
+  0.00-  5.27  S01  src   1.40-  6.95  (2 pc)  Korang pernah tak, badan dah penat gila, tapi bila baring atas katil, mata pula tak nak lelap. Geram kan?
+  5.27- 15.37  S02  src   6.90- 17.75  (3 pc)  Kadang-kadang kita sibuk fikir pasal tidur, tapi terlupa badan kita ni perlukan mineral penting macam magnesium.
+ 15.37- 22.53  S03  src  20.20- 27.35  (1 pc)  Ni Nature's Key Magnesium Capsules, dia guna magnesium glycinate, sejenis magnesium yang biasanya lebih mudah diterima perut.
+ 22.53- 27.47  S04  src  27.30- 32.52  (2 pc)  Setiap kapsul ni ada 250mg magnesium.
+ 27.47- 35.47  S05  src  37.80- 45.80  (1 pc)  Magnesium ni penting untuk fungsi otot, saraf dan metabolisme tenaga. Jadi kalau pengambilan magnesium korang tak mencukupi, memang elok ambil tau.
+ 35.47- 42.37  S06  src  61.20- 68.50  (2 pc)  Kalau korang nak cuba produk ni, klik beg kuning, tengok harga dia berapa. Kalau harga tengah ada promo tu, check out terus!
+
+  cutaway   0.00-  4.83
+  cutaway   5.27- 11.27
+  cutaway  11.27- 15.37
+  cutaway  15.37- 17.70
+  cutaway  17.70- 22.53
+  cutaway  22.53- 27.47
+  cutaway  27.47- 29.67
+  cutaway  29.67- 31.40
+  cutaway  38.47- 42.37
