@@ -421,7 +421,7 @@ CSS_CAP = FONT_FACE + f"""
   font-family: "Plus Jakarta Sans"; font-weight: 800; font-size: 56px; line-height: 1.22; color: #ffffff; letter-spacing: -0.5px;
   text-shadow: 0 2px 10px rgba(0,0,0,.45); }}
 .cap .w {{ display: inline-block; margin: 0 12px; transform-origin: 50% 70%; }}
-.cap .w.kw {{ color: #6BE3DE; }}
+.cap .w.kw {{ color: #86ECE7; }}
 """
 
 

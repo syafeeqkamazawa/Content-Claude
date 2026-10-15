@@ -4,3 +4,4 @@ jatuh .media/images/image_003.png
 cucisofa .media/images/image_005.png
 kereta .media/images/image_007.png
 kotorlama .media/images/image_008.png
+tilam .media/images/image_009.png
