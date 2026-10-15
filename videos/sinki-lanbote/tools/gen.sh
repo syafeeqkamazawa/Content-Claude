@@ -17,7 +17,7 @@ gen () {
 want () { [ -z "$ONLY" ] || [[ "$ONLY" == *" $1 "* ]]; }
 
 want sumbat && gen sumbat "Close-up of a clogged stainless steel kitchen sink in a Malaysian home, murky grey water pooled and not draining, food scraps, rice grains, vegetable bits and noodles floating over the drain, unpleasant, realistic, no people, no brand."
-want kutip && gen kutip "Close-up of a hand in a long sleeve picking soggy food scraps, rice and vegetable bits one by one out of a kitchen sink drain strainer with fingers, disgusted gesture, wet messy sink, no face, no brand."
-want buang && gen buang "Close-up of a hand in a long sleeve lifting a white disposable mesh sink strainer bag full of food scraps out of a kitchen sink drain basket and dropping it into a small kitchen rubbish bin, clean and easy, no face, no brand, no text."
+want kutip && gen kutip "Close-up of a hand, the long sleeve reaching all the way down to the wrist so no forearm skin shows, picking soggy food scraps, rice and vegetable bits one by one out of a kitchen sink drain strainer with fingers, disgusted gesture, wet messy sink, no face, no brand."
+want buang && gen buang "Close-up of a hand, the long sleeve reaching all the way down to the wrist so no forearm skin shows, lifting a white disposable mesh sink strainer bag full of food scraps out of a kitchen sink drain basket and dropping it into a small kitchen rubbish bin, clean and easy, no face, no brand, no text."
 want dapur && gen dapur "A Malay woman in a hijab that fully covers her hair, neck and chest and loose long sleeves pushed down to the wrists happily washing dishes at a clean modern kitchen sink in a Malaysian home, water draining freely, bright kitchen. $PPL"
 echo DONE

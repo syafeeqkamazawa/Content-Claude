@@ -21,7 +21,7 @@ TOTAL 34.63s  (10 voiceover ranges, 15 shots, 15 audio fx, 35 caption cards)
  15.53- 18.40  P08  v @127.0s        basuh sisa makanan dalam sinki
  18.40- 20.17  P09  v @241.0s        close-up penapis dalam lubang sinki
  20.17- 22.60  P10  photo buang      AI: angkat jaring penuh sisa, buang ke tong sampah
- 22.60- 24.27  P11  v @162.5s        bakul penapis diangkat bersih
+ 22.60- 24.27  P11  v @163.3s        bakul penapis diangkat bersih
  24.27- 26.43  P12  v @53.0s         pek — 100 keping
  26.43- 28.90  P13  photo dapur      AI: wanita bertudung cuci pinggan, sinki bersih
  28.90- 30.73  P14  v @176.5s        jaring pada bakul
