@@ -1,0 +1,9 @@
+tuam .media/images/image_001.png
+lantai .media/images/image_002.png
+kristal .media/images/image_003.png
+terseliuh .media/images/image_004.png
+milkthistle .media/images/image_005.png
+nenas .media/images/image_006.png
+halia .media/images/image_007.png
+kunyit .media/images/image_008.png
+klinik .media/images/image_009.png
