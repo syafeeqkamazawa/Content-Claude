@@ -1,0 +1,365 @@
+{
+  "_note": "Pentavite Mg (magnesium gummies, mixed blueberry, lemon balm extract & lavender oil). A-roll: Drive 1i8_QE4t… (owner holding the box). B-roll: Drive 1qajP9w9… (selfie: open box, sachet, gummy, chewing), muted. Both clips are selfies saved mirrored, so A-roll and B-roll are flipped back in CSS. Word times come from data/transcript-a.json.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 2.6,
+      "out": 4.98,
+      "zoom": 1.05,
+      "text": "Korang pernah tak? Siang dah penat bekerja,",
+      "note": "HOOK take 1 up to 'bekerja'"
+    },
+    {
+      "id": "S01b",
+      "in": 9.72,
+      "out": 11.2,
+      "zoom": 1.12,
+      "text": "malam pula susah nak berehat.",
+      "note": "from take 2 — take 1's 'berehat' is swallowed"
+    },
+    {
+      "id": "S02",
+      "in": 13.62,
+      "out": 15.85,
+      "zoom": 1.12,
+      "text": "Esok nak bangun kena hadap rutin yang sama lagi.",
+      "note": "self-correction 'Esok bangun,' (11.4-12.3) dropped"
+    },
+    {
+      "id": "S03",
+      "in": 19.1,
+      "out": 24.8,
+      "zoom": 1.05,
+      "text": "Kadang-kadang kita terlalu sibuk urus kerja, rumah, keluarga sampai terlupa nak jaga keperluan nutrisi badan sendiri.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 27.9,
+      "out": 39.45,
+      "zoom": 1.12,
+      "text": "Dengan saya ni ada Pentavite Magnesium Gummies. Dia ada magnesium, lemon balm extract dengan lavender oil tau. Rasa mixed blueberry pula tu, memang sedap. Sesuai untuk korang yang nak tambah magnesium dalam rutin harian korang.",
+      "note": "label: 'mixed blueberry with lemon balm extract & lavender oil gummies', flavour on box/sachet = Strawberry; owner says 'rasa mixed blueberry' — title shows MIXED BLUEBERRY only (flagged to owner)"
+    },
+    {
+      "id": "S05",
+      "in": 49.55,
+      "out": 56.85,
+      "zoom": 1.05,
+      "text": "Yang menariknya, belian magnesium gummies ni ada kombo tau, korang boleh beli dengan mana-mana produk Pentavite yang lain.",
+      "note": "clean take after two false starts (42.3-49.0)"
+    },
+    {
+      "id": "S06",
+      "in": 109.2,
+      "out": 118.7,
+      "zoom": 1.12,
+      "text": "Jangan asyik jaga semua orang sampai diri sendiri terabai pula. Tekan beg kuning sekarang, tengok kombo mana yang korang suka. Kalau ada harga tengah promo tu, check out terus!",
+      "note": "CTA take 4 (the only one with the promo line)"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "siang",
+      1.08
+    ],
+    [
+      "S06",
+      "tekan",
+      1.1
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S04",
+        "rasa"
+      ],
+      "to": [
+        "S04",
+        "memang"
+      ],
+      "src": 68.0,
+      "note": "gummy ungu di jari"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S04",
+        "memang"
+      ],
+      "to": [
+        "S04",
+        "sesuai"
+      ],
+      "src": 80.5,
+      "note": "kunyah — sedap"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S04",
+        "sesuai"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "src": 8.0,
+      "note": "buka kotak, sachet di dalam"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S05",
+        "korang"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 31.0,
+      "note": "sachet Pentavite Mg"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S06",
+        "kalau"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 63.5,
+      "note": "gummy atas tapak tangan (CTA)"
+    }
+  ],
+  "photos": [
+    {
+      "id": "office",
+      "from": [
+        "S01",
+        "siang"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: lelaki letih di meja pejabat lewat petang"
+    },
+    {
+      "id": "sofa",
+      "from": [
+        "S01b",
+        "start"
+      ],
+      "to": [
+        "S01b",
+        "end"
+      ],
+      "note": "AI: wanita bertudung tak boleh rehat di sofa malam"
+    },
+    {
+      "id": "alarm",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: lelaki bangun pagi mamai, jam loceng"
+    },
+    {
+      "id": "busy",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "sampai"
+      ],
+      "note": "AI: ibu bertudung sibuk — laptop, masak, anak"
+    },
+    {
+      "id": "herbs",
+      "from": [
+        "S04",
+        "dia"
+      ],
+      "to": [
+        "S04",
+        "rasa"
+      ],
+      "note": "AI: daun lemon balm, bunga lavender, botol minyak"
+    },
+    {
+      "id": "selfcare",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "tekan"
+      ],
+      "note": "AI: wanita bertudung rehat dengan teh, tenang"
+    }
+  ],
+  "titles": [
+    {
+      "text": "PENAT SIANG,\nSUSAH REHAT MALAM?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01b",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "RUTIN SAMA SETIAP HARI",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "NUTRISI BADAN SENDIRI?",
+      "from": [
+        "S03",
+        "sampai"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PENTAVITE\nMAGNESIUM GUMMIES",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "dia"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.26
+    },
+    {
+      "text": "LEMON BALM +\nLAVENDER OIL",
+      "from": [
+        "S04",
+        "dia"
+      ],
+      "to": [
+        "S04",
+        "rasa"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "MIXED BLUEBERRY",
+      "from": [
+        "S04",
+        "rasa"
+      ],
+      "to": [
+        "S04",
+        "sesuai"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "ADA KOMBO\nPRODUK PENTAVITE",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "JAGA DIRI SENDIRI JUGA",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "tekan"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S06",
+        "tekan"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "penat",
+    "rehat",
+    "berehat",
+    "rutin",
+    "nutrisi",
+    "pentavite",
+    "magnesium",
+    "gummies",
+    "lemon",
+    "balm",
+    "extract",
+    "lavender",
+    "oil",
+    "mixed",
+    "blueberry",
+    "sedap",
+    "kombo",
+    "diri",
+    "sendiri",
+    "beg",
+    "kuning",
+    "promo",
+    "check",
+    "out",
+    "terus"
+  ],
+  "_owner_decisions": ""
+}

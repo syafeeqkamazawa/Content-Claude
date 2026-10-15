@@ -1,0 +1,21 @@
+TOTAL 39.20s  (7 A-roll segments, 5 B-roll shots, 6 photos, 14 audio fx, 43 caption cards)
+
+  0.00-  2.37  S01  src   2.60-  4.98  (1 pc)  Korang pernah tak? Siang dah penat bekerja,
+  2.37-  3.83  S01b  src   9.72- 11.20  (1 pc)  malam pula susah nak berehat.
+  3.83-  6.07  S02  src  13.62- 15.85  (1 pc)  Esok nak bangun kena hadap rutin yang sama lagi.
+  6.07- 11.77  S03  src  19.10- 24.80  (1 pc)  Kadang-kadang kita terlalu sibuk urus kerja, rumah, keluarga sampai terlupa nak jaga keperluan nutrisi badan sendiri.
+ 11.77- 23.20  S04  src  27.90- 39.45  (2 pc)  Dengan saya ni ada Pentavite Magnesium Gummies. Dia ada magnesium, lemon balm extract dengan lavender oil tau. Rasa mixed blueberry pula tu, memang sedap. Sesuai untuk korang yang nak tambah magnesium dalam rutin harian korang.
+ 23.20- 30.50  S05  src  49.55- 56.85  (1 pc)  Yang menariknya, belian magnesium gummies ni ada kombo tau, korang boleh beli dengan mana-mana produk Pentavite yang lain.
+ 30.50- 39.20  S06  src 109.20-118.70  (4 pc)  Jangan asyik jaga semua orang sampai diri sendiri terabai pula. Tekan beg kuning sekarang, tengok kombo mana yang korang suka. Kalau ada harga tengah promo tu, check out terus!
+
+  cutaway   1.23-  2.37
+  cutaway   2.37-  3.83
+  cutaway   3.83-  6.07
+  cutaway   6.07-  9.27
+  cutaway  14.77- 18.00
+  cutaway  18.00- 19.53
+  cutaway  19.53- 20.50
+  cutaway  20.50- 23.20
+  cutaway  26.90- 30.50
+  cutaway  30.50- 33.20
+  cutaway  36.80- 39.20
