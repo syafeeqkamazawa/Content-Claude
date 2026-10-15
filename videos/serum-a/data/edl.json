@@ -1,0 +1,60 @@
+{
+  "_note": "A-roll only (Drive 12IjVfha…, front camera saved mirrored → flipped in CSS). Owner: no captions, no overlays, no background music for this clip — just arrange the script. Source times are seconds in assets/a.mp4; the recording's own audio is gated, so cut points follow the speech islands, not whisper word times.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": false,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 46.2,
+      "out": 51.45,
+      "zoom": 1.05,
+      "text": "Hari ke-13 menggunakan Hero Hige Baik Jambang Solution.",
+      "note": "take 2 intro (take 1 'D13…' at 4.8 dropped)"
+    },
+    {
+      "id": "S02",
+      "in": 10.5,
+      "out": 20.02,
+      "zoom": 1.12,
+      "text": "Bahagian bawah dagu ni mesti tak bersambung dengan sebelah kiri dan sebelah kanan.",
+      "note": "take 1 (cleaner than take 2's 'kan, kanan…' at 54-66)"
+    },
+    {
+      "id": "S03",
+      "in": 22.8,
+      "out": 24.16,
+      "zoom": 1.0,
+      "text": "Belum nampak perubahan besar,",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 66.78,
+      "out": 77.45,
+      "zoom": 1.08,
+      "text": "tapi baru hari ke-13. Kita teruskan, yang penting kita konsisten gunakan Hero Hige ni satu kali pagi, satu kali malam.",
+      "note": "take 2 ending"
+    },
+    {
+      "id": "S05",
+      "in": 85.9,
+      "out": 92.12,
+      "zoom": 1.0,
+      "text": "Yang nak cuba Hero Hige Baik Jambang Solution, boleh check out dekat beg kuning.",
+      "note": "CTA; silent application footage after 96 s not used"
+    }
+  ],
+  "punch": [],
+  "broll": [],
+  "photos": [],
+  "titles": [],
+  "keywords": []
+}
