@@ -1,0 +1,31 @@
+TOTAL 43.07s  (6 voiceover ranges, 22 shots, 17 audio fx, 45 caption cards)
+
+  0.00-  4.07  V01  vo   0.42-  4.50  (1 pc)  Korang tengok ni, sofa yang kita duduk hari-hari nampak macam bersih kan?
+  4.07-  8.00  V02  vo   4.50-  8.42  (1 pc)  Tapi bila basuh, tengoklah air dia ni. Gelap weh.
+  8.00- 15.63  V03  vo   8.88- 16.52  (1 pc)  Lagi-lagi rumah yang ada anak kecil, air tumpah, makanan jatuh, macam-macam melekat dekat sofa. Kalau biar lama-lama, memang susah nak bersihkan.
+ 15.63- 25.70  V04  vo  17.02- 27.08  (1 pc)  Sebab tu aku guna PerySmith M2 Lite II Spot Cleaner ni, sembur air dekat fabrik, gosok bahagian kotor. Lepas tu sedut balik air dengan kotoran sekali. Puas hati gila tengok hasil dia.
+ 25.70- 33.90  V05  vo  47.18- 55.38  (1 pc)  Bestnya bukan sofa je tau. Korang boleh guna untuk fabrik lain yang sesuai, macam tilam, kerusi kereta, karpet dan kusyen. Memang banyak kegunaan dia.
+ 33.90- 42.47  V06  vo  55.62- 64.42  (2 pc)  Daripada biarkan sofa makin kotor, baik kita bersihkan sendiri dekat rumah. Korang nak cuba, tekan beg kuning, check harga. Kalau harga tengah murah tu, check out terus!
+
+  0.00-  1.33  P01  v @8.6s          close-up buih atas fabrik
+  1.33-  4.07  P02  photo sofabersih AI: sofa kelabu di ruang tamu, nampak bersih
+  4.07-  5.33  P03  v @43.4s         berus sedut atas fabrik
+  5.33-  8.00  P04  v @89.6s         tangki diangkat — air kotor gelap
+  8.00- 10.70  P05  photo tumpah     AI: budak kecil tumpahkan jus atas sofa
+ 10.70- 13.17  P06  photo jatuh      AI: makanan jatuh atas kusyen sofa
+ 13.17- 15.63  P07  photo kotorlama  AI: kusyen sofa bertompok lama, susah dicuci
+ 15.63- 18.07  P08  v @0.2s          produk penuh
+ 18.07- 19.17  P09  v @1.0s          logo CleanPro (zoom)
+ 19.17- 20.27  P10  v @3.2s          sembur atas fabrik
+ 20.27- 21.77  P11  v @23.6s         gosok bahagian kotor
+ 21.77- 24.13  P12  v @62.9s         sedut air dengan kotoran
+ 24.13- 25.70  P13  v @91.4s         tangki kotor (zoom) — hasil
+ 25.70- 29.80  P14  photo cucisofa   AI: wanita bertudung cuci sofa dengan muncung hos generik
+ 29.80- 30.43  P15  photo tilam      AI: cuci tilam
+ 30.43- 31.13  P16  photo kereta     AI: cuci kerusi kereta
+ 31.13- 32.43  P17  v @44.8s         karpet — footage sebenar
+ 32.43- 33.90  P18  v @95.6s         mesin + muncung
+ 33.90- 35.67  P19  v @25.2s         berus atas fabrik
+ 35.67- 37.87  P20  v @49.6s         cuci sendiri di rumah
+ 37.87- 39.97  P21  v @100.0s        produk, CTA
+ 39.97- 43.07  P22  v @66.6s         muncung + berus, CTA

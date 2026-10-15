@@ -1,0 +1,13 @@
+# Large media stays out of git (source footage lives on Google Drive).
+src/
+assets/v.mp4
+assets/vo.m4a
+renders/
+snapshots/
+.hyperframes/
+node_modules/
+.media/images/
+.media/audio/
+.media/gen.log
+data/vo-rms.json
+tools/__pycache__/

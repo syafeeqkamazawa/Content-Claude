@@ -1,0 +1,475 @@
+{
+  "_note": "Voiceover-driven edit. 'vo' ranges are seconds in assets/vo.m4a (owner's VO, Google Drive 1IksLY8-…); 'shots' are muted picture from assets/v.mp4 (rear-camera demo of the M2 on a beige carpet, Drive 10nTnVh8…: machine 0-2s, foam spray 3-7s, foam on carpet 8-12s, brushing 15-30s, spray 38-40s, brushing 41-69s, nozzle 80-87s, dirty tank lifted out 89-93.5s, nozzle 95-99s) — 'push' [from,to] + 'origin' crop into it — or a full-screen AI photo. Anchors are [vo id, 'start' | word]. tools/build.py turns this into index.html + compositions/. None of this footage or these photos were used in PerySmith #1.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tail": 0.6,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -42,
+    "blip": 0.03
+  },
+  "vo": [
+    {
+      "id": "V01",
+      "in": 0.42,
+      "out": 4.5,
+      "text": "Korang tengok ni, sofa yang kita duduk hari-hari nampak macam bersih kan?",
+      "note": "HOOK"
+    },
+    {
+      "id": "V02",
+      "in": 4.5,
+      "out": 8.42,
+      "text": "Tapi bila basuh, tengoklah air dia ni. Gelap weh.",
+      "note": "whisper hears 'idea ni' — spoken 'air dia ni'"
+    },
+    {
+      "id": "V03",
+      "in": 8.88,
+      "out": 16.52,
+      "text": "Lagi-lagi rumah yang ada anak kecil, air tumpah, makanan jatuh, macam-macam melekat dekat sofa. Kalau biar lama-lama, memang susah nak bersihkan.",
+      "note": ""
+    },
+    {
+      "id": "V04",
+      "in": 17.02,
+      "out": 27.08,
+      "text": "Sebab tu aku guna PerySmith M2 Lite II Spot Cleaner ni, sembur air dekat fabrik, gosok bahagian kotor. Lepas tu sedut balik air dengan kotoran sekali. Puas hati gila tengok hasil dia.",
+      "note": ""
+    },
+    {
+      "id": "V05",
+      "in": 47.18,
+      "out": 55.38,
+      "text": "Bestnya bukan sofa je tau. Korang boleh guna untuk fabrik lain yang sesuai, macam tilam, kerusi kereta, karpet dan kusyen. Memang banyak kegunaan dia.",
+      "note": "take 4 (the only complete one); takes at 28.1, 32.2-37.5 and 43.1 dropped"
+    },
+    {
+      "id": "V06",
+      "in": 55.62,
+      "out": 64.42,
+      "text": "Daripada biarkan sofa makin kotor, baik kita bersihkan sendiri dekat rumah. Korang nak cuba, tekan beg kuning, check harga. Kalau harga tengah murah tu, check out terus!",
+      "note": "CTA"
+    }
+  ],
+  "shots": [
+    {
+      "at": [
+        "V01",
+        "start"
+      ],
+      "clip": "v",
+      "src": 8.6,
+      "push": [
+        1.45,
+        1.6
+      ],
+      "origin": "50% 72%",
+      "note": "close-up buih atas fabrik"
+    },
+    {
+      "at": [
+        "V01",
+        "sofa"
+      ],
+      "photo": "sofabersih",
+      "note": "AI: sofa kelabu di ruang tamu, nampak bersih"
+    },
+    {
+      "at": [
+        "V02",
+        "start"
+      ],
+      "clip": "v",
+      "src": 43.4,
+      "push": [
+        1.35,
+        1.45
+      ],
+      "origin": "40% 85%",
+      "note": "berus sedut atas fabrik"
+    },
+    {
+      "at": [
+        "V02",
+        "tengoklah"
+      ],
+      "clip": "v",
+      "src": 89.6,
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "45% 55%",
+      "note": "tangki diangkat — air kotor gelap"
+    },
+    {
+      "at": [
+        "V03",
+        "start"
+      ],
+      "photo": "tumpah",
+      "note": "AI: budak kecil tumpahkan jus atas sofa"
+    },
+    {
+      "at": [
+        "V03",
+        "makanan"
+      ],
+      "photo": "jatuh",
+      "note": "AI: makanan jatuh atas kusyen sofa"
+    },
+    {
+      "at": [
+        "V03",
+        "kalau"
+      ],
+      "photo": "kotorlama",
+      "note": "AI: kusyen sofa bertompok lama, susah dicuci"
+    },
+    {
+      "at": [
+        "V04",
+        "start"
+      ],
+      "clip": "v",
+      "src": 0.2,
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 35%",
+      "note": "produk penuh"
+    },
+    {
+      "at": [
+        "V04",
+        "spot"
+      ],
+      "clip": "v",
+      "src": 1.0,
+      "push": [
+        1.8,
+        1.9
+      ],
+      "origin": "57% 30%",
+      "note": "logo CleanPro (zoom)"
+    },
+    {
+      "at": [
+        "V04",
+        "sembur"
+      ],
+      "clip": "v",
+      "src": 3.2,
+      "push": [
+        1.3,
+        1.4
+      ],
+      "origin": "35% 70%",
+      "note": "sembur atas fabrik"
+    },
+    {
+      "at": [
+        "V04",
+        "gosok"
+      ],
+      "clip": "v",
+      "src": 23.6,
+      "push": [
+        1.35,
+        1.45
+      ],
+      "origin": "35% 80%",
+      "note": "gosok bahagian kotor"
+    },
+    {
+      "at": [
+        "V04",
+        "lepas"
+      ],
+      "clip": "v",
+      "src": 62.9,
+      "push": [
+        1.25,
+        1.35
+      ],
+      "origin": "45% 80%",
+      "note": "sedut air dengan kotoran"
+    },
+    {
+      "at": [
+        "V04",
+        "puas"
+      ],
+      "clip": "v",
+      "src": 91.4,
+      "push": [
+        1.25,
+        1.35
+      ],
+      "origin": "50% 62%",
+      "note": "tangki kotor (zoom) — hasil"
+    },
+    {
+      "at": [
+        "V05",
+        "start"
+      ],
+      "photo": "cucisofa",
+      "note": "AI: wanita bertudung cuci sofa dengan muncung hos generik"
+    },
+    {
+      "at": [
+        "V05",
+        "tilam"
+      ],
+      "photo": "tilam",
+      "note": "AI: cuci tilam"
+    },
+    {
+      "at": [
+        "V05",
+        "kerusi"
+      ],
+      "photo": "kereta",
+      "note": "AI: cuci kerusi kereta"
+    },
+    {
+      "at": [
+        "V05",
+        "karpet"
+      ],
+      "clip": "v",
+      "src": 44.8,
+      "push": [
+        1.15,
+        1.25
+      ],
+      "origin": "50% 75%",
+      "note": "karpet — footage sebenar"
+    },
+    {
+      "at": [
+        "V05",
+        "memang"
+      ],
+      "clip": "v",
+      "src": 95.6,
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 60%",
+      "note": "mesin + muncung"
+    },
+    {
+      "at": [
+        "V06",
+        "start"
+      ],
+      "clip": "v",
+      "src": 25.2,
+      "push": [
+        1.2,
+        1.3
+      ],
+      "origin": "45% 75%",
+      "note": "berus atas fabrik"
+    },
+    {
+      "at": [
+        "V06",
+        "baik"
+      ],
+      "clip": "v",
+      "src": 49.6,
+      "push": [
+        1.1,
+        1.18
+      ],
+      "origin": "50% 65%",
+      "note": "cuci sendiri di rumah"
+    },
+    {
+      "at": [
+        "V06",
+        "korang"
+      ],
+      "clip": "v",
+      "src": 100.0,
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 40%",
+      "note": "produk, CTA"
+    },
+    {
+      "at": [
+        "V06",
+        "kalau"
+      ],
+      "clip": "v",
+      "src": 66.6,
+      "push": [
+        1.1,
+        1.2
+      ],
+      "origin": "50% 70%",
+      "note": "muncung + berus, CTA"
+    }
+  ],
+  "titles": [
+    {
+      "text": "NAMPAK BERSIH?",
+      "from": [
+        "V01",
+        "sofa"
+      ],
+      "to": [
+        "V01",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "AIR GELAP WEH!",
+      "from": [
+        "V02",
+        "gelap"
+      ],
+      "to": [
+        "V02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "AIR TUMPAH\nMAKANAN JATUH",
+      "from": [
+        "V03",
+        "air"
+      ],
+      "to": [
+        "V03",
+        "kalau"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "LAGI LAMA, LAGI SUSAH",
+      "from": [
+        "V03",
+        "kalau"
+      ],
+      "to": [
+        "V03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PERYSMITH M2 LITE II",
+      "from": [
+        "V04",
+        "perysmith"
+      ],
+      "to": [
+        "V04",
+        "sembur"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.26
+    },
+    {
+      "text": "SEMBUR · GOSOK · SEDUT",
+      "from": [
+        "V04",
+        "sembur"
+      ],
+      "to": [
+        "V04",
+        "puas"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PUAS HATI!",
+      "from": [
+        "V04",
+        "puas"
+      ],
+      "to": [
+        "V04",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "TILAM · KERUSI KERETA\nKARPET · KUSYEN",
+      "from": [
+        "V05",
+        "macam"
+      ],
+      "to": [
+        "V05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "V06",
+        "tekan"
+      ],
+      "to": [
+        "V06",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "sofa",
+    "bersih",
+    "gelap",
+    "anak",
+    "tumpah",
+    "jatuh",
+    "melekat",
+    "susah",
+    "perysmith",
+    "m2",
+    "lite",
+    "ii",
+    "spot",
+    "cleaner",
+    "sembur",
+    "gosok",
+    "sedut",
+    "kotoran",
+    "puas",
+    "fabrik",
+    "tilam",
+    "kerusi",
+    "kereta",
+    "karpet",
+    "kusyen",
+    "kegunaan",
+    "sendiri",
+    "beg",
+    "kuning",
+    "harga",
+    "murah",
+    "terus"
+  ]
+}

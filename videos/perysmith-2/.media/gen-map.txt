@@ -1,0 +1,4 @@
+sofabersih .media/images/image_001.png
+tumpah .media/images/image_002.png
+jatuh .media/images/image_003.png
+kotorlama .media/images/image_004.png
