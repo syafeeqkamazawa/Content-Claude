@@ -1,0 +1,8 @@
+memilih .media/images/image_001.png
+risau .media/images/image_002.png
+aktif .media/images/image_004.png
+sekolah .media/images/image_005.png
+peach .media/images/image_006.png
+kunyah .media/images/image_007.png
+seimbang .media/images/image_008.png
+membesar .media/images/image_009.png

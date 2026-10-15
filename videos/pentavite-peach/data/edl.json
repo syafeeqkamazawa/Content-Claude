@@ -207,7 +207,7 @@
         "tanpa"
       ],
       "clip": "b",
-      "src": 88.0,
+      "src": 93.0,
       "push": [
         1.05,
         1.15
@@ -340,7 +340,7 @@
       "sfx_vol": 0.26
     },
     {
-      "text": "12 NUTRIEN\nTERMASUK VITAMIN A, C, D",
+      "text": "12 NUTRIEN\nVITAMIN A, C & D",
       "from": [
         "V04",
         "12"

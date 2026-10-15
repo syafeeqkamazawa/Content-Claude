@@ -21,7 +21,7 @@ TOTAL 45.87s  (8 voiceover ranges, 18 shots, 20 audio fx, 44 caption cards)
  21.37- 24.37  P10  b @60.0s         botol + tablet dalam tapak tangan
  24.37- 26.80  P11  b @72.0s         tablet kunyah dekat
  26.80- 29.23  P12  photo peach      AI: buah peach segar
- 29.23- 30.93  P13  b @88.0s         tablet + label
+ 29.23- 30.93  P13  b @93.0s         tablet + label
  30.93- 33.97  P14  photo kunyah     AI: anak perempuan bertudung kunyah tablet, ibu di sebelah
  33.97- 37.67  P15  photo seimbang   AI: keluarga makan hidangan seimbang
  37.67- 40.17  P16  b @100.0s        tablet + botol
