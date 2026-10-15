@@ -1,0 +1,28 @@
+TOTAL 34.63s  (10 voiceover ranges, 15 shots, 15 audio fx, 35 caption cards)
+
+  0.00-  3.13  V01  vo   2.80-  5.92  (1 pc)  Pernah tak sinki dapur korang tersumbat sebab sisa makanan?
+  3.13-  6.60  V02  vo   5.96-  9.42  (1 pc)  Lagi menyusahkan bila kena kutip sisa tu satu-satu pula.
+  6.60-  8.73  V03  vo   9.86- 12.00  (1 pc)  Haa, sebenarnya ada cara lebih mudah guys.
+  8.73- 11.30  V04  vo  12.14- 14.72  (1 pc)  Gunakan je jaring penapis sinki Lanbote ni.
+ 11.30- 13.47  V05  vo  15.06- 17.24  (1 pc)  Sarungkan je pada bakul penapis sinki tu.
+ 13.47- 20.17  V06  vo  35.98- 43.18  (2 pc)  Material dia elastik, mudah dipasang. Dan sisa makanan tak akan ikut air sekali masuk ke saluran paip tau.
+ 20.17- 22.60  V07  vo  43.92- 46.36  (1 pc)  Bila dah penuh, angkat dan terus buang.
+ 22.60- 24.27  V08  vo  51.24- 52.90  (1 pc)  Tak perlu pegang sisa makanan.
+ 24.27- 28.90  V09  vo  53.36- 57.98  (1 pc)  Satu pek yang ada seratus keping. Memang praktikal untuk kegunaan dapur setiap hari.
+ 28.90- 34.03  V10  vo  58.06- 63.20  (1 pc)  Nak mudahkan kerja mencuci, korang tekan beg kuning. Harga tengah promo guys. Check out terus!
+
+  0.00-  3.13  P01  photo sumbat     AI: sinki tersumbat, air bertakung dengan sisa makanan
+  3.13-  6.60  P02  photo kutip      AI: tangan kutip sisa makanan dari lubang sinki
+  6.60-  9.70  P03  v @50.4s         pek LANBOTE diangkat
+  9.70- 11.30  P04  v @52.6s         label pek dekat
+ 11.30- 13.47  P05  v @171.5s        sarung jaring pada bakul penapis
+ 13.47- 14.83  P06  v @78.3s         jaring diregangkan — elastik
+ 14.83- 15.53  P07  v @175.0s        jaring siap pada bakul
+ 15.53- 18.40  P08  v @127.0s        basuh sisa makanan dalam sinki
+ 18.40- 20.17  P09  v @241.0s        close-up penapis dalam lubang sinki
+ 20.17- 22.60  P10  photo buang      AI: angkat jaring penuh sisa, buang ke tong sampah
+ 22.60- 24.27  P11  v @162.5s        bakul penapis diangkat bersih
+ 24.27- 26.43  P12  v @53.0s         pek — 100 keping
+ 26.43- 28.90  P13  photo dapur      AI: wanita bertudung cuci pinggan, sinki bersih
+ 28.90- 30.73  P14  v @176.5s        jaring pada bakul
+ 30.73- 34.63  P15  v @51.2s         pek hero, CTA

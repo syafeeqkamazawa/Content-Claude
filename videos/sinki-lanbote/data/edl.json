@@ -1,0 +1,432 @@
+{
+  "_note": "Voiceover-driven edit. 'vo' ranges are seconds in assets/vo.m4a (owner's VO, Drive 1W3hImrD…); 'shots' are muted picture from assets/v.mp4 (rear-camera tripod clip at the gold kitchen sink, Drive 1yVdZuIY…: rinsing 24-36s, LANBOTE pack 44-58s, opening 60-72s, stretching a mesh bag 78-81s, fitting 85-93s, washing scraps 112-133s, basket held up 162-165s, bag pulled over the strainer basket 168-179s, close-up of the drain 238-253s) or a full-screen AI photo. Anchors are [vo id, 'start' | word]. tools/build.py turns this into index.html + compositions/.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tail": 0.6,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -40,
+    "blip": 0.03
+  },
+  "vo": [
+    {
+      "id": "V01",
+      "in": 2.8,
+      "out": 5.92,
+      "text": "Pernah tak sinki dapur korang tersumbat sebab sisa makanan?",
+      "note": "HOOK"
+    },
+    {
+      "id": "V02",
+      "in": 5.96,
+      "out": 9.42,
+      "text": "Lagi menyusahkan bila kena kutip sisa tu satu-satu pula.",
+      "note": ""
+    },
+    {
+      "id": "V03",
+      "in": 9.86,
+      "out": 12.0,
+      "text": "Haa, sebenarnya ada cara lebih mudah guys.",
+      "note": ""
+    },
+    {
+      "id": "V04",
+      "in": 12.14,
+      "out": 14.72,
+      "text": "Gunakan je jaring penapis sinki Lanbote ni.",
+      "note": "brand on the pack: LANBOTE"
+    },
+    {
+      "id": "V05",
+      "in": 15.06,
+      "out": 17.24,
+      "text": "Sarungkan je pada bakul penapis sinki tu.",
+      "note": ""
+    },
+    {
+      "id": "V06",
+      "in": 35.98,
+      "out": 43.18,
+      "text": "Material dia elastik, mudah dipasang. Dan sisa makanan tak akan ikut air sekali masuk ke saluran paip tau.",
+      "note": "take 3 of 3 (takes at 18.6 and 25.6 dropped)"
+    },
+    {
+      "id": "V07",
+      "in": 43.92,
+      "out": 46.36,
+      "text": "Bila dah penuh, angkat dan terus buang.",
+      "note": ""
+    },
+    {
+      "id": "V08",
+      "in": 51.24,
+      "out": 52.9,
+      "text": "Tak perlu pegang sisa makanan.",
+      "note": "last of the repeated 'tak perlu' (46.9-51.3 dropped)"
+    },
+    {
+      "id": "V09",
+      "in": 53.36,
+      "out": 57.98,
+      "text": "Satu pek yang ada seratus keping. Memang praktikal untuk kegunaan dapur setiap hari.",
+      "note": "pack: 100只装 (100 pcs)"
+    },
+    {
+      "id": "V10",
+      "in": 58.06,
+      "out": 63.2,
+      "text": "Nak mudahkan kerja mencuci, korang tekan beg kuning. Harga tengah promo guys. Check out terus!",
+      "note": "CTA"
+    }
+  ],
+  "shots": [
+    {
+      "at": [
+        "V01",
+        "start"
+      ],
+      "photo": "sumbat",
+      "note": "AI: sinki tersumbat, air bertakung dengan sisa makanan"
+    },
+    {
+      "at": [
+        "V02",
+        "start"
+      ],
+      "photo": "kutip",
+      "note": "AI: tangan kutip sisa makanan dari lubang sinki"
+    },
+    {
+      "at": [
+        "V03",
+        "start"
+      ],
+      "clip": "v",
+      "src": 50.4,
+      "push": [
+        1.1,
+        1.25
+      ],
+      "origin": "60% 25%",
+      "note": "pek LANBOTE diangkat"
+    },
+    {
+      "at": [
+        "V04",
+        "penapis"
+      ],
+      "clip": "v",
+      "src": 52.6,
+      "push": [
+        1.4,
+        1.55
+      ],
+      "origin": "70% 22%",
+      "note": "label pek dekat"
+    },
+    {
+      "at": [
+        "V05",
+        "start"
+      ],
+      "clip": "v",
+      "src": 171.5,
+      "push": [
+        1.2,
+        1.35
+      ],
+      "origin": "45% 55%",
+      "note": "sarung jaring pada bakul penapis"
+    },
+    {
+      "at": [
+        "V06",
+        "start"
+      ],
+      "clip": "v",
+      "src": 78.3,
+      "push": [
+        1.2,
+        1.3
+      ],
+      "origin": "55% 30%",
+      "note": "jaring diregangkan — elastik"
+    },
+    {
+      "at": [
+        "V06",
+        "mudah"
+      ],
+      "clip": "v",
+      "src": 175.0,
+      "push": [
+        1.25,
+        1.4
+      ],
+      "origin": "45% 55%",
+      "note": "jaring siap pada bakul"
+    },
+    {
+      "at": [
+        "V06",
+        "dan"
+      ],
+      "clip": "v",
+      "src": 127.0,
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "45% 70%",
+      "note": "basuh sisa makanan dalam sinki"
+    },
+    {
+      "at": [
+        "V06",
+        "saluran"
+      ],
+      "clip": "v",
+      "src": 241.0,
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "40% 40%",
+      "note": "close-up penapis dalam lubang sinki"
+    },
+    {
+      "at": [
+        "V07",
+        "start"
+      ],
+      "photo": "buang",
+      "note": "AI: angkat jaring penuh sisa, buang ke tong sampah"
+    },
+    {
+      "at": [
+        "V08",
+        "start"
+      ],
+      "clip": "v",
+      "src": 162.5,
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "60% 30%",
+      "note": "bakul penapis diangkat bersih"
+    },
+    {
+      "at": [
+        "V09",
+        "start"
+      ],
+      "clip": "v",
+      "src": 53.0,
+      "push": [
+        1.45,
+        1.6
+      ],
+      "origin": "70% 26%",
+      "note": "pek — 100 keping"
+    },
+    {
+      "at": [
+        "V09",
+        "memang"
+      ],
+      "photo": "dapur",
+      "note": "AI: wanita bertudung cuci pinggan, sinki bersih"
+    },
+    {
+      "at": [
+        "V10",
+        "start"
+      ],
+      "clip": "v",
+      "src": 176.5,
+      "push": [
+        1.25,
+        1.4
+      ],
+      "origin": "45% 55%",
+      "note": "jaring pada bakul"
+    },
+    {
+      "at": [
+        "V10",
+        "tekan"
+      ],
+      "clip": "v",
+      "src": 51.2,
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "60% 25%",
+      "note": "pek hero, CTA"
+    }
+  ],
+  "titles": [
+    {
+      "text": "SINKI TERSUMBAT?",
+      "from": [
+        "V01",
+        "start"
+      ],
+      "to": [
+        "V01",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "KUTIP SATU-SATU?",
+      "from": [
+        "V02",
+        "kutip"
+      ],
+      "to": [
+        "V02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "ADA CARA LEBIH MUDAH",
+      "from": [
+        "V03",
+        "sebenarnya"
+      ],
+      "to": [
+        "V03",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.26
+    },
+    {
+      "text": "JARING PENAPIS SINKI\nLANBOTE",
+      "from": [
+        "V04",
+        "jaring"
+      ],
+      "to": [
+        "V04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SARUNG PADA\nBAKUL PENAPIS",
+      "from": [
+        "V05",
+        "start"
+      ],
+      "to": [
+        "V05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "ELASTIK · MUDAH PASANG",
+      "from": [
+        "V06",
+        "elastik"
+      ],
+      "to": [
+        "V06",
+        "dan"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SISA TAK MASUK PAIP",
+      "from": [
+        "V06",
+        "dan"
+      ],
+      "to": [
+        "V06",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PENUH? ANGKAT & BUANG",
+      "from": [
+        "V07",
+        "start"
+      ],
+      "to": [
+        "V07",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "100 KEPING SEPEK",
+      "from": [
+        "V09",
+        "seratus"
+      ],
+      "to": [
+        "V09",
+        "memang"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "V10",
+        "tekan"
+      ],
+      "to": [
+        "V10",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "sinki",
+    "tersumbat",
+    "sisa",
+    "makanan",
+    "kutip",
+    "mudah",
+    "jaring",
+    "penapis",
+    "lanbote",
+    "sarungkan",
+    "bakul",
+    "elastik",
+    "dipasang",
+    "paip",
+    "saluran",
+    "penuh",
+    "buang",
+    "pegang",
+    "seratus",
+    "keping",
+    "praktikal",
+    "dapur",
+    "beg",
+    "kuning",
+    "harga",
+    "promo",
+    "check",
+    "out",
+    "terus"
+  ]
+}
