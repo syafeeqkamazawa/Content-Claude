@@ -1,0 +1,8 @@
+# Large media stays out of git (source footage lives on Google Drive).
+src/
+assets/*.mp4
+renders/
+snapshots/
+node_modules/
+data/a-rms.json
+tools/__pycache__/

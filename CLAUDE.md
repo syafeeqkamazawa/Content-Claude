@@ -31,3 +31,8 @@ otherwise for a specific video.
 - Transcribe first, cut repeated takes / false starts / long pauses, put the
   strongest hook first.
 - Share a draft preview before rendering the final file.
+
+## Audio
+
+- **No background music** (owner, 15 Oct: "Mulai sekarang tak perlu letak
+  background music"). Voice only, plus light SFX where the edit has overlays.
