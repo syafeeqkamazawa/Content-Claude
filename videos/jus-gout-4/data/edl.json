@@ -1,0 +1,488 @@
+{
+  "_note": "Edit decision list. Source times are seconds in assets/a.mp4 (A-roll, owner in a white baju, Drive 1sfiZLW6…, front camera saved mirrored → flipped in CSS) and assets/b.mp4 (B-roll, muted, Drive 1MnocG_E… = VID_20261012_172341, the same clip as v2.mp4 in videos/jus-gout). B-roll picks avoid every range used in Jus Gout #1 (12-15.7, 18.4-19.3, 53.5-55.8, 70-73.6, 118-119.6, 196-199.3, 200.5-202.7). tools/build.py turns this into index.html + compositions/. 'Sampai kadang-kadang nak berjalan tu, memang hampir…' (17.4-22.1) dropped: the recording cuts off before 'mustahil'.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 5.9,
+      "out": 12.88,
+      "zoom": 1.05,
+      "text": "Siapa kat sini ada masalah gout? Saya sendiri pun sebenarnya dah bertahun-tahun berdepan dengan masalah gout ni.",
+      "note": "HOOK — take 2; 'Siapa kat sini ada gout?' (2.5) dropped"
+    },
+    {
+      "id": "S02",
+      "in": 13.0,
+      "out": 16.86,
+      "zoom": 1.1,
+      "text": "Bila datang je serangan dia, nak pijak kaki pun sakit.",
+      "note": "trailing 'pun' cut"
+    },
+    {
+      "id": "S04",
+      "in": 31.3,
+      "out": 39.62,
+      "zoom": 1.08,
+      "text": "Orang yang tak pernah kena, mungkin susah nak faham. Tapi yang pernah alami je tahu, betapa peritnya bila sendi mula sakit dan bengkak.",
+      "note": "take 2; 27.5 take dropped"
+    },
+    {
+      "id": "S05",
+      "in": 42.9,
+      "out": 50.42,
+      "zoom": 1.0,
+      "text": "Selain ikut rawatan doktor dan jaga pemakanan, ada juga pilihan ikhtiar tambahan macam Jus Gout daripada Promaxx Series ni.",
+      "note": "take 1; retakes at 53.5 and 59.0 dropped"
+    },
+    {
+      "id": "S06",
+      "in": 67.25,
+      "out": 72.66,
+      "zoom": 1.06,
+      "text": "Antara kandungannya bromelain, milk thistle, ekstrak halia dan juga kunyit.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 73.0,
+      "out": 76.6,
+      "zoom": 1.0,
+      "text": "Rasa nenas bercampur halia dan tak menggunakan gula putih.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 80.0,
+      "out": 84.56,
+      "zoom": 1.08,
+      "text": "Cara penyediaan pun mudah. Bancuh dua skop dengan air mengikut arahan produk.",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "in": 84.76,
+      "out": 87.98,
+      "zoom": 1.12,
+      "text": "Tapi ingat, ini bukan pengganti ubat gout daripada doktor.",
+      "note": "owner's own caution — kept"
+    },
+    {
+      "id": "S10",
+      "in": 88.44,
+      "out": 95.12,
+      "zoom": 1.0,
+      "text": "Kalau nak tahu lebih lanjut tentang Jus Gout ni, tekan beg kuning, tengok harga. Kalau tengah murah tu, check out sekarang!",
+      "note": "CTA"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "masalah",
+      1.08
+    ],
+    [
+      "S10",
+      "check",
+      1.1
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S05",
+        "ada"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 4.2,
+      "note": "balang Jus GOUT dalam tangan, depan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "35% 40%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "milk"
+      ],
+      "src": 16.2,
+      "note": "label belakang — kandungan",
+      "push": [
+        1.1,
+        1.25
+      ],
+      "origin": "45% 35%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S06",
+        "milk"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 62.0,
+      "note": "balang dibuka, serbuk",
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "45% 25%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S08",
+        "start"
+      ],
+      "to": [
+        "S08",
+        "bancuh"
+      ],
+      "src": 58.5,
+      "note": "balang + cawan",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "45% 30%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S08",
+        "bancuh"
+      ],
+      "to": [
+        "S08",
+        "dengan"
+      ],
+      "src": 83.5,
+      "note": "cedok skop serbuk",
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "45% 30%"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S08",
+        "dengan"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "src": 128.0,
+      "note": "kacau dengan air",
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "45% 50%"
+    },
+    {
+      "id": "B7",
+      "from": [
+        "S10",
+        "start"
+      ],
+      "to": [
+        "S10",
+        "tekan"
+      ],
+      "src": 205.5,
+      "note": "cawan jus siap",
+      "push": [
+        1.1,
+        1.25
+      ],
+      "origin": "40% 60%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "pijak",
+      "from": [
+        "S02",
+        "nak"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: kaki bengkak teragak-agak pijak lantai"
+    },
+    {
+      "id": "tongkat",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "betapa"
+      ],
+      "note": "AI: lelaki berjalan bertongkat dipapah isteri bertudung"
+    },
+    {
+      "id": "bengkak",
+      "from": [
+        "S04",
+        "betapa"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: buku lali bengkak dengan tuaman ais"
+    },
+    {
+      "id": "farmasi",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "jaga"
+      ],
+      "note": "AI: ahli farmasi bertudung beri ubat"
+    },
+    {
+      "id": "sayur",
+      "from": [
+        "S05",
+        "jaga"
+      ],
+      "to": [
+        "S05",
+        "ada"
+      ],
+      "note": "AI: hidangan sihat, sayur dan ikan"
+    },
+    {
+      "id": "nenashalia",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "note": "AI: minuman nenas dan halia"
+    }
+  ],
+  "titles": [
+    {
+      "text": "ADA MASALAH GOUT?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "saya"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "BERTAHUN-TAHUN\nBERDEPAN GOUT",
+      "from": [
+        "S01",
+        "saya"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "NAK PIJAK PUN SAKIT",
+      "from": [
+        "S02",
+        "nak"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "low"
+    },
+    {
+      "text": "YANG PERNAH KENA\nJE TAHU",
+      "from": [
+        "S04",
+        "tapi"
+      ],
+      "to": [
+        "S04",
+        "betapa"
+      ],
+      "pos": "low"
+    },
+    {
+      "text": "SENDI SAKIT & BENGKAK",
+      "from": [
+        "S04",
+        "betapa"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "RAWATAN DOKTOR +\nJAGA PEMAKANAN",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "ada"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "IKHTIAR TAMBAHAN:\nJUS GOUT PROMAXX",
+      "from": [
+        "S05",
+        "ada"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.26
+    },
+    {
+      "text": "BROMELAIN · MILK THISTLE\nHALIA · KUNYIT",
+      "from": [
+        "S06",
+        "bromelain"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "RASA NENAS + HALIA\nTANPA GULA PUTIH",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "2 SKOP + AIR",
+      "from": [
+        "S08",
+        "bancuh"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "BUKAN PENGGANTI\nUBAT DOKTOR",
+      "from": [
+        "S09",
+        "start"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S10",
+        "tekan"
+      ],
+      "to": [
+        "S10",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "gout",
+    "masalah",
+    "bertahun-tahun",
+    "serangan",
+    "pijak",
+    "sakit",
+    "berjalan",
+    "mustahil",
+    "peritnya",
+    "sendi",
+    "bengkak",
+    "rawatan",
+    "doktor",
+    "pemakanan",
+    "ikhtiar",
+    "jus",
+    "promaxx",
+    "bromelain",
+    "milk",
+    "thistle",
+    "halia",
+    "kunyit",
+    "nenas",
+    "gula",
+    "putih",
+    "mudah",
+    "skop",
+    "pengganti",
+    "ubat",
+    "beg",
+    "kuning",
+    "harga",
+    "murah",
+    "check",
+    "out",
+    "sekarang"
+  ]
+}

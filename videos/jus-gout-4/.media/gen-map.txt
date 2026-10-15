@@ -1,0 +1,3 @@
+pijak .media/images/image_001.png
+tongkat .media/images/image_002.png
+bengkak .media/images/image_003.png

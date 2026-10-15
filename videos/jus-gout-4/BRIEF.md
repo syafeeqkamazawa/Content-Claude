@@ -1,0 +1,23 @@
+# Promaxx Jus Gout #4 — A-roll + B-roll review
+
+- **A-roll:** the owner talking to camera in a white baju, recorded 15 Oct (Drive 1sfiZLW6…). The front camera saved it mirrored, so it is flipped back in CSS.
+- **B-roll:** the drink being prepared (Drive 1MnocG_E…). This is the same clip as `v2.mp4` in `videos/jus-gout`, so only ranges that Jus Gout #1 did not use are taken (see `data/edl.json` `_note`).
+- **Kept from the A-roll:**
+  - hook: "Siapa kat sini ada masalah gout?" (take 2);
+  - years of gout, the attack, "nak pijak kaki pun sakit";
+  - "yang pernah alami je tahu… sendi sakit dan bengkak";
+  - "selain rawatan doktor dan jaga pemakanan… ikhtiar tambahan";
+  - ingredients: bromelain, milk thistle, ginger extract, turmeric;
+  - pineapple–ginger taste and no white sugar;
+  - 2 scoops with water;
+  - the owner's own caution: "bukan pengganti ubat gout daripada doktor";
+  - CTA.
+- **Dropped:**
+  - retakes;
+  - "Sampai kadang-kadang nak berjalan tu, memang hampir…", because the recording cuts off before "mustahil".
+- **New look compared with #1–#3:**
+  - dark brown title bar with yellow text and yellow rules;
+  - new music track;
+  - new AI photos: a foot afraid to touch the floor, walking with a cane, a swollen ankle with ice, a pharmacist, a healthy meal, a pineapple–ginger drink.
+  - All photos are full-screen, realistic, aurat covered and tagged "ILUSTRASI AI".
+- **Rebuild:** `python3 tools/build.py`. Images: `tools/gen.sh [names…]`.

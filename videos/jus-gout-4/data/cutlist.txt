@@ -1,0 +1,25 @@
+TOTAL 48.87s  (9 A-roll segments, 7 B-roll shots, 6 photos, 15 audio fx, 50 caption cards)
+
+  0.00-  6.67  S01  src   5.90- 12.88  (2 pc)  Siapa kat sini ada masalah gout? Saya sendiri pun sebenarnya dah bertahun-tahun berdepan dengan masalah gout ni.
+  6.67- 10.27  S02  src  13.00- 16.86  (2 pc)  Bila datang je serangan dia, nak pijak kaki pun sakit.
+ 10.27- 18.30  S04  src  31.30- 39.62  (2 pc)  Orang yang tak pernah kena, mungkin susah nak faham. Tapi yang pernah alami je tahu, betapa peritnya bila sendi mula sakit dan bengkak.
+ 18.30- 25.83  S05  src  42.90- 50.42  (1 pc)  Selain ikut rawatan doktor dan jaga pemakanan, ada juga pilihan ikhtiar tambahan macam Jus Gout daripada Promaxx Series ni.
+ 25.83- 31.03  S06  src  67.25- 72.66  (2 pc)  Antara kandungannya bromelain, milk thistle, ekstrak halia dan juga kunyit.
+ 31.03- 34.63  S07  src  73.00- 76.60  (1 pc)  Rasa nenas bercampur halia dan tak menggunakan gula putih.
+ 34.63- 39.20  S08  src  80.00- 84.56  (1 pc)  Cara penyediaan pun mudah. Bancuh dua skop dengan air mengikut arahan produk.
+ 39.20- 42.43  S09  src  84.76- 87.98  (1 pc)  Tapi ingat, ini bukan pengganti ubat gout daripada doktor.
+ 42.43- 48.87  S10  src  88.44- 95.12  (2 pc)  Kalau nak tahu lebih lanjut tentang Jus Gout ni, tekan beg kuning, tengok harga. Kalau tengah murah tu, check out sekarang!
+
+  cutaway   9.00- 10.27
+  cutaway  10.27- 15.17
+  cutaway  15.17- 18.30
+  cutaway  18.30- 20.40
+  cutaway  20.40- 21.60
+  cutaway  21.60- 25.83
+  cutaway  25.83- 28.33
+  cutaway  28.33- 31.03
+  cutaway  31.03- 34.63
+  cutaway  34.63- 36.63
+  cutaway  36.63- 37.53
+  cutaway  37.53- 39.20
+  cutaway  42.43- 44.53
