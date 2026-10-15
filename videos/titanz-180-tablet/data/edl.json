@@ -1,0 +1,357 @@
+{
+  "_note": "Titanz 180+ chewable tablets (60 x 350mg, mixed blueberry, green tea & vitamin C). A-roll: Drive 1YAiIudG… (front camera, mirrored — flipped back in CSS). B-roll: Drive 1SnX03CH… (rear camera, not flipped): box, side/back labels, bottle, tablets in palm. Label check: 60 chewable tablets ✓; ingredients have NO vitamin D, so the two 'vitamin D' mentions are cut. Word times from data/transcript-a.json.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "H1",
+      "in": 49.2,
+      "out": 53.75,
+      "zoom": 1.05,
+      "text": "Ibu ayah, jangan tunggu lagi, ambil berat nutrisi anak-anak kita sekarang juga.",
+      "note": "HOOK: the complete take of the closing line (earlier takes 34.6-48.4 dropped)"
+    },
+    {
+      "id": "S01",
+      "in": 3.7,
+      "out": 10.1,
+      "zoom": 1.12,
+      "text": "Yang ada pada saya ni, Tiny Titanz Kid 180+, khas untuk remaja 12 hingga 18 tahun.",
+      "note": "name as spoken ('Kid' per transcript); title shows TITANZ 180+ as on the box"
+    },
+    {
+      "id": "S02a",
+      "in": 10.25,
+      "out": 11.68,
+      "zoom": 1.05,
+      "text": "Ada Aquamin kalsium,",
+      "note": "'vitamin D,' (11.8-12.4) cut — not on the label"
+    },
+    {
+      "id": "S02b",
+      "in": 12.48,
+      "out": 15.4,
+      "zoom": 1.05,
+      "text": "vitamin C dan MenaQ7, vitamin K2.",
+      "note": "'vitamin D yang membantu penyerapan kalsium' (15.5-19.1) cut — not on the label"
+    },
+    {
+      "id": "S03",
+      "in": 19.5,
+      "out": 22.8,
+      "zoom": 1.12,
+      "text": "Kalsium penting sangat untuk tulang dan gigi anak-anak kita.",
+      "note": "'Manakala' dropped so the line stands alone"
+    },
+    {
+      "id": "S04",
+      "in": 26.8,
+      "out": 33.95,
+      "zoom": 1.05,
+      "text": "Versi upgrade ni datang dengan 60 tablet kunyah, perisa mixed berries. Senang nak jadikan sebahagian rutin nutrisi harian anak-anak kita.",
+      "note": "label: 60 chewable tablets x 350mg"
+    },
+    {
+      "id": "S05",
+      "in": 54.0,
+      "out": 60.9,
+      "zoom": 1.12,
+      "text": "Nak tengok Kid 180+ ni, tekan di beg kuning dan sementara ada harga promo tu, boleh check out terus!",
+      "note": ""
+    }
+  ],
+  "punch": [
+    [
+      "H1",
+      "jangan",
+      1.08
+    ],
+    [
+      "S05",
+      "tekan",
+      1.1
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S01",
+        "tiny"
+      ],
+      "to": [
+        "S01",
+        "khas"
+      ],
+      "src": 3.2,
+      "note": "kotak depan 180+",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S02a",
+        "start"
+      ],
+      "to": [
+        "S02b",
+        "end"
+      ],
+      "src": 8.6,
+      "note": "sisi kotak — ramuan (Aquamin, MenaQ7)",
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "60% 50%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "perisa"
+      ],
+      "src": 46.0,
+      "note": "tablet kunyah di tapak tangan + botol"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S04",
+        "senang"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "src": 22.5,
+      "note": "kotak + botol"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S05",
+        "dan"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 54.0,
+      "note": "tablet + botol (CTA)"
+    }
+  ],
+  "photos": [
+    {
+      "id": "breakfast",
+      "from": [
+        "H1",
+        "start"
+      ],
+      "to": [
+        "H1",
+        "end"
+      ],
+      "note": "AI: ibu bertudung hidang sarapan untuk dua anak remaja"
+    },
+    {
+      "id": "teens",
+      "from": [
+        "S01",
+        "remaja"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: remaja lelaki & perempuan bertudung beruniform ke sekolah"
+    },
+    {
+      "id": "sport",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "note": "AI: remaja lelaki main bola keranjang (lengan & seluar panjang)"
+    },
+    {
+      "id": "berries",
+      "from": [
+        "S04",
+        "perisa"
+      ],
+      "to": [
+        "S04",
+        "senang"
+      ],
+      "note": "AI: makro mixed berries (blueberry, cranberry, elderberry)"
+    }
+  ],
+  "titles": [
+    {
+      "text": "IBU AYAH,\nJANGAN TUNGGU LAGI",
+      "from": [
+        "H1",
+        "start"
+      ],
+      "to": [
+        "H1",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "TITANZ 180+",
+      "from": [
+        "S01",
+        "tiny"
+      ],
+      "to": [
+        "S01",
+        "khas"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.26
+    },
+    {
+      "text": "REMAJA 12–18 TAHUN",
+      "from": [
+        "S01",
+        "remaja"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "AQUAMIN · VITAMIN C\nMENAQ7 (VITAMIN K2)",
+      "from": [
+        "S02a",
+        "start"
+      ],
+      "to": [
+        "S02b",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "KALSIUM UNTUK\nTULANG & GIGI",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "60 TABLET KUNYAH",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "perisa"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PERISA MIXED BERRIES",
+      "from": [
+        "S04",
+        "perisa"
+      ],
+      "to": [
+        "S04",
+        "senang"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "RUTIN NUTRISI HARIAN",
+      "from": [
+        "S04",
+        "senang"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S05",
+        "tekan"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "ibu",
+    "ayah",
+    "nutrisi",
+    "sekarang",
+    "titanz",
+    "kid",
+    "180+",
+    "remaja",
+    "12",
+    "18",
+    "aquamin",
+    "kalsium",
+    "vitamin",
+    "c",
+    "menaq7",
+    "k2",
+    "tulang",
+    "gigi",
+    "60",
+    "tablet",
+    "kunyah",
+    "mixed",
+    "berries",
+    "rutin",
+    "harian",
+    "beg",
+    "kuning",
+    "promo",
+    "check",
+    "out",
+    "terus"
+  ],
+  "_owner_decisions": ""
+}

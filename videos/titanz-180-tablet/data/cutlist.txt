@@ -1,0 +1,19 @@
+TOTAL 32.20s  (7 A-roll segments, 5 B-roll shots, 4 photos, 13 audio fx, 29 caption cards)
+
+  0.00-  4.53  H1  src  49.20- 53.75  (1 pc)  Ibu ayah, jangan tunggu lagi, ambil berat nutrisi anak-anak kita sekarang juga.
+  4.53- 10.73  S01  src   3.70- 10.10  (2 pc)  Yang ada pada saya ni, Tiny Titanz Kid 180+, khas untuk remaja 12 hingga 18 tahun.
+ 10.73- 12.17  S02a  src  10.25- 11.68  (1 pc)  Ada Aquamin kalsium,
+ 12.17- 15.10  S02b  src  12.48- 15.40  (1 pc)  vitamin C dan MenaQ7, vitamin K2.
+ 15.10- 18.40  S03  src  19.50- 22.80  (1 pc)  Kalsium penting sangat untuk tulang dan gigi anak-anak kita.
+ 18.40- 25.57  S04  src  26.80- 33.95  (1 pc)  Versi upgrade ni datang dengan 60 tablet kunyah, perisa mixed berries. Senang nak jadikan sebahagian rutin nutrisi harian anak-anak kita.
+ 25.57- 32.20  S05  src  54.00- 60.90  (3 pc)  Nak tengok Kid 180+ ni, tekan di beg kuning dan sementara ada harga promo tu, boleh check out terus!
+
+  cutaway   0.00-  4.53
+  cutaway   6.03-  7.83
+  cutaway   8.30- 10.73
+  cutaway  10.73- 15.10
+  cutaway  15.10- 18.40
+  cutaway  18.40- 21.20
+  cutaway  21.20- 22.33
+  cutaway  22.33- 25.57
+  cutaway  28.33- 32.20
