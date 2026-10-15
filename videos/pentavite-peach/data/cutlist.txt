@@ -1,0 +1,29 @@
+TOTAL 45.87s  (8 voiceover ranges, 18 shots, 20 audio fx, 44 caption cards)
+
+  0.00-  7.80  V01  vo   0.60-  8.62  (2 pc)  Parents yang ada anak jenis memilih makanan tu, pernah tak terfikir sama ada anak kita mendapat nutrisi yang mencukupi tak untuk tumbesaran mereka?
+  7.80- 16.57  V02  vo   8.90- 17.68  (1 pc)  Pada usia membesar, kanak-kanak memerlukan pelbagai vitamin dan mineral untuk menyokong perkembangan tulang, sistem imun dan kesihatan tubuh secara keseluruhan.
+ 16.57- 21.37  V03  vo  18.30- 23.10  (1 pc)  Salah satu pilihan sebagai pelengkap nutrisi ialah Pentavite Kids Multivitamin.
+ 21.37- 26.80  V04  vo  23.30- 28.90  (2 pc)  Setiap tablet kunyah mengandungi 12 nutrien termasuk vitamin A, C dan D.
+ 26.80- 30.93  V05  vo  31.78- 35.90  (1 pc)  Ia hadir dengan perisa peach serta tanpa warna dan pengawet tambahan.
+ 30.93- 32.40  V06a  vo  36.30- 37.78  (1 pc)  Untuk parent yang mempunyai
+ 32.40- 37.67  V06b  vo  38.10- 43.35  (1 pc)  anak berumur 3 tahun ke atas, boleh pertimbangkan multivitamin ini sebagai tambahan kepada pemakanan seimbang.
+ 37.67- 45.27  V07  vo  43.40- 51.15  (2 pc)  Nak tahu lebih lanjut tentang kandungan dan harganya? Tekan beg kuning sekarang. Kalau ada harga tengah promo tu, boleh check out terus!
+
+  0.00-  2.70  P01  photo memilih    AI: budak perempuan bertudung tolak pinggan sayur
+  2.70-  5.10  P02  photo risau      AI: ibu bertudung risau tengok anak makan sikit
+  5.10-  7.80  P03  b @11.6s         botol Pentavite depan
+  7.80- 10.67  P04  photo membesar   AI: ukur tinggi anak di dinding
+ 10.67- 12.83  P05  b @64.5s         tablet dalam tapak tangan
+ 12.83- 14.53  P06  photo aktif      AI: anak-anak aktif bermain
+ 14.53- 16.57  P07  photo sekolah    AI: anak ke sekolah, ceria
+ 16.57- 19.50  P08  b @16.5s         botol dalam tangan, dapur
+ 19.50- 21.37  P09  b @9.6s          label dekat
+ 21.37- 24.37  P10  b @60.0s         botol + tablet dalam tapak tangan
+ 24.37- 26.80  P11  b @72.0s         tablet kunyah dekat
+ 26.80- 29.23  P12  photo peach      AI: buah peach segar
+ 29.23- 30.93  P13  b @88.0s         tablet + label
+ 30.93- 33.97  P14  photo kunyah     AI: anak perempuan bertudung kunyah tablet, ibu di sebelah
+ 33.97- 37.67  P15  photo seimbang   AI: keluarga makan hidangan seimbang
+ 37.67- 40.17  P16  b @100.0s        tablet + botol
+ 40.17- 41.63  P17  b @19.5s         botol hero, CTA
+ 41.63- 45.87  P18  b @106.0s        tablet + botol, CTA
