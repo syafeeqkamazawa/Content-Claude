@@ -1,0 +1,52 @@
+{
+  "_note": "Edit decision list. Source times are seconds in assets/a.mp4 (A-roll, owner holding the Promaxx Jus Gout jar, Drive 12KxUEt-…, front camera saved mirrored → flipped in CSS) and assets/b.mp4 (B-roll, muted, Drive 1yNSGZ3Q… = VID_20261013_160712, the same clip as k1.mp4 in videos/jus-gout-2). B-roll picks avoid every range used in Jus Gout #2 (0.5-2.7, 8.5-9.4, 30-34.3, 92-93.5, 120.5-123, 124-126.7, 128-129.9, 136-137.9). tools/build.py turns this into index.html + compositions/.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": { "max_pause": 0.4, "keep": 0.14, "threshold_db": -45, "blip": 0.03 },
+  "segments": [
+    { "id": "S01", "in": 3.6, "out": 11.88, "zoom": 1.05, "text": "Korang pernah dengar tak? Orang mengadu sakit dekat ibu jari kaki. Kadang-kadang sampai nak pijak lantai pun tak sanggup weh.", "note": "HOOK" },
+    { "id": "S02", "in": 12.6, "out": 21.5, "zoom": 1.12, "text": "Salah satu puncanya adalah gout yang boleh berlaku bila kristal asid urik tu terkumpul dekat sendi. Tapi bukan semua sakit kaki tu gout tau.", "note": "" },
+    { "id": "S03a", "in": 36.3, "out": 43.12, "zoom": 1.0, "text": "Korang tengok produk ni, Promaxx Jus Gout, formulanya ada milk thistle, bromelain daripada nenas,", "note": "take 3; false starts 24.9-35.2 dropped" },
+    { "id": "S03b", "in": 44.3, "out": 47.5, "zoom": 1.0, "text": "ekstrak ginger dan curcuma longa iaitu kunyit.", "note": "stray 'ginger,' at 43.2 cut" },
+    { "id": "S04", "in": 50.1, "out": 59.5, "zoom": 1.1, "text": "Yang menariknya, produk ni gabungkan beberapa bahan herba dalam satu formula. Tapi kena ingat, bahan herba bukan bermaksud produk ni terbukti boleh turunkan asid urik atau rawat gout.", "note": "take 1; retake at 93.2 dropped" },
+    { "id": "S05", "in": 63.4, "out": 67.2, "zoom": 1.02, "text": "Kalau kerap sakit atau bengkak sendi, boleh buat pemeriksaan doktor dulu.", "note": "'Nak tengok kandungan dan maklumat? Tak payah.' (67.5-70.3) dropped — unfinished" },
+    { "id": "S06a", "in": 129.0, "out": 135.78, "zoom": 1.08, "text": "Yang mana selalu kerap sakit atau bengkak sendi tu, boleh ikhtiar dengan Promaxx Jus Gout ni,", "note": "CTA. 'InsyaAllah boleh bantu untuk rawat… turunkan' takes (103-122) dropped: unfinished, and they contradict the disclaimer in S04" },
+    { "id": "S06b", "in": 135.78, "out": 143.9, "zoom": 1.0, "text": "boleh klik di beg kuning dan boleh check harga, kalau harga tengah ada promo, jangan tunggu lagi, grab awal-awal!", "note": "" }
+  ],
+  "punch": [["S01", "pijak", 1.08], ["S06b", "jangan", 1.1]],
+  "broll": [
+    { "id": "B1", "from": ["S03a", "start"], "to": ["S03a", "milk"], "src": 130.6, "note": "label Jus GOUT + jus dalam gelas", "push": [1.0, 1.1], "origin": "35% 45%" },
+    { "id": "B2", "from": ["S04", "gabungkan"], "to": ["S04", "tapi"], "src": 10.3, "note": "cedok serbuk dari balang", "push": [1.05, 1.15], "origin": "45% 40%" },
+    { "id": "B3", "from": ["S06a", "boleh"], "to": ["S06a", "end"], "src": 138.6, "note": "sudu angkat jus, label", "push": [1.0, 1.08], "origin": "40% 45%" },
+    { "id": "B4", "from": ["S06b", "start"], "to": ["S06b", "kalau"], "src": 113.6, "note": "balang + gelas, kacau", "push": [1.05, 1.15], "origin": "40% 55%" }
+  ],
+  "photos": [
+    { "id": "tuam", "from": ["S01", "sakit"], "to": ["S01", "kadang-kadang"], "note": "AI: pak cik pegang ibu jari kaki yang sakit" },
+    { "id": "lantai", "from": ["S01", "pijak"], "to": ["S01", "end"], "note": "AI: lelaki duduk tepi katil, takut pijak lantai" },
+    { "id": "kristal", "from": ["S02", "kristal"], "to": ["S02", "tapi"], "note": "AI: kristal (mikroskop)" },
+    { "id": "terseliuh", "from": ["S02", "bukan"], "to": ["S02", "end"], "note": "AI: lelaki terseliuh buku lali selepas futsal" },
+    { "id": "milkthistle", "from": ["S03a", "milk"], "to": ["S03a", "bromelain"], "note": "AI: bunga milk thistle" },
+    { "id": "nenas", "from": ["S03a", "bromelain"], "to": ["S03a", "end"], "note": "AI: nenas dipotong" },
+    { "id": "halia", "from": ["S03b", "start"], "to": ["S03b", "curcuma"], "note": "AI: halia" },
+    { "id": "kunyit", "from": ["S03b", "curcuma"], "to": ["S03b", "end"], "note": "AI: kunyit" },
+    { "id": "klinik", "from": ["S05", "boleh"], "to": ["S05", "end"], "note": "AI: doktor wanita bertudung periksa kaki pesakit" }
+  ],
+  "titles": [
+    { "text": "SAKIT IBU JARI KAKI?", "from": ["S01", "start"], "to": ["S01", "kadang-kadang"], "pos": "top", "sfx": "impact-bass-1", "sfx_vol": 0.3 },
+    { "text": "NAK PIJAK PUN\nTAK SANGGUP", "from": ["S01", "kadang-kadang"], "to": ["S01", "end"], "pos": "top" },
+    { "text": "KRISTAL ASID URIK", "from": ["S02", "kristal"], "to": ["S02", "tapi"], "pos": "top" },
+    { "text": "BUKAN SEMUA SAKIT\nKAKI ITU GOUT", "from": ["S02", "tapi"], "to": ["S02", "end"], "pos": "top" },
+    { "text": "PROMAXX JUS GOUT", "from": ["S03a", "promaxx"], "to": ["S03a", "milk"], "pos": "top", "sfx": "sparkle", "sfx_vol": 0.26 },
+    { "text": "MILK THISTLE", "from": ["S03a", "milk"], "to": ["S03a", "bromelain"], "pos": "top" },
+    { "text": "BROMELAIN (NENAS)", "from": ["S03a", "bromelain"], "to": ["S03a", "end"], "pos": "top" },
+    { "text": "EKSTRAK HALIA", "from": ["S03b", "start"], "to": ["S03b", "curcuma"], "pos": "top" },
+    { "text": "KUNYIT\n(CURCUMA LONGA)", "from": ["S03b", "curcuma"], "to": ["S03b", "end"], "pos": "top" },
+    { "text": "BAHAN HERBA\nDALAM SATU FORMULA", "from": ["S04", "gabungkan"], "to": ["S04", "tapi"], "pos": "top" },
+    { "text": "KENA INGAT!", "from": ["S04", "tapi"], "to": ["S04", "end"], "pos": "top" },
+    { "text": "PERIKSA DENGAN\nDOKTOR DULU", "from": ["S05", "start"], "to": ["S05", "end"], "pos": "top" },
+    { "text": "IKHTIAR DENGAN\nJUS GOUT", "from": ["S06a", "ikhtiar"], "to": ["S06a", "end"], "pos": "top", "sfx": "sparkle", "sfx_vol": 0.25 },
+    { "text": "TEKAN BEG KUNING", "from": ["S06b", "klik"], "to": ["S06b", "end"], "cta": true }
+  ],
+  "keywords": ["gout", "sakit", "ibu", "jari", "kaki", "pijak", "lantai", "sanggup", "kristal", "asid", "urik", "sendi", "promaxx", "jus", "milk", "thistle", "bromelain", "nenas", "ginger", "curcuma", "longa", "kunyit", "herba", "formula", "terbukti", "pemeriksaan", "doktor", "bengkak", "ikhtiar", "beg", "kuning", "harga", "promo", "awal-awal"]
+}

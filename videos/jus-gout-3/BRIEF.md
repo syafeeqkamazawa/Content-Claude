@@ -1,0 +1,22 @@
+# Promaxx Jus Gout #3: A-roll and B-roll review
+
+- **A-roll:** the owner talks to camera holding the jar (Drive 12KxUEt-…, recorded 14 Oct). It is new footage. The front camera saved it mirrored, so it is flipped back in CSS.
+- **B-roll:** the drink being prepared (Drive 1yNSGZ3Q…). This is the same clip as `k1.mp4` in `videos/jus-gout-2`, so only ranges that Jus Gout #2 did not use are taken (see `data/edl.json` `_note`).
+- **Kept from the A-roll:**
+  - hook (sore big toe, "nak pijak lantai pun tak sanggup");
+  - gout and uric-acid crystals, then "bukan semua sakit kaki tu gout";
+  - product and ingredients (take 3): milk thistle, bromelain from pineapple, ginger extract, curcuma longa (kunyit);
+  - "gabungkan bahan herba dalam satu formula";
+  - the owner's own caution that herbs do not mean it is proven to lower uric acid or treat gout;
+  - "buat pemeriksaan doktor dulu";
+  - CTA.
+- **Dropped:**
+  - false starts;
+  - the unfinished "Nak tengok kandungan dan maklumat? Tak payah.";
+  - the "InsyaAllah boleh bantu untuk rawat / turunkan" takes, which are unfinished and contradict the caution. This is in line with the owner's earlier "ayat sembuhkan gout tu potong" for Jus Gout #1.
+- **New look compared with #1 and #2:**
+  - orange title pill with brown text;
+  - new music track;
+  - new AI photo set: big-toe pain, the floor in the morning, urate crystals under a microscope, a sprained ankle at futsal, the four ingredients, and a doctor's check.
+  - All photos are full-screen, realistic, aurat covered and tagged "ILUSTRASI AI".
+- **Rebuild:** `python3 tools/build.py`. Images: `tools/gen.sh [names…]`.
