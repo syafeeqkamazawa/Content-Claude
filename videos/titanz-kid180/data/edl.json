@@ -1,0 +1,376 @@
+{
+  "_note": "Tiny Titanz Kid180 chewable tablets (60 x 350mg, mixed blueberry, green tea & vitamin C). A-roll: Drive 1kQeARr4… (front camera, mirrored — flipped back in CSS). B-roll: Drive 1yeUjbM-… (rear camera): box front, bottle, tablets in palm. The B-roll never shows Kid180's ingredient panel; its front matches Titanz 180 (whose label has no vitamin D), so the 'vitamin D' mentions are cut here too (flagged to owner). Word times from data/transcript-a.json.",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 1.85,
+      "out": 7.55,
+      "zoom": 1.05,
+      "text": "Korang tahu tak, anak yang nampak aktif setiap hari pun belum tentu dapat semua nutrisi yang badan dia perlukan.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02a",
+      "in": 8.3,
+      "out": 12.72,
+      "zoom": 1.12,
+      "text": "Lagi-lagi kalau anak jenis memilih makan, sayur tak nak, susu pun susah nak minum.",
+      "note": ""
+    },
+    {
+      "id": "S02b",
+      "in": 19.75,
+      "out": 25.25,
+      "zoom": 1.05,
+      "text": "Sebagai mak ayah, mesti kita bertanya-tanya, cukup ke kalsium untuk tulang dan gigi dia sepanjang membesar ni?",
+      "note": "take 2; take 1 'bagi mak ayah, mesti kita tanya' (13.1-14.9) cut off"
+    },
+    {
+      "id": "S03a",
+      "in": 25.6,
+      "out": 31.33,
+      "zoom": 1.12,
+      "text": "Sebab tu korang boleh tengok Tiny Titanz Kid180 ni, ada Aquamin kalsium,",
+      "note": "'Vitamin D,' (31.4-32.0) cut"
+    },
+    {
+      "id": "S03b",
+      "in": 32.15,
+      "out": 35.68,
+      "zoom": 1.12,
+      "text": "vitamin C dan MenaQ7, vitamin K2.",
+      "note": "'Vitamin D membantu penyerapan kalsium, manakala K2' (35.8-38.9) cut"
+    },
+    {
+      "id": "S04",
+      "in": 44.72,
+      "out": 55.4,
+      "zoom": 1.05,
+      "text": "K2 penting untuk kesihatan tulang. Dia juga ada ekstrak blueberry, elderberry dan cranberry, bentuk tablet kunyah, sesuai untuk kanak-kanak umur 2 hingga 12 tahun mengikut arahan label.",
+      "note": "'Manakala' dropped"
+    },
+    {
+      "id": "S05",
+      "in": 57.9,
+      "out": 61.8,
+      "zoom": 1.12,
+      "text": "Fasa membesar ni sangat penting, jangan abaikan pemakanan seimbang.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 69.7,
+      "out": 80.05,
+      "zoom": 1.05,
+      "text": "Mak ayah yang nak jadikan Kid180 ni sebagai tambahan nutrisi, boleh tekan beg kuning. Kalau ada harga promo, boleh check out terus!",
+      "note": "CTA; false starts 61.8-69.2 dropped"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "belum",
+      1.08
+    ],
+    [
+      "S06",
+      "tekan",
+      1.1
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S03a",
+        "tiny"
+      ],
+      "to": [
+        "S03a",
+        "ada"
+      ],
+      "src": 5.5,
+      "note": "kotak Kid180 depan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 35%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S03a",
+        "ada"
+      ],
+      "to": [
+        "S03b",
+        "end"
+      ],
+      "src": 7.6,
+      "note": "kotak — sisi MenaQ7",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "65% 45%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S04",
+        "bentuk"
+      ],
+      "to": [
+        "S04",
+        "sesuai"
+      ],
+      "src": 35.0,
+      "note": "tablet kunyah di tapak tangan + botol"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S06",
+        "kalau"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 38.5,
+      "note": "tablet + botol (CTA)"
+    }
+  ],
+  "photos": [
+    {
+      "id": "active",
+      "from": [
+        "S01",
+        "anak"
+      ],
+      "to": [
+        "S01",
+        "belum"
+      ],
+      "note": "AI: kanak-kanak aktif bermain di taman permainan"
+    },
+    {
+      "id": "milk",
+      "from": [
+        "S02a",
+        "start"
+      ],
+      "to": [
+        "S02a",
+        "end"
+      ],
+      "note": "AI: budak perempuan bertudung tolak gelas susu"
+    },
+    {
+      "id": "parents",
+      "from": [
+        "S02b",
+        "start"
+      ],
+      "to": [
+        "S02b",
+        "cukup"
+      ],
+      "note": "AI: ibu bapa risau tengok anak makan"
+    },
+    {
+      "id": "berries3",
+      "from": [
+        "S04",
+        "dia"
+      ],
+      "to": [
+        "S04",
+        "bentuk"
+      ],
+      "note": "AI: blueberry, elderberry, cranberry dalam mangkuk kecil"
+    },
+    {
+      "id": "plate",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "note": "AI: pinggan makanan seimbang untuk kanak-kanak"
+    }
+  ],
+  "titles": [
+    {
+      "text": "AKTIF, TAPI CUKUP\nNUTRISI KE?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "ANAK MEMILIH MAKAN",
+      "from": [
+        "S02a",
+        "start"
+      ],
+      "to": [
+        "S02a",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "CUKUP KALSIUM?",
+      "from": [
+        "S02b",
+        "cukup"
+      ],
+      "to": [
+        "S02b",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TINY TITANZ KID180",
+      "from": [
+        "S03a",
+        "tiny"
+      ],
+      "to": [
+        "S03a",
+        "ada"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.26
+    },
+    {
+      "text": "AQUAMIN · VITAMIN C\nMENAQ7 (VITAMIN K2)",
+      "from": [
+        "S03a",
+        "ada"
+      ],
+      "to": [
+        "S03b",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "BLUEBERRY · ELDERBERRY\nCRANBERRY",
+      "from": [
+        "S04",
+        "dia"
+      ],
+      "to": [
+        "S04",
+        "bentuk"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TABLET KUNYAH",
+      "from": [
+        "S04",
+        "bentuk"
+      ],
+      "to": [
+        "S04",
+        "sesuai"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "UMUR 2–12 TAHUN",
+      "from": [
+        "S04",
+        "sesuai"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PEMAKANAN SEIMBANG",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S06",
+        "tekan"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "aktif",
+    "nutrisi",
+    "memilih",
+    "sayur",
+    "susu",
+    "kalsium",
+    "tulang",
+    "gigi",
+    "membesar",
+    "tiny",
+    "titanz",
+    "kid180",
+    "aquamin",
+    "vitamin",
+    "c",
+    "menaq7",
+    "k2",
+    "blueberry",
+    "elderberry",
+    "cranberry",
+    "tablet",
+    "kunyah",
+    "2",
+    "12",
+    "seimbang",
+    "beg",
+    "kuning",
+    "promo",
+    "check",
+    "out",
+    "terus"
+  ],
+  "_owner_decisions": ""
+}
