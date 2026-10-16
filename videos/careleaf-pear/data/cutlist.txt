@@ -1,0 +1,23 @@
+TOTAL 32.37s  (9 A-roll segments, 7 B-roll shots, 4 photos, 12 audio fx, 32 caption cards)
+
+  0.00-  4.63  S01  src  16.76- 21.40  (1 pc)  Musim jerebu ni tekak mudah rasa kering dan tak selesa, betul tak?
+  4.63-  8.17  S02  src  21.60- 25.15  (1 pc)  Lagi-lagi kalau selalu berada di luar atau banyak bercakap.
+  8.17- 11.43  S03  src  31.02- 34.30  (1 pc)  Boleh cuba Careleaf Bursting Pear Paste Gummies ni.
+ 11.43- 14.83  S04  src  38.66- 42.05  (1 pc)  Ada lebih 50% jus pear dalam paste buahnya,
+ 14.83- 18.90  S05  src  42.52- 46.58  (1 pc)  ekstrak loquat, kumquat, vitamin C dan mentol semula jadi.
+ 18.90- 22.77  S06  src  47.22- 51.10  (1 pc)  Bila kunyah, ada inti buah yang pecah dalam mulut dengan rasa segar.
+ 22.77- 25.20  S07  src  57.78- 60.22  (1 pc)  Yang penting produk ni ada logo halal.
+ 25.20- 27.17  S08  src  62.80- 64.75  (1 pc)  Mudah dibawa ke mana-mana guys.
+ 27.17- 32.37  S09  src  64.90- 70.45  (3 pc)  Nak cuba? Tekan di beg kuning, check harga. Kalau tengah murah, grab terus!
+
+  cutaway   1.07-  4.63
+  cutaway   5.83-  7.23
+  cutaway   7.23-  8.17
+  cutaway   8.97- 11.43
+  cutaway  11.43- 14.83
+  cutaway  14.83- 18.90
+  cutaway  18.90- 20.00
+  cutaway  20.00- 22.77
+  cutaway  22.77- 25.20
+  cutaway  25.20- 27.17
+  cutaway  27.17- 27.80

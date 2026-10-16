@@ -1,0 +1,22 @@
+# Careleaf "Bursting" Pear Paste Gummies: A-roll + B-roll review
+
+- **A-roll:** the owner holding the box (Drive 1jBYsNO-…, recorded 16 Oct). The front camera saved it mirrored; it is flipped back in CSS.
+- **B-roll** (rear camera, not mirrored), joined into `assets/b.mp4`:
+  - unboxing close-up (Drive 112cZsYO…), at 0–69.8 s;
+  - the owner tasting a gummy (Drive 1gJKYxNR…), from 69.8 s.
+- **Script:**
+  - hook: haze and a dry throat, "betul tak?" (take 2);
+  - who it's for: outdoors, lots of talking;
+  - product (take 2);
+  - more than 50% pear juice in the paste (take 2);
+  - loquat, kumquat, vitamin C, natural menthol;
+  - the fruit centre bursts when you chew;
+  - halal logo;
+  - easy to carry;
+  - CTA.
+- **Label check (owner's listing screenshots):**
+  - pear paste ≥50% pear juice; loquat and kumquat juice; vitamin C; natural menthol; for adults; 80 g.
+  - The box's halal mark is HCS (HCS-SYT60305). The spoken "…dipaparkan dengan [?] Halal Malaysia" was cut because it does not match the box. "Ada logo halal" is kept. This is flagged to the owner.
+- **No background music** (standing rule). Light SFX are used on titles and cutaways.
+- **AI cutaways:** a woman with a dry throat in the haze, an outdoor worker in the haze, a teacher talking, still-life fruit. All are full-screen, realistic, aurat covered and tagged "ILUSTRASI AI".
+- **Rebuild:** `python3 tools/build.py`. Images: `tools/gen.sh [names…]`.
