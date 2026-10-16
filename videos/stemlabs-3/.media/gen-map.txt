@@ -1,0 +1,6 @@
+ikan .media/images/image_001.png
+jantung .media/images/image_002.png
+otak .media/images/image_003.png
+mata .media/images/image_004.png
+warga .media/images/image_005.png
+rutin .media/images/image_006.png

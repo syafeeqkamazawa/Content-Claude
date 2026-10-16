@@ -277,8 +277,8 @@ for k, p in enumerate(EDL["photos"]):
     # punch-in on the cut, then continuous motion for the whole shot
     vis_js.append(f'tl.fromTo("#fs-{pid}-in", {{ scale: 1.14, opacity: 0.6 }}, {{ scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }}, {t0});')
     if layered:
-        vis_js.append(f'tl.fromTo("#fs-{pid}-bg", {{ scale: 1.12, x: {18 * side}, y: 0 }}, {{ scale: 1.2, x: {-18 * side}, y: -12, duration: {d}, ease: "none", immediateRender: false }}, {t0});')
-        vis_js.append(f'tl.fromTo("#fs-{pid}-fg", {{ scale: 1.08, x: {-14 * side}, y: 14 }}, {{ scale: 1.15, x: {14 * side}, y: -6, duration: {d}, ease: "sine.inOut", immediateRender: false }}, {t0});')
+        vis_js.append(f'tl.fromTo("#fs-{pid}-bg", {{ scale: 1.1, x: {12 * side}, y: 0 }}, {{ scale: 1.15, x: {-12 * side}, y: -8, duration: {d}, ease: "none", immediateRender: false }}, {t0});')
+        vis_js.append(f'tl.fromTo("#fs-{pid}-fg", {{ scale: 1.1, x: {-8 * side}, y: 6 }}, {{ scale: 1.18, x: {8 * side}, y: -10, duration: {d}, ease: "sine.inOut", immediateRender: false }}, {t0});')
     else:
         vis_js.append(f'tl.fromTo("#fs-{pid}-bg", {{ scale: 1.1, x: {36 * side}, y: 10 }}, {{ scale: 1.2, x: {-36 * side}, y: -10, duration: {d}, ease: "sine.inOut", immediateRender: false }}, {t0});')
     cover.append((t0, t1))
