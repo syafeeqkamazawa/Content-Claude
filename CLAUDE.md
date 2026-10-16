@@ -16,6 +16,10 @@ otherwise for a specific video.
     whole body except face and hands.
   Check every generated or stock image for this before using it; regenerate
   anything that fails.
+- **Overlays move** (owner, 16 Oct): AI photos are split into a cut-out
+  subject and a background plate (`tools/plx.sh`, HyperFrames
+  remove-background) and the two layers drift apart (2.5D parallax); photos
+  with no subject get a camera pan. Real B-roll footage stays as video.
 - AI-generated photos carry a small "ILUSTRASI AI" tag, and the owner should
   switch on TikTok's "AI-generated content" label when posting.
 
