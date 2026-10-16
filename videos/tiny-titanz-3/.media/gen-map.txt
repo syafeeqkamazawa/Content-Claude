@@ -1,0 +1,9 @@
+risau .media/images/image_002.png
+sayur .media/images/image_003.png
+buah .media/images/image_004.png
+cuba .media/images/image_005.png
+tulang .media/images/image_006.png
+membesar .media/images/image_007.png
+aquamin .media/images/image_008.png
+praktikal .media/images/image_009.png
+keluarga .media/images/image_010.png

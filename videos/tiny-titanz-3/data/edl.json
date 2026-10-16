@@ -1,0 +1,537 @@
+{
+  "_note": "Tiny Titanz 180+ #3. Source times are seconds in assets/a.mp4 (A-roll, 16 Oct, Drive 1OAZ75zw…, front camera saved mirrored → flipped in CSS) and assets/b.mp4 (muted overhead B-roll, Drive 1GHRSW5H…, 13 Sep — a different file from the B-roll of videos/tiny-titanz-180 and -2; transcoded rotated 90° anticlockwise so it fills the vertical frame upright). Repeated takes dropped: 'Sayur ditolak…' take 1 (21.2-26.6) and 'Cukup ke tak kalsium yang anak kita dapat?' (29.5-32.4) in favour of the fuller take 2; CTA line 'sementara masih ada harga promo' take 1 (90.9-94.4) in favour of take 2 (96.3-99.7). No background music (owner, 15 Oct). Overlays move: tools/plx.sh + tools/build.py (parallax). Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 6.4,
+      "out": 15.7,
+      "zoom": 1.05,
+      "text": "Kadang-kadang yang paling merisaukan kita sebagai ibu ayah bukan anak tak nak makan, tapi takut nutrisi yang dia perlukan untuk membesar tak cukup.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 37.85,
+      "out": 42.98,
+      "zoom": 1.0,
+      "text": "Sayur ditolak, buah pun susah nak makan, hari-hari kita cuba macam-macam.",
+      "note": "take 2"
+    },
+    {
+      "id": "S03",
+      "in": 43.15,
+      "out": 48.1,
+      "zoom": 1.08,
+      "text": "Dalam hati ni tertanya-tanya, cukup ke tak kalsium untuk tulang dan gigi dia?",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 48.45,
+      "out": 51.05,
+      "zoom": 1.0,
+      "text": "Cukup ke tak nutrisi sepanjang dia membesar?",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 52.2,
+      "out": 57.88,
+      "zoom": 1.08,
+      "text": "Sebab tu saya nak kongsikan dengan parent Tiny Titanz 180+ Liquid Sachet.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 57.85,
+      "out": 63.72,
+      "zoom": 1.0,
+      "text": "Ada Aquamin, sumber kalsium marine, bersama collagen HMB dan bird nest peptide.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 67.35,
+      "out": 74.28,
+      "zoom": 1.08,
+      "text": "Bentuk dia cecair, satu sachet sehari je. Terus minum tanpa perlu bancuh. Memang sangat praktikal untuk ibu ayah.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 77.35,
+      "out": 85.65,
+      "zoom": 1.0,
+      "text": "Anak-anak kita membesar sekali je, kita mungkin tak mampu buat semuanya sempurna, tapi kita boleh usaha beri yang terbaik untuk mereka.",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "in": 86.15,
+      "out": 90.82,
+      "zoom": 1.08,
+      "text": "Kalau parent berminat nak cuba produk ni, boleh tekan di beg kuning,",
+      "note": "CTA"
+    },
+    {
+      "id": "S10",
+      "in": 96.25,
+      "out": 99.7,
+      "zoom": 1.08,
+      "text": "Sementara masih ada harga promo, boleh beli sekarang.",
+      "note": "CTA take 2"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "bukan",
+      1.08
+    ],
+    [
+      "S10",
+      "sekarang",
+      1.1
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S05",
+        "tiny"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 22.0,
+      "note": "kotak Tiny Titanz 180+ tegak",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 30%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S06",
+        "bersama"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 84.5,
+      "note": "sachet 180 Growth Support atas cawan",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "terus"
+      ],
+      "src": 68.0,
+      "note": "koyak sachet atas cawan",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S07",
+        "terus"
+      ],
+      "to": [
+        "S07",
+        "memang"
+      ],
+      "src": 74.5,
+      "note": "picit cecair ke dalam cawan",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 55%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S09",
+        "start"
+      ],
+      "to": [
+        "S09",
+        "tekan"
+      ],
+      "src": 29.5,
+      "note": "banyak sachet dalam kotak",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 30%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "risau",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: ibu bertudung risau, anak tolak pinggan"
+    },
+    {
+      "id": "sayur",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "buah"
+      ],
+      "note": "AI: budak perempuan bertudung tolak sudu sayur"
+    },
+    {
+      "id": "buah",
+      "from": [
+        "S02",
+        "buah"
+      ],
+      "to": [
+        "S02",
+        "hari-hari"
+      ],
+      "note": "AI: budak lelaki masam muka depan buah potong"
+    },
+    {
+      "id": "cuba",
+      "from": [
+        "S02",
+        "hari-hari"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: ibu susun bekal bento untuk anak"
+    },
+    {
+      "id": "tulang",
+      "from": [
+        "S03",
+        "cukup"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "note": "AI: budak perempuan bertudung senyum, gigi sihat, lompat tali"
+    },
+    {
+      "id": "membesar",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: ayah tanda tinggi anak di dinding"
+    },
+    {
+      "id": "aquamin",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "bersama"
+      ],
+      "note": "AI: alga merah marin (sumber Aquamin) dalam laut"
+    },
+    {
+      "id": "praktikal",
+      "from": [
+        "S07",
+        "memang"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "note": "AI: ibu hulur cawan minuman kepada anak sebelum ke sekolah"
+    },
+    {
+      "id": "keluarga",
+      "from": [
+        "S08",
+        "tapi"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "note": "AI: keluarga berpelukan di sofa"
+    }
+  ],
+  "titles": [
+    {
+      "text": "IBU AYAH PALING RISAU…",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "NUTRISI ANAK\nTAK CUKUP?",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SAYUR DITOLAK",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "buah"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "BUAH PUN SUSAH",
+      "from": [
+        "S02",
+        "buah"
+      ],
+      "to": [
+        "S02",
+        "hari-hari"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "CUBA MACAM-MACAM",
+      "from": [
+        "S02",
+        "hari-hari"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "KALSIUM UNTUK\nTULANG & GIGI",
+      "from": [
+        "S03",
+        "cukup"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "NUTRISI MASA MEMBESAR",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TINY TITANZ 180+\nLIQUID SACHET",
+      "from": [
+        "S05",
+        "tiny"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "AQUAMIN\nKALSIUM MARIN",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "bersama"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "COLLAGEN HMB\nBIRD NEST PEPTIDE",
+      "from": [
+        "S06",
+        "bersama"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SATU SACHET SEHARI",
+      "from": [
+        "S07",
+        "satu"
+      ],
+      "to": [
+        "S07",
+        "terus"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TERUS MINUM\nTAK PERLU BANCUH",
+      "from": [
+        "S07",
+        "terus"
+      ],
+      "to": [
+        "S07",
+        "memang"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PRAKTIKAL UNTUK\nIBU AYAH",
+      "from": [
+        "S07",
+        "memang"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "MEMBESAR SEKALI JE",
+      "from": [
+        "S08",
+        "start"
+      ],
+      "to": [
+        "S08",
+        "tapi"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "YANG TERBAIK\nUNTUK MEREKA",
+      "from": [
+        "S08",
+        "tapi"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S09",
+        "tekan"
+      ],
+      "to": [
+        "S10",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "nutrisi",
+    "membesar",
+    "sayur",
+    "buah",
+    "kalsium",
+    "tulang",
+    "gigi",
+    "tiny",
+    "titanz",
+    "180+",
+    "liquid",
+    "sachet",
+    "aquamin",
+    "marine",
+    "collagen",
+    "hmb",
+    "bird",
+    "nest",
+    "peptide",
+    "cecair",
+    "sehari",
+    "bancuh",
+    "praktikal",
+    "terbaik",
+    "beg",
+    "kuning",
+    "promo",
+    "sekarang"
+  ]
+}
