@@ -1,0 +1,479 @@
+{
+  "_note": "Promaxx Jus Gout #5. Source times are seconds in assets/a.mp4 (A-roll, VID_20261016_230507, Drive 13QeNQ2H…, one clean take; audio is gated so data/transcript-a.json is [] and caption timing comes from speech islands) and assets/b.mp4 (muted B-roll, VID_20261012_172341, Drive 1MnocG_E… — the same clip as v2.mp4 in videos/jus-gout and b.mp4 in videos/jus-gout-4). B-roll picks avoid every range those used (#1: 12-15.7, 18.4-19.3, 53.5-55.8, 70-73.6, 118-119.6, 196-199.3, 200.5-202.7; #4: 4.2-8.45, 16.2-18.7, 58.5-60.5, 62-64.7, 83.5-84.4, 128-129.7, 205.5-207.6). No background music (owner, 15 Oct). Overlays move (parallax, tools/plx.sh). Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 8.6,
+      "out": 17.25,
+      "zoom": 1.05,
+      "text": "Siapa kat sini ada masalah gout, pernah tak tengah malam tiba-tiba ibu jari kaki sakit, bengkak sampai nak pijak lantai pun susah.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 18.0,
+      "out": 22.45,
+      "zoom": 1.0,
+      "text": "Gout ni berkait dengan pengumpulan kristal asid urik dalam sendi.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 22.8,
+      "out": 26.35,
+      "zoom": 1.08,
+      "text": "Bila serangan datang memang boleh mengganggu aktiviti harian kita.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 26.8,
+      "out": 30.85,
+      "zoom": 1.0,
+      "text": "Sebab tu penting untuk jaga pemakanan dan pantau paras asid urik.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 35.45,
+      "out": 42.75,
+      "zoom": 1.08,
+      "text": "Yang sedang cari minuman tambahan untuk rutin harian boleh pertimbangkan Jus Gout ni daripada Promaxx series.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 43.05,
+      "out": 47.65,
+      "zoom": 1.0,
+      "text": "Mudah nak disediakan dan boleh dijadikan sebahagian daripada rutin penjagaan diri kita.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 52.1,
+      "out": 55.8,
+      "zoom": 1.08,
+      "text": "Jangan tunggu sampai serangan gout datang berulang kali baru nak ambil berat.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 56.05,
+      "out": 61.8,
+      "zoom": 1.0,
+      "text": "Jaga makan, minum air secukupnya dan boleh ikhtiar dengan Jus Gout daripada Promaxx series ni.",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "in": 62.2,
+      "out": 66.5,
+      "zoom": 1.08,
+      "text": "Boleh klik beg kuning. Kalau harga tengah murah, boleh check out terus.",
+      "note": "CTA"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "sakit",
+      1.08
+    ],
+    [
+      "S07",
+      "jangan",
+      1.08
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S05",
+        "jus"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 20.0,
+      "note": "balang Jus Gout depan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "boleh"
+      ],
+      "src": 76.0,
+      "note": "sudu serbuk ke dalam cawan",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S06",
+        "boleh"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 146.0,
+      "note": "kacau dalam cawan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 60%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S08",
+        "ikhtiar"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "src": 202.8,
+      "note": "jus siap dengan sudu",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 55%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S09",
+        "kalau"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "src": 1.5,
+      "note": "balang dalam tangan, CTA",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "malam",
+      "from": [
+        "S01",
+        "pernah"
+      ],
+      "to": [
+        "S01",
+        "bengkak"
+      ],
+      "note": "AI: lelaki sakit kaki tengah malam, isteri bertudung terjaga"
+    },
+    {
+      "id": "bengkak",
+      "from": [
+        "S01",
+        "bengkak"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: ibu jari kaki merah bengkak"
+    },
+    {
+      "id": "xray",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: doktor wanita bertudung tunjuk X-ray kaki"
+    },
+    {
+      "id": "aktiviti",
+      "from": [
+        "S03",
+        "mengganggu"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "note": "AI: lelaki duduk di tangga pegang buku lali, tak dapat ke kerja"
+    },
+    {
+      "id": "jagamakan",
+      "from": [
+        "S04",
+        "jaga"
+      ],
+      "to": [
+        "S04",
+        "pantau"
+      ],
+      "note": "AI: makan tengah hari sihat, ikan kukus dan sayur"
+    },
+    {
+      "id": "pantau",
+      "from": [
+        "S04",
+        "pantau"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: lelaki semak asid urik dengan meter di rumah"
+    },
+    {
+      "id": "air",
+      "from": [
+        "S08",
+        "minum"
+      ],
+      "to": [
+        "S08",
+        "ikhtiar"
+      ],
+      "note": "AI: lelaki minum segelas air"
+    }
+  ],
+  "titles": [
+    {
+      "text": "ADA MASALAH GOUT?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "pernah"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "SAKIT TENGAH MALAM",
+      "from": [
+        "S01",
+        "pernah"
+      ],
+      "to": [
+        "S01",
+        "bengkak"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "NAK PIJAK LANTAI\nPUN SUSAH",
+      "from": [
+        "S01",
+        "bengkak"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "KRISTAL ASID URIK\nDALAM SENDI",
+      "from": [
+        "S02",
+        "kristal"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "GANGGU AKTIVITI\nHARIAN",
+      "from": [
+        "S03",
+        "mengganggu"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "JAGA PEMAKANAN",
+      "from": [
+        "S04",
+        "jaga"
+      ],
+      "to": [
+        "S04",
+        "pantau"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PANTAU PARAS\nASID URIK",
+      "from": [
+        "S04",
+        "pantau"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "JUS GOUT\nPROMAXX SERIES",
+      "from": [
+        "S05",
+        "jus"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "MUDAH DISEDIAKAN",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "boleh"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "RUTIN PENJAGAAN DIRI",
+      "from": [
+        "S06",
+        "boleh"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "JANGAN TUNGGU\nSERANGAN BERULANG",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "JAGA MAKAN\n+ CUKUP AIR",
+      "from": [
+        "S08",
+        "start"
+      ],
+      "to": [
+        "S08",
+        "ikhtiar"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "IKHTIAR DENGAN\nJUS GOUT",
+      "from": [
+        "S08",
+        "ikhtiar"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S09",
+        "klik"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "gout",
+    "sakit",
+    "bengkak",
+    "pijak",
+    "kristal",
+    "asid",
+    "urik",
+    "sendi",
+    "serangan",
+    "aktiviti",
+    "pemakanan",
+    "pantau",
+    "jus",
+    "promaxx",
+    "series",
+    "mudah",
+    "rutin",
+    "berulang",
+    "makan",
+    "air",
+    "ikhtiar",
+    "beg",
+    "kuning",
+    "murah",
+    "check",
+    "out"
+  ]
+}

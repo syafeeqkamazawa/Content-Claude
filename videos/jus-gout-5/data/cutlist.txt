@@ -1,0 +1,24 @@
+TOTAL 45.50s  (9 A-roll segments, 5 B-roll shots, 7 photos, 20 audio fx, 42 caption cards)
+
+  0.00-  8.23  S01  src   8.60- 17.25  (2 pc)  Siapa kat sini ada masalah gout, pernah tak tengah malam tiba-tiba ibu jari kaki sakit, bengkak sampai nak pijak lantai pun susah.
+  8.23- 12.67  S02  src  18.00- 22.45  (1 pc)  Gout ni berkait dengan pengumpulan kristal asid urik dalam sendi.
+ 12.67- 16.23  S03  src  22.80- 26.35  (1 pc)  Bila serangan datang memang boleh mengganggu aktiviti harian kita.
+ 16.23- 20.30  S04  src  26.80- 30.85  (1 pc)  Sebab tu penting untuk jaga pemakanan dan pantau paras asid urik.
+ 20.30- 27.30  S05  src  35.45- 42.75  (2 pc)  Yang sedang cari minuman tambahan untuk rutin harian boleh pertimbangkan Jus Gout ni daripada Promaxx series.
+ 27.30- 31.90  S06  src  43.05- 47.65  (1 pc)  Mudah nak disediakan dan boleh dijadikan sebahagian daripada rutin penjagaan diri kita.
+ 31.90- 35.60  S07  src  52.10- 55.80  (1 pc)  Jangan tunggu sampai serangan gout datang berulang kali baru nak ambil berat.
+ 35.60- 41.20  S08  src  56.05- 61.80  (2 pc)  Jaga makan, minum air secukupnya dan boleh ikhtiar dengan Jus Gout daripada Promaxx series ni.
+ 41.20- 45.50  S09  src  62.20- 66.50  (1 pc)  Boleh klik beg kuning. Kalau harga tengah murah, boleh check out terus.
+
+  cutaway   2.00-  6.07
+  cutaway   6.07-  8.23
+  cutaway   8.23- 12.67
+  cutaway  14.30- 16.23
+  cutaway  17.47- 18.60
+  cutaway  18.60- 20.30
+  cutaway  24.83- 27.30
+  cutaway  27.30- 28.40
+  cutaway  28.40- 31.90
+  cutaway  36.37- 38.30
+  cutaway  38.30- 41.20
+  cutaway  42.27- 45.50

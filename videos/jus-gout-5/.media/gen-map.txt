@@ -1,0 +1,7 @@
+malam .media/images/image_002.png
+bengkak .media/images/image_003.png
+xray .media/images/image_004.png
+aktiviti .media/images/image_005.png
+pantau .media/images/image_006.png
+jagamakan .media/images/image_007.png
+air .media/images/image_008.png
