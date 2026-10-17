@@ -1,0 +1,9 @@
+jantung .media/images/image_001.png
+usus .media/images/image_002.png
+kembung .media/images/image_003.png
+abai .media/images/image_004.png
+bakteria .media/images/image_005.png
+sihat .media/images/image_006.png
+sibuk .media/images/image_007.png
+usus .media/images/image_008.png
+sibuk .media/images/image_009.png

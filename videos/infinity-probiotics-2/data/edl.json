@@ -1,0 +1,475 @@
+{
+  "_note": "Infinity Probiotics Plus #2. Source times are seconds in assets/a.mp4 (A-roll, VID_20261017_000733, Drive 1p8GA003…, one take, front camera so mirrored back in CSS; audio is gated so data/transcript-a.json is [] and caption timing comes from speech islands) and assets/b.mp4 (muted B-roll, VID_20261014_001726, Drive 13weypVw… — the same clip as videos/infinity-probiotics-plus, which used 3.5-5.0, 16-19.0, 18.5-20.0, 50-52.0, 57-59.5; every pick here is outside those). No background music (owner, 15 Oct). Overlays move (parallax, tools/plx.sh). Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 2.85,
+      "out": 12.3,
+      "zoom": 1.05,
+      "text": "Ramai orang risau pasal jantung, darah tinggi, gula, tapi ada satu bahagian badan yang kita selalu terlepas pandang, usus kita sendiri.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 19.0,
+      "out": 24.5,
+      "zoom": 1.0,
+      "text": "Pernah tak perut rasa kembung, tak selesa atau susah nak membuang.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 25.05,
+      "out": 30.75,
+      "zoom": 1.08,
+      "text": "Kadang-kadang kita anggap benda ni biasa, tapi kalau kerap sangat berlaku, jangan buat tak kisah ya.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 36.0,
+      "out": 41.35,
+      "zoom": 1.0,
+      "text": "Probiotics ni sebenarnya bakteria baik yang membantu menyokong keseimbangan bakteria dalam usus kita.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 41.6,
+      "out": 45.3,
+      "zoom": 1.08,
+      "text": "Bila kita jaga kesihatan usus, kita juga menyokong sistem penghadaman.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 45.65,
+      "out": 51.95,
+      "zoom": 1.0,
+      "text": "Infinity Probiotics Plus ni boleh jadi salah satu pilihan untuk melengkapkan rutin penjagaan kesihatan harian kita.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 57.5,
+      "out": 61.3,
+      "zoom": 1.08,
+      "text": "Kita selalu sibuk jaga macam-macam benda, sampai terlupa nak jaga badan sendiri.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 61.6,
+      "out": 64.8,
+      "zoom": 1.0,
+      "text": "Jangan tunggu sampai rasa tak selesa, baru nak ambil berat tau.",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "in": 64.95,
+      "out": 71.95,
+      "zoom": 1.08,
+      "text": "Nak cuba Infinity Probiotics Plus ni, tekan beg kuning sekarang. Harga kalau tengah promo tu, beli terus.",
+      "note": "CTA"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "usus",
+      1.08
+    ],
+    [
+      "S08",
+      "jangan",
+      1.08
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "bakteria"
+      ],
+      "src": 45.5,
+      "note": "kapsul atas tapak tangan, botol terbuka",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 55%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "boleh"
+      ],
+      "src": 6.0,
+      "note": "kotak Infinity Probiotics Plus",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S06",
+        "boleh"
+      ],
+      "to": [
+        "S06",
+        "untuk"
+      ],
+      "src": 21.0,
+      "note": "botol depan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S06",
+        "untuk"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 62.0,
+      "note": "botol + kapsul dalam penutup",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 55%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S09",
+        "start"
+      ],
+      "to": [
+        "S09",
+        "tekan"
+      ],
+      "src": 25.5,
+      "note": "botol dalam tangan, CTA",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "jantung",
+      "from": [
+        "S01",
+        "risau"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "note": "AI: lelaki periksa tekanan darah, isteri bertudung"
+    },
+    {
+      "id": "usus",
+      "from": [
+        "S01",
+        "usus"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: model anatomi usus, tangan doktor"
+    },
+    {
+      "id": "kembung",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "atau"
+      ],
+      "note": "AI: wanita bertudung pegang perut kembung"
+    },
+    {
+      "id": "abai",
+      "from": [
+        "S03",
+        "tapi"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "note": "AI: lelaki pejabat tahan sakit perut sambil bekerja"
+    },
+    {
+      "id": "bakteria",
+      "from": [
+        "S04",
+        "bakteria"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: mikrograf bakteria probiotik"
+    },
+    {
+      "id": "sihat",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "note": "AI: keluarga sarapan yogurt dan buah"
+    },
+    {
+      "id": "sibuk",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "sampai"
+      ],
+      "note": "AI: ibu bertudung sibuk di dapur"
+    }
+  ],
+  "titles": [
+    {
+      "text": "RISAU JANTUNG,\nDARAH TINGGI, GULA",
+      "from": [
+        "S01",
+        "risau"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "YANG SELALU\nTERLEPAS PANDANG…",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "usus"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "USUS KITA SENDIRI",
+      "from": [
+        "S01",
+        "usus"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "PERUT KEMBUNG?",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "atau"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SUSAH NAK MEMBUANG?",
+      "from": [
+        "S02",
+        "atau"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "JANGAN BUAT\nTAK KISAH",
+      "from": [
+        "S03",
+        "tapi"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PROBIOTIK =\nBAKTERIA BAIK",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "bakteria"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "KESEIMBANGAN\nBAKTERIA USUS",
+      "from": [
+        "S04",
+        "bakteria"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SOKONG SISTEM\nPENGHADAMAN",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "INFINITY\nPROBIOTICS PLUS",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "untuk"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "RUTIN KESIHATAN\nHARIAN",
+      "from": [
+        "S06",
+        "untuk"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "JAGA BADAN SENDIRI",
+      "from": [
+        "S07",
+        "sampai"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "JANGAN TUNGGU\nTAK SELESA",
+      "from": [
+        "S08",
+        "start"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S09",
+        "tekan"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "jantung",
+    "usus",
+    "kembung",
+    "membuang",
+    "kerap",
+    "probiotics",
+    "bakteria",
+    "baik",
+    "keseimbangan",
+    "kesihatan",
+    "penghadaman",
+    "infinity",
+    "plus",
+    "rutin",
+    "harian",
+    "badan",
+    "selesa",
+    "beg",
+    "kuning",
+    "promo"
+  ]
+}
