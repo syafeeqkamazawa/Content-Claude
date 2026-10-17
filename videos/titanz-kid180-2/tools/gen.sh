@@ -1,0 +1,27 @@
+#!/bin/bash
+# Generates the AI cutaways for Tiny Titanz Kid180 #2 (owner's ChatGPT/Codex account). Run from the project root.
+export PATH=$HOME/.local/bin:$PATH NODE_USE_ENV_PROXY=1
+MOD="Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition."
+PPL="Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people."
+gen () {
+  name=$1; shift
+  for i in 1 2 3 4; do
+    out=$(timeout 900 npx --yes hyperframes@0.8.149 media-use resolve --type image --provider codex --intent "$1 $MOD" --project . --json 2>&1 | grep -v UNDICI | grep -v trace-warn | tail -40)
+    echo "== $name try $i"; echo "$out" | tail -2 | cut -c1-200
+    p=$(echo "$out" | grep -o '"path": *"[^"]*"' | head -1 | sed 's/.*"\(.media[^"]*\)"/\1/')
+    if [ -n "$p" ] && [ -f "$p" ]; then echo "$name $p" >> .media/gen-map.txt; return; fi
+    sleep 25
+  done
+}
+[ $# -gt 0 ] && ONLY=" $* " || ONLY=""
+want () { [ -z "$ONLY" ] || [[ "$ONLY" == *" $1 "* ]]; }
+
+want tinggi && gen tinggi "Three Malay primary-school children standing in a row against a school corridor wall comparing their heights, one boy noticeably taller, boys in long-sleeved white school shirts and long navy trousers, a girl in a white school hijab covering her hair, neck and chest with a long blue pinafore and long sleeves, playful, natural light. $PPL"
+want tertanya && gen tertanya "A thoughtful Malay mother in a hijab covering her hair, neck and chest and a loose long-sleeved baju kurung sitting on a sofa, quietly watching her small son in a long-sleeved t-shirt and long trousers play with blocks on the floor, a slightly worried expression, warm living room light. $PPL"
+want sayur && gen sayur "A little Malay boy about five in a long-sleeved t-shirt at a dining table scrunching his face and pushing away a bowl of broccoli and carrots, his father's hand in a long sleeve holding a spoon, home kitchen. $PPL"
+want susu && gen susu "A little Malay girl about four in a small hijab covering her hair, neck and chest and a long-sleeved top shaking her head and refusing a glass of milk offered by her mother in a hijab and long sleeves, morning kitchen light, framed from the waist up. $PPL"
+want gigi && gen gigi "A cheerful Malay boy about seven in long-sleeved pyjamas brushing his teeth at a bathroom sink and grinning with healthy white teeth in the mirror, bright morning light, framed from the waist up. $PPL"
+want beri && gen beri "Fresh blueberries in a small white bowl, a cup of green tea with fresh green tea leaves, and halved oranges as a vitamin C source on a light wooden table, bright natural light, food photography, no people, no text."
+want rutin && gen rutin "A Malay mother in a hijab covering her hair, neck and chest and long sleeves at the breakfast table smiling as her young daughter in a small hijab and long sleeves eats breakfast of eggs, toast and fruit before school, bright morning kitchen. $PPL"
+want membesar && gen membesar "A Malay father in a kopiah, long-sleeved shirt and long trousers and a mother in a hijab covering her hair, neck and chest and a loose long baju kurung walking in a green park at sunset holding hands with their two children, a son in long sleeves and long trousers and a daughter in a hijab and long dress with shoes, seen from behind and side, happy family. $PPL"
+echo DONE

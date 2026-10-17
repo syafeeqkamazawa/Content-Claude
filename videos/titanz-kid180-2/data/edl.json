@@ -1,0 +1,459 @@
+{
+  "_note": "Tiny Titanz Kid180 #2. Source times are seconds in assets/a.mp4 (A-roll, VID_20261017_001504, Drive 1s06_37L…, front camera so mirrored back in CSS; audio is gated so data/transcript-a.json is [] and caption timing comes from speech islands) and assets/b.mp4 (muted B-roll, VID_20261014_153413, Drive 1yeUjbM-… — the same clip as videos/titanz-kid180, which used 5.5-7.4, 7.6-12.5, 35-36.4, 38.5-40.5; every pick here is outside those). Dropped: the muddled 'senang untuk… jadikan mudah' (45.5-57.0, retaken cleanly at 60.4-64.1) and the CTA false start 'Kalau tengah cari,' (75.3-76.4). The calcium line matches the box ('Tinggi kalsium — kalsium membantu dalam perkembangan tulang dan gigi yang kuat'; 'Tablet kunyah beri biru, teh hijau dan vitamin C'). No background music; overlays move (parallax). Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 5.15,
+      "out": 13.85,
+      "zoom": 1.05,
+      "text": "Pernah tak ibu ayah tengok anak orang lain makin tinggi, makin membesar, tapi kita pula diam-diam tertanya, cukup ke tak nutrisi anak kita?",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 15.9,
+      "out": 26.6,
+      "zoom": 1.0,
+      "text": "Anak-anak ni membesar setiap hari, tapi bila sayur susah nak makan, susu pun kadang-kadang tak nak, sebagai ibu ayah mesti kita risau, cukup ke kalsium untuk tulang dan gigi dia?",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 30.2,
+      "out": 38.3,
+      "zoom": 1.08,
+      "text": "Sebab tu saya nak kongsikan pada ibu ayah Titanz Kid180 ni, tablet kunyah dengan kalsium yang membantu perkembangan tulang dan gigi yang kuat.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 39.25,
+      "out": 45.05,
+      "zoom": 1.0,
+      "text": "Ada perisa campuran beri biru, teh hijau dan vitamin C.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 60.5,
+      "out": 64.2,
+      "zoom": 1.08,
+      "text": "Senang untuk dijadikan sebahagian daripada rutin nutrisi anak-anak kita.",
+      "note": "take 2"
+    },
+    {
+      "id": "S06",
+      "in": 67.3,
+      "out": 74.8,
+      "zoom": 1.0,
+      "text": "Anak-anak takkan kecil selamanya, sementara mereka masih membesar ni, kita usaha yang terbaik, beri nutrisi yang mencukupi untuk mereka.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 77.2,
+      "out": 82.55,
+      "zoom": 1.08,
+      "text": "Ibu ayah yang tengah cari suplemen kalsium untuk anak-anak, boleh tekan beg kuning sekarang dan semak harga.",
+      "note": "CTA"
+    },
+    {
+      "id": "S08",
+      "in": 82.7,
+      "out": 86.05,
+      "zoom": 1.08,
+      "text": "Kalau harga tengah ada promosi, boleh grab awal-awal.",
+      "note": "CTA"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "cukup",
+      1.08
+    ],
+    [
+      "S06",
+      "anak-anak",
+      1.06
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S03",
+        "titanz"
+      ],
+      "to": [
+        "S03",
+        "tablet"
+      ],
+      "src": 2.2,
+      "note": "kotak Kid180 depan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S03",
+        "tablet"
+      ],
+      "to": [
+        "S03",
+        "kalsium"
+      ],
+      "src": 32.6,
+      "note": "tablet kunyah atas tapak tangan",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 50%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S03",
+        "kalsium"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "src": 17.5,
+      "note": "botol Kid180",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "rutin"
+      ],
+      "src": 21.0,
+      "note": "botol depan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "boleh"
+      ],
+      "src": 36.6,
+      "note": "botol + tablet, CTA",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 50%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "tinggi",
+      "from": [
+        "S01",
+        "anak"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "note": "AI: budak sekolah banding tinggi"
+    },
+    {
+      "id": "tertanya",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "cukup"
+      ],
+      "note": "AI: ibu bertudung termenung tengok anak"
+    },
+    {
+      "id": "sayur",
+      "from": [
+        "S02",
+        "tapi"
+      ],
+      "to": [
+        "S02",
+        "susu"
+      ],
+      "note": "AI: budak lelaki tolak brokoli"
+    },
+    {
+      "id": "susu",
+      "from": [
+        "S02",
+        "susu"
+      ],
+      "to": [
+        "S02",
+        "sebagai"
+      ],
+      "note": "AI: budak perempuan bertudung tolak susu"
+    },
+    {
+      "id": "gigi",
+      "from": [
+        "S02",
+        "cukup"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: budak gosok gigi senyum"
+    },
+    {
+      "id": "beri",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: beri biru, teh hijau, oren"
+    },
+    {
+      "id": "rutin",
+      "from": [
+        "S05",
+        "rutin"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "note": "AI: ibu dan anak sarapan sebelum sekolah"
+    },
+    {
+      "id": "membesar",
+      "from": [
+        "S06",
+        "sementara"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "note": "AI: keluarga berjalan di taman"
+    }
+  ],
+  "titles": [
+    {
+      "text": "ANAK ORANG MAKIN\nTINGGI…",
+      "from": [
+        "S01",
+        "anak"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "CUKUP KE NUTRISI\nANAK KITA?",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SAYUR SUSAH\nNAK MAKAN",
+      "from": [
+        "S02",
+        "tapi"
+      ],
+      "to": [
+        "S02",
+        "susu"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SUSU PUN TAK NAK",
+      "from": [
+        "S02",
+        "susu"
+      ],
+      "to": [
+        "S02",
+        "sebagai"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "CUKUP KALSIUM UNTUK\nTULANG & GIGI?",
+      "from": [
+        "S02",
+        "cukup"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TITANZ KID180",
+      "from": [
+        "S03",
+        "titanz"
+      ],
+      "to": [
+        "S03",
+        "tablet"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "TABLET KUNYAH\nTINGGI KALSIUM",
+      "from": [
+        "S03",
+        "tablet"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "BERI BIRU · TEH HIJAU\n+ VITAMIN C",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "RUTIN NUTRISI ANAK",
+      "from": [
+        "S05",
+        "rutin"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "ANAK TAKKAN KECIL\nSELAMANYA",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "sementara"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "BERI YANG TERBAIK",
+      "from": [
+        "S06",
+        "sementara"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S07",
+        "tekan"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "tinggi",
+    "membesar",
+    "nutrisi",
+    "sayur",
+    "susu",
+    "risau",
+    "kalsium",
+    "tulang",
+    "gigi",
+    "titanz",
+    "kid180",
+    "tablet",
+    "kunyah",
+    "kuat",
+    "beri",
+    "biru",
+    "teh",
+    "hijau",
+    "vitamin",
+    "c",
+    "rutin",
+    "terbaik",
+    "suplemen",
+    "beg",
+    "kuning",
+    "promosi"
+  ]
+}

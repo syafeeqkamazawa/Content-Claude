@@ -1,0 +1,8 @@
+tinggi .media/images/image_001.png
+tertanya .media/images/image_002.png
+sayur .media/images/image_003.png
+susu .media/images/image_004.png
+gigi .media/images/image_005.png
+beri .media/images/image_006.png
+rutin .media/images/image_007.png
+membesar .media/images/image_008.png
