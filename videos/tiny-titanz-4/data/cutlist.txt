@@ -1,0 +1,27 @@
+TOTAL 39.40s  (8 voiceover ranges, 16 shots, 18 audio fx, 37 caption cards)
+
+  0.00-  6.67  V01  vo   1.30-  7.95  (1 pc)  Pernah tak tengok anak makan, tapi dalam hati tertanya-tanya, cukup ke nutrisi yang dia dapat setiap hari?
+  6.67-  9.17  V02  vo   8.40- 10.90  (1 pc)  Sayur tak nak, buah pun memilih.
+  9.17- 13.83  V03  vo  11.20- 15.85  (1 pc)  Sebagai ibu ayah, memang kita risau sebab anak-anak ni membesar setiap hari.
+ 13.83- 18.77  V04  vo  16.50- 21.45  (1 pc)  Sebab tu saya nak kongsikan Tiny Titanz 180+ Liquid Sachet.
+ 18.77- 25.87  V05  vo  21.55- 28.65  (1 pc)  Ada Aquamin, sumber kalsium marin, collagen HMB dan bird nest peptide untuk melengkapkan rutin nutrisi anak kita.
+ 25.87- 29.97  V06  vo  47.60- 51.70  (1 pc)  Paling mudah, satu sachet sehari, koyak dan terus minum, tak perlu bancuh.
+ 29.97- 33.77  V07  vo  52.05- 55.85  (1 pc)  Anak-anak membesar sekali je, jom usaha beri yang terbaik untuk mereka.
+ 33.77- 38.80  V08  vo  55.85- 61.05  (2 pc)  Tekan beg kuning sekarang dan lihat jika ada harga promo, boleh terus check out.
+
+  0.00-  6.67  P01  photo suap       AI: ibu bertudung tengok anak makan, tertanya-tanya
+  6.67-  7.67  P02  photo tolak      AI: anak tutup mulut tolak sayur
+  7.67-  9.17  P03  photo pilih      AI: budak perempuan bertudung pilih buah
+  9.17- 11.90  P04  photo malam      AI: ibu ayah berbincang risau di meja dapur
+ 11.90- 13.83  P05  photo tinggi     AI: ibu tanda tinggi anak di bingkai pintu
+ 13.83- 15.50  P06  b @1.5s          kotak Tiny Titanz 180+
+ 15.50- 18.77  P07  b @58.5s         kotak depan diangkat
+ 18.77- 21.50  P08  b @63.0s         panel belakang kotak (ramuan)
+ 21.50- 23.80  P09  b @14.0s         sachet tersusun depan kotak
+ 23.80- 25.87  P10  b @101.0s        kotak + sachet
+ 25.87- 27.90  P11  b @28.0s         koyak sachet
+ 27.90- 29.10  P12  b @38.0s         picit ke dalam cawan
+ 29.10- 29.97  P13  b @50.0s         cawan berisi cecair
+ 29.97- 31.97  P14  photo peluk      AI: ibu peluk anak di pagar sekolah
+ 31.97- 33.77  P15  b @84.0s         genggam banyak sachet
+ 33.77- 39.40  P16  b @104.0s        kotak hero, CTA

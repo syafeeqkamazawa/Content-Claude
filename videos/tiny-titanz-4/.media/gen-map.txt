@@ -1,0 +1,6 @@
+suap .media/images/image_001.png
+tolak .media/images/image_002.png
+pilih .media/images/image_003.png
+malam .media/images/image_004.png
+tinggi .media/images/image_005.png
+peluk .media/images/image_006.png
