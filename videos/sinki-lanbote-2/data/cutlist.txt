@@ -1,0 +1,31 @@
+TOTAL 41.13s  (11 voiceover ranges, 17 shots, 17 audio fx, 45 caption cards)
+
+  0.00-  5.07  V01  vo   3.85-  8.90  (1 pc)  Haa, tengok ni guys. Inilah hasil tangkapan penapis singki yang aku guna ni.
+  5.07-  7.03  V02  vo   9.10- 11.05  (1 pc)  Penapis singki daripada Lanbote.
+  7.03- 12.13  V03  vo  11.30- 16.40  (1 pc)  Semua sisa makanan terkumpul dekat sini sampai air dalam singki pun dah susah nak turun.
+ 12.13- 17.43  V04  vo  17.90- 23.20  (1 pc)  Tapi tengok apa jadi bila aku angkat je penapis ni, terus laju air masuk lubang singki.
+ 17.43- 21.07  V05  vo  23.30- 27.10  (2 pc)  Nampak tak? Sisa makanan tadi semua tersangkut dekat penapis ni.
+ 21.07- 25.37  V06  vo  28.10- 32.40  (1 pc)  Yang bestnya bila dah penuh, angkat, buang. Kemudian pasang dia yang baru.
+ 25.37- 28.07  V07  vo  32.75- 35.45  (1 pc)  Tak payah nak kutip sisa makanan satu-satu dengan tangan guys.
+ 28.07- 30.17  V08  vo  35.60- 37.70  (1 pc)  Mudah, cepat dan lebih bersih.
+ 30.17- 33.97  V09  vo  38.70- 42.50  (1 pc)  Ini penapis singki Lanbote. Satu pack ada 100 keping.
+ 33.97- 37.03  V10  vo  42.55- 45.60  (1 pc)  Memang sangat berbaloi untuk kegunaan dapur setiap hari.
+ 37.03- 40.53  V11  vo  45.85- 49.35  (1 pc)  Kalau tak nak sisa makanan terus masuk dekat singki, tekan beg kuning sekarang.
+
+  0.00-  5.07  P01  b @12.5s         penapis penuh sisa makanan diangkat
+  5.07-  7.03  P02  b @176.0s        tunjuk pek LANBOTE
+  7.03-  9.17  P03  b @19.5s         sisa makanan dalam jaring, dekat
+  9.17- 12.13  P04  b @4.5s          sinki penuh air tak turun
+ 12.13- 15.17  P05  b @10.0s         angkat penapis dari lubang
+ 15.17- 17.43  P06  b @30.0s x4      air surut (dipercepat)
+ 17.43- 21.07  P07  b @21.0s         sisa tersangkut pada jaring
+ 21.07- 23.93  P08  photo tong       AI: buang jaring penuh ke tong sampah
+ 23.93- 25.37  P09  b @118.0s        pasang jaring baru pada penapis
+ 25.37- 28.07  P10  photo jijik      AI: kutip sisa makanan dengan tangan
+ 28.07- 29.20  P11  b @136.0s        letak penapis semula dalam lubang
+ 29.20- 30.17  P12  photo kilat      AI: sinki bersih berkilat
+ 30.17- 32.40  P13  b @176.0s        pek LANBOTE depan
+ 32.40- 33.97  P14  b @194.5s        pek — 100只装
+ 33.97- 37.03  P15  photo ibu        AI: ibu bertudung basuh pinggan bersama anak
+ 37.03- 39.33  P16  b @146.0s        bilas pinggan, air laju
+ 39.33- 41.13  P17  b @177.5s        pek hero, CTA (tegak)

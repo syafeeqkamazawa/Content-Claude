@@ -1,0 +1,6 @@
+jijik .media/images/image_001.png
+tong .media/images/image_002.png
+kilat .media/images/image_003.png
+ibu .media/images/image_004.png
+tersumbat .media/images/image_005.png
+tong .media/images/image_006.png
