@@ -1,0 +1,302 @@
+{
+  "_note": "Hero Hige #2 (day 14). Owner's brief for Hero Hige (17 Oct): no captions/subtitles; overlays are only the key points as moving text; the clip of the owner using the product sits in the middle as a fast-forward full-screen overlay. Source times are seconds in assets/a.mp4 (A-roll VID_20261017_082747, Drive 1deh6Yu2… — rear-facing framing, NOT mirrored: the bottle reads HERO HIGE as recorded, so mirror=false) and assets/b.mp4 = the application clip HnVideoEditor_2026_10_17_083457209 (Drive 1Z3rhvjV…) from 1 s to 121 s sped up 8x (15 s, muted). Dropped: the first 'Dua minggu aku konsisten' (8.8-10.2) retake. The tagline 'Jambang journey by Jambang Solution' (43.8-47.8) is moved to the end. Audio gated → caption-free timing from speech islands. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": false,
+  "mirror": false,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 1.95,
+      "out": 8.7,
+      "zoom": 1.05,
+      "text": "Dah masuk day 14 jambang journey aku bersama Hero Hige by Jambang Solution.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 10.3,
+      "out": 14.6,
+      "zoom": 1.1,
+      "text": "2 minggu aku konsisten sapu pagi dan malam.",
+      "note": "take 2"
+    },
+    {
+      "id": "S03",
+      "in": 15.05,
+      "out": 19.1,
+      "zoom": 1.0,
+      "text": "Kalau tengok bahagian bawah dagu aku ni memang dari awal agak kosong.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 19.95,
+      "out": 25.6,
+      "zoom": 1.1,
+      "text": "Dan jambang kiri kanan pun masih belum betul-betul bersambung.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 26.95,
+      "out": 32.4,
+      "zoom": 1.0,
+      "text": "Aku tak nak klaim perubahan luar biasa lagi sebab perjalanan ni memang perlukan masa guys.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 32.75,
+      "out": 38.3,
+      "zoom": 1.0,
+      "text": "Yang penting kita kena konsisten pakai 1 kali pagi, 1 kali malam.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 38.75,
+      "out": 42.7,
+      "zoom": 1.0,
+      "text": "Aku akan terus pakai Hero Hige ni dan kita akan tengok sama-sama.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 59.25,
+      "out": 68.25,
+      "zoom": 1.08,
+      "text": "So kalau korang pun ada masalah jambang jarang atau tak sekata, dan nak cuba Hero Hige ni boleh tekan beg kuning guys. Harga murah-murah saja insyaAllah.",
+      "note": "CTA"
+    },
+    {
+      "id": "S09",
+      "in": 43.75,
+      "out": 47.8,
+      "zoom": 1.05,
+      "text": "Jambang journey by Jambang Solution.",
+      "note": "sign-off (moved to the end)"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "14",
+      1.08
+    ],
+    [
+      "S04",
+      "kiri",
+      1.08
+    ],
+    [
+      "S08",
+      "tekan",
+      1.08
+    ]
+  ],
+  "broll": [
+    {
+      "id": "FF",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "src": 0,
+      "note": "sapu Hero Hige — 2 minit dipercepat 8x",
+      "push": [
+        1.0,
+        1.06
+      ],
+      "origin": "50% 40%",
+      "ff": "8X"
+    }
+  ],
+  "photos": [],
+  "titles": [
+    {
+      "text": "DAY 14",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "hero"
+      ],
+      "anim": "zoom",
+      "pos": "top",
+      "cls": "big narrow",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.32
+    },
+    {
+      "text": "HERO HIGE\nBEARD TONIC",
+      "from": [
+        "S01",
+        "hero"
+      ],
+      "to": [
+        "S01",
+        "by"
+      ],
+      "anim": "slam",
+      "pos": "top"
+    },
+    {
+      "text": "BY JAMBANG SOLUTION",
+      "from": [
+        "S01",
+        "by"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "anim": "slide",
+      "pos": "top"
+    },
+    {
+      "text": "2 MINGGU KONSISTEN",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "sapu"
+      ],
+      "anim": "zoom",
+      "pos": "top"
+    },
+    {
+      "text": "SAPU PAGI & MALAM",
+      "from": [
+        "S02",
+        "sapu"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "anim": "slide-r",
+      "pos": "top"
+    },
+    {
+      "text": "BAWAH DAGU:\nDARI AWAL KOSONG",
+      "from": [
+        "S03",
+        "bawah"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "anim": "zoomout",
+      "pos": "top"
+    },
+    {
+      "text": "KIRI KANAN BELUM\nBERSAMBUNG",
+      "from": [
+        "S04",
+        "kiri"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "anim": "slam",
+      "pos": "top"
+    },
+    {
+      "text": "PERJALANAN NI\nPERLUKAN MASA",
+      "from": [
+        "S05",
+        "perjalanan"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "anim": "zoom",
+      "pos": "low"
+    },
+    {
+      "text": "1X PAGI\n1X MALAM",
+      "from": [
+        "S06",
+        "pakai"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "anim": "slam",
+      "pos": "low",
+      "cls": "big narrow"
+    },
+    {
+      "text": "KITA TENGOK\nSAMA-SAMA",
+      "from": [
+        "S07",
+        "kita"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "anim": "slide",
+      "pos": "low"
+    },
+    {
+      "text": "JAMBANG JARANG\nATAU TAK SEKATA?",
+      "from": [
+        "S08",
+        "jambang"
+      ],
+      "to": [
+        "S08",
+        "dan"
+      ],
+      "anim": "zoom",
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S08",
+        "tekan"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "cta": true
+    },
+    {
+      "text": "JAMBANG JOURNEY\nBY JAMBANG SOLUTION",
+      "from": [
+        "S09",
+        "start"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "anim": "zoomout",
+      "pos": "top"
+    }
+  ],
+  "keywords": []
+}

@@ -23,6 +23,14 @@ otherwise for a specific video.
 - AI-generated photos carry a small "ILUSTRASI AI" tag, and the owner should
   switch on TikTok's "AI-generated content" label when posting.
 
+## Hero Hige (owner, 17 Oct — this product only)
+
+- **No captions / subtitles.**
+- Overlays are **only the key points**, as stylish moving text (zoom in / zoom
+  out, slides, punches) — no AI photos.
+- The clip of the owner using the product goes in the middle as a
+  **fast-forward, full-screen overlay**.
+
 ## Captions
 
 - Smaller than bold TikTok-style captions (about 54–58px on a 1080×1920
