@@ -1,0 +1,418 @@
+{
+  "_note": "Zenkiyo garbage bags — voiceover edit. 'vo' ranges are seconds in assets/vo.m4a (owner's 'Recorder - 20261017-1457.m4a', Drive 1HCFdTG-…); picture is the owner's product demo VID_20261017_145654 (Drive 12JwLtq7…, rear camera, not mirrored) as assets/b.mp4, or a full-screen AI photo (moving: cut-out + plate, tools/plx.sh). Hook uses take 2 (8.6-15.2, it runs into 'Memang geram'); the 'Size L,' false start (34.8-35.6) and the second take of 'Barang rumah… stok siap-siap' (51-59.3) are dropped. Label check: pack front reads 'ZENKIYO … Lemon Garbage bags', 'EXTRA THICK'; another pack 'Fresh Lemongrass'. No background music. Each shot runs until the next; anchors are [vo id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tail": 0.6,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -36,
+    "blip": 0.03
+  },
+  "vo": [
+    {
+      "id": "V01",
+      "in": 8.5,
+      "out": 15.2,
+      "text": "Pernah tak angkat plastik sampah, tiba-tiba koyak, habis air sampah menitik atas lantai. Memang geram weh.",
+      "note": "HOOK (take 2)"
+    },
+    {
+      "id": "V02",
+      "in": 15.85,
+      "out": 21.1,
+      "text": "Lagi-lagi kalau sampah dapur tu banyak, plastik nipis ni kadang-kadang buat kerja kita jadi dua kali guys.",
+      "note": ""
+    },
+    {
+      "id": "V03",
+      "in": 22.55,
+      "out": 34.35,
+      "text": "Sebab tu, saya suka sangat plastik sampah Zenkiyo ni, material HDPE, jenis extra thick dan ada pilihan bau lemon, lemongrass dan lavender.",
+      "note": ""
+    },
+    {
+      "id": "V04",
+      "in": 36.2,
+      "out": 42.75,
+      "text": "Yang saya pakai ni size L, 50 liter, satu pack dapat 40 keping. Memang sangat praktikal untuk kegunaan harian kita.",
+      "note": ""
+    },
+    {
+      "id": "V05",
+      "in": 43.3,
+      "out": 48.25,
+      "text": "Barang rumah macam ni memang sentiasa guna guys. Kalau tengah ada harga murah tu, terus stok siap-siap.",
+      "note": "take 1"
+    },
+    {
+      "id": "V06",
+      "in": 59.6,
+      "out": 61.0,
+      "text": "Tekan beg kuning sekarang.",
+      "note": "CTA"
+    }
+  ],
+  "shots": [
+    {
+      "at": [
+        "V01",
+        "start"
+      ],
+      "photo": "koyak",
+      "note": "AI: plastik sampah koyak bila diangkat"
+    },
+    {
+      "at": [
+        "V01",
+        "habis"
+      ],
+      "photo": "lantai",
+      "note": "AI: air sampah menitik atas lantai"
+    },
+    {
+      "at": [
+        "V01",
+        "memang"
+      ],
+      "photo": "geram",
+      "note": "AI: wanita bertudung geram tengok sampah tumpah"
+    },
+    {
+      "at": [
+        "V02",
+        "start"
+      ],
+      "photo": "dapur",
+      "note": "AI: tong sampah dapur penuh"
+    },
+    {
+      "at": [
+        "V02",
+        "plastik"
+      ],
+      "photo": "nipis",
+      "note": "AI: lelaki balut dua lapis plastik nipis"
+    },
+    {
+      "at": [
+        "V03",
+        "start"
+      ],
+      "clip": "b",
+      "src": 4.0,
+      "note": "pegang tiga pek Zenkiyo",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "at": [
+        "V03",
+        "zenkiyo"
+      ],
+      "clip": "b",
+      "src": 29.6,
+      "note": "pek Lemon dekat — label ZENKIYO, EXTRA THICK",
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "50% 35%"
+    },
+    {
+      "at": [
+        "V03",
+        "jenis"
+      ],
+      "clip": "b",
+      "src": 93.0,
+      "note": "masukkan periuk nasi ke dalam plastik (kuat)",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "at": [
+        "V03",
+        "pilihan"
+      ],
+      "clip": "b",
+      "src": 196.0,
+      "note": "tiga pek: lemon, lemongrass, lavender",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "at": [
+        "V04",
+        "start"
+      ],
+      "clip": "b",
+      "src": 45.0,
+      "note": "tarik plastik dari pek",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "at": [
+        "V04",
+        "satu"
+      ],
+      "clip": "b",
+      "src": 18.5,
+      "note": "pek lavender",
+      "push": [
+        1.1,
+        1.2
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "at": [
+        "V04",
+        "memang"
+      ],
+      "clip": "b",
+      "src": 125.0,
+      "note": "plastik penuh diangkat",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "at": [
+        "V05",
+        "start"
+      ],
+      "photo": "stok",
+      "note": "AI: kabinet stok barang rumah"
+    },
+    {
+      "at": [
+        "V05",
+        "kalau"
+      ],
+      "clip": "b",
+      "src": 145.0,
+      "note": "plastik penuh berat dihayun",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "at": [
+        "V06",
+        "start"
+      ],
+      "clip": "b",
+      "src": 219.0,
+      "note": "tunjuk tiga pek sambil senyum",
+      "push": [
+        1.0,
+        1.06
+      ],
+      "origin": "50% 45%"
+    }
+  ],
+  "titles": [
+    {
+      "text": "PLASTIK SAMPAH KOYAK?",
+      "from": [
+        "V01",
+        "start"
+      ],
+      "to": [
+        "V01",
+        "habis"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "AIR SAMPAH MENITIK!",
+      "from": [
+        "V01",
+        "habis"
+      ],
+      "to": [
+        "V01",
+        "memang"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "MEMANG GERAM",
+      "from": [
+        "V01",
+        "memang"
+      ],
+      "to": [
+        "V01",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SAMPAH DAPUR BANYAK",
+      "from": [
+        "V02",
+        "start"
+      ],
+      "to": [
+        "V02",
+        "plastik"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PLASTIK NIPIS =\nKERJA DUA KALI",
+      "from": [
+        "V02",
+        "plastik"
+      ],
+      "to": [
+        "V02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "ZENKIYO\nGARBAGE BAGS",
+      "from": [
+        "V03",
+        "zenkiyo"
+      ],
+      "to": [
+        "V03",
+        "material"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "HDPE · EXTRA THICK",
+      "from": [
+        "V03",
+        "material"
+      ],
+      "to": [
+        "V03",
+        "pilihan"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "LEMON · LEMONGRASS\n· LAVENDER",
+      "from": [
+        "V03",
+        "pilihan"
+      ],
+      "to": [
+        "V03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "SIZE L · 50 LITER",
+      "from": [
+        "V04",
+        "start"
+      ],
+      "to": [
+        "V04",
+        "satu"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "1 PACK = 40 KEPING",
+      "from": [
+        "V04",
+        "satu"
+      ],
+      "to": [
+        "V04",
+        "memang"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PRAKTIKAL UNTUK\nKEGUNAAN HARIAN",
+      "from": [
+        "V04",
+        "memang"
+      ],
+      "to": [
+        "V04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "STOK SIAP-SIAP",
+      "from": [
+        "V05",
+        "kalau"
+      ],
+      "to": [
+        "V05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "V06",
+        "start"
+      ],
+      "to": [
+        "V06",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "koyak",
+    "menitik",
+    "geram",
+    "nipis",
+    "zenkiyo",
+    "hdpe",
+    "extra",
+    "thick",
+    "lemon",
+    "lemongrass",
+    "lavender",
+    "size",
+    "l",
+    "50",
+    "liter",
+    "40",
+    "keping",
+    "praktikal",
+    "stok",
+    "beg",
+    "kuning"
+  ]
+}

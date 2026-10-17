@@ -1,0 +1,24 @@
+TOTAL 36.43s  (6 voiceover ranges, 15 shots, 19 audio fx, 35 caption cards)
+
+  0.00-  6.70  V01  vo   8.50- 15.20  (1 pc)  Pernah tak angkat plastik sampah, tiba-tiba koyak, habis air sampah menitik atas lantai. Memang geram weh.
+  6.70- 11.97  V02  vo  15.85- 21.10  (1 pc)  Lagi-lagi kalau sampah dapur tu banyak, plastik nipis ni kadang-kadang buat kerja kita jadi dua kali guys.
+ 11.97- 22.93  V03  vo  22.55- 34.35  (3 pc)  Sebab tu, saya suka sangat plastik sampah Zenkiyo ni, material HDPE, jenis extra thick dan ada pilihan bau lemon, lemongrass dan lavender.
+ 22.93- 29.47  V04  vo  36.20- 42.75  (1 pc)  Yang saya pakai ni size L, 50 liter, satu pack dapat 40 keping. Memang sangat praktikal untuk kegunaan harian kita.
+ 29.47- 34.43  V05  vo  43.30- 48.25  (1 pc)  Barang rumah macam ni memang sentiasa guna guys. Kalau tengah ada harga murah tu, terus stok siap-siap.
+ 34.43- 35.83  V06  vo  59.60- 61.00  (1 pc)  Tekan beg kuning sekarang.
+
+  0.00-  2.77  P01  photo koyak      AI: plastik sampah koyak bila diangkat
+  2.77-  5.27  P02  photo lantai     AI: air sampah menitik atas lantai
+  5.27-  6.70  P03  photo geram      AI: wanita bertudung geram tengok sampah tumpah
+  6.70-  8.70  P04  photo dapur      AI: tong sampah dapur penuh
+  8.70- 11.97  P05  photo nipis      AI: lelaki balut dua lapis plastik nipis
+ 11.97- 14.97  P06  b @4.0s          pegang tiga pek Zenkiyo
+ 14.97- 16.97  P07  b @29.6s         pek Lemon dekat — label ZENKIYO, EXTRA THICK
+ 16.97- 19.37  P08  b @93.0s         masukkan periuk nasi ke dalam plastik (kuat)
+ 19.37- 22.93  P09  b @196.0s        tiga pek: lemon, lemongrass, lavender
+ 22.93- 25.17  P10  b @45.0s         tarik plastik dari pek
+ 25.17- 27.07  P11  b @18.5s         pek lavender
+ 27.07- 29.47  P12  b @125.0s        plastik penuh diangkat
+ 29.47- 31.73  P13  photo stok       AI: kabinet stok barang rumah
+ 31.73- 34.43  P14  b @145.0s        plastik penuh berat dihayun
+ 34.43- 36.43  P15  b @219.0s        tunjuk tiga pek sambil senyum

@@ -1,0 +1,6 @@
+koyak .media/images/image_001.png
+lantai .media/images/image_002.png
+geram .media/images/image_003.png
+dapur .media/images/image_004.png
+nipis .media/images/image_005.png
+stok .media/images/image_006.png
