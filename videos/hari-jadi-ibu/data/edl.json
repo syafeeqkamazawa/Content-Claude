@@ -1,0 +1,17 @@
+{
+  "_note": "Birthday memory video for the owner's mother. Song: 'Kaulah Ibuku' from src/videos/lagu.mp4, looped seamlessly at the quiet gap after 'Takkan pernah terhenti' (pass 2 56.70s -> pass 1 18.65s, lag 38.05s) x3 -> assets/audio/lagu-loop.m4a (194.0s, -14 LUFS, 2s fade-out). Slow motion: 0.5x minterpolate of v1 16.5-22.7s (beach walk) and v2 21.5-27.7s (Raya salam/hug).",
+  "audio": "assets/audio/lagu-loop.m4a",
+  "duration": 194.0,
+  "xf": 0.8,
+  "last_hold": 9.0,
+  "sequence": [
+    "p05", "p06", "p12", "p26", "p25", "p02", "p21", "p14", "p07", "p08", "p22", "p20",
+    {"clip": "assets/video/slow-pantai.mp4", "dur": 12.4},
+    "p16", "p17", "p18", "p19", "p10", "p11", "p13", "p24", "p03", "p04",
+    {"clip": "assets/video/slow-salam.mp4", "dur": 12.4},
+    "p09", "p23", "p01", "p15", "p27"
+  ],
+  "transitions": ["fade", "blur", "zoom", "rise"],
+  "intro": {"script": "Selamat Hari Jadi", "name": "Ibu", "line": "Kaulah ibuku, cinta kasihku"},
+  "outro": {"script": "Terima kasih, Ibu", "line": "Semoga Ibu sentiasa sihat, bahagia<br>dan dalam rahmat Allah", "sign": "Kami sayang Ibu"}
+}

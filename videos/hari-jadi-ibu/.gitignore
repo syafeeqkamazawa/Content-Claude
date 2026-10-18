@@ -1,0 +1,11 @@
+# Family photos, videos and the song stay out of git (private; source lives on Google Drive).
+src/
+work/
+assets/photos/
+assets/video/
+assets/audio/
+renders/
+snapshots/
+.hyperframes/
+node_modules/
+tools/__pycache__/
