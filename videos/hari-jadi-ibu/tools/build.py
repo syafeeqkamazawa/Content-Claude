@@ -55,7 +55,7 @@ for i, (kind, src, st, dur) in enumerate(slots):
             f'data-media-start="0" data-track-index="2"></video>'
             f'<div class="vig clip" data-start="{f(st)}" data-duration="{f(dur)}" data-track-index="3"></div></div>')
         js.append(f'tl.fromTo("#{sid}-v", {{ scale: 1.0 }}, {{ scale: 1.06, duration: {f(dur)}, ease: "none" }}, {f(st)});')
-        tr = "leak"
+        tr = "fade" if prev_clip else "leak"
     if i == 0:
         continue
     js.append(f'tl.fromTo("#{sid}", {{ opacity: 0 }}, {{ opacity: 1, duration: {XF}, ease: "sine.inOut" }}, {f(st)});')
