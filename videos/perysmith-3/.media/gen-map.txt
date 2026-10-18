@@ -1,0 +1,4 @@
+kesan .media/images/image_001.png
+sofa .media/images/image_002.png
+kereta .media/images/image_003.png
+kesan .media/images/image_004.png

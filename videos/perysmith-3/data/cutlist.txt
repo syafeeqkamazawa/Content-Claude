@@ -1,0 +1,25 @@
+TOTAL 36.43s  (7 voiceover ranges, 15 shots, 14 audio fx, 36 caption cards)
+
+  0.00-  7.30  V01  vo   1.95-  9.25  (1 pc)  Alamak, air coklat tumpah atas karpet, guys. Kalau dibiarkan memang risau kesan kotoran ni susah nak hilang.
+  7.30- 14.67  V02  vo  10.00- 17.35  (1 pc)  Haa, nasib baik ada PerySmith M2 Lite II Spot Cleaner ni. Sembur air, kemudian sedut kotoran menggunakan mesin ni.
+ 14.67- 17.93  V03  vo  17.70- 20.95  (1 pc)  Tengok sendiri macam mana kesan air coklat tadi dibersihkan.
+ 17.93- 25.90  V04  vo  21.65- 29.90  (2 pc)  Dan yang paling puas hati, tengok air dalam tangki ni. Keruh betul. Tak sangka sebanyak ni kotoran yang berjaya disedut.
+ 25.90- 30.07  V05  vo  30.80- 34.95  (1 pc)  Karpet, sofa, tempat duduk kereta pun boleh, guna pada fabrik yang sesuai.
+ 30.07- 32.83  V06  vo  34.97- 37.75  (1 pc)  Nak kerja mencuci lebih mudah, tekan beg kuning sekarang.
+ 32.83- 35.83  V07  vo  42.20- 45.40  (2 pc)  Kalau harga tengah murah tu, grab terus.
+
+  0.00-  3.53  P01  vacuum @143.5s   tuang air coklat atas karpet
+  3.53-  6.17  P02  stain @1.0s      kesan coklat pada karpet, dekat
+  6.17-  7.30  P03  photo kesan      AI: kesan kopi lama, digosok tak hilang
+  7.30- 11.33  P04  vacuum @92.0s    mesin M2 atas karpet
+ 11.33- 12.60  P05  vacuum @186.0s   muncung atas karpet
+ 12.60- 16.43  P06  vacuum @155.0s   sedut kesan coklat
+ 16.43- 17.93  P07  vacuum @112.0s   muncung lalu atas karpet
+ 17.93- 22.70  P08  tank @4.0s       tanggal tangki
+ 22.70- 25.90  P09  tank @16.0s      air keruh dalam tangki
+ 25.90- 26.63  P10  vacuum @8.0s     karpet — sedut
+ 26.63- 27.30  P11  photo sofa       AI: cuci sofa fabrik
+ 27.30- 30.07  P12  photo kereta     AI: cuci kerusi kereta
+ 30.07- 31.47  P13  vacuum @190.0s   berus muncung atas karpet
+ 31.47- 32.83  P14  vacuum @276.0s   aksesori muncung
+ 32.83- 36.43  P15  vacuum @92.5s    mesin hero, CTA

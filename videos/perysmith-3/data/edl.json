@@ -1,0 +1,423 @@
+{
+  "_note": "PerySmith M2 Lite II #3 — voiceover edit. 'vo' ranges are seconds in assets/vo.m4a (owner's 'Recorder - 20261018-0814.m4a', Drive 16rs2M8I…). Picture: assets/stain.mp4 (VID_20261016_171910, Drive 1qBycKY8…, the coffee stain), assets/vacuum.mp4 (VID_20261017_155811, Drive 1Z77coYx…, pouring, suction, brush tool, attachments) and assets/tank.mp4 (VID_20261017_155906, Drive 12H7ZAV7…, the dirty tank), all rear camera, not mirrored, none used before; plus moving AI photos. Owner, this video only: the suction shots carry the machine's own sound (shots with 'sound' — cut from assets/vacuum-audio.m4a with short fades, no speech in that clip) at a low level so the voiceover stays loudest. No background music. Each shot runs until the next; anchors are [vo id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tail": 0.6,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -36,
+    "blip": 0.03
+  },
+  "vo": [
+    {
+      "id": "V01",
+      "in": 1.95,
+      "out": 9.25,
+      "text": "Alamak, air coklat tumpah atas karpet, guys. Kalau dibiarkan memang risau kesan kotoran ni susah nak hilang.",
+      "note": "HOOK"
+    },
+    {
+      "id": "V02",
+      "in": 10.0,
+      "out": 17.35,
+      "text": "Haa, nasib baik ada PerySmith M2 Lite II Spot Cleaner ni. Sembur air, kemudian sedut kotoran menggunakan mesin ni.",
+      "note": ""
+    },
+    {
+      "id": "V03",
+      "in": 17.7,
+      "out": 20.95,
+      "text": "Tengok sendiri macam mana kesan air coklat tadi dibersihkan.",
+      "note": ""
+    },
+    {
+      "id": "V04",
+      "in": 21.65,
+      "out": 29.9,
+      "text": "Dan yang paling puas hati, tengok air dalam tangki ni. Keruh betul. Tak sangka sebanyak ni kotoran yang berjaya disedut.",
+      "note": ""
+    },
+    {
+      "id": "V05",
+      "in": 30.8,
+      "out": 34.95,
+      "text": "Karpet, sofa, tempat duduk kereta pun boleh, guna pada fabrik yang sesuai.",
+      "note": ""
+    },
+    {
+      "id": "V06",
+      "in": 34.97,
+      "out": 37.75,
+      "text": "Nak kerja mencuci lebih mudah, tekan beg kuning sekarang.",
+      "note": ""
+    },
+    {
+      "id": "V07",
+      "in": 42.2,
+      "out": 45.4,
+      "text": "Kalau harga tengah murah tu, grab terus.",
+      "note": "CTA"
+    }
+  ],
+  "shots": [
+    {
+      "at": [
+        "V01",
+        "start"
+      ],
+      "clip": "vacuum",
+      "src": 143.5,
+      "note": "tuang air coklat atas karpet",
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "50% 75%"
+    },
+    {
+      "at": [
+        "V01",
+        "kalau"
+      ],
+      "clip": "stain",
+      "src": 1.0,
+      "note": "kesan coklat pada karpet, dekat",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 50%"
+    },
+    {
+      "at": [
+        "V01",
+        "susah"
+      ],
+      "photo": "kesan",
+      "note": "AI: kesan kopi lama, digosok tak hilang"
+    },
+    {
+      "at": [
+        "V02",
+        "start"
+      ],
+      "clip": "vacuum",
+      "src": 92.0,
+      "note": "mesin M2 atas karpet",
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "50% 25%"
+    },
+    {
+      "at": [
+        "V02",
+        "sembur"
+      ],
+      "clip": "vacuum",
+      "src": 186.0,
+      "note": "muncung atas karpet",
+      "push": [
+        1.1,
+        1.25
+      ],
+      "origin": "50% 75%",
+      "sound": 0.22
+    },
+    {
+      "at": [
+        "V02",
+        "sedut"
+      ],
+      "clip": "vacuum",
+      "src": 155.0,
+      "note": "sedut kesan coklat",
+      "push": [
+        1.15,
+        1.3
+      ],
+      "origin": "40% 80%",
+      "sound": 0.22
+    },
+    {
+      "at": [
+        "V03",
+        "coklat"
+      ],
+      "clip": "vacuum",
+      "src": 112.0,
+      "note": "muncung lalu atas karpet",
+      "push": [
+        1.1,
+        1.25
+      ],
+      "origin": "40% 75%",
+      "sound": 0.22
+    },
+    {
+      "at": [
+        "V04",
+        "start"
+      ],
+      "clip": "tank",
+      "src": 4.0,
+      "note": "tanggal tangki",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "at": [
+        "V04",
+        "keruh"
+      ],
+      "clip": "tank",
+      "src": 16.0,
+      "note": "air keruh dalam tangki",
+      "push": [
+        1.05,
+        1.2
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "at": [
+        "V05",
+        "start"
+      ],
+      "clip": "vacuum",
+      "src": 8.0,
+      "note": "karpet — sedut",
+      "push": [
+        1.1,
+        1.25
+      ],
+      "origin": "45% 75%",
+      "sound": 0.22
+    },
+    {
+      "at": [
+        "V05",
+        "sofa"
+      ],
+      "photo": "sofa",
+      "note": "AI: cuci sofa fabrik"
+    },
+    {
+      "at": [
+        "V05",
+        "tempat"
+      ],
+      "photo": "kereta",
+      "note": "AI: cuci kerusi kereta"
+    },
+    {
+      "at": [
+        "V06",
+        "start"
+      ],
+      "clip": "vacuum",
+      "src": 190.0,
+      "note": "berus muncung atas karpet",
+      "push": [
+        1.1,
+        1.25
+      ],
+      "origin": "45% 75%",
+      "sound": 0.22
+    },
+    {
+      "at": [
+        "V06",
+        "tekan"
+      ],
+      "clip": "vacuum",
+      "src": 276.0,
+      "note": "aksesori muncung",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 50%"
+    },
+    {
+      "at": [
+        "V07",
+        "start"
+      ],
+      "clip": "vacuum",
+      "src": 92.5,
+      "note": "mesin hero, CTA",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 25%"
+    }
+  ],
+  "titles": [
+    {
+      "text": "AIR COKLAT TUMPAH!",
+      "from": [
+        "V01",
+        "start"
+      ],
+      "to": [
+        "V01",
+        "kalau"
+      ],
+      "pos": "top",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "KESAN SUSAH\nNAK HILANG?",
+      "from": [
+        "V01",
+        "kalau"
+      ],
+      "to": [
+        "V01",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "PERYSMITH M2 LITE II\nSPOT CLEANER",
+      "from": [
+        "V02",
+        "perysmith"
+      ],
+      "to": [
+        "V02",
+        "sembur"
+      ],
+      "pos": "top",
+      "sfx": "sparkle",
+      "sfx_vol": 0.25
+    },
+    {
+      "text": "SEMBUR, KEMUDIAN SEDUT",
+      "from": [
+        "V02",
+        "sembur"
+      ],
+      "to": [
+        "V02",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TENGOK SENDIRI",
+      "from": [
+        "V03",
+        "start"
+      ],
+      "to": [
+        "V03",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "AIR DALAM TANGKI",
+      "from": [
+        "V04",
+        "tengok"
+      ],
+      "to": [
+        "V04",
+        "keruh"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "KERUH BETUL!",
+      "from": [
+        "V04",
+        "keruh"
+      ],
+      "to": [
+        "V04",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "KARPET · SOFA\nKERUSI KERETA",
+      "from": [
+        "V05",
+        "start"
+      ],
+      "to": [
+        "V05",
+        "guna"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "FABRIK YANG SESUAI",
+      "from": [
+        "V05",
+        "guna"
+      ],
+      "to": [
+        "V05",
+        "end"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "MENCUCI LEBIH MUDAH",
+      "from": [
+        "V06",
+        "start"
+      ],
+      "to": [
+        "V06",
+        "tekan"
+      ],
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "V06",
+        "tekan"
+      ],
+      "to": [
+        "V07",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "coklat",
+    "tumpah",
+    "karpet",
+    "kotoran",
+    "perysmith",
+    "m2",
+    "lite",
+    "ii",
+    "spot",
+    "cleaner",
+    "sembur",
+    "sedut",
+    "keruh",
+    "sofa",
+    "kereta",
+    "fabrik",
+    "mudah",
+    "beg",
+    "kuning",
+    "murah"
+  ]
+}
