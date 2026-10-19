@@ -17,19 +17,22 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-aktif" class="clip fs" data-start="13.3667" data-duration="4.866" data-track-index="4"><div class="fs-in" id="fs-aktif-in"><div class="fs-layer" id="fs-aktif-bg" style="background-image:url(assets/photos/aktif.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-pilih" class="clip fs" data-start="23.4333" data-duration="1.966" data-track-index="4"><div class="fs-in" id="fs-pilih-in"><div class="fs-layer" id="fs-pilih-bg" style="background-image:url(assets/photos/pilih.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-belanja" class="clip fs" data-start="39.6333" data-duration="2.766" data-track-index="4"><div class="fs-in" id="fs-belanja-in"><div class="fs-layer" id="fs-belanja-bg" style="background-image:url(assets/photos/belanja.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-aktif" class="clip fs" data-start="13.3667" data-duration="4.866" data-track-index="4"><div class="fs-in" id="fs-aktif-in"><div class="fs-layer" id="fs-aktif-bg" style="background-image:url(assets/photos/aktif-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-aktif-fg" style="background-image:url(assets/photos/aktif-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-pilih" class="clip fs" data-start="23.4333" data-duration="1.966" data-track-index="4"><div class="fs-in" id="fs-pilih-in"><div class="fs-layer" id="fs-pilih-bg" style="background-image:url(assets/photos/pilih-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-pilih-fg" style="background-image:url(assets/photos/pilih-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-belanja" class="clip fs" data-start="39.6333" data-duration="2.766" data-track-index="4"><div class="fs-in" id="fs-belanja-in"><div class="fs-layer" id="fs-belanja-bg" style="background-image:url(assets/photos/belanja-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-belanja-fg" style="background-image:url(assets/photos/belanja-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-aktif-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 13.3667);
-          tl.fromTo("#fs-aktif-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 4.8667, ease: "sine.inOut", immediateRender: false }, 13.3667);
+          tl.fromTo("#fs-aktif-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 4.8667, ease: "none", immediateRender: false }, 13.3667);
+          tl.fromTo("#fs-aktif-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 4.8667, ease: "sine.inOut", immediateRender: false }, 13.3667);
           tl.fromTo("#fs-pilih-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 23.4333);
-          tl.fromTo("#fs-pilih-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 1.9667, ease: "sine.inOut", immediateRender: false }, 23.4333);
+          tl.fromTo("#fs-pilih-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 1.9667, ease: "none", immediateRender: false }, 23.4333);
+          tl.fromTo("#fs-pilih-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 1.9667, ease: "sine.inOut", immediateRender: false }, 23.4333);
           tl.fromTo("#fs-belanja-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 39.6333);
-          tl.fromTo("#fs-belanja-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 2.7667, ease: "sine.inOut", immediateRender: false }, 39.6333);
+          tl.fromTo("#fs-belanja-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.7667, ease: "none", immediateRender: false }, 39.6333);
+          tl.fromTo("#fs-belanja-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.7667, ease: "sine.inOut", immediateRender: false }, 39.6333);
           window.__timelines["visuals"] = tl;
         })();
       </script>
