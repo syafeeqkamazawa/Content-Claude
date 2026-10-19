@@ -1,1 +1,2 @@
 aktif .media/images/image_001.png
+pilih .media/images/image_002.png
