@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build index.html + compositions/ for the Aurapep Shilajit Complex #1 edit (captions, moving overlays, product B-roll, no music) from data/edl.json.
+"""Build index.html + compositions/ for the StemLabs Fish Oil #4 edit (captions, moving overlays, product and usage B-roll, no music) from data/edl.json.
 
 Run from the project root:  python3 tools/build.py
 Edit data/edl.json (cuts, B-roll picks, photos) and re-run; never hand-edit index.html.
@@ -18,9 +18,9 @@ FPS = EDL["fps"]
 W, H = EDL["width"], EDL["height"]
 KEYWORDS = {k.lower() for k in EDL["keywords"]}
 
-ACCENT = "#9BE15D"  # Aurapep box green (caption keywords)
-BERRY = "#5BAF4A"  # Aurapep box green stripe (title edge)
-INK = "#3A2A1F"  # Shilajit bottle brown (title panel)
+ACCENT = "#5CCBFF"  # StemLabs label blue (caption keywords)
+BERRY = "#2BA8E0"  # StemLabs label blue (title edge)
+INK = "#0B3557"  # deep navy (title panel)
 CREAM = "#FFFBEF"
 YELLOW = "#FFC61A"  # TikTok "beg kuning"
 
@@ -516,7 +516,7 @@ if SHOW_CAPTIONS:
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width={W}, height={H}" />
-    <title>Aurapep Shilajit Complex #1 — review</title>
+    <title>StemLabs Fish Oil #4 — review</title>
     <script src="assets/vendor/gsap.min.js"></script>
     <style>{CSS_MAIN}</style>
   </head>

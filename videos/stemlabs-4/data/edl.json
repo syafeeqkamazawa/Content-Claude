@@ -1,0 +1,429 @@
+{
+  "_note": "StemLabs Fish Oil #4. Source times are seconds in assets/a.mp4 (A-roll VID_20261019_115711, Drive 16oKDqIw…; front camera, mirrored back in CSS) and assets/b.mp4 (muted B-roll = VID_20261018_152948 (Drive 1N_t7doO…, owner taking a softgel at the table, 0-82.6 s, new) followed by VID_20261013_180342 (Drive 12TTl-NF…, bottle on grass, 82.6-124.1 s here) — that clip was used in videos/stemlabs-omega3 (0-7.9, 12-16.9, 30-32.7, 34-38.6 of the clip) and videos/stemlabs-3 (~18.5-21, 39.5-41.4); picks here are 8-12 and 21.4-30 of it). Hook moved first: 'Harga dia macam tak masuk akal…' (108.0). Dropped: the rambling opening takes (6.8-29.8), the 'dan / dan kita' false starts (50-52.3), 'yang ni keluaran daripada StemLabs Fish Oil' false start (65.9-70.1), the repeated promo lines (96.9-106.6), the first CTA take (130.1-132.2) and the line about numb hands / lethargy (118.3-123.2) — an unapproved therapeutic claim TikTok and KKM rules don't allow for a supplement. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "mirror": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 107.8,
+      "out": 113.05,
+      "zoom": 1.05,
+      "text": "Harga dia macam tak masuk akal, tapi terbaik dengan kandungan yang tinggi sekali.",
+      "note": "HOOK (moved first)"
+    },
+    {
+      "id": "S02",
+      "in": 29.95,
+      "out": 35.6,
+      "zoom": 1.0,
+      "text": "Saya adalah pengguna Omega 3 fish oil dan saya amalkan benda ni.",
+      "note": "take 3"
+    },
+    {
+      "id": "S03",
+      "in": 36.7,
+      "out": 44.45,
+      "zoom": 1.1,
+      "text": "Sebab Omega 3 ni sangat-sangat penting untuk sistem imun kita, untuk kulit, untuk mata, untuk otak, untuk satu badan.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 123.95,
+      "out": 126.75,
+      "zoom": 1.0,
+      "text": "Sangat-sangat penting untuk keperluan badan kita setiap hari.",
+      "note": "moved up"
+    },
+    {
+      "id": "S05",
+      "in": 52.33,
+      "out": 62.35,
+      "zoom": 1.05,
+      "text": "Dan kita kena pandai pilih. Yang ni saya nak rekomen daripada StemLabs, double strength EPA DHA 300/200 yang sangat-sangat tinggi.",
+      "note": "take 3"
+    },
+    {
+      "id": "S06",
+      "in": 70.9,
+      "out": 78.25,
+      "zoom": 1.1,
+      "text": "StemLabs Fish Oil ni dibuat di New Zealand, tapi dah dapat hologram KKM dan juga logo halal, so jangan risau.",
+      "note": "take 2"
+    },
+    {
+      "id": "S07",
+      "in": 82.45,
+      "out": 87.25,
+      "zoom": 1.0,
+      "text": "Yang mengejutkan lagi, harga sangat-sangat murah. Sekarang ada promo.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 133.65,
+      "out": 136.8,
+      "zoom": 1.08,
+      "text": "Nak dapat dekat mana? Boleh tengok dekat link di beg kuning kat bawah.",
+      "note": "CTA take 2"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "akal",
+      1.08
+    ],
+    [
+      "S05",
+      "pandai",
+      1.08
+    ],
+    [
+      "S08",
+      "boleh",
+      1.08
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S01",
+        "kandungan"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "src": 16.0,
+      "note": "botol Fish Oil ke kamera",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "badan"
+      ],
+      "src": 28.2,
+      "note": "softgel ke kamera",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "40% 35%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S04",
+        "badan"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "src": 34.8,
+      "note": "telan softgel dengan air",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S05",
+        "stemlabs"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 90.6,
+      "note": "botol + softgel atas rumput, label EPA DHA 300/200",
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "60% 50%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S06",
+        "tapi"
+      ],
+      "to": [
+        "S06",
+        "so"
+      ],
+      "src": 104.0,
+      "note": "botol + penutup softgel atas rumput",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "55% 50%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "aktif",
+      "from": [
+        "S03",
+        "untuk"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "note": "AI: keluarga sihat berjalan pagi di taman"
+    },
+    {
+      "id": "pilih",
+      "from": [
+        "S05",
+        "yang"
+      ],
+      "to": [
+        "S05",
+        "stemlabs"
+      ],
+      "note": "AI: lelaki banding label dua botol suplemen di farmasi"
+    },
+    {
+      "id": "belanja",
+      "from": [
+        "S07",
+        "harga"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "note": "AI: wanita bertudung terkejut harga murah di telefon"
+    }
+  ],
+  "titles": [
+    {
+      "text": "HARGA TAK MASUK AKAL?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "pos": "top",
+      "anim": "slam",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "KANDUNGAN TINGGI",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "PENGGUNA OMEGA 3",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slide"
+    },
+    {
+      "text": "OMEGA 3\nSANGAT PENTING",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "untuk"
+      ],
+      "pos": "top",
+      "anim": "zoomout"
+    },
+    {
+      "text": "IMUN, KULIT,\nMATA & OTAK",
+      "from": [
+        "S03",
+        "untuk"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slide-r"
+    },
+    {
+      "text": "KEPERLUAN SETIAP HARI",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "KENA PANDAI PILIH",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "yang"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "STEMLABS FISH OIL\nDOUBLE STRENGTH",
+      "from": [
+        "S05",
+        "stemlabs"
+      ],
+      "to": [
+        "S05",
+        "epa"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "EPA 300MG\nDHA 200MG",
+      "from": [
+        "S05",
+        "epa"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoomout",
+      "cls": "big"
+    },
+    {
+      "text": "DIBUAT DI NEW ZEALAND",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "tapi"
+      ],
+      "pos": "top",
+      "anim": "slide"
+    },
+    {
+      "text": "HOLOGRAM KKM\n& LOGO HALAL",
+      "from": [
+        "S06",
+        "tapi"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "HARGA SANGAT MURAH",
+      "from": [
+        "S07",
+        "harga"
+      ],
+      "to": [
+        "S07",
+        "sekarang"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "SEKARANG ADA PROMO",
+      "from": [
+        "S07",
+        "sekarang"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S08",
+        "boleh"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "omega",
+    "epa",
+    "dha",
+    "stemlabs",
+    "imun",
+    "kulit",
+    "mata",
+    "otak",
+    "kkm",
+    "halal",
+    "murah",
+    "promo",
+    "kuning",
+    "zealand"
+  ]
+}
