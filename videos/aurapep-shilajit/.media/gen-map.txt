@@ -1,0 +1,2 @@
+penat .media/images/image_001.png
+lesu .media/images/image_002.png
