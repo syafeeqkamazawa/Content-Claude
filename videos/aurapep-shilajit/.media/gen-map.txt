@@ -1,3 +1,4 @@
 penat .media/images/image_001.png
 lesu .media/images/image_002.png
 rutin .media/images/image_003.png
+keluarga .media/images/image_004.png

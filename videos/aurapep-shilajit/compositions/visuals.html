@@ -17,22 +17,26 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-penat" class="clip fs" data-start="1.5" data-duration="2.699" data-track-index="4"><div class="fs-in" id="fs-penat-in"><div class="fs-layer" id="fs-penat-bg" style="background-image:url(assets/photos/penat.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-lesu" class="clip fs" data-start="4.2" data-duration="3.666" data-track-index="4"><div class="fs-in" id="fs-lesu-in"><div class="fs-layer" id="fs-lesu-bg" style="background-image:url(assets/photos/lesu.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-rutin" class="clip fs" data-start="18.8" data-duration="3.599" data-track-index="4"><div class="fs-in" id="fs-rutin-in"><div class="fs-layer" id="fs-rutin-bg" style="background-image:url(assets/photos/rutin.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-keluarga" class="clip fs" data-start="33.7" data-duration="2.599" data-track-index="4"><div class="fs-in" id="fs-keluarga-in"><div class="fs-layer" id="fs-keluarga-bg" style="background-image:url(assets/photos/keluarga.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-penat" class="clip fs" data-start="1.5" data-duration="2.699" data-track-index="4"><div class="fs-in" id="fs-penat-in"><div class="fs-layer" id="fs-penat-bg" style="background-image:url(assets/photos/penat-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-penat-fg" style="background-image:url(assets/photos/penat-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-lesu" class="clip fs" data-start="4.2" data-duration="3.666" data-track-index="4"><div class="fs-in" id="fs-lesu-in"><div class="fs-layer" id="fs-lesu-bg" style="background-image:url(assets/photos/lesu-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-lesu-fg" style="background-image:url(assets/photos/lesu-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-rutin" class="clip fs" data-start="18.8" data-duration="3.599" data-track-index="4"><div class="fs-in" id="fs-rutin-in"><div class="fs-layer" id="fs-rutin-bg" style="background-image:url(assets/photos/rutin-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-rutin-fg" style="background-image:url(assets/photos/rutin-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-keluarga" class="clip fs" data-start="33.7" data-duration="2.599" data-track-index="4"><div class="fs-in" id="fs-keluarga-in"><div class="fs-layer" id="fs-keluarga-bg" style="background-image:url(assets/photos/keluarga-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-keluarga-fg" style="background-image:url(assets/photos/keluarga-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-penat-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 1.5);
-          tl.fromTo("#fs-penat-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 2.7, ease: "sine.inOut", immediateRender: false }, 1.5);
+          tl.fromTo("#fs-penat-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.7, ease: "none", immediateRender: false }, 1.5);
+          tl.fromTo("#fs-penat-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.7, ease: "sine.inOut", immediateRender: false }, 1.5);
           tl.fromTo("#fs-lesu-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 4.2);
-          tl.fromTo("#fs-lesu-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 3.6667, ease: "sine.inOut", immediateRender: false }, 4.2);
+          tl.fromTo("#fs-lesu-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 3.6667, ease: "none", immediateRender: false }, 4.2);
+          tl.fromTo("#fs-lesu-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 3.6667, ease: "sine.inOut", immediateRender: false }, 4.2);
           tl.fromTo("#fs-rutin-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 18.8);
-          tl.fromTo("#fs-rutin-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 3.6, ease: "sine.inOut", immediateRender: false }, 18.8);
+          tl.fromTo("#fs-rutin-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 3.6, ease: "none", immediateRender: false }, 18.8);
+          tl.fromTo("#fs-rutin-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 3.6, ease: "sine.inOut", immediateRender: false }, 18.8);
           tl.fromTo("#fs-keluarga-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 33.7);
-          tl.fromTo("#fs-keluarga-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.6, ease: "sine.inOut", immediateRender: false }, 33.7);
+          tl.fromTo("#fs-keluarga-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.6, ease: "none", immediateRender: false }, 33.7);
+          tl.fromTo("#fs-keluarga-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.6, ease: "sine.inOut", immediateRender: false }, 33.7);
           window.__timelines["visuals"] = tl;
         })();
       </script>
