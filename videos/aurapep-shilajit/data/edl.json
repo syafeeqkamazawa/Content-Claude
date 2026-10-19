@@ -1,0 +1,416 @@
+{
+  "_note": "Aurapep Shilajit Complex #1. Source times are seconds in assets/a.mp4 (A-roll VID_20261019_102144, Drive 1reTqH-n…; front camera, mirrored back in CSS so the box reads SHILAJIT) and assets/b.mp4 (muted B-roll = VID_20261019_090353 (Drive 16QtsQ9P…, 0-22.3s) followed by VID_20261019_090625 (Drive 1VM478GB…, 22.3-114.7s)). Dropped: false starts 'sesuai' (30.4) and 'produk ini juga turut mem…' (36.5), the repeated 'jangan risau' takes (39.0-42.4) and 'kesihatan jangan tunggu sampai badan' (57.3). 'Tanpa gula tambahan dan pewarna tiruan' (51.2-53.6) is missing from whisper's word list, so its captions are timed by syllables. Product wording is only what the owner says. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "mirror": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 2.6,
+      "out": 10.45,
+      "zoom": 1.05,
+      "text": "Baru tengah hari dah rasa penat, balik kerja pula, badan rasa lesu sampai nak luangkan masa dengan keluarga pun tak larat.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 11.0,
+      "out": 16.7,
+      "zoom": 1.0,
+      "text": "Kenali Aurapep Shilajit Complex. Gabungan Shilajit, Magnesium, Zinc dan cendawan Reishi.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 16.95,
+      "out": 22.3,
+      "zoom": 1.1,
+      "text": "Magnesium membantu badan menghasilkan tenaga manakala Zinc pula menyokong sistem imun.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 32.9,
+      "out": 36.5,
+      "zoom": 1.0,
+      "text": "Sesuai dipertimbangkan untuk melengkapkan rutin nutrisi harian kita.",
+      "note": "take 2"
+    },
+    {
+      "id": "S05",
+      "in": 43.85,
+      "out": 51.1,
+      "zoom": 1.08,
+      "text": "Abang kakak jangan risau, produk ini juga ada label KKM, ada sijil halal antarabangsa, GMP dan ISO.",
+      "note": "take 3"
+    },
+    {
+      "id": "S06",
+      "in": 51.15,
+      "out": 53.65,
+      "zoom": 1.0,
+      "text": "Tanpa gula tambahan dan pewarna tiruan.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 59.4,
+      "out": 63.55,
+      "zoom": 1.05,
+      "text": "Nak jaga kesihatan ni, jangan tunggu sampai badan terlalu penat baru nak jaga tau.",
+      "note": "take 2"
+    },
+    {
+      "id": "S08",
+      "in": 63.55,
+      "out": 71.45,
+      "zoom": 1.08,
+      "text": "Nak tahu lebih lanjut tentang Aurapep Shilajit ni, tekan beg kuning dan semak harga. Kalau tengah murah tu, boleh check out terus.",
+      "note": "CTA"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "penat",
+      1.08
+    ],
+    [
+      "S05",
+      "risau",
+      1.08
+    ],
+    [
+      "S08",
+      "tekan",
+      1.08
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B2",
+      "from": [
+        "S02",
+        "gabungan"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "src": 44.0,
+      "note": "kotak dipegang, depan",
+      "push": [
+        1.05,
+        1.12
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "manakala"
+      ],
+      "src": 50.5,
+      "note": "belakang kotak, fakta nutrisi",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 50%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S05",
+        "label"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 57.6,
+      "note": "kotak depan dekat",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 100.6,
+      "note": "tablet dalam botol",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 50%"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S08",
+        "start"
+      ],
+      "to": [
+        "S08",
+        "tekan"
+      ],
+      "src": 81.5,
+      "note": "botol Shilajit depan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "penat",
+      "from": [
+        "S01",
+        "dah"
+      ],
+      "to": [
+        "S01",
+        "badan"
+      ],
+      "note": "AI: lelaki penat di meja pejabat tengah hari"
+    },
+    {
+      "id": "lesu",
+      "from": [
+        "S01",
+        "badan"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: ayah balik kerja terlalu lesu, anak ajak main"
+    },
+    {
+      "id": "rutin",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: lelaki ambil tablet dengan air waktu sarapan"
+    },
+    {
+      "id": "keluarga",
+      "from": [
+        "S07",
+        "jangan"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "note": "AI: ayah bertenaga main bola dengan anak, keluarga di taman"
+    }
+  ],
+  "titles": [
+    {
+      "text": "PENAT SEBELUM PETANG?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "balik"
+      ],
+      "pos": "top",
+      "anim": "slam",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "BALIK KERJA\nTERUS LESU",
+      "from": [
+        "S01",
+        "balik"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slide"
+    },
+    {
+      "text": "AURAPEP SHILAJIT\nCOMPLEX",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "gabungan"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "SHILAJIT, MAGNESIUM,\nZINC & REISHI",
+      "from": [
+        "S02",
+        "gabungan"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoomout"
+    },
+    {
+      "text": "MAGNESIUM\nBANTU HASILKAN TENAGA",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "manakala"
+      ],
+      "pos": "top",
+      "anim": "slide"
+    },
+    {
+      "text": "ZINC\nSOKONG SISTEM IMUN",
+      "from": [
+        "S03",
+        "manakala"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slide-r"
+    },
+    {
+      "text": "RUTIN NUTRISI HARIAN",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "LABEL KKM\nSIJIL HALAL",
+      "from": [
+        "S05",
+        "label"
+      ],
+      "to": [
+        "S05",
+        "gmp"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "GMP & ISO",
+      "from": [
+        "S05",
+        "gmp"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom",
+      "cls": "big"
+    },
+    {
+      "text": "TANPA GULA TAMBAHAN\n& PEWARNA TIRUAN",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoomout"
+    },
+    {
+      "text": "JANGAN TUNGGU\nBADAN TERLALU PENAT",
+      "from": [
+        "S07",
+        "jangan"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S08",
+        "tekan"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "penat",
+    "lesu",
+    "aurapep",
+    "shilajit",
+    "magnesium",
+    "zinc",
+    "reishi",
+    "tenaga",
+    "imun",
+    "kkm",
+    "halal",
+    "gmp",
+    "iso",
+    "gula",
+    "kuning"
+  ]
+}
