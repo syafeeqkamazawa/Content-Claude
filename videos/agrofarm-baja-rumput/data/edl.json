@@ -5,46 +5,456 @@
   "height": 1920,
   "captions": true,
   "mirror": true,
-  "tighten": {"max_pause": 0.4, "keep": 0.14, "threshold_db": -45, "blip": 0.03},
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
   "segments": [
-    {"id": "S01", "in": 3.45, "out": 8.72, "zoom": 1.05, "text": "Dah keluar duit banyak-banyak pasal rumput dekat rumah, tapi lama-lama rumput mula kuning.", "note": "HOOK"},
-    {"id": "S02", "in": 9.95, "out": 11.6, "zoom": 1.1, "text": "Sayang duit weh kalau tak jaga.", "note": ""},
-    {"id": "S03", "in": 14.85, "out": 21.25, "zoom": 1.0, "text": "Ramai ingat siram air je dah cukup. Sebenarnya rumput pun perlukan nutrisi untuk membantu pertumbuhan akar dan daun yang sihat guys.", "note": ""},
-    {"id": "S04", "in": 21.75, "out": 27.2, "zoom": 1.05, "text": "Ini baja khas rumput Agro Farm, membantu rumput tumbuh lebih subur, hijau dan kuat.", "note": ""},
-    {"id": "S05", "in": 27.75, "out": 31.45, "zoom": 1.0, "text": "Sesuai untuk Japanese grass, rumput bermuda dan pelbagai jenis rumput lagi.", "note": ""},
-    {"id": "S06", "in": 36.7, "out": 43.0, "zoom": 1.08, "text": "Cara guna pun senang sangat. Tabur rata, kemudian siram. Ulang sebulan sekali ikut arahan.", "note": "take 2"},
-    {"id": "S07", "in": 45.95, "out": 51.5, "zoom": 1.05, "text": "Nak laman rumah nampak cantik dan terjaga? Tekan beg kuning sekarang. Harga tengah promo guys, boleh checkout terus.", "note": "CTA"}
+    {
+      "id": "S01",
+      "in": 3.45,
+      "out": 8.72,
+      "zoom": 1.05,
+      "text": "Dah keluar duit banyak-banyak pasal rumput dekat rumah, tapi lama-lama rumput mula kuning.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 9.95,
+      "out": 11.6,
+      "zoom": 1.1,
+      "text": "Sayang duit weh kalau tak jaga.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 14.85,
+      "out": 21.25,
+      "zoom": 1.0,
+      "text": "Ramai ingat siram air je dah cukup. Sebenarnya rumput pun perlukan nutrisi untuk membantu pertumbuhan akar dan daun yang sihat guys.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 21.75,
+      "out": 27.2,
+      "zoom": 1.05,
+      "text": "Ini baja khas rumput Agro Farm, membantu rumput tumbuh lebih subur, hijau dan kuat.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 27.75,
+      "out": 31.45,
+      "zoom": 1.0,
+      "text": "Sesuai untuk Japanese grass, rumput bermuda dan pelbagai jenis rumput lagi.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 36.7,
+      "out": 43.0,
+      "zoom": 1.08,
+      "text": "Cara guna pun senang sangat. Tabur rata, kemudian siram. Ulang sebulan sekali ikut arahan.",
+      "note": "take 2"
+    },
+    {
+      "id": "S07",
+      "in": 45.95,
+      "out": 51.5,
+      "zoom": 1.05,
+      "text": "Nak laman rumah nampak cantik dan terjaga? Tekan beg kuning sekarang. Harga tengah promo guys, boleh checkout terus.",
+      "note": "CTA"
+    }
   ],
-  "punch": [["S01", "kuning", 1.08], ["S02", "sayang", 1.1], ["S07", "tekan", 1.08]],
+  "punch": [
+    [
+      "S01",
+      "kuning",
+      1.08
+    ],
+    [
+      "S02",
+      "sayang",
+      1.1
+    ],
+    [
+      "S07",
+      "tekan",
+      1.08
+    ]
+  ],
   "broll": [
-    {"id": "B1", "from": ["S01", "tapi"], "to": ["S01", "end"], "src": 220.5, "note": "tompok rumput kuning", "push": [1.0, 1.12], "origin": "50% 55%"},
-    {"id": "B2", "from": ["S03", "start"], "to": ["S03", "sebenarnya"], "src": 258.5, "note": "siram rumput dengan hos", "push": [1.0, 1.08], "origin": "50% 45%"},
-    {"id": "B3", "from": ["S04", "membantu"], "to": ["S04", "end"], "src": 42.0, "note": "beg Lawn Power dalam tangan", "push": [1.0, 1.1], "origin": "50% 45%"},
-    {"id": "B4", "from": ["S05", "start"], "to": ["S05", "end"], "src": 228.5, "note": "rumput hijau dekat", "push": [1.0, 1.1], "origin": "50% 50%"},
-    {"id": "B5", "from": ["S06", "start"], "to": ["S06", "tabur"], "src": 39.0, "note": "butiran baja dalam tapak tangan", "push": [1.05, 1.15], "origin": "50% 55%"},
-    {"id": "B6", "from": ["S06", "tabur"], "to": ["S06", "kemudian"], "src": 118.6, "note": "tabur baja atas rumput", "push": [1.0, 1.08], "origin": "70% 55%"},
-    {"id": "B7", "from": ["S06", "kemudian"], "to": ["S06", "ulang"], "src": 304.5, "note": "siram selepas tabur", "push": [1.0, 1.08], "origin": "50% 45%"}
+    {
+      "id": "B1",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "src": 220.5,
+      "note": "tompok rumput kuning",
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "50% 55%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "sebenarnya"
+      ],
+      "src": 258.5,
+      "note": "siram rumput dengan hos",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S04",
+        "membantu"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "src": 42.0,
+      "note": "beg Lawn Power dalam tangan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 228.5,
+      "note": "rumput hijau dekat",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 50%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "tabur"
+      ],
+      "src": 39.0,
+      "note": "butiran baja dalam tapak tangan",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 55%"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S06",
+        "tabur"
+      ],
+      "to": [
+        "S06",
+        "kemudian"
+      ],
+      "src": 118.6,
+      "note": "tabur baja atas rumput",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "70% 55%"
+    },
+    {
+      "id": "B7",
+      "from": [
+        "S06",
+        "kemudian"
+      ],
+      "to": [
+        "S06",
+        "ulang"
+      ],
+      "src": 304.5,
+      "note": "siram selepas tabur",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    }
   ],
   "photos": [
-    {"id": "akar", "from": ["S03", "sebenarnya"], "to": ["S03", "end"], "note": "AI: rumput sihat dengan akar"},
-    {"id": "laman", "from": ["S07", "start"], "to": ["S07", "tekan"], "note": "AI: laman rumput hijau rumah teres"}
+    {
+      "id": "akar",
+      "from": [
+        "S03",
+        "sebenarnya"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "note": "AI: rumput sihat dengan akar"
+    },
+    {
+      "id": "laman",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "tekan"
+      ],
+      "note": "AI: laman rumput hijau rumah teres"
+    }
   ],
   "titles": [
-    {"text": "DAH HABIS DUIT\nTANAM RUMPUT?", "from": ["S01", "start"], "to": ["S01", "tapi"], "pos": "top", "anim": "slam", "sfx": "impact-bass-1", "sfx_vol": 0.3},
-    {"text": "RUMPUT MULA KUNING", "from": ["S01", "tapi"], "to": ["S01", "end"], "pos": "top", "anim": "zoom"},
-    {"text": "SAYANG DUIT!", "from": ["S02", "start"], "to": ["S02", "end"], "pos": "top", "anim": "zoom", "cls": "big"},
-    {"text": "SIRAM AIR JE\nDAH CUKUP?", "from": ["S03", "start"], "to": ["S03", "sebenarnya"], "pos": "top", "anim": "slide"},
-    {"text": "RUMPUT PERLUKAN\nNUTRISI", "from": ["S03", "sebenarnya"], "to": ["S03", "end"], "pos": "top", "anim": "zoomout"},
-    {"text": "BAJA KHAS RUMPUT\nAGRO FARM", "from": ["S04", "start"], "to": ["S04", "membantu"], "pos": "top", "anim": "zoom"},
-    {"text": "SUBUR, HIJAU & KUAT", "from": ["S04", "membantu"], "to": ["S04", "end"], "pos": "top", "anim": "slam"},
-    {"text": "JAPANESE, BERMUDA\n& PELBAGAI JENIS RUMPUT", "from": ["S05", "start"], "to": ["S05", "end"], "pos": "top", "anim": "slide-r"},
-    {"text": "CARA GUNA SENANG", "from": ["S06", "start"], "to": ["S06", "tabur"], "pos": "top", "anim": "zoom"},
-    {"text": "TABUR RATA", "from": ["S06", "tabur"], "to": ["S06", "kemudian"], "pos": "top", "anim": "slide"},
-    {"text": "KEMUDIAN SIRAM", "from": ["S06", "kemudian"], "to": ["S06", "ulang"], "pos": "top", "anim": "slide-r"},
-    {"text": "ULANG SEBULAN SEKALI", "from": ["S06", "ulang"], "to": ["S06", "end"], "pos": "top", "anim": "slam"},
-    {"text": "NAK LAMAN CANTIK?", "from": ["S07", "start"], "to": ["S07", "tekan"], "pos": "top", "anim": "zoom"},
-    {"text": "HARGA TENGAH PROMO", "from": ["S07", "harga"], "to": ["S07", "end"], "pos": "top", "anim": "slam"},
-    {"text": "TEKAN BEG KUNING", "from": ["S07", "tekan"], "to": ["S07", "end"], "cta": true}
+    {
+      "text": "DAH HABIS DUIT\nTANAM RUMPUT?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "pos": "top",
+      "anim": "slam",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "RUMPUT MULA KUNING",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "SAYANG DUIT!",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom",
+      "cls": "big"
+    },
+    {
+      "text": "SIRAM AIR JE\nDAH CUKUP?",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "sebenarnya"
+      ],
+      "pos": "top",
+      "anim": "slide"
+    },
+    {
+      "text": "RUMPUT PERLUKAN\nNUTRISI",
+      "from": [
+        "S03",
+        "sebenarnya"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoomout"
+    },
+    {
+      "text": "BAJA KHAS RUMPUT\nAGRO FARM",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "membantu"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "SUBUR, HIJAU & KUAT",
+      "from": [
+        "S04",
+        "membantu"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "JAPANESE, BERMUDA\n& PELBAGAI JENIS RUMPUT",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slide-r"
+    },
+    {
+      "text": "CARA GUNA SENANG",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "tabur"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "TABUR RATA",
+      "from": [
+        "S06",
+        "tabur"
+      ],
+      "to": [
+        "S06",
+        "kemudian"
+      ],
+      "pos": "top",
+      "anim": "slide"
+    },
+    {
+      "text": "KEMUDIAN SIRAM",
+      "from": [
+        "S06",
+        "kemudian"
+      ],
+      "to": [
+        "S06",
+        "ulang"
+      ],
+      "pos": "top",
+      "anim": "slide-r"
+    },
+    {
+      "text": "ULANG SEBULAN SEKALI",
+      "from": [
+        "S06",
+        "ulang"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "NAK LAMAN CANTIK?",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "tekan"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "HARGA TENGAH PROMO",
+      "from": [
+        "S07",
+        "harga"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S07",
+        "tekan"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "cta": true
+    }
   ],
-  "keywords": ["rumput", "kuning", "nutrisi", "baja", "agro", "farm", "subur", "hijau", "kuat", "japanese", "bermuda", "tabur", "siram", "sebulan", "promo"]
+  "keywords": [
+    "rumput",
+    "kuning",
+    "nutrisi",
+    "baja",
+    "agro",
+    "farm",
+    "subur",
+    "hijau",
+    "kuat",
+    "japanese",
+    "bermuda",
+    "tabur",
+    "siram",
+    "sebulan",
+    "promo"
+  ],
+  "_owner_decisions": "20 Okt: folder dihantar tanpa nota — dibuat seperti video affiliate biasa; final dirender terus tanpa draf (owner, 19 Okt); tiada muzik latar; 2 foto AI berlabel ILUSTRASI AI."
 }
