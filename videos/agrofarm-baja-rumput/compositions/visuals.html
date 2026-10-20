@@ -17,14 +17,15 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-akar" class="clip fs" data-start="9.0667" data-duration="4.266" data-track-index="4"><div class="fs-in" id="fs-akar-in"><div class="fs-layer" id="fs-akar-bg" style="background-image:url(assets/photos/akar.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-akar" class="clip fs" data-start="9.0667" data-duration="4.266" data-track-index="4"><div class="fs-in" id="fs-akar-in"><div class="fs-layer" id="fs-akar-bg" style="background-image:url(assets/photos/akar-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-akar-fg" style="background-image:url(assets/photos/akar-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
         <div id="fs-laman" class="clip fs" data-start="28.5333" data-duration="2.066" data-track-index="4"><div class="fs-in" id="fs-laman-in"><div class="fs-layer" id="fs-laman-bg" style="background-image:url(assets/photos/laman.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-akar-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 9.0667);
-          tl.fromTo("#fs-akar-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 4.2667, ease: "sine.inOut", immediateRender: false }, 9.0667);
+          tl.fromTo("#fs-akar-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 4.2667, ease: "none", immediateRender: false }, 9.0667);
+          tl.fromTo("#fs-akar-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 4.2667, ease: "sine.inOut", immediateRender: false }, 9.0667);
           tl.fromTo("#fs-laman-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 28.5333);
           tl.fromTo("#fs-laman-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.0667, ease: "sine.inOut", immediateRender: false }, 28.5333);
           window.__timelines["visuals"] = tl;
