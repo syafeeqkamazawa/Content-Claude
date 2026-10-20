@@ -17,22 +17,26 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-berumur" class="clip fs" data-start="5.5" data-duration="2.133" data-track-index="4"><div class="fs-in" id="fs-berumur-in"><div class="fs-layer" id="fs-berumur-bg" style="background-image:url(assets/photos/berumur.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-senaman" class="clip fs" data-start="10.4333" data-duration="2.833" data-track-index="4"><div class="fs-in" id="fs-senaman-in"><div class="fs-layer" id="fs-senaman-bg" style="background-image:url(assets/photos/senaman.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-membaca" class="clip fs" data-start="13.2667" data-duration="3.699" data-track-index="4"><div class="fs-in" id="fs-membaca-in"><div class="fs-layer" id="fs-membaca-bg" style="background-image:url(assets/photos/membaca.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-makan" class="clip fs" data-start="28.0" data-duration="1.966" data-track-index="4"><div class="fs-in" id="fs-makan-in"><div class="fs-layer" id="fs-makan-bg" style="background-image:url(assets/photos/makan.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-berumur" class="clip fs" data-start="5.5" data-duration="2.133" data-track-index="4"><div class="fs-in" id="fs-berumur-in"><div class="fs-layer" id="fs-berumur-bg" style="background-image:url(assets/photos/berumur-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-berumur-fg" style="background-image:url(assets/photos/berumur-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-senaman" class="clip fs" data-start="10.4333" data-duration="2.833" data-track-index="4"><div class="fs-in" id="fs-senaman-in"><div class="fs-layer" id="fs-senaman-bg" style="background-image:url(assets/photos/senaman-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-senaman-fg" style="background-image:url(assets/photos/senaman-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-membaca" class="clip fs" data-start="13.2667" data-duration="3.699" data-track-index="4"><div class="fs-in" id="fs-membaca-in"><div class="fs-layer" id="fs-membaca-bg" style="background-image:url(assets/photos/membaca-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-membaca-fg" style="background-image:url(assets/photos/membaca-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-makan" class="clip fs" data-start="28.0" data-duration="1.966" data-track-index="4"><div class="fs-in" id="fs-makan-in"><div class="fs-layer" id="fs-makan-bg" style="background-image:url(assets/photos/makan-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-makan-fg" style="background-image:url(assets/photos/makan-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-berumur-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 5.5);
-          tl.fromTo("#fs-berumur-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 2.1333, ease: "sine.inOut", immediateRender: false }, 5.5);
+          tl.fromTo("#fs-berumur-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.1333, ease: "none", immediateRender: false }, 5.5);
+          tl.fromTo("#fs-berumur-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.1333, ease: "sine.inOut", immediateRender: false }, 5.5);
           tl.fromTo("#fs-senaman-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 10.4333);
-          tl.fromTo("#fs-senaman-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.8333, ease: "sine.inOut", immediateRender: false }, 10.4333);
+          tl.fromTo("#fs-senaman-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.8333, ease: "none", immediateRender: false }, 10.4333);
+          tl.fromTo("#fs-senaman-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.8333, ease: "sine.inOut", immediateRender: false }, 10.4333);
           tl.fromTo("#fs-membaca-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 13.2667);
-          tl.fromTo("#fs-membaca-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 3.7, ease: "sine.inOut", immediateRender: false }, 13.2667);
+          tl.fromTo("#fs-membaca-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 3.7, ease: "none", immediateRender: false }, 13.2667);
+          tl.fromTo("#fs-membaca-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 3.7, ease: "sine.inOut", immediateRender: false }, 13.2667);
           tl.fromTo("#fs-makan-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 28.0);
-          tl.fromTo("#fs-makan-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 1.9667, ease: "sine.inOut", immediateRender: false }, 28.0);
+          tl.fromTo("#fs-makan-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 1.9667, ease: "none", immediateRender: false }, 28.0);
+          tl.fromTo("#fs-makan-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 1.9667, ease: "sine.inOut", immediateRender: false }, 28.0);
           window.__timelines["visuals"] = tl;
         })();
       </script>
