@@ -1,0 +1,425 @@
+{
+  "_note": "StemLabs Fish Oil #5. Source times are seconds in assets/a.mp4 (A-roll VID_20261020_170751, Drive 1VKr3mzs…; front camera, mirrored back in CSS) and assets/b.mp4 (muted B-roll = VID_20261020_102848 (Drive 1JXgG62J…, owner taking a softgel with a mug of water, 0-63.1 s, new) followed by VID_20261013_180342 (Drive 12TTl-NF…, bottle on grass, 63.1-104.5 s here). That grass clip was used in stemlabs-omega3 (0-7.9, 12-16.9, 30-32.7, 34-38.6), stemlabs-3 (~18.5-21, 39.5-41.4) and stemlabs-4 (8-12.2, 26.3-30); the pick here is 21.3-24 of it. One clean take; only pauses trimmed. Product wording is only what the owner says. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "mirror": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 6.15,
+      "out": 11.65,
+      "zoom": 1.05,
+      "text": "Ramai orang makan fish oil, tapi tahu tak kenapa Omega 3 ni penting sangat untuk badan kita?",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 11.8,
+      "out": 13.95,
+      "zoom": 1.1,
+      "text": "Lagi-lagi bila umur makin meningkat.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 14.25,
+      "out": 17.05,
+      "zoom": 1.0,
+      "text": "Omega 3 ni lemak baik yang badan kita perlukan.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 17.2,
+      "out": 23.9,
+      "zoom": 1.05,
+      "text": "EPA bantu kesihatan jantung kita, manakala DHA pula untuk otak dan kesihatan mata kita.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 26.25,
+      "out": 28.12,
+      "zoom": 1.1,
+      "text": "Sebab tu kena pandai pilih guys.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 28.12,
+      "out": 31.16,
+      "zoom": 1.0,
+      "text": "Ini StemLabs Fish Oil double strength.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 31.16,
+      "out": 34.3,
+      "zoom": 1.0,
+      "text": "Setiap kapsul ada EPA 300 dan DHA 200.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 34.3,
+      "out": 37.4,
+      "zoom": 1.05,
+      "text": "Kandungan yang patut kita tengok bila pilih fish oil.",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "in": 39.45,
+      "out": 45.32,
+      "zoom": 1.0,
+      "text": "Kalau jarang makan ikan berlemak, boleh pertimbangkan Omega 3 ni sebagai pelengkap nutrisi harian kita.",
+      "note": ""
+    },
+    {
+      "id": "S10",
+      "in": 45.32,
+      "out": 50.6,
+      "zoom": 1.08,
+      "text": "Nak cuba StemLabs ni? Tekan beg kuning ni guys. Harga tengah ada promosi tu, grab terus.",
+      "note": "CTA"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "kenapa",
+      1.08
+    ],
+    [
+      "S05",
+      "pandai",
+      1.1
+    ],
+    [
+      "S10",
+      "tekan",
+      1.08
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S10",
+        "start"
+      ],
+      "to": [
+        "S10",
+        "tekan"
+      ],
+      "src": 18.2,
+      "note": "softgel ke kamera",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "35% 30%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 8.8,
+      "note": "botol Fish Oil ke kamera",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 25%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "src": 84.4,
+      "note": "botol + softgel atas rumput",
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "55% 55%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S09",
+        "boleh"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "src": 26.8,
+      "note": "telan softgel dengan air",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "berumur",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: pasangan 50-an berjalan pagi"
+    },
+    {
+      "id": "senaman",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "manakala"
+      ],
+      "note": "AI: lelaki 40-an jalan pantas pagi"
+    },
+    {
+      "id": "membaca",
+      "from": [
+        "S04",
+        "manakala"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: remaja bertudung membaca"
+    },
+    {
+      "id": "makan",
+      "from": [
+        "S09",
+        "start"
+      ],
+      "to": [
+        "S09",
+        "boleh"
+      ],
+      "note": "AI: pekerja sibuk makan makanan segera"
+    }
+  ],
+  "titles": [
+    {
+      "text": "KENAPA OMEGA 3\nPENTING?",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "BILA UMUR MENINGKAT",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "LEMAK BAIK",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom",
+      "cls": "big"
+    },
+    {
+      "text": "EPA UNTUK JANTUNG",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "manakala"
+      ],
+      "pos": "top",
+      "anim": "slide"
+    },
+    {
+      "text": "DHA UNTUK\nOTAK & MATA",
+      "from": [
+        "S04",
+        "manakala"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slide-r"
+    },
+    {
+      "text": "KENA PANDAI PILIH",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "STEMLABS FISH OIL\nDOUBLE STRENGTH",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "EPA 300MG\nDHA 200MG",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoomout",
+      "cls": "big"
+    },
+    {
+      "text": "SEMAK KANDUNGAN",
+      "from": [
+        "S08",
+        "start"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slide"
+    },
+    {
+      "text": "JARANG MAKAN IKAN?",
+      "from": [
+        "S09",
+        "start"
+      ],
+      "to": [
+        "S09",
+        "boleh"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "PELENGKAP NUTRISI\nHARIAN",
+      "from": [
+        "S09",
+        "boleh"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "HARGA TENGAH PROMO",
+      "from": [
+        "S10",
+        "harga"
+      ],
+      "to": [
+        "S10",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S10",
+        "tekan"
+      ],
+      "to": [
+        "S10",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "omega",
+    "epa",
+    "dha",
+    "stemlabs",
+    "jantung",
+    "otak",
+    "mata",
+    "lemak",
+    "ikan",
+    "nutrisi",
+    "promosi",
+    "kuning"
+  ]
+}
