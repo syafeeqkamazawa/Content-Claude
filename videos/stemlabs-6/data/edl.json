@@ -1,0 +1,46 @@
+{
+  "_note": "StemLabs Fish Oil #6. Source times are seconds in assets/a.mp4 (A-roll VID_20261021_093414, Drive 1uM1ZIUR…; front camera, mirrored back in CSS) and assets/b.mp4 (muted B-roll, three clips joined: VID_20261018_152948 (Drive 1N_t7doO…, softgel at the table) 0-82.6 s — used in stemlabs-4 at 16-17.6, 28.2-29.9, 34.8-36; VID_20261013_180342 (bottle on grass) 82.6-124.03 s — mostly used before, not picked here; VID_20261020_102848 (Drive 1JXgG62J…, softgel with a mug) 124.03-187.13 s — used in stemlabs-5 at 8.8-11.7, 18.2-19.4, 26.8-30.7). Dropped: 'kalau badan tak fit, lemah, lesu, nafas pun sangkut … buat badan lebih baik' (17.9-27.5) and 'bila jantung sihat … sistem imun meningkat' (46.6-58.1) — health claims TikTok/KKM don't allow for a supplement; the first 'yang ni adalah' take, the 'tengok dekat video ni' slip and the first CTA take. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "mirror": true,
+  "tighten": {"max_pause": 0.4, "keep": 0.14, "threshold_db": -45, "blip": 0.03},
+  "segments": [
+    {"id": "S01", "in": 2.35, "out": 9.15, "zoom": 1.05, "text": "Saya nak beritahu satu tip kepada ibu ayah, abang, kakak. Kalau kita nak sihat, kita perlu ambil Omega 3 fish oil.", "note": "HOOK"},
+    {"id": "S02", "in": 9.6, "out": 17.25, "zoom": 1.0, "text": "Sebab apa saya kata macam tu? Sebab Omega 3 fish oil ni insyaAllah boleh bantu buat badan kita rasa berbeza sangat-sangat.", "note": ""},
+    {"id": "S03", "in": 36.3, "out": 46.65, "zoom": 1.05, "text": "Yang ni adalah Omega 3 double strength, sebab EPA dan DHA yang sangat tinggi. EPA dan DHA sangat-sangat penting untuk kesihatan jantung kita.", "note": "take 2"},
+    {"id": "S04", "in": 61.55, "out": 64.88, "zoom": 1.0, "text": "Saya nak recommend yang ni adalah Omega 3 daripada StemLabs.", "note": ""},
+    {"id": "S05", "in": 64.84, "out": 72.1, "zoom": 1.08, "text": "Yang sangat-sangat berkhasiat, terjamin, dah dapat kelulusan daripada KKM dan Halal JAKIM, walaupun produk ni daripada New Zealand tau.", "note": ""},
+    {"id": "S06", "in": 72.04, "out": 76.3, "zoom": 1.0, "text": "Dan yang paling penting, harga cukup-cukup murah sebab ada promo yang sangat besar.", "note": ""},
+    {"id": "S07", "in": 86.05, "out": 93.8, "zoom": 1.05, "text": "Kalau boleh, grab 2-3 botol terus buat stok, supaya bulan-bulan depan kita boleh makan produk yang murah. Nanti harga naik, kita juga tak rugi.", "note": ""},
+    {"id": "S08", "in": 94.05, "out": 99.5, "zoom": 1.08, "text": "Kepada ibu ayah, abang-abang yang berminat nak cuba, boleh klik dekat beg kuning. Sekarang harga tengah promo.", "note": "CTA"}
+  ],
+  "punch": [["S01", "sihat", 1.08], ["S06", "murah", 1.08], ["S08", "klik", 1.08]],
+  "broll": [
+    {"id": "B1", "from": ["S02", "omega"], "to": ["S02", "end"], "src": 24.8, "note": "softgel dalam tapak tangan", "push": [1.05, 1.15], "origin": "50% 60%"},
+    {"id": "B2", "from": ["S04", "omega"], "to": ["S04", "end"], "src": 181.0, "note": "botol Fish Oil ke kamera", "push": [1.0, 1.1], "origin": "50% 35%"},
+    {"id": "B3", "from": ["S05", "walaupun"], "to": ["S05", "end"], "src": 136.5, "note": "buka botol di meja", "push": [1.0, 1.08], "origin": "50% 55%"},
+    {"id": "B4", "from": ["S07", "grab"], "to": ["S07", "supaya"], "src": 168.0, "note": "botol + softgel di meja", "push": [1.0, 1.1], "origin": "50% 55%"}
+  ],
+  "photos": [
+    {"id": "basikal", "from": ["S03", "sebab"], "to": ["S03", "end"], "note": "AI: ayah berbasikal dengan anak"}
+  ],
+  "titles": [
+    {"text": "NAK SIHAT?", "from": ["S01", "start"], "to": ["S01", "kalau"], "pos": "top", "anim": "slam", "cls": "big", "sfx": "impact-bass-1", "sfx_vol": 0.3},
+    {"text": "AMBIL OMEGA 3\nFISH OIL", "from": ["S01", "kalau"], "to": ["S01", "end"], "pos": "top", "anim": "zoom"},
+    {"text": "BADAN RASA BERBEZA", "from": ["S02", "omega"], "to": ["S02", "end"], "pos": "top", "anim": "slide"},
+    {"text": "OMEGA 3\nDOUBLE STRENGTH", "from": ["S03", "start"], "to": ["S03", "sebab"], "pos": "top", "anim": "zoom"},
+    {"text": "EPA & DHA TINGGI", "from": ["S03", "sebab"], "to": ["S03", "penting"], "pos": "top", "anim": "slam"},
+    {"text": "PENTING UNTUK\nJANTUNG", "from": ["S03", "penting"], "to": ["S03", "end"], "pos": "top", "anim": "slide-r"},
+    {"text": "STEMLABS FISH OIL", "from": ["S04", "omega"], "to": ["S04", "end"], "pos": "top", "anim": "zoom"},
+    {"text": "LULUS KKM\n& HALAL JAKIM", "from": ["S05", "dah"], "to": ["S05", "walaupun"], "pos": "top", "anim": "slam"},
+    {"text": "DARI NEW ZEALAND", "from": ["S05", "walaupun"], "to": ["S05", "end"], "pos": "top", "anim": "slide"},
+    {"text": "HARGA CUKUP MURAH", "from": ["S06", "harga"], "to": ["S06", "sebab"], "pos": "top", "anim": "zoom"},
+    {"text": "PROMO BESAR", "from": ["S06", "sebab"], "to": ["S06", "end"], "pos": "top", "anim": "slam", "cls": "big"},
+    {"text": "GRAB 2-3 BOTOL\nBUAT STOK", "from": ["S07", "grab"], "to": ["S07", "supaya"], "pos": "top", "anim": "slam"},
+    {"text": "SEBELUM HARGA NAIK", "from": ["S07", "nanti"], "to": ["S07", "end"], "pos": "top", "anim": "zoom"},
+    {"text": "TEKAN BEG KUNING", "from": ["S08", "klik"], "to": ["S08", "end"], "cta": true}
+  ],
+  "keywords": ["omega", "epa", "dha", "stemlabs", "jantung", "kkm", "halal", "jakim", "zealand", "murah", "promo", "stok", "kuning"]
+}
