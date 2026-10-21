@@ -12,3 +12,4 @@ node_modules/
 data/a-rms.json
 tools/__pycache__/
 .media/flap-masks/
+.media/flap_place.log
