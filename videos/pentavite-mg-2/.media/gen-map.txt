@@ -1,1 +1,2 @@
 penat .media/images/image_001.png
+katil .media/images/image_002.png

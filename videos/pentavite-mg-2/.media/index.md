@@ -1,4 +1,5 @@
-# .media · 1 asset
+# .media · 2 assets
 
 id         type   dur   dims   path                         description
 image_001  image  —     —      .media/images/image_001.png  A tired Malay man in his late thirties in a long-sleeved office shirt and long trousers sitting at his desk late in the evening, rubbing the back of his neck with his eyes closed, laptop open, warm desk lamp, exhausted after a long workday. Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people. Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
+image_002  image  —     —      .media/images/image_002.png  A Malay man in his late thirties in long-sleeved pyjamas and long pyjama trousers lying awake in bed at night under a blanket, eyes open staring at the ceiling, restless and unable to switch off, dim blue night light from the window, phone glowing on the bedside table. Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people. Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
