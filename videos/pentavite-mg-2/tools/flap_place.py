@@ -90,7 +90,10 @@ for i, fr in enumerate(frames):
 
 COMPACT = 0.6      # board scale beside a face / the product when the full-width board fits nowhere
 PANEL_COMPACT = 0.7
-BOARDS = [(BX, t, 1.0) for t in CANDS] + [(x, t, COMPACT) for t in CANDS for x in (30, 1080 - 30 - round(BW * COMPACT))]
+MINI = 0.45        # last resort before covering anything: a small board in a free corner
+MINI_TOPS = [150, 290, 430, 575, 720, 865, 1010, 1155, 1300]
+BOARDS = ([(BX, t, 1.0) for t in CANDS] + [(x, t, COMPACT) for t in CANDS for x in (30, 1080 - 30 - round(BW * COMPACT))]
+          + [(x, t, MINI) for t in MINI_TOPS for x in (24, 1080 - 24 - round(BW * MINI))])
 
 
 def board_box(b, i):
@@ -99,7 +102,7 @@ def board_box(b, i):
 
 
 def board_cost(b, i):
-    return cost(board_box(b, i), *samples[i]) + (0.02 if b[2] < 1 else 0)  # full width preferred
+    return cost(board_box(b, i), *samples[i]) + (0.02 if b[2] == COMPACT else 0.04 if b[2] == MINI else 0)  # bigger preferred
 
 
 def panel_slots(bb):
