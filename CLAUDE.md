@@ -42,9 +42,13 @@ otherwise for a specific video.
   `videos/jus-gout-6/tools/build.py` (section 5, `brand_words` in the EDL).
 - **No other on-screen text panels** (owner, 21 Oct: "Caption lama dah boleh
   buang ya untuk content ni dan seterusnya, gunakan caption style yang baru
-  sahaja"): no key-point title boxes — the flap board is the only text, plus
-  the yellow "TEKAN BEG KUNING" CTA pill at the end. Template:
-  `videos/agrofarm-baja-rumput-2/` (EDL `titles` holds only the CTA).
+  sahaja"): no key-point title boxes — the flap board is the only text.
+- **No "TEKAN BEG KUNING" button either** (owner, 22 Oct: "Lepas ni butang
+  kuning Tekan beg kuning pun tak perlu ada dah"): EDL `titles` is empty.
+- **More overlays** (owner, 22 Oct: "banyakkan overlay yang sesuai"): cover
+  most of each sentence with a fitting full-screen cutaway — B-roll or a
+  realistic AI photo — and keep the face on camera mainly for the hook and
+  short beats in between.
 - Older videos (before 21 Oct) used softer sentence-case captions in Plus
   Jakarta Sans at about 56px; don't go back to that unless the owner asks.
 
