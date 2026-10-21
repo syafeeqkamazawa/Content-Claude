@@ -1,0 +1,48 @@
+{
+  "_note": "Promaxx Jus Gout #6. Source times are seconds in assets/a.mp4 (A-roll VID_20261021_122333, Drive 1i_8PMU1…; front camera, mirrored back in CSS) and assets/b.mp4 (muted B-roll VID_20261012_172341, Drive 1MnocG_E… — the clip used in jus-gout #1, #4 and #5; picks here (8.6-11.9, 88.5-91.5, 160-163) avoid every range used before: #1 12-15.7, 18.4-19.3, 53.5-55.8, 70-73.6, 118-119.6, 196-199.3, 200.5-202.7; #4 4.2-8.45, 16.2-18.7, 58.5-60.5, 62-64.7, 83.5-84.4, 128-129.7, 205.5-207.6; #5 1.5, 20, 76, 146, 202.8). Captions in the owner's split-flap reference style (21 Oct, src/ref). Dropped: the first 'kesihatan kita penting guys, keluarga' take (33.3-35.5). Product wording is only what the owner says. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "caption_style": "flap",
+  "mirror": true,
+  "tighten": {"max_pause": 0.4, "keep": 0.14, "threshold_db": -45, "blip": 0.03},
+  "segments": [
+    {"id": "S01", "in": 4.55, "out": 9.05, "zoom": 1.05, "text": "Siapa yang pernah kena serangan gout, dia tahu betapa seksa-seksa sakit tu.", "note": "HOOK"},
+    {"id": "S02", "in": 9.25, "out": 14.35, "zoom": 1.0, "text": "Bayangkan tengah malam tiba-tiba ibu jari kaki berdenyut. Nak pijak lantai pun tak boleh.", "note": ""},
+    {"id": "S03", "in": 14.75, "out": 17.45, "zoom": 1.0, "text": "Anak ajak keluar jalan-jalan, tapi kita pula yang tak larat.", "note": ""},
+    {"id": "S04", "in": 17.75, "out": 19.95, "zoom": 1.1, "text": "Sebab tu jangan ambil mudah tentang kesihatan guys.", "note": ""},
+    {"id": "S05", "in": 20.4, "out": 25.05, "zoom": 1.05, "text": "Ini adalah Jus Gout Promaxx dengan bahan seperti bromelain, halia dan kunyit.", "note": ""},
+    {"id": "S06", "in": 25.05, "out": 27.85, "zoom": 1.0, "text": "Sebagai minuman tambahan untuk rutin penjagaan diri.", "note": ""},
+    {"id": "S07", "in": 35.45, "out": 38.9, "zoom": 1.05, "text": "Kesihatan kita sangat penting, keluarga perlukan kita guys.", "note": "take 2"},
+    {"id": "S08", "in": 38.85, "out": 44.45, "zoom": 1.08, "text": "Nak tahu lebih lanjut tentang Jus Gout Promaxx ni, tekan beg kuning sekarang. Harga tengah promo guys, grab awal.", "note": "CTA"}
+  ],
+  "punch": [["S01", "sakit", 1.08], ["S04", "jangan", 1.1], ["S08", "tekan", 1.08]],
+  "broll": [
+    {"id": "B1", "from": ["S05", "start"], "to": ["S05", "dengan"], "src": 8.6, "note": "balang Jus Gout depan", "push": [1.0, 1.1], "origin": "50% 45%"},
+    {"id": "B2", "from": ["S06", "start"], "to": ["S06", "end"], "src": 160.0, "note": "kacau jus dalam cawan", "push": [1.0, 1.1], "origin": "45% 60%"},
+    {"id": "B3", "from": ["S08", "start"], "to": ["S08", "tekan"], "src": 88.5, "note": "sudukan serbuk", "push": [1.05, 1.12], "origin": "50% 50%"}
+  ],
+  "photos": [
+    {"id": "tengahmalam", "from": ["S02", "start"], "to": ["S02", "nak"], "note": "AI: lelaki sakit kaki tengah malam"},
+    {"id": "pijak", "from": ["S02", "nak"], "to": ["S02", "end"], "note": "AI: kaki ragu nak pijak lantai"},
+    {"id": "anakajak", "from": ["S03", "start"], "to": ["S03", "end"], "note": "AI: anak ajak ayah keluar"},
+    {"id": "bahan", "from": ["S05", "dengan"], "to": ["S05", "end"], "note": "AI: nanas, halia, kunyit"},
+    {"id": "keluarga", "from": ["S07", "start"], "to": ["S07", "end"], "note": "AI: keluarga berkelah"}
+  ],
+  "titles": [
+    {"text": "PERNAH KENA\nSERANGAN GOUT?", "from": ["S01", "start"], "to": ["S01", "end"], "pos": "top", "anim": "slam", "sfx": "impact-bass-1", "sfx_vol": 0.3},
+    {"text": "TENGAH MALAM\nKAKI BERDENYUT", "from": ["S02", "start"], "to": ["S02", "nak"], "pos": "top", "anim": "zoom"},
+    {"text": "NAK PIJAK LANTAI\nPUN TAK BOLEH", "from": ["S02", "nak"], "to": ["S02", "end"], "pos": "top", "anim": "slide"},
+    {"text": "ANAK AJAK KELUAR,\nKITA TAK LARAT", "from": ["S03", "start"], "to": ["S03", "end"], "pos": "top", "anim": "slide-r"},
+    {"text": "JANGAN AMBIL MUDAH", "from": ["S04", "start"], "to": ["S04", "end"], "pos": "top", "anim": "slam"},
+    {"text": "JUS GOUT PROMAXX", "from": ["S05", "start"], "to": ["S05", "dengan"], "pos": "top", "anim": "zoom"},
+    {"text": "BROMELAIN, HALIA\n& KUNYIT", "from": ["S05", "dengan"], "to": ["S05", "end"], "pos": "top", "anim": "zoomout"},
+    {"text": "MINUMAN TAMBAHAN\nRUTIN PENJAGAAN DIRI", "from": ["S06", "start"], "to": ["S06", "end"], "pos": "top", "anim": "zoom"},
+    {"text": "KELUARGA PERLUKAN KITA", "from": ["S07", "start"], "to": ["S07", "end"], "pos": "top", "anim": "slide"},
+    {"text": "HARGA TENGAH PROMO", "from": ["S08", "harga"], "to": ["S08", "end"], "pos": "top", "anim": "slam"},
+    {"text": "TEKAN BEG KUNING", "from": ["S08", "tekan"], "to": ["S08", "end"], "cta": true}
+  ],
+  "brand_words": ["jus", "gout", "promaxx"],
+  "keywords": ["sakit", "malam", "kaki", "berdenyut", "lantai", "larat", "kesihatan", "bromelain", "halia", "kunyit", "keluarga", "kuning", "promo"]
+}

@@ -1,0 +1,5 @@
+# .media · 2 assets
+
+id         type   dur   dims   path                         description
+image_001  image  —     —      .media/images/image_001.png  A Malay man in his forties in a long-sleeved t-shirt and a kain pelikat sarong reaching his ankles sitting on the edge of his bed in the middle of the night grimacing in pain and holding his foot near the big toe, dim blue night light and a bedside lamp, wall clock showing 3 o'clock. Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people. Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
+image_002  image  —     —      .media/images/image_002.png  Close-up at floor level of a man's bare foot with a slightly red, swollen big toe joint hovering hesitantly above cold bedroom floor tiles beside a bed at night, the hem of his long sarong covering his ankle, his hand gripping the bed edge, dim light. Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.

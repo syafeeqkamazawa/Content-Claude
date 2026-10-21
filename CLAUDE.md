@@ -33,10 +33,16 @@ otherwise for a specific video.
 
 ## Captions
 
-- Smaller than bold TikTok-style captions (about 54–58px on a 1080×1920
-  canvas), natural sentence case, not all caps.
-- A softer, easy-to-read typeface — currently Plus Jakarta Sans
-  (`assets/fonts/`, OFL), keywords highlighted in the brand accent colour.
+- **Split-flap "departure board" style** (owner, 21 Oct: "Caption style untuk
+  content ini dan seterusnya gunakan style macam dalam video rujukan caption
+  style" — reference in `videos/jus-gout-6/src/ref/`, Drive 1kmDeS6-…):
+  two rows of dark flap tiles near the top of the frame, uppercase condensed
+  letters (Barlow Condensed, OFL) that scramble left to right before settling;
+  keywords in amber, brand names in coral, the rest white. Implemented in
+  `videos/jus-gout-6/tools/build.py` (section 5, `brand_words` in the EDL);
+  title panels sit below the board.
+- Older videos (before 21 Oct) used softer sentence-case captions in Plus
+  Jakarta Sans at about 56px; don't go back to that unless the owner asks.
 
 ## Workflow
 
