@@ -1,0 +1,6 @@
+tangga .media/images/image_001.png
+lemak .media/images/image_002.png
+badminton .media/images/image_003.png
+puzzle .media/images/image_004.png
+ayam .media/images/image_005.png
+sarapan .media/images/image_006.png
