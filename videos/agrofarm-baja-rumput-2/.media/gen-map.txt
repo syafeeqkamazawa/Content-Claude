@@ -1,1 +1,2 @@
 pasang .media/images/image_001.png
+laman .media/images/image_002.png

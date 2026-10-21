@@ -1,4 +1,5 @@
-# .media · 1 asset
+# .media · 2 assets
 
 id         type   dur   dims   path                         description
 image_001  image  —     —      .media/images/image_001.png  Two Malaysian landscape workers in long-sleeved work shirts, long work trousers and wide-brimmed hats laying fresh rolls of green carpet grass turf on bare soil in the front yard of a modern Malaysian terrace house, morning light, stacks of turf rolls beside them. Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people. Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
+image_002  image  —     —      .media/images/image_002.png  A Malay father in a long-sleeved t-shirt and long trousers and his young son in long sleeves and long pants playing ball barefoot on a lush, even, bright green lawn in front of a modern Malaysian terrace house, the mother in a hijab covering her hair, neck and chest and a loose long dress watching from the porch, late afternoon golden light. Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people. Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
