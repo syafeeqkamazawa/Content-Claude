@@ -1,0 +1,39 @@
+{
+  "_note": "Fitsnack Dark Chocolate Protein Bar #2 — voiceover edit. assets/a.mp4 is a black placeholder carrying the owner's voiceover ('Recorder - 20261021-1546.m4a', Drive 1h_--qYL…) so segment times are voiceover seconds; the whole runtime is covered by full-screen cutaways. assets/b.mp4 = VID_20261021_153646 (Drive 1C5Izr4v…, owner unboxing and eating the bar; new, not used before; front camera saved mirrored — the box reads backwards — so it was hflipped when transcoded). Dropped: the first 'jadi kalau korang tengah cari snack…' take (25.8-29.2). Owner (22 Oct): captions never cover the face or the product and move around the frame like the reference boards (tools/flap_place.py → data/flap-pos.json); no CTA button; more overlays. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "caption_style": "flap",
+  "mirror": false,
+  "tighten": {"max_pause": 0.4, "keep": 0.14, "threshold_db": -45, "blip": 0.03},
+  "segments": [
+    {"id": "S01", "in": 1.85, "out": 8.55, "zoom": 1.0, "text": "Siapa dekat sini suka makan coklat, tapi setiap kali nak makan mesti terfikir banyak sangat ke gula dengan kalori ni.", "note": "HOOK"},
+    {"id": "S02", "in": 8.95, "out": 13.85, "zoom": 1.0, "text": "Haa, kalau korang jenis suka mengunyah, cuba tengok snack dark chocolate protein bar ni.", "note": ""},
+    {"id": "S03", "in": 14.2, "out": 20.75, "zoom": 1.0, "text": "Satu bar cuma 100 kalori, ada 7 gram protein untuk membantu rasa kenyang dan 3 gram serat untuk menyokong penghadaman.", "note": ""},
+    {"id": "S04", "in": 21.85, "out": 25.6, "zoom": 1.0, "text": "Paling menarik, gula cuma 2 gram dan tiada gula tambahan guys.", "note": ""},
+    {"id": "S05", "in": 32.28, "out": 37.85, "zoom": 1.0, "text": "Jadi kalau korang tengah cari snack coklat yang lebih mudah dikawal porsinya, boleh pertimbangkan snack ni.", "note": "take 2"},
+    {"id": "S06", "in": 37.95, "out": 43.25, "zoom": 1.0, "text": "Nak cuba, boleh tekan di beg kuning sekarang. Tengok harga tengah ada promosi tu, boleh grab terus.", "note": "CTA (spoken only)"}
+  ],
+  "punch": [],
+  "broll": [
+    {"id": "B1", "from": ["S01", "start"], "to": ["S01", "tapi"], "src": 57.5, "note": "gigit bar coklat", "push": [1.0, 1.08], "origin": "50% 40%"},
+    {"id": "B2", "from": ["S02", "start"], "to": ["S02", "cuba"], "src": 21.0, "note": "kotak terbuka, bar di dalam", "push": [1.0, 1.1], "origin": "50% 50%"},
+    {"id": "B3", "from": ["S02", "cuba"], "to": ["S02", "end"], "src": 36.0, "note": "bar dalam plastik ke kamera", "push": [1.05, 1.15], "origin": "50% 45%"},
+    {"id": "B4", "from": ["S03", "start"], "to": ["S03", "ada"], "src": 77.0, "note": "bar dipatahkan, dekat", "push": [1.0, 1.1], "origin": "50% 45%"},
+    {"id": "B5", "from": ["S03", "ada"], "to": ["S03", "dan"], "src": 30.0, "note": "bar ditunjuk ke kamera", "push": [1.0, 1.1], "origin": "45% 45%"},
+    {"id": "B6", "from": ["S03", "dan"], "to": ["S03", "end"], "src": 83.0, "note": "kepingan bar, dekat", "push": [1.05, 1.12], "origin": "50% 45%"},
+    {"id": "B7", "from": ["S04", "tiada"], "to": ["S04", "end"], "src": 53.0, "note": "buka plastik bar", "push": [1.0, 1.1], "origin": "50% 50%"},
+    {"id": "B8", "from": ["S05", "boleh"], "to": ["S05", "end"], "src": 92.0, "note": "kunyah, puas hati", "push": [1.0, 1.06], "origin": "50% 40%"},
+    {"id": "B9", "from": ["S06", "start"], "to": ["S06", "tengok"], "src": 105.0, "note": "kotak + bar ke kamera", "push": [1.0, 1.08], "origin": "50% 50%"},
+    {"id": "B10", "from": ["S06", "tengok"], "to": ["S06", "end"], "src": 125.5, "note": "kotak terbuka penuh bar", "push": [1.0, 1.1], "origin": "50% 55%"}
+  ],
+  "photos": [
+    {"id": "fikir", "from": ["S01", "tapi"], "to": ["S01", "end"], "note": "AI: wanita bertudung ragu nak makan coklat"},
+    {"id": "gula", "from": ["S04", "start"], "to": ["S04", "tiada"], "note": "AI: kiub gula + coklat gelap"},
+    {"id": "snack", "from": ["S05", "start"], "to": ["S05", "boleh"], "note": "AI: wanita ambil snack bar di pejabat"}
+  ],
+  "titles": [],
+  "brand_words": ["fitsnack"],
+  "keywords": ["coklat", "gula", "kalori", "dark", "chocolate", "protein", "bar", "100", "7", "3", "gram", "serat", "2", "tambahan", "porsinya", "promosi"]
+}

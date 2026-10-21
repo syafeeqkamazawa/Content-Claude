@@ -1,0 +1,22 @@
+TOTAL 32.77s  (6 A-roll segments, 10 B-roll shots, 3 photos, 0 audio fx, 27 caption cards)
+
+  0.00-  6.70  S01  src   1.85-  8.55  (1 pc)  Siapa dekat sini suka makan coklat, tapi setiap kali nak makan mesti terfikir banyak sangat ke gula dengan kalori ni.
+  6.70- 11.60  S02  src   8.95- 13.85  (1 pc)  Haa, kalau korang jenis suka mengunyah, cuba tengok snack dark chocolate protein bar ni.
+ 11.60- 18.17  S03  src  14.20- 20.75  (1 pc)  Satu bar cuma 100 kalori, ada 7 gram protein untuk membantu rasa kenyang dan 3 gram serat untuk menyokong penghadaman.
+ 18.17- 21.90  S04  src  21.85- 25.60  (1 pc)  Paling menarik, gula cuma 2 gram dan tiada gula tambahan guys.
+ 21.90- 27.47  S05  src  32.28- 37.85  (1 pc)  Jadi kalau korang tengah cari snack coklat yang lebih mudah dikawal porsinya, boleh pertimbangkan snack ni.
+ 27.47- 32.77  S06  src  37.95- 43.25  (1 pc)  Nak cuba, boleh tekan di beg kuning sekarang. Tengok harga tengah ada promosi tu, boleh grab terus.
+
+  cutaway   0.00-  2.30
+  cutaway   2.30-  6.70
+  cutaway   6.70-  9.07
+  cutaway   9.07- 11.60
+  cutaway  11.60- 13.33
+  cutaway  13.33- 15.80
+  cutaway  15.80- 18.17
+  cutaway  18.17- 20.50
+  cutaway  20.50- 21.90
+  cutaway  21.90- 25.97
+  cutaway  25.97- 27.47
+  cutaway  27.47- 29.70
+  cutaway  29.70- 32.77

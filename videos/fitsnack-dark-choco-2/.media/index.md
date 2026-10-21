@@ -1,0 +1,4 @@
+# .media · 1 asset
+
+id         type   dur   dims   path                         description
+image_001  image  —     —      .media/images/image_001.png  A young Malay woman in a hijab covering her hair, neck and chest and a loose long-sleeved blouse sitting on a sofa at night holding an unbranded chocolate bar in its wrapper, hesitating with a thoughtful, guilty expression, warm lamp light. Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people. Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
