@@ -1,0 +1,21 @@
+TOTAL 29.17s  (8 A-roll segments, 4 B-roll shots, 6 photos, 2 audio fx, 27 caption cards)
+
+  0.00-  4.17  S01  src   5.15-  9.30  (1 pc)  Siapa pernah kena gout, mesti tahu betapa seksanya bila sakit tu datang.
+  4.17-  6.53  S02  src  11.45- 13.80  (1 pc)  Bayangkan tengah malam, kaki tiba-tiba berdenyut.
+  6.53- 10.07  S03  src  13.90- 17.45  (1 pc)  Nak berjalan pun susah, sampai anak ajak keluar pun terpaksa tolak.
+ 10.07- 13.07  S04  src  17.85- 20.85  (1 pc)  Sebab tu jangan tunggu sakit baru nak ambil berat tentang kesihatan guys.
+ 13.07- 17.47  S05  src  21.20- 25.60  (1 pc)  Ini Jus Gout Promaxx dengan bahan seperti bromelain, halia dan kunyit.
+ 17.47- 20.43  S06  src  25.65- 28.60  (1 pc)  Sebagai minuman tambahan untuk rutin penjagaan diri.
+ 20.43- 24.93  S07  src  49.65- 54.15  (1 pc)  Keluarga masih perlukan kita guys. Jom mula jaga pemakanan dan kesihatan dari sekarang.
+ 24.93- 29.17  S08  src  54.05- 58.42  (2 pc)  Nak cuba Jus Gout Promaxx ni, tekan beg kuning sekarang. Harga tengah murah guys.
+
+  cutaway   2.17-  4.17
+  cutaway   4.17-  6.53
+  cutaway   6.53- 10.07
+  cutaway  13.07- 14.77
+  cutaway  14.77- 17.47
+  cutaway  17.47- 18.70
+  cutaway  18.70- 20.43
+  cutaway  20.43- 22.40
+  cutaway  22.40- 24.93
+  cutaway  24.93- 26.60
