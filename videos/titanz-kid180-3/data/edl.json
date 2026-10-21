@@ -1,0 +1,45 @@
+{
+  "_note": "Titanz Kid180 #3. Source times are seconds in assets/a.mp4 (A-roll VID_20261021_153955, Drive 14kZQzmy…; front camera saved mirrored — the label reads backwards — flipped back in CSS) and assets/b.mp4 (muted B-roll VID_20261014_153413, Drive 1yeUjbM-… — used in titanz-kid180 at 5.5-12.5, 35-36.4, 38.5-40.5 and titanz-kid180-2 at ~2.2-4, 17.5-19, 21-22.5, 32.6-34, 36.6-38; picks here (23-25.5, 25.5-27, 28.6-31, 34-35.5, 40.4-42) avoid them). Dropped: the doubled 'mudah untuk dijadikan', 'nak jadikan sebagai nutrisi', the 'tablet ni sedap tau' takes (kept the clearer 'tablet dia sangat sedap…'), the first 'anak-anak membesar' and 'kita usaha' and 'nak' false starts. Owner (22 Oct): captions never cover the face or the product and move like the reference boards; no CTA button; more overlays. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "caption_style": "flap",
+  "mirror": true,
+  "tighten": {"max_pause": 0.4, "keep": 0.14, "threshold_db": -45, "blip": 0.03},
+  "segments": [
+    {"id": "S01", "in": 5.95, "out": 12.05, "zoom": 1.05, "text": "Ibu ayah pernah tak terfikir, anak kita makin membesar tapi cukup ke kalsium yang dia dapat setiap hari?", "note": "HOOK"},
+    {"id": "S02", "in": 12.25, "out": 17.5, "zoom": 1.0, "text": "Lagi-lagi kalau anak kita susah minum susu, sayur pun memilih, risau kan?", "note": ""},
+    {"id": "S03", "in": 18.35, "out": 21.9, "zoom": 1.05, "text": "Sebab tu saya nak kongsikan Titanz Kid180 tablet ni.", "note": ""},
+    {"id": "S04", "in": 22.15, "out": 26.95, "zoom": 1.0, "text": "Tablet kunyah yang membekalkan kalsium untuk membantu menyokong pertumbuhan tulang dan gigi yang kuat.", "note": ""},
+    {"id": "S05", "in": 31.95, "out": 36.75, "zoom": 1.0, "text": "Mudah untuk dijadikan pelengkap nutrisi harian anak, ikut arahan pada label.", "note": "take 2"},
+    {"id": "S06", "in": 54.95, "out": 58.45, "zoom": 1.05, "text": "Tablet dia sangat sedap, memang anak-anak berebut insyaAllah.", "note": ""},
+    {"id": "S07", "in": 59.9, "out": 67.05, "zoom": 1.0, "text": "Lagi mudah nak jadikan sebagai rutin harian pun senang sangat.", "note": ""},
+    {"id": "S08", "in": 69.95, "out": 74.15, "zoom": 1.05, "text": "Ibu ayah, anak-anak membesar sekali je, sementara mereka masih kecil ni,", "note": "take 2"},
+    {"id": "S09", "in": 75.35, "out": 77.6, "zoom": 1.0, "text": "kita usaha beri yang terbaik.", "note": "take 2"},
+    {"id": "S10", "in": 79.05, "out": 87.45, "zoom": 1.05, "text": "Nak dapatkan Titanz Kid180 tablet ni, boleh tekan di beg kuning sekarang, sementara harga promo masih ada, grab awal-awal.", "note": "CTA (spoken only)"}
+  ],
+  "punch": [["S01", "cukup", 1.08], ["S06", "sedap", 1.08]],
+  "broll": [
+    {"id": "B1", "from": ["S03", "titanz"], "to": ["S03", "end"], "src": 23.0, "note": "botol Kid180 depan", "push": [1.0, 1.1], "origin": "50% 45%"},
+    {"id": "B2", "from": ["S04", "start"], "to": ["S04", "untuk"], "src": 28.6, "note": "tuang tablet kunyah", "push": [1.05, 1.15], "origin": "50% 55%"},
+    {"id": "B3", "from": ["S05", "start"], "to": ["S05", "ikut"], "src": 34.0, "note": "tablet atas tapak tangan + botol", "push": [1.0, 1.1], "origin": "55% 55%"},
+    {"id": "B4", "from": ["S05", "ikut"], "to": ["S05", "end"], "src": 25.5, "note": "label botol", "push": [1.05, 1.15], "origin": "50% 50%"},
+    {"id": "B5", "from": ["S10", "start"], "to": ["S10", "boleh"], "src": 40.4, "note": "botol + tablet", "push": [1.0, 1.08], "origin": "50% 50%"}
+  ],
+  "photos": [
+    {"id": "makan", "from": ["S01", "anak"], "to": ["S01", "tapi"], "note": "AI: budak sarapan sebelum sekolah"},
+    {"id": "tanya", "from": ["S01", "tapi"], "to": ["S01", "end"], "note": "AI: ibu baca label susu di pasar raya"},
+    {"id": "susu", "from": ["S02", "start"], "to": ["S02", "sayur"], "note": "AI: budak tolak susu"},
+    {"id": "pinggan", "from": ["S02", "sayur"], "to": ["S02", "risau"], "note": "AI: tolak sayur ke tepi pinggan"},
+    {"id": "tulang", "from": ["S04", "untuk"], "to": ["S04", "gigi"], "note": "AI: kanak-kanak di taman permainan"},
+    {"id": "senyum", "from": ["S04", "gigi"], "to": ["S04", "end"], "note": "AI: budak senyum gigi putih"},
+    {"id": "berebut", "from": ["S06", "memang"], "to": ["S06", "end"], "note": "AI: adik-beradik berebut pada ibu"},
+    {"id": "pagi", "from": ["S07", "start"], "to": ["S07", "end"], "note": "AI: rutin pagi sebelum sekolah"},
+    {"id": "basikal", "from": ["S08", "start"], "to": ["S08", "sementara"], "note": "AI: ayah ajar anak naik basikal"},
+    {"id": "tidur", "from": ["S09", "start"], "to": ["S09", "end"], "note": "AI: ibu cium dahi anak waktu tidur"}
+  ],
+  "titles": [],
+  "brand_words": ["titanz", "kid180"],
+  "keywords": ["kalsium", "membesar", "susu", "sayur", "tablet", "kunyah", "tulang", "gigi", "kuat", "nutrisi", "harian", "sedap", "rutin", "terbaik", "promo"]
+}
