@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Build index.html + compositions/ for the Promaxx Jus Gout #7 edit (A-roll, many full-screen cutaways, moving split-flap captions, no music) from data/edl.json.
+"""Build index.html + compositions/ for the StemLabs Fish Oil #7 edit (A-roll, many full-screen cutaways, moving split-flap captions, no music) from data/edl.json.
 
 Run from the project root:  python3 tools/build.py
 Edit data/edl.json (cuts, B-roll picks, photos) and re-run; never hand-edit index.html.
@@ -19,7 +19,7 @@ FPS = EDL["fps"]
 W, H = EDL["width"], EDL["height"]
 KEYWORDS = {k.lower() for k in EDL["keywords"]}
 
-ACCENT = "#FFC24A"  # Jus Gout label yellow
+ACCENT = "#5CCBFF"  # StemLabs label blue
 BERRY = "#F28C1B"  # Jus Gout ankle orange (title edge)
 INK = "#3A1E0C"  # Jus Gout label brown (title panel)
 CREAM = "#FFFBEF"
@@ -570,7 +570,7 @@ if SHOW_CAPTIONS:
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width={W}, height={H}" />
-    <title>Promaxx Jus Gout #7 — review</title>
+    <title>StemLabs Fish Oil #7 — review</title>
     <script src="assets/vendor/gsap.min.js"></script>
     <style>{CSS_MAIN}</style>
   </head>

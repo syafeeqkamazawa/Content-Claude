@@ -1,0 +1,23 @@
+TOTAL 42.50s  (9 A-roll segments, 5 B-roll shots, 6 photos, 2 audio fx, 30 caption cards)
+
+  0.00-  5.63  S01  src   1.72-  7.35  (1 pc)  Umur makin meningkat, tapi kita masih tak ambil berat tentang kesihatan jantung, otak dan mata.
+  5.63- 10.07  S02  src  11.05- 15.50  (1 pc)  Ramai tak tahu Omega 3 ni lemak baik yang penting untuk badan kita.
+ 10.07- 12.33  S03  src  19.60- 21.85  (1 pc)  EPA bantu sokong kesihatan jantung.
+ 12.33- 16.47  S04  src  22.25- 26.40  (1 pc)  Manakala DHA pula penting untuk fungsi otak dan penglihatan.
+ 16.47- 23.77  S05  src  26.30- 33.75  (2 pc)  Sebab tu saya nak kongsikan kepada ibu ayah, abang kakak, StemLabs Fish Oil Double Strength ni.
+ 23.77- 28.80  S06  src  37.70- 43.15  (2 pc)  Setiap kapsul mengandungi EPA 300mg dan DHA 200mg.
+ 28.80- 34.40  S07  src  43.95- 49.55  (1 pc)  Kalau jarang makan ikan berlemak, ini boleh jadi pilihan untuk melengkapkan pengambilan Omega 3 harian kita.
+ 34.40- 37.33  S08  src  56.95- 59.90  (1 pc)  Guys, jangan tunggu sampai sakit baru nak jaga.
+ 37.33- 42.50  S09  src  65.62- 70.95  (2 pc)  Tekan beg kuning sekarang, sementara harga tengah murah ni, beli 2-3 botol terus buat stok.
+
+  cutaway   1.70-  5.63
+  cutaway   5.63- 10.07
+  cutaway  10.07- 12.33
+  cutaway  12.33- 16.47
+  cutaway  21.60- 23.77
+  cutaway  23.77- 27.83
+  cutaway  27.83- 28.80
+  cutaway  28.80- 30.60
+  cutaway  30.60- 34.40
+  cutaway  34.40- 37.33
+  cutaway  37.33- 38.67

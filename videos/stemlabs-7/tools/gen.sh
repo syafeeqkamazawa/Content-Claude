@@ -1,5 +1,5 @@
 #!/bin/bash
-# Generates the AI cutaways for Promaxx Jus Gout #7 (owner's ChatGPT/Codex account). Run from the project root.
+# Generates the AI cutaways for StemLabs Fish Oil #7 (owner's ChatGPT/Codex account). Run from the project root.
 export PATH=$HOME/.local/bin:$PATH NODE_USE_ENV_PROXY=1
 MOD="Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition."
 PPL="Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people."
@@ -16,10 +16,10 @@ gen () {
 [ $# -gt 0 ] && ONLY=" $* " || ONLY=""
 want () { [ -z "$ONLY" ] || [[ "$ONLY" == *" $1 "* ]]; }
 
-want sakit && gen sakit "A Malay man in his forties in a long-sleeved t-shirt and long trousers whose hems stay down at the ankle, sitting on the living-room sofa in the daytime, grimacing as he holds his swollen, reddish big toe and the top of his bare foot resting on a cushion, only the foot uncovered, the trousers never rolled up, soft window light. $PPL"
-want jaga && gen jaga "Night scene in a bedroom: a Malay man in long-sleeved pyjamas and long pyjama trousers sitting up in bed holding his foot in pain while his wife in a hijab covering her hair, neck and chest and a loose long-sleeved nightgown wakes up beside him and touches his shoulder with concern, dim bedside lamp. $PPL"
-want tolak && gen tolak "A Malay mother in a hijab covering her hair, neck and chest and a loose long dress leading two excited children in long sleeves and long pants out of the front door for an outing, while the father in a long-sleeved shirt and long trousers stays behind on the sofa with his leg up on a cushion, waving sadly. $PPL"
-want bahan && gen bahan "A woven rattan basket on a kitchen counter filled with a whole pineapple, fresh pineapple slices, knobs of fresh ginger and fresh turmeric roots, a small dish of turmeric powder beside it, bright natural morning light, food photography, no people, no text."
-want keluarga && gen keluarga "A Malay father in a long-sleeved baju melayu and long trousers walking hand in hand with his two children in a park in the morning, the mother in a hijab covering her hair, neck and chest and a loose long dress beside them, all smiling, the father walking comfortably, golden light. $PPL"
-want pemakanan && gen pemakanan "A healthy home-cooked Malaysian lunch on a dining table: steamed fish, a big plate of stir-fried green vegetables, brown rice, sliced cucumber and glasses of plain water, a Malay man's hand in a long sleeve reaching for vegetables, bright daylight, no face visible."
+want tangga && gen tangga "A Malay man in his fifties in a long-sleeved shirt and long trousers pausing halfway up a staircase at home, one hand on the railing, catching his breath and looking tired, afternoon light. $PPL"
+want lemak && gen lemak "A flat lay of healthy-fat foods on a wooden table: a raw salmon fillet, sardines, mackerel, walnuts, chia seeds, an avocado cut in half and a small dish of olive oil, bright natural light, food photography, no people, no text."
+want badminton && gen badminton "Two Malay men in their fifties playing a friendly game of badminton in a community hall, both in long-sleeved sports shirts and long track pants, energetic and smiling, mid-rally, bright indoor light. $PPL"
+want puzzle && gen puzzle "A Malay grandfather in a kopiah, long-sleeved baju melayu and long trousers doing a jigsaw puzzle at the living-room table with his granddaughter in a small hijab covering her hair, neck and chest and a long-sleeved dress, both focused and happy, wearing no glasses, warm afternoon light. $PPL"
+want ayam && gen ayam "A Malay family dinner table at home with fried chicken, burgers, fries and sweet drinks, no fish on the table, a father's hand in a long sleeve reaching for a piece of fried chicken, warm evening light, no faces visible."
+want sarapan && gen sarapan "Three generations of a Malay family having a weekend breakfast together on the porch: grandparents (grandmother in a hijab covering her hair, neck and chest and a loose long dress, grandfather in a kopiah and long-sleeved shirt and long trousers), parents and children in long sleeves, girls in hijab, laughing, morning sunlight. $PPL"
 echo DONE
