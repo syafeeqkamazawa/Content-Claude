@@ -1,0 +1,485 @@
+{
+  "_note": "Aurapep Antarctic Krill Oil #1. Source times are seconds in assets/a.mp4 (A-roll VID_20261021_092904, Drive 1J102cXF…; front camera saved mirrored (the T-shirt barcode digits read backwards) → flipped back in CSS) and assets/b.mp4 (muted B-roll = VID_20261021_091344 (Drive 1jI3kZHr…, bottle and red softgels on grass) 0-39.33 s, then VID_20261021_091830 (Drive 13eJJozI…, owner taking a softgel at the table) 39.33-116.33 s). Dropped: the stammered 'dan dapat bantu' (26.7-28.8), 'supaya daya ingatan kita lebih baik' (46.8-48.9) and 'sistem saraf … lenguh-lenguh dan kebas-kebas' (51-65.2) — health claims TikTok/KKM don't allow for a supplement; the first 'dalam setiap kapsul ni ada' take, 'semuanya … support kesihatan kita', 'dengan manfaat … mata, otak, jantung dan saraf', the 'tengok' asides, 'antara yang termurah' (an unverifiable price claim) and the repeated stock takes. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "mirror": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 2.45,
+      "out": 9.3,
+      "zoom": 1.05,
+      "text": "Sekarang ni tengah viral berkenaan dengan krill oil yang dikatakan lagi baik daripada Omega biasa.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 10.05,
+      "out": 15.7,
+      "zoom": 1.0,
+      "text": "Saya dah start amalkan krill oil daripada Aurapep ni.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 16.05,
+      "out": 22.05,
+      "zoom": 1.08,
+      "text": "Sebab apa? Sangat berkualiti dan ada kelulusan daripada KKM dan Halal JAKIM.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 22.55,
+      "out": 26.65,
+      "zoom": 1.0,
+      "text": "Krill oil ni memang dapat bantu untuk support kesihatan jantung kita.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 28.75,
+      "out": 34.05,
+      "zoom": 1.0,
+      "text": "Dan juga dapat bantu support kesihatan mata kita.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 42.3,
+      "out": 46.75,
+      "zoom": 1.0,
+      "text": "Dan juga dapat bantu support kesihatan otak kita.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 69.1,
+      "out": 81.15,
+      "zoom": 1.05,
+      "text": "Dalam setiap kapsul ni mengandungi krill oil, mengandungi Omega 3, juga mengandungi DHA, EPA, astaxanthin, vitamin D3 dan vitamin K2.",
+      "note": "take 2"
+    },
+    {
+      "id": "S08",
+      "in": 95.55,
+      "out": 101.65,
+      "zoom": 1.08,
+      "text": "Anda rasa berapa harga dia? Agak sedikit mahal berbanding Omega biasa, tetapi sangat berbaloi.",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "in": 137.75,
+      "out": 144.85,
+      "zoom": 1.0,
+      "text": "Satu botol ni ada 40 soft gel. Satu hari nak makan berapa? Cukup kita makan 2 soft gel sahaja sehari.",
+      "note": ""
+    },
+    {
+      "id": "S10",
+      "in": 149.0,
+      "out": 151.85,
+      "zoom": 1.05,
+      "text": "Sekarang ni tengah murah guys, tengah promo.",
+      "note": ""
+    },
+    {
+      "id": "S11",
+      "in": 168.85,
+      "out": 173.35,
+      "zoom": 1.05,
+      "text": "Ibu ayah, abang akak yang berminat nak mencuba boleh dapatkan segera dekat beg kuning.",
+      "note": "CTA"
+    },
+    {
+      "id": "S12",
+      "in": 185.05,
+      "out": 190.95,
+      "zoom": 1.08,
+      "text": "Baru ni stok dah habis, sekarang ni dah ada balik. Sementara ada stok tu, grab awal, harga murah.",
+      "note": "take 3"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "viral",
+      1.08
+    ],
+    [
+      "S08",
+      "berbaloi",
+      1.08
+    ],
+    [
+      "S12",
+      "grab",
+      1.1
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S02",
+        "amalkan"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "src": 67.0,
+      "note": "softgel merah ke kamera",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "35% 35%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S03",
+        "kelulusan"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "src": 10.0,
+      "note": "botol Antarctic Krill Oil depan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S07",
+        "krill"
+      ],
+      "to": [
+        "S07",
+        "juga"
+      ],
+      "src": 19.8,
+      "note": "buka botol, softgel merah",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "55% 50%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S07",
+        "juga"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "src": 24.0,
+      "note": "softgel merah dalam penutup + botol",
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "60% 50%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S09",
+        "start"
+      ],
+      "to": [
+        "S09",
+        "hari"
+      ],
+      "src": 50.5,
+      "note": "buka botol di meja",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 60%"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S09",
+        "cukup"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "src": 77.4,
+      "note": "minum air dengan mug kuning",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "mata",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "note": "AI: nenek bertudung membaca, mata cerah"
+    },
+    {
+      "id": "otak",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "note": "AI: ayah bantu anak buat kerja sekolah"
+    }
+  ],
+  "titles": [
+    {
+      "text": "KRILL OIL\nTENGAH VIRAL",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.3
+    },
+    {
+      "text": "AURAPEP\nANTARCTIC KRILL OIL",
+      "from": [
+        "S02",
+        "amalkan"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "LULUS KKM\n& HALAL JAKIM",
+      "from": [
+        "S03",
+        "kelulusan"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "SOKONG KESIHATAN\nJANTUNG",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slide"
+    },
+    {
+      "text": "KESIHATAN MATA",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slide-r"
+    },
+    {
+      "text": "KESIHATAN OTAK",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slide"
+    },
+    {
+      "text": "KRILL OIL + OMEGA 3",
+      "from": [
+        "S07",
+        "krill"
+      ],
+      "to": [
+        "S07",
+        "juga"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "DHA, EPA, ASTAXANTHIN,\nVITAMIN D3 & K2",
+      "from": [
+        "S07",
+        "juga"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoomout"
+    },
+    {
+      "text": "SEDIKIT MAHAL,\nTAPI BERBALOI",
+      "from": [
+        "S08",
+        "agak"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "40 SOFTGEL SEBOTOL",
+      "from": [
+        "S09",
+        "start"
+      ],
+      "to": [
+        "S09",
+        "hari"
+      ],
+      "pos": "top",
+      "anim": "zoom"
+    },
+    {
+      "text": "2 SOFTGEL SEHARI",
+      "from": [
+        "S09",
+        "cukup"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "slam",
+      "cls": "big"
+    },
+    {
+      "text": "TENGAH PROMO",
+      "from": [
+        "S10",
+        "start"
+      ],
+      "to": [
+        "S10",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom",
+      "cls": "big"
+    },
+    {
+      "text": "STOK DAH ADA BALIK",
+      "from": [
+        "S12",
+        "start"
+      ],
+      "to": [
+        "S12",
+        "grab"
+      ],
+      "pos": "top",
+      "anim": "slam"
+    },
+    {
+      "text": "GRAB AWAL!",
+      "from": [
+        "S12",
+        "grab"
+      ],
+      "to": [
+        "S12",
+        "end"
+      ],
+      "pos": "top",
+      "anim": "zoom",
+      "cls": "big"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S11",
+        "dapatkan"
+      ],
+      "to": [
+        "S12",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [
+    "krill",
+    "viral",
+    "aurapep",
+    "kkm",
+    "halal",
+    "jakim",
+    "jantung",
+    "mata",
+    "otak",
+    "omega",
+    "dha",
+    "epa",
+    "astaxanthin",
+    "berbaloi",
+    "promo",
+    "kuning",
+    "stok"
+  ]
+}
