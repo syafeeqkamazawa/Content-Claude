@@ -11,3 +11,5 @@ keluarga2 .media/images/image_010.png
 otot2 .media/images/image_011.png
 rehat2 .media/images/image_012.png
 rehat3 .media/images/image_013.png
+mgfood .media/images/image_014.png
+harian .media/images/image_015.png

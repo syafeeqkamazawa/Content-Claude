@@ -1,5 +1,5 @@
 {
-  "_note": "Pentavite Mg #2 (magnesium gummies: mixed blueberry, lemon balm extract, lavender oil). Source times are seconds in assets/a.mp4 (A-roll VID_20261021_224117, Drive 1DA6bULc…; front camera saved mirrored — the box label reads backwards — flipped back in CSS; phone-mic voice enhanced with tools/voice.sh, noise profile 27.4-28.2) and assets/b.mp4 (VID_20261021_224417, Drive 1r8gO-RG…, rear camera, owner at the table with the box, sachets and a gummy; muted). B-roll picks: 14.5, 60, 78, 93.5, 64, 100, 54.5, 40. Dropped: the false start 'Kadang-kadang kita perlu sibuk bekerja' (8.4-11.1), 'Yang menariknya,' (36.4-38.1, restarted), the first 'Jangan abaikan keperluan badan' (49.7-52.1) and 'Tengah ada harga yang' (62.4-64.1), plus the pauses. Owner (21 Oct): caption motion like the reference video, never over people or the product; phone voice made mic-like. No CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "_note": "Pentavite Mg #2 (magnesium gummies: mixed blueberry, lemon balm extract, lavender oil). Source times are seconds in assets/a.mp4 (A-roll VID_20261021_224117, Drive 1DA6bULc…; front camera saved mirrored — the box label reads backwards — flipped back in CSS; phone-mic voice enhanced with tools/voice.sh, noise profile 27.4-28.2) and assets/b.mp4 (VID_20261021_224417, Drive 1r8gO-RG…, rear camera, owner at the table with the box, sachets and a gummy; muted). B-roll picks: 78, 93.5, 64, 54.5, 40 (the box-front, sachet and eating shots were dropped: the owner's face and the product fill those frames, leaving no clear spot for the captions). Dropped: the false start 'Kadang-kadang kita perlu sibuk bekerja' (8.4-11.1), 'Yang menariknya,' (36.4-38.1, restarted), the first 'Jangan abaikan keperluan badan' (49.7-52.1) and 'Tengah ada harga yang' (62.4-64.1), plus the pauses. Owner (21 Oct): caption motion like the reference video, never over people or the product; phone voice made mic-like. No CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
   "fps": 30,
   "width": 1080,
   "height": 1920,
@@ -116,42 +116,6 @@
   ],
   "broll": [
     {
-      "id": "B1",
-      "from": [
-        "S04",
-        "pentavite"
-      ],
-      "to": [
-        "S04",
-        "end"
-      ],
-      "src": 14.5,
-      "note": "kotak depan, label",
-      "push": [
-        1.0,
-        1.1
-      ],
-      "origin": "50% 35%"
-    },
-    {
-      "id": "B2",
-      "from": [
-        "S05",
-        "start"
-      ],
-      "to": [
-        "S05",
-        "fungsi"
-      ],
-      "src": 60.0,
-      "note": "sachet Pentavite Mg dekat kamera",
-      "push": [
-        1.0,
-        1.08
-      ],
-      "origin": "50% 45%"
-    },
-    {
       "id": "B3",
       "from": [
         "S07",
@@ -199,24 +163,6 @@
       ],
       "src": 64.0,
       "note": "koyak sachet",
-      "push": [
-        1.0,
-        1.08
-      ],
-      "origin": "50% 45%"
-    },
-    {
-      "id": "B6",
-      "from": [
-        "S08",
-        "dan"
-      ],
-      "to": [
-        "S08",
-        "end"
-      ],
-      "src": 100.0,
-      "note": "makan gummy, senyum",
       "push": [
         1.0,
         1.08
@@ -322,6 +268,18 @@
       "note": "AI: lelaki regang otot"
     },
     {
+      "id": "mgfood",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "fungsi"
+      ],
+      "note": "AI: makanan kaya magnesium"
+    },
+    {
       "id": "herba",
       "from": [
         "S06",
@@ -332,6 +290,18 @@
         "end"
       ],
       "note": "AI: lemon balm, lavender, beri"
+    },
+    {
+      "id": "harian",
+      "from": [
+        "S08",
+        "dan"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "note": "AI: wanita berhijab makan gummy pagi"
     },
     {
       "id": "rehat3",
