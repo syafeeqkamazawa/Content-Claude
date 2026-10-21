@@ -71,7 +71,7 @@
     {
       "id": "S08",
       "in": 95.55,
-      "out": 101.65,
+      "out": 102.3,
       "zoom": 1.08,
       "text": "Anda rasa berapa harga dia? Agak sedikit mahal berbanding Omega biasa, tetapi sangat berbaloi.",
       "note": ""
@@ -481,5 +481,6 @@
     "promo",
     "kuning",
     "stok"
-  ]
+  ],
+  "_owner_decisions": "21 Okt: folder dihantar tanpa nota — dibuat seperti video affiliate biasa; final dirender terus tanpa draf (owner, 19 Okt); tiada muzik latar; 2 foto AI berlabel ILUSTRASI AI; dakwaan saraf/kebas, daya ingatan dan 'termurah' dibuang."
 }

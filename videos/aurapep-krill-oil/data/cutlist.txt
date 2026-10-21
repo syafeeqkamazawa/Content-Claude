@@ -1,4 +1,4 @@
-TOTAL 68.10s  (12 A-roll segments, 6 B-roll shots, 2 photos, 21 audio fx, 56 caption cards)
+TOTAL 68.77s  (12 A-roll segments, 6 B-roll shots, 2 photos, 21 audio fx, 56 caption cards)
 
   0.00-  6.87  S01  src   2.45-  9.30  (1 pc)  Sekarang ni tengah viral berkenaan dengan krill oil yang dikatakan lagi baik daripada Omega biasa.
   6.87- 12.50  S02  src  10.05- 15.70  (1 pc)  Saya dah start amalkan krill oil daripada Aurapep ni.
@@ -7,11 +7,11 @@ TOTAL 68.10s  (12 A-roll segments, 6 B-roll shots, 2 photos, 21 audio fx, 56 cap
  22.33- 26.27  S05  src  28.75- 34.05  (2 pc)  Dan juga dapat bantu support kesihatan mata kita.
  26.27- 30.73  S06  src  42.30- 46.75  (1 pc)  Dan juga dapat bantu support kesihatan otak kita.
  30.73- 42.10  S07  src  69.10- 81.15  (4 pc)  Dalam setiap kapsul ni mengandungi krill oil, mengandungi Omega 3, juga mengandungi DHA, EPA, astaxanthin, vitamin D3 dan vitamin K2.
- 42.10- 48.03  S08  src  95.55-101.65  (2 pc)  Anda rasa berapa harga dia? Agak sedikit mahal berbanding Omega biasa, tetapi sangat berbaloi.
- 48.03- 55.00  S09  src 137.75-144.85  (2 pc)  Satu botol ni ada 40 soft gel. Satu hari nak makan berapa? Cukup kita makan 2 soft gel sahaja sehari.
- 55.00- 57.83  S10  src 149.00-151.85  (1 pc)  Sekarang ni tengah murah guys, tengah promo.
- 57.83- 62.33  S11  src 168.85-173.35  (1 pc)  Ibu ayah, abang akak yang berminat nak mencuba boleh dapatkan segera dekat beg kuning.
- 62.33- 68.10  S12  src 185.05-190.95  (2 pc)  Baru ni stok dah habis, sekarang ni dah ada balik. Sementara ada stok tu, grab awal, harga murah.
+ 42.10- 48.70  S08  src  95.55-102.30  (2 pc)  Anda rasa berapa harga dia? Agak sedikit mahal berbanding Omega biasa, tetapi sangat berbaloi.
+ 48.70- 55.67  S09  src 137.75-144.85  (2 pc)  Satu botol ni ada 40 soft gel. Satu hari nak makan berapa? Cukup kita makan 2 soft gel sahaja sehari.
+ 55.67- 58.50  S10  src 149.00-151.85  (1 pc)  Sekarang ni tengah murah guys, tengah promo.
+ 58.50- 63.00  S11  src 168.85-173.35  (1 pc)  Ibu ayah, abang akak yang berminat nak mencuba boleh dapatkan segera dekat beg kuning.
+ 63.00- 68.77  S12  src 185.05-190.95  (2 pc)  Baru ni stok dah habis, sekarang ni dah ada balik. Sementara ada stok tu, grab awal, harga murah.
 
   cutaway   8.37- 12.50
   cutaway  15.27- 18.23
@@ -19,5 +19,5 @@ TOTAL 68.10s  (12 A-roll segments, 6 B-roll shots, 2 photos, 21 audio fx, 56 cap
   cutaway  26.27- 30.73
   cutaway  33.07- 35.83
   cutaway  35.83- 42.10
-  cutaway  48.03- 51.13
-  cutaway  52.13- 55.00
+  cutaway  48.70- 51.80
+  cutaway  52.80- 55.67
