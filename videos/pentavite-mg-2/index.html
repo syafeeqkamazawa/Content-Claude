@@ -38,8 +38,8 @@ html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1c0f0
       <div class="frame-wrap broll" id="bw-B4"><video id="b-B4" class="clip" src="assets/b.mp4" muted playsinline data-start="29.2" data-duration="1.366" data-media-start="93.5" data-track-index="1"></video></div>
       <div class="frame-wrap broll" id="bw-B5"><video id="b-B5" class="clip" src="assets/b.mp4" muted playsinline data-start="30.5667" data-duration="1.866" data-media-start="64.0" data-track-index="1"></video></div>
       <div class="frame-wrap broll" id="bw-B7"><video id="b-B7" class="clip" src="assets/b.mp4" muted playsinline data-start="40.6" data-duration="2.433" data-media-start="54.5" data-track-index="1"></video></div>
-      <div class="frame-wrap broll" id="bw-B8"><video id="b-B8" class="clip" src="assets/b.mp4" muted playsinline data-start="45.1" data-duration="2.966" data-media-start="40.0" data-track-index="1"></video></div>
       <div id="visuals" data-composition-id="visuals" data-composition-src="compositions/visuals.html" data-start="0" data-duration="49.0333" data-track-index="4" data-width="1080" data-height="1920"></div>
+      <div id="captions" data-track-kind="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="49.0333" data-track-index="3" data-width="1080" data-height="1920"></div>
       <audio id="sfx-01-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="3.7667" data-duration="0.5667" data-track-index="21" data-volume="0.3"></audio>
       <audio id="sfx-02-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="8.7" data-duration="0.5667" data-track-index="22" data-volume="0.3"></audio>
       <audio id="sfx-03-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="14.7333" data-duration="0.5667" data-track-index="23" data-volume="0.3"></audio>
@@ -48,7 +48,6 @@ html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1c0f0
       <audio id="sfx-06-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="27.7667" data-duration="0.5667" data-track-index="26" data-volume="0.3"></audio>
       <audio id="sfx-07-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="37.3333" data-duration="0.5667" data-track-index="27" data-volume="0.3"></audio>
       <audio id="sfx-08-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="40.5333" data-duration="0.5667" data-track-index="28" data-volume="0.3"></audio>
-      <audio id="sfx-09-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="45.0333" data-duration="0.5667" data-track-index="29" data-volume="0.3"></audio>
     </div>
     <script>
       const tl = gsap.timeline({ paused: true });
@@ -81,9 +80,6 @@ html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1c0f0
       tl.set("#bw-B7", { transformOrigin: "50% 35%" }, 0);
       tl.fromTo("#bw-B7", { scale: 1.12 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, 40.6);
       tl.fromTo("#bw-B7", { scale: 1.0 }, { scale: 1.1, duration: 2.1, ease: "power1.inOut", immediateRender: false }, 40.9333);
-      tl.set("#bw-B8", { transformOrigin: "50% 45%" }, 0);
-      tl.fromTo("#bw-B8", { scale: 1.12 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, 45.1);
-      tl.fromTo("#bw-B8", { scale: 1.0 }, { scale: 1.08, duration: 2.6333, ease: "power1.inOut", immediateRender: false }, 45.4333);
       window.__timelines["main"] = tl;
     </script>
   </body>

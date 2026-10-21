@@ -1,4 +1,4 @@
-TOTAL 49.03s  (11 A-roll segments, 5 B-roll shots, 9 photos, 9 audio fx, 61 caption cards)
+TOTAL 49.03s  (11 A-roll segments, 4 B-roll shots, 9 photos, 8 audio fx, 61 caption cards)
 
   0.00-  3.83  S01  src   1.25-  5.08  (1 pc)  Badan dah mula penat, tapi malam pula susah nak relax.
   3.83-  7.20  S02  src   5.08-  8.45  (1 pc)  Fikiran masih sibuk walaupun dah baring atas katil.
@@ -25,4 +25,3 @@ TOTAL 49.03s  (11 A-roll segments, 5 B-roll shots, 9 photos, 9 audio fx, 61 capt
   cutaway  32.43- 35.87
   cutaway  37.40- 39.33
   cutaway  40.60- 43.03
-  cutaway  45.10- 48.07
