@@ -1,0 +1,7 @@
+sihat .media/images/image_001.png
+risau .media/images/image_002.png
+sayur .media/images/image_003.png
+buah .media/images/image_004.png
+gigi .media/images/image_005.png
+sukan .media/images/image_006.png
+dukung .media/images/image_007.png
