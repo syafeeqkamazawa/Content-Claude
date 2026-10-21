@@ -1,1 +1,3 @@
 fikir .media/images/image_001.png
+gula .media/images/image_002.png
+snack .media/images/image_003.png

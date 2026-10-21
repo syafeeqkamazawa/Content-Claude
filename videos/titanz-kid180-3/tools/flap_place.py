@@ -3,11 +3,13 @@
 
 For every caption card: render the frame without the board (FLAP_HIDE=1),
 cut out the subject with HyperFrames remove-background, and pick the board
-top (from a few candidate heights) whose band is emptiest. Writes
+top (from a few candidate heights) whose band misses every face (YuNet,
+tools-shared/face_yunet.onnx) and covers the least of the subject. Writes
 data/flap-pos.json, then tools/build.py animates the board between them.
 Run from the project root:  python3 tools/flap_place.py
 """
 import json, os, pathlib, re, subprocess, sys
+import cv2
 from PIL import Image
 
 ROOT = pathlib.Path(__file__).resolve().parent.parent
@@ -15,6 +17,20 @@ CANDS = [150, 430, 720, 1010, 1300]          # board tops (px); board is ~194 px
 BOARD_H, X0, X1 = 194, 105, 975
 ENV = dict(os.environ, NODE_USE_ENV_PROXY="1")
 HF = ["npx", "--yes", "hyperframes@0.8.149"]
+FACE_MODEL = str(ROOT.parent.parent / "tools-shared/face_yunet.onnx")
+
+
+def faces(path):
+    """Face boxes (x0, y0, x1, y1) widened to the whole head (hijab, cap, chin)."""
+    img = cv2.imread(str(path))
+    h, w = img.shape[:2]
+    det = cv2.FaceDetectorYN.create(FACE_MODEL, "", (w, h), 0.6)
+    _, fs = det.detect(img)
+    out = []
+    for f in [] if fs is None else fs:
+        x, y, fw, fh = (float(v) for v in f[:4])
+        out.append((x - 0.25 * fw, y - 0.45 * fh, x + 1.25 * fw, y + 1.2 * fh))
+    return out
 
 subprocess.run([sys.executable, "tools/build.py"], cwd=ROOT, check=True, env=dict(ENV, FLAP_HIDE="1"), stdout=subprocess.DEVNULL)
 cards = json.loads((ROOT / "data/flap-cards.json").read_text())
@@ -34,8 +50,10 @@ for i, fr in enumerate(frames):
     out = mdir / f"m{i:02d}.png"
     subprocess.run(HF + ["remove-background", str(fr), "-o", str(out)], cwd=ROOT, env=ENV,
                    stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    fb = faces(fr)
+    hits = [any(not (top + BOARD_H + 30 < f[1] or top > f[3] or X1 < f[0] or X0 > f[2]) for f in fb) for top in CANDS]
     if not out.exists():
-        cover.append([0.0] * len(CANDS))
+        cover.append([1.0 if hit else 0.0 for hit in hits])
         continue
     a = Image.open(out).convert("RGBA").split()[-1].resize((108, 192))
     px = a.load()
@@ -45,13 +63,13 @@ for i, fr in enumerate(frames):
         x0, x1 = X0 // 10, X1 // 10
         n = sum(1 for y in range(y0, min(y1, 192)) for x in range(x0, x1) if px[x, y] > 128)
         row.append(round(n / ((min(y1, 192) - y0) * (x1 - x0)), 3))
-    cover.append(row)
+    cover.append([1.0 + c if hit else c for c, hit in zip(row, hits)])   # a face in the band rules it out
 
 pos, cur = [], CANDS[0]
 for row in cover:
     here = row[CANDS.index(cur)]
     if here > 0.03:                                   # current spot hits the subject: move
-        best = min(range(len(CANDS)), key=lambda j: (row[j] + 0.01 * j))
+        best = min(range(len(CANDS)), key=lambda j: (row[j] + 0.002 * j))
         if row[best] < here - 0.02:
             cur = CANDS[best]
     pos.append(cur)

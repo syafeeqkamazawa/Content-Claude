@@ -1,0 +1,8 @@
+makan .media/images/image_001.png
+tanya .media/images/image_002.png
+susu .media/images/image_003.png
+pinggan .media/images/image_004.png
+tulang .media/images/image_005.png
+senyum .media/images/image_006.png
+berebut .media/images/image_007.png
+pagi .media/images/image_008.png

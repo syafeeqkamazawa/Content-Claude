@@ -17,19 +17,22 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-fikir" class="clip fs" data-start="2.3" data-duration="4.399" data-track-index="4"><div class="fs-in" id="fs-fikir-in"><div class="fs-layer" id="fs-fikir-bg" style="background-image:url(assets/photos/fikir.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-gula" class="clip fs" data-start="18.1667" data-duration="2.333" data-track-index="4"><div class="fs-in" id="fs-gula-in"><div class="fs-layer" id="fs-gula-bg" style="background-image:url(assets/photos/gula.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-snack" class="clip fs" data-start="21.9" data-duration="4.066" data-track-index="4"><div class="fs-in" id="fs-snack-in"><div class="fs-layer" id="fs-snack-bg" style="background-image:url(assets/photos/snack.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-fikir" class="clip fs" data-start="2.3" data-duration="4.399" data-track-index="4"><div class="fs-in" id="fs-fikir-in"><div class="fs-layer" id="fs-fikir-bg" style="background-image:url(assets/photos/fikir-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-fikir-fg" style="background-image:url(assets/photos/fikir-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-gula" class="clip fs" data-start="18.1667" data-duration="2.333" data-track-index="4"><div class="fs-in" id="fs-gula-in"><div class="fs-layer" id="fs-gula-bg" style="background-image:url(assets/photos/gula-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-gula-fg" style="background-image:url(assets/photos/gula-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-snack" class="clip fs" data-start="21.9" data-duration="4.066" data-track-index="4"><div class="fs-in" id="fs-snack-in"><div class="fs-layer" id="fs-snack-bg" style="background-image:url(assets/photos/snack-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-snack-fg" style="background-image:url(assets/photos/snack-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-fikir-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 2.3);
-          tl.fromTo("#fs-fikir-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 4.4, ease: "sine.inOut", immediateRender: false }, 2.3);
+          tl.fromTo("#fs-fikir-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 4.4, ease: "none", immediateRender: false }, 2.3);
+          tl.fromTo("#fs-fikir-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 4.4, ease: "sine.inOut", immediateRender: false }, 2.3);
           tl.fromTo("#fs-gula-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 18.1667);
-          tl.fromTo("#fs-gula-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.3333, ease: "sine.inOut", immediateRender: false }, 18.1667);
+          tl.fromTo("#fs-gula-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.3333, ease: "none", immediateRender: false }, 18.1667);
+          tl.fromTo("#fs-gula-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.3333, ease: "sine.inOut", immediateRender: false }, 18.1667);
           tl.fromTo("#fs-snack-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 21.9);
-          tl.fromTo("#fs-snack-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 4.0667, ease: "sine.inOut", immediateRender: false }, 21.9);
+          tl.fromTo("#fs-snack-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 4.0667, ease: "none", immediateRender: false }, 21.9);
+          tl.fromTo("#fs-snack-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 4.0667, ease: "sine.inOut", immediateRender: false }, 21.9);
           window.__timelines["visuals"] = tl;
         })();
       </script>
