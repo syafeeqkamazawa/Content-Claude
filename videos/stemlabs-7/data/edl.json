@@ -6,35 +6,286 @@
   "captions": true,
   "caption_style": "flap",
   "mirror": true,
-  "tighten": {"max_pause": 0.4, "keep": 0.14, "threshold_db": -45, "blip": 0.03},
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
   "segments": [
-    {"id": "S01", "in": 1.72, "out": 7.35, "zoom": 1.05, "text": "Umur makin meningkat, tapi kita masih tak ambil berat tentang kesihatan jantung, otak dan mata.", "note": "HOOK"},
-    {"id": "S02", "in": 11.05, "out": 15.5, "zoom": 1.0, "text": "Ramai tak tahu Omega 3 ni lemak baik yang penting untuk badan kita.", "note": "take 2"},
-    {"id": "S03", "in": 19.6, "out": 21.85, "zoom": 1.0, "text": "EPA bantu sokong kesihatan jantung.", "note": "take 2"},
-    {"id": "S04", "in": 22.25, "out": 26.4, "zoom": 1.0, "text": "Manakala DHA pula penting untuk fungsi otak dan penglihatan.", "note": ""},
-    {"id": "S05", "in": 26.3, "out": 33.75, "zoom": 1.05, "text": "Sebab tu saya nak kongsikan kepada ibu ayah, abang kakak, StemLabs Fish Oil Double Strength ni.", "note": ""},
-    {"id": "S06", "in": 37.7, "out": 43.15, "zoom": 1.0, "text": "Setiap kapsul mengandungi EPA 300mg dan DHA 200mg.", "note": ""},
-    {"id": "S07", "in": 43.95, "out": 49.55, "zoom": 1.0, "text": "Kalau jarang makan ikan berlemak, ini boleh jadi pilihan untuk melengkapkan pengambilan Omega 3 harian kita.", "note": ""},
-    {"id": "S08", "in": 56.95, "out": 59.9, "zoom": 1.08, "text": "Guys, jangan tunggu sampai sakit baru nak jaga.", "note": ""},
-    {"id": "S09", "in": 65.62, "out": 70.95, "zoom": 1.05, "text": "Tekan beg kuning sekarang, sementara harga tengah murah ni, beli 2-3 botol terus buat stok.", "note": "CTA take 2 (spoken only)"}
+    {
+      "id": "S01",
+      "in": 1.72,
+      "out": 7.35,
+      "zoom": 1.05,
+      "text": "Umur makin meningkat, tapi kita masih tak ambil berat tentang kesihatan jantung, otak dan mata.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 11.05,
+      "out": 15.5,
+      "zoom": 1.0,
+      "text": "Ramai tak tahu Omega 3 ni lemak baik yang penting untuk badan kita.",
+      "note": "take 2"
+    },
+    {
+      "id": "S03",
+      "in": 19.6,
+      "out": 21.85,
+      "zoom": 1.0,
+      "text": "EPA bantu sokong kesihatan jantung.",
+      "note": "take 2"
+    },
+    {
+      "id": "S04",
+      "in": 22.25,
+      "out": 26.4,
+      "zoom": 1.0,
+      "text": "Manakala DHA pula penting untuk fungsi otak dan penglihatan.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 26.3,
+      "out": 33.75,
+      "zoom": 1.05,
+      "text": "Sebab tu saya nak kongsikan kepada ibu ayah, abang kakak, StemLabs Fish Oil Double Strength ni.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 37.7,
+      "out": 43.15,
+      "zoom": 1.0,
+      "text": "Setiap kapsul mengandungi EPA 300mg dan DHA 200mg.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 43.95,
+      "out": 49.55,
+      "zoom": 1.0,
+      "text": "Kalau jarang makan ikan berlemak, ini boleh jadi pilihan untuk melengkapkan pengambilan Omega 3 harian kita.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 56.95,
+      "out": 59.9,
+      "zoom": 1.08,
+      "text": "Guys, jangan tunggu sampai sakit baru nak jaga.",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "in": 65.62,
+      "out": 71.3,
+      "zoom": 1.05,
+      "text": "Tekan beg kuning sekarang, sementara harga tengah murah ni, beli 2-3 botol terus buat stok.",
+      "note": "CTA take 2 (spoken only)"
+    }
   ],
-  "punch": [["S01", "jantung", 1.08], ["S08", "jangan", 1.08]],
+  "punch": [
+    [
+      "S01",
+      "jantung",
+      1.08
+    ],
+    [
+      "S08",
+      "jangan",
+      1.08
+    ]
+  ],
   "broll": [
-    {"id": "B1", "from": ["S05", "stemlabs"], "to": ["S05", "end"], "src": 12.0, "note": "botol Fish Oil ke kamera", "push": [1.0, 1.1], "origin": "50% 30%"},
-    {"id": "B2", "from": ["S06", "start"], "to": ["S06", "dan"], "src": 19.0, "note": "botol depan, label EPA DHA", "push": [1.05, 1.15], "origin": "50% 30%"},
-    {"id": "B3", "from": ["S06", "dan"], "to": ["S06", "end"], "src": 144.0, "note": "softgel diangkat ke kamera", "push": [1.0, 1.1], "origin": "35% 30%"},
-    {"id": "B4", "from": ["S07", "ini"], "to": ["S07", "end"], "src": 176.0, "note": "telan softgel dengan mug", "push": [1.0, 1.08], "origin": "50% 40%"},
-    {"id": "B5", "from": ["S09", "start"], "to": ["S09", "sementara"], "src": 40.0, "note": "minum air, rutin harian", "push": [1.0, 1.08], "origin": "50% 40%"}
+    {
+      "id": "B1",
+      "from": [
+        "S05",
+        "stemlabs"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 12.0,
+      "note": "botol Fish Oil ke kamera",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 30%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "dan"
+      ],
+      "src": 19.0,
+      "note": "botol depan, label EPA DHA",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 30%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S06",
+        "dan"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 144.0,
+      "note": "softgel diangkat ke kamera",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "35% 30%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S07",
+        "ini"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "src": 176.0,
+      "note": "telan softgel dengan mug",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S09",
+        "start"
+      ],
+      "to": [
+        "S09",
+        "sementara"
+      ],
+      "src": 40.0,
+      "note": "minum air, rutin harian",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    }
   ],
   "photos": [
-    {"id": "tangga", "from": ["S01", "tapi"], "to": ["S01", "end"], "note": "AI: lelaki 50-an penat naik tangga"},
-    {"id": "lemak", "from": ["S02", "start"], "to": ["S02", "end"], "note": "AI: makanan lemak baik"},
-    {"id": "badminton", "from": ["S03", "start"], "to": ["S03", "end"], "note": "AI: lelaki 50-an main badminton"},
-    {"id": "puzzle", "from": ["S04", "start"], "to": ["S04", "end"], "note": "AI: datuk dan cucu main puzzle"},
-    {"id": "ayam", "from": ["S07", "start"], "to": ["S07", "ini"], "note": "AI: meja makan tanpa ikan"},
-    {"id": "sarapan", "from": ["S08", "start"], "to": ["S08", "end"], "note": "AI: sarapan tiga generasi"}
+    {
+      "id": "tangga",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: lelaki 50-an penat naik tangga"
+    },
+    {
+      "id": "lemak",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: makanan lemak baik"
+    },
+    {
+      "id": "badminton",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "note": "AI: lelaki 50-an main badminton"
+    },
+    {
+      "id": "puzzle",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: datuk dan cucu main puzzle"
+    },
+    {
+      "id": "ayam",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "ini"
+      ],
+      "note": "AI: meja makan tanpa ikan"
+    },
+    {
+      "id": "sarapan",
+      "from": [
+        "S08",
+        "start"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "note": "AI: sarapan tiga generasi"
+    }
   ],
   "titles": [],
-  "brand_words": ["stemlabs", "fish", "oil"],
-  "keywords": ["umur", "jantung", "otak", "mata", "omega", "lemak", "epa", "dha", "penglihatan", "300mg", "200mg", "ikan", "harian", "murah", "stok"]
+  "brand_words": [
+    "stemlabs",
+    "fish",
+    "oil"
+  ],
+  "keywords": [
+    "umur",
+    "jantung",
+    "otak",
+    "mata",
+    "omega",
+    "lemak",
+    "epa",
+    "dha",
+    "penglihatan",
+    "300mg",
+    "200mg",
+    "ikan",
+    "harian",
+    "murah",
+    "stok"
+  ],
+  "_owner_decisions": "22 Okt: kapsyen bergerak elak wajah/produk; tiada butang CTA; overlay lebih banyak (11 cutaway); final dirender terus; tiada muzik latar."
 }
