@@ -1,0 +1,431 @@
+{
+  "_note": "Pentavite Mg #2 (magnesium gummies: mixed blueberry, lemon balm extract, lavender oil). Source times are seconds in assets/a.mp4 (A-roll VID_20261021_224117, Drive 1DA6bULc…; front camera, the box label reads correctly, so no flip; phone-mic voice enhanced with tools/voice.sh, noise profile 27.4-28.2) and assets/b.mp4 (VID_20261021_224417, Drive 1r8gO-RG…, rear camera, owner at the table with the box, sachets and a gummy; muted). Dropped: the false start 'Kadang-kadang kita perlu sibuk bekerja' (8.4-11.1), 'Yang menariknya,' (36.4-38.1, restarted), the first 'Jangan abaikan keperluan badan' (49.7-52.1) and 'Tengah ada harga yang' (62.4-64.1), plus the pauses. Owner (21 Oct): caption motion like the reference video, never over people or the product; phone voice made mic-like. No CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "caption_style": "flap",
+  "mirror": false,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 1.25,
+      "out": 5.08,
+      "zoom": 1.05,
+      "text": "Badan dah mula penat, tapi malam pula susah nak relax.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 5.08,
+      "out": 8.45,
+      "zoom": 1.0,
+      "text": "Fikiran masih sibuk walaupun dah baring atas katil.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 11.85,
+      "out": 17.3,
+      "zoom": 1.0,
+      "text": "Kadang-kadang kita terlalu sibuk bekerja sampai terlupa badan pun perlukan rehat.",
+      "note": "take 2"
+    },
+    {
+      "id": "S04",
+      "in": 17.3,
+      "out": 23.35,
+      "zoom": 1.05,
+      "text": "Sebab tu saya nak kongsikan dengan ibu ayah, abang kakak, Pentavite Magnesium Gummies ni.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 23.35,
+      "out": 27.35,
+      "zoom": 1.0,
+      "text": "Magnesium bantu fungsi otot dan saraf yang normal.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 32.85,
+      "out": 36.6,
+      "zoom": 1.0,
+      "text": "Formulanya juga mengandungi lemon balm extract dan lavender oil.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 38.6,
+      "out": 42.9,
+      "zoom": 1.0,
+      "text": "Yang menarik lagi, bentuk gummies dengan perisa mixed blueberry.",
+      "note": "restart"
+    },
+    {
+      "id": "S08",
+      "in": 42.9,
+      "out": 48.2,
+      "zoom": 1.0,
+      "text": "Lebih mudah kita nak makan dan lebih senang kita nak repeat everyday.",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "in": 52.25,
+      "out": 55.7,
+      "zoom": 1.05,
+      "text": "Jangan abaikan keperluan badan kita untuk berehat.",
+      "note": "take 2"
+    },
+    {
+      "id": "S10",
+      "in": 55.9,
+      "out": 62.4,
+      "zoom": 1.05,
+      "text": "Nak cuba Pentavite Magnesium Gummies ni, tekan beg kuning sekarang.",
+      "note": "CTA (spoken only)"
+    },
+    {
+      "id": "S11",
+      "in": 64.4,
+      "out": 68.8,
+      "zoom": 1.05,
+      "text": "Tengah ada harga promosi tu, murah guys, grab awal-awal.",
+      "note": "CTA take 2"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "penat",
+      1.08
+    ],
+    [
+      "S09",
+      "jangan",
+      1.08
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S04",
+        "pentavite"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "src": 12.0,
+      "note": "kotak depan, label",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 35%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "fungsi"
+      ],
+      "src": 60.0,
+      "note": "sachet Pentavite Mg dekat kamera",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S07",
+        "bentuk"
+      ],
+      "to": [
+        "S07",
+        "perisa"
+      ],
+      "src": 78.0,
+      "note": "gummy atas tapak tangan",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S07",
+        "perisa"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "src": 90.0,
+      "note": "gummy dekat kamera",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S08",
+        "start"
+      ],
+      "to": [
+        "S08",
+        "dan"
+      ],
+      "src": 84.0,
+      "note": "ambil gummy",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S08",
+        "dan"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "src": 114.0,
+      "note": "nikmati, rileks",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B7",
+      "from": [
+        "S10",
+        "pentavite"
+      ],
+      "to": [
+        "S10",
+        "tekan"
+      ],
+      "src": 54.0,
+      "note": "kotak depan dekat",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 35%"
+    },
+    {
+      "id": "B8",
+      "from": [
+        "S11",
+        "start"
+      ],
+      "to": [
+        "S11",
+        "grab"
+      ],
+      "src": 18.0,
+      "note": "kotak dibuka, sachet penuh",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "katil",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: lelaki baring tak boleh tidur"
+    },
+    {
+      "id": "kerja",
+      "from": [
+        "S03",
+        "terlalu"
+      ],
+      "to": [
+        "S03",
+        "sampai"
+      ],
+      "note": "AI: wanita berhijab kerja lewat"
+    },
+    {
+      "id": "penat",
+      "from": [
+        "S03",
+        "sampai"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "note": "AI: lelaki penat di meja"
+    },
+    {
+      "id": "keluarga",
+      "from": [
+        "S04",
+        "ibu"
+      ],
+      "to": [
+        "S04",
+        "pentavite"
+      ],
+      "note": "AI: suami isteri berehat"
+    },
+    {
+      "id": "otot",
+      "from": [
+        "S05",
+        "fungsi"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "note": "AI: lelaki regang otot"
+    },
+    {
+      "id": "herba",
+      "from": [
+        "S06",
+        "lemon"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "note": "AI: lemon balm, lavender, beri"
+    },
+    {
+      "id": "rehat",
+      "from": [
+        "S09",
+        "keperluan"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "note": "AI: wanita berhijab rehat dengan teh"
+    }
+  ],
+  "titles": [],
+  "brand_words": [
+    "pentavite",
+    "magnesium",
+    "gummies"
+  ],
+  "keywords": [
+    "penat",
+    "relax",
+    "fikiran",
+    "sibuk",
+    "katil",
+    "rehat",
+    "berehat",
+    "otot",
+    "saraf",
+    "lemon",
+    "balm",
+    "extract",
+    "lavender",
+    "oil",
+    "mixed",
+    "blueberry",
+    "mudah",
+    "senang",
+    "promosi",
+    "murah"
+  ],
+  "panel": {
+    "title": "SEMAK FORMULA",
+    "from": [
+      "S04",
+      "start"
+    ],
+    "items": [
+      {
+        "text": "MAGNESIUM",
+        "from": [
+          "S05",
+          "magnesium"
+        ],
+        "done": [
+          "S05",
+          "end"
+        ]
+      },
+      {
+        "text": "LEMON BALM",
+        "from": [
+          "S06",
+          "lemon"
+        ],
+        "done": [
+          "S06",
+          "dan"
+        ]
+      },
+      {
+        "text": "LAVENDER",
+        "from": [
+          "S06",
+          "lavender"
+        ],
+        "done": [
+          "S06",
+          "end"
+        ]
+      },
+      {
+        "text": "BLUEBERRY",
+        "from": [
+          "S07",
+          "blueberry"
+        ],
+        "done": [
+          "S07",
+          "end"
+        ]
+      }
+    ]
+  },
+  "_owner_decisions": "21 Okt: guna peraturan terbaru — kapsyen tiru gerakan video rujukan (papan flap + prompt menaip + panel status), tak gantung, elak wajah/produk; suara phone dibaikkan macam mic; tiada butang CTA; overlay banyak; final dirender terus; tiada muzik latar."
+}

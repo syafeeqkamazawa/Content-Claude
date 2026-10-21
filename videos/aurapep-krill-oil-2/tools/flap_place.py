@@ -29,7 +29,7 @@ def faces(path):
     """Face boxes (x0, y0, x1, y1) widened to the whole head (hijab, cap, chin)."""
     img = cv2.imread(str(path))
     h, w = img.shape[:2]
-    det = cv2.FaceDetectorYN.create(FACE_MODEL, "", (w, h), 0.6)
+    det = cv2.FaceDetectorYN.create(FACE_MODEL, "", (w, h), 0.7)
     _, fs = det.detect(img)
     out = []
     for f in [] if fs is None else fs:
@@ -55,49 +55,68 @@ subprocess.run([sys.executable, "tools/build.py"], cwd=ROOT, check=True, env=dic
 info = json.loads((ROOT / "data/flap-cards.json").read_text())
 BX, BW, BH1, BH2 = info["block"]
 PW, PH = info["panel"] or (0, 0)
-cards = info["cards"]
+cards, cuts = info["cards"], info["cuts"]
 times = [round(min(c0 + 0.45, (c0 + c1) / 2), 2) for c0, c1, _ in cards]
 snap = ROOT / "snapshots"
-for f in snap.glob("frame-*.png"):
-    f.unlink()
-subprocess.run(HF + ["snapshot", "--at", ",".join(str(t) for t in times), "--no-end", "--timeout", "20000"],
-               cwd=ROOT, env=ENV, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+mdir = ROOT / ".media/flap-masks"
+reuse = "--reuse" in sys.argv  # same edit, only the placement rules changed: keep frames and masks
+if not reuse:
+    for f in snap.glob("frame-*.png"):
+        f.unlink()
+    for f in mdir.glob("*.png"):
+        f.unlink()
+    subprocess.run(HF + ["snapshot", "--at", ",".join(str(t) for t in times), "--no-end", "--timeout", "20000"],
+                   cwd=ROOT, env=ENV, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
 frames = sorted(snap.glob("frame-*.png"), key=lambda p: int(re.search(r"frame-(\d+)", p.name).group(1)))
 assert len(frames) == len(times), (len(frames), len(times))
-
-mdir = ROOT / ".media/flap-masks"
 mdir.mkdir(parents=True, exist_ok=True)
-pos, cur_top, cur_panel = [], CANDS[0], None
-for i, (fr, (c0, c1, phase2)) in enumerate(zip(frames, cards)):
+
+# Cost of every board top and panel slot on every card's frame.
+samples = []
+for i, fr in enumerate(frames):
     out = mdir / f"m{i:02d}.png"
-    subprocess.run(HF + ["remove-background", str(fr), "-o", str(out)], cwd=ROOT, env=ENV,
-                   stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    if not out.exists():
+        subprocess.run(HF + ["remove-background", str(fr), "-o", str(out)], cwd=ROOT, env=ENV,
+                       stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
     fb = faces(fr)
     px = Image.open(out).convert("RGBA").split()[-1].resize((108, 192)).load() if out.exists() else None
-    bh = BH2 if phase2 else BH1
-    row = [cost((BX, t, BX + BW, t + bh), fb, px) for t in CANDS]
-    here = row[CANDS.index(cur_top)]
-    if here > 0.03:                                   # current spot hits the subject: move
-        best = min(range(len(CANDS)), key=lambda j: row[j] + 0.002 * j)
-        if row[best] < here - 0.02:
-            cur_top = CANDS[best]
-    panel, pc = None, None
-    if phase2 and PW:
-        slots = []
-        for x in (1080 - 48 - PW, 48):
-            for t in [cur_top + bh + 16] + PANEL_TOPS:
-                if t + PH > PANEL_MAX_BOTTOM or not (t >= cur_top + bh + 16 or t + PH <= cur_top - 16):
-                    continue
-                slots.append((x, t))
-        costs = {s: cost((s[0], s[1], s[0] + PW, s[1] + PH), fb, px) for s in slots}
-        if cur_panel in costs and costs[cur_panel] <= 0.03:
-            panel = cur_panel
-        elif costs:
-            best = min(costs, key=lambda s: costs[s] + 0.001 * slots.index(s))
-            panel = best if costs[best] <= 0.08 else None
-        pc = costs.get(panel)
-        cur_panel = panel
-    pos.append({"top": cur_top, "panel": list(panel) if panel else None})
-    print(f"{times[i]:6.2f}  board {row} -> {cur_top}   panel {panel} ({pc})")
+    samples.append((fb, px))
+
+
+def panel_slots(top, bh):
+    out = []
+    for x in (1080 - 48 - PW, 48):
+        for t in [top + bh + 16] + PANEL_TOPS:
+            if t + PH <= PANEL_MAX_BOTTOM and (t >= top + bh + 16 or t + PH <= top - 16):
+                out.append((x, t))
+    return out
+
+
+# The board keeps one spot per shot (between two cuts), so it only jumps on a cut —
+# the worst card of the shot decides; it prefers the top (like the reference) and
+# the previous shot's spot. The panel docks under the board on the right or left
+# and is re-checked per card: it stays while clear, switches side when it must and
+# ghosts out while neither side is clear.
+shot_of = [max(j for j, c in enumerate(cuts) if c <= t + 1e-6) for t in times]
+pos, prev_top = [None] * len(cards), CANDS[0]
+for sh in sorted(set(shot_of)):
+    idx = [i for i, s in enumerate(shot_of) if s == sh]
+    worst = {t: max(cost((BX, t, BX + BW, t + (BH2 if cards[i][2] else BH1)), *samples[i]) for i in idx) for t in CANDS}
+    top = min(CANDS, key=lambda t: worst[t] + 0.002 * CANDS.index(t) - (0.01 if t == prev_top else 0))
+    for i in idx:
+        pos[i] = {"top": top, "panel": None}
+    print(f"shot {cuts[sh]:6.2f}  cards {len(idx):2d}  board {top} ({worst[top]})")
+    prev_top = top
+cur = None
+for i, (c0, c1, phase2) in enumerate(cards):
+    if not (phase2 and PW):
+        continue
+    pw = {sl: cost((sl[0], sl[1], sl[0] + PW, sl[1] + PH), *samples[i]) for sl in panel_slots(pos[i]["top"], BH2)}
+    if not (cur in pw and pw[cur] <= 0.04):
+        slots = list(pw)
+        best = min(slots, key=lambda sl: pw[sl] + 0.001 * slots.index(sl)) if slots else None
+        cur = best if best and pw[best] <= 0.08 else None
+    pos[i]["panel"] = list(cur) if cur else None
+    print(f"  {times[i]:6.2f}  panel {cur} ({pw.get(cur) if cur else '-'})")
 (ROOT / "data/flap-pos.json").write_text(json.dumps(pos))
 subprocess.run([sys.executable, "tools/build.py"], cwd=ROOT, check=True, env=ENV, stdout=subprocess.DEVNULL)

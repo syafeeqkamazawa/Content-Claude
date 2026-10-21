@@ -416,7 +416,8 @@ BLOCK_H2 = CELL_H + 20 + 10 + 52        # one row + prompt bar
 PANEL_W, PANEL_H = 344, 404
 (ROOT / "data/flap-cards.json").write_text(json.dumps({
     "block": [BLOCK_X, BOARD_W, BLOCK_H1, BLOCK_H2], "panel": [PANEL_W, PANEL_H] if PANEL else None,
-    "cards": [[c0, c1, c0 >= P_T0 - 0.01] for c0, c1, _, _ in cards]}))
+    "cards": [[c0, c1, c0 >= P_T0 - 0.01] for c0, c1, _, _ in cards],
+    "cuts": sorted({0.0, TOTAL} | {t for iv in cover for t in iv})}))
 POS_PATH = ROOT / "data/flap-pos.json"
 flap_pos = json.loads(POS_PATH.read_text()) if POS_PATH.exists() else []
 hide = ' style="visibility:hidden"' if os.environ.get("FLAP_HIDE") == "1" else ""
@@ -693,7 +694,7 @@ if gfx_dom:
     (ROOT / "compositions/graphics.html").write_text(subcomp("graphics", "gfx-root", CSS_GFX, gfx_dom, gfx_js))
     hosts.append(f'<div id="graphics" data-composition-id="graphics" data-composition-src="compositions/graphics.html" '
                  f'data-start="0" data-duration="{TOTAL}" data-track-index="2" data-width="{W}" data-height="{H}"></div>')
-if SHOW_CAPTIONS:
+if SHOW_CAPTIONS and os.environ.get("FLAP_HIDE") != "1":  # flap_place.py needs frames without captions
     (ROOT / "compositions/captions.html").write_text(subcomp("captions", "cap-root", CSS_CAP, cap_dom, cap_js))
     hosts.append(f'<div id="captions" data-track-kind="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" '
                  f'data-start="0" data-duration="{TOTAL}" data-track-index="3" data-width="{W}" data-height="{H}"></div>')
