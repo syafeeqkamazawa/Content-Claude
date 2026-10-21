@@ -25,4 +25,4 @@ TOTAL 48.07s  (10 A-roll segments, 5 B-roll shots, 10 photos, 4 audio fx, 37 cap
   cutaway  27.33- 33.67
   cutaway  33.67- 36.57
   cutaway  37.87- 40.13
-  cutaway  40.13- 43.63
+  cutaway  40.13- 42.20
