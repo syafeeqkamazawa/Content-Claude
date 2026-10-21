@@ -1,0 +1,253 @@
+{
+  "_note": "Hero Hige #3 (day 15). Owner's brief for Hero Hige (17 Oct): no captions/subtitles; overlays are only the key points as moving text; the clip of the owner using the product sits in the middle as a fast-forward full-screen overlay. Source times are seconds in assets/a.mp4 (A-roll VID_20261021_121325, Drive 1uol1Tfm…; front camera saved mirrored — the T-shirt print and the HERO HIGE label read backwards — so mirror=true) and assets/b.mp4 = the application clip VID_20261021_121038 (Drive 1GVAoFL9…) 0-83 s sped up 8x (10.4 s, muted, flipped back with hflip). One clean take; only pauses trimmed. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": false,
+  "mirror": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 2.6,
+      "out": 7.75,
+      "zoom": 1.05,
+      "text": "Dah masuk day 15 jambang journey aku bersama Hero Hige by Jambang Solution.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 8.05,
+      "out": 14.35,
+      "zoom": 1.1,
+      "text": "Alhamdulillah guys, hari ni aku mula perasan ada bulu-bulu halus dekat kawasan jambang yang sebelum ni kosong.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 15.2,
+      "out": 20.05,
+      "zoom": 1.15,
+      "text": "Terutama bahagian bawah dagu lah. Dah mula ada bulu halus yang bercantum.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 24.05,
+      "out": 29.95,
+      "zoom": 1.0,
+      "text": "Walaupun belum lebat dan kiri kanan masih belum bersambung sepenuhnya, sekurang-kurangnya dah nampak ada sedikit perubahan.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 30.15,
+      "out": 34.45,
+      "zoom": 1.0,
+      "text": "Aku masih konsisten, sapu pagi dan malam, kita tengok perkembangan dia seterusnya.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 37.85,
+      "out": 42.75,
+      "zoom": 1.08,
+      "text": "Kalau korang pun ada masalah jambang jarang atau tak sekata, nak cuba Hero Hige ni, tekan beg kuning sekarang.",
+      "note": "CTA"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "15",
+      1.08
+    ],
+    [
+      "S03",
+      "bawah",
+      1.08
+    ],
+    [
+      "S06",
+      "tekan",
+      1.08
+    ]
+  ],
+  "broll": [
+    {
+      "id": "FF",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 0,
+      "note": "sapu Hero Hige — 83 s dipercepat 8x",
+      "push": [
+        1.0,
+        1.06
+      ],
+      "origin": "50% 40%",
+      "ff": "8X"
+    }
+  ],
+  "photos": [],
+  "titles": [
+    {
+      "text": "DAY 15",
+      "from": [
+        "S01",
+        "start"
+      ],
+      "to": [
+        "S01",
+        "hero"
+      ],
+      "anim": "zoom",
+      "pos": "top",
+      "cls": "big narrow",
+      "sfx": "impact-bass-1",
+      "sfx_vol": 0.32
+    },
+    {
+      "text": "HERO HIGE\nBEARD TONIC",
+      "from": [
+        "S01",
+        "hero"
+      ],
+      "to": [
+        "S01",
+        "by"
+      ],
+      "anim": "slam",
+      "pos": "top"
+    },
+    {
+      "text": "BY JAMBANG SOLUTION",
+      "from": [
+        "S01",
+        "by"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "anim": "slide",
+      "pos": "top"
+    },
+    {
+      "text": "MULA ADA\nBULU HALUS",
+      "from": [
+        "S02",
+        "mula"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "anim": "zoom",
+      "pos": "top"
+    },
+    {
+      "text": "BAWAH DAGU",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "dah"
+      ],
+      "anim": "slam",
+      "pos": "top",
+      "cls": "big"
+    },
+    {
+      "text": "DAH MULA BERCANTUM",
+      "from": [
+        "S03",
+        "dah"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "anim": "zoomout",
+      "pos": "top"
+    },
+    {
+      "text": "BELUM LEBAT, TAPI\nADA PERUBAHAN",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "anim": "zoom",
+      "pos": "low"
+    },
+    {
+      "text": "SAPU PAGI & MALAM",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "kita"
+      ],
+      "anim": "slam",
+      "pos": "low"
+    },
+    {
+      "text": "KITA TENGOK\nSETERUSNYA",
+      "from": [
+        "S05",
+        "kita"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "anim": "slide",
+      "pos": "low"
+    },
+    {
+      "text": "JAMBANG JARANG\nATAU TAK SEKATA?",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "tekan"
+      ],
+      "anim": "zoom",
+      "pos": "top"
+    },
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S06",
+        "tekan"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "keywords": [],
+  "_owner_decisions": "21 Okt: folder dihantar tanpa nota — dibuat ikut brief Hero Hige (17 Okt); final dirender terus tanpa draf (owner, 19 Okt)."
+}
