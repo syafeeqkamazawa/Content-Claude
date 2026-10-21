@@ -39,8 +39,12 @@ otherwise for a specific video.
   two rows of dark flap tiles near the top of the frame, uppercase condensed
   letters (Barlow Condensed, OFL) that scramble left to right before settling;
   keywords in amber, brand names in coral, the rest white. Implemented in
-  `videos/jus-gout-6/tools/build.py` (section 5, `brand_words` in the EDL);
-  title panels sit below the board.
+  `videos/jus-gout-6/tools/build.py` (section 5, `brand_words` in the EDL).
+- **No other on-screen text panels** (owner, 21 Oct: "Caption lama dah boleh
+  buang ya untuk content ni dan seterusnya, gunakan caption style yang baru
+  sahaja"): no key-point title boxes — the flap board is the only text, plus
+  the yellow "TEKAN BEG KUNING" CTA pill at the end. Template:
+  `videos/agrofarm-baja-rumput-2/` (EDL `titles` holds only the CTA).
 - Older videos (before 21 Oct) used softer sentence-case captions in Plus
   Jakarta Sans at about 56px; don't go back to that unless the owner asks.
 

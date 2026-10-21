@@ -1,0 +1,292 @@
+{
+  "_note": "Agro Farm Baja Khas Rumput (Lawn Power) #2. Source times are seconds in assets/a.mp4 (A-roll VID_20261021_135535, Drive 1vDhpcBN…; front camera, mirrored back in CSS) and assets/b.mp4 (the same three B-roll clips joined as in videos/agrofarm-baja-rumput: unboxing 0-55.38, sprinkling 55.38-218.45, grass close-ups + watering 218.45-327.1). #1 used 220.5-222.5, 258.5-260.6, 42-44.6, 228.5-232.2, 39-39.7, 118.6-119.3, 304.5-305.5; picks here avoid them. Captions: split-flap only, no title panels (owner, 21 Oct: 'Caption lama dah boleh buang… gunakan caption style yang baru sahaja'). Dropped: the first 'sebab tu saya sangat recommend' take (25.1-27.4) and the repeated 'saya terus'. No background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "caption_style": "flap",
+  "mirror": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 4.45,
+      "out": 13.8,
+      "zoom": 1.05,
+      "text": "Dah habis beratus-ratus, mungkin beribu-ribu ringgit pasang rumput dekat rumah. Tapi kalau tak jaga betul-betul, lama-lama rumput boleh jadi kuning guys. Sayang duit tu.",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 14.9,
+      "out": 22.2,
+      "zoom": 1.0,
+      "text": "Ramai ingat siram air je dah cukup. Sebenarnya rumput pun perlukan nutrisi supaya akar kuat, daun sihat dan tumbuh subur.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 28.5,
+      "out": 36.8,
+      "zoom": 1.05,
+      "text": "Sebab tu saya sangat recommend anda guna baja khas rumput Agro Farm, membantu menyokong pertumbuhan rumput supaya lebih hijau dan subur.",
+      "note": "take 2"
+    },
+    {
+      "id": "S04",
+      "in": 37.0,
+      "out": 41.35,
+      "zoom": 1.0,
+      "text": "Japanese grass pun sesuai. Macam saya, saya baru pasang Japanese grass.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 42.25,
+      "out": 44.98,
+      "zoom": 1.1,
+      "text": "Memang ada kawasan yang kuning.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 45.15,
+      "out": 47.7,
+      "zoom": 1.0,
+      "text": "Saya terus apply baja ni.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 47.6,
+      "out": 52.6,
+      "zoom": 1.05,
+      "text": "Cara guna mudah, tabur rata, kemudian siram, ikut arahan yang diberikan.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 55.15,
+      "out": 60.92,
+      "zoom": 1.0,
+      "text": "Rumput dah cantik, kenalah jaga supaya laman rumah terus nampak menarik guys. Jangan tunggu rumput kuning baru nak ambil berat.",
+      "note": ""
+    },
+    {
+      "id": "S09",
+      "in": 60.88,
+      "out": 64.6,
+      "zoom": 1.08,
+      "text": "Tekan beg kuning sekarang, sementara ada harga promo tu. Grab awal-awal.",
+      "note": "CTA"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "kuning",
+      1.08
+    ],
+    [
+      "S05",
+      "kuning",
+      1.1
+    ],
+    [
+      "S09",
+      "tekan",
+      1.08
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "sayang"
+      ],
+      "src": 222.6,
+      "note": "tompok rumput kuning",
+      "push": [
+        1.0,
+        1.12
+      ],
+      "origin": "50% 55%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "sebenarnya"
+      ],
+      "src": 270.0,
+      "note": "siram rumput dengan hos",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S03",
+        "guna"
+      ],
+      "to": [
+        "S03",
+        "membantu"
+      ],
+      "src": 48.0,
+      "note": "beg Lawn Power dalam tangan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S03",
+        "membantu"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "src": 58.0,
+      "note": "laman rumput hijau, luas",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 60%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 121.0,
+      "note": "tabur baja atas rumput",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "70% 55%"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S07",
+        "tabur"
+      ],
+      "to": [
+        "S07",
+        "kemudian"
+      ],
+      "src": 160.0,
+      "note": "tabur baja",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 55%"
+    },
+    {
+      "id": "B7",
+      "from": [
+        "S07",
+        "kemudian"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "src": 285.0,
+      "note": "siram selepas tabur",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "pasang",
+      "from": [
+        "S01",
+        "mungkin"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "note": "AI: pekerja pasang rumput karpet"
+    },
+    {
+      "id": "laman",
+      "from": [
+        "S08",
+        "start"
+      ],
+      "to": [
+        "S08",
+        "jangan"
+      ],
+      "note": "AI: keluarga main di laman hijau"
+    }
+  ],
+  "titles": [
+    {
+      "text": "TEKAN BEG KUNING",
+      "from": [
+        "S09",
+        "start"
+      ],
+      "to": [
+        "S09",
+        "end"
+      ],
+      "cta": true
+    }
+  ],
+  "brand_words": [
+    "agro",
+    "farm",
+    "agrofarm"
+  ],
+  "keywords": [
+    "kuning",
+    "nutrisi",
+    "akar",
+    "subur",
+    "hijau",
+    "japanese",
+    "tabur",
+    "siram",
+    "promo",
+    "ringgit",
+    "duit"
+  ]
+}
