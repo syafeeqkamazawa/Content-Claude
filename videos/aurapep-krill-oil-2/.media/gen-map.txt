@@ -1,0 +1,7 @@
+pinggan .media/images/image_001.png
+fishoil .media/images/image_002.png
+krill .media/images/image_003.png
+jalan .media/images/image_004.png
+baca .media/images/image_005.png
+ibubapa .media/images/image_006.png
+keluarga .media/images/image_007.png

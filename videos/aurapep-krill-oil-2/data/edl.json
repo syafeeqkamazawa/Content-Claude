@@ -1,0 +1,355 @@
+{
+  "_note": "Aurapep Krill Oil #2. Source times are seconds in assets/a.mp4 (A-roll VID_20261021_223920, Drive 10OYhTXE…; front camera saved mirrored — the label reads backwards — flipped back in CSS; phone-mic voice enhanced with tools/voice.sh) and assets/b.mp4 (VID_20261021_091344 bottle and red softgels on grass 0-39.33, VID_20261021_091830 owner taking a softgel at the table 39.33-116.33). Krill #1 used B-roll src 67, 10, 19.8, 24, 50.5, 77.4; picks here: 28.5, 71.5, 4.0, 80.0, 54.0, 94.0. Dropped: the false start 'E… EPA' (22.8-27.6) and the pauses. Owner (21 Oct): caption motion like the reference video (no hanging strings) — departure board + typing prompt bar + key-point status panel, never over faces or the product. No CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "caption_style": "flap",
+  "mirror": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 4.4,
+      "out": 12.8,
+      "zoom": 1.05,
+      "text": "Umur makin meningkat, tapi pernah tak terfikir cukup ke nutrisi yang kita ambil untuk jaga jantung, otak dan mata?",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 13.3,
+      "out": 17.95,
+      "zoom": 1.0,
+      "text": "Ramai tahu fish oil, tapi tak ramai yang tahu tentang krill oil.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 18.0,
+      "out": 22.8,
+      "zoom": 1.0,
+      "text": "Krill oil ni sumber omega 3 yang mengandungi EPA dan DHA.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 27.65,
+      "out": 34.9,
+      "zoom": 1.0,
+      "text": "EPA bantu sokong kesihatan jantung, manakala DHA pula penting untuk fungsi otak dan penglihatan.",
+      "note": "take 2 (first 'E…' dropped)"
+    },
+    {
+      "id": "S05",
+      "in": 34.92,
+      "out": 45.0,
+      "zoom": 1.05,
+      "text": "Sebab tu saya nak kongsikan dengan ibu ayah, abang kakak, Aurapep Krill Oil sebagai salah satu pilihan untuk lengkapkan pengambilan omega 3 harian kita.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 47.3,
+      "out": 51.4,
+      "zoom": 1.0,
+      "text": "Kesihatan ni bukan untuk diri kita sorang, keluarga pun perlukan kita.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 51.4,
+      "out": 58.7,
+      "zoom": 1.05,
+      "text": "Nak cuba Aurapep Krill Oil ni, klik beg kuning sekarang, tengah ada harga promosi tu, grab awal-awal.",
+      "note": "CTA (spoken only)"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "jantung",
+      1.08
+    ],
+    [
+      "S06",
+      "keluarga",
+      1.06
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S03",
+        "start"
+      ],
+      "to": [
+        "S03",
+        "epa"
+      ],
+      "src": 28.5,
+      "note": "botol + penutup penuh softgel merah",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 50%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S03",
+        "epa"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "src": 71.5,
+      "note": "softgel dekat kamera",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S05",
+        "aurapep"
+      ],
+      "to": [
+        "S05",
+        "untuk"
+      ],
+      "src": 4.0,
+      "note": "botol depan, label",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S05",
+        "untuk"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 80.0,
+      "note": "minum air lepas ambil softgel",
+      "push": [
+        1.0,
+        1.06
+      ]
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S07",
+        "aurapep"
+      ],
+      "to": [
+        "S07",
+        "klik"
+      ],
+      "src": 54.0,
+      "note": "botol ke kamera",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 35%"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S07",
+        "tengah"
+      ],
+      "to": [
+        "S07",
+        "grab"
+      ],
+      "src": 94.0,
+      "note": "botol dekat",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "pinggan",
+      "from": [
+        "S01",
+        "untuk"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: lelaki 50-an renung pinggan"
+    },
+    {
+      "id": "fishoil",
+      "from": [
+        "S02",
+        "fish"
+      ],
+      "to": [
+        "S02",
+        "krill"
+      ],
+      "note": "AI: softgel fish oil + ikan"
+    },
+    {
+      "id": "krill",
+      "from": [
+        "S02",
+        "krill"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: kawanan krill bawah laut"
+    },
+    {
+      "id": "jalan",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "manakala"
+      ],
+      "note": "AI: lelaki 50-an jalan pantas"
+    },
+    {
+      "id": "baca",
+      "from": [
+        "S04",
+        "manakala"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: wanita berhijab membaca"
+    },
+    {
+      "id": "ibubapa",
+      "from": [
+        "S05",
+        "ibu"
+      ],
+      "to": [
+        "S05",
+        "aurapep"
+      ],
+      "note": "AI: ibu bapa dan anak dewasa"
+    },
+    {
+      "id": "keluarga",
+      "from": [
+        "S06",
+        "keluarga"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "note": "AI: tiga generasi di taman"
+    }
+  ],
+  "titles": [],
+  "brand_words": [
+    "aurapep",
+    "krill",
+    "oil"
+  ],
+  "keywords": [
+    "umur",
+    "nutrisi",
+    "jantung",
+    "otak",
+    "mata",
+    "omega",
+    "3",
+    "epa",
+    "dha",
+    "penglihatan",
+    "harian",
+    "keluarga",
+    "promosi"
+  ],
+  "panel": {
+    "title": "SEMAK NUTRISI",
+    "from": [
+      "S03",
+      "start"
+    ],
+    "items": [
+      {
+        "text": "OMEGA 3",
+        "from": [
+          "S03",
+          "omega"
+        ],
+        "done": [
+          "S04",
+          "start"
+        ]
+      },
+      {
+        "text": "EPA JANTUNG",
+        "from": [
+          "S04",
+          "epa"
+        ],
+        "done": [
+          "S04",
+          "manakala"
+        ]
+      },
+      {
+        "text": "DHA OTAK",
+        "from": [
+          "S04",
+          "dha"
+        ],
+        "done": [
+          "S04",
+          "end"
+        ]
+      },
+      {
+        "text": "KELUARGA",
+        "from": [
+          "S06",
+          "keluarga"
+        ],
+        "done": [
+          "S06",
+          "end"
+        ]
+      }
+    ]
+  },
+  "_owner_decisions": "21 Okt: kapsyen tiru gerakan video rujukan (papan flap + prompt menaip + panel status), tak gantung, elak wajah/produk; suara phone dibaikkan macam mic; tiada butang CTA; overlay banyak; final dirender terus; tiada muzik latar."
+}

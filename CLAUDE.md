@@ -51,13 +51,21 @@ otherwise for a specific video.
   short beats in between.
 - **Board moves, never covers the face or the product** (owner, 22 Oct:
   "caption pastikan tak menutup wajah dan produk, tak perlu stay di satu
-  tempat sahaja. Pergerakan caption boleh tiru video rujukan"): the board
-  hangs on two strings like the reference and swings to a new height
-  (150 / 430 / 720 / 1010 / 1300 px top) whenever the current spot would
-  hide a face (YuNet, `tools-shared/face_yunet.onnx`) or the subject/product
-  (remove-background mask). Run `python3 tools/flap_place.py` after the
-  edit and photos are final (template: `videos/fitsnack-dark-choco-2/`);
-  needs `pip install opencv-python-headless`.
+  tempat sahaja"): the board jumps to a new height (150 / 430 / 720 / 1010 /
+  1300 px top) whenever the current spot would hide a face (YuNet,
+  `tools-shared/face_yunet.onnx`) or the subject/product (remove-background
+  mask). Run `python3 tools/flap_place.py` after the edit and photos are
+  final; needs `pip install opencv-python-headless`.
+- **Reference motion, no hanging** (owner, 21 Oct, Krill #2: "Caption tak nak
+  style gantung dah. Buat motion dia sebijik macam video rujukan tu … konsep
+  pergerakan tu"): no strings, no swing. Copy the reference's whole concept:
+  the board ghosts in (blur + fade); in the hook two rows alternate phrase by
+  phrase; then the board drops to one row, a prompt bar under it types the
+  spoken words with a blinking amber cursor, and a status panel drops in and
+  ticks the key points (EDL `panel`) STANDBY → RUNNING → DONE with a running
+  T+ timer. Board and panel ghost-jump (blur out, blur in) when they must
+  move; the panel ghosts out if there is no clear spot. Template:
+  `videos/aurapep-krill-oil-2/` (build.py section 5, flap_place.py).
 - Older videos (before 21 Oct) used softer sentence-case captions in Plus
   Jakarta Sans at about 56px; don't go back to that unless the owner asks.
 
@@ -72,3 +80,9 @@ otherwise for a specific video.
 
 - **No background music** (owner, 15 Oct: "Mulai sekarang tak perlu letak
   background music"). Voice only, plus light SFX where the edit has overlays.
+- **Phone-mic recordings get a mic-like voice** (owner, 21 Oct: "saya lupa
+  pakai mic … bagi audio nice ya macam pakai mic juga"): run
+  `tools/voice.sh assets/a.mp4 [noise_start noise_end]` (template:
+  `videos/aurapep-krill-oil-2/`) before building — denoise from a quiet
+  stretch, cut room boxiness, warmth + presence EQ, de-ess, compressor,
+  light expander, −15 LUFS. Do it whenever the owner says the mic was off.
