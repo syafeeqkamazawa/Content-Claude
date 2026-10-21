@@ -6,3 +6,4 @@ tulang .media/images/image_005.png
 senyum .media/images/image_006.png
 berebut .media/images/image_007.png
 pagi .media/images/image_008.png
+basikal .media/images/image_009.png
