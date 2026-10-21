@@ -49,6 +49,15 @@ otherwise for a specific video.
   most of each sentence with a fitting full-screen cutaway — B-roll or a
   realistic AI photo — and keep the face on camera mainly for the hook and
   short beats in between.
+- **Board moves, never covers the face or the product** (owner, 22 Oct:
+  "caption pastikan tak menutup wajah dan produk, tak perlu stay di satu
+  tempat sahaja. Pergerakan caption boleh tiru video rujukan"): the board
+  hangs on two strings like the reference and swings to a new height
+  (150 / 430 / 720 / 1010 / 1300 px top) whenever the current spot would
+  hide a face (YuNet, `tools-shared/face_yunet.onnx`) or the subject/product
+  (remove-background mask). Run `python3 tools/flap_place.py` after the
+  edit and photos are final (template: `videos/fitsnack-dark-choco-2/`);
+  needs `pip install opencv-python-headless`.
 - Older videos (before 21 Oct) used softer sentence-case captions in Plus
   Jakarta Sans at about 56px; don't go back to that unless the owner asks.
 
