@@ -9,3 +9,4 @@ jalan2 .media/images/image_008.png
 ibubapa2 .media/images/image_009.png
 harian .media/images/image_010.png
 softgel .media/images/image_011.png
+baca2 .media/images/image_012.png

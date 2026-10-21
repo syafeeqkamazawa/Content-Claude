@@ -427,10 +427,10 @@ for r in range(FLAP_ROWS):
     rows_html += f'<div class="fl-row" id="fl-row{r}">' + "".join(
         f'<div class="fl-cell"><span class="fl-ch" id="fl-{r}-{c}"></span></div>' for c in range(FLAP_COLS)) + "</div>"
 cap_dom.append(
-    f'<div id="fl-block" class="clip fl-block" data-start="0" data-duration="{TOTAL}" data-track-index="3"{hide}>'
+    f'<div id="fl-block" class="clip fl-block" data-start="0" data-duration="{TOTAL}" data-track-index="3"{hide}><div class="fl-ghost" id="fl-ghost">'
     f'<div class="fl-board" id="fl-board"><div class="fl-bg" id="fl-bg"></div>{rows_html}</div>'
     f'<div class="fl-prompt" id="fl-prompt"><span class="fl-gt">&gt;</span><span class="fl-ptext" id="fl-ptext"></span>'
-    f'<span class="fl-cur" id="fl-cur"></span><span class="fl-plabel">LIVE</span></div></div>'
+    f'<span class="fl-cur" id="fl-cur"></span><span class="fl-plabel">LIVE</span></div></div></div>'
 )
 
 
@@ -470,23 +470,30 @@ def phrase_chars(words):
 
 
 def pos_at(k):
-    p = flap_pos[k] if k < len(flap_pos) else None
-    return (p or {}).get("top", FLAP_TOP0), (p or {}).get("panel")
+    """Board spot (x, top, scale) and panel spot (x, y, scale) or None for card k (data/flap-pos.json).
+    Scale < 1 is the compact board / panel that fits beside a face or the product."""
+    p = (flap_pos[k] if k < len(flap_pos) else None) or {}
+    pn = p.get("panel")
+    return (p.get("x", BLOCK_X), p.get("top", FLAP_TOP0), p.get("s", 1)), (tuple(pn) + (1,) * (3 - len(pn)) if pn else None)
+
+
+def block_set(b, t):
+    cap_js.append(f'tl.set("#fl-block", {{ x: {b[0] - BLOCK_X}, y: {b[1] - FLAP_TOP0}, scale: {b[2]} }}, {q(t)});')
 
 
 state = {}
-top0, _ = pos_at(0)
-cap_js.append(f'tl.set("#fl-block", {{ y: {top0 - FLAP_TOP0} }}, 0);')
-ghost_in("#fl-block", 0)
-cur_top, last_row = top0, 1
+b0, _ = pos_at(0)
+block_set(b0, 0)
+ghost_in("#fl-ghost", 0)
+cur_b, last_row = b0, 1
 for k, (c0, c1, words, new_sent) in enumerate(cards):
     cap_id += 1
-    top, _ = pos_at(k)
-    if top != cur_top:  # ghost-jump: fade out with blur, reappear at the clear spot
-        ghost_out("#fl-block", c0 - 0.22)
-        cap_js.append(f'tl.set("#fl-block", {{ y: {top - FLAP_TOP0} }}, {q(c0 - 0.05)});')
-        ghost_in("#fl-block", c0 - 0.05)
-        cur_top = top
+    b, _ = pos_at(k)
+    if b != cur_b:  # ghost-jump: fade out with blur, reappear at the clear spot
+        ghost_out("#fl-ghost", c0 - 0.22)
+        block_set(b, c0 - 0.05)
+        ghost_in("#fl-ghost", c0 - 0.05)
+        cur_b = b
     if c0 < P_T0 - 0.01:  # phase 1: phrases alternate between the two rows
         row = 0 if new_sent else 1 - last_row
         write_cells("fl", row, phrase_chars(words), c0, k, FLAP_COLS, state)
@@ -529,9 +536,9 @@ if PANEL:
         + f'</div><div class="pn-status"><span class="pn-st" id="pn-st{i}">&#9679; STANDBY</span><span class="pn-dt" id="pn-dt{i}"></span></div></div>'
         for i in range(len(items)))
     cap_dom.append(
-        f'<div id="fl-panel" class="clip fl-panel" data-start="{P_T0}" data-duration="{q(TOTAL - P_T0)}" data-track-index="5"{hide}>'
+        f'<div id="fl-panel" class="clip fl-panel" data-start="{P_T0}" data-duration="{q(TOTAL - P_T0)}" data-track-index="5"{hide}><div class="pn-ghost" id="pn-ghost">'
         f'<div class="pn-head">{html.escape(PANEL["title"])}</div>'
-        f'<div class="pn-sub"><span>ITEM &#183; STATUS</span><span class="pn-tm" id="pn-tm">T+00:00.0</span></div>{item_html}</div>'
+        f'<div class="pn-sub"><span>ITEM &#183; STATUS</span><span class="pn-tm" id="pn-tm">T+00:00.0</span></div>{item_html}</div></div>'
     )
     for n in range(int((TOTAL - P_T0) * 10) + 1):
         t = P_T0 + n / 10
@@ -549,18 +556,18 @@ if PANEL:
         if c0 < P_T0 - 0.01:
             continue
         _, pp = pos_at(k)
-        pp = tuple(pp) if pp else ((1080 - 48 - PANEL_W, top0 + BLOCK_H2 + 16) if not flap_pos else None)
+        pp = pp if pp or flap_pos else (1080 - 48 - PANEL_W, b0[1] + BLOCK_H2 + 16, 1)
         if pp == cur:
             continue
         if cur is None and pp:  # first appearance: drops in from above
-            cap_js.append(f'tl.set("#fl-panel", {{ x: {pp[0]}, y: {pp[1]} }}, {q(max(P_T0, c0 - 0.05))});')
-            cap_js.append(f'tl.fromTo("#fl-panel", {{ opacity: 0, filter: "blur(14px)", yPercent: -12 }}, {{ opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }}, {q(max(P_T0 + 0.15, c0 - 0.05))});')
+            cap_js.append(f'tl.set("#fl-panel", {{ x: {pp[0]}, y: {pp[1]}, scale: {pp[2]} }}, {q(max(P_T0, c0 - 0.05))});')
+            cap_js.append(f'tl.fromTo("#pn-ghost", {{ opacity: 0, filter: "blur(14px)", yPercent: -12 }}, {{ opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }}, {q(max(P_T0 + 0.15, c0 - 0.05))});')
         elif pp is None:
-            ghost_out("#fl-panel", c0 - 0.22)
+            ghost_out("#pn-ghost", c0 - 0.22)
         else:
-            ghost_out("#fl-panel", c0 - 0.22)
-            cap_js.append(f'tl.set("#fl-panel", {{ x: {pp[0]}, y: {pp[1]} }}, {q(c0 - 0.05)});')
-            ghost_in("#fl-panel", c0 - 0.05)
+            ghost_out("#pn-ghost", c0 - 0.22)
+            cap_js.append(f'tl.set("#fl-panel", {{ x: {pp[0]}, y: {pp[1]}, scale: {pp[2]} }}, {q(c0 - 0.05)});')
+            ghost_in("#pn-ghost", c0 - 0.05)
         cur = pp
 
 # ── 6. Music bed (HeyGen catalog), carved under the voice ──────────────────
@@ -622,7 +629,8 @@ CSS_CAP = """@font-face { font-family: "Barlow Condensed"; src: url("assets/font
 @font-face { font-family: "JetBrains Mono"; src: url("assets/fonts/JetBrainsMono-Medium-latin.woff2") format("woff2");
   font-weight: 500; font-style: normal; font-display: block; }""" + f"""
 #cap-root {{ position: absolute; inset: 0; }}
-.fl-block {{ position: absolute; left: {BLOCK_X}px; top: {FLAP_TOP0}px; width: {BOARD_W}px; height: auto; transform-origin: 50% 0%; }}
+.fl-block {{ position: absolute; left: {BLOCK_X}px; top: {FLAP_TOP0}px; width: {BOARD_W}px; height: auto; transform-origin: 0% 0%; }}
+.fl-ghost {{ position: relative; transform-origin: 50% 0%; }}
 .fl-board {{ position: relative; padding: 10px; }}
 .fl-bg {{ position: absolute; inset: 0; background: #0b0b0b; border-radius: 14px; box-shadow: 0 16px 40px rgba(0,0,0,.45); transform-origin: 50% 0%; }}
 .fl-row {{ position: relative; }}
@@ -640,8 +648,9 @@ CSS_CAP = """@font-face { font-family: "Barlow Condensed"; src: url("assets/font
 .fl-gt {{ color: {FLAP_GREY}; }}
 .fl-cur {{ display: inline-block; width: 12px; height: 26px; background: {FLAP_AMBER}; margin-left: -8px; }}
 .fl-plabel {{ margin-left: auto; font-size: 14px; letter-spacing: 2px; color: {FLAP_GREY}; }}
-.fl-panel {{ position: absolute; left: 0; top: 0; width: {PANEL_W}px; height: {PANEL_H}px; padding: 14px 14px 10px; background: rgba(11,11,11,.94);
-  border-radius: 14px; box-shadow: 0 16px 40px rgba(0,0,0,.45); opacity: 0; }}
+.fl-panel {{ position: absolute; left: 0; top: 0; width: {PANEL_W}px; height: {PANEL_H}px; transform-origin: 0% 0%; }}
+.pn-ghost {{ position: absolute; inset: 0; padding: 14px 14px 10px; background: rgba(11,11,11,.94);
+  border-radius: 14px; box-shadow: 0 16px 40px rgba(0,0,0,.45); opacity: 0; transform-origin: 50% 0%; }}
 .pn-head {{ font-family: "Barlow Condensed"; font-weight: 600; font-size: 34px; letter-spacing: 5px; color: {FLAP_WHITE}; line-height: 1; }}
 .pn-sub {{ display: flex; justify-content: space-between; margin: 8px 0 12px; font-family: "JetBrains Mono"; font-size: 14px; letter-spacing: 1px; color: {FLAP_GREY}; }}
 .pn-tm {{ color: {FLAP_AMBER}; }}

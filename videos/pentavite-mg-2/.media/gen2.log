@@ -1,0 +1,16 @@
+== katil2 try 1
+media-use: 319 similar cached assets already exist — run `resolve --candidates --type image --intent "A Malay man in his late thirties in long-sleeved pyjamas and long pyjama trousers lying awake in
+{"ok":true,"id":"image_008","type":"image","path":".media/images/image_008.png","source":"generated","description":"A Malay man in his late thirties in long-sleeved pyjamas and long pyjama trousers ly
+== penat2 try 1
+media-use: 321 similar cached assets already exist — run `resolve --candidates --type image --intent "A tired Malay man in his late thirties in a long-sleeved office shirt and long trousers sitting 
+{"ok":true,"id":"image_009","type":"image","path":".media/images/image_009.png","source":"generated","description":"A tired Malay man in his late thirties in a long-sleeved office shirt and long trous
+== keluarga2 try 1
+media-use: 324 similar cached assets already exist — run `resolve --candidates --type image --intent "A Malay husband and wife in their thirties relaxing together on a low sofa in their living room 
+{"ok":true,"id":"image_010","type":"image","path":".media/images/image_010.png","source":"generated","description":"A Malay husband and wife in their thirties relaxing together on a low sofa in their 
+== otot2 try 1
+media-use: 326 similar cached assets already exist — run `resolve --candidates --type image --intent "A Malay man in his forties in a long-sleeved sports top and long loose track pants down to the a
+{"ok":true,"id":"image_011","type":"image","path":".media/images/image_011.png","source":"generated","description":"A Malay man in his forties in a long-sleeved sports top and long loose track pants d
+== rehat2 try 1
+media-use: 328 similar cached assets already exist — run `resolve --candidates --type image --intent "A Malay woman in her thirties wearing a hijab that covers her hair, neck and chest and a loose l
+{"ok":true,"id":"image_012","type":"image","path":".media/images/image_012.png","source":"generated","description":"A Malay woman in her thirties wearing a hijab that covers her hair, neck and chest a
+DONE

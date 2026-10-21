@@ -5,3 +5,9 @@ otot .media/images/image_004.png
 herba .media/images/image_005.png
 rehat .media/images/image_006.png
 keluarga .media/images/image_007.png
+katil2 .media/images/image_008.png
+penat2 .media/images/image_009.png
+keluarga2 .media/images/image_010.png
+otot2 .media/images/image_011.png
+rehat2 .media/images/image_012.png
+rehat3 .media/images/image_013.png
