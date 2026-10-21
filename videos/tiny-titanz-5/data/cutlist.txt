@@ -1,24 +1,24 @@
-TOTAL 35.87s  (8 A-roll segments, 6 B-roll shots, 7 photos, 4 audio fx, 31 caption cards)
+TOTAL 36.27s  (8 A-roll segments, 6 B-roll shots, 7 photos, 4 audio fx, 31 caption cards)
 
-  0.00-  7.73  S01  src   1.00-  8.75  (1 pc)  Ibu ayah pernah tak tengok anak-anak orang lain membesar dan sihat, tapi dalam hati kita tanya-tanya, cukup ke tak nutrisi anak kita?
-  7.73- 12.13  S02  src   9.40- 13.80  (1 pc)  Lagi-lagi kalau anak jenis memilih makanan. Sayur tak nak, buah pun tak nak makan.
- 12.13- 17.27  S03  src  14.35- 19.50  (1 pc)  Sebab tu saya nak kongsikan dengan ibu ayah Tiny Titanz 180+ Liquid Sachet ni.
- 17.27- 23.77  S04  src  19.95- 26.45  (1 pc)  Ada Aquamin sumber kalsium untuk menyokong tulang dan gigi, bersama dengan Collagen HMB dan Bird Nest Peptide.
- 23.77- 28.57  S05  src  35.80- 40.60  (1 pc)  Paling mudah, sehari satu sachet je. Koyak dan terus minum, tak perlu bancuh.
- 28.57- 30.50  S06  src  40.60- 42.55  (1 pc)  Anak-anak membesar sekali je.
- 30.50- 33.00  S07  src  42.60- 45.10  (1 pc)  Jom usaha berikan yang terbaik untuk anak-anak.
- 33.00- 35.87  S08  src  45.10- 47.95  (1 pc)  Tekan beg kuning sekarang, harga tengah banyak promo ni.
+  0.00-  8.13  S01  src   1.00-  9.15  (1 pc)  Ibu ayah pernah tak tengok anak-anak orang lain membesar dan sihat, tapi dalam hati kita tanya-tanya, cukup ke tak nutrisi anak kita?
+  8.13- 12.53  S02  src   9.40- 13.80  (1 pc)  Lagi-lagi kalau anak jenis memilih makanan. Sayur tak nak, buah pun tak nak makan.
+ 12.53- 17.67  S03  src  14.35- 19.50  (1 pc)  Sebab tu saya nak kongsikan dengan ibu ayah Tiny Titanz 180+ Liquid Sachet ni.
+ 17.67- 24.17  S04  src  19.95- 26.45  (1 pc)  Ada Aquamin sumber kalsium untuk menyokong tulang dan gigi, bersama dengan Collagen HMB dan Bird Nest Peptide.
+ 24.17- 28.97  S05  src  35.80- 40.60  (1 pc)  Paling mudah, sehari satu sachet je. Koyak dan terus minum, tak perlu bancuh.
+ 28.97- 30.90  S06  src  40.60- 42.55  (1 pc)  Anak-anak membesar sekali je.
+ 30.90- 33.40  S07  src  42.60- 45.10  (1 pc)  Jom usaha beri nutrisi terbaik untuk anak-anak.
+ 33.40- 36.27  S08  src  45.10- 47.95  (1 pc)  Tekan beg kuning sekarang, harga tengah banyak ada promo ni.
 
-  cutaway   2.10-  3.40
-  cutaway   3.40-  7.73
-  cutaway   7.73- 11.17
-  cutaway  11.17- 12.13
-  cutaway  14.57- 17.27
-  cutaway  17.27- 19.13
-  cutaway  19.13- 20.60
-  cutaway  20.60- 23.77
-  cutaway  25.07- 26.57
-  cutaway  26.57- 28.57
-  cutaway  28.57- 30.50
-  cutaway  30.50- 33.00
-  cutaway  34.33- 35.87
+  cutaway   2.20-  3.60
+  cutaway   3.60-  8.13
+  cutaway   8.13- 11.57
+  cutaway  11.57- 12.53
+  cutaway  14.97- 17.67
+  cutaway  17.67- 19.53
+  cutaway  19.53- 21.00
+  cutaway  21.00- 24.17
+  cutaway  25.47- 26.97
+  cutaway  26.97- 28.97
+  cutaway  28.97- 30.90
+  cutaway  30.90- 33.40
+  cutaway  34.40- 36.27

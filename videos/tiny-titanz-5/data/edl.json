@@ -6,36 +6,312 @@
   "captions": true,
   "caption_style": "flap",
   "mirror": true,
-  "tighten": {"max_pause": 0.4, "keep": 0.14, "threshold_db": -45, "blip": 0.03},
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
   "segments": [
-    {"id": "S01", "in": 1.0, "out": 8.75, "zoom": 1.05, "text": "Ibu ayah pernah tak tengok anak-anak orang lain membesar dan sihat, tapi dalam hati kita tanya-tanya, cukup ke tak nutrisi anak kita?", "note": "HOOK"},
-    {"id": "S02", "in": 9.4, "out": 13.8, "zoom": 1.0, "text": "Lagi-lagi kalau anak jenis memilih makanan. Sayur tak nak, buah pun tak nak makan.", "note": ""},
-    {"id": "S03", "in": 14.35, "out": 19.5, "zoom": 1.05, "text": "Sebab tu saya nak kongsikan dengan ibu ayah Tiny Titanz 180+ Liquid Sachet ni.", "note": ""},
-    {"id": "S04", "in": 19.95, "out": 26.45, "zoom": 1.0, "text": "Ada Aquamin sumber kalsium untuk menyokong tulang dan gigi, bersama dengan Collagen HMB dan Bird Nest Peptide.", "note": ""},
-    {"id": "S05", "in": 35.8, "out": 40.6, "zoom": 1.05, "text": "Paling mudah, sehari satu sachet je. Koyak dan terus minum, tak perlu bancuh.", "note": ""},
-    {"id": "S06", "in": 40.6, "out": 42.55, "zoom": 1.08, "text": "Anak-anak membesar sekali je.", "note": ""},
-    {"id": "S07", "in": 42.6, "out": 45.1, "zoom": 1.0, "text": "Jom usaha berikan yang terbaik untuk anak-anak.", "note": ""},
-    {"id": "S08", "in": 45.1, "out": 47.95, "zoom": 1.05, "text": "Tekan beg kuning sekarang, harga tengah banyak promo ni.", "note": "CTA (spoken only)"}
+    {
+      "id": "S01",
+      "in": 1.0,
+      "out": 9.15,
+      "zoom": 1.05,
+      "text": "Ibu ayah pernah tak tengok anak-anak orang lain membesar dan sihat, tapi dalam hati kita tanya-tanya, cukup ke tak nutrisi anak kita?",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 9.4,
+      "out": 13.8,
+      "zoom": 1.0,
+      "text": "Lagi-lagi kalau anak jenis memilih makanan. Sayur tak nak, buah pun tak nak makan.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 14.35,
+      "out": 19.5,
+      "zoom": 1.05,
+      "text": "Sebab tu saya nak kongsikan dengan ibu ayah Tiny Titanz 180+ Liquid Sachet ni.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 19.95,
+      "out": 26.45,
+      "zoom": 1.0,
+      "text": "Ada Aquamin sumber kalsium untuk menyokong tulang dan gigi, bersama dengan Collagen HMB dan Bird Nest Peptide.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 35.8,
+      "out": 40.6,
+      "zoom": 1.05,
+      "text": "Paling mudah, sehari satu sachet je. Koyak dan terus minum, tak perlu bancuh.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 40.6,
+      "out": 42.55,
+      "zoom": 1.08,
+      "text": "Anak-anak membesar sekali je.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 42.6,
+      "out": 45.1,
+      "zoom": 1.0,
+      "text": "Jom usaha beri nutrisi terbaik untuk anak-anak.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 45.1,
+      "out": 47.95,
+      "zoom": 1.05,
+      "text": "Tekan beg kuning sekarang, harga tengah banyak ada promo ni.",
+      "note": "CTA (spoken only)"
+    }
   ],
-  "punch": [["S01", "cukup", 1.08], ["S05", "mudah", 1.08]],
+  "punch": [
+    [
+      "S01",
+      "cukup",
+      1.08
+    ],
+    [
+      "S05",
+      "mudah",
+      1.08
+    ]
+  ],
   "broll": [
-    {"id": "B1", "from": ["S03", "tiny"], "to": ["S03", "end"], "src": 69.0, "note": "kotak Tiny Titanz depan", "push": [1.0, 1.1], "origin": "50% 45%"},
-    {"id": "B2", "from": ["S04", "start"], "to": ["S04", "untuk"], "src": 6.0, "note": "buka kotak, sachet", "push": [1.0, 1.1], "origin": "50% 50%"},
-    {"id": "B3", "from": ["S04", "bersama"], "to": ["S04", "end"], "src": 18.0, "note": "sachet tersusun", "push": [1.05, 1.15], "origin": "50% 55%"},
-    {"id": "B4", "from": ["S05", "sehari"], "to": ["S05", "koyak"], "src": 76.0, "note": "ambil satu sachet", "push": [1.0, 1.1], "origin": "50% 50%"},
-    {"id": "B5", "from": ["S05", "koyak"], "to": ["S05", "end"], "src": 43.0, "note": "picit sachet ke cawan", "push": [1.05, 1.15], "origin": "50% 45%"},
-    {"id": "B6", "from": ["S08", "harga"], "to": ["S08", "end"], "src": 91.0, "note": "kipas sachet di tangan", "push": [1.0, 1.08], "origin": "50% 50%"}
+    {
+      "id": "B1",
+      "from": [
+        "S03",
+        "tiny"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "src": 69.0,
+      "note": "kotak Tiny Titanz depan",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "untuk"
+      ],
+      "src": 6.0,
+      "note": "buka kotak, sachet",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 50%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S04",
+        "bersama"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "src": 18.0,
+      "note": "sachet tersusun",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 55%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S05",
+        "sehari"
+      ],
+      "to": [
+        "S05",
+        "koyak"
+      ],
+      "src": 76.0,
+      "note": "ambil satu sachet",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 50%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S05",
+        "koyak"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 43.0,
+      "note": "picit sachet ke cawan",
+      "push": [
+        1.05,
+        1.15
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B6",
+      "from": [
+        "S08",
+        "harga"
+      ],
+      "to": [
+        "S08",
+        "end"
+      ],
+      "src": 91.0,
+      "note": "kipas sachet di tangan",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 50%"
+    }
   ],
   "photos": [
-    {"id": "sihat", "from": ["S01", "orang"], "to": ["S01", "tapi"], "note": "AI: kanak-kanak sihat bermain"},
-    {"id": "risau", "from": ["S01", "tapi"], "to": ["S01", "end"], "note": "AI: ibu tertanya-tanya"},
-    {"id": "sayur", "from": ["S02", "start"], "to": ["S02", "buah"], "note": "AI: budak tolak pinggan sayur"},
-    {"id": "buah", "from": ["S02", "buah"], "to": ["S02", "end"], "note": "AI: budak perempuan tolak buah"},
-    {"id": "gigi", "from": ["S04", "untuk"], "to": ["S04", "bersama"], "note": "AI: budak gosok gigi"},
-    {"id": "sukan", "from": ["S06", "start"], "to": ["S06", "end"], "note": "AI: hari sukan sekolah"},
-    {"id": "dukung", "from": ["S07", "start"], "to": ["S07", "end"], "note": "AI: ayah dukung anak, keluarga di taman"}
+    {
+      "id": "sihat",
+      "from": [
+        "S01",
+        "orang"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "note": "AI: kanak-kanak sihat bermain"
+    },
+    {
+      "id": "risau",
+      "from": [
+        "S01",
+        "tapi"
+      ],
+      "to": [
+        "S01",
+        "end"
+      ],
+      "note": "AI: ibu tertanya-tanya"
+    },
+    {
+      "id": "sayur",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "buah"
+      ],
+      "note": "AI: budak tolak pinggan sayur"
+    },
+    {
+      "id": "buah",
+      "from": [
+        "S02",
+        "buah"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: budak perempuan tolak buah"
+    },
+    {
+      "id": "gigi",
+      "from": [
+        "S04",
+        "untuk"
+      ],
+      "to": [
+        "S04",
+        "bersama"
+      ],
+      "note": "AI: budak gosok gigi"
+    },
+    {
+      "id": "sukan",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "note": "AI: hari sukan sekolah"
+    },
+    {
+      "id": "dukung",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "note": "AI: ayah dukung anak, keluarga di taman"
+    }
   ],
   "titles": [],
-  "brand_words": ["tiny", "titanz", "180+"],
-  "keywords": ["sihat", "nutrisi", "sayur", "buah", "aquamin", "kalsium", "tulang", "gigi", "collagen", "hmb", "bird", "nest", "peptide", "sachet", "koyak", "minum", "terbaik", "promo", "kuning"]
+  "brand_words": [
+    "tiny",
+    "titanz",
+    "180+"
+  ],
+  "keywords": [
+    "sihat",
+    "nutrisi",
+    "sayur",
+    "buah",
+    "aquamin",
+    "kalsium",
+    "tulang",
+    "gigi",
+    "collagen",
+    "hmb",
+    "bird",
+    "nest",
+    "peptide",
+    "sachet",
+    "koyak",
+    "minum",
+    "terbaik",
+    "promo",
+    "kuning"
+  ],
+  "_owner_decisions": "22 Okt: 'Lepas ni butang kuning Tekan beg kuning pun tak perlu ada dah, banyakkan overlay yang sesuai' — tiada butang CTA, 13 cutaway (6 B-roll + 7 foto AI); kapsyen split-flap sahaja; final dirender terus; tiada muzik latar."
 }
