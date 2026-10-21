@@ -1,5 +1,6 @@
-sakit .media/images/image_001.png
 jaga .media/images/image_002.png
 tolak .media/images/image_003.png
 bahan .media/images/image_004.png
 keluarga .media/images/image_005.png
+pemakanan .media/images/image_006.png
+sakit .media/images/image_007.png

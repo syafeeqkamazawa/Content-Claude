@@ -17,28 +17,34 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-sakit" class="clip fs" data-start="2.1667" data-duration="1.999" data-track-index="4"><div class="fs-in" id="fs-sakit-in"><div class="fs-layer" id="fs-sakit-bg" style="background-image:url(assets/photos/sakit.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-jaga" class="clip fs" data-start="4.1667" data-duration="2.366" data-track-index="4"><div class="fs-in" id="fs-jaga-in"><div class="fs-layer" id="fs-jaga-bg" style="background-image:url(assets/photos/jaga.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-tolak" class="clip fs" data-start="6.5333" data-duration="3.533" data-track-index="4"><div class="fs-in" id="fs-tolak-in"><div class="fs-layer" id="fs-tolak-bg" style="background-image:url(assets/photos/tolak.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-bahan" class="clip fs" data-start="14.7667" data-duration="2.699" data-track-index="4"><div class="fs-in" id="fs-bahan-in"><div class="fs-layer" id="fs-bahan-bg" style="background-image:url(assets/photos/bahan.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-keluarga" class="clip fs" data-start="20.4333" data-duration="1.966" data-track-index="4"><div class="fs-in" id="fs-keluarga-in"><div class="fs-layer" id="fs-keluarga-bg" style="background-image:url(assets/photos/keluarga.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-pemakanan" class="clip fs" data-start="22.4" data-duration="2.533" data-track-index="4"><div class="fs-in" id="fs-pemakanan-in"><div class="fs-layer" id="fs-pemakanan-bg" style="background-image:url(assets/photos/pemakanan.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-sakit" class="clip fs" data-start="2.1667" data-duration="1.999" data-track-index="4"><div class="fs-in" id="fs-sakit-in"><div class="fs-layer" id="fs-sakit-bg" style="background-image:url(assets/photos/sakit-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-sakit-fg" style="background-image:url(assets/photos/sakit-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-jaga" class="clip fs" data-start="4.1667" data-duration="2.366" data-track-index="4"><div class="fs-in" id="fs-jaga-in"><div class="fs-layer" id="fs-jaga-bg" style="background-image:url(assets/photos/jaga-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-jaga-fg" style="background-image:url(assets/photos/jaga-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-tolak" class="clip fs" data-start="6.5333" data-duration="3.533" data-track-index="4"><div class="fs-in" id="fs-tolak-in"><div class="fs-layer" id="fs-tolak-bg" style="background-image:url(assets/photos/tolak-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-tolak-fg" style="background-image:url(assets/photos/tolak-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-bahan" class="clip fs" data-start="14.7667" data-duration="2.699" data-track-index="4"><div class="fs-in" id="fs-bahan-in"><div class="fs-layer" id="fs-bahan-bg" style="background-image:url(assets/photos/bahan-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-bahan-fg" style="background-image:url(assets/photos/bahan-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-keluarga" class="clip fs" data-start="20.4333" data-duration="1.966" data-track-index="4"><div class="fs-in" id="fs-keluarga-in"><div class="fs-layer" id="fs-keluarga-bg" style="background-image:url(assets/photos/keluarga-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-keluarga-fg" style="background-image:url(assets/photos/keluarga-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-pemakanan" class="clip fs" data-start="22.4" data-duration="2.533" data-track-index="4"><div class="fs-in" id="fs-pemakanan-in"><div class="fs-layer" id="fs-pemakanan-bg" style="background-image:url(assets/photos/pemakanan-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-pemakanan-fg" style="background-image:url(assets/photos/pemakanan-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-sakit-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 2.1667);
-          tl.fromTo("#fs-sakit-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 2.0, ease: "sine.inOut", immediateRender: false }, 2.1667);
+          tl.fromTo("#fs-sakit-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.0, ease: "none", immediateRender: false }, 2.1667);
+          tl.fromTo("#fs-sakit-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.0, ease: "sine.inOut", immediateRender: false }, 2.1667);
           tl.fromTo("#fs-jaga-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 4.1667);
-          tl.fromTo("#fs-jaga-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.3667, ease: "sine.inOut", immediateRender: false }, 4.1667);
+          tl.fromTo("#fs-jaga-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.3667, ease: "none", immediateRender: false }, 4.1667);
+          tl.fromTo("#fs-jaga-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.3667, ease: "sine.inOut", immediateRender: false }, 4.1667);
           tl.fromTo("#fs-tolak-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 6.5333);
-          tl.fromTo("#fs-tolak-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 3.5333, ease: "sine.inOut", immediateRender: false }, 6.5333);
+          tl.fromTo("#fs-tolak-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 3.5333, ease: "none", immediateRender: false }, 6.5333);
+          tl.fromTo("#fs-tolak-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 3.5333, ease: "sine.inOut", immediateRender: false }, 6.5333);
           tl.fromTo("#fs-bahan-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 14.7667);
-          tl.fromTo("#fs-bahan-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.7, ease: "sine.inOut", immediateRender: false }, 14.7667);
+          tl.fromTo("#fs-bahan-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.7, ease: "none", immediateRender: false }, 14.7667);
+          tl.fromTo("#fs-bahan-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.7, ease: "sine.inOut", immediateRender: false }, 14.7667);
           tl.fromTo("#fs-keluarga-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 20.4333);
-          tl.fromTo("#fs-keluarga-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 1.9667, ease: "sine.inOut", immediateRender: false }, 20.4333);
+          tl.fromTo("#fs-keluarga-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 1.9667, ease: "none", immediateRender: false }, 20.4333);
+          tl.fromTo("#fs-keluarga-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 1.9667, ease: "sine.inOut", immediateRender: false }, 20.4333);
           tl.fromTo("#fs-pemakanan-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 22.4);
-          tl.fromTo("#fs-pemakanan-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.5333, ease: "sine.inOut", immediateRender: false }, 22.4);
+          tl.fromTo("#fs-pemakanan-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.5333, ease: "none", immediateRender: false }, 22.4);
+          tl.fromTo("#fs-pemakanan-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.5333, ease: "sine.inOut", immediateRender: false }, 22.4);
           window.__timelines["visuals"] = tl;
         })();
       </script>

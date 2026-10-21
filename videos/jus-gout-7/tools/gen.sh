@@ -16,7 +16,7 @@ gen () {
 [ $# -gt 0 ] && ONLY=" $* " || ONLY=""
 want () { [ -z "$ONLY" ] || [[ "$ONLY" == *" $1 "* ]]; }
 
-want sakit && gen sakit "A Malay man in his forties in a long-sleeved t-shirt and long trousers sitting on the living-room sofa in the daytime, grimacing as he holds his swollen, reddish ankle propped on a cushion, sock off, soft window light. $PPL"
+want sakit && gen sakit "A Malay man in his forties in a long-sleeved t-shirt and long trousers whose hems stay down at the ankle, sitting on the living-room sofa in the daytime, grimacing as he holds his swollen, reddish big toe and the top of his bare foot resting on a cushion, only the foot uncovered, the trousers never rolled up, soft window light. $PPL"
 want jaga && gen jaga "Night scene in a bedroom: a Malay man in long-sleeved pyjamas and long pyjama trousers sitting up in bed holding his foot in pain while his wife in a hijab covering her hair, neck and chest and a loose long-sleeved nightgown wakes up beside him and touches his shoulder with concern, dim bedside lamp. $PPL"
 want tolak && gen tolak "A Malay mother in a hijab covering her hair, neck and chest and a loose long dress leading two excited children in long sleeves and long pants out of the front door for an outing, while the father in a long-sleeved shirt and long trousers stays behind on the sofa with his leg up on a cushion, waving sadly. $PPL"
 want bahan && gen bahan "A woven rattan basket on a kitchen counter filled with a whole pineapple, fresh pineapple slices, knobs of fresh ginger and fresh turmeric roots, a small dish of turmeric powder beside it, bright natural morning light, food photography, no people, no text."
