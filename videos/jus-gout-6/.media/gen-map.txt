@@ -1,2 +1,5 @@
 tengahmalam .media/images/image_001.png
 pijak .media/images/image_002.png
+anakajak .media/images/image_003.png
+bahan .media/images/image_004.png
+keluarga .media/images/image_005.png

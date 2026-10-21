@@ -17,25 +17,30 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-tengahmalam" class="clip fs" data-start="4.5" data-duration="3.433" data-track-index="4"><div class="fs-in" id="fs-tengahmalam-in"><div class="fs-layer" id="fs-tengahmalam-bg" style="background-image:url(assets/photos/tengahmalam.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-pijak" class="clip fs" data-start="7.9333" data-duration="1.666" data-track-index="4"><div class="fs-in" id="fs-pijak-in"><div class="fs-layer" id="fs-pijak-bg" style="background-image:url(assets/photos/pijak.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-anakajak" class="clip fs" data-start="9.6" data-duration="2.699" data-track-index="4"><div class="fs-in" id="fs-anakajak-in"><div class="fs-layer" id="fs-anakajak-bg" style="background-image:url(assets/photos/anakajak.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-bahan" class="clip fs" data-start="16.7" data-duration="2.466" data-track-index="4"><div class="fs-in" id="fs-bahan-in"><div class="fs-layer" id="fs-bahan-bg" style="background-image:url(assets/photos/bahan.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-keluarga" class="clip fs" data-start="21.9667" data-duration="3.433" data-track-index="4"><div class="fs-in" id="fs-keluarga-in"><div class="fs-layer" id="fs-keluarga-bg" style="background-image:url(assets/photos/keluarga.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-tengahmalam" class="clip fs" data-start="4.5" data-duration="3.433" data-track-index="4"><div class="fs-in" id="fs-tengahmalam-in"><div class="fs-layer" id="fs-tengahmalam-bg" style="background-image:url(assets/photos/tengahmalam-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-tengahmalam-fg" style="background-image:url(assets/photos/tengahmalam-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-pijak" class="clip fs" data-start="7.9333" data-duration="1.666" data-track-index="4"><div class="fs-in" id="fs-pijak-in"><div class="fs-layer" id="fs-pijak-bg" style="background-image:url(assets/photos/pijak-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-pijak-fg" style="background-image:url(assets/photos/pijak-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-anakajak" class="clip fs" data-start="9.6" data-duration="2.699" data-track-index="4"><div class="fs-in" id="fs-anakajak-in"><div class="fs-layer" id="fs-anakajak-bg" style="background-image:url(assets/photos/anakajak-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-anakajak-fg" style="background-image:url(assets/photos/anakajak-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-bahan" class="clip fs" data-start="16.7" data-duration="2.466" data-track-index="4"><div class="fs-in" id="fs-bahan-in"><div class="fs-layer" id="fs-bahan-bg" style="background-image:url(assets/photos/bahan-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-bahan-fg" style="background-image:url(assets/photos/bahan-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-keluarga" class="clip fs" data-start="21.9667" data-duration="3.433" data-track-index="4"><div class="fs-in" id="fs-keluarga-in"><div class="fs-layer" id="fs-keluarga-bg" style="background-image:url(assets/photos/keluarga-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-keluarga-fg" style="background-image:url(assets/photos/keluarga-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-tengahmalam-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 4.5);
-          tl.fromTo("#fs-tengahmalam-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 3.4333, ease: "sine.inOut", immediateRender: false }, 4.5);
+          tl.fromTo("#fs-tengahmalam-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 3.4333, ease: "none", immediateRender: false }, 4.5);
+          tl.fromTo("#fs-tengahmalam-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 3.4333, ease: "sine.inOut", immediateRender: false }, 4.5);
           tl.fromTo("#fs-pijak-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 7.9333);
-          tl.fromTo("#fs-pijak-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 1.6667, ease: "sine.inOut", immediateRender: false }, 7.9333);
+          tl.fromTo("#fs-pijak-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 1.6667, ease: "none", immediateRender: false }, 7.9333);
+          tl.fromTo("#fs-pijak-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 1.6667, ease: "sine.inOut", immediateRender: false }, 7.9333);
           tl.fromTo("#fs-anakajak-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 9.6);
-          tl.fromTo("#fs-anakajak-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 2.7, ease: "sine.inOut", immediateRender: false }, 9.6);
+          tl.fromTo("#fs-anakajak-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.7, ease: "none", immediateRender: false }, 9.6);
+          tl.fromTo("#fs-anakajak-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.7, ease: "sine.inOut", immediateRender: false }, 9.6);
           tl.fromTo("#fs-bahan-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 16.7);
-          tl.fromTo("#fs-bahan-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.4667, ease: "sine.inOut", immediateRender: false }, 16.7);
+          tl.fromTo("#fs-bahan-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.4667, ease: "none", immediateRender: false }, 16.7);
+          tl.fromTo("#fs-bahan-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.4667, ease: "sine.inOut", immediateRender: false }, 16.7);
           tl.fromTo("#fs-keluarga-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 21.9667);
-          tl.fromTo("#fs-keluarga-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 3.4333, ease: "sine.inOut", immediateRender: false }, 21.9667);
+          tl.fromTo("#fs-keluarga-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 3.4333, ease: "none", immediateRender: false }, 21.9667);
+          tl.fromTo("#fs-keluarga-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 3.4333, ease: "sine.inOut", immediateRender: false }, 21.9667);
           window.__timelines["visuals"] = tl;
         })();
       </script>
