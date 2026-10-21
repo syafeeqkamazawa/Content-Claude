@@ -31,13 +31,10 @@ html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1c0f0
       <div class="frame-wrap" id="wrap-S06"><video id="a-S06-1" class="clip aroll" src="assets/a.mp4" playsinline data-has-audio="true" data-start="35.1667" data-duration="4.099" data-media-start="47.3" data-track-index="0"></video></div>
       <div class="frame-wrap" id="wrap-S07"><video id="a-S07-1" class="clip aroll" src="assets/a.mp4" playsinline data-has-audio="true" data-start="39.2667" data-duration="2.733" data-media-start="51.4" data-track-index="0"></video><video id="a-S07-2" class="clip aroll" src="assets/a.mp4" playsinline data-has-audio="true" data-start="42.0" data-duration="4.366" data-media-start="54.32" data-track-index="0"></video></div>
       <div class="frame-wrap broll" id="bw-B1"><video id="b-B1" class="clip" src="assets/b.mp4" muted playsinline data-start="13.0333" data-duration="2.999" data-media-start="28.5" data-track-index="1"></video></div>
-      <div class="frame-wrap broll" id="bw-B2"><video id="b-B2" class="clip" src="assets/b.mp4" muted playsinline data-start="16.0333" data-duration="1.799" data-media-start="71.5" data-track-index="1"></video></div>
       <div class="frame-wrap broll" id="bw-B3"><video id="b-B3" class="clip" src="assets/b.mp4" muted playsinline data-start="28.7" data-duration="2.933" data-media-start="4.0" data-track-index="1"></video></div>
-      <div class="frame-wrap broll" id="bw-B4"><video id="b-B4" class="clip" src="assets/b.mp4" muted playsinline data-start="31.6333" data-duration="3.533" data-media-start="80.0" data-track-index="1"></video></div>
-      <div class="frame-wrap broll" id="bw-B5"><video id="b-B5" class="clip" src="assets/b.mp4" muted playsinline data-start="40.6" data-duration="0.999" data-media-start="54.0" data-track-index="1"></video></div>
-      <div class="frame-wrap broll" id="bw-B6"><video id="b-B6" class="clip" src="assets/b.mp4" muted playsinline data-start="42.9333" data-duration="1.966" data-media-start="94.0" data-track-index="1"></video></div>
+      <div class="frame-wrap broll" id="bw-B5"><video id="b-B5" class="clip" src="assets/b.mp4" muted playsinline data-start="40.6" data-duration="0.999" data-media-start="7.0" data-track-index="1"></video></div>
+      <div class="frame-wrap broll" id="bw-B6"><video id="b-B6" class="clip" src="assets/b.mp4" muted playsinline data-start="42.9333" data-duration="1.966" data-media-start="22.0" data-track-index="1"></video></div>
       <div id="visuals" data-composition-id="visuals" data-composition-src="compositions/visuals.html" data-start="0" data-duration="46.3667" data-track-index="4" data-width="1080" data-height="1920"></div>
-      <div id="captions" data-track-kind="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="46.3667" data-track-index="3" data-width="1080" data-height="1920"></div>
       <audio id="sfx-01-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="5.5667" data-duration="0.5667" data-track-index="21" data-volume="0.3"></audio>
       <audio id="sfx-02-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="9.5333" data-duration="0.5667" data-track-index="22" data-volume="0.3"></audio>
       <audio id="sfx-03-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="27.1333" data-duration="0.5667" data-track-index="23" data-volume="0.3"></audio>
@@ -60,15 +57,9 @@ html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1c0f0
       tl.set("#bw-B1", { transformOrigin: "50% 50%" }, 0);
       tl.fromTo("#bw-B1", { scale: 1.12 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, 13.0333);
       tl.fromTo("#bw-B1", { scale: 1.0 }, { scale: 1.08, duration: 2.6667, ease: "power1.inOut", immediateRender: false }, 13.3667);
-      tl.set("#bw-B2", { transformOrigin: "50% 40%" }, 0);
-      tl.fromTo("#bw-B2", { scale: 1.12 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, 16.0333);
-      tl.fromTo("#bw-B2", { scale: 1.0 }, { scale: 1.08, duration: 1.4667, ease: "power1.inOut", immediateRender: false }, 16.3667);
       tl.set("#bw-B3", { transformOrigin: "50% 40%" }, 0);
       tl.fromTo("#bw-B3", { scale: 1.12 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, 28.7);
       tl.fromTo("#bw-B3", { scale: 1.0 }, { scale: 1.1, duration: 2.6, ease: "power1.inOut", immediateRender: false }, 29.0333);
-      tl.set("#bw-B4", { transformOrigin: "50% 50%" }, 0);
-      tl.fromTo("#bw-B4", { scale: 1.12 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, 31.6333);
-      tl.fromTo("#bw-B4", { scale: 1.0 }, { scale: 1.06, duration: 3.2, ease: "power1.inOut", immediateRender: false }, 31.9667);
       tl.set("#bw-B5", { transformOrigin: "50% 35%" }, 0);
       tl.fromTo("#bw-B5", { scale: 1.12 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, 40.6);
       tl.fromTo("#bw-B5", { scale: 1.0 }, { scale: 1.08, duration: 0.6667, ease: "power1.inOut", immediateRender: false }, 40.9333);

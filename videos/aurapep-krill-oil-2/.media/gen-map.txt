@@ -5,3 +5,7 @@ jalan .media/images/image_004.png
 baca .media/images/image_005.png
 ibubapa .media/images/image_006.png
 keluarga .media/images/image_007.png
+jalan2 .media/images/image_008.png
+ibubapa2 .media/images/image_009.png
+harian .media/images/image_010.png
+softgel .media/images/image_011.png

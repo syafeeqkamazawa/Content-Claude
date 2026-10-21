@@ -1,5 +1,5 @@
 {
-  "_note": "Aurapep Krill Oil #2. Source times are seconds in assets/a.mp4 (A-roll VID_20261021_223920, Drive 10OYhTXE…; front camera saved mirrored — the label reads backwards — flipped back in CSS; phone-mic voice enhanced with tools/voice.sh) and assets/b.mp4 (VID_20261021_091344 bottle and red softgels on grass 0-39.33, VID_20261021_091830 owner taking a softgel at the table 39.33-116.33). Krill #1 used B-roll src 67, 10, 19.8, 24, 50.5, 77.4; picks here: 28.5, 71.5, 4.0, 80.0, 54.0, 94.0. Dropped: the false start 'E… EPA' (22.8-27.6) and the pauses. Owner (21 Oct): caption motion like the reference video (no hanging strings) — departure board + typing prompt bar + key-point status panel, never over faces or the product. No CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "_note": "Aurapep Krill Oil #2. Source times are seconds in assets/a.mp4 (A-roll VID_20261021_223920, Drive 10OYhTXE…; front camera saved mirrored — the label reads backwards — flipped back in CSS; phone-mic voice enhanced with tools/voice.sh) and assets/b.mp4 (VID_20261021_091344 bottle and red softgels on grass 0-39.33, VID_20261021_091830 owner taking a softgel at the table 39.33-116.33). Krill #1 used B-roll src 67, 10, 19.8, 24, 50.5, 77.4; picks here: 28.5, 4.0, 7.0, 22.0 (grass shots leave the top of the frame free for the captions). Dropped: the false start 'E… EPA' (22.8-27.6) and the pauses. Owner (21 Oct): caption motion like the reference video (no hanging strings) — departure board + typing prompt bar + key-point status panel, never over faces or the product. No CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
   "fps": 30,
   "width": 1080,
   "height": 1920,
@@ -102,24 +102,6 @@
       "origin": "50% 50%"
     },
     {
-      "id": "B2",
-      "from": [
-        "S03",
-        "epa"
-      ],
-      "to": [
-        "S03",
-        "end"
-      ],
-      "src": 71.5,
-      "note": "softgel dekat kamera",
-      "push": [
-        1.0,
-        1.08
-      ],
-      "origin": "50% 40%"
-    },
-    {
       "id": "B3",
       "from": [
         "S05",
@@ -138,23 +120,6 @@
       "origin": "50% 40%"
     },
     {
-      "id": "B4",
-      "from": [
-        "S05",
-        "untuk"
-      ],
-      "to": [
-        "S05",
-        "end"
-      ],
-      "src": 80.0,
-      "note": "minum air lepas ambil softgel",
-      "push": [
-        1.0,
-        1.06
-      ]
-    },
-    {
       "id": "B5",
       "from": [
         "S07",
@@ -164,8 +129,8 @@
         "S07",
         "klik"
       ],
-      "src": 54.0,
-      "note": "botol ke kamera",
+      "src": 7.0,
+      "note": "botol depan atas rumput (ruang kosong di atas)",
       "push": [
         1.0,
         1.08
@@ -182,8 +147,8 @@
         "S07",
         "grab"
       ],
-      "src": 94.0,
-      "note": "botol dekat",
+      "src": 22.0,
+      "note": "botol + penutup penuh softgel atas rumput",
       "push": [
         1.0,
         1.08
@@ -229,7 +194,19 @@
       "note": "AI: kawanan krill bawah laut"
     },
     {
-      "id": "jalan",
+      "id": "softgel",
+      "from": [
+        "S03",
+        "epa"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "note": "AI: makro softgel merah"
+    },
+    {
+      "id": "jalan2",
       "from": [
         "S04",
         "start"
@@ -253,7 +230,7 @@
       "note": "AI: wanita berhijab membaca"
     },
     {
-      "id": "ibubapa",
+      "id": "ibubapa2",
       "from": [
         "S05",
         "ibu"
@@ -263,6 +240,18 @@
         "aurapep"
       ],
       "note": "AI: ibu bapa dan anak dewasa"
+    },
+    {
+      "id": "harian",
+      "from": [
+        "S05",
+        "untuk"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "note": "AI: sarapan + softgel + air"
     },
     {
       "id": "keluarga",
