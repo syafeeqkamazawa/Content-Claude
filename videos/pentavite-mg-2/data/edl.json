@@ -1,5 +1,5 @@
 {
-  "_note": "Pentavite Mg #2 (magnesium gummies: mixed blueberry, lemon balm extract, lavender oil). Source times are seconds in assets/a.mp4 (A-roll VID_20261021_224117, Drive 1DA6bULc…; front camera, the box label reads correctly, so no flip; phone-mic voice enhanced with tools/voice.sh, noise profile 27.4-28.2) and assets/b.mp4 (VID_20261021_224417, Drive 1r8gO-RG…, rear camera, owner at the table with the box, sachets and a gummy; muted). Dropped: the false start 'Kadang-kadang kita perlu sibuk bekerja' (8.4-11.1), 'Yang menariknya,' (36.4-38.1, restarted), the first 'Jangan abaikan keperluan badan' (49.7-52.1) and 'Tengah ada harga yang' (62.4-64.1), plus the pauses. Owner (21 Oct): caption motion like the reference video, never over people or the product; phone voice made mic-like. No CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "_note": "Pentavite Mg #2 (magnesium gummies: mixed blueberry, lemon balm extract, lavender oil). Source times are seconds in assets/a.mp4 (A-roll VID_20261021_224117, Drive 1DA6bULc…; front camera, the box label reads correctly, so no flip; phone-mic voice enhanced with tools/voice.sh, noise profile 27.4-28.2) and assets/b.mp4 (VID_20261021_224417, Drive 1r8gO-RG…, rear camera, owner at the table with the box, sachets and a gummy; muted). B-roll picks: 14.5, 60, 78, 93.5, 64, 100, 54.5, 40. Dropped: the false start 'Kadang-kadang kita perlu sibuk bekerja' (8.4-11.1), 'Yang menariknya,' (36.4-38.1, restarted), the first 'Jangan abaikan keperluan badan' (49.7-52.1) and 'Tengah ada harga yang' (62.4-64.1), plus the pauses. Owner (21 Oct): caption motion like the reference video, never over people or the product; phone voice made mic-like. No CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
   "fps": 30,
   "width": 1080,
   "height": 1920,
@@ -125,7 +125,7 @@
         "S04",
         "end"
       ],
-      "src": 12.0,
+      "src": 14.5,
       "note": "kotak depan, label",
       "push": [
         1.0,
@@ -179,7 +179,7 @@
         "S07",
         "end"
       ],
-      "src": 90.0,
+      "src": 93.5,
       "note": "gummy dekat kamera",
       "push": [
         1.0,
@@ -197,8 +197,8 @@
         "S08",
         "dan"
       ],
-      "src": 84.0,
-      "note": "ambil gummy",
+      "src": 64.0,
+      "note": "koyak sachet",
       "push": [
         1.0,
         1.08
@@ -215,8 +215,8 @@
         "S08",
         "end"
       ],
-      "src": 114.0,
-      "note": "nikmati, rileks",
+      "src": 100.0,
+      "note": "makan gummy, senyum",
       "push": [
         1.0,
         1.08
@@ -233,7 +233,7 @@
         "S10",
         "tekan"
       ],
-      "src": 54.0,
+      "src": 54.5,
       "note": "kotak depan dekat",
       "push": [
         1.0,
@@ -251,8 +251,8 @@
         "S11",
         "grab"
       ],
-      "src": 18.0,
-      "note": "kotak dibuka, sachet penuh",
+      "src": 40.0,
+      "note": "kotak dibuka penuh sachet, senyum",
       "push": [
         1.0,
         1.08

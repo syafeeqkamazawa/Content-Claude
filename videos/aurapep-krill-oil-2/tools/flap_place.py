@@ -103,9 +103,21 @@ for sh in sorted(set(shot_of)):
     idx = [i for i, s in enumerate(shot_of) if s == sh]
     worst = {t: max(cost((BX, t, BX + BW, t + (BH2 if cards[i][2] else BH1)), *samples[i]) for i in idx) for t in CANDS}
     top = min(CANDS, key=lambda t: worst[t] + 0.002 * CANDS.index(t) - (0.01 if t == prev_top else 0))
-    for i in idx:
-        pos[i] = {"top": top, "panel": None}
-    print(f"shot {cuts[sh]:6.2f}  cards {len(idx):2d}  board {top} ({worst[top]})")
+    if worst[top] <= 0.08:
+        for i in idx:
+            pos[i] = {"top": top, "panel": None}
+        print(f"shot {cuts[sh]:6.2f}  cards {len(idx):2d}  board {top} ({worst[top]})")
+    else:  # no spot stays clear for the whole shot: follow the subject card by card
+        cur = top
+        for i in idx:
+            row = {t: cost((BX, t, BX + BW, t + (BH2 if cards[i][2] else BH1)), *samples[i]) for t in CANDS}
+            if row[cur] > 0.03:
+                best = min(CANDS, key=lambda t: row[t] + 0.002 * CANDS.index(t))
+                if row[best] < row[cur] - 0.02:
+                    cur = best
+            pos[i] = {"top": cur, "panel": None}
+            print(f"shot {cuts[sh]:6.2f}  card {times[i]:6.2f}  board {cur} ({row[cur]})")
+        top = cur
     prev_top = top
 cur = None
 for i, (c0, c1, phase2) in enumerate(cards):
