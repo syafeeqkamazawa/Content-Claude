@@ -1,5 +1,5 @@
 {
-  "_note": "Aurapep Krill Oil #5 — video 3 of the 6-clip batch in Drive folder 1irOVOgs… (clip plan: videos/_batch-krill/plan.md). A-roll: VID_20261022_095302 (Drive 1x6MGA1v…), front camera saved mirrored — flipped back in CSS; lavalier mic, voice used as recorded. B-roll: assets/b.mp4 = the batch pool videos/_batch-krill/b.mp4 (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8). This video uses A 3.0, B 100.5, B 102.0, B 104.5, B 114.3, C 130.0 (none of videos 1-2's ranges). Dropped: the off-camera chat at the start ('Abang sayang… eh tak apa-apa', 0-13.9), the silent stretch 28.5-41.6 and the whisper ghost 'terima kasih kerana menonton'. Owner: captions like the reference video (never over faces/product), no CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "_note": "Aurapep Krill Oil #5 — video 3 of the 6-clip batch in Drive folder 1irOVOgs… (clip plan: videos/_batch-krill/plan.md). A-roll: VID_20261022_095302 (Drive 1x6MGA1v…), front camera saved mirrored — flipped back in CSS; lavalier mic, voice used as recorded. B-roll: assets/b.mp4 = the batch pool videos/_batch-krill/b.mp4 (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8). This video uses A 3.0, B 100.5, B 102.0, B 106.5, B 114.3, C 130.0 (none of videos 1-2's ranges). Dropped: the off-camera chat at the start ('Abang sayang… eh tak apa-apa', 0-13.9), the silent stretch 28.5-41.6 and the whisper ghost 'terima kasih kerana menonton'. Owner: captions like the reference video (never over faces/product), no CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
   "fps": 30,
   "width": 1080,
   "height": 1920,
@@ -111,8 +111,8 @@
         "S04",
         "epa"
       ],
-      "src": 104.5,
-      "note": "B: buka penutup botol",
+      "src": 106.5,
+      "note": "B: penutup dibuka, botol nampak isi",
       "push": [
         1.0,
         1.08
