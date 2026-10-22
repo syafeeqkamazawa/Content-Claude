@@ -1,4 +1,4 @@
-TOTAL 41.00s  (8 A-roll segments, 6 B-roll shots, 6 photos, 3 audio fx, 56 caption cards)
+TOTAL 39.17s  (8 A-roll segments, 6 B-roll shots, 6 photos, 3 audio fx, 56 caption cards)
 
   0.00-  5.37  S01  src   2.95-  8.30  (1 pc)  Umur makin meningkat, tapi kita masih sibuk jaga semua orang, sampai terlupa nak jaga kesihatan sendiri.
   5.37-  9.57  S02  src   9.35- 13.55  (1 pc)  Jantung, otak dan mata kita pun perlukan nutrisi yang mencukupi setiap hari.
@@ -6,8 +6,8 @@ TOTAL 41.00s  (8 A-roll segments, 6 B-roll shots, 6 photos, 3 audio fx, 56 capti
  13.87- 18.40  S04  src  17.85- 22.40  (1 pc)  Krill Oil ni sumber omega 3 yang mengandungi EPA dan DHA.
  18.40- 25.50  S05  src  26.50- 33.60  (1 pc)  EPA bantu sokong kesihatan jantung kita, manakala DHA pula penting untuk fungsi otak dan penglihatan kita.
  25.50- 30.00  S06  src  33.60- 38.10  (1 pc)  Yang menariknya, Krill Oil juga ada astaxanthin, sejenis antioksidan.
- 30.00- 36.10  S07  src  38.10- 44.70  (2 pc)  Ingat, keluarga bukan cuma perlukan duit kita, mereka perlukan kita yang sihat tau.
- 36.10- 41.00  S08  src  44.70- 49.60  (1 pc)  Tekan beg kuning sekarang, harga tengah murah, boleh check out terus.
+ 30.00- 34.27  S07  src  40.45- 44.70  (1 pc)  Ingat, keluarga bukan cuma perlukan duit kita, mereka perlukan kita yang sihat tau.
+ 34.27- 39.17  S08  src  44.70- 49.60  (1 pc)  Tekan beg kuning sekarang, harga tengah murah, boleh check out terus.
 
   cutaway   2.97-  5.37
   cutaway   5.37-  9.57
@@ -19,5 +19,5 @@ TOTAL 41.00s  (8 A-roll segments, 6 B-roll shots, 6 photos, 3 audio fx, 56 capti
   cutaway  21.33- 25.50
   cutaway  25.50- 27.93
   cutaway  27.93- 30.00
-  cutaway  31.13- 36.10
-  cutaway  36.10- 38.33
+  cutaway  30.30- 34.27
+  cutaway  34.27- 36.50
