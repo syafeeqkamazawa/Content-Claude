@@ -1,5 +1,5 @@
 {
-  "_note": "Aurapep Krill Oil #4 — video 2 of the 6-clip batch in Drive folder 1irOVOgs… (clip plan: videos/_batch-krill/plan.md). A-roll: VID_20261022_095127 (Drive 1Q1wN_54…), front camera saved mirrored — flipped back in CSS; lavalier mic, voice used as recorded. B-roll: assets/b.mp4 = the batch pool videos/_batch-krill/b.mp4 (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8). This video uses B 97.0, B 108.5, B 120.0, C 143.0, C 190.5 (none of video 1's ranges). Dropped: the pauses, the false start 'ibu ayah, abang kakak dan boleh' (40.9-42.6), the first 'stok pun baru…' takes (49.9-57.9) and the whisper ghost 'terima kasih kerana menonton'. Owner: captions like the reference video (never over faces/product), no CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "_note": "Aurapep Krill Oil #4 — video 2 of the 6-clip batch in Drive folder 1irOVOgs… (clip plan: videos/_batch-krill/plan.md). A-roll: VID_20261022_095127 (Drive 1Q1wN_54…), front camera saved mirrored — flipped back in CSS; lavalier mic, voice used as recorded. B-roll: assets/b.mp4 = the batch pool videos/_batch-krill/b.mp4 (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8). This video uses A 17.0, B 97.0, B 108.5, B 120.0, C 203.6 (none of video 1's ranges). Dropped: the pauses, the false start 'ibu ayah, abang kakak dan boleh' (40.9-42.6), the first 'stok pun baru…' takes (49.9-57.9) and the whisper ghost 'terima kasih kerana menonton'. Owner: captions like the reference video (never over faces/product), no CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
   "fps": 30,
   "width": 1080,
   "height": 1920,
@@ -155,13 +155,13 @@
         "S07",
         "harga"
       ],
-      "src": 143.0,
-      "note": "C: botol ditunjuk ke kamera",
+      "src": 17.0,
+      "note": "A: botol atas meja, tiada orang",
       "push": [
         1.0,
         1.08
       ],
-      "origin": "50% 40%"
+      "origin": "50% 60%"
     },
     {
       "id": "B5",
@@ -173,13 +173,13 @@
         "S08",
         "boleh"
       ],
-      "src": 190.5,
-      "note": "C: botol dekat dalam tangan",
+      "src": 203.6,
+      "note": "C: botol atas meja selepas pemilik bangun",
       "push": [
         1.0,
         1.08
       ],
-      "origin": "50% 40%"
+      "origin": "50% 60%"
     }
   ],
   "photos": [
