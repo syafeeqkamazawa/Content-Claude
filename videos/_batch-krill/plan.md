@@ -17,7 +17,7 @@ B-roll pool `b.mp4` (shared, hard-linked into each project's assets/b.mp4):
 
 | video | project | A-roll | B-roll ranges used (pool seconds, start; length per cutlist) |
 |---|---|---|---|
-| 1 | aurapep-krill-oil-3 | 095006 | A 0.5 · A 14.5 · B 93.0 · B 112.0 · B 116.5 · C 186.0 |
+| 1 | aurapep-krill-oil-3 (sent 22 Oct) | 095006 | A 0.5 · A 14.5 · B 93.0 · B 112.0 · B 116.5 · C 186.0 |
 | 2 | — | — | — |
 | 3 | — | — | — |
 | 4 | — | — | — |
