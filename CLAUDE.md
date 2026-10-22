@@ -75,6 +75,15 @@ otherwise for a specific video.
   strongest hook first.
 - **No draft step** (owner, 19 Oct: "Lepas ni terus render final"): check the
   edit yourself with snapshots, then render the final straight away and send it.
+- **Batch folders** (owner, 22 Oct): a folder may hold several talking clips
+  (e.g. 5) mixed with usage clips and product close-ups. Make one video per
+  talking clip, all in one go. **Every clip in the folder must be used**, and
+  **no clip appears in two videos** — except a long clip may be cut into
+  different, non-overlapping parts for different videos ("Boleh potong").
+  Keep a clip → video table in each EDL `_note` and check nothing is left
+  out; send each final as soon as it is done.
+- Media of finished projects (sources, transcoded assets, renders — all
+  git-ignored, originals on Drive) may be deleted to free disk (owner, 22 Oct).
 
 ## Audio
 
