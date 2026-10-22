@@ -5,3 +5,5 @@ jantung .media/images/image_004.png
 otak .media/images/image_005.png
 makanan .media/images/image_006.png
 keluarga .media/images/image_007.png
+krill .media/images/image_008.png
+stok .media/images/image_009.png
