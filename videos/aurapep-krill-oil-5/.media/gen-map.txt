@@ -1,0 +1,7 @@
+ikan .media/images/image_001.png
+sihat .media/images/image_002.png
+mata .media/images/image_003.png
+jantung .media/images/image_004.png
+otak .media/images/image_005.png
+jarang .media/images/image_006.png
+harian .media/images/image_007.png
