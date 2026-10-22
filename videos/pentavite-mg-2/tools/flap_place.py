@@ -39,9 +39,9 @@ def faces(path):
 
 
 def cost(box, fb, px):
-    """Share of the box (plus 30 px breathing room) on the subject mask; +1 if it touches a face."""
+    """Share of the box (plus breathing room) on the subject mask; +1 if it touches a face."""
     x0, y0, x1, y1 = box
-    y1 += 30
+    x0, y0, x1, y1 = x0 - 20, y0 - 10, x1 + 20, y1 + 30   # breathing room around the caption
     hit = any(not (y1 < f[1] or y0 > f[3] or x1 < f[0] or x0 > f[2]) for f in fb)
     c = 0.0
     if px is not None:
@@ -72,6 +72,24 @@ if not reuse:
     fdir.mkdir(parents=True, exist_ok=True)
     for f in snap.glob("frame-*.png"):
         f.rename(fdir / f.name)
+# --refresh T0-T1[,T0-T1…]: with --reuse, re-capture only the cards inside these output times
+# (after swapping a cutaway) instead of every frame.
+refresh = []
+if "--refresh" in sys.argv:
+    refresh = [tuple(map(float, r.split("-"))) for r in sys.argv[sys.argv.index("--refresh") + 1].split(",")]
+if reuse and refresh:
+    idx = [i for i, t in enumerate(times) if any(a <= t <= b for a, b in refresh)]
+    for f in snap.glob("frame-*.png"):
+        f.unlink()
+    subprocess.run(HF + ["snapshot", "--at", ",".join(str(times[i]) for i in idx), "--no-end", "--timeout", "20000"],
+                   cwd=ROOT, env=ENV, check=True, stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+    new = sorted(snap.glob("frame-*.png"), key=lambda p: int(re.search(r"frame-(\d+)", p.name).group(1)))
+    for i, f in zip(idx, new):
+        f.replace(fdir / f"frame-{i:02d}-at-{times[i]}s.png")
+        for old in fdir.glob(f"frame-{i:02d}-at-*.png"):
+            if old.name != f"frame-{i:02d}-at-{times[i]}s.png":
+                old.unlink()
+        (mdir / f"m{i:02d}.png").unlink(missing_ok=True)
 frames = sorted(fdir.glob("frame-*.png"), key=lambda p: int(re.search(r"frame-(\d+)", p.name).group(1)))
 assert len(frames) == len(times), (len(frames), len(times))
 mdir.mkdir(parents=True, exist_ok=True)

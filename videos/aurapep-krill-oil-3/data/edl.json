@@ -1,5 +1,5 @@
 {
-  "_note": "Aurapep Krill Oil #3 — video 1 of the 6-clip batch in Drive folder 1irOVOgs… (see videos/_batch-krill/plan.md for which clip goes to which video). A-roll: VID_20261022_095006 (Drive 16dt9G8U…), front camera saved mirrored — label reads backwards — flipped back in CSS; lavalier mic, voice used as recorded. B-roll: assets/b.mp4 is the batch pool videos/_batch-krill/b.mp4 = VID_20261022_092840 (A, 0-90.46) + VID_20261021_091344 (B, 90.46-129.79) + VID_20261021_091830 (C, 129.79-206.8). This video uses A 0.5, B 93.0, B 112.0, C 160.5, C 186.0. Dropped: the pause 22.4-26.5. Owner: captions like the reference video (never over faces/product), no CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "_note": "Aurapep Krill Oil #3 — video 1 of the 6-clip batch in Drive folder 1irOVOgs… (see videos/_batch-krill/plan.md for which clip goes to which video). A-roll: VID_20261022_095006 (Drive 16dt9G8U…), front camera saved mirrored — label reads backwards — flipped back in CSS; lavalier mic, voice used as recorded. B-roll: assets/b.mp4 is the batch pool videos/_batch-krill/b.mp4 = VID_20261022_092840 (A, 0-90.46) + VID_20261021_091344 (B, 90.46-129.79) + VID_20261021_091830 (C, 129.79-206.8). This video uses A 0.5, A 14.5, B 93.0, B 112.0, B 116.5, C 186.0. Dropped: the pause 22.4-26.5. Owner: captions like the reference video (never over faces/product), no CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
   "fps": 30,
   "width": 1080,
   "height": 1920,
@@ -153,15 +153,33 @@
       ],
       "to": [
         "S06",
-        "end"
+        "astaxanthin"
       ],
-      "src": 160.5,
-      "note": "C: softgel merah dekat kamera (astaxanthin)",
+      "src": 14.5,
+      "note": "A: botol atas meja, tiada orang",
       "push": [
         1.0,
         1.08
       ],
       "origin": "50% 45%"
+    },
+    {
+      "id": "B4b",
+      "from": [
+        "S06",
+        "astaxanthin"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "src": 116.5,
+      "note": "B: penutup penuh softgel merah atas rumput (astaxanthin)",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 50%"
     },
     {
       "id": "B5",
