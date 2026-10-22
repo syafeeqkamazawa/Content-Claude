@@ -20,6 +20,6 @@ B-roll pool `b.mp4` (shared, hard-linked into each project's assets/b.mp4):
 | 1 | aurapep-krill-oil-3 (sent 22 Oct) | 095006 | A 0.5 · A 14.5 · B 93.0 · B 112.0 · B 116.5 · C 186.0 |
 | 2 | aurapep-krill-oil-4 (sent 22 Oct) | 095127 | A 17.0 · B 97.0 · B 108.5 · B 120.0 · C 203.6 |
 | 3 | aurapep-krill-oil-5 (sent 22 Oct) | 095302 | A 3.0 · B 100.5 · B 102.0 · B 106.5 · B 114.3 · C 130.0 |
-| 4 | aurapep-krill-oil-6 | 095611 | A 47.0 · A 65.0 · B 99.0 · B 110.4 · B 122.9 |
+| 4 | aurapep-krill-oil-6 (sent 22 Oct) | 095611 | A 47.0 · A 65.0 · B 99.0 · B 110.4 · B 122.9 |
 | 5 | — | — | — |
 | 6 | — | — | — |
