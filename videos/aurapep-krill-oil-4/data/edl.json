@@ -1,0 +1,342 @@
+{
+  "_note": "Aurapep Krill Oil #4 — video 2 of the 6-clip batch in Drive folder 1irOVOgs… (clip plan: videos/_batch-krill/plan.md). A-roll: VID_20261022_095127 (Drive 1Q1wN_54…), front camera saved mirrored — flipped back in CSS; lavalier mic, voice used as recorded. B-roll: assets/b.mp4 = the batch pool videos/_batch-krill/b.mp4 (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8). This video uses B 97.0, B 108.5, B 120.0, C 143.0, C 190.5 (none of video 1's ranges). Dropped: the pauses, the false start 'ibu ayah, abang kakak dan boleh' (40.9-42.6), the first 'stok pun baru…' takes (49.9-57.9) and the whisper ghost 'terima kasih kerana menonton'. Owner: captions like the reference video (never over faces/product), no CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "caption_style": "flap",
+  "mirror": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 2.75,
+      "out": 9.95,
+      "zoom": 1.05,
+      "text": "Ramai orang sanggup habiskan duit untuk cantikkan kereta, rumah, macam-macam lagi, tapi bila bab kesihatan sendiri ni selalu tertangguh kan?",
+      "note": "HOOK"
+    },
+    {
+      "id": "S02",
+      "in": 11.95,
+      "out": 16.45,
+      "zoom": 1.0,
+      "text": "Sedangkan makin meningkat usia makin penting kita jaga jantung, otak dan mata guys.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 16.45,
+      "out": 19.6,
+      "zoom": 1.05,
+      "text": "Sebab tu saya nak kongsikan Aurapep Krill Oil ni.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 24.0,
+      "out": 29.9,
+      "zoom": 1.0,
+      "text": "Ada omega 3 dengan EPA untuk sokong kesihatan jantung dan DHA yang penting untuk otak serta penglihatan.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 29.95,
+      "out": 32.85,
+      "zoom": 1.0,
+      "text": "Turut mengandungi astaxanthin, sejenis antioksidan.",
+      "note": ""
+    },
+    {
+      "id": "S06",
+      "in": 33.35,
+      "out": 37.15,
+      "zoom": 1.05,
+      "text": "Ingat, kereta boleh beli baru, tapi badan kita ni ada satu je guys.",
+      "note": ""
+    },
+    {
+      "id": "S07",
+      "in": 43.7,
+      "out": 49.8,
+      "zoom": 1.0,
+      "text": "Ibu ayah, abang kakak yang nak ambil berat tentang nutrisi harian tu, boleh klik beg kuning sekarang, harga tengah promosi.",
+      "note": "take 2"
+    },
+    {
+      "id": "S08",
+      "in": 58.1,
+      "out": 62.5,
+      "zoom": 1.05,
+      "text": "Stok pun baru je ada balik ni, sementara stok ada tu, boleh grab awal-awal.",
+      "note": "CTA last take"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "tertangguh",
+      1.08
+    ],
+    [
+      "S06",
+      "satu",
+      1.08
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S03",
+        "aurapep"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "src": 97.0,
+      "note": "B: botol depan atas rumput",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "epa"
+      ],
+      "src": 108.5,
+      "note": "B: penutup dibuka, softgel merah",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B3",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "src": 120.0,
+      "note": "B: botol + penutup penuh softgel (astaxanthin)",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 45%"
+    },
+    {
+      "id": "B4",
+      "from": [
+        "S07",
+        "boleh"
+      ],
+      "to": [
+        "S07",
+        "harga"
+      ],
+      "src": 143.0,
+      "note": "C: botol ditunjuk ke kamera",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B5",
+      "from": [
+        "S08",
+        "start"
+      ],
+      "to": [
+        "S08",
+        "boleh"
+      ],
+      "src": 190.5,
+      "note": "C: botol dekat dalam tangan",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 40%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "kereta",
+      "from": [
+        "S01",
+        "cantikkan"
+      ],
+      "to": [
+        "S01",
+        "tapi"
+      ],
+      "note": "AI: lelaki gilap kereta"
+    },
+    {
+      "id": "usia",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: lelaki 50-an perasan uban di cermin"
+    },
+    {
+      "id": "jantung",
+      "from": [
+        "S04",
+        "epa"
+      ],
+      "to": [
+        "S04",
+        "dha"
+      ],
+      "note": "AI: lelaki berbasikal"
+    },
+    {
+      "id": "otak",
+      "from": [
+        "S04",
+        "dha"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: wanita berhijab main teka silang kata"
+    },
+    {
+      "id": "satu",
+      "from": [
+        "S06",
+        "tapi"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "note": "AI: lelaki regangan waktu pagi"
+    },
+    {
+      "id": "harian",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "boleh"
+      ],
+      "note": "AI: sarapan + softgel"
+    }
+  ],
+  "titles": [],
+  "brand_words": [
+    "aurapep",
+    "krill",
+    "oil"
+  ],
+  "keywords": [
+    "kereta",
+    "rumah",
+    "kesihatan",
+    "tertangguh",
+    "usia",
+    "jantung",
+    "otak",
+    "mata",
+    "omega",
+    "3",
+    "epa",
+    "dha",
+    "penglihatan",
+    "astaxanthin",
+    "antioksidan",
+    "badan",
+    "satu",
+    "nutrisi",
+    "harian",
+    "promosi",
+    "stok"
+  ],
+  "panel": {
+    "title": "SEMAK NUTRISI",
+    "from": [
+      "S03",
+      "start"
+    ],
+    "items": [
+      {
+        "text": "OMEGA 3",
+        "from": [
+          "S04",
+          "omega"
+        ],
+        "done": [
+          "S04",
+          "epa"
+        ]
+      },
+      {
+        "text": "EPA JANTUNG",
+        "from": [
+          "S04",
+          "epa"
+        ],
+        "done": [
+          "S04",
+          "dha"
+        ]
+      },
+      {
+        "text": "DHA OTAK",
+        "from": [
+          "S04",
+          "dha"
+        ],
+        "done": [
+          "S04",
+          "end"
+        ]
+      },
+      {
+        "text": "ASTAXANTHIN",
+        "from": [
+          "S05",
+          "astaxanthin"
+        ],
+        "done": [
+          "S05",
+          "end"
+        ]
+      }
+    ]
+  },
+  "_owner_decisions": "22 Okt: batch 6 klip — video 2 (095127). Satu video satu klip bercakap, setiap klip digunakan, tiada julat B-roll berulang. Kapsyen gaya rujukan, tak tutup wajah/produk; tiada butang CTA; overlay banyak; terus render final; tiada muzik."
+}
