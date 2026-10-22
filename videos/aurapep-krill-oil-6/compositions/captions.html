@@ -49,7 +49,7 @@
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.set("#fl-block", { x: 0, y: 0, scale: 1 }, 0.0);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 0.0);
           tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 0.0);
           tl.set("#fl-0-1", { textContent: "H", color: "#8E9AA6" }, 0.0333);
           tl.set("#fl-0-1", { textContent: "#", color: "#8E9AA6" }, 0.0667);
@@ -1039,6 +1039,9 @@
           tl.set("#fl-0-11", { textContent: "B", color: "#8E9AA6" }, 11.6333);
           tl.set("#fl-0-11", { textContent: "G", color: "#F4F4F4" }, 11.6667);
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 11.6667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 11.5);
+          tl.set("#fl-block", { x: -81, y: 860, scale: 0.45 }, 11.6667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 11.6667);
           tl.set("#fl-0-0", { textContent: "!", color: "#8E9AA6" }, 11.7333);
           tl.set("#fl-0-0", { textContent: "0", color: "#8E9AA6" }, 11.7667);
           tl.set("#fl-0-0", { textContent: "M", color: "#8E9AA6" }, 11.8333);
@@ -1101,6 +1104,9 @@
           tl.set("#fl-0-12", { textContent: "K", color: "#8E9AA6" }, 12.1333);
           tl.set("#fl-0-12", { textContent: "P", color: "#FF6B57" }, 12.1667);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 12.1667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 12.6333);
+          tl.set("#fl-block", { x: 560, y: 570, scale: 0.45 }, 12.8333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 12.8333);
           tl.set("#fl-0-1", { textContent: "G", color: "#8E9AA6" }, 12.9);
           tl.set("#fl-0-1", { textContent: "9", color: "#8E9AA6" }, 12.9333);
           tl.set("#fl-0-1", { textContent: "V", color: "#8E9AA6" }, 12.9667);
@@ -1153,6 +1159,9 @@
           tl.set("#fl-0-12", { textContent: "M", color: "#8E9AA6" }, 13.2667);
           tl.set("#fl-0-12", { textContent: ".", color: "#FF6B57" }, 13.3);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 13.3);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 13.2);
+          tl.set("#fl-block", { x: 560, y: 715, scale: 0.45 }, 13.3667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 13.3667);
           tl.set("#fl-0-0", { textContent: "", color: "#F4F4F4" }, 13.5667);
           tl.fromTo("#fl-0-0", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 13.5667);
           tl.set("#fl-0-1", { textContent: "I", color: "#8E9AA6" }, 13.4667);
@@ -1261,6 +1270,9 @@
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 14.4667);
           tl.set("#fl-0-12", { textContent: "", color: "#F4F4F4" }, 14.5);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 14.5);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 14.5);
+          tl.set("#fl-block", { x: 0, y: 1150, scale: 1.0 }, 14.6667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 14.6667);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 14.9);
           tl.fromTo("#fl-0-1", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 14.9);
           tl.set("#fl-0-2", { textContent: "", color: "#F4F4F4" }, 14.9333);
@@ -1301,6 +1313,9 @@
           tl.fromTo("#fl-0-10", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 15.1333);
           tl.set("#fl-0-11", { textContent: "", color: "#F4F4F4" }, 15.1333);
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 15.1333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 15.3333);
+          tl.set("#fl-block", { x: 424, y: 1150, scale: 0.6 }, 15.5333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 15.5333);
           tl.set("#fl-0-1", { textContent: "O", color: "#8E9AA6" }, 15.6);
           tl.set("#fl-0-1", { textContent: "A", color: "#8E9AA6" }, 15.6333);
           tl.set("#fl-0-1", { textContent: "3", color: "#8E9AA6" }, 15.6667);
@@ -1353,6 +1368,9 @@
           tl.set("#fl-0-12", { textContent: "U", color: "#8E9AA6" }, 15.9667);
           tl.set("#fl-0-12", { textContent: "A", color: "#FFB627" }, 16.0);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 16.0);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 16.3);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 16.4667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 16.4667);
           tl.set("#fl-0-1", { textContent: "Q", color: "#8E9AA6" }, 16.5667);
           tl.set("#fl-0-1", { textContent: "C", color: "#8E9AA6" }, 16.6);
           tl.set("#fl-0-1", { textContent: "5", color: "#8E9AA6" }, 16.6333);
@@ -1724,6 +1742,9 @@
           tl.set("#fl-0-12", { textContent: "8", color: "#8E9AA6" }, 20.6);
           tl.set("#fl-0-12", { textContent: ".", color: "#FFB627" }, 20.6333);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 20.6333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 20.9);
+          tl.set("#fl-block", { x: -81, y: 0, scale: 0.45 }, 21.0667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 21.0667);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 21.3);
           tl.fromTo("#fl-0-1", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 21.3);
           tl.set("#fl-0-2", { textContent: "", color: "#F4F4F4" }, 21.3333);
@@ -1769,6 +1790,9 @@
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 21.5333);
           tl.set("#fl-0-12", { textContent: "", color: "#F4F4F4" }, 21.5667);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 21.5667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 21.5333);
+          tl.set("#fl-block", { x: -81, y: 860, scale: 0.45 }, 21.7333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 21.7333);
           tl.set("#fl-0-1", { textContent: "6", color: "#8E9AA6" }, 21.8);
           tl.set("#fl-0-1", { textContent: "S", color: "#8E9AA6" }, 21.8333);
           tl.set("#fl-0-1", { textContent: "E", color: "#8E9AA6" }, 21.8667);
@@ -1824,6 +1848,9 @@
           tl.set("#fl-0-11", { textContent: "5", color: "#8E9AA6" }, 22.1333);
           tl.set("#fl-0-11", { textContent: "N", color: "#FFB627" }, 22.1667);
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 22.1667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 22.1333);
+          tl.set("#fl-block", { x: -81, y: 1005, scale: 0.45 }, 22.3333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 22.3333);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 22.5333);
           tl.fromTo("#fl-0-1", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 22.5333);
           tl.set("#fl-0-2", { textContent: "", color: "#F4F4F4" }, 22.5667);
@@ -1927,6 +1954,9 @@
           tl.set("#fl-0-12", { textContent: "/", color: "#8E9AA6" }, 23.3);
           tl.set("#fl-0-12", { textContent: ".", color: "#FFB627" }, 23.3333);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 23.3333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 23.4333);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 23.6333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 23.6333);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 23.8333);
           tl.fromTo("#fl-0-1", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 23.8333);
           tl.set("#fl-0-2", { textContent: "", color: "#F4F4F4" }, 23.8667);
@@ -2197,6 +2227,9 @@
           tl.fromTo("#fl-0-10", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 27.5667);
           tl.set("#fl-0-11", { textContent: "", color: "#F4F4F4" }, 27.5667);
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 27.5667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 27.5);
+          tl.set("#fl-block", { x: -81, y: 0, scale: 0.45 }, 27.6667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 27.6667);
           tl.set("#fl-0-0", { textContent: "A", color: "#8E9AA6" }, 27.7333);
           tl.set("#fl-0-0", { textContent: "3", color: "#8E9AA6" }, 27.7667);
           tl.set("#fl-0-0", { textContent: "P", color: "#8E9AA6" }, 27.8333);
@@ -2387,6 +2420,9 @@
           tl.set("#fl-0-10", { textContent: "F", color: "#8E9AA6" }, 29.5667);
           tl.set("#fl-0-10", { textContent: ".", color: "#F4F4F4" }, 29.6333);
           tl.fromTo("#fl-0-10", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 29.6333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 29.7333);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 29.9333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 29.9333);
           tl.set("#fl-0-0", { textContent: "I", color: "#8E9AA6" }, 29.9667);
           tl.set("#fl-0-0", { textContent: "%", color: "#8E9AA6" }, 30.0);
           tl.set("#fl-0-0", { textContent: "X", color: "#8E9AA6" }, 30.0667);
@@ -2624,6 +2660,9 @@
           tl.set("#fl-0-13", { textContent: "8", color: "#8E9AA6" }, 32.3333);
           tl.set("#fl-0-13", { textContent: ".", color: "#F4F4F4" }, 32.4);
           tl.fromTo("#fl-0-13", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 32.4);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 32.3667);
+          tl.set("#fl-block", { x: -75, y: 0, scale: 0.6 }, 32.5667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 32.5667);
           tl.set("#fl-0-0", { textContent: "", color: "#F4F4F4" }, 32.7333);
           tl.fromTo("#fl-0-0", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 32.7333);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 32.7667);
@@ -2876,6 +2915,9 @@
           tl.set("#fl-0-12", { textContent: "?", color: "#8E9AA6" }, 35.5667);
           tl.set("#fl-0-12", { textContent: ".", color: "#FFB627" }, 35.6);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 35.6);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 35.4667);
+          tl.set("#fl-block", { x: 0, y: 1150, scale: 1.0 }, 35.6667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 35.6667);
           tl.set("#fl-0-1", { textContent: "9", color: "#8E9AA6" }, 35.7333);
           tl.set("#fl-0-1", { textContent: "V", color: "#8E9AA6" }, 35.7667);
           tl.set("#fl-0-1", { textContent: "H", color: "#8E9AA6" }, 35.8);
@@ -2915,6 +2957,9 @@
           tl.set("#fl-0-12", { textContent: "+", color: "#8E9AA6" }, 36.1);
           tl.set("#fl-0-12", { textContent: "K", color: "#FFB627" }, 36.1333);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 36.1333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 36.4667);
+          tl.set("#fl-block", { x: -75, y: 0, scale: 0.6 }, 36.6667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 36.6667);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 36.8667);
           tl.fromTo("#fl-0-1", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 36.8667);
           tl.set("#fl-0-2", { textContent: "B", color: "#8E9AA6" }, 36.7333);
@@ -2963,6 +3008,9 @@
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 37.1);
           tl.set("#fl-0-12", { textContent: "", color: "#F4F4F4" }, 37.1333);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 37.1333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 37.2333);
+          tl.set("#fl-block", { x: -81, y: 0, scale: 0.45 }, 37.4333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 37.4333);
           tl.set("#fl-0-0", { textContent: "6", color: "#8E9AA6" }, 37.4667);
           tl.set("#fl-0-0", { textContent: "S", color: "#8E9AA6" }, 37.5);
           tl.set("#fl-0-0", { textContent: "E", color: "#8E9AA6" }, 37.5667);
@@ -3025,6 +3073,9 @@
           tl.set("#fl-0-12", { textContent: "C", color: "#8E9AA6" }, 37.8667);
           tl.set("#fl-0-12", { textContent: "K", color: "#FFB627" }, 37.9);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 37.9);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 38.0333);
+          tl.set("#fl-block", { x: 424, y: 1150, scale: 0.6 }, 38.2333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 38.2333);
           tl.set("#fl-0-0", { textContent: "", color: "#F4F4F4" }, 38.4);
           tl.fromTo("#fl-0-0", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 38.4);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 38.4333);
@@ -3075,6 +3126,9 @@
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 38.6667);
           tl.set("#fl-0-12", { textContent: "", color: "#F4F4F4" }, 38.7);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 38.7);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 38.4333);
+          tl.set("#fl-block", { x: -81, y: 0, scale: 0.45 }, 38.6333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 38.6333);
           tl.set("#fl-0-2", { textContent: "", color: "#F4F4F4" }, 38.8667);
           tl.fromTo("#fl-0-2", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 38.8667);
           tl.set("#fl-0-3", { textContent: "", color: "#F4F4F4" }, 38.8667);
@@ -3111,6 +3165,9 @@
           tl.fromTo("#fl-0-9", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 39.0333);
           tl.set("#fl-0-10", { textContent: "", color: "#F4F4F4" }, 39.0667);
           tl.fromTo("#fl-0-10", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 39.0667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 38.7);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 38.8667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 38.8667);
           tl.set("#fl-0-0", { textContent: "&", color: "#8E9AA6" }, 38.9333);
           tl.set("#fl-0-0", { textContent: "Y", color: "#8E9AA6" }, 38.9667);
           tl.set("#fl-0-0", { textContent: "K", color: "#8E9AA6" }, 39.0333);
@@ -4413,8 +4470,47 @@
           tl.set("#pn-st3", { textContent: "● DONE", color: "#5BD67A" }, 23.5667);
           tl.set("#pn-dt3", { textContent: "01.8s" }, 23.5667);
           tl.fromTo("#pn-st3", { scale: 1.25 }, { scale: 1, duration: 0.2, ease: "back.out(3)", immediateRender: false }, 23.5667);
-          tl.set("#fl-panel", { x: 688, y: 332, scale: 1 }, 9.0);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 1.0 }, 9.0);
           tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 9.1333);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 10.3667);
+          tl.set("#fl-panel", { x: 791, y: 380, scale: 0.7 }, 10.5333);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 10.5333);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 11.5);
+          tl.set("#fl-panel", { x: 791, y: 150, scale: 0.7 }, 13.3667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 13.3667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 16.3);
+          tl.set("#fl-panel", { x: 688, y: 380, scale: 1.0 }, 16.4667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 16.4667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 20.9);
+          tl.set("#fl-panel", { x: 688, y: 380, scale: 1.0 }, 23.6333);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 23.6333);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 27.5);
+          tl.set("#fl-panel", { x: 48, y: 241, scale: 0.7 }, 27.6667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 27.6667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 29.0);
+          tl.set("#fl-panel", { x: 688, y: 380, scale: 1.0 }, 29.9333);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 29.9333);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 32.3667);
+          tl.set("#fl-panel", { x: 48, y: 266, scale: 0.7 }, 32.5667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 32.5667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 35.4667);
+          tl.set("#fl-panel", { x: 48, y: 150, scale: 0.7 }, 35.6667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 35.6667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 36.4667);
+          tl.set("#fl-panel", { x: 48, y: 266, scale: 1.0 }, 36.6667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 36.6667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 37.2333);
+          tl.set("#fl-panel", { x: 48, y: 241, scale: 1.0 }, 37.4333);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 37.4333);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 38.0333);
+          tl.set("#fl-panel", { x: 48, y: 150, scale: 0.7 }, 38.2333);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 38.2333);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 38.4333);
+          tl.set("#fl-panel", { x: 48, y: 241, scale: 0.7 }, 38.6333);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 38.6333);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 38.7);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 1.0 }, 38.8667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 38.8667);
           window.__timelines["captions"] = tl;
         })();
       </script>
