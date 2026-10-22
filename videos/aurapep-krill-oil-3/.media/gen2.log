@@ -1,0 +1,7 @@
+== sibuk2 try 1
+media-use: 333 similar cached assets already exist — run `resolve --candidates --type image --intent "A busy Malay mother in her forties wearing a hijab that covers her hair, neck and chest and a lo
+{"ok":true,"id":"image_007","type":"image","path":".media/images/image_007.png","source":"generated","description":"A busy Malay mother in her forties wearing a hijab that covers her hair, neck and ch
+== baca2 try 1
+media-use: 335 similar cached assets already exist — run `resolve --candidates --type image --intent "A Malay woman in her fifties wearing a hijab that covers her hair, neck and chest and a loose lo
+{"ok":true,"id":"image_008","type":"image","path":".media/images/image_008.png","source":"generated","description":"A Malay woman in her fifties wearing a hijab that covers her hair, neck and chest an
+DONE

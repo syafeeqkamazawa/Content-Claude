@@ -1,0 +1,8 @@
+sibuk .media/images/image_001.png
+nutrisi .media/images/image_002.png
+ibuayah .media/images/image_003.png
+jalan .media/images/image_004.png
+baca .media/images/image_005.png
+keluarga .media/images/image_006.png
+sibuk2 .media/images/image_007.png
+baca2 .media/images/image_008.png
