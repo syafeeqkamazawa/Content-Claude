@@ -1,0 +1,6 @@
+kereta .media/images/image_001.png
+usia .media/images/image_002.png
+jantung .media/images/image_003.png
+otak .media/images/image_004.png
+satu .media/images/image_005.png
+harian .media/images/image_006.png

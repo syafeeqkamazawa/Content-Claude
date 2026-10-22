@@ -17,28 +17,33 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-kereta" class="clip fs" data-start="1.7667" data-duration="1.966" data-track-index="4"><div class="fs-in" id="fs-kereta-in"><div class="fs-layer" id="fs-kereta-bg" style="background-image:url(assets/photos/kereta.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-usia" class="clip fs" data-start="7.2" data-duration="4.499" data-track-index="4"><div class="fs-in" id="fs-usia-in"><div class="fs-layer" id="fs-usia-bg" style="background-image:url(assets/photos/usia.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-jantung" class="clip fs" data-start="16.6667" data-duration="1.833" data-track-index="4"><div class="fs-in" id="fs-jantung-in"><div class="fs-layer" id="fs-jantung-bg" style="background-image:url(assets/photos/jantung.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-otak" class="clip fs" data-start="18.5" data-duration="2.266" data-track-index="4"><div class="fs-in" id="fs-otak-in"><div class="fs-layer" id="fs-otak-bg" style="background-image:url(assets/photos/otak.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-kereta" class="clip fs" data-start="1.7667" data-duration="1.966" data-track-index="4"><div class="fs-in" id="fs-kereta-in"><div class="fs-layer" id="fs-kereta-bg" style="background-image:url(assets/photos/kereta-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-kereta-fg" style="background-image:url(assets/photos/kereta-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-usia" class="clip fs" data-start="7.2" data-duration="4.499" data-track-index="4"><div class="fs-in" id="fs-usia-in"><div class="fs-layer" id="fs-usia-bg" style="background-image:url(assets/photos/usia-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-usia-fg" style="background-image:url(assets/photos/usia-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-jantung" class="clip fs" data-start="16.6667" data-duration="1.833" data-track-index="4"><div class="fs-in" id="fs-jantung-in"><div class="fs-layer" id="fs-jantung-bg" style="background-image:url(assets/photos/jantung-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-jantung-fg" style="background-image:url(assets/photos/jantung-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-otak" class="clip fs" data-start="18.5" data-duration="2.266" data-track-index="4"><div class="fs-in" id="fs-otak-in"><div class="fs-layer" id="fs-otak-bg" style="background-image:url(assets/photos/otak-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-otak-fg" style="background-image:url(assets/photos/otak-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
         <div id="fs-satu" class="clip fs" data-start="25.2667" data-duration="2.199" data-track-index="4"><div class="fs-in" id="fs-satu-in"><div class="fs-layer" id="fs-satu-bg" style="background-image:url(assets/photos/satu.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-harian" class="clip fs" data-start="27.4667" data-duration="3.099" data-track-index="4"><div class="fs-in" id="fs-harian-in"><div class="fs-layer" id="fs-harian-bg" style="background-image:url(assets/photos/harian.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-harian" class="clip fs" data-start="27.4667" data-duration="3.099" data-track-index="4"><div class="fs-in" id="fs-harian-in"><div class="fs-layer" id="fs-harian-bg" style="background-image:url(assets/photos/harian-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-harian-fg" style="background-image:url(assets/photos/harian-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-kereta-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 1.7667);
-          tl.fromTo("#fs-kereta-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 1.9667, ease: "sine.inOut", immediateRender: false }, 1.7667);
+          tl.fromTo("#fs-kereta-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 1.9667, ease: "none", immediateRender: false }, 1.7667);
+          tl.fromTo("#fs-kereta-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 1.9667, ease: "sine.inOut", immediateRender: false }, 1.7667);
           tl.fromTo("#fs-usia-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 7.2);
-          tl.fromTo("#fs-usia-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 4.5, ease: "sine.inOut", immediateRender: false }, 7.2);
+          tl.fromTo("#fs-usia-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 4.5, ease: "none", immediateRender: false }, 7.2);
+          tl.fromTo("#fs-usia-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 4.5, ease: "sine.inOut", immediateRender: false }, 7.2);
           tl.fromTo("#fs-jantung-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 16.6667);
-          tl.fromTo("#fs-jantung-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 1.8333, ease: "sine.inOut", immediateRender: false }, 16.6667);
+          tl.fromTo("#fs-jantung-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 1.8333, ease: "none", immediateRender: false }, 16.6667);
+          tl.fromTo("#fs-jantung-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 1.8333, ease: "sine.inOut", immediateRender: false }, 16.6667);
           tl.fromTo("#fs-otak-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 18.5);
-          tl.fromTo("#fs-otak-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.2667, ease: "sine.inOut", immediateRender: false }, 18.5);
+          tl.fromTo("#fs-otak-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.2667, ease: "none", immediateRender: false }, 18.5);
+          tl.fromTo("#fs-otak-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.2667, ease: "sine.inOut", immediateRender: false }, 18.5);
           tl.fromTo("#fs-satu-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 25.2667);
           tl.fromTo("#fs-satu-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 2.2, ease: "sine.inOut", immediateRender: false }, 25.2667);
           tl.fromTo("#fs-harian-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 27.4667);
-          tl.fromTo("#fs-harian-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 3.1, ease: "sine.inOut", immediateRender: false }, 27.4667);
+          tl.fromTo("#fs-harian-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 3.1, ease: "none", immediateRender: false }, 27.4667);
+          tl.fromTo("#fs-harian-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 3.1, ease: "sine.inOut", immediateRender: false }, 27.4667);
           window.__timelines["visuals"] = tl;
         })();
       </script>
