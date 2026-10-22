@@ -17,31 +17,37 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-luaran" class="clip fs" data-start="3.9667" data-duration="1.599" data-track-index="4"><div class="fs-in" id="fs-luaran-in"><div class="fs-layer" id="fs-luaran-bg" style="background-image:url(assets/photos/luaran.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-luaran" class="clip fs" data-start="3.9667" data-duration="1.599" data-track-index="4"><div class="fs-in" id="fs-luaran-in"><div class="fs-layer" id="fs-luaran-bg" style="background-image:url(assets/photos/luaran-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-luaran-fg" style="background-image:url(assets/photos/luaran-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
         <div id="fs-nutrisi" class="clip fs" data-start="5.5667" data-duration="3.433" data-track-index="4"><div class="fs-in" id="fs-nutrisi-in"><div class="fs-layer" id="fs-nutrisi-bg" style="background-image:url(assets/photos/nutrisi.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-ibuayah" class="clip fs" data-start="10.9" data-duration="1.266" data-track-index="4"><div class="fs-in" id="fs-ibuayah-in"><div class="fs-layer" id="fs-ibuayah-bg" style="background-image:url(assets/photos/ibuayah.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-jantung" class="clip fs" data-start="16.1667" data-duration="2.499" data-track-index="4"><div class="fs-in" id="fs-jantung-in"><div class="fs-layer" id="fs-jantung-bg" style="background-image:url(assets/photos/jantung.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-otak" class="clip fs" data-start="18.6667" data-duration="2.466" data-track-index="4"><div class="fs-in" id="fs-otak-in"><div class="fs-layer" id="fs-otak-bg" style="background-image:url(assets/photos/otak.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-makanan" class="clip fs" data-start="23.6667" data-duration="4.033" data-track-index="4"><div class="fs-in" id="fs-makanan-in"><div class="fs-layer" id="fs-makanan-bg" style="background-image:url(assets/photos/makanan.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-keluarga" class="clip fs" data-start="29.9667" data-duration="2.599" data-track-index="4"><div class="fs-in" id="fs-keluarga-in"><div class="fs-layer" id="fs-keluarga-bg" style="background-image:url(assets/photos/keluarga.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-ibuayah" class="clip fs" data-start="10.9" data-duration="1.266" data-track-index="4"><div class="fs-in" id="fs-ibuayah-in"><div class="fs-layer" id="fs-ibuayah-bg" style="background-image:url(assets/photos/ibuayah-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-ibuayah-fg" style="background-image:url(assets/photos/ibuayah-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-jantung" class="clip fs" data-start="16.1667" data-duration="2.499" data-track-index="4"><div class="fs-in" id="fs-jantung-in"><div class="fs-layer" id="fs-jantung-bg" style="background-image:url(assets/photos/jantung-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-jantung-fg" style="background-image:url(assets/photos/jantung-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-otak" class="clip fs" data-start="18.6667" data-duration="2.466" data-track-index="4"><div class="fs-in" id="fs-otak-in"><div class="fs-layer" id="fs-otak-bg" style="background-image:url(assets/photos/otak-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-otak-fg" style="background-image:url(assets/photos/otak-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-makanan" class="clip fs" data-start="23.6667" data-duration="4.033" data-track-index="4"><div class="fs-in" id="fs-makanan-in"><div class="fs-layer" id="fs-makanan-bg" style="background-image:url(assets/photos/makanan-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-makanan-fg" style="background-image:url(assets/photos/makanan-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-keluarga" class="clip fs" data-start="29.9667" data-duration="2.599" data-track-index="4"><div class="fs-in" id="fs-keluarga-in"><div class="fs-layer" id="fs-keluarga-bg" style="background-image:url(assets/photos/keluarga-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-keluarga-fg" style="background-image:url(assets/photos/keluarga-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-luaran-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 3.9667);
-          tl.fromTo("#fs-luaran-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 1.6, ease: "sine.inOut", immediateRender: false }, 3.9667);
+          tl.fromTo("#fs-luaran-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 1.6, ease: "none", immediateRender: false }, 3.9667);
+          tl.fromTo("#fs-luaran-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 1.6, ease: "sine.inOut", immediateRender: false }, 3.9667);
           tl.fromTo("#fs-nutrisi-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 5.5667);
           tl.fromTo("#fs-nutrisi-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 3.4333, ease: "sine.inOut", immediateRender: false }, 5.5667);
           tl.fromTo("#fs-ibuayah-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 10.9);
-          tl.fromTo("#fs-ibuayah-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 1.2667, ease: "sine.inOut", immediateRender: false }, 10.9);
+          tl.fromTo("#fs-ibuayah-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 1.2667, ease: "none", immediateRender: false }, 10.9);
+          tl.fromTo("#fs-ibuayah-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 1.2667, ease: "sine.inOut", immediateRender: false }, 10.9);
           tl.fromTo("#fs-jantung-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 16.1667);
-          tl.fromTo("#fs-jantung-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.5, ease: "sine.inOut", immediateRender: false }, 16.1667);
+          tl.fromTo("#fs-jantung-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.5, ease: "none", immediateRender: false }, 16.1667);
+          tl.fromTo("#fs-jantung-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.5, ease: "sine.inOut", immediateRender: false }, 16.1667);
           tl.fromTo("#fs-otak-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 18.6667);
-          tl.fromTo("#fs-otak-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 2.4667, ease: "sine.inOut", immediateRender: false }, 18.6667);
+          tl.fromTo("#fs-otak-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.4667, ease: "none", immediateRender: false }, 18.6667);
+          tl.fromTo("#fs-otak-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.4667, ease: "sine.inOut", immediateRender: false }, 18.6667);
           tl.fromTo("#fs-makanan-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 23.6667);
-          tl.fromTo("#fs-makanan-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 4.0333, ease: "sine.inOut", immediateRender: false }, 23.6667);
+          tl.fromTo("#fs-makanan-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 4.0333, ease: "none", immediateRender: false }, 23.6667);
+          tl.fromTo("#fs-makanan-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 4.0333, ease: "sine.inOut", immediateRender: false }, 23.6667);
           tl.fromTo("#fs-keluarga-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 29.9667);
-          tl.fromTo("#fs-keluarga-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 2.6, ease: "sine.inOut", immediateRender: false }, 29.9667);
+          tl.fromTo("#fs-keluarga-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.6, ease: "none", immediateRender: false }, 29.9667);
+          tl.fromTo("#fs-keluarga-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.6, ease: "sine.inOut", immediateRender: false }, 29.9667);
           window.__timelines["visuals"] = tl;
         })();
       </script>

@@ -1,0 +1,7 @@
+luaran .media/images/image_001.png
+nutrisi .media/images/image_002.png
+ibuayah .media/images/image_003.png
+jantung .media/images/image_004.png
+otak .media/images/image_005.png
+makanan .media/images/image_006.png
+keluarga .media/images/image_007.png
