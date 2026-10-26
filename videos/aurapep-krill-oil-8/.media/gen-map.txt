@@ -1,2 +1,8 @@
 kulit .media/images/image_001.png
 terlupa .media/images/image_002.png
+ais .media/images/image_003.png
+jantung .media/images/image_004.png
+otak .media/images/image_005.png
+softgel .media/images/image_006.png
+cermin .media/images/image_007.png
+makan .media/images/image_008.png
