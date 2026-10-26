@@ -85,6 +85,34 @@ otherwise for a specific video.
 - Media of finished projects (sources, transcoded assets, renders — all
   git-ignored, originals on Drive) may be deleted to free disk (owner, 22 Oct).
 
+## Premium affiliate brief (owner, 26 Oct — applies to new videos)
+
+- **Export:** 9:16, **1440×2560, 60 fps** (optical-flow interpolation when the
+  source is 30 fps), **~20 Mbps**, MP4 H.264/H.265 (replaces the old
+  1080×1920 / 30 fps / under-30 MB encode). Light sharpen (~20%), saturation
+  +6%, natural premium grade, true product colours.
+- **Clip selection:** use only high-value footage — hands using, opening,
+  handling the product, bringing it to camera, label / texture close-ups.
+  Reject static product shots, idle hands, dead time, blurry or irrelevant
+  shots. (In a single-video folder not every clip has to be used; the
+  batch-folder "use every clip" rule only applies when the owner asks for it.)
+- **First clip only:** one tasteful hook effect (punch / snap zoom, speed ramp,
+  light shake, flash, product reveal) with a synced hook SFX.
+- **Other clips:** gentle motion 100–108% (push-in, pull-out, reframe) that
+  follows the action, never cropping product details. Clean / match / whip /
+  zoom transitions with light SFX; no background music.
+- **Overlays:** only where the voice explains benefits, ingredients, features
+  or specs; 3D motion (parallax, slight rotation, depth, float, push-in) that
+  stays smooth and relevant; never cover faces, demos or labels.
+- **Captions:** accurate Malay, 1–2 short lines, keywords highlighted, colours
+  from the product theme, style may vary per video, never over face / product /
+  labels / overlays / TikTok UI.
+- **Voice:** clean up noise, level and clarity; keep the owner's own voice.
+- **Conversion:** BOFU / payday — product early, real prices and vouchers only,
+  clear CTA. Never invent prices, promos, reviews, benefits or results.
+- **Delivery:** only the final MP4 — no drafts, previews or reports; ask only
+  for a missing source file or permission.
+
 ## Audio
 
 - **No background music** (owner, 15 Oct: "Mulai sekarang tak perlu letak
