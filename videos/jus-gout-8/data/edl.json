@@ -1,0 +1,306 @@
+{
+ "_note": "Jus Gout Pro Max #8 (Promaxx series) — payday BOFU, Drive folder 1gsRx4u7… (26 Oct, 10 products; only products with real demo footage are made). A-roll assets/a.mp4 = VID_20261026_143442 (0-141.75) + VID_20261026_143055 (141.75-247.6), front camera saved mirrored — the jar reads backwards — flipped back in CSS. B-roll pool assets/b.mp4 = VID_20261012_172341 (60 fps; also used by Jus Gout #1/#4-#7 — picks: 2.2 jar front, 39.5 hot water, 73.8 scoop, 131.5 stir, 197 spoon of juice). Kept takes: hook take 2 (143442 11.36-17.92), 29.72-37.18, 40.28-46.24, 61.18-69.72, 75.52-78.16, 89.64-99.44, 143055 88.26-94.42. Dropped repeated takes and false starts, whisper ghost 'terima kasih telah menonton'. No treatment claims. Owner 26 Oct brief: 2K 60 fps export, hook on first clip only, gentle motion, whip transitions, 3D product overlay, no music. Clip → video: 143442 + 143055 + 172341 → this video only.",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "in": 11.3,
+   "out": 17.98,
+   "zoom": 1.04,
+   "text": "Ibu, ayah, abang, kakak yang tengah usha Jus Gout Pro Max ni, dah tengok belum harga lepas klik voucher tu?",
+   "note": "HOOK (take 2)"
+  },
+  {
+   "id": "S02",
+   "in": 29.66,
+   "out": 37.24,
+   "zoom": 1.0,
+   "text": "Musim-musim gaji ni jangan lupa cek harga special dekat beg kuning tu, kadang-kadang harga yang korang nampak tu belum campur voucher lagi tau.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 40.22,
+   "out": 46.28,
+   "zoom": 1.0,
+   "text": "Yang ada pada saya ni Jus Gout Pro Max series, minuman tambahan dengan gabungan 6 ekstrak herba terpilih tau.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 61.12,
+   "out": 69.78,
+   "zoom": 1.0,
+   "text": "Cara nak sediakan pun senang je, masukkan 2 sudu Jus Gout Pro Max series ni dengan 250 ml air panas,",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 75.5,
+   "out": 78.22,
+   "zoom": 1.0,
+   "text": "kemudian kacau dan terus minum.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 89.6,
+   "out": 99.5,
+   "zoom": 1.0,
+   "text": "Yang dah lama survey produk ni, sekarang cuba tekan beg kuning, pilih produk dan tengok harga akhir dekat check out tu. Kalau tengah ada diskaun payday, boleh jimat lagi tau.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 229.947,
+   "out": 236.247,
+   "zoom": 1.04,
+   "text": "Tekan beg kuning sekarang, check harga payday, claim voucher kalau ada dan terus check out. Kalau dah nampak harga tu memang cun!",
+   "note": "CTA (spoken only)"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "harga"
+ },
+ "punch": [
+  [
+   "S07",
+   "cun!",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "dekat"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 2.2,
+   "note": "172341: balang depan (dapur)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S04",
+    "masukkan"
+   ],
+   "to": [
+    "S04",
+    "dengan"
+   ],
+   "src": 73.8,
+   "note": "172341: sudukan serbuk",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S04",
+    "dengan"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 39.5,
+   "note": "172341: air panas dalam cawan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 131.5,
+   "note": "172341: kacau jus",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S06",
+    "kalau"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 197.0,
+   "note": "172341: sudu jus siap",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "semak",
+   "from": [
+    "S06",
+    "sekarang"
+   ],
+   "to": [
+    "S06",
+    "kalau"
+   ],
+   "note": "AI: wanita bertudung semak telefon di dapur"
+  }
+ ],
+ "cards": [
+  {
+   "id": "balang",
+   "from": [
+    "S03",
+    "minuman"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "img": "assets/products/balang.png",
+   "bg": "assets/products/balang-bg.jpg"
+  }
+ ],
+ "titles": [],
+ "theme": {
+  "key": "#FFC21A",
+  "brand": "#FF7A45"
+ },
+ "brand_words": [
+  "jus",
+  "gout",
+  "pro",
+  "max",
+  "promaxx"
+ ],
+ "keywords": [
+  "harga",
+  "voucher",
+  "gaji",
+  "special",
+  "herba",
+  "6",
+  "ekstrak",
+  "senang",
+  "2",
+  "sudu",
+  "250",
+  "panas",
+  "kacau",
+  "minum",
+  "payday",
+  "jimat",
+  "diskaun",
+  "cun!",
+  "sekarang"
+ ],
+ "panel": {
+  "title": "CARA SEDIA",
+  "from": [
+   "S03",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "6 HERBA",
+    "from": [
+     "S03",
+     "gabungan"
+    ],
+    "done": [
+     "S03",
+     "end"
+    ]
+   },
+   {
+    "text": "2 SUDU",
+    "from": [
+     "S04",
+     "2"
+    ],
+    "done": [
+     "S04",
+     "dengan"
+    ]
+   },
+   {
+    "text": "250ML PANAS",
+    "from": [
+     "S04",
+     "dengan"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   },
+   {
+    "text": "KACAU MINUM",
+    "from": [
+     "S05",
+     "start"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik); folder 10 produk — buat yang cukup bahan sahaja.",
+ "flap_force": [
+  {
+   "from": 16.33,
+   "to": 19.92,
+   "panel": false,
+   "why": "3D product card"
+  },
+  {
+   "from": 35.73,
+   "to": 38.75,
+   "top": 1300,
+   "why": "cup fills the frame; keep the board in one place"
+  }
+ ]
+}
