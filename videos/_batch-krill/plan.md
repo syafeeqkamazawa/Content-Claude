@@ -22,4 +22,10 @@ B-roll pool `b.mp4` (shared, hard-linked into each project's assets/b.mp4):
 | 3 | aurapep-krill-oil-5 (sent 22 Oct) | 095302 | A 3.0 · B 100.5 · B 102.0 · B 106.5 · B 114.3 · C 130.0 |
 | 4 | aurapep-krill-oil-6 (sent 22 Oct) | 095611 | A 47.0 · A 65.0 · B 99.0 · B 110.4 · B 122.9 |
 | 5 | aurapep-krill-oil-7 (sent 26 Oct) | 095809 | A 4.8 · B 90.75 |
-| 6 | aurapep-krill-oil-8 | 095918 | B 91.8 |
+| 6 | aurapep-krill-oil-8 (sent 26 Oct) | 095918 | B 91.8 |
+
+All six videos sent (22 and 26 Oct). Every clip in the folder is used: the six
+talking clips once each, and the three B-roll clips A, B and C each in at least
+one video, with no pool range shown in two videos. The owner-at-table parts of A
+and C (face at the top of the frame) were mostly replaced by realistic AI photos
+so the captions never cover a face or the product.
