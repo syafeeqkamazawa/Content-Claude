@@ -1,0 +1,324 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "theme": {
+  "key": "#F5C451",
+  "brand": "#9FD3FF"
+ },
+ "brand_words": [
+  "aurapep",
+  "shilajit",
+  "complex"
+ ],
+ "keywords": [
+  "penat",
+  "penat,",
+  "lesu",
+  "lesu,",
+  "letih",
+  "nutrisi",
+  "magnesium",
+  "tenaga",
+  "tenaga,",
+  "zinc",
+  "imun",
+  "imun,",
+  "reishi",
+  "reishi.",
+  "reishi,",
+  "kkm",
+  "kkm,",
+  "halal",
+  "gmp",
+  "iso",
+  "iso.",
+  "sekarang",
+  "sekarang,",
+  "promo",
+  "promosi",
+  "promosi.",
+  "murah",
+  "murah,",
+  "stok",
+  "kesihatan",
+  "kesihatan.",
+  "keluarga",
+  "60."
+ ],
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). Folder Shilajit 12AIw3W3…: 5 klip bercakap → 5 video, setiap klip diguna, tiada julat B-roll berulang (videos/_batch-shilajit/plan.md).",
+ "flap_force": [
+  {
+   "from": 12.98,
+   "to": 16.05,
+   "panel": false,
+   "why": "3D product card"
+  }
+ ],
+ "segments": [
+  {
+   "id": "S01",
+   "in": 2.38,
+   "out": 10.32,
+   "zoom": 1.04,
+   "text": "Baru tengah hari dah rasa penat, balik kerja pula badan lesu sampai nak luangkan masa dengan keluarga pun dah rasa tak larat.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 10.32,
+   "out": 18.68,
+   "zoom": 1.0,
+   "text": "Jangan abaikan keperluan nutrisi badan kita. Ini Aurapep Shilajit Complex, gabungan Shilajit, Magnesium, Zinc dan Reishi.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 23.68,
+   "out": 28.8,
+   "zoom": 1.0,
+   "text": "Magnesium membantu badan menghasilkan tenaga, manakala Zinc menyokong sistem imun.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 32.32,
+   "out": 36.95,
+   "zoom": 1.0,
+   "text": "Jangan risau, produk ni juga dah ada label KKM, sijil halal antarabangsa,",
+   "note": "take 1"
+  },
+  {
+   "id": "S05",
+   "in": 44.5,
+   "out": 46.3,
+   "zoom": 1.0,
+   "text": "GMP dan juga ISO.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 46.9,
+   "out": 49.8,
+   "zoom": 1.0,
+   "text": "Kesihatan kita penting, keluarga pun perlukan kita.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 49.8,
+   "out": 56.04,
+   "zoom": 1.04,
+   "text": "Nak cuba Aurapep Shilajit Complex, tekan di beg kuning sekarang, harga tengah ada promo, grab terus.",
+   "note": "CTA (spoken only)"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "penat,"
+ },
+ "punch": [
+  [
+   "S07",
+   "terus.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "ini"
+   ],
+   "to": [
+    "S02",
+    "gabungan"
+   ],
+   "src": 58.0,
+   "note": "pool: kotak depan dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "manakala"
+   ],
+   "src": 100.0,
+   "note": "pool: buka botol, tablet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S03",
+    "manakala"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 82.3,
+   "note": "pool: botol dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S04",
+    "kkm,"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 49.6,
+   "note": "pool: label belakang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 109.4,
+   "note": "pool: botol depan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "penat",
+   "from": [
+    "S01",
+    "balik"
+   ],
+   "to": [
+    "S01",
+    "sampai"
+   ],
+   "note": "AI: lelaki letih di pejabat tengah hari"
+  },
+  {
+   "id": "keluarga",
+   "from": [
+    "S01",
+    "sampai"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: ayah letih di sofa, keluarga bermain"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S02",
+    "gabungan"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "panel": {
+  "title": "SEMAK NUTRISI",
+  "from": [
+   "S03",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "MAGNESIUM",
+    "from": [
+     "S03",
+     "start"
+    ],
+    "done": [
+     "S03",
+     "manakala"
+    ]
+   },
+   {
+    "text": "ZINC",
+    "from": [
+     "S03",
+     "manakala"
+    ],
+    "done": [
+     "S03",
+     "end"
+    ]
+   },
+   {
+    "text": "LABEL KKM",
+    "from": [
+     "S04",
+     "label"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   },
+   {
+    "text": "HALAL GMP ISO",
+    "from": [
+     "S05",
+     "start"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_note": "Aurapep Shilajit Complex #2 — video 1 of the 5-clip batch in Drive folder 12AIw3W3… (videos/_batch-shilajit/plan.md). A-roll assets/a.mp4 = VID_20261022_094054 (Drive 1IUVvOG9…) (front camera saved mirrored — box reads backwards — flipped back in CSS; lavalier mic). B-roll assets/b.mp4 = batch pool (VID_20261019_090353 0-22.33 + VID_20261019_090625 22.33-114.72; static box-on-grass shots skipped). Pool ranges used here: 49.6, 58.0, 82.3, 100.0, 109.4 (durations in plan.md). Kept takes: 2.38-10.36, 10.26-18.68, 23.68-28.84, 32.32-36.95 (take 1 of 'jangan risau…'), 44.50-46.30, 46.90-49.84, 49.74-56.04. Dropped the unclear 'memampalkan dokumen…' line (28.8-31.5) and take 2 of 'jangan risau'. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music."
+}

@@ -1,0 +1,324 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "theme": {
+  "key": "#F5C451",
+  "brand": "#9FD3FF"
+ },
+ "brand_words": [
+  "aurapep",
+  "shilajit",
+  "complex"
+ ],
+ "keywords": [
+  "penat",
+  "penat,",
+  "lesu",
+  "lesu,",
+  "letih",
+  "nutrisi",
+  "magnesium",
+  "tenaga",
+  "tenaga,",
+  "zinc",
+  "imun",
+  "imun,",
+  "reishi",
+  "reishi.",
+  "reishi,",
+  "kkm",
+  "kkm,",
+  "halal",
+  "gmp",
+  "iso",
+  "iso.",
+  "sekarang",
+  "sekarang,",
+  "promo",
+  "promosi",
+  "promosi.",
+  "murah",
+  "murah,",
+  "stok",
+  "kesihatan",
+  "kesihatan.",
+  "keluarga",
+  "60."
+ ],
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). Folder Shilajit 12AIw3W3…: 5 klip bercakap → 5 video, setiap klip diguna, tiada julat B-roll berulang (videos/_batch-shilajit/plan.md).",
+ "flap_force": [
+  {
+   "from": 16.18,
+   "to": 20.55,
+   "panel": false,
+   "why": "3D product card"
+  }
+ ],
+ "segments": [
+  {
+   "id": "S01",
+   "in": 9.4,
+   "out": 16.4,
+   "zoom": 1.04,
+   "text": "Lelaki ni kadang-kadang pelik, kereta kita servis ikut masa, tapi badan sendiri dah selalu penat, kita buat tak tahu je.",
+   "note": "HOOK (take 2)"
+  },
+  {
+   "id": "S02",
+   "in": 17.0,
+   "out": 24.62,
+   "zoom": 1.0,
+   "text": "Pagi kerja, petang balik lesu, esok ulang benda yang sama. Sebab tu penting untuk kita jaga pengambilan nutrisi harian kita.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 27.96,
+   "out": 36.76,
+   "zoom": 1.0,
+   "text": "Ini Aurapep Shilajit Complex. Ada magnesium yang bantu badan menghasilkan tenaga dan zinc untuk menyokong sistem imun, turut mengandungi Shilajit dan Reishi.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 39.9,
+   "out": 44.96,
+   "zoom": 1.0,
+   "text": "Produk ni juga ada label KKM serta sijil halal antarabangsa, GMP dan juga ISO.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 52.9,
+   "out": 56.32,
+   "zoom": 1.0,
+   "text": "Kereta rosak boleh tukar, tapi badan kita cuma ada satu je.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 60.28,
+   "out": 64.8,
+   "zoom": 1.0,
+   "text": "Tekan beg kuning sekarang, sementara stok ada tu, dan harga pun tengah promosi tu,",
+   "note": "CTA (spoken only)"
+  },
+  {
+   "id": "S07",
+   "in": 71.52,
+   "out": 72.6,
+   "zoom": 1.04,
+   "text": "grab terus!",
+   "note": ""
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "pelik,"
+ },
+ "punch": [
+  [
+   "S07",
+   "terus!",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "penting"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 19.0,
+   "note": "pool (090353): kotak dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "ada"
+   ],
+   "src": 60.5,
+   "note": "pool: kotak depan dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S03",
+    "turut"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 102.9,
+   "note": "pool: tablet dalam botol",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S04",
+    "label"
+   ],
+   "to": [
+    "S04",
+    "antarabangsa,"
+   ],
+   "src": 53.8,
+   "note": "pool: label belakang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S04",
+    "antarabangsa,"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 67.1,
+   "note": "pool: buka kotak, keluarkan botol",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "servis",
+   "from": [
+    "S01",
+    "kereta"
+   ],
+   "to": [
+    "S01",
+    "tapi"
+   ],
+   "note": "AI: kereta diservis di bengkel"
+  },
+  {
+   "id": "jem",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "sebab"
+   ],
+   "note": "AI: lelaki letih memandu balik kerja"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S03",
+    "ada"
+   ],
+   "to": [
+    "S03",
+    "turut"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "panel": {
+  "title": "SEMAK NUTRISI",
+  "from": [
+   "S03",
+   "ada"
+  ],
+  "items": [
+   {
+    "text": "MAGNESIUM",
+    "from": [
+     "S03",
+     "ada"
+    ],
+    "done": [
+     "S03",
+     "dan"
+    ]
+   },
+   {
+    "text": "ZINC",
+    "from": [
+     "S03",
+     "dan"
+    ],
+    "done": [
+     "S03",
+     "turut"
+    ]
+   },
+   {
+    "text": "SHILAJIT REISHI",
+    "from": [
+     "S03",
+     "turut"
+    ],
+    "done": [
+     "S03",
+     "end"
+    ]
+   },
+   {
+    "text": "KKM HALAL",
+    "from": [
+     "S04",
+     "label"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_note": "Aurapep Shilajit Complex #4 — video 3 of the 5-clip batch in Drive folder 12AIw3W3… (videos/_batch-shilajit/plan.md). A-roll assets/a.mp4 = VID_20261022_094336 (Drive 1eqj6qxL…) (front camera saved mirrored — box reads backwards — flipped back in CSS; lavalier mic). B-roll assets/b.mp4 = batch pool (VID_20261019_090353 0-22.33 + VID_20261019_090625 22.33-114.72; static box-on-grass shots skipped). Pool ranges used here: 19.0, 53.8, 60.5, 67.1, 102.9 (durations in plan.md). Kept takes: 9.40-16.40 (take 2 of the hook; take 1 1.9-7.4 dropped), 17.00-24.62, 27.96-36.80, 39.90-44.96, 52.90-56.32 (after 'kereta rosak' false start 51.1), 60.28-64.80, 71.52-72.60. Dropped the unclear 'memaparkan dokumen…' line (36.7-39.1) and the repeated CTA takes. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music."
+}

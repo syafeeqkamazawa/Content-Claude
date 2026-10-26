@@ -1,0 +1,320 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "theme": {
+  "key": "#F5C451",
+  "brand": "#9FD3FF"
+ },
+ "brand_words": [
+  "aurapep",
+  "shilajit",
+  "complex"
+ ],
+ "keywords": [
+  "penat",
+  "penat,",
+  "lesu",
+  "lesu,",
+  "letih",
+  "nutrisi",
+  "magnesium",
+  "tenaga",
+  "tenaga,",
+  "zinc",
+  "imun",
+  "imun,",
+  "reishi",
+  "reishi.",
+  "reishi,",
+  "kkm",
+  "kkm,",
+  "halal",
+  "gmp",
+  "iso",
+  "iso.",
+  "sekarang",
+  "sekarang,",
+  "promo",
+  "promosi",
+  "promosi.",
+  "murah",
+  "murah,",
+  "stok",
+  "kesihatan",
+  "kesihatan.",
+  "keluarga",
+  "60."
+ ],
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). Folder Shilajit 12AIw3W3…: 5 klip bercakap → 5 video, setiap klip diguna, tiada julat B-roll berulang (videos/_batch-shilajit/plan.md).",
+ "flap_force": [
+  {
+   "from": 15.95,
+   "to": 19.27,
+   "panel": false,
+   "why": "3D product card"
+  }
+ ],
+ "segments": [
+  {
+   "id": "S01",
+   "in": 1.02,
+   "out": 8.42,
+   "zoom": 1.04,
+   "text": "Pernah tak balik kerja anak ajak main, tapi badan terlalu penat sampai kita cuma mampu cakap, nanti dulu ya.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 8.4,
+   "out": 13.76,
+   "zoom": 1.0,
+   "text": "Kadang-kadang kita terlalu sibuk cari rezeki untuk keluarga sampai terlupa nak jaga kesihatan sendiri.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 13.76,
+   "out": 23.86,
+   "zoom": 1.0,
+   "text": "Sebab tu saya nak kongsikan Aurapep Shilajit Complex ni. Ada magnesium yang bantu badan menghasilkan tenaga dan zinc untuk menyokong sistem imun kita.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 29.48,
+   "out": 39.06,
+   "zoom": 1.0,
+   "text": "Produk ni juga turut mengandungi Shilajit dan Reishi, dan juga ada label KKM serta sijil halal antarabangsa, GMP dan juga ISO.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 39.06,
+   "out": 48.12,
+   "zoom": 1.04,
+   "text": "Keluarga bukan cuma perlukan duit kita je, mereka juga perlukan masa dan perhatian kita. Tekan beg kuning sekarang, harga tengah murah, boleh check out terus.",
+   "note": "CTA (spoken only)"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "penat"
+ },
+ "punch": [
+  [
+   "S05",
+   "terus.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S03",
+    "aurapep"
+   ],
+   "to": [
+    "S03",
+    "ada"
+   ],
+   "src": 43.6,
+   "note": "pool: ambil kotak, depan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S03",
+    "dan"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 90.0,
+   "note": "pool: botol berpusing",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S04",
+    "shilajit"
+   ],
+   "to": [
+    "S04",
+    "dan#2"
+   ],
+   "src": 65.4,
+   "note": "pool: buka kotak",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S04",
+    "ada"
+   ],
+   "to": [
+    "S04",
+    "halal"
+   ],
+   "src": 51.7,
+   "note": "pool: label belakang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S04",
+    "antarabangsa,"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 111.9,
+   "note": "pool: botol depan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "anak",
+   "from": [
+    "S01",
+    "tapi"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: anak ajak ayah yang letih bermain"
+  },
+  {
+   "id": "s1penat",
+   "from": [
+    "S02",
+    "sibuk"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI (dari Shilajit #1): lelaki letih di pejabat"
+  },
+  {
+   "id": "s1keluarga",
+   "from": [
+    "S05",
+    "mereka"
+   ],
+   "to": [
+    "S05",
+    "tekan"
+   ],
+   "note": "AI (dari Shilajit #1): keluarga bermain di taman"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S03",
+    "ada"
+   ],
+   "to": [
+    "S03",
+    "dan"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "panel": {
+  "title": "SEMAK NUTRISI",
+  "from": [
+   "S03",
+   "ada"
+  ],
+  "items": [
+   {
+    "text": "MAGNESIUM",
+    "from": [
+     "S03",
+     "ada"
+    ],
+    "done": [
+     "S03",
+     "dan"
+    ]
+   },
+   {
+    "text": "ZINC",
+    "from": [
+     "S03",
+     "dan"
+    ],
+    "done": [
+     "S03",
+     "end"
+    ]
+   },
+   {
+    "text": "SHILAJIT REISHI",
+    "from": [
+     "S04",
+     "start"
+    ],
+    "done": [
+     "S04",
+     "dan#2"
+    ]
+   },
+   {
+    "text": "KKM HALAL",
+    "from": [
+     "S04",
+     "ada"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_note": "Aurapep Shilajit Complex #3 — video 2 of the 5-clip batch in Drive folder 12AIw3W3… (videos/_batch-shilajit/plan.md). A-roll assets/a.mp4 = VID_20261022_094207 (Drive 1d-auJr_…) (front camera saved mirrored — box reads backwards — flipped back in CSS; lavalier mic). B-roll assets/b.mp4 = batch pool (VID_20261019_090353 0-22.33 + VID_20261019_090625 22.33-114.72; static box-on-grass shots skipped). Pool ranges used here: 43.6, 51.7, 65.4, 90.0, 111.9 (durations in plan.md). Kept takes: 1.02-8.46, 8.40-13.80, 13.70-23.86, 29.48-39.10 (after the false start 'turut mengandungi' 28.2), 39.04-48.12. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music."
+}
