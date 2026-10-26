@@ -31,7 +31,6 @@ html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1c0f0
       <div class="frame-wrap" id="wrap-S06"><video id="a-S06-1" class="clip aroll" src="assets/a.mp4" playsinline data-has-audio="true" data-start="21.9" data-duration="5.399" data-media-start="39.05" data-track-index="0"></video></div>
       <div class="frame-wrap" id="wrap-S07"><video id="a-S07-1" class="clip aroll" src="assets/a.mp4" playsinline data-has-audio="true" data-start="27.3" data-duration="2.899" data-media-start="45.05" data-track-index="0"></video><video id="a-S07-2" class="clip aroll" src="assets/a.mp4" playsinline data-has-audio="true" data-start="30.2" data-duration="2.666" data-media-start="48.07" data-track-index="0"></video></div>
       <div class="frame-wrap broll" id="bw-B1"><video id="b-B1" class="clip" src="assets/b.mp4" muted playsinline data-start="10.2333" data-duration="1.166" data-media-start="91.8" data-track-index="1"></video></div>
-      <div class="frame-wrap broll" id="bw-B2"><video id="b-B2" class="clip" src="assets/b.mp4" muted playsinline data-start="27.3" data-duration="2.633" data-media-start="188.6" data-track-index="1"></video></div>
       <div id="visuals" data-composition-id="visuals" data-composition-src="compositions/visuals.html" data-start="0" data-duration="32.8667" data-track-index="4" data-width="1080" data-height="1920"></div>
       <div id="captions" data-track-kind="captions" data-composition-id="captions" data-composition-src="compositions/captions.html" data-start="0" data-duration="32.8667" data-track-index="3" data-width="1080" data-height="1920"></div>
       <audio id="sfx-01-whoosh-short" class="clip" src="assets/sfx/whoosh-short.mp3" data-start="1.7" data-duration="0.5667" data-track-index="21" data-volume="0.3"></audio>
@@ -53,9 +52,6 @@ html, body { width: 1080px; height: 1920px; overflow: hidden; background: #1c0f0
       tl.set("#bw-B1", { transformOrigin: "50% 40%" }, 0);
       tl.fromTo("#bw-B1", { scale: 1.12 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, 10.2333);
       tl.fromTo("#bw-B1", { scale: 1.0 }, { scale: 1.1, duration: 0.8333, ease: "power1.inOut", immediateRender: false }, 10.5667);
-      tl.set("#bw-B2", { transformOrigin: "50% 50%" }, 0);
-      tl.fromTo("#bw-B2", { scale: 1.12 }, { scale: 1.0, duration: 0.3, ease: "power3.out" }, 27.3);
-      tl.fromTo("#bw-B2", { scale: 1.0 }, { scale: 1.08, duration: 2.3, ease: "power1.inOut", immediateRender: false }, 27.6333);
       window.__timelines["main"] = tl;
     </script>
   </body>

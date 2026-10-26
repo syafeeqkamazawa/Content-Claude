@@ -1,5 +1,5 @@
 {
-  "_note": "Aurapep Krill Oil #8 — video 6 of the 6-clip batch in Drive folder 1irOVOgs… (clip plan: videos/_batch-krill/plan.md). A-roll: VID_20261022_095918 (Drive 1lBQF8Dg…), front camera saved mirrored — flipped back in CSS; lavalier mic, voice used as recorded. B-roll: assets/b.mp4 = the batch pool videos/_batch-krill/b.mp4 (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8). This video uses B 91.8, C 188.6 (none of videos 1-5's ranges). Takes kept: 'Jaga penampilan…' take 2 (39.1). Dropped: take 1 (31.6-36.3) and the pauses. Owner: captions like the reference video (never over faces/product), no CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "_note": "Aurapep Krill Oil #8 — video 6 of the 6-clip batch in Drive folder 1irOVOgs… (clip plan: videos/_batch-krill/plan.md). A-roll: VID_20261022_095918 (Drive 1lBQF8Dg…), front camera saved mirrored — flipped back in CSS; lavalier mic, voice used as recorded. B-roll: assets/b.mp4 = the batch pool videos/_batch-krill/b.mp4 (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8). This video uses B 91.8 (none of videos 1-5's ranges); the C 188.6 close-up was dropped because the owner's face and the bottle fill the frame, leaving no clear spot for the captions. Takes kept: 'Jaga penampilan…' take 2 (39.1). Dropped: take 1 (31.6-36.3) and the pauses. Owner: captions like the reference video (never over faces/product), no CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
   "fps": 30,
   "width": 1080,
   "height": 1920,
@@ -100,24 +100,6 @@
         1.1
       ],
       "origin": "50% 40%"
-    },
-    {
-      "id": "B2",
-      "from": [
-        "S07",
-        "start"
-      ],
-      "to": [
-        "S07",
-        "sementara"
-      ],
-      "src": 188.6,
-      "note": "C: botol dekat dalam tangan",
-      "push": [
-        1.0,
-        1.08
-      ],
-      "origin": "50% 50%"
     }
   ],
   "photos": [
@@ -216,6 +198,18 @@
         "end"
       ],
       "note": "AI: keluarga makan hidangan seimbang"
+    },
+    {
+      "id": "belanja",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "sementara"
+      ],
+      "note": "AI: wanita berhijab membeli dalam talian"
     }
   ],
   "titles": [],

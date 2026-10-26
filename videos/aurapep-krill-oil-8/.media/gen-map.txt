@@ -6,3 +6,4 @@ otak .media/images/image_005.png
 softgel .media/images/image_006.png
 cermin .media/images/image_007.png
 makan .media/images/image_008.png
+belanja .media/images/image_009.png

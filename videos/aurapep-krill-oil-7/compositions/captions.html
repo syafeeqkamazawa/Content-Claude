@@ -49,7 +49,7 @@
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.set("#fl-block", { x: 0, y: 0, scale: 1 }, 0.0);
+          tl.set("#fl-block", { x: -75, y: 0, scale: 0.6 }, 0.0);
           tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 0.0);
           tl.set("#fl-0-1", { textContent: "H", color: "#8E9AA6" }, 0.0333);
           tl.set("#fl-0-1", { textContent: "#", color: "#8E9AA6" }, 0.0667);
@@ -409,6 +409,9 @@
           tl.fromTo("#fl-1-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 3.7333);
           tl.set("#fl-1-13", { textContent: "", color: "#F4F4F4" }, 3.7333);
           tl.fromTo("#fl-1-13", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 3.7333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 3.9333);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 4.1333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 4.1333);
           tl.set("#fl-0-0", { textContent: "M", color: "#8E9AA6" }, 4.1667);
           tl.set("#fl-0-0", { textContent: "+", color: "#8E9AA6" }, 4.2);
           tl.set("#fl-0-0", { textContent: "1", color: "#8E9AA6" }, 4.2667);
@@ -2956,6 +2959,9 @@
           tl.set("#fl-0-12", { textContent: "%", color: "#8E9AA6" }, 34.3);
           tl.set("#fl-0-12", { textContent: "N", color: "#F4F4F4" }, 34.3333);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 34.3333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 34.3);
+          tl.set("#fl-block", { x: -75, y: 1150, scale: 0.6 }, 34.4667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 34.4667);
           tl.set("#fl-0-0", { textContent: "0", color: "#8E9AA6" }, 34.5333);
           tl.set("#fl-0-0", { textContent: "M", color: "#8E9AA6" }, 34.5667);
           tl.set("#fl-0-0", { textContent: "+", color: "#8E9AA6" }, 34.6333);
@@ -3071,6 +3077,9 @@
           tl.set("#fl-0-12", { textContent: "+", color: "#8E9AA6" }, 35.6333);
           tl.set("#fl-0-12", { textContent: "S", color: "#F4F4F4" }, 35.6667);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 35.6667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 35.5);
+          tl.set("#fl-block", { x: -81, y: 1150, scale: 0.45 }, 35.6667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 35.6667);
           tl.set("#fl-0-1", { textContent: "%", color: "#8E9AA6" }, 35.7667);
           tl.set("#fl-0-1", { textContent: "X", color: "#8E9AA6" }, 35.8);
           tl.set("#fl-0-1", { textContent: "J", color: "#8E9AA6" }, 35.8333);
@@ -3128,6 +3137,9 @@
           tl.set("#fl-0-12", { textContent: "A", color: "#8E9AA6" }, 36.1333);
           tl.set("#fl-0-12", { textContent: "H", color: "#F4F4F4" }, 36.1667);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 36.1667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 36.3);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 36.4667);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 36.4667);
           tl.set("#fl-0-1", { textContent: "?", color: "#8E9AA6" }, 36.5667);
           tl.set("#fl-0-1", { textContent: "Z", color: "#8E9AA6" }, 36.6);
           tl.set("#fl-0-1", { textContent: "L", color: "#8E9AA6" }, 36.6333);
@@ -4478,8 +4490,32 @@
           tl.set("#pn-st3", { textContent: "● DONE", color: "#5BD67A" }, 24.9667);
           tl.set("#pn-dt3", { textContent: "01.6s" }, 24.9667);
           tl.fromTo("#pn-st3", { scale: 1.25 }, { scale: 1, duration: 0.2, ease: "back.out(3)", immediateRender: false }, 24.9667);
-          tl.set("#fl-panel", { x: 688, y: 332, scale: 1 }, 9.5333);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 0.7 }, 9.5333);
           tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 9.6667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 10.0333);
+          tl.set("#fl-panel", { x: 688, y: 380, scale: 1.0 }, 10.2333);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 10.2333);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 10.6667);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 0.7 }, 10.8667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 10.8667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 11.4333);
+          tl.set("#fl-panel", { x: 791, y: 380, scale: 0.7 }, 11.6333);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 11.6333);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 31.4);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 1.0 }, 31.5667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 31.5667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 32.0333);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 0.7 }, 32.2333);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 32.2333);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 35.5);
+          tl.set("#fl-panel", { x: 48, y: 940, scale: 0.7 }, 35.6667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 35.6667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 36.3);
+          tl.set("#fl-panel", { x: 688, y: 380, scale: 1.0 }, 36.4667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 36.4667);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 37.0667);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 0.7 }, 37.2667);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 37.2667);
           window.__timelines["captions"] = tl;
         })();
       </script>
