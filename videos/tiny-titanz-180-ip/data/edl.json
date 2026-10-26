@@ -1,0 +1,327 @@
+{
+ "_note": "Tiny Titanz 180+ IP (liquid sachet) — payday BOFU. Drive folder 1gsRx4u7… (26 Oct, 10 products; only products with real demo footage are made). A-roll: VID_20261026_142153 (box label reads correctly, no flip). B-roll pool assets/b.mp4 (60 fps): VID_20261013_213717 0-79.06 (box, sachet fan, tear, pour), VID_20261017_154407 79.06-189.93 (unboxing, back label, pour). Picks: 80.56 unboxing, 28.0 sachet fan, 141.06 back label, 45.0 tear, 57.0 pour, 2.0 box held. VID_20260913_105822 (landscape, mostly static) not used. Dropped: the first 'Serius…' take (8.7-11.3), pauses, whisper ghost 'selamat menikmati'. Owner 26 Oct brief: 2K 60 fps export, hook on first clip only, gentle motion, whip transitions, 3D product overlay, no music.",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "in": 1.95,
+   "out": 8.2,
+   "zoom": 1.04,
+   "text": "Ibu ayah, jangan beli 180 Plus ni harga biasa, kalau dekat beg kuning ni tengah ada promo payday.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 12.95,
+   "out": 18.25,
+   "zoom": 1.0,
+   "text": "Serius, yang dah lama aim Tiny Titanz 180 Plus untuk anak tu, cuba cek harga sekarang.",
+   "note": "take 2"
+  },
+  {
+   "id": "S03",
+   "in": 18.65,
+   "out": 20.85,
+   "zoom": 1.0,
+   "text": "Yang ni satu kotak dapat 14 sachet tau.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 21.25,
+   "out": 26.15,
+   "zoom": 1.0,
+   "text": "Dalam ni ada Aquamin, sumber kalsium untuk sokong tulang dan gigi anak yang sedang membesar.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 30.05,
+   "out": 39.1,
+   "zoom": 1.0,
+   "text": "Cara nak bagi pun senang sangat. Koyak je sachet, terus boleh minum. Tak payah bancuh, tak payah tambah air, sesuai untuk anak umur 2 hingga 18 tahun.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 39.6,
+   "out": 48.95,
+   "zoom": 1.04,
+   "text": "Yang hari tu tunggu gaji nak check out tu, sekarang cuba tengok balik harga dia. Check sekali voucher yang saya bagi. Kalau boleh dapat lebih murah, memang berbaloi beli sekarang.",
+   "note": "CTA (spoken only)"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "jangan"
+ },
+ "punch": [
+  [
+   "S06",
+   "berbaloi",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "tiny"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 80.56,
+   "note": "1017: buka kotak",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 28.0,
+   "note": "1013: kipas 14 sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "tulang"
+   ],
+   "src": 141.06,
+   "note": "1017: label belakang (Aquamin)",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S05",
+    "koyak"
+   ],
+   "to": [
+    "S05",
+    "tak"
+   ],
+   "src": 45.0,
+   "note": "1013: koyak sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S05",
+    "tak"
+   ],
+   "to": [
+    "S05",
+    "sesuai"
+   ],
+   "src": 57.0,
+   "note": "1013: tuang ke cawan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "check#2"
+   ],
+   "src": 2.0,
+   "note": "1013: kotak dipegang ke kamera",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "tulang",
+   "from": [
+    "S04",
+    "tulang"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: kanak-kanak aktif bermain"
+  },
+  {
+   "id": "adik",
+   "from": [
+    "S05",
+    "sesuai"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: adik-beradik pelbagai umur"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S06",
+    "check#2"
+   ],
+   "to": [
+    "S06",
+    "kalau"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "titles": [],
+ "theme": {
+  "key": "#F2C14E",
+  "brand": "#6FDC8C"
+ },
+ "brand_words": [
+  "tiny",
+  "titanz",
+  "180",
+  "plus"
+ ],
+ "keywords": [
+  "payday",
+  "promo",
+  "harga",
+  "biasa",
+  "14",
+  "sachet",
+  "aquamin",
+  "kalsium",
+  "tulang",
+  "gigi",
+  "senang",
+  "koyak",
+  "bancuh",
+  "2",
+  "18",
+  "voucher",
+  "murah",
+  "berbaloi"
+ ],
+ "panel": {
+  "title": "SEMAK PRODUK",
+  "from": [
+   "S02",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "14 SACHET",
+    "from": [
+     "S03",
+     "14"
+    ],
+    "done": [
+     "S03",
+     "end"
+    ]
+   },
+   {
+    "text": "AQUAMIN",
+    "from": [
+     "S04",
+     "aquamin,"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   },
+   {
+    "text": "TAK BANCUH",
+    "from": [
+     "S05",
+     "tak"
+    ],
+    "done": [
+     "S05",
+     "sesuai"
+    ]
+   },
+   {
+    "text": "UMUR 2-18",
+    "from": [
+     "S05",
+     "sesuai"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik); folder 10 produk — buat yang cukup bahan sahaja.",
+ "flap_force": [
+  {
+   "from": 27.7,
+   "to": 31.7,
+   "top": 1300,
+   "panel": false,
+   "why": "box held high in frame (mask misses it)"
+  },
+  {
+   "from": 31.7,
+   "to": 33.33,
+   "panel": false,
+   "why": "3D product card"
+  }
+ ]
+}
