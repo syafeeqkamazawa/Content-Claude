@@ -337,5 +337,31 @@
    }
   ]
  },
- "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik); folder 10 produk — buat yang cukup bahan sahaja."
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik); folder 10 produk — buat yang cukup bahan sahaja.",
+ "flap_force": [
+  {
+   "from": 0,
+   "to": 6.27,
+   "top": 150,
+   "why": "hook: room above the face for the full board"
+  },
+  {
+   "from": 8.37,
+   "to": 12.58,
+   "top": 150,
+   "why": "keep the board above the box label"
+  },
+  {
+   "from": 12.58,
+   "to": 15.82,
+   "panel": false,
+   "why": "gummy held up / open box lid"
+  },
+  {
+   "from": 22.1,
+   "to": 24.98,
+   "panel": false,
+   "why": "3D product card"
+  }
+ ]
 }
