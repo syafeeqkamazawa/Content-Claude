@@ -1,0 +1,322 @@
+{
+  "_note": "Aurapep Krill Oil #7 — video 5 of the 6-clip batch in Drive folder 1irOVOgs… (clip plan: videos/_batch-krill/plan.md). A-roll: VID_20261022_095809 (Drive 1UZRMq21…), front camera saved mirrored — flipped back in CSS; lavalier mic, voice used as recorded. B-roll: assets/b.mp4 = the batch pool videos/_batch-krill/b.mp4 (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8). This video uses A 4.8, B 90.75 (none of videos 1-4's ranges). Takes kept: hook take 3 (12.2), 'EPA bantu…' take 2 (38.2), 'Krill Oil juga…' take 2 (45.3), CTA take 2 (63.7). Dropped: hook takes 1-2 (3.3-9.8), the cut-off first EPA and astaxanthin starts, CTA take 1 (55.2-59.5), the pauses. Owner: captions like the reference video (never over faces/product), no CTA button, no background music. Anchors are [segment id, 'start' | word | 'end'].",
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "captions": true,
+  "caption_style": "flap",
+  "mirror": true,
+  "tighten": {
+    "max_pause": 0.4,
+    "keep": 0.14,
+    "threshold_db": -45,
+    "blip": 0.03
+  },
+  "segments": [
+    {
+      "id": "S01",
+      "in": 12.2,
+      "out": 16.35,
+      "zoom": 1.05,
+      "text": "Ramai orang ingat Omega 3 ni cuma untuk orang yang dah berumur. Eh, silap tu.",
+      "note": "HOOK take 3"
+    },
+    {
+      "id": "S02",
+      "in": 16.45,
+      "out": 21.8,
+      "zoom": 1.0,
+      "text": "Tak kira umur, badan kita tetap perlukan Omega 3 untuk sokong fungsi normal badan kita.",
+      "note": ""
+    },
+    {
+      "id": "S03",
+      "in": 22.3,
+      "out": 26.2,
+      "zoom": 1.05,
+      "text": "Sebab tu saya nak tunjukkan kepada ibu ayah, abang kakak, Aurapep Krill Oil ni.",
+      "note": ""
+    },
+    {
+      "id": "S04",
+      "in": 26.7,
+      "out": 30.65,
+      "zoom": 1.0,
+      "text": "Krill Oil ni sumber Omega 3 yang mengandungi EPA dan DHA sekali.",
+      "note": ""
+    },
+    {
+      "id": "S05",
+      "in": 38.15,
+      "out": 42.8,
+      "zoom": 1.0,
+      "text": "EPA bantu sokong kesihatan jantung, manakala DHA penting untuk fungsi otak dan penglihatan.",
+      "note": "take 2"
+    },
+    {
+      "id": "S06",
+      "in": 45.3,
+      "out": 48.35,
+      "zoom": 1.0,
+      "text": "Krill Oil juga mengandungi astaxanthin, sejenis antioksidan.",
+      "note": "take 2"
+    },
+    {
+      "id": "S07",
+      "in": 48.55,
+      "out": 55.1,
+      "zoom": 1.0,
+      "text": "Kalau ibu ayah abang kakak jarang makan ikan berlemak, bolehlah pertimbangkan suplemen ni untuk melengkapkan pengambilan Omega 3.",
+      "note": ""
+    },
+    {
+      "id": "S08",
+      "in": 63.65,
+      "out": 72.45,
+      "zoom": 1.05,
+      "text": "Klik di beg kuning sekarang, sementara harga promo masih ada dan stok pun baru ni dah putus, sekarang dah masuk balik. Sementara stok masih ada, boleh grab satu, dua, tiga botol terus.",
+      "note": "CTA take 2 (spoken only)"
+    }
+  ],
+  "punch": [
+    [
+      "S01",
+      "eh,",
+      1.1
+    ],
+    [
+      "S08",
+      "sementara#2",
+      1.06
+    ]
+  ],
+  "broll": [
+    {
+      "id": "B1",
+      "from": [
+        "S03",
+        "aurapep"
+      ],
+      "to": [
+        "S03",
+        "end"
+      ],
+      "src": 90.75,
+      "note": "B: botol dalam tangan atas rumput",
+      "push": [
+        1.0,
+        1.1
+      ],
+      "origin": "50% 40%"
+    },
+    {
+      "id": "B2",
+      "from": [
+        "S08",
+        "stok"
+      ],
+      "to": [
+        "S08",
+        "sementara#2"
+      ],
+      "src": 4.8,
+      "note": "A: botol atas meja sebelum pemilik duduk",
+      "push": [
+        1.0,
+        1.08
+      ],
+      "origin": "50% 60%"
+    }
+  ],
+  "photos": [
+    {
+      "id": "umur",
+      "from": [
+        "S02",
+        "start"
+      ],
+      "to": [
+        "S02",
+        "end"
+      ],
+      "note": "AI: datuk dan cucu muda ketawa"
+    },
+    {
+      "id": "ibuayah",
+      "from": [
+        "S03",
+        "ibu"
+      ],
+      "to": [
+        "S03",
+        "aurapep"
+      ],
+      "note": "AI: ibu ayah"
+    },
+    {
+      "id": "laut",
+      "from": [
+        "S04",
+        "start"
+      ],
+      "to": [
+        "S04",
+        "omega"
+      ],
+      "note": "AI: laut Antartika"
+    },
+    {
+      "id": "softgel",
+      "from": [
+        "S04",
+        "omega"
+      ],
+      "to": [
+        "S04",
+        "end"
+      ],
+      "note": "AI: makro softgel merah"
+    },
+    {
+      "id": "jantung",
+      "from": [
+        "S05",
+        "start"
+      ],
+      "to": [
+        "S05",
+        "manakala"
+      ],
+      "note": "AI: lelaki mendaki bukit"
+    },
+    {
+      "id": "otak",
+      "from": [
+        "S05",
+        "manakala"
+      ],
+      "to": [
+        "S05",
+        "end"
+      ],
+      "note": "AI: wanita berhijab membaca"
+    },
+    {
+      "id": "merah",
+      "from": [
+        "S06",
+        "start"
+      ],
+      "to": [
+        "S06",
+        "end"
+      ],
+      "note": "AI: krill merah dekat"
+    },
+    {
+      "id": "jarang",
+      "from": [
+        "S07",
+        "start"
+      ],
+      "to": [
+        "S07",
+        "bolehlah"
+      ],
+      "note": "AI: hidangan tanpa ikan"
+    },
+    {
+      "id": "suplemen",
+      "from": [
+        "S07",
+        "bolehlah"
+      ],
+      "to": [
+        "S07",
+        "end"
+      ],
+      "note": "AI: tangan pegang softgel + air"
+    }
+  ],
+  "titles": [],
+  "brand_words": [
+    "aurapep",
+    "krill",
+    "oil"
+  ],
+  "keywords": [
+    "omega",
+    "3",
+    "umur",
+    "berumur",
+    "silap",
+    "badan",
+    "normal",
+    "epa",
+    "dha",
+    "jantung",
+    "otak",
+    "penglihatan",
+    "astaxanthin",
+    "antioksidan",
+    "ikan",
+    "berlemak",
+    "suplemen",
+    "promo",
+    "stok"
+  ],
+  "panel": {
+    "title": "SEMAK NUTRISI",
+    "from": [
+      "S03",
+      "start"
+    ],
+    "items": [
+      {
+        "text": "OMEGA 3",
+        "from": [
+          "S04",
+          "omega"
+        ],
+        "done": [
+          "S04",
+          "end"
+        ]
+      },
+      {
+        "text": "EPA JANTUNG",
+        "from": [
+          "S05",
+          "epa"
+        ],
+        "done": [
+          "S05",
+          "manakala"
+        ]
+      },
+      {
+        "text": "DHA OTAK",
+        "from": [
+          "S05",
+          "dha"
+        ],
+        "done": [
+          "S05",
+          "end"
+        ]
+      },
+      {
+        "text": "ASTAXANTHIN",
+        "from": [
+          "S06",
+          "astaxanthin"
+        ],
+        "done": [
+          "S06",
+          "end"
+        ]
+      }
+    ]
+  },
+  "_owner_decisions": "22 Okt: batch 6 klip — video 5 (095809); 26 Okt pemilik minta habiskan semua baki video. Satu video satu klip bercakap, setiap klip digunakan, tiada julat B-roll berulang. Kapsyen gaya rujukan, tak tutup wajah/produk; tiada butang CTA; overlay banyak; terus render final; tiada muzik."
+}

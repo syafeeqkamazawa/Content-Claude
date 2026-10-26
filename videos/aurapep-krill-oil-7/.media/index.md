@@ -1,0 +1,4 @@
+# .media · 1 asset
+
+id         type   dur   dims   path                         description
+image_001  image  —     —      .media/images/image_001.png  A young Malay man in his twenties and his grandfather in a kopiah laughing together on the porch of a kampung house, both in long-sleeved baju melayu and long trousers to the ankle, seen from a little distance so they are in the lower half of the frame with the plain wooden wall above, warm afternoon light. Composition: the subject sits in the lower 55% of the vertical frame and the upper 40% is calm empty background (plain wall, ceiling, sky or soft bokeh) with nothing important in it. Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people. Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
