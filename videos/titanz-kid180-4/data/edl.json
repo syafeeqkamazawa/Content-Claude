@@ -1,0 +1,400 @@
+{
+ "_note": "Tiny Titanz Kid180 Tablet #4 — Drive folder 1gsRx4u7… (26 Oct, 10 products; owner asked for this product later). A-roll assets/a.mp4 = VID_20261026_142826 (0-86.72) + VID_20261026_142620 (86.72-185.07), front camera saved mirrored — label reads backwards — flipped back in CSS. The box in his other hand is MenaQ7, so the card and cutaways show the Kid180 box/bottle from B-roll assets/b.mp4 = VID_20261014_153413 (Drive 1yeUjbM-…, also used in titanz-kid180 #1-#3). Kept takes: 142826 4.10-7.12 + 13.02-36.24 (after the restarted 'ibu ayah…' 8.6-13.0), 41.48-45.58, 55.96-59.38; 142620 67.74-71.30 (ingredients), 79.34-80.56 ('ikut dos pada label' — used instead of the conflicting 'sehari satu / satu ke dua tablet'), 87.10-91.70, 92.18-96.36 (CTA, 'ni boy lah' cut). Box label: 'High in calcium — membantu perkembangan tulang dan gigi', blueberry, green tea, vitamin C, 60 x 350 mg. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "in": 4.1,
+   "out": 7.12,
+   "zoom": 1.04,
+   "text": "Ibu ayah yang gaji baru masuk tu, sebelum duit tu habis",
+   "note": "HOOK (take 1)"
+  },
+  {
+   "id": "S02",
+   "in": 13.02,
+   "out": 16.7,
+   "zoom": 1.0,
+   "text": "untuk benda-benda lain, cuba tengok harga Kid180 tablet ni dulu.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 16.7,
+   "out": 20.5,
+   "zoom": 1.0,
+   "text": "Lagi-lagi kalau sekarang seller tengah buat promo payday,",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 23.04,
+   "out": 27.06,
+   "zoom": 1.0,
+   "text": "memang rugi kalau tak beli sekarang, takut terlepas harga yang sangat jimat.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 28.08,
+   "out": 36.24,
+   "zoom": 1.0,
+   "text": "Ini yang ada pada saya ni Tiny Titanz Kid180, satu botol ni dapat 60 tablet kunyah, perisa beri biru.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 41.48,
+   "out": 45.58,
+   "zoom": 1.0,
+   "text": "Ada kalsium untuk bantu sokong tulang dan gigi anak kita yang sedang membesar.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 154.46,
+   "out": 158.02,
+   "zoom": 1.0,
+   "text": "Ada juga beri biru, teh hijau dan juga vitamin C sekali.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 55.96,
+   "out": 59.38,
+   "zoom": 1.0,
+   "text": "Cara guna pun senang sangat, tablet kunyah sahaja, tak payah bancuh,",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 166.06,
+   "out": 167.28,
+   "zoom": 1.0,
+   "text": "ikut dos pada label.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 173.82,
+   "out": 177.12,
+   "zoom": 1.0,
+   "text": "Kadang-kadang harga lepas voucher tu jauh lebih berbaloi.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 177.12,
+   "out": 178.42,
+   "zoom": 1.04,
+   "text": "Tekan beg kuning sekarang,",
+   "note": "CTA (spoken only)"
+  },
+  {
+   "id": "S12",
+   "in": 178.9,
+   "out": 183.08,
+   "zoom": 1.04,
+   "text": "tengok harga payday, claim voucher kalau ada dan terus check out kalau harga tu tengah murah.",
+   "note": ""
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "habis"
+ },
+ "punch": [
+  [
+   "S12",
+   "murah.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S03",
+    "seller"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 17.4,
+   "note": "153413: botol dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S05",
+    "tiny"
+   ],
+   "to": [
+    "S05",
+    "satu"
+   ],
+   "src": 4.6,
+   "note": "153413: kotak depan dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S05",
+    "satu"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 33.4,
+   "note": "153413: tablet kunyah di tapak tangan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S08",
+    "tablet"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 37.6,
+   "note": "153413: tablet kunyah di tapak tangan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 21.0,
+   "note": "153413: label botol",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S10",
+    "harga"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 8.6,
+   "note": "153413: kotak depan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "aktif",
+   "from": [
+    "S06",
+    "sokong"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: kanak-kanak aktif di taman permainan"
+  },
+  {
+   "id": "senyum",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "note": "AI: anak tersenyum di meja sarapan"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "sokong"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "titles": [],
+ "theme": {
+  "key": "#FFC93C",
+  "brand": "#7DDB6B"
+ },
+ "brand_words": [
+  "tiny",
+  "titanz",
+  "kid180"
+ ],
+ "keywords": [
+  "gaji",
+  "harga",
+  "promo",
+  "payday,",
+  "payday",
+  "rugi",
+  "jimat.",
+  "60",
+  "tablet",
+  "kunyah",
+  "beri",
+  "biru.",
+  "biru,",
+  "kalsium",
+  "tulang",
+  "gigi",
+  "teh",
+  "hijau",
+  "vitamin",
+  "c",
+  "senang",
+  "bancuh,",
+  "label.",
+  "voucher",
+  "berbaloi.",
+  "sekarang,",
+  "murah."
+ ],
+ "panel": {
+  "title": "SEMAK KID180",
+  "from": [
+   "S05",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "60 TABLET KUNYAH",
+    "from": [
+     "S05",
+     "satu"
+    ],
+    "done": [
+     "S05",
+     "perisa"
+    ]
+   },
+   {
+    "text": "KALSIUM",
+    "from": [
+     "S06",
+     "start"
+    ],
+    "done": [
+     "S06",
+     "end"
+    ]
+   },
+   {
+    "text": "BERI TEH VIT C",
+    "from": [
+     "S07",
+     "start"
+    ],
+    "done": [
+     "S07",
+     "end"
+    ]
+   },
+   {
+    "text": "TAK PAYAH BANCUH",
+    "from": [
+     "S08",
+     "tablet"
+    ],
+    "done": [
+     "S08",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). Owner later: 'Buat video untuk produk Tiny Titanz Kid180 Tablet'.",
+ "flap_force": [
+  {
+   "from": 22.43,
+   "to": 24.13,
+   "panel": false,
+   "why": "3D product card"
+  },
+  {
+   "from": 18.07,
+   "to": 22.43,
+   "top": 150,
+   "why": "tablets in palm: keep one spot"
+  },
+  {
+   "from": 31.6,
+   "to": 33.52,
+   "top": 150,
+   "why": "tablets in palm: keep one spot"
+  },
+  {
+   "from": 35.47,
+   "to": 38.03,
+   "top": 150,
+   "why": "box shot: keep one spot above the box"
+  },
+  {
+   "from": 38.03,
+   "to": 43.6,
+   "top": 150,
+   "why": "CTA: same top spot as the hook (clear of the face)"
+  }
+ ]
+}

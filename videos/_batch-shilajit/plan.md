@@ -16,3 +16,11 @@ B-roll clips: VID_20261019_090353 (16QtsQ9P…) and VID_20261019_090625
 (1VM478GB…) — the static box-on-grass shots are skipped (premium brief:
 high-value footage only); the hand-held box, back label, unboxing, bottle and
 tablet shots are split between the five videos.
+
+## Status (26 Oct)
+
+All five finals rendered at 1440×2560 / 60 fps / ~20 Mbps and sent:
+aurapep-shilajit-2 (37 s), -3 (39 s), -4 (37 s), -5 (39 s), -6 (33 s).
+`python3 check_pool.py` lists the pool ranges each video plays — no overlaps.
+Source clips deleted after transcoding (originals on Drive); `pool.mp4` is
+hard-linked as each project's `assets/b.mp4`.
