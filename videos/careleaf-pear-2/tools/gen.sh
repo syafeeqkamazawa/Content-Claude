@@ -19,5 +19,5 @@ want () { [ -z "$ONLY" ] || [[ "$ONLY" == *" $1 "* ]]; }
 SPACE="Composition: the subject sits in the lower 55% of the vertical frame and the upper 40% is calm empty background (plain wall, ceiling, sky or soft bokeh) with nothing important in it."
 FEET="Every woman wears socks and her long skirt reaches the floor; no bare feet or ankles visible anywhere."
 FEET="Every woman and girl wears socks and her long skirt reaches the floor; no bare feet or ankles visible anywhere."
-want semak && gen semak "A Malay woman in her thirties at a bright home kitchen counter, wearing a loose long-sleeved baju kurung and a hijab that fully covers her hair, neck and chest, smiling while looking at her smartphone screen (screen not visible to the camera), a steaming mug beside her, seen from a little distance so she is in the lower half of the frame with a plain bright kitchen wall above, no labels, no text. $FEET $SPACE $PPL"
+want beg && gen beg "A young Malay mother at home by the front door getting ready to go out, wearing a loose long-sleeved abaya and a hijab that fully covers her hair, neck and chest, smiling as she slips a small plain light-green snack box into her tote handbag, natural daylight, seen from a little distance so she is in the lower half of the frame with a plain bright wall above, no labels, no text. $FEET $SPACE $PPL"
 echo DONE

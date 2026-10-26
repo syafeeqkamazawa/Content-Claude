@@ -1,5 +1,5 @@
 {
- "_note": "Jus Gout Pro Max #8 (Promaxx series) — payday BOFU, Drive folder 1gsRx4u7… (26 Oct, 10 products; only products with real demo footage are made). A-roll assets/a.mp4 = VID_20261026_143442 (0-141.75) + VID_20261026_143055 (141.75-247.6), front camera saved mirrored — the jar reads backwards — flipped back in CSS. B-roll pool assets/b.mp4 = VID_20261012_172341 (60 fps; also used by Jus Gout #1/#4-#7 — picks: 2.2 jar front, 39.5 hot water, 73.8 scoop, 131.5 stir, 197 spoon of juice). Kept takes: hook take 2 (143442 11.36-17.92), 29.72-37.18, 40.28-46.24, 61.18-69.72, 75.52-78.16, 89.64-99.44, 143055 88.26-94.42. Dropped repeated takes and false starts, whisper ghost 'terima kasih telah menonton'. No treatment claims. Owner 26 Oct brief: 2K 60 fps export, hook on first clip only, gentle motion, whip transitions, 3D product overlay, no music. Clip → video: 143442 + 143055 + 172341 → this video only.",
+ "_note": "Jus Gout Pro Max #8 (Promaxx series) — payday BOFU, Drive folder 1gsRx4u7… (26 Oct, 10 products; only products with real demo footage are made). A-roll assets/a.mp4 = VID_20261026_143442 (0-141.75) + VID_20261026_143055 (141.75-247.6), front camera saved mirrored — the jar reads backwards — flipped back in CSS. B-roll pool assets/b.mp4 = VID_20261012_172341 (60 fps; also used by Jus Gout #1/#4-#7 — picks: 2.2 jar front, 39.5 hot water, 73.8 scoop, 131.5 stir, 197 spoon of juice). Kept takes: hook take 2 (143442 12.95-17.92, after the false start 'ibu ayah' 11.4-12.3), 29.72-37.18, 40.28-46.24, 61.18-69.72, 75.52-78.16, 89.64-99.44, 143055 88.26-94.42. Dropped repeated takes and false starts, whisper ghost 'terima kasih telah menonton'. No treatment claims. Owner 26 Oct brief: 2K 60 fps export, hook on first clip only, gentle motion, whip transitions, 3D product overlay, no music. Clip → video: 143442 + 143055 + 172341 → this video only.",
  "fps": 60,
  "width": 1080,
  "height": 1920,
@@ -15,7 +15,7 @@
  "segments": [
   {
    "id": "S01",
-   "in": 11.3,
+   "in": 12.95,
    "out": 17.98,
    "zoom": 1.04,
    "text": "Ibu, ayah, abang, kakak yang tengah usha Jus Gout Pro Max ni, dah tengok belum harga lepas klik voucher tu?",
@@ -291,14 +291,14 @@
  "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik); folder 10 produk — buat yang cukup bahan sahaja.",
  "flap_force": [
   {
-   "from": 16.33,
-   "to": 19.92,
+   "from": 15.1,
+   "to": 18.68,
    "panel": false,
    "why": "3D product card"
   },
   {
-   "from": 35.73,
-   "to": 38.75,
+   "from": 34.5,
+   "to": 37.52,
    "top": 1300,
    "why": "cup fills the frame; keep the board in one place"
   }

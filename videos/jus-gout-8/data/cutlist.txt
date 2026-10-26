@@ -1,17 +1,17 @@
-TOTAL 45.05s  (7 A-roll segments, 5 B-roll shots, 1 photos, 8 audio fx, 65 caption cards)
+TOTAL 43.82s  (7 A-roll segments, 5 B-roll shots, 1 photos, 8 audio fx, 65 caption cards)
 
-  0.00-  6.27  S01  src  11.30- 17.98  (2 pc)  Ibu, ayah, abang, kakak yang tengah usha Jus Gout Pro Max ni, dah tengok belum harga lepas klik voucher tu?
-  6.27- 13.85  S02  src  29.66- 37.24  (1 pc)  Musim-musim gaji ni jangan lupa cek harga special dekat beg kuning tu, kadang-kadang harga yang korang nampak tu belum campur voucher lagi tau.
- 13.85- 19.92  S03  src  40.22- 46.28  (1 pc)  Yang ada pada saya ni Jus Gout Pro Max series, minuman tambahan dengan gabungan 6 ekstrak herba terpilih tau.
- 19.92- 28.05  S04  src  61.12- 69.78  (3 pc)  Cara nak sediakan pun senang je, masukkan 2 sudu Jus Gout Pro Max series ni dengan 250 ml air panas,
- 28.05- 30.15  S05  src  75.50- 78.22  (2 pc)  kemudian kacau dan terus minum.
- 30.15- 38.75  S06  src  89.60- 99.50  (3 pc)  Yang dah lama survey produk ni, sekarang cuba tekan beg kuning, pilih produk dan tengok harga akhir dekat check out tu. Kalau tengah ada diskaun payday, boleh jimat lagi tau.
- 38.75- 45.05  S07  src 229.95-236.25  (1 pc)  Tekan beg kuning sekarang, check harga payday, claim voucher kalau ada dan terus check out. Kalau dah nampak harga tu memang cun!
+  0.00-  5.03  S01  src  12.95- 17.98  (1 pc)  Ibu, ayah, abang, kakak yang tengah usha Jus Gout Pro Max ni, dah tengok belum harga lepas klik voucher tu?
+  5.03- 12.62  S02  src  29.66- 37.24  (1 pc)  Musim-musim gaji ni jangan lupa cek harga special dekat beg kuning tu, kadang-kadang harga yang korang nampak tu belum campur voucher lagi tau.
+ 12.62- 18.68  S03  src  40.22- 46.28  (1 pc)  Yang ada pada saya ni Jus Gout Pro Max series, minuman tambahan dengan gabungan 6 ekstrak herba terpilih tau.
+ 18.68- 26.82  S04  src  61.12- 69.78  (3 pc)  Cara nak sediakan pun senang je, masukkan 2 sudu Jus Gout Pro Max series ni dengan 250 ml air panas,
+ 26.82- 28.92  S05  src  75.50- 78.22  (2 pc)  kemudian kacau dan terus minum.
+ 28.92- 37.52  S06  src  89.60- 99.50  (3 pc)  Yang dah lama survey produk ni, sekarang cuba tekan beg kuning, pilih produk dan tengok harga akhir dekat check out tu. Kalau tengah ada diskaun payday, boleh jimat lagi tau.
+ 37.52- 43.82  S07  src 229.95-236.25  (1 pc)  Tekan beg kuning sekarang, check harga payday, claim voucher kalau ada dan terus check out. Kalau dah nampak harga tu memang cun!
 
-  cutaway   9.40- 13.85
-  cutaway  16.33- 19.92
-  cutaway  23.27- 25.67
-  cutaway  25.67- 28.05
-  cutaway  28.05- 30.15
-  cutaway  31.88- 35.73
-  cutaway  35.73- 38.75
+  cutaway   8.17- 12.62
+  cutaway  15.10- 18.68
+  cutaway  22.03- 24.43
+  cutaway  24.43- 26.82
+  cutaway  26.82- 28.92
+  cutaway  30.65- 34.50
+  cutaway  34.50- 37.52

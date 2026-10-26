@@ -1,0 +1,341 @@
+{
+ "_note": "Careleaf Bursting Pear Paste Gummies #2 — payday BOFU, Drive folder 1gsRx4u7… (26 Oct, 10 products; only products with real demo footage are made). A-roll assets/a.mp4 = VID_20261026_144439 (front camera, checked below). B-roll pool assets/b.mp4 (60 fps) = VID_20261016_223849 (0-69.77: box front, opening, gummies close-up) + VID_20261016_224128 (69.77-113.73: owner opening and eating a gummy; also used in careleaf-pear #1). Kept takes: 5.15-11.75 (after the first 'yang dah lama nampak' 1.2-3.0), 20.10-26.42 (third take of 'tambah-tambah…'), 47.02-50.26, 57.92-64.42, 65.42-68.30, 76.60-78.78, 86.90-89.40, 95.82-103.40, 108.06-112.56. Dropped repeated takes, the unfinished 'untuk dia jadikan…', 'senang lah buat mana-mana' and whisper ghost 'terima kasih telah menonton'. Card: box front from 223849 12.0 s, perspective-flattened, thumb inpainted. Owner 26 Oct brief: 2K 60 fps export, hook on first clip only, gentle motion, whip transitions, 3D product overlay, no music. Clip → video: 144439 + 223849 + 224128 → this video only.",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "in": 5.15,
+   "out": 11.75,
+   "zoom": 1.04,
+   "text": "Yang dah lama perhatikan Careleaf Pear Paste Gummies ni, cuba cek harga dekat beg kuning sekarang, gaji baru masuk.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 20.1,
+   "out": 26.42,
+   "zoom": 1.0,
+   "text": "Tambah-tambah kalau gaji baru masuk tu, sebab biasanya seller buat promo payday, memang sayang kalau terlepas tau.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 47.02,
+   "out": 50.26,
+   "zoom": 1.0,
+   "text": "Yang ada pada saya ni bukan gummies biasa tau.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 57.92,
+   "out": 64.42,
+   "zoom": 1.0,
+   "text": "Bahagian luar dia kenyal, tapi bila korang gigit je ada bunyi pop, ada inti paste pear dekat dalam ni.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 65.42,
+   "out": 68.3,
+   "zoom": 1.0,
+   "text": "Perisa buah pear, dan satu kotak ni berat dia 80 gram.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 76.6,
+   "out": 78.78,
+   "zoom": 1.0,
+   "text": "Yang lagi best, senang nak bawa dalam beg.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 86.9,
+   "out": 89.4,
+   "zoom": 1.0,
+   "text": "Kalau rasa nak makan tu, boleh ambil je, terus makan.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 95.82,
+   "out": 103.4,
+   "zoom": 1.0,
+   "text": "Jadi yang hari tu dah selalu nampak dekat FYP tu tapi tak check out lagi. Cuba tengok harga sekarang. Check sekali voucher yang ada, mana tahu dia dapat lagi jimat.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 108.06,
+   "out": 112.56,
+   "zoom": 1.04,
+   "text": "Tekan beg kuning sekarang, check harga payday dan terus check out kalau harga tu tengah murah.",
+   "note": "CTA (spoken only)"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "cuba"
+ },
+ "punch": [
+  [
+   "S09",
+   "murah.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "sebab"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 0.5,
+   "note": "223849: kotak depan dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S03",
+    "bukan"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 44.5,
+   "note": "223849: kotak dibuka, gummies dalam",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "tapi"
+   ],
+   "src": 56.0,
+   "note": "223849: gummy dalam bungkus dekat",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S04",
+    "tapi"
+   ],
+   "to": [
+    "S04",
+    "ada#2"
+   ],
+   "src": 84.773,
+   "note": "224128: buka & makan gummy",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S04",
+    "ada#2"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 62.0,
+   "note": "223849: inti paste pear dekat",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 81.773,
+   "note": "224128: ambil gummy, terus makan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B7",
+   "from": [
+    "S08",
+    "check#2"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 94.773,
+   "note": "224128: angkat ibu jari",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "beg",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: ibu bertudung masukkan kotak snek dalam beg"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "titles": [],
+ "theme": {
+  "key": "#FFB547",
+  "brand": "#B8E35C"
+ },
+ "brand_words": [
+  "careleaf",
+  "pear",
+  "paste",
+  "gummies"
+ ],
+ "keywords": [
+  "harga",
+  "gaji",
+  "promo",
+  "payday,",
+  "payday",
+  "kenyal,",
+  "pop,",
+  "inti",
+  "80",
+  "gram.",
+  "senang",
+  "bawa",
+  "beg.",
+  "voucher",
+  "jimat.",
+  "murah.",
+  "sekarang,"
+ ],
+ "panel": {
+  "title": "SEMAK GUMMIES",
+  "from": [
+   "S03",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "LUAR KENYAL",
+    "from": [
+     "S04",
+     "bahagian"
+    ],
+    "done": [
+     "S04",
+     "tapi"
+    ]
+   },
+   {
+    "text": "BUNYI POP",
+    "from": [
+     "S04",
+     "tapi"
+    ],
+    "done": [
+     "S04",
+     "ada#2"
+    ]
+   },
+   {
+    "text": "INTI PASTE PEAR",
+    "from": [
+     "S04",
+     "ada#2"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   },
+   {
+    "text": "80 GRAM",
+    "from": [
+     "S05",
+     "dan"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik); folder 10 produk — buat yang cukup bahan sahaja."
+}
