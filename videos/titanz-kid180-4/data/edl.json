@@ -1,5 +1,5 @@
 {
- "_note": "Tiny Titanz Kid180 Tablet #4 — Drive folder 1gsRx4u7… (26 Oct, 10 products; owner asked for this product later). A-roll assets/a.mp4 = VID_20261026_142826 (0-86.72) + VID_20261026_142620 (86.72-185.07), front camera saved mirrored — label reads backwards — flipped back in CSS. The box in his other hand is MenaQ7, so the card and cutaways show the Kid180 box/bottle from B-roll assets/b.mp4 = VID_20261014_153413 (Drive 1yeUjbM-…, also used in titanz-kid180 #1-#3). Kept takes: 142826 4.10-7.12 + 13.02-36.24 (after the restarted 'ibu ayah…' 8.6-13.0), 41.48-45.58, 55.96-59.38; 142620 67.74-71.30 (ingredients), 79.34-80.56 ('ikut dos pada label' — used instead of the conflicting 'sehari satu / satu ke dua tablet'), 87.10-91.70, 92.18-96.36 (CTA, 'ni boy lah' cut). Box label: 'High in calcium — membantu perkembangan tulang dan gigi', blueberry, green tea, vitamin C, 60 x 350 mg. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "_note": "Tiny Titanz Kid180 Tablet #4 — Drive folder 1gsRx4u7… (26 Oct, 10 products; owner asked for this product later). A-roll assets/a.mp4 = VID_20261026_142826 (0-86.72) + VID_20261026_142620 (86.72-185.07), front camera saved mirrored — label reads backwards — flipped back in CSS. The box in his other hand is MenaQ7, so the card and cutaways show the Kid180 box/bottle from B-roll assets/b.mp4 = VID_20261014_153413 (Drive 1yeUjbM-…, also used in titanz-kid180 #1-#3). Kept takes: 142826 4.10-6.22 (take 1) + 12.00-36.24 (take 3 from 'sebelum duit tu habis'; take 1 stops after 'duit tu', take 2 8.6-11.9 restarts), 41.48-45.58, 55.96-59.38; 142620 67.74-71.30 (ingredients), 79.34-80.56 ('ikut dos pada label' — used instead of the conflicting 'sehari satu / satu ke dua tablet'), 87.10-91.70, 92.18-96.36 (CTA, 'ni boy lah' cut). Box label: 'High in calcium — membantu perkembangan tulang dan gigi', blueberry, green tea, vitamin C, 60 x 350 mg. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
  "fps": 60,
  "width": 1080,
  "height": 1920,
@@ -16,18 +16,18 @@
   {
    "id": "S01",
    "in": 4.1,
-   "out": 7.12,
+   "out": 6.22,
    "zoom": 1.04,
-   "text": "Ibu ayah yang gaji baru masuk tu, sebelum duit tu habis",
+   "text": "Ibu ayah yang gaji baru masuk tu,",
    "note": "HOOK (take 1)"
   },
   {
    "id": "S02",
-   "in": 13.02,
+   "in": 12.0,
    "out": 16.7,
    "zoom": 1.0,
-   "text": "untuk benda-benda lain, cuba tengok harga Kid180 tablet ni dulu.",
-   "note": ""
+   "text": "sebelum duit tu habis untuk benda-benda lain, cuba tengok harga Kid180 tablet ni dulu.",
+   "note": "take 3 of 'sebelum duit tu habis' (take 1 stops after 'duit tu')"
   },
   {
    "id": "S03",
@@ -112,7 +112,7 @@
  ],
  "hook": {
   "seg": "S01",
-  "word": "habis"
+  "word": "masuk"
  },
  "punch": [
   [
@@ -367,32 +367,32 @@
  "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). Owner later: 'Buat video untuk produk Tiny Titanz Kid180 Tablet'.",
  "flap_force": [
   {
-   "from": 22.43,
-   "to": 24.13,
+   "from": 22.55,
+   "to": 24.25,
    "panel": false,
    "why": "3D product card"
   },
   {
-   "from": 18.07,
-   "to": 22.43,
+   "from": 18.18,
+   "to": 22.55,
    "top": 150,
    "why": "tablets in palm: keep one spot"
   },
   {
-   "from": 31.6,
-   "to": 33.52,
+   "from": 31.72,
+   "to": 33.63,
    "top": 150,
    "why": "tablets in palm: keep one spot"
   },
   {
-   "from": 35.47,
-   "to": 38.03,
+   "from": 35.58,
+   "to": 38.15,
    "top": 150,
    "why": "box shot: keep one spot above the box"
   },
   {
-   "from": 38.03,
-   "to": 43.6,
+   "from": 38.15,
+   "to": 43.7,
    "top": 150,
    "why": "CTA: same top spot as the hook (clear of the face)"
   }
