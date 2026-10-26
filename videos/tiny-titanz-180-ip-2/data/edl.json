@@ -1,0 +1,361 @@
+{
+ "_note": "Tiny Titanz 180+ IP #2 (liquid sachet) — Drive folder 1gsRx4u7… (owner: 'Terus buat Tiny Titanz 180+ satu lagi'). A-roll assets/a.mp4 = VID_20261026_142321 (Drive 1qIx4lnE…; front camera saved mirrored — box reads backwards — flipped back in CSS). B-roll pool assets/b.mp4 = VID_20261013_213717 (0-79.06) + VID_20261017_154407 (79.06-189.95), the same pool as tiny-titanz-180-ip #1, which used 2.0-6.0, 28.0-30.2, 45.0-47.2, 57.0-58.9, 80.6-84.6, 141.1-143.8; picks here (33.0, 48.0, 53.5, 85.0, 136.2, 144.0, 181.0) avoid them. Kept takes: 12.70-18.88 (4th try of the hook; 1.7-11.4 are restarts), 18.86-29.62, 33.46-46.16, 49.10-53.36. Dropped whisper ghost 'terima kasih'. Card image reused from #1 (box front). Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "in": 12.7,
+   "out": 18.88,
+   "zoom": 1.04,
+   "text": "Ibu ayah yang memang nak beli Tiny Titanz 180 Plus ni, jangan terus bayar sebelum check voucher dekat beg kuning.",
+   "note": "HOOK (take 4)"
+  },
+  {
+   "id": "S02",
+   "in": 18.86,
+   "out": 22.96,
+   "zoom": 1.0,
+   "text": "Gaji baru masuk kan? Cuba tengok harga payday dia dulu.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 22.96,
+   "out": 25.54,
+   "zoom": 1.0,
+   "text": "Yang ni satu kotak dapat 14 sachet tau.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 25.54,
+   "out": 29.62,
+   "zoom": 1.0,
+   "text": "Ada Aquamin, sumber kalsium untuk sokong perkembangan tulang dan gigi anak.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 33.46,
+   "out": 39.4,
+   "zoom": 1.0,
+   "text": "Paling senang, tak payah bancuh pun, koyak sachet terus boleh minum. Sesuai untuk anak umur 2 hingga 18 tahun.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 39.4,
+   "out": 46.16,
+   "zoom": 1.0,
+   "text": "Kalau memang dah lama usha produk ni, cuba tengok harga akhir lepas voucher tu, mana tahu boleh jimat lebih daripada yang korang sangka.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 49.1,
+   "out": 53.36,
+   "zoom": 1.04,
+   "text": "Tekan beg kuning sekarang, check voucher dan check out kalau harga promo tengah murah.",
+   "note": "CTA (spoken only)"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "jangan"
+ },
+ "punch": [
+  [
+   "S07",
+   "murah.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S01",
+    "sebelum"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "src": 136.2,
+   "note": "1017: kotak depan diangkat",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S02",
+    "cuba"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 85.0,
+   "note": "1017: buka kotak",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S03",
+    "satu"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 33.0,
+   "note": "1013: kipas 14 sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "untuk"
+   ],
+   "src": 144.0,
+   "note": "1017: label belakang (Aquamin)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S05",
+    "koyak"
+   ],
+   "to": [
+    "S05",
+    "terus"
+   ],
+   "src": 48.0,
+   "note": "1013: koyak sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S05",
+    "terus"
+   ],
+   "to": [
+    "S05",
+    "sesuai"
+   ],
+   "src": 53.5,
+   "note": "1013: tuang ke cawan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B7",
+   "from": [
+    "S06",
+    "cuba"
+   ],
+   "to": [
+    "S06",
+    "mana"
+   ],
+   "src": 181.0,
+   "note": "1017: kotak dan sachet di tangan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "tinggi",
+   "from": [
+    "S04",
+    "untuk"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: ibu tanda ketinggian anak"
+  },
+  {
+   "id": "remaja",
+   "from": [
+    "S05",
+    "sesuai"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: kakak remaja dan adik kecil"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "koyak"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "titles": [],
+ "theme": {
+  "key": "#F2C14E",
+  "brand": "#6FDC8C"
+ },
+ "brand_words": [
+  "tiny",
+  "titanz",
+  "180",
+  "plus"
+ ],
+ "keywords": [
+  "voucher",
+  "gaji",
+  "harga",
+  "payday",
+  "14",
+  "sachet",
+  "aquamin,",
+  "kalsium",
+  "tulang",
+  "gigi",
+  "senang,",
+  "bancuh",
+  "koyak",
+  "minum.",
+  "2",
+  "18",
+  "jimat",
+  "sekarang,",
+  "promo",
+  "murah."
+ ],
+ "panel": {
+  "title": "SEMAK PRODUK",
+  "from": [
+   "S03",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "14 SACHET",
+    "from": [
+     "S03",
+     "14"
+    ],
+    "done": [
+     "S03",
+     "end"
+    ]
+   },
+   {
+    "text": "AQUAMIN",
+    "from": [
+     "S04",
+     "start"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   },
+   {
+    "text": "TAK BANCUH",
+    "from": [
+     "S05",
+     "start"
+    ],
+    "done": [
+     "S05",
+     "sesuai"
+    ]
+   },
+   {
+    "text": "UMUR 2-18",
+    "from": [
+     "S05",
+     "sesuai"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik).",
+ "flap_force": [
+  {
+   "from": 16.95,
+   "to": 18.68,
+   "panel": false,
+   "why": "3D product card"
+  },
+  {
+   "from": 12.87,
+   "to": 14.75,
+   "top": 150,
+   "why": "back label: keep one spot"
+  },
+  {
+   "from": 24.95,
+   "to": 26.83,
+   "top": 1300,
+   "panel": false,
+   "why": "box held high: board below it, no panel"
+  }
+ ]
+}
