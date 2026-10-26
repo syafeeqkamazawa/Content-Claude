@@ -49,7 +49,7 @@
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.set("#fl-block", { x: 0, y: 0, scale: 1 }, 0.0);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 0.0);
           tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 0.0);
           tl.set("#fl-0-2", { textContent: "O", color: "#8E9AA6" }, 0.05);
           tl.set("#fl-0-2", { textContent: "A", color: "#8E9AA6" }, 0.1);
@@ -894,6 +894,9 @@
           tl.set("#fl-1-13", { textContent: "Y", color: "#8E9AA6" }, 9.9667);
           tl.set("#fl-1-13", { textContent: "S", color: "#F4F4F4" }, 10.0167);
           tl.fromTo("#fl-1-13", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 10.0167);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 10.4667);
+          tl.set("#fl-block", { x: -75, y: 0, scale: 0.6 }, 10.6333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 10.6333);
           tl.set("#fl-0-1", { textContent: "?", color: "#8E9AA6" }, 10.7);
           tl.set("#fl-0-1", { textContent: "Z", color: "#8E9AA6" }, 10.75);
           tl.set("#fl-0-1", { textContent: "L", color: "#8E9AA6" }, 10.8);
@@ -1043,6 +1046,9 @@
           tl.fromTo("#fl-0-10", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 12.3333);
           tl.set("#fl-0-11", { textContent: "", color: "#F4F4F4" }, 12.3667);
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 12.3667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 12.2833);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 12.45);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 12.45);
           tl.set("#fl-0-0", { textContent: "&", color: "#8E9AA6" }, 12.5);
           tl.set("#fl-0-0", { textContent: "Y", color: "#8E9AA6" }, 12.55);
           tl.set("#fl-0-0", { textContent: "K", color: "#8E9AA6" }, 12.5833);
@@ -3498,8 +3504,17 @@
           tl.set("#pn-st3", { textContent: "● DONE", color: "#5BD67A" }, 23.9333);
           tl.set("#pn-dt3", { textContent: "03.3s" }, 23.9333);
           tl.fromTo("#pn-st3", { scale: 1.25 }, { scale: 1, duration: 0.2, ease: "back.out(3)", immediateRender: false }, 23.9333);
-          tl.set("#fl-panel", { x: 688, y: 332, scale: 1 }, 12.5);
-          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 12.65);
+          tl.set("#fl-panel", { x: 791, y: 380, scale: 0.7 }, 16.0167);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 16.0167);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 17.25);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 0.7 }, 17.4167);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 17.4167);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 20.2833);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 1.0 }, 23.9833);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 23.9833);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 29.3833);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 1.0 }, 32.4167);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 32.4167);
           window.__timelines["captions"] = tl;
         })();
       </script>

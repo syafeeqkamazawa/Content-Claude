@@ -63,6 +63,12 @@
    "to": 16.03,
    "panel": false,
    "why": "3D product card"
+  },
+  {
+   "from": 29.57,
+   "to": 32.43,
+   "top": 150,
+   "why": "keep the board still over the bottle shot"
   }
  ],
  "segments": [

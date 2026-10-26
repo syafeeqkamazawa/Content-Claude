@@ -158,7 +158,7 @@ SPECS = {
     },
     6: {
         "clip": "VID_20261022_094748",
-        "flap_force": [{"from": 12.5, "to": 16.03, "panel": False, "why": "3D product card"}],
+        "flap_force": [{"from": 12.5, "to": 16.03, "panel": False, "why": "3D product card"}, {"from": 29.57, "to": 32.43, "top": 150, "why": "keep the board still over the bottle shot"}],
         "segments": [
             seg("S01", 11.80, 20.20, "Kita kerja siang malam nak bagi keluarga hidup senang, tapi pernah tak terfikir kalau kesihatan kita terabai, siapa nak jaga keluarga kita nanti?", "HOOK (take 2)", 1.04),
             seg("S02", 21.26, 26.04, "Badan kita pun perlukan nutrisi yang mencukupi guys, ini Aurapep Shilajit Complex,"),
