@@ -1,0 +1,2 @@
+kulit .media/images/image_001.png
+terlupa .media/images/image_002.png
