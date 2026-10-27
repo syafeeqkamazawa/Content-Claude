@@ -1,5 +1,5 @@
 {
- "_note": "Tiny Titanz 180+ IP #3 — Drive folder 1oTpbTWp… '27 Oktober 2026' (owner: 'Buat juga video Tiny Titanz 180+ dari link tadi'). A-roll assets/a.mp4 = VID_20261027_172545 (Drive 1s9flQBL…; front camera saved mirrored — flipped back in CSS), a storytelling script: picky eater, mother's worry, product, calcium, sachet, balanced diet still matters, month-end promo. B-roll assets/b.mp4 = VID_20260913_105822 (Drive 1a3k1kLX…; landscape top-down shot, centre-cropped to 9:16 at x 640-1248 and upscaled: box with sachets, tearing a sachet, pouring into a cup). Card: box photo image-1793092816642.jpg from the folder (flattened, thumb inpainted). Kept: 5.10-10.16, 36.14-38.66, 46.00-49.94, 54.18-64.18, 71.98-80.90, 80.90-87.52, 94.98-99.12, 128.16-135.20 (take 2 of the calcium line), 138.20-148.20, 149.72-155.94, 158.22-164.40, 165.70-170.72, 177.62-185.12. Dropped the unfinished 'bayangkan seorang ibu bangun', 'ataupun rasa dah hampir… tak tahu cara nak buat', 'sedih kan', the muddled 'minuman botani dalam betul-betul…' and the stammered first calcium take. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "_note": "Tiny Titanz 180+ IP #3 — Drive folder 1oTpbTWp… '27 Oktober 2026' (owner: 'Buat juga video Tiny Titanz 180+ dari link tadi'). A-roll assets/a.mp4 = VID_20261027_172545 (Drive 1s9flQBL…; front camera saved mirrored — flipped back in CSS), a storytelling script: picky eater, mother's worry, product, calcium, sachet, balanced diet still matters, month-end promo. B-roll assets/b.mp4 = VID_20260913_105822 (Drive 1a3k1kLX…; landscape top-down shot, centre-cropped to 9:16 at x 640-1248 and upscaled: box with sachets, tearing a sachet, pouring into a cup). Card: box photo image-1793092816642.jpg from the folder (flattened, thumb inpainted). Kept: 5.10-10.16, 36.14-38.66, 47.88-49.94, 54.18-64.18, 71.98-80.90, 80.90-87.52, 94.98-99.12, 128.16-135.20 (take 2 of the calcium line), 138.20-148.20, 149.72-155.94, 158.22-164.40, 165.70-170.72, 177.62-185.12. Dropped the unfinished 'bayangkan seorang ibu bangun', 'ataupun rasa dah hampir… tak tahu cara nak buat', 'sedih kan', the muddled 'minuman botani dalam betul-betul…' and the stammered first calcium take. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
  "fps": 60,
  "width": 1080,
  "height": 1920,
@@ -31,11 +31,11 @@
   },
   {
    "id": "S03",
-   "in": 46.0,
+   "in": 47.88,
    "out": 49.94,
    "zoom": 1.0,
-   "text": "Sebab dah pernah-pernah masak, tapi anak-anak makan 2-3 suap je.",
-   "note": ""
+   "text": "anak-anak makan 2-3 suap je.",
+   "note": "starts at 'anak-anak' (the opening words were unclear: 'pernah-pernah'/'penat-penat')"
   },
   {
    "id": "S04",
@@ -219,6 +219,42 @@
     1.06
    ],
    "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "tak"
+   ],
+   "src": 30.0,
+   "note": "0913: sachet di tangan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B7",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 86.0,
+   "note": "0913: sachet dan cawan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
   }
  ],
  "photos": [
@@ -245,6 +281,42 @@
     "sebab#2"
    ],
    "note": "AI: ibu risau anak tinggal makanan"
+  },
+  {
+   "id": "pagi",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "tengah"
+   ],
+   "note": "AI: anak tolak sarapan"
+  },
+  {
+   "id": "lauk",
+   "from": [
+    "S04",
+    "tengah"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: anak asingkan sayur"
+  },
+  {
+   "id": "seimbang",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "note": "AI: keluarga makan hidangan seimbang"
   }
  ],
  "cards": [
