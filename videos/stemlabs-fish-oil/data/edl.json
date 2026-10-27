@@ -1,0 +1,345 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). 27 Okt: 'Ok buatkan untuk fish oil dan pentavite Magnesium'.",
+ "_note": "StemLabs Fish Oil Double Strength — Drive folder 1gsRx4u7… (27 Oct). A-roll assets/a.mp4 = VID_20261026_144153 (Drive 1r7BSnM5…; label reads correctly, no flip). B-roll pool assets/b.mp4 = VID_20261013_180342 (0-41.46, bottle held + bottle on grass; also used in stemlabs-omega3) + VID_20261020_102848 (41.46-104.56, owner taking a softgel with water). Static on-grass shots skipped. Kept takes: 7.32-12.40 (take 2 of the hook; 3.5-5.5 false start), 12.74-19.12, 20.30-23.04, 25.16-30.92 (take 2 of 'satu kapsul ni ada seribu'), 34.52-38.24 (the unclear 'setelah cerita' 33.5 cut), 38.54-43.22, 45.04-54.30 (after the false start 'yang hari tu dah masak'), 85.80-90.46 (last of six CTA takes). Card: bottle front from 180342 3.5 s. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "mirror": false,
+ "segments": [
+  {
+   "id": "S01",
+   "in": 7.32,
+   "out": 10.5,
+   "zoom": 1.04,
+   "text": "Ibu ayah, abang kakak yang dah lama tengok StemLabs Fish Oil ni,",
+   "note": "HOOK (take 2)"
+  },
+  {
+   "id": "S02",
+   "in": 10.5,
+   "out": 12.4,
+   "zoom": 1.0,
+   "text": "dah cek harga payday dia belum?",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 12.74,
+   "out": 19.12,
+   "zoom": 1.0,
+   "text": "Gaji baru masuk kan? Inilah masanya nak tengok kalau ada promo, memang sayang kalau terlepas harga special ni.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 20.3,
+   "out": 23.04,
+   "zoom": 1.0,
+   "text": "Yang ada pada saya ni StemLabs Fish Oil Double Strength,",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 25.16,
+   "out": 30.92,
+   "zoom": 1.0,
+   "text": "satu kapsul ni ada 1000 mg fish oil, termasuk EPA 300mg dengan DHA 200mg.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 34.52,
+   "out": 38.24,
+   "zoom": 1.0,
+   "text": "Omega 3 ni penting untuk sokong kesihatan jantung kita, otak dan mata.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 38.54,
+   "out": 43.22,
+   "zoom": 1.0,
+   "text": "Satu botol ni ada 30 softgel tau.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 45.04,
+   "out": 54.3,
+   "zoom": 1.0,
+   "text": "Yang hari tu dah selalu nampak dekat FYP tu tapi tunggu gaji, cuba cek balik harga dia sekarang dekat beg kuning. Jangan lupa tengok voucher sekali, mana tahu boleh dapat harga lagi jimat.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 85.8,
+   "out": 90.46,
+   "zoom": 1.04,
+   "text": "Cuba tekan beg kuning sekarang, cek harga lepas voucher dan terus check out kalau promo masih ada.",
+   "note": "CTA (last take)"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "stemlabs"
+ },
+ "punch": [
+  [
+   "S09",
+   "ada.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 0.4,
+   "note": "180342: botol dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S03",
+    "inilah"
+   ],
+   "to": [
+    "S03",
+    "memang"
+   ],
+   "src": 50.06,
+   "note": "102848: botol ke kamera",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S04",
+    "stemlabs"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 4.6,
+   "note": "180342: botol depan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S05",
+    "termasuk"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 60.16,
+   "note": "102848: softgel diangkat ke kamera",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 53.46,
+   "note": "102848: keluarkan softgel",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S08",
+    "cuba"
+   ],
+   "to": [
+    "S08",
+    "jangan"
+   ],
+   "src": 67.06,
+   "note": "102848: makan softgel dengan air",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B7",
+   "from": [
+    "S08",
+    "mana"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 99.06,
+   "note": "102848: botol ke kamera",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "sihat",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: ayah dan anak berjoging"
+  }
+ ],
+ "cards": [
+  {
+   "id": "botol",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "termasuk"
+   ],
+   "img": "assets/products/botol.png",
+   "bg": "assets/products/botol-bg.jpg"
+  }
+ ],
+ "theme": {
+  "key": "#FFD34D",
+  "brand": "#5EC8FF"
+ },
+ "brand_words": [
+  "stemlabs",
+  "fish",
+  "oil",
+  "double",
+  "strength,"
+ ],
+ "keywords": [
+  "payday",
+  "gaji",
+  "promo,",
+  "special",
+  "1000",
+  "mg",
+  "epa",
+  "300mg",
+  "dha",
+  "200mg.",
+  "omega",
+  "3",
+  "jantung",
+  "otak",
+  "mata.",
+  "30",
+  "softgel",
+  "voucher",
+  "jimat.",
+  "sekarang,"
+ ],
+ "panel": {
+  "title": "SEMAK FISH OIL",
+  "from": [
+   "S05",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "1000MG FISH OIL",
+    "from": [
+     "S05",
+     "start"
+    ],
+    "done": [
+     "S05",
+     "termasuk"
+    ]
+   },
+   {
+    "text": "EPA 300MG",
+    "from": [
+     "S05",
+     "epa"
+    ],
+    "done": [
+     "S05",
+     "dengan"
+    ]
+   },
+   {
+    "text": "DHA 200MG",
+    "from": [
+     "S05",
+     "dha"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   },
+   {
+    "text": "30 SOFTGEL",
+    "from": [
+     "S07",
+     "start"
+    ],
+    "done": [
+     "S07",
+     "end"
+    ]
+   }
+  ]
+ }
+}
