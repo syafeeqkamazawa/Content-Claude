@@ -118,8 +118,8 @@
     "S04",
     "minuman"
    ],
-   "src": 0.3,
-   "note": "172341: balang depan (dapur)",
+   "src": 21.45,
+   "note": "172341: balang depan dipegang",
    "push": [
     1.0,
     1.06
@@ -301,5 +301,43 @@
    }
   ]
  },
- "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). 22 Okt: klip panjang boleh dipotong untuk video berlainan."
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). 22 Okt: klip panjang boleh dipotong untuk video berlainan.",
+ "flap_force": [
+  {
+   "from": 17.53,
+   "to": 20.65,
+   "panel": false,
+   "why": "3D product card"
+  },
+  {
+   "from": 0,
+   "to": 9.08,
+   "top": 150,
+   "why": "hook: full board above the face"
+  },
+  {
+   "from": 9.08,
+   "to": 11.87,
+   "top": 1300,
+   "why": "jar held high: board below"
+  },
+  {
+   "from": 25.02,
+   "to": 27.38,
+   "top": 1300,
+   "why": "hot water: one spot"
+  },
+  {
+   "from": 33.55,
+   "to": 36.25,
+   "top": 1300,
+   "why": "spoon of juice: one spot"
+  },
+  {
+   "from": 36.25,
+   "to": 45.4,
+   "top": 150,
+   "why": "CTA: full board above the face"
+  }
+ ]
 }
