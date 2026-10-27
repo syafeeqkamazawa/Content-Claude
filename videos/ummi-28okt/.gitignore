@@ -1,0 +1,6 @@
+# Family photos and clips stay out of git (originals on Drive).
+src/
+assets/
+renders/
+snapshots/
+.media/
