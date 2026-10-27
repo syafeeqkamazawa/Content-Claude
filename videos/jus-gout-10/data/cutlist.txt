@@ -1,4 +1,4 @@
-TOTAL 79.32s  (13 A-roll segments, 7 B-roll shots, 8 photos, 10 audio fx, 95 caption cards)
+TOTAL 79.32s  (13 A-roll segments, 7 B-roll shots, 8 photos, 10 audio fx, 96 caption cards)
 
   0.00-  5.30  S01  src   4.60-  9.90  (1 pc)  Pernah tak bangun pagi baru nak pijak lantai, tiba-tiba ibu jari kaki sakit,
   5.30-  7.78  S02  src   9.92- 12.40  (1 pc)  sampai nak berjalan pun susah.
@@ -12,7 +12,7 @@ TOTAL 79.32s  (13 A-roll segments, 7 B-roll shots, 8 photos, 10 audio fx, 95 cap
  52.73- 63.80  S10  src  78.66- 90.30  (3 pc)  dua sudu Jus Gout ni campurkan dalam cawan ataupun gelas 250 ml air panas, kacau dan boleh minum.
  63.80- 68.58  S11  src  92.06- 96.85  (1 pc)  Sementara sekarang ni pun dah penghujung bulan, biasanya ada banyak promo.
  68.58- 74.73  S12  src  99.86-106.20  (2 pc)  Nak cuba boleh tengok dekat beg kuning, kalau ada promo boleh, kalau ada voucher boleh ambil terus,
- 74.73- 79.32  S13  src 108.70-113.75  (4 pc)  cuba ikhtiar dengan Jus Gout by Pro Max series ni.
+ 74.73- 79.32  S13  src 108.70-113.75  (4 pc)  boleh cuba ikhtiar dengan Jus Gout by Pro Max series ni.
 
   cutaway   3.47-  5.30
   cutaway   5.30-  7.78
