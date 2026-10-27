@@ -13,7 +13,7 @@
 | stemlabs-fish-oil | 144153 | 1013_180342 + 1020_102848 |
 | pentavite-mg-3 | 144728 | 1004_001105 |
 
-Not made yet: Loquat & Pear (talking 145119; no usage footage).
+Loquat & Pear: `loquat-pear-gummies` — talking 145119 + usage clip 165622 (uploaded 27 Oct), delivered 27 Oct.
 Clips added to the folder later: 0827_170307 + 0908_140338 (Kid180 usage),
 1004_001105 (Pentavite Mg usage), 1013_180342 + 1020_102848 (Fish Oil usage) —
 so Fish Oil and Pentavite Mg now have demo footage.
