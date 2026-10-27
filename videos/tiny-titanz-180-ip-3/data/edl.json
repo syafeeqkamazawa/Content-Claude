@@ -1,0 +1,351 @@
+{
+ "_note": "Tiny Titanz 180+ IP #3 — Drive folder 1oTpbTWp… '27 Oktober 2026' (owner: 'Buat juga video Tiny Titanz 180+ dari link tadi'). A-roll assets/a.mp4 = VID_20261027_172545 (Drive 1s9flQBL…; front camera saved mirrored — flipped back in CSS), a storytelling script: picky eater, mother's worry, product, calcium, sachet, balanced diet still matters, month-end promo. B-roll assets/b.mp4 = VID_20260913_105822 (Drive 1a3k1kLX…; landscape top-down shot, centre-cropped to 9:16 at x 640-1248 and upscaled: box with sachets, tearing a sachet, pouring into a cup). Card: box photo image-1793092816642.jpg from the folder (flattened, thumb inpainted). Kept: 5.10-10.16, 36.14-38.66, 46.00-49.94, 54.18-64.18, 71.98-80.90, 80.90-87.52, 94.98-99.12, 128.16-135.20 (take 2 of the calcium line), 138.20-148.20, 149.72-155.94, 158.22-164.40, 165.70-170.72, 177.62-185.12. Dropped the unfinished 'bayangkan seorang ibu bangun', 'ataupun rasa dah hampir… tak tahu cara nak buat', 'sedih kan', the muddled 'minuman botani dalam betul-betul…' and the stammered first calcium take. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "in": 5.1,
+   "out": 10.16,
+   "zoom": 1.04,
+   "text": "Ibu dah cuba macam-macam masakan, tapi anak tetap tak nak makan.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 36.14,
+   "out": 38.66,
+   "zoom": 1.0,
+   "text": "Pernah tak ibu rasa nak menangis?",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 46.0,
+   "out": 49.94,
+   "zoom": 1.0,
+   "text": "Sebab dah pernah-pernah masak, tapi anak-anak makan 2-3 suap je.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 54.18,
+   "out": 64.18,
+   "zoom": 1.0,
+   "text": "Pagi buat sarapan, anak tetap tak nak. Tengah hari masak lauk kegemaran dia, tetapi tetap memilih. Sayur tak nak, buah pun susah.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 71.98,
+   "out": 80.9,
+   "zoom": 1.0,
+   "text": "Yang lagi buat ibu risau bukan sebab makanan membazir sebenarnya, tetapi takut nutrisi anak tu tak cukup sebab dia baru nak membesar kan.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 80.9,
+   "out": 87.52,
+   "zoom": 1.0,
+   "text": "Sebab tu ibu ayah boleh tengok Tiny Titanz 180 Plus ni,",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 94.98,
+   "out": 99.12,
+   "zoom": 1.0,
+   "text": "ada prune, ada blueberry dan ada acerola.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 128.16,
+   "out": 135.2,
+   "zoom": 1.0,
+   "text": "180 Plus liquid sachet ni dia tinggi kalsium, insyaAllah bantu perkembangan tulang dan gigi yang kuat.",
+   "note": "take 2"
+  },
+  {
+   "id": "S09",
+   "in": 138.2,
+   "out": 148.2,
+   "zoom": 1.0,
+   "text": "Senang nak bawa, dia bentuk sachet, senang nak bawa ke mana-mana, tak perlu bancuh dah, dia memang koyak tu terus boleh minum.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 149.72,
+   "out": 155.94,
+   "zoom": 1.0,
+   "text": "Tapi pemakanan seimbang tu jangan lupa, masih penting, real food tu masih penting.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 158.22,
+   "out": 164.4,
+   "zoom": 1.0,
+   "text": "Sebagai backup, sebagai bantu untuk seimbangkan lagi pemakanan mereka.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 165.7,
+   "out": 170.72,
+   "zoom": 1.0,
+   "text": "Sekarang ni ada banyak promosi hujung-hujung bulan ni, banyak voucher.",
+   "note": "CTA"
+  },
+  {
+   "id": "S13",
+   "in": 177.62,
+   "out": 185.12,
+   "zoom": 1.04,
+   "text": "Sementara masih ada promosi tu, boleh tengok dekat beg kuning dan boleh dapatkan untuk anak-anak kita.",
+   "note": "CTA"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "tapi"
+ },
+ "punch": [
+  [
+   "S13",
+   "kita.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S06",
+    "tiny"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 4.0,
+   "note": "0913: sachet di tangan, kotak",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "insyaallah"
+   ],
+   "src": 24.0,
+   "note": "0913: kotak dan sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S09",
+    "tak"
+   ],
+   "to": [
+    "S09",
+    "terus"
+   ],
+   "src": 52.0,
+   "note": "0913: koyak sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S09",
+    "terus"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 68.0,
+   "note": "0913: tuang ke cawan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 82.0,
+   "note": "0913: cawan dan sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "suap",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: anak tolak suapan"
+  },
+  {
+   "id": "risau",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "sebab#2"
+   ],
+   "note": "AI: ibu risau anak tinggal makanan"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "titles": [],
+ "theme": {
+  "key": "#F2C14E",
+  "brand": "#6FDC8C"
+ },
+ "brand_words": [
+  "tiny",
+  "titanz",
+  "180",
+  "plus"
+ ],
+ "keywords": [
+  "makan.",
+  "menangis?",
+  "suap",
+  "memilih.",
+  "risau",
+  "nutrisi",
+  "prune,",
+  "blueberry",
+  "acerola.",
+  "kalsium,",
+  "tulang",
+  "gigi",
+  "sachet,",
+  "bancuh",
+  "minum.",
+  "seimbang",
+  "penting.",
+  "promosi",
+  "voucher."
+ ],
+ "panel": {
+  "title": "SEMAK 180+",
+  "from": [
+   "S07",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "PRUNE BLUEBERRY",
+    "from": [
+     "S07",
+     "start"
+    ],
+    "done": [
+     "S07",
+     "end"
+    ]
+   },
+   {
+    "text": "TINGGI KALSIUM",
+    "from": [
+     "S08",
+     "start"
+    ],
+    "done": [
+     "S08",
+     "end"
+    ]
+   },
+   {
+    "text": "MUDAH DIBAWA",
+    "from": [
+     "S09",
+     "start"
+    ],
+    "done": [
+     "S09",
+     "tak"
+    ]
+   },
+   {
+    "text": "TAK PERLU BANCUH",
+    "from": [
+     "S09",
+     "tak"
+    ],
+    "done": [
+     "S09",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik)."
+}

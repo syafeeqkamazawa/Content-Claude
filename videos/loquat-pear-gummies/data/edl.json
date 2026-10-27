@@ -1,0 +1,342 @@
+{
+ "_note": "Nature's Key Loquat & Pear Gummies — Drive folder 1gsRx4u7… (27 Oct, owner uploaded the usage clip: 'Aku dah upload klip untuk produk Loquat, terus buat video'). A-roll assets/a.mp4 = VID_20261026_145119 (Drive 1lbZlmJd…; front camera saved mirrored — box reads backwards — flipped back in CSS). B-roll assets/b.mp4 = VID_20261027_165622 (Drive 149JnF0S…; box front, back label, opening, gummies poured on the table, unwrapping, owner eating one and thumbs up). Kept takes: 7.58-12.66 (take 2 of the hook), 18.70-25.40 (third try of 'tengah-tengah musim gaji'), 25.40-32.16, 34.34-46.48, 61.04-68.42, 76.30-82.42. Dropped the unclear 'senang nak buat mana-mana' (58.5-61.0) and whisper ghost 'terima kasih'. Box label: 12% concentrated pear juice, 5% concentrated loquat juice, pear flavour, 60 g, 30 gummies. Card: box front from the B-roll at 4.5 s. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "in": 7.58,
+   "out": 12.66,
+   "zoom": 1.04,
+   "text": "Yang dah lama aim gummies buah pear ni, cuba cek harga ni sekarang dekat beg kuning,",
+   "note": "HOOK (take 2)"
+  },
+  {
+   "id": "S02",
+   "in": 18.7,
+   "out": 25.4,
+   "zoom": 1.0,
+   "text": "tengah-tengah musim gaji ni biasanya ada promo payday tau, memang rugi sangat kalau terlepas harga murah.",
+   "note": "take 3"
+  },
+  {
+   "id": "S03",
+   "in": 25.4,
+   "out": 32.16,
+   "zoom": 1.0,
+   "text": "Yang ada pada saya ni Nature's Key Loquat and Pear Gummies, satu kotak ni dapat 30 biji gummies tau.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 34.34,
+   "out": 46.48,
+   "zoom": 1.0,
+   "text": "Lagi menariknya, dia mengandungi 12% jus pear pekat dengan 5% jus loquat pekat. Perisa pear, bentuk gummies, senang nak bawa dan makan sebagai kudapan.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 61.04,
+   "out": 68.42,
+   "zoom": 1.0,
+   "text": "Kalau korang memang dah lama nak cuba, sekarang cuba cek harga dia balik, jangan lupa tengok voucher sekali, mana tahu dia dapat harga lagi jimat.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 76.3,
+   "out": 82.42,
+   "zoom": 1.04,
+   "text": "Tekan beg kuning sekarang, cek harga payday, claim voucher kalau ada dan terus check out kalau nampak harga tu memang berbaloi.",
+   "note": "CTA (spoken only)"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "cuba"
+ },
+ "punch": [
+  [
+   "S06",
+   "berbaloi.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S01",
+    "cuba"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "src": 1.0,
+   "note": "165622: kotak depan dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S02",
+    "biasanya"
+   ],
+   "to": [
+    "S02",
+    "memang"
+   ],
+   "src": 8.0,
+   "note": "165622: buka kotak",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S03",
+    "nature's"
+   ],
+   "to": [
+    "S03",
+    "satu"
+   ],
+   "src": 14.0,
+   "note": "165622: kotak depan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S03",
+    "satu"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 37.5,
+   "note": "165622: segenggam gummies",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B8",
+   "from": [
+    "S04",
+    "12%"
+   ],
+   "to": [
+    "S04",
+    "perisa"
+   ],
+   "src": 5.8,
+   "note": "165622: label belakang (12% jus pear, 5% jus loquat)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S04",
+    "perisa"
+   ],
+   "to": [
+    "S04",
+    "senang"
+   ],
+   "src": 44.0,
+   "note": "165622: buka bungkus gummy",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S04",
+    "senang"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 72.0,
+   "note": "165622: makan gummy",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B7",
+   "from": [
+    "S05",
+    "jangan"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 81.5,
+   "note": "165622: angkat ibu jari",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "12%"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "titles": [],
+ "theme": {
+  "key": "#FFB23F",
+  "brand": "#9BD36A"
+ },
+ "brand_words": [
+  "nature's",
+  "key",
+  "loquat",
+  "pear",
+  "gummies,",
+  "gummies"
+ ],
+ "keywords": [
+  "harga",
+  "gaji",
+  "promo",
+  "payday",
+  "rugi",
+  "30",
+  "biji",
+  "12%",
+  "5%",
+  "jus",
+  "pekat",
+  "kudapan.",
+  "voucher",
+  "jimat.",
+  "berbaloi."
+ ],
+ "panel": {
+  "title": "SEMAK LOQUAT",
+  "from": [
+   "S03",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "30 GUMMIES",
+    "from": [
+     "S03",
+     "satu"
+    ],
+    "done": [
+     "S03",
+     "end"
+    ]
+   },
+   {
+    "text": "12% JUS PEAR",
+    "from": [
+     "S04",
+     "12%"
+    ],
+    "done": [
+     "S04",
+     "dengan"
+    ]
+   },
+   {
+    "text": "5% JUS LOQUAT",
+    "from": [
+     "S04",
+     "dengan"
+    ],
+    "done": [
+     "S04",
+     "perisa"
+    ]
+   },
+   {
+    "text": "MUDAH DIBAWA",
+    "from": [
+     "S04",
+     "senang"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik).",
+ "flap_force": [
+  {
+   "from": 14.03,
+   "to": 15.77,
+   "panel": false,
+   "why": "box front"
+  },
+  {
+   "from": 18.25,
+   "to": 21.92,
+   "panel": false,
+   "why": "3D product card"
+  },
+  {
+   "from": 21.92,
+   "to": 25.97,
+   "panel": false,
+   "why": "back label"
+  }
+ ]
+}

@@ -1,0 +1,380 @@
+{
+ "_note": "Tiny Titanz Kid180 Tablet #6 — Drive folder 1oTpbTWp… (27 Oct, owner: 'Buatkan juga untuk produk Tiny Titanz Kid180 Tablet dari link tadi'). A-roll assets/a.mp4 = VID_20261027_173446 (front camera saved mirrored — flipped back in CSS). Kept: 2.82-10.40 (hook), 12.94-16.98, 28.24-30.12, 33.50-40.18 (dropped the 'dia orang-dia orang' stutter), 50.62-57.10, 62.68-70.60, 93.30-103.18, 105.70-112.94, 134.60-146.30, 159.74-162.70 + 163.56-165.20 ('apa tu' cut), 167.56-171.66, 189.90-193.62. Dropped: 'bila masuk buat makan' (unclear), 'cukup bedak' line, 'Satu tablet ni ada 60 tablet' (misspoken), first unclear try of the ingredients, the dose line, repeated promo rambling. B-roll assets/b.mp4 = VID_20260827_170307 (0-44.59) + VID_20260908_140338 (44.59-88.26), the same clips as #5 but only ranges #5 did not use (#5: 0827 3.0-6.0, 12.0-14.4; 0908 0.3-4.7, 9.0-11.2); 0827 shots with bare feet are not used. Card: Kid180 box front (same still as #4/#5). Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "in": 2.82,
+   "out": 10.4,
+   "zoom": 1.04,
+   "text": "Ibu ayah mana yang tak risau bila anak dah nak membesar tapi masih memilih,",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 12.94,
+   "out": 16.98,
+   "zoom": 1.0,
+   "text": "susah nak makan, terutamanya makan sayur lah,",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 28.24,
+   "out": 30.12,
+   "zoom": 1.0,
+   "text": "Walaupun kita dah siapkan sarapan,",
+   "note": "drop 'tapi belum tentu dia orang-dia orang' (stutter)"
+  },
+  {
+   "id": "S04",
+   "in": 33.5,
+   "out": 40.18,
+   "zoom": 1.0,
+   "text": "1, 2, 3 suap je, tak nak dah. Sayur tak nak, buah pun kadang-kadang susah nak makan.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 50.62,
+   "out": 57.1,
+   "zoom": 1.0,
+   "text": "Sebenarnya yang kita risau tu bukan sebab makanan membazir, tapi kita risau nutrisi diorang.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 62.68,
+   "out": 70.6,
+   "zoom": 1.0,
+   "text": "Sebab itu ibu ayah, yang ada pada saya ni ialah Tiny Titanz Kid180 tablet.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 93.3,
+   "out": 103.18,
+   "zoom": 1.0,
+   "text": "Tablet Kid180 ni ada campuran beri biru, teh hijau, vitamin C dan paling penting tinggi kalsium.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 105.7,
+   "out": 112.94,
+   "zoom": 1.0,
+   "text": "Kalsium dia sangat tinggi untuk bantu perkembangan tulang dan gigi anak-anak kita lah.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 134.6,
+   "out": 146.3,
+   "zoom": 1.0,
+   "text": "Saya sendiri pun anak-anak saya makan vitamin ni, alhamdulillah. Dan saya tak perlu suruh dah, memang dia akan tanya, Abah nak makan vitamin boleh?",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 159.74,
+   "out": 162.7,
+   "zoom": 1.0,
+   "text": "insyaAllah membantu ibu ayah untuk",
+   "note": "drop 'apa tu'"
+  },
+  {
+   "id": "S11",
+   "in": 163.56,
+   "out": 165.2,
+   "zoom": 1.0,
+   "text": "seimbangkan nutrisi anak-anak kita.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 167.56,
+   "out": 171.66,
+   "zoom": 1.0,
+   "text": "Hujung-hujung bulan ni promosi banyak, ada voucher,",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 189.9,
+   "out": 193.62,
+   "zoom": 1.04,
+   "text": "dapatkan di beg kuning sementara masih ada promosi tu lah.",
+   "note": "CTA"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "risau"
+ },
+ "punch": [
+  [
+   "S13",
+   "lah.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S06",
+    "tiny"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 58.587,
+   "note": "0908: tuang tablet ke penutup",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S07",
+    "vitamin"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 71.087,
+   "note": "0908: tuang tablet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "dan"
+   ],
+   "src": 75.587,
+   "note": "0908: tablet dalam penutup",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 82.087,
+   "note": "0908: tuang tablet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "memilih",
+   "from": [
+    "S01",
+    "tapi"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: anak tolak sayur"
+  },
+  {
+   "id": "sayur",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: pinggan sayur tak disentuh"
+  },
+  {
+   "id": "sarapan",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "sayur"
+   ],
+   "note": "AI: anak tak habis sarapan"
+  },
+  {
+   "id": "buah",
+   "from": [
+    "S04",
+    "sayur"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: anak tolak buah"
+  },
+  {
+   "id": "nutrisi",
+   "from": [
+    "S05",
+    "bukan"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: ibu risau tengok pinggan"
+  },
+  {
+   "id": "tumbesaran",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "note": "AI: ukur tinggi anak di dinding"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "vitamin"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "titles": [],
+ "theme": {
+  "key": "#FFC93C",
+  "brand": "#7DDB6B"
+ },
+ "brand_words": [
+  "tiny",
+  "titanz",
+  "kid180"
+ ],
+ "keywords": [
+  "risau",
+  "memilih,",
+  "sayur",
+  "sarapan,",
+  "nutrisi",
+  "beri",
+  "biru,",
+  "teh",
+  "hijau,",
+  "vitamin",
+  "c",
+  "kalsium.",
+  "kalsium",
+  "tulang",
+  "gigi",
+  "promosi",
+  "voucher,",
+  "kuning",
+  "lah."
+ ],
+ "panel": {
+  "title": "SEMAK KID180",
+  "from": [
+   "S07",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "BERI BIRU",
+    "from": [
+     "S07",
+     "beri"
+    ],
+    "done": [
+     "S07",
+     "teh"
+    ]
+   },
+   {
+    "text": "TEH HIJAU",
+    "from": [
+     "S07",
+     "teh"
+    ],
+    "done": [
+     "S07",
+     "vitamin"
+    ]
+   },
+   {
+    "text": "VITAMIN C",
+    "from": [
+     "S07",
+     "vitamin"
+    ],
+    "done": [
+     "S07",
+     "dan"
+    ]
+   },
+   {
+    "text": "TINGGI KALSIUM",
+    "from": [
+     "S07",
+     "tinggi"
+    ],
+    "done": [
+     "S08",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). 22 Okt: klip panjang boleh dipotong untuk video berlainan."
+}
