@@ -9,4 +9,4 @@
 | VID_20260908_140338 | Kid180 bottle, pouring | `titanz-kid180-6` B-roll (ranges #5 did not use) |
 | VID_20260827_170307 | Kid180 tablets to children's palms | not used in #6 (the clean parts are in #5; the rest shows bare feet) |
 | image-1793093421281.jpg | Kid180 jar + box photo | not used (thumb over the box; #4/#5 card used instead) |
-| VID_20261027_171408 | Jus Gout talking (gout-pain story) | not made — framed as relief for gout pain; waiting for the owner |
+| VID_20261027_171408 | Jus Gout talking (gout-pain story) | `jus-gout-10` (owner 27 Oct: keep "ikhtiar dengan Jus Gout"; delivered 27 Oct) |
