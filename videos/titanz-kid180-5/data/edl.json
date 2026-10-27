@@ -1,0 +1,293 @@
+{
+ "_note": "Tiny Titanz Kid180 Tablet #5 — Drive folder 1gsRx4u7… (27 Oct, owner: 'boleh buat satu lagi'). The folder has two Kid180 talking clips; #4 used VID_20261026_142826 plus 142620 at 67.74-71.30, 79.34-80.56, 87.10-96.36. This video uses only the rest of VID_20261026_142620 (Drive 1_cuReh3…; front camera saved mirrored — flipped back in CSS): 5.66-11.06 (hook take 1), 41.56-46.02, 57.54-67.74, 76.30-79.36, 80.70-84.84, 29.26-32.36 (closing question from hook take 2). No line is shared with #4. B-roll assets/b.mp4 = VID_20260827_170307 (0-44.59, tablets poured into the children's palms; the later shots of the children standing barefoot are not used) + VID_20260908_140338 (44.59-88.26, bottle held, tablets poured into the cap) — both new, not used in #1-#4. Card: Kid180 box front from #4. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "in": 5.66,
+   "out": 11.06,
+   "zoom": 1.04,
+   "text": "Ibu ayah yang dah lama tengok Kid180 tablet ni, dah check harga lepas gaji masuk?",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 41.56,
+   "out": 46.02,
+   "zoom": 1.0,
+   "text": "Sekarang ni tengah ada promo payday tau, memang sayang sangat kalau tak ambil peluang ni.",
+   "note": "take 3"
+  },
+  {
+   "id": "S03",
+   "in": 57.54,
+   "out": 67.74,
+   "zoom": 1.0,
+   "text": "Yang ada pada saya ni Tiny Titanz Kid180 tablet tau, satu botol ada 60 tablet kunyah, yang menarik dia tinggi kalsium untuk bantu perkembangan tulang dan gigi anak kita.",
+   "note": "take 3"
+  },
+  {
+   "id": "S04",
+   "in": 76.3,
+   "out": 79.36,
+   "zoom": 1.0,
+   "text": "Cara guna pun mudah, tablet kunyah je, tak perlu bancuh,",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 80.7,
+   "out": 84.84,
+   "zoom": 1.0,
+   "text": "jadi kalau korang memang dah plan nak beli untuk anak, jangan lupa check voucher sekali tau.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 29.26,
+   "out": 32.36,
+   "zoom": 1.04,
+   "text": "Dah cek belum harga dekat beg kuning untuk produk ni?",
+   "note": "CTA (from take 2 of the hook)"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "gaji"
+ },
+ "punch": [
+  [
+   "S06",
+   "ni?",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "memang"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 44.89,
+   "note": "0908: botol dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S03",
+    "tiny"
+   ],
+   "to": [
+    "S03",
+    "satu"
+   ],
+   "src": 46.59,
+   "note": "0908: botol depan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S03",
+    "satu"
+   ],
+   "to": [
+    "S03",
+    "yang#2"
+   ],
+   "src": 53.59,
+   "note": "0908: tuang tablet ke penutup",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 3.0,
+   "note": "0827: tablet ke tapak tangan anak",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "jangan"
+   ],
+   "src": 12.0,
+   "note": "0827: tablet ke tapak tangan anak",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "gigi",
+   "from": [
+    "S03",
+    "untuk"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: anak gosok gigi bersama ibu"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S03",
+    "yang#2"
+   ],
+   "to": [
+    "S03",
+    "untuk"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "titles": [],
+ "theme": {
+  "key": "#FFC93C",
+  "brand": "#7DDB6B"
+ },
+ "brand_words": [
+  "tiny",
+  "titanz",
+  "kid180"
+ ],
+ "keywords": [
+  "harga",
+  "gaji",
+  "promo",
+  "payday",
+  "sayang",
+  "60",
+  "tablet",
+  "kunyah,",
+  "kalsium",
+  "tulang",
+  "gigi",
+  "mudah,",
+  "bancuh,",
+  "voucher",
+  "kuning",
+  "ni?"
+ ],
+ "panel": {
+  "title": "SEMAK KID180",
+  "from": [
+   "S03",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "60 TABLET KUNYAH",
+    "from": [
+     "S03",
+     "satu"
+    ],
+    "done": [
+     "S03",
+     "yang#2"
+    ]
+   },
+   {
+    "text": "TINGGI KALSIUM",
+    "from": [
+     "S03",
+     "yang#2"
+    ],
+    "done": [
+     "S03",
+     "end"
+    ]
+   },
+   {
+    "text": "TAK PERLU BANCUH",
+    "from": [
+     "S04",
+     "start"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   },
+   {
+    "text": "CEK VOUCHER",
+    "from": [
+     "S05",
+     "jangan"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). 22 Okt: klip panjang boleh dipotong untuk video berlainan.",
+ "flap_force": [
+  {
+   "from": 15.53,
+   "to": 17.55,
+   "panel": false,
+   "why": "3D product card"
+  },
+  {
+   "from": 22.83,
+   "to": 25.33,
+   "top": 1300,
+   "why": "tablets into palm: keep one spot below"
+  }
+ ]
+}

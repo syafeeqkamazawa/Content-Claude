@@ -1,0 +1,305 @@
+{
+ "_note": "Jus Gout Pro Max #9 — Drive folder 1gsRx4u7… (27 Oct, owner: 'Jus gout pun sepatutnya ada satu lagi'). The folder has two Jus Gout talking clips, both cut into #8 (143442 12.95-17.98, 29.66-37.24, 40.22-46.28, 61.12-69.78, 75.50-78.22, 89.60-99.50; 143055 88.20-94.50). This video uses the unused parts: assets/a.mp4 = VID_20261026_143055 (0-105.85) + VID_20261026_143442 (105.85-247.6), front camera saved mirrored — flipped back in CSS. Kept: 143055 3.90-9.66, 10.12-16.40, 18.26-22.06 ('kalau saya/seller tengah buat promo tu' 16.4-18.0 dropped — unclear), 31.44-36.42 (take 2), 59.56-66.30 (take 5), 69.84-79.70, 97.94-103.92 (CTA take 2); 143442 73.22-75.50 ('kemudian kacau dan minum', take 1). No line shared with #8. B-roll assets/b.mp4 = VID_20261012_172341 (also in Jus Gout #1-#8); #8 used 2.2-6.65, 39.5-41.88, 73.8-76.2, 131.5-133.6, 197.0-200.02 — picks here avoid them. No treatment claims. Card: jar from #8. Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "segments": [
+  {
+   "id": "S01",
+   "in": 3.9,
+   "out": 9.66,
+   "zoom": 1.04,
+   "text": "Ibu ayah, abang kakak yang dah lama usha Jus Gout Pro Max ni, jangan buat lupa je bila gaji dah masuk tu.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 10.12,
+   "out": 16.4,
+   "zoom": 1.0,
+   "text": "Sekarang ni, hari tu kata nak tunggu payday kan? Cuba tengok dekat beg kuning berapa harga sekarang.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 18.26,
+   "out": 22.06,
+   "zoom": 1.0,
+   "text": "Jangan lepaskan peluang, rugi sangat sebab dapat harga yang lebih jimat.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 31.44,
+   "out": 36.42,
+   "zoom": 1.0,
+   "text": "Yang ni Jus Gout Pro Max series tau, minuman tambahan dengan gabungan 6 ekstrak herba terpilih,",
+   "note": "take 2"
+  },
+  {
+   "id": "S05",
+   "in": 59.56,
+   "out": 66.3,
+   "zoom": 1.0,
+   "text": "Cara nak bancuh pun senang sangat, masukkan 2 sudu Jus Gout Pro Max ni dengan 250ml air panas,",
+   "note": "take 5"
+  },
+  {
+   "id": "S06",
+   "in": 179.07,
+   "out": 181.35,
+   "zoom": 1.0,
+   "text": "kemudian kacau dan minum.",
+   "note": "from VID_20261026_143442 (take 1; #8 used take 2)"
+  },
+  {
+   "id": "S07",
+   "in": 69.84,
+   "out": 79.7,
+   "zoom": 1.0,
+   "text": "Jadi kalau korang memang dah lama survey, cuba tengok harga akhir dia, check sekali voucher yang boleh claim, mana tahu boleh dapat jimat lagi, tak perlu bayar lebih kalau ada tawaran yang lagi berbaloi.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 97.94,
+   "out": 103.92,
+   "zoom": 1.04,
+   "text": "Tekan beg kuning sekarang, check harga payday, claim voucher kalau ada dan terus check out kalau nampak harga tu tengah murah.",
+   "note": "CTA take 2 (#8 used take 1)"
+  }
+ ],
+ "hook": {
+  "seg": "S01",
+  "word": "jangan"
+ },
+ "punch": [
+  [
+   "S08",
+   "murah.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "cuba"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 18.6,
+   "note": "172341: balang depan dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "minuman"
+   ],
+   "src": 0.3,
+   "note": "172341: balang depan (dapur)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S05",
+    "masukkan"
+   ],
+   "to": [
+    "S05",
+    "dengan"
+   ],
+   "src": 76.4,
+   "note": "172341: sudukan serbuk",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S05",
+    "dengan"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 42.1,
+   "note": "172341: air panas",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 134.0,
+   "note": "172341: kacau jus",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S07",
+    "check"
+   ],
+   "to": [
+    "S07",
+    "tak"
+   ],
+   "src": 200.3,
+   "note": "172341: sudu jus",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [],
+ "cards": [
+  {
+   "id": "balang",
+   "from": [
+    "S04",
+    "minuman"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "img": "assets/products/balang.png",
+   "bg": "assets/products/balang-bg.jpg"
+  }
+ ],
+ "titles": [],
+ "theme": {
+  "key": "#FFC21A",
+  "brand": "#FF7A45"
+ },
+ "brand_words": [
+  "jus",
+  "gout",
+  "pro",
+  "max",
+  "promaxx"
+ ],
+ "keywords": [
+  "gaji",
+  "payday",
+  "harga",
+  "sekarang.",
+  "rugi",
+  "jimat.",
+  "6",
+  "ekstrak",
+  "herba",
+  "senang",
+  "2",
+  "sudu",
+  "250ml",
+  "panas,",
+  "kacau",
+  "minum.",
+  "voucher",
+  "berbaloi.",
+  "murah."
+ ],
+ "panel": {
+  "title": "CARA SEDIA",
+  "from": [
+   "S04",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "6 EKSTRAK HERBA",
+    "from": [
+     "S04",
+     "minuman"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   },
+   {
+    "text": "2 SUDU",
+    "from": [
+     "S05",
+     "masukkan"
+    ],
+    "done": [
+     "S05",
+     "dengan"
+    ]
+   },
+   {
+    "text": "250ML AIR PANAS",
+    "from": [
+     "S05",
+     "dengan"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   },
+   {
+    "text": "KACAU MINUM",
+    "from": [
+     "S06",
+     "start"
+    ],
+    "done": [
+     "S06",
+     "end"
+    ]
+   }
+  ]
+ },
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). 22 Okt: klip panjang boleh dipotong untuk video berlainan."
+}
