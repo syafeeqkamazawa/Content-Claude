@@ -1,27 +1,27 @@
-TOTAL 69.33s  (13 A-roll segments, 4 B-roll shots, 6 photos, 8 audio fx, 78 caption cards)
+TOTAL 68.52s  (13 A-roll segments, 4 B-roll shots, 6 photos, 8 audio fx, 78 caption cards)
 
   0.00-  7.32  S01  src   2.82- 10.40  (2 pc)  Ibu ayah mana yang tak risau bila anak dah nak membesar tapi masih memilih,
-  7.32- 10.57  S02  src  12.94- 16.98  (2 pc)  susah nak makan, terutamanya makan sayur lah,
- 10.57- 12.45  S03  src  28.24- 30.12  (1 pc)  Walaupun kita dah siapkan sarapan,
- 12.45- 18.33  S04  src  33.50- 40.18  (4 pc)  1, 2, 3 suap je, tak nak dah. Sayur tak nak, buah pun kadang-kadang susah nak makan.
- 18.33- 24.37  S05  src  50.62- 57.10  (2 pc)  Sebenarnya yang kita risau tu bukan sebab makanan membazir, tapi kita risau nutrisi diorang.
- 24.37- 31.82  S06  src  62.68- 70.60  (2 pc)  Sebab itu ibu ayah, yang ada pada saya ni ialah Tiny Titanz Kid180 tablet.
- 31.82- 40.48  S07  src  93.30-103.18  (4 pc)  Tablet Kid180 ni ada campuran beri biru, teh hijau, vitamin C dan paling penting tinggi kalsium.
- 40.48- 46.43  S08  src 105.70-112.94  (3 pc)  Kalsium dia sangat tinggi untuk bantu perkembangan tulang dan gigi anak-anak kita lah.
- 46.43- 57.08  S09  src 134.60-146.30  (4 pc)  Saya sendiri pun anak-anak saya makan vitamin ni, alhamdulillah. Dan saya tak perlu suruh dah, memang dia akan tanya, Abah nak makan vitamin boleh?
- 57.08- 59.88  S10  src 159.74-162.70  (2 pc)  insyaAllah membantu ibu ayah untuk
- 59.88- 61.52  S11  src 163.56-165.20  (1 pc)  seimbangkan nutrisi anak-anak kita.
- 61.52- 65.62  S12  src 167.56-171.66  (1 pc)  Hujung-hujung bulan ni promosi banyak, ada voucher,
- 65.62- 69.33  S13  src 189.90-193.62  (1 pc)  dapatkan di beg kuning sementara masih ada promosi tu lah.
+  7.32-  9.78  S02  src  14.52- 16.98  (1 pc)  susah nak makan, terutamanya makan sayur lah,
+  9.78- 11.67  S03  src  28.24- 30.12  (1 pc)  Walaupun kita dah siapkan sarapan,
+ 11.67- 17.55  S04  src  33.50- 40.18  (4 pc)  1, 2, 3 suap je, tak nak dah. Sayur tak nak, buah pun kadang-kadang susah nak makan.
+ 17.55- 23.58  S05  src  50.62- 57.10  (2 pc)  Sebenarnya yang kita risau tu bukan sebab makanan membazir, tapi kita risau nutrisi diorang.
+ 23.58- 31.03  S06  src  62.68- 70.60  (2 pc)  Sebab itu ibu ayah, yang ada pada saya ni ialah Tiny Titanz Kid180 tablet.
+ 31.03- 39.70  S07  src  93.30-103.18  (4 pc)  Tablet Kid180 ni ada campuran beri biru, teh hijau, vitamin C dan paling penting tinggi kalsium.
+ 39.70- 45.65  S08  src 105.70-112.94  (3 pc)  Kalsium dia sangat tinggi untuk bantu perkembangan tulang dan gigi anak-anak kita lah.
+ 45.65- 56.30  S09  src 134.60-146.30  (4 pc)  Saya sendiri pun anak-anak saya makan vitamin ni, alhamdulillah. Dan saya tak perlu suruh dah, memang dia akan tanya, Abah nak makan vitamin boleh?
+ 56.30- 59.07  S10  src 159.76-162.70  (2 pc)  insyaAllah membantu ibu ayah untuk
+ 59.07- 60.70  S11  src 163.56-165.20  (1 pc)  seimbangkan nutrisi anak-anak kita.
+ 60.70- 64.80  S12  src 167.56-171.66  (1 pc)  Hujung-hujung bulan ni promosi banyak, ada voucher,
+ 64.80- 68.52  S13  src 189.90-193.62  (1 pc)  dapatkan di beg kuning sementara masih ada promosi tu lah.
 
   cutaway   3.63-  7.32
-  cutaway   7.32- 10.57
-  cutaway  10.57- 14.72
-  cutaway  14.72- 18.33
-  cutaway  19.82- 24.37
-  cutaway  28.42- 31.82
-  cutaway  31.82- 36.82
-  cutaway  36.82- 40.48
-  cutaway  40.48- 46.43
-  cutaway  46.43- 51.18
-  cutaway  57.08- 61.52
+  cutaway   7.32-  9.78
+  cutaway   9.78- 13.93
+  cutaway  13.93- 17.55
+  cutaway  19.03- 23.58
+  cutaway  27.63- 31.03
+  cutaway  31.03- 36.03
+  cutaway  36.03- 39.70
+  cutaway  39.70- 45.65
+  cutaway  45.65- 50.40
+  cutaway  56.30- 60.70

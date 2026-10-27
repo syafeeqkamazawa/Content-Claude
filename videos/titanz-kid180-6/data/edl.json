@@ -1,5 +1,5 @@
 {
- "_note": "Tiny Titanz Kid180 Tablet #6 — Drive folder 1oTpbTWp… (27 Oct, owner: 'Buatkan juga untuk produk Tiny Titanz Kid180 Tablet dari link tadi'). A-roll assets/a.mp4 = VID_20261027_173446 (front camera saved mirrored — flipped back in CSS). Kept: 2.82-10.40 (hook), 12.94-16.98, 28.24-30.12, 33.50-40.18 (dropped the 'dia orang-dia orang' stutter), 50.62-57.10, 62.68-70.60, 93.30-103.18, 105.70-112.94, 134.60-146.30, 159.74-162.70 + 163.56-165.20 ('apa tu' cut), 167.56-171.66, 189.90-193.62. Dropped: 'bila masuk buat makan' (unclear), 'cukup bedak' line, 'Satu tablet ni ada 60 tablet' (misspoken), first unclear try of the ingredients, the dose line, repeated promo rambling. B-roll assets/b.mp4 = VID_20260827_170307 (0-44.32) + VID_20260908_140338 (44.32-87.90), the same clips as #5 but only ranges #5 did not use (#5: 0827 3.0-6.0, 12.0-14.4; 0908 0.3-4.7, 9.0-11.2); 0827 shots with bare feet are not used. Card: Kid180 box front (same still as #4/#5). Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
+ "_note": "Tiny Titanz Kid180 Tablet #6 — Drive folder 1oTpbTWp… (27 Oct, owner: 'Buatkan juga untuk produk Tiny Titanz Kid180 Tablet dari link tadi'). A-roll assets/a.mp4 = VID_20261027_173446 (front camera saved mirrored — flipped back in CSS). Kept: 2.82-10.40 (hook), 14.52-16.98, 28.24-30.12, 33.50-40.18 (dropped the 'dia orang-dia orang' stutter), 50.62-57.10, 62.68-70.60, 93.30-103.18, 105.70-112.94, 134.60-146.30, 159.76-162.70 + 163.56-165.20 ('apa tu' cut), 167.56-171.66, 189.90-193.62. Dropped: 'bila masuk buat makan' (unclear), 'cukup bedak' line, 'Satu tablet ni ada 60 tablet' (misspoken), first unclear try of the ingredients, the dose line, repeated promo rambling. B-roll assets/b.mp4 = VID_20260827_170307 (0-44.32) + VID_20260908_140338 (44.32-87.90), the same clips as #5 but only ranges #5 did not use (#5: 0827 3.0-6.0, 12.0-14.4; 0908 0.3-4.7, 9.0-11.2); 0827 shots with bare feet are not used. Card: Kid180 box front (same still as #4/#5). Owner 26 Oct brief: 2K 60 fps, hook on first clip only, gentle motion, whip transitions, 3D product card, no music.",
  "fps": 60,
  "width": 1080,
  "height": 1920,
@@ -23,7 +23,7 @@
   },
   {
    "id": "S02",
-   "in": 12.94,
+   "in": 14.52,
    "out": 16.98,
    "zoom": 1.0,
    "text": "susah nak makan, terutamanya makan sayur lah,",
@@ -87,7 +87,7 @@
   },
   {
    "id": "S10",
-   "in": 159.74,
+   "in": 159.76,
    "out": 162.7,
    "zoom": 1.0,
    "text": "insyaAllah membantu ibu ayah untuk",
@@ -379,8 +379,8 @@
  "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik). 22 Okt: klip panjang boleh dipotong untuk video berlainan.",
  "flap_force": [
   {
-   "from": 31.82,
-   "to": 36.82,
+   "from": 31.03,
+   "to": 36.03,
    "panel": false,
    "why": "3D product card"
   }
