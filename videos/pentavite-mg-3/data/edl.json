@@ -301,6 +301,12 @@
    "to": 19.3,
    "panel": false,
    "why": "3D product card"
+  },
+  {
+   "from": 24.25,
+   "to": 27.87,
+   "top": 1300,
+   "why": "gummy in palm: board below, over the wrist"
   }
  ]
 }
