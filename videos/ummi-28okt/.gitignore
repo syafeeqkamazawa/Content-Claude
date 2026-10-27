@@ -1,6 +1,10 @@
-# Family photos and clips stay out of git (originals on Drive).
+# Family photos, clips and the song stay out of git (originals on Drive).
 src/
-assets/
+assets/photos/
+assets/clips/
+assets/song.m4a
 renders/
 snapshots/
 .media/
+.hyperframes/
+node_modules/
