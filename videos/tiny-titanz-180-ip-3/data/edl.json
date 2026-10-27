@@ -426,6 +426,24 @@
    "to": 38.72,
    "panel": false,
    "why": "3D product card"
+  },
+  {
+   "from": 31.43,
+   "to": 34.58,
+   "top": 150,
+   "why": "sachets: keep one spot"
+  },
+  {
+   "from": 38.72,
+   "to": 42.25,
+   "panel": false,
+   "why": "box and sachets"
+  },
+  {
+   "from": 66.7,
+   "to": 71.48,
+   "top": 150,
+   "why": "sachet label: keep one spot"
   }
  ]
 }
