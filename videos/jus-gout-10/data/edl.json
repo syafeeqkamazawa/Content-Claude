@@ -468,6 +468,25 @@
    "to": 48.35,
    "panel": false,
    "why": "3D product card"
+  },
+  {
+   "from": 49.75,
+   "to": 52.73,
+   "top": 150,
+   "why": "opening the jar: keep one spot"
+  },
+  {
+   "from": 59.45,
+   "to": 63.8,
+   "top": 150,
+   "panel": false,
+   "why": "hot water and stirring demo"
+  },
+  {
+   "from": 67.37,
+   "to": 68.58,
+   "top": 150,
+   "why": "jar and cup: keep one spot"
   }
  ]
 }

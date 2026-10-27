@@ -49,7 +49,7 @@
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.set("#fl-block", { x: 0, y: 0, scale: 1 }, 0.0);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 0.0);
           tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 0.0);
           tl.set("#fl-0-2", { textContent: "O", color: "#8E9AA6" }, 0.05);
           tl.set("#fl-0-2", { textContent: "A", color: "#8E9AA6" }, 0.1);
@@ -3211,6 +3211,9 @@
           tl.fromTo("#fl-0-10", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 48.1833);
           tl.set("#fl-0-11", { textContent: "", color: "#F4F4F4" }, 48.2167);
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 48.2167);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 48.1333);
+          tl.set("#fl-block", { x: 424, y: 0, scale: 0.6 }, 48.3);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 48.3);
           tl.set("#fl-0-1", { textContent: "A", color: "#8E9AA6" }, 48.3667);
           tl.set("#fl-0-1", { textContent: "3", color: "#8E9AA6" }, 48.4167);
           tl.set("#fl-0-1", { textContent: "P", color: "#8E9AA6" }, 48.4667);
@@ -3316,6 +3319,9 @@
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 49.4);
           tl.set("#fl-0-12", { textContent: "", color: "#F4F4F4" }, 49.4167);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 49.4167);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 49.1333);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 49.3);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 49.3);
           tl.set("#fl-0-2", { textContent: "L", color: "#8E9AA6" }, 49.4);
           tl.set("#fl-0-2", { textContent: "!", color: "#8E9AA6" }, 49.45);
           tl.set("#fl-0-2", { textContent: "0", color: "#8E9AA6" }, 49.4833);
@@ -3519,6 +3525,9 @@
           tl.set("#fl-0-12", { textContent: "Q", color: "#8E9AA6" }, 52.55);
           tl.set("#fl-0-12", { textContent: "A", color: "#F4F4F4" }, 52.6);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 52.6);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 52.5167);
+          tl.set("#fl-block", { x: -75, y: 0, scale: 0.6 }, 52.6833);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 52.6833);
           tl.set("#fl-0-1", { textContent: "M", color: "#8E9AA6" }, 52.75);
           tl.set("#fl-0-1", { textContent: "+", color: "#8E9AA6" }, 52.8);
           tl.set("#fl-0-1", { textContent: "1", color: "#8E9AA6" }, 52.85);
@@ -3712,6 +3721,9 @@
           tl.set("#fl-0-11", { textContent: "R", color: "#8E9AA6" }, 57.0167);
           tl.set("#fl-0-11", { textContent: "N", color: "#F4F4F4" }, 57.0667);
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 57.0667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 59.2667);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 59.4333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 59.4333);
           tl.set("#fl-0-0", { textContent: "N", color: "#8E9AA6" }, 59.4833);
           tl.set("#fl-0-0", { textContent: "/", color: "#8E9AA6" }, 59.5333);
           tl.set("#fl-0-0", { textContent: "2", color: "#8E9AA6" }, 59.5667);
@@ -5782,8 +5794,11 @@
           tl.set("#pn-st3", { textContent: "● DONE", color: "#5BD67A" }, 63.7);
           tl.set("#pn-dt3", { textContent: "01.7s" }, 63.7);
           tl.fromTo("#pn-st3", { scale: 1.25 }, { scale: 1, duration: 0.2, ease: "back.out(3)", immediateRender: false }, 63.7);
-          tl.set("#fl-panel", { x: 688, y: 332, scale: 1 }, 48.35);
-          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 48.5);
+          tl.set("#fl-panel", { x: 48, y: 266, scale: 0.7 }, 52.6833);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 52.6833);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 59.2667);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 0.7 }, 67.1167);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 67.1167);
           window.__timelines["captions"] = tl;
         })();
       </script>
