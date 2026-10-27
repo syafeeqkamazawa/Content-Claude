@@ -31,7 +31,7 @@
   },
   {
    "id": "S03",
-   "in": 47.88,
+   "in": 47.95,
    "out": 49.94,
    "zoom": 1.0,
    "text": "anak-anak makan 2-3 suap je.",
@@ -422,26 +422,26 @@
  "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik).",
  "flap_force": [
   {
-   "from": 34.58,
-   "to": 38.72,
+   "from": 34.5,
+   "to": 38.63,
    "panel": false,
    "why": "3D product card"
   },
   {
-   "from": 31.43,
-   "to": 34.58,
+   "from": 31.35,
+   "to": 34.5,
    "top": 150,
    "why": "sachets: keep one spot"
   },
   {
-   "from": 38.72,
-   "to": 42.25,
+   "from": 38.63,
+   "to": 42.17,
    "panel": false,
    "why": "box and sachets"
   },
   {
-   "from": 66.7,
-   "to": 71.48,
+   "from": 66.62,
+   "to": 71.4,
    "top": 150,
    "why": "sachet label: keep one spot"
   }
