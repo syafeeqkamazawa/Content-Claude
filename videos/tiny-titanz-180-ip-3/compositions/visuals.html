@@ -25,23 +25,35 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-suap" class="clip fs" data-start="7.5833" data-duration="3.933" data-track-index="4"><div class="fs-in" id="fs-suap-in"><div class="fs-layer" id="fs-suap-bg" style="background-image:url(assets/photos/suap-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-suap-fg" style="background-image:url(assets/photos/suap-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-risau" class="clip fs" data-start="21.2833" data-duration="6.749" data-track-index="4"><div class="fs-in" id="fs-risau-in"><div class="fs-layer" id="fs-risau-bg" style="background-image:url(assets/photos/risau-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-risau-fg" style="background-image:url(assets/photos/risau-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="pc-kotak" class="clip pc" data-start="36.45" data-duration="4.133" data-track-index="4"><div class="pc-bg" id="pc-kotak-bg" style="background-image:url(assets/products/kotak-bg.jpg)"></div><div class="pc-shade"></div><div class="pc-stage"><div class="pc-obj" id="pc-kotak-obj"><img src="assets/products/kotak.png" alt=""/></div></div><div class="pc-shine" id="pc-kotak-sh"></div></div>
+        <div id="fs-suap" class="clip fs" data-start="7.5833" data-duration="2.066" data-track-index="4"><div class="fs-in" id="fs-suap-in"><div class="fs-layer" id="fs-suap-bg" style="background-image:url(assets/photos/suap-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-suap-fg" style="background-image:url(assets/photos/suap-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-risau" class="clip fs" data-start="19.4167" data-duration="6.749" data-track-index="4"><div class="fs-in" id="fs-risau-in"><div class="fs-layer" id="fs-risau-bg" style="background-image:url(assets/photos/risau-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-risau-fg" style="background-image:url(assets/photos/risau-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-pagi" class="clip fs" data-start="9.65" data-duration="2.799" data-track-index="4"><div class="fs-in" id="fs-pagi-in"><div class="fs-layer" id="fs-pagi-bg" style="background-image:url(assets/photos/pagi-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-pagi-fg" style="background-image:url(assets/photos/pagi-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-lauk" class="clip fs" data-start="12.45" data-duration="6.966" data-track-index="4"><div class="fs-in" id="fs-lauk-in"><div class="fs-layer" id="fs-lauk-bg" style="background-image:url(assets/photos/lauk-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-lauk-fg" style="background-image:url(assets/photos/lauk-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-seimbang" class="clip fs" data-start="54.9167" data-duration="5.966" data-track-index="4"><div class="fs-in" id="fs-seimbang-in"><div class="fs-layer" id="fs-seimbang-bg" style="background-image:url(assets/photos/seimbang-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-seimbang-fg" style="background-image:url(assets/photos/seimbang-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="pc-kotak" class="clip pc" data-start="34.5833" data-duration="4.133" data-track-index="4"><div class="pc-bg" id="pc-kotak-bg" style="background-image:url(assets/products/kotak-bg.jpg)"></div><div class="pc-shade"></div><div class="pc-stage"><div class="pc-obj" id="pc-kotak-obj"><img src="assets/products/kotak.png" alt=""/></div></div><div class="pc-shine" id="pc-kotak-sh"></div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-suap-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 7.5833);
-          tl.fromTo("#fs-suap-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 3.9333, ease: "none", immediateRender: false }, 7.5833);
-          tl.fromTo("#fs-suap-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 3.9333, ease: "sine.inOut", immediateRender: false }, 7.5833);
-          tl.fromTo("#fs-risau-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 21.2833);
-          tl.fromTo("#fs-risau-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 6.75, ease: "none", immediateRender: false }, 21.2833);
-          tl.fromTo("#fs-risau-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 6.75, ease: "sine.inOut", immediateRender: false }, 21.2833);
-          tl.fromTo("#pc-kotak-bg", { scale: 1.25 }, { scale: 1.35, duration: 4.1333, ease: "none" }, 36.45);
-          tl.fromTo("#pc-kotak-obj", { rotationY: -38, rotationX: 8, z: -260, y: 90, opacity: 0 }, { rotationY: 10, rotationX: 0, z: 0, y: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 36.45);
-          tl.to("#pc-kotak-obj", { rotationY: -10, y: -18, duration: 3.4333, ease: "sine.inOut" }, 37.15);
-          tl.fromTo("#pc-kotak-sh", { x: -1300, skewX: -18 }, { x: 1300, skewX: -18, duration: 1.0, ease: "power2.inOut" }, 36.9);
+          tl.fromTo("#fs-suap-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.0667, ease: "none", immediateRender: false }, 7.5833);
+          tl.fromTo("#fs-suap-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.0667, ease: "sine.inOut", immediateRender: false }, 7.5833);
+          tl.fromTo("#fs-risau-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 19.4167);
+          tl.fromTo("#fs-risau-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 6.75, ease: "none", immediateRender: false }, 19.4167);
+          tl.fromTo("#fs-risau-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 6.75, ease: "sine.inOut", immediateRender: false }, 19.4167);
+          tl.fromTo("#fs-pagi-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 9.65);
+          tl.fromTo("#fs-pagi-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.8, ease: "none", immediateRender: false }, 9.65);
+          tl.fromTo("#fs-pagi-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.8, ease: "sine.inOut", immediateRender: false }, 9.65);
+          tl.fromTo("#fs-lauk-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 12.45);
+          tl.fromTo("#fs-lauk-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 6.9667, ease: "none", immediateRender: false }, 12.45);
+          tl.fromTo("#fs-lauk-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 6.9667, ease: "sine.inOut", immediateRender: false }, 12.45);
+          tl.fromTo("#fs-seimbang-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 54.9167);
+          tl.fromTo("#fs-seimbang-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 5.9667, ease: "none", immediateRender: false }, 54.9167);
+          tl.fromTo("#fs-seimbang-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 5.9667, ease: "sine.inOut", immediateRender: false }, 54.9167);
+          tl.fromTo("#pc-kotak-bg", { scale: 1.25 }, { scale: 1.35, duration: 4.1333, ease: "none" }, 34.5833);
+          tl.fromTo("#pc-kotak-obj", { rotationY: -38, rotationX: 8, z: -260, y: 90, opacity: 0 }, { rotationY: 10, rotationX: 0, z: 0, y: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 34.5833);
+          tl.to("#pc-kotak-obj", { rotationY: -10, y: -18, duration: 3.4333, ease: "sine.inOut" }, 35.2833);
+          tl.fromTo("#pc-kotak-sh", { x: -1300, skewX: -18 }, { x: 1300, skewX: -18, duration: 1.0, ease: "power2.inOut" }, 35.0333);
           window.__timelines["visuals"] = tl;
         })();
       </script>

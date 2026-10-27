@@ -419,5 +419,13 @@
    }
   ]
  },
- "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik)."
+ "_owner_decisions": "26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, hook klip pertama, 3D overlay, kapsyen ikut tema, tiada muzik).",
+ "flap_force": [
+  {
+   "from": 34.58,
+   "to": 38.72,
+   "panel": false,
+   "why": "3D product card"
+  }
+ ]
 }

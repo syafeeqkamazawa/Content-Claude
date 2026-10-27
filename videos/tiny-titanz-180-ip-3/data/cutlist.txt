@@ -1,24 +1,29 @@
-TOTAL 80.18s  (13 A-roll segments, 5 B-roll shots, 2 photos, 9 audio fx, 94 caption cards)
+TOTAL 78.32s  (13 A-roll segments, 7 B-roll shots, 5 photos, 7 audio fx, 91 caption cards)
 
   0.00-  5.07  S01  src   5.10- 10.16  (1 pc)  Ibu dah cuba macam-macam masakan, tapi anak tetap tak nak makan.
   5.07-  7.58  S02  src  36.14- 38.66  (1 pc)  Pernah tak ibu rasa nak menangis?
-  7.58- 11.52  S03  src  46.00- 49.94  (1 pc)  Sebab dah pernah-pernah masak, tapi anak-anak makan 2-3 suap je.
- 11.52- 21.28  S04  src  54.18- 64.18  (2 pc)  Pagi buat sarapan, anak tetap tak nak. Tengah hari masak lauk kegemaran dia, tetapi tetap memilih. Sayur tak nak, buah pun susah.
- 21.28- 30.02  S05  src  71.98- 80.90  (2 pc)  Yang lagi buat ibu risau bukan sebab makanan membazir sebenarnya, tetapi takut nutrisi anak tu tak cukup sebab dia baru nak membesar kan.
- 30.02- 36.45  S06  src  80.90- 87.52  (2 pc)  Sebab tu ibu ayah boleh tengok Tiny Titanz 180 Plus ni,
- 36.45- 40.58  S07  src  94.98- 99.12  (1 pc)  ada prune, ada blueberry dan ada acerola.
- 40.58- 47.18  S08  src 128.16-135.20  (2 pc)  180 Plus liquid sachet ni dia tinggi kalsium, insyaAllah bantu perkembangan tulang dan gigi yang kuat.
- 47.18- 56.78  S09  src 138.20-148.20  (3 pc)  Senang nak bawa, dia bentuk sachet, senang nak bawa ke mana-mana, tak perlu bancuh dah, dia memang koyak tu terus boleh minum.
- 56.78- 62.75  S10  src 149.72-155.94  (2 pc)  Tapi pemakanan seimbang tu jangan lupa, masih penting, real food tu masih penting.
- 62.75- 68.57  S11  src 158.22-164.40  (2 pc)  Sebagai backup, sebagai bantu untuk seimbangkan lagi pemakanan mereka.
- 68.57- 73.35  S12  src 165.70-170.72  (3 pc)  Sekarang ni ada banyak promosi hujung-hujung bulan ni, banyak voucher.
- 73.35- 80.18  S13  src 177.62-185.12  (3 pc)  Sementara masih ada promosi tu, boleh tengok dekat beg kuning dan boleh dapatkan untuk anak-anak kita.
+  7.58-  9.65  S03  src  47.88- 49.94  (1 pc)  anak-anak makan 2-3 suap je.
+  9.65- 19.42  S04  src  54.18- 64.18  (2 pc)  Pagi buat sarapan, anak tetap tak nak. Tengah hari masak lauk kegemaran dia, tetapi tetap memilih. Sayur tak nak, buah pun susah.
+ 19.42- 28.15  S05  src  71.98- 80.90  (2 pc)  Yang lagi buat ibu risau bukan sebab makanan membazir sebenarnya, tetapi takut nutrisi anak tu tak cukup sebab dia baru nak membesar kan.
+ 28.15- 34.58  S06  src  80.90- 87.52  (2 pc)  Sebab tu ibu ayah boleh tengok Tiny Titanz 180 Plus ni,
+ 34.58- 38.72  S07  src  94.98- 99.12  (1 pc)  ada prune, ada blueberry dan ada acerola.
+ 38.72- 45.32  S08  src 128.16-135.20  (2 pc)  180 Plus liquid sachet ni dia tinggi kalsium, insyaAllah bantu perkembangan tulang dan gigi yang kuat.
+ 45.32- 54.92  S09  src 138.20-148.20  (3 pc)  Senang nak bawa, dia bentuk sachet, senang nak bawa ke mana-mana, tak perlu bancuh dah, dia memang koyak tu terus boleh minum.
+ 54.92- 60.88  S10  src 149.72-155.94  (2 pc)  Tapi pemakanan seimbang tu jangan lupa, masih penting, real food tu masih penting.
+ 60.88- 66.70  S11  src 158.22-164.40  (2 pc)  Sebagai backup, sebagai bantu untuk seimbangkan lagi pemakanan mereka.
+ 66.70- 71.48  S12  src 165.70-170.72  (3 pc)  Sekarang ni ada banyak promosi hujung-hujung bulan ni, banyak voucher.
+ 71.48- 78.32  S13  src 177.62-185.12  (3 pc)  Sementara masih ada promosi tu, boleh tengok dekat beg kuning dan boleh dapatkan untuk anak-anak kita.
 
-  cutaway   7.58- 11.52
-  cutaway  21.28- 28.03
-  cutaway  33.30- 36.45
-  cutaway  36.45- 40.58
-  cutaway  40.58- 44.12
-  cutaway  52.03- 54.62
-  cutaway  54.62- 56.78
-  cutaway  68.57- 73.35
+  cutaway   7.58-  9.65
+  cutaway   9.65- 12.45
+  cutaway  12.45- 19.42
+  cutaway  19.42- 26.17
+  cutaway  31.43- 34.58
+  cutaway  34.58- 38.72
+  cutaway  38.72- 42.25
+  cutaway  45.32- 50.17
+  cutaway  50.17- 52.75
+  cutaway  52.75- 54.92
+  cutaway  54.92- 60.88
+  cutaway  60.88- 66.70
+  cutaway  66.70- 71.48
