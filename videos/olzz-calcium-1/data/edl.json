@@ -18,7 +18,7 @@
   {
    "id": "S01",
    "in": 2.8,
-   "out": 12.3,
+   "out": 12.47,
    "zoom": 1.04,
    "text": "Ibu ayah, pernah tak terfikir anak semakin hari semakin membesar, tapi cukup ke tak sebenarnya nutrisi yang mereka dapat?",
    "note": "HOOK"
@@ -26,7 +26,7 @@
   {
    "id": "S02",
    "in": 12.98,
-   "out": 22.55,
+   "out": 22.66,
    "zoom": 1.0,
    "text": "Pagi pergi sekolah, petang sibuk main lagi, tapi bila buat makan, sayur memilih. Susu pun kadang-kadang tak habis.",
    "note": ""
@@ -74,7 +74,7 @@
   {
    "id": "S08",
    "in": 77.55,
-   "out": 86.0,
+   "out": 86.3,
    "zoom": 1.0,
    "text": "Untuk pengetahuan ibu ayah, dia dalam bentuk liquid sachet, senang nak bawa ke mana-mana. Sesuai untuk umur 4 hingga 18 tahun.",
    "note": "74-77.5 false start dropped"
@@ -434,26 +434,26 @@
  },
  "flap_force": [
   {
-   "from": 30.78,
-   "to": 33.87,
+   "from": 31.07,
+   "to": 34.15,
    "panel": false,
    "why": "3D product card"
   },
   {
-   "from": 33.87,
-   "to": 40.03,
+   "from": 34.15,
+   "to": 40.32,
    "top": 150,
    "why": "sachet close-up: keep one spot"
   },
   {
-   "from": 44.2,
-   "to": 50.22,
+   "from": 44.48,
+   "to": 50.5,
    "top": 150,
    "why": "handful of sachets: keep one spot"
   },
   {
-   "from": 70.32,
-   "to": 74.83,
+   "from": 70.9,
+   "to": 75.42,
    "panel": false,
    "why": "box rotation: label"
   }

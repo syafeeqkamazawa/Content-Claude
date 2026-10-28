@@ -1,28 +1,28 @@
-TOTAL 79.62s  (12 A-roll segments, 8 B-roll shots, 4 photos, 6 audio fx, 87 caption cards)
+TOTAL 80.20s  (12 A-roll segments, 8 B-roll shots, 4 photos, 6 audio fx, 87 caption cards)
 
-  0.00-  9.50  S01  src   2.80- 12.30  (1 pc)  Ibu ayah, pernah tak terfikir anak semakin hari semakin membesar, tapi cukup ke tak sebenarnya nutrisi yang mereka dapat?
-  9.50- 19.07  S02  src  12.98- 22.55  (1 pc)  Pagi pergi sekolah, petang sibuk main lagi, tapi bila buat makan, sayur memilih. Susu pun kadang-kadang tak habis.
- 19.07- 21.97  S03  src  29.30- 32.20  (1 pc)  Yang kita risau bukan sekadar anak kita kenyang,
- 21.97- 27.75  S04  src  37.32- 43.55  (2 pc)  tapi sebenarnya kita dah beri nutrisi yang cukup ke sepanjang mereka membesar?
- 27.75- 33.87  S05  src  43.50- 49.85  (2 pc)  Yang ada pada saya ni, OLZZ Liquid Calcium with Magnesium.
- 33.87- 44.20  S06  src  49.85- 60.68  (3 pc)  Setiap sachet ada 200mg kalsium bersama dengan magnesium, ada zink, vitamin D3, vitamin K dan lysine.
- 44.20- 50.22  S07  src  60.72- 67.35  (3 pc)  Nutrien macam kalsium dan vitamin D memang sangat penting untuk kesihatan tulang.
- 50.22- 58.30  S08  src  77.55- 86.00  (2 pc)  Untuk pengetahuan ibu ayah, dia dalam bentuk liquid sachet, senang nak bawa ke mana-mana. Sesuai untuk umur 4 hingga 18 tahun.
- 58.30- 66.22  S09  src  89.75- 98.55  (3 pc)  Jadi ibu ayah yang berminat tu, sekarang ni pun tengah musim-musim hujung bulan, banyak promotion payday,
- 66.22- 70.32  S10  src 102.30-107.38  (3 pc)  ibu ayah boleh tengok beg kuning, kalau harga tu ada banyak
- 70.32- 74.83  S11  src 108.35-113.60  (3 pc)  promotion, ada banyak voucher, boleh ambil dan boleh dapatkan
- 74.83- 79.62  S12  src 114.80-119.95  (2 pc)  liquid calcium with magnesium ni, belikan untuk anak-anak kita.
+  0.00-  9.67  S01  src   2.80- 12.47  (1 pc)  Ibu ayah, pernah tak terfikir anak semakin hari semakin membesar, tapi cukup ke tak sebenarnya nutrisi yang mereka dapat?
+  9.67- 19.35  S02  src  12.98- 22.66  (1 pc)  Pagi pergi sekolah, petang sibuk main lagi, tapi bila buat makan, sayur memilih. Susu pun kadang-kadang tak habis.
+ 19.35- 22.25  S03  src  29.30- 32.20  (1 pc)  Yang kita risau bukan sekadar anak kita kenyang,
+ 22.25- 28.03  S04  src  37.32- 43.55  (2 pc)  tapi sebenarnya kita dah beri nutrisi yang cukup ke sepanjang mereka membesar?
+ 28.03- 34.15  S05  src  43.50- 49.85  (2 pc)  Yang ada pada saya ni, OLZZ Liquid Calcium with Magnesium.
+ 34.15- 44.48  S06  src  49.85- 60.68  (3 pc)  Setiap sachet ada 200mg kalsium bersama dengan magnesium, ada zink, vitamin D3, vitamin K dan lysine.
+ 44.48- 50.50  S07  src  60.72- 67.35  (3 pc)  Nutrien macam kalsium dan vitamin D memang sangat penting untuk kesihatan tulang.
+ 50.50- 58.88  S08  src  77.55- 86.30  (2 pc)  Untuk pengetahuan ibu ayah, dia dalam bentuk liquid sachet, senang nak bawa ke mana-mana. Sesuai untuk umur 4 hingga 18 tahun.
+ 58.88- 66.80  S09  src  89.75- 98.55  (3 pc)  Jadi ibu ayah yang berminat tu, sekarang ni pun tengah musim-musim hujung bulan, banyak promotion payday,
+ 66.80- 70.90  S10  src 102.30-107.38  (3 pc)  ibu ayah boleh tengok beg kuning, kalau harga tu ada banyak
+ 70.90- 75.42  S11  src 108.35-113.60  (3 pc)  promotion, ada banyak voucher, boleh ambil dan boleh dapatkan
+ 75.42- 80.20  S12  src 114.80-119.95  (2 pc)  liquid calcium with magnesium ni, belikan untuk anak-anak kita.
 
-  cutaway   6.37-  9.50
-  cutaway   9.50- 11.35
-  cutaway  11.35- 13.30
-  cutaway  13.30- 16.48
-  cutaway  16.48- 19.07
-  cutaway  24.98- 27.75
-  cutaway  30.78- 33.87
-  cutaway  33.87- 40.03
-  cutaway  40.03- 44.20
-  cutaway  44.20- 50.22
-  cutaway  51.77- 55.85
-  cutaway  66.22- 70.32
-  cutaway  70.32- 74.83
+  cutaway   6.37-  9.67
+  cutaway   9.67- 11.52
+  cutaway  11.52- 13.47
+  cutaway  13.47- 16.65
+  cutaway  16.65- 19.35
+  cutaway  25.27- 28.03
+  cutaway  31.07- 34.15
+  cutaway  34.15- 40.32
+  cutaway  40.32- 44.48
+  cutaway  44.48- 50.50
+  cutaway  52.05- 56.13
+  cutaway  66.80- 70.90
+  cutaway  70.90- 75.42

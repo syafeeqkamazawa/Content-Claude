@@ -25,31 +25,31 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-sekolah" class="clip fs" data-start="9.5" data-duration="1.849" data-track-index="4"><div class="fs-in" id="fs-sekolah-in"><div class="fs-layer" id="fs-sekolah-bg" style="background-image:url(assets/photos/sekolah-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-sekolah-fg" style="background-image:url(assets/photos/sekolah-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-main" class="clip fs" data-start="11.35" data-duration="1.949" data-track-index="4"><div class="fs-in" id="fs-main-in"><div class="fs-layer" id="fs-main-bg" style="background-image:url(assets/photos/main-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-main-fg" style="background-image:url(assets/photos/main-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-sayur" class="clip fs" data-start="13.3" data-duration="3.183" data-track-index="4"><div class="fs-in" id="fs-sayur-in"><div class="fs-layer" id="fs-sayur-bg" style="background-image:url(assets/photos/sayur-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-sayur-fg" style="background-image:url(assets/photos/sayur-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-susu" class="clip fs" data-start="16.4833" data-duration="2.583" data-track-index="4"><div class="fs-in" id="fs-susu-in"><div class="fs-layer" id="fs-susu-bg" style="background-image:url(assets/photos/susu-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-susu-fg" style="background-image:url(assets/photos/susu-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="pc-kotak" class="clip pc" data-start="30.7833" data-duration="3.083" data-track-index="4"><div class="pc-bg" id="pc-kotak-bg" style="background-image:url(assets/products/kotak-bg.jpg)"></div><div class="pc-shade"></div><div class="pc-stage"><div class="pc-obj" id="pc-kotak-obj"><img src="assets/products/kotak.png" alt=""/></div></div><div class="pc-shine" id="pc-kotak-sh"></div></div>
+        <div id="fs-sekolah" class="clip fs" data-start="9.6667" data-duration="1.849" data-track-index="4"><div class="fs-in" id="fs-sekolah-in"><div class="fs-layer" id="fs-sekolah-bg" style="background-image:url(assets/photos/sekolah-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-sekolah-fg" style="background-image:url(assets/photos/sekolah-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-main" class="clip fs" data-start="11.5167" data-duration="1.949" data-track-index="4"><div class="fs-in" id="fs-main-in"><div class="fs-layer" id="fs-main-bg" style="background-image:url(assets/photos/main-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-main-fg" style="background-image:url(assets/photos/main-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-sayur" class="clip fs" data-start="13.4667" data-duration="3.183" data-track-index="4"><div class="fs-in" id="fs-sayur-in"><div class="fs-layer" id="fs-sayur-bg" style="background-image:url(assets/photos/sayur-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-sayur-fg" style="background-image:url(assets/photos/sayur-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-susu" class="clip fs" data-start="16.65" data-duration="2.699" data-track-index="4"><div class="fs-in" id="fs-susu-in"><div class="fs-layer" id="fs-susu-bg" style="background-image:url(assets/photos/susu-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-susu-fg" style="background-image:url(assets/photos/susu-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="pc-kotak" class="clip pc" data-start="31.0667" data-duration="3.083" data-track-index="4"><div class="pc-bg" id="pc-kotak-bg" style="background-image:url(assets/products/kotak-bg.jpg)"></div><div class="pc-shade"></div><div class="pc-stage"><div class="pc-obj" id="pc-kotak-obj"><img src="assets/products/kotak.png" alt=""/></div></div><div class="pc-shine" id="pc-kotak-sh"></div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.fromTo("#fs-sekolah-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 9.5);
-          tl.fromTo("#fs-sekolah-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 1.85, ease: "none", immediateRender: false }, 9.5);
-          tl.fromTo("#fs-sekolah-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 1.85, ease: "sine.inOut", immediateRender: false }, 9.5);
-          tl.fromTo("#fs-main-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 11.35);
-          tl.fromTo("#fs-main-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 1.95, ease: "none", immediateRender: false }, 11.35);
-          tl.fromTo("#fs-main-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 1.95, ease: "sine.inOut", immediateRender: false }, 11.35);
-          tl.fromTo("#fs-sayur-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 13.3);
-          tl.fromTo("#fs-sayur-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 3.1833, ease: "none", immediateRender: false }, 13.3);
-          tl.fromTo("#fs-sayur-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 3.1833, ease: "sine.inOut", immediateRender: false }, 13.3);
-          tl.fromTo("#fs-susu-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 16.4833);
-          tl.fromTo("#fs-susu-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.5833, ease: "none", immediateRender: false }, 16.4833);
-          tl.fromTo("#fs-susu-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.5833, ease: "sine.inOut", immediateRender: false }, 16.4833);
-          tl.fromTo("#pc-kotak-bg", { scale: 1.25 }, { scale: 1.35, duration: 3.0833, ease: "none" }, 30.7833);
-          tl.fromTo("#pc-kotak-obj", { rotationY: -38, rotationX: 8, z: -260, y: 90, opacity: 0 }, { rotationY: 10, rotationX: 0, z: 0, y: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 30.7833);
-          tl.to("#pc-kotak-obj", { rotationY: -10, y: -18, duration: 2.3833, ease: "sine.inOut" }, 31.4833);
-          tl.fromTo("#pc-kotak-sh", { x: -1300, skewX: -18 }, { x: 1300, skewX: -18, duration: 1.0, ease: "power2.inOut" }, 31.2333);
+          tl.fromTo("#fs-sekolah-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 9.6667);
+          tl.fromTo("#fs-sekolah-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 1.85, ease: "none", immediateRender: false }, 9.6667);
+          tl.fromTo("#fs-sekolah-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 1.85, ease: "sine.inOut", immediateRender: false }, 9.6667);
+          tl.fromTo("#fs-main-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 11.5167);
+          tl.fromTo("#fs-main-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 1.95, ease: "none", immediateRender: false }, 11.5167);
+          tl.fromTo("#fs-main-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 1.95, ease: "sine.inOut", immediateRender: false }, 11.5167);
+          tl.fromTo("#fs-sayur-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 13.4667);
+          tl.fromTo("#fs-sayur-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 3.1833, ease: "none", immediateRender: false }, 13.4667);
+          tl.fromTo("#fs-sayur-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 3.1833, ease: "sine.inOut", immediateRender: false }, 13.4667);
+          tl.fromTo("#fs-susu-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 16.65);
+          tl.fromTo("#fs-susu-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.7, ease: "none", immediateRender: false }, 16.65);
+          tl.fromTo("#fs-susu-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.7, ease: "sine.inOut", immediateRender: false }, 16.65);
+          tl.fromTo("#pc-kotak-bg", { scale: 1.25 }, { scale: 1.35, duration: 3.0833, ease: "none" }, 31.0667);
+          tl.fromTo("#pc-kotak-obj", { rotationY: -38, rotationX: 8, z: -260, y: 90, opacity: 0 }, { rotationY: 10, rotationX: 0, z: 0, y: 0, opacity: 1, duration: 0.7, ease: "power3.out" }, 31.0667);
+          tl.to("#pc-kotak-obj", { rotationY: -10, y: -18, duration: 2.3833, ease: "sine.inOut" }, 31.7667);
+          tl.fromTo("#pc-kotak-sh", { x: -1300, skewX: -18 }, { x: 1300, skewX: -18, duration: 1.0, ease: "power2.inOut" }, 31.5167);
           window.__timelines["visuals"] = tl;
         })();
       </script>
