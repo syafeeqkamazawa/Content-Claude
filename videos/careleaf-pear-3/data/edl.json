@@ -57,11 +57,11 @@
   },
   {
    "id": "S06",
-   "in": 57.25,
+   "in": 62.05,
    "out": 74.68,
    "zoom": 1.0,
    "text": "Jadi ibu ayah, abang kakak, kalau suka gummies berperisa buah, boleh pertimbangkan Careleaf Bursting Pear Paste Gummies ni.",
-   "note": ""
+   "note": "take 2 (take 1 at 57.25-61.15 repeated the same line)"
   },
   {
    "id": "S07",
@@ -403,39 +403,39 @@
  },
  "flap_force": [
   {
-   "from": 32.8,
-   "to": 39.78,
+   "from": 29.02,
+   "to": 35.98,
    "panel": false,
    "why": "box held"
   },
   {
-   "from": 39.78,
-   "to": 44.15,
+   "from": 35.98,
+   "to": 40.35,
    "panel": false,
    "why": "3D product card"
   },
   {
-   "from": 44.15,
-   "to": 49.1,
+   "from": 40.35,
+   "to": 45.3,
    "top": 150,
    "why": "gummy close-up"
   },
   {
-   "from": 54.38,
-   "to": 57.73,
+   "from": 50.58,
+   "to": 53.93,
    "panel": false,
    "why": "box front"
   },
   {
-   "from": 70.38,
-   "to": 77.92,
+   "from": 66.58,
+   "to": 74.12,
    "top": 150,
    "panel": false,
    "why": "opening the box"
   },
   {
-   "from": 78.82,
-   "to": 81.78,
+   "from": 75.02,
+   "to": 77.98,
    "top": 150,
    "panel": false,
    "why": "opening the box"

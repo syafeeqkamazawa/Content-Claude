@@ -1,0 +1,339 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "28 Okt: 'Buat video bbq grill Hesmor'; permulaan tanpa transition effect — satu hook text motion premium ikut tema produk. 26 Okt: brief premium (no invented claims, no invented prices).",
+ "_note": "Hesmor portable BBQ grill #1 — Drive folder 1rA3wg-J… 'Video hari ini' (28 Oct), one clip VID_20261028_164908 (rear camera, not mirrored; the owner talks and demos the grill himself, so the demo stays on screen). Audio was already clean (wireless mic, -11 LUFS): light high-pass, de-ess and level to -15 LUFS only. Overlays: AI photos only where the voice talks about the hassle (barang) and what you can grill (ayam, udang, daging — tight close-ups with no grill body, so no other grill is shown as the product). Features (pemegang, kaki, dua belah grill, corong asap, saluran udara, mudah dibawa) are shown by the owner's own demo and ticked in the status panel. Only the owner's words for the offer: TikTok promotion, check the beg kuning — no price quoted.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 0.0,
+   "out": 8.4,
+   "zoom": 1.0,
+   "text": "Nak buat BBQ, tapi bila nak set up alatan semua, terus takde mood. Sebab apa? Sebab nak buat BBQ ni, banyak barang nak kena set up.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 8.4,
+   "out": 10.15,
+   "zoom": 1.0,
+   "text": "Tapi korang tengok ni,",
+   "note": "'BBQ Hesmor, apa?' and the repeated 'korang tengok ni' dropped"
+  },
+  {
+   "id": "S03",
+   "in": 14.7,
+   "out": 22.45,
+   "zoom": 1.0,
+   "text": "set BBQ grill daripada Hesmor. Memang style, memang lawa. Ada pemegang, kaki pun ada siap.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 25.5,
+   "out": 27.68,
+   "zoom": 1.0,
+   "text": "Dan korang jangan sangka, nampak je kecil, guys.",
+   "note": "false start 'Oke, dan korang jangan' dropped"
+  },
+  {
+   "id": "S05",
+   "in": 29.05,
+   "out": 31.0,
+   "zoom": 1.0,
+   "text": "Korang tengok bila aku buka ni,",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 32.3,
+   "out": 35.55,
+   "zoom": 1.0,
+   "text": "tu dia, dua-dua belah boleh guna, guys.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 36.5,
+   "out": 38.2,
+   "zoom": 1.0,
+   "text": "Korang letak ni dulu.",
+   "note": "'Okay' dropped"
+  },
+  {
+   "id": "S08",
+   "in": 39.6,
+   "out": 43.1,
+   "zoom": 1.0,
+   "text": "Korang letak ni, lepas tu dua-dua belah korang dah boleh guna.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 43.3,
+   "out": 53.65,
+   "zoom": 1.0,
+   "text": "So, nampak kecil tapi boleh guna untuk macam-macam daging korang boleh guna. Bakar ayam, bakar udang, bakar daging, semua boleh.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 53.65,
+   "out": 60.0,
+   "zoom": 1.0,
+   "text": "Lepas tu, katalah korang nak bakar sebelah je, korang boleh tutup.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 60.3,
+   "out": 64.85,
+   "zoom": 1.0,
+   "text": "Dan kat sini ada corong asap. Boleh tutup, boleh buka.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 65.7,
+   "out": 70.4,
+   "zoom": 1.0,
+   "text": "Kat belakang ni pun ada saluran udara pun, asap pun boleh keluar kat sini sekali.",
+   "note": "'Okay' dropped"
+  },
+  {
+   "id": "S13",
+   "in": 70.6,
+   "out": 72.3,
+   "zoom": 1.0,
+   "text": "Memang cantik, memang nice.",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 73.2,
+   "out": 78.75,
+   "zoom": 1.0,
+   "text": "Lepas tu, korang boleh bawa je macam ni. Memang style.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 83.2,
+   "out": 87.12,
+   "zoom": 1.0,
+   "text": "Dan sekarang ni TikTok tengah buat promotion banyak tau. Cuba tengok dekat beg kuning.",
+   "note": "'Dan dekat TikTok dekat' false start dropped"
+  },
+  {
+   "id": "S16",
+   "in": 88.7,
+   "out": 91.3,
+   "zoom": 1.04,
+   "text": "Kalau korang tengok harga tu tengah murah, korang check out terus.",
+   "note": "CTA"
+  }
+ ],
+ "hook_text": {
+  "kicker": "BBQ grill Hesmor",
+  "lines": [
+   "Nak BBQ, tapi",
+   "takde mood nak set up?"
+  ],
+  "accent_words": [
+   "takde",
+   "mood"
+  ],
+  "to": 3.4,
+  "accent": "#FF7A2F",
+  "accent2": "#FFC15A",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S16",
+   "check",
+   1.06
+  ]
+ ],
+ "broll": [],
+ "photos": [
+  {
+   "id": "barang",
+   "from": [
+    "S01",
+    "sebab#2"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: barang BBQ bersepah menunggu di-set up"
+  },
+  {
+   "id": "ayam",
+   "from": [
+    "S09",
+    "macam-macam"
+   ],
+   "to": [
+    "S09",
+    "bakar#2"
+   ],
+   "note": "AI: ayam dibakar (close-up)"
+  },
+  {
+   "id": "udang",
+   "from": [
+    "S09",
+    "bakar#2"
+   ],
+   "to": [
+    "S09",
+    "bakar#3"
+   ],
+   "note": "AI: udang dibakar (close-up)"
+  },
+  {
+   "id": "daging",
+   "from": [
+    "S09",
+    "bakar#3"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "note": "AI: daging dibakar (close-up)"
+  }
+ ],
+ "theme": {
+  "key": "#FF8A3D",
+  "brand": "#FFC15A"
+ },
+ "brand_words": [
+  "hesmor.",
+  "hesmor",
+  "bbq",
+  "grill"
+ ],
+ "keywords": [
+  "takde",
+  "mood.",
+  "barang",
+  "style,",
+  "lawa.",
+  "pemegang,",
+  "kaki",
+  "kecil,",
+  "kecil",
+  "dua-dua",
+  "belah",
+  "ayam,",
+  "udang,",
+  "daging,",
+  "sebelah",
+  "tutup.",
+  "corong",
+  "asap.",
+  "saluran",
+  "udara",
+  "cantik,",
+  "nice.",
+  "bawa",
+  "style.",
+  "promotion",
+  "beg",
+  "kuning.",
+  "murah,",
+  "check",
+  "out",
+  "terus."
+ ],
+ "panel": {
+  "title": "SEMAK HESMOR",
+  "from": [
+   "S03",
+   "ada"
+  ],
+  "items": [
+   {
+    "text": "ADA PEMEGANG",
+    "from": [
+     "S03",
+     "ada"
+    ],
+    "done": [
+     "S03",
+     "kaki"
+    ]
+   },
+   {
+    "text": "KAKI SIAP",
+    "from": [
+     "S03",
+     "kaki"
+    ],
+    "done": [
+     "S03",
+     "end"
+    ]
+   },
+   {
+    "text": "DUA BELAH GRILL",
+    "from": [
+     "S06",
+     "dua-dua"
+    ],
+    "done": [
+     "S08",
+     "end"
+    ]
+   },
+   {
+    "text": "CORONG ASAP",
+    "from": [
+     "S11",
+     "corong"
+    ],
+    "done": [
+     "S11",
+     "end"
+    ]
+   },
+   {
+    "text": "SALURAN UDARA",
+    "from": [
+     "S12",
+     "saluran"
+    ],
+    "done": [
+     "S12",
+     "end"
+    ]
+   },
+   {
+    "text": "MUDAH DIBAWA",
+    "from": [
+     "S14",
+     "bawa"
+    ],
+    "done": [
+     "S14",
+     "end"
+    ]
+   }
+  ]
+ },
+ "flap_force": []
+}
