@@ -297,7 +297,7 @@ if HT:
 #ht-line {{ display: inline-block; width: 70px; height: 3px; background: {ac}; transform-origin: 100% 50%; border-radius: 2px; }}
 #ht-kick-t {{ font-family: "Plus Jakarta Sans"; font-weight: 700; font-size: 32px; letter-spacing: 9px; color: {ac}; text-transform: uppercase; }}
 #ht-head {{ position: relative; transform-origin: 50% 50%; }}
-.ht-row {{ font-family: "Plus Jakarta Sans"; font-weight: 800; font-size: 88px; line-height: 1.06; letter-spacing: -1px; color: #FFFDF7;
+.ht-row {{ font-family: "Plus Jakarta Sans"; font-weight: 800; font-size: 80px; line-height: 1.06; letter-spacing: -1px; color: #FFFDF7;
   text-shadow: 0 6px 28px rgba(0,0,0,.45); }}
 .ht-w {{ display: inline-block; }}
 .ht-hot {{ background: linear-gradient(100deg, {ac} 0%, {ac2} 100%); -webkit-background-clip: text; background-clip: text; color: transparent;
@@ -306,7 +306,7 @@ if HT:
   background: linear-gradient(100deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.28) 50%, rgba(255,255,255,0) 100%); transform: skewX(-18deg); }}
 """
     main_js.append('tl.set("#captions", { opacity: 0 }, 0);')
-    main_js.append(f'tl.to("#captions", {{ opacity: 1, duration: 0.35, ease: "power1.out" }}, {ht_to});')
+    main_js.append(f'tl.to("#captions", {{ opacity: 1, duration: 0.35, ease: "power1.out" }}, {q(ht_to + 0.45)});')
 else:
     HT_CSS = ""
 

@@ -126,7 +126,7 @@
   "to": 3.4,
   "accent": "#FFC53D",
   "accent2": "#FF9F1C",
-  "top": 200
+  "top": 140
  },
  "punch": [
   [
@@ -438,6 +438,24 @@
    "to": 33.87,
    "panel": false,
    "why": "3D product card"
+  },
+  {
+   "from": 33.87,
+   "to": 40.03,
+   "top": 150,
+   "why": "sachet close-up: keep one spot"
+  },
+  {
+   "from": 43.97,
+   "to": 49.65,
+   "top": 150,
+   "why": "handful of sachets: keep one spot"
+  },
+  {
+   "from": 69.75,
+   "to": 74.27,
+   "panel": false,
+   "why": "box rotation: label"
   }
  ]
 }
