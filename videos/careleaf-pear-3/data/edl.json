@@ -415,10 +415,30 @@
    "why": "3D product card"
   },
   {
+   "from": 44.15,
+   "to": 49.1,
+   "top": 150,
+   "why": "gummy close-up"
+  },
+  {
    "from": 54.38,
    "to": 57.73,
    "panel": false,
    "why": "box front"
+  },
+  {
+   "from": 70.38,
+   "to": 77.92,
+   "top": 150,
+   "panel": false,
+   "why": "opening the box"
+  },
+  {
+   "from": 78.82,
+   "to": 81.78,
+   "top": 150,
+   "panel": false,
+   "why": "opening the box"
   }
  ]
 }
