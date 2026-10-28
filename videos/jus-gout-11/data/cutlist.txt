@@ -1,4 +1,4 @@
-TOTAL 74.38s  (13 A-roll segments, 6 B-roll shots, 3 photos, 7 audio fx, 86 caption cards)
+TOTAL 74.38s  (13 A-roll segments, 6 B-roll shots, 3 photos, 7 audio fx, 87 caption cards)
 
   0.00-  3.20  S01  src   5.75-  8.95  (1 pc)  Pernah tak bangun pagi baru nak pijak lantai,
   3.20-  7.43  S02  src  13.62- 17.85  (1 pc)  ibu jari kaki sakit, sampai nak berjalan pun tak boleh.
@@ -7,12 +7,12 @@ TOTAL 74.38s  (13 A-roll segments, 6 B-roll shots, 3 photos, 7 audio fx, 86 capt
  24.77- 29.72  S05  src  40.80- 46.33  (2 pc)  Sebab tu masalah gout ni jangan ambil ringan, jaga makanan, cukupkan air,
  29.72- 31.47  S06  src  46.60- 48.35  (1 pc)  dapatkan rawatan yang sesuai.
  31.47- 44.00  S07  src  49.72- 64.20  (6 pc)  Yang ada pada saya ni, Jus Gout by Pro Max series, produk yang insyaAllah sebagai alternatif lah untuk bantu masalah gout ni.
- 44.00- 48.50  S08  src  71.95- 76.45  (1 pc)  Jus Gout ni dia ada campuran 6 ekstrak herba terpilih.
+ 44.00- 48.50  S08  src  71.95- 76.45  (1 pc)  Jus Gout ni dia ada campuran 6 ekstrak herba terpilih lah.
  48.50- 57.60  S09  src  78.82- 88.35  (2 pc)  Ada seperti bromelain, bromelain ni ekstrak nanas. Ada milk thistle, lemon, halia, Curcuma longa dan oren.
- 57.60- 63.45  S10  src  92.35- 98.55  (2 pc)  Sebagai alternatif ikhtiar untuk mereka yang ada masalah sakit gout, insyaAllah.
- 63.45- 66.87  S11  src 102.24-105.65  (1 pc)  hujung-hujung bulan ni banyak promo payday, ada voucher,
- 66.87- 72.53  S12  src 105.65-111.95  (3 pc)  sementara seller bagi tu, boleh gunakan, dapat harga yang jauh lagi murah, insyaAllah.
- 72.53- 74.38  S13  src 112.20-114.05  (1 pc)  So, boleh dapatkan di beg kuning.
+ 57.60- 63.45  S10  src  92.35- 98.55  (2 pc)  Itu sebagai alternatif ikhtiar untuk mereka yang ada masalah sakit gout, insyaAllah.
+ 63.45- 66.87  S11  src 102.24-105.65  (1 pc)  Pada hujung-hujung bulan ni banyak promo payday, ada voucher,
+ 66.87- 72.53  S12  src 105.65-111.95  (3 pc)  sementara seller bagi tu, boleh gunakan, dapat harga yang jauh lagi murah, insyaAllah. Okay, so
+ 72.53- 74.38  S13  src 112.20-114.05  (1 pc)  boleh dapatkan di beg kuning.
 
   cutaway   7.43- 16.32
   cutaway  19.30- 24.77
