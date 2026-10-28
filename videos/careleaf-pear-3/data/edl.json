@@ -18,7 +18,7 @@
   {
    "id": "S01",
    "in": 6.3,
-   "out": 14.15,
+   "out": 14.28,
    "zoom": 1.04,
    "text": "Musim-musim jerebu ni, nak tarik nafas pun tak selesa kan, tambah-tambah dekat luar rumah tu.",
    "note": "HOOK"
@@ -82,7 +82,7 @@
   {
    "id": "S09",
    "in": 89.2,
-   "out": 92.35,
+   "out": 92.55,
    "zoom": 1.0,
    "text": "Satu kotak berat bersih dia 80 gram.",
    "note": "'Okey' dropped"
@@ -400,5 +400,25 @@
     ]
    }
   ]
- }
+ },
+ "flap_force": [
+  {
+   "from": 32.8,
+   "to": 39.78,
+   "panel": false,
+   "why": "box held"
+  },
+  {
+   "from": 39.78,
+   "to": 44.15,
+   "panel": false,
+   "why": "3D product card"
+  },
+  {
+   "from": 54.38,
+   "to": 57.73,
+   "panel": false,
+   "why": "box front"
+  }
+ ]
 }

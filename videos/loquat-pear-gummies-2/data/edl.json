@@ -18,7 +18,7 @@
   {
    "id": "S01",
    "in": 15.95,
-   "out": 24.25,
+   "out": 24.45,
    "zoom": 1.04,
    "text": "Perasan tak, sekarang ni kita sangat diuji.",
    "note": "HOOK"
@@ -42,7 +42,7 @@
   {
    "id": "S04",
    "in": 44.1,
-   "out": 53.7,
+   "out": 53.88,
    "zoom": 1.0,
    "text": "Pagi-pagi nak hantar anak sekolah pun kita dah mula risau. Anak kena keluar rumah, kita pula tak tahu macam mana keadaan udara kat luar sana.",
    "note": ""
@@ -50,7 +50,7 @@
   {
    "id": "S05",
    "in": 69.75,
-   "out": 82.65,
+   "out": 82.8,
    "zoom": 1.0,
    "text": "Kita sebagai ibu ayah mestilah kita nak jaga kesihatan keluarga kita, anak-anak kita, ibu ayah kita, adik-beradik. Lagi-lagi bila kualiti udara ni tak menentu sekarang.",
    "note": ""
@@ -229,7 +229,7 @@
     "start"
    ],
    "to": [
-    "S03",
+    "S02",
     "end"
    ],
    "note": "AI: bandar berjerebu"
@@ -350,5 +350,31 @@
     ]
    }
   ]
- }
+ },
+ "flap_force": [
+  {
+   "from": 40.25,
+   "to": 41.82,
+   "panel": false,
+   "why": "box held"
+  },
+  {
+   "from": 41.82,
+   "to": 45.83,
+   "panel": false,
+   "why": "3D product card"
+  },
+  {
+   "from": 45.83,
+   "to": 52.22,
+   "top": 150,
+   "why": "gummies on the table"
+  },
+  {
+   "from": 52.22,
+   "to": 55.23,
+   "top": 150,
+   "why": "gummies on the table"
+  }
+ ]
 }

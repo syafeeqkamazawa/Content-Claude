@@ -94,15 +94,15 @@
   },
   {
    "id": "S09",
-   "in": 78.05,
+   "in": 78.82,
    "out": 88.35,
    "zoom": 1.0,
-   "text": "Lepas tu, ada seperti bromelain, bromelain ni ekstrak nanas. Ada milk thistle, lemon, halia, Curcuma longa dan oren.",
+   "text": "Ada seperti bromelain, bromelain ni ekstrak nanas. Ada milk thistle, lemon, halia, Curcuma longa dan oren.",
    "note": ""
   },
   {
    "id": "S10",
-   "in": 92.42,
+   "in": 92.35,
    "out": 98.55,
    "zoom": 1.0,
    "text": "Sebagai alternatif ikhtiar untuk mereka yang ada masalah sakit gout, insyaAllah.",
@@ -110,23 +110,23 @@
   },
   {
    "id": "S11",
-   "in": 101.55,
+   "in": 102.24,
    "out": 105.65,
    "zoom": 1.0,
-   "text": "Pada hujung-hujung bulan ni banyak promo payday, ada voucher,",
+   "text": "hujung-hujung bulan ni banyak promo payday, ada voucher,",
    "note": ""
   },
   {
    "id": "S12",
    "in": 105.65,
-   "out": 111.7,
+   "out": 111.95,
    "zoom": 1.0,
    "text": "sementara seller bagi tu, boleh gunakan, dapat harga yang jauh lagi murah, insyaAllah.",
    "note": ""
   },
   {
    "id": "S13",
-   "in": 111.7,
+   "in": 112.2,
    "out": 114.05,
    "zoom": 1.04,
    "text": "So, boleh dapatkan di beg kuning.",
@@ -418,25 +418,31 @@
    "from": 45.68,
    "to": 48.5,
    "top": 150,
-   "why": "top-down usage shot: keep one spot, off the cup"
+   "why": "usage"
   },
   {
    "from": 48.5,
-   "to": 58.37,
+   "to": 52.07,
    "top": 150,
-   "why": "top-down usage shot: keep one spot, off the cup"
+   "why": "usage"
   },
   {
-   "from": 64.13,
-   "to": 68.23,
+   "from": 52.07,
+   "to": 57.6,
    "top": 150,
-   "why": "top-down usage shot: keep one spot, off the cup"
+   "why": "usage"
   },
   {
-   "from": 68.23,
-   "to": 71.33,
+   "from": 63.45,
+   "to": 66.87,
    "top": 150,
-   "why": "top-down usage shot: keep one spot, off the cup"
+   "why": "usage"
+  },
+  {
+   "from": 66.87,
+   "to": 69.97,
+   "top": 150,
+   "why": "usage"
   }
  ]
 }

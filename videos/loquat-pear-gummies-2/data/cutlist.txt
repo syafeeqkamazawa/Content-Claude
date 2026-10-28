@@ -1,0 +1,22 @@
+TOTAL 80.43s  (9 A-roll segments, 6 B-roll shots, 3 photos, 6 audio fx, 81 caption cards)
+
+  0.00-  6.32  S01  src  15.95- 24.45  (4 pc)  Perasan tak, sekarang ni kita sangat diuji.
+  6.32- 13.80  S02  src  25.15- 33.55  (4 pc)  Negara kita sedang diuji dengan jerebu. Seperti yang ibu ayah, abang kakak tahu,
+ 13.80- 19.52  S03  src  33.55- 41.10  (3 pc)  kita dilanda jerebu yang agak serius, agak kritikal kan.
+ 19.52- 28.63  S04  src  44.10- 53.88  (3 pc)  Pagi-pagi nak hantar anak sekolah pun kita dah mula risau. Anak kena keluar rumah, kita pula tak tahu macam mana keadaan udara kat luar sana.
+ 28.63- 40.25  S05  src  69.75- 82.80  (6 pc)  Kita sebagai ibu ayah mestilah kita nak jaga kesihatan keluarga kita, anak-anak kita, ibu ayah kita, adik-beradik. Lagi-lagi bila kualiti udara ni tak menentu sekarang.
+ 40.25- 55.23  S06  src 101.70-118.45  (4 pc)  Yang ada pada saya ni, Nature's Key Loquat and Pear Gummies, gummies perisa pear, dengan 12% jus pear pekat dan 5% jus loquat pekat. Satu kotak ni ada 30 gummies lah.
+ 55.23- 63.70  S07  src 125.75-134.75  (3 pc)  Jadi ibu ayah, abang kakak, kalau suka gummies yang ada flavour buah macam ni,
+ 63.70- 72.82  S08  src 136.30-145.85  (3 pc)  boleh tengok dekat beg kuning. Sekarang ni pun hujung bulan ada banyak promosi, ada promosi payday, ada promosi dan voucher yang pelbagai lah.
+ 72.82- 80.43  S09  src 147.80-155.75  (3 pc)  Dan kalau nampak harga tu murah daripada biasa, boleh dapatkan Loquat and Pear Gummies ni daripada Nature's Key.
+
+  cutaway   6.32- 13.80
+  cutaway  19.52- 28.63
+  cutaway  28.63- 36.33
+  cutaway  40.25- 41.82
+  cutaway  41.82- 45.83
+  cutaway  45.83- 52.22
+  cutaway  52.22- 55.23
+  cutaway  57.78- 63.70
+  cutaway  65.28- 68.08
+  cutaway  68.08- 72.82
