@@ -117,7 +117,98 @@
    1.06
   ]
  ],
- "broll": [],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S05",
+    "dengan"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 103.0,
+   "note": "092803: segenggam sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 49.0,
+   "note": "092803: kotak depan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "dan"
+   ],
+   "src": 223.0,
+   "note": "092803: sachet dan cawan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S07",
+    "dan"
+   ],
+   "to": [
+    "S07",
+    "untuk#2"
+   ],
+   "src": 283.0,
+   "note": "092803: tuang ke cawan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "ada"
+   ],
+   "src": 175.0,
+   "note": "092803: kotak dan sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
  "photos": [
   {
    "id": "tanya",

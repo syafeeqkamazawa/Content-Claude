@@ -135,7 +135,134 @@
    1.06
   ]
  ],
- "broll": [],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S01",
+    "tapi"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "src": 17.0,
+   "note": "090858: kotak depan dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S04",
+    "nutrisi"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 41.0,
+   "note": "090858: sachet dikeluarkan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "ada#2"
+   ],
+   "src": 85.0,
+   "note": "090858: sachet dekat kamera",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S06",
+    "ada#2"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 113.0,
+   "note": "090858: tuang ke cawan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 57.0,
+   "note": "090858: segenggam sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S08",
+    "dia"
+   ],
+   "to": [
+    "S08",
+    "sesuai"
+   ],
+   "src": 77.0,
+   "note": "090858: sachet dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B7",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 177.0,
+   "note": "090858: kotak dan sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
  "photos": [
   {
    "id": "sekolah",
