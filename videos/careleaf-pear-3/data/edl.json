@@ -1,0 +1,404 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "28 Okt: 'Buat juga video untuk 2 produk baru upload'; permulaan tanpa transition effect — satu hook text motion premium ikut tema produk; klip putaran produk boleh guna. 26 Okt: brief premium (no invented claims).",
+ "_note": "Careleaf Bursting Pear Paste Gummies #3 — Drive folder 1rA3wg-J… 'Video hari ini' (28 Oct). A-roll assets/a.mp4 = VID_20261028_143251 (front camera saved mirrored — flipped back in CSS): the haze (jerebu) angle, with the owner's own disclaimer kept ('gummies bukan pelindung utama, cuma untuk tambahkan kesegaran nafas'). B-roll assets/b.mp4 = VID_20261016_223849 (also in Careleaf #1/#2; picks avoid their 0.5-3, 12-16, 44.5-47, 50-53, 56-59, 61-64). Dropped: 'kan', 'kalau dekat rumah kita boleh tengok lagi', 45-57 ('dekat jadi jadi'), 'Dia ada apa', 'Okey', 'apa', 'Okay'. Card: box front from Careleaf #2. Owner 28 Oct: opening = one premium motion-text hook, no transition effect.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 6.3,
+   "out": 14.15,
+   "zoom": 1.04,
+   "text": "Musim-musim jerebu ni, nak tarik nafas pun tak selesa kan, tambah-tambah dekat luar rumah tu.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 15.25,
+   "out": 21.4,
+   "zoom": 1.0,
+   "text": "Pagi-pagi kau nak hantar anak sekolah, tengok langit, dah mula kelabu,",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 21.75,
+   "out": 27.3,
+   "zoom": 1.0,
+   "text": "anak pula ada aktiviti luar, sebagai ibu ayah kita jadi risaulah.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 29.1,
+   "out": 31.35,
+   "zoom": 1.0,
+   "text": "Sebab dekat rumah kita boleh pantau,",
+   "note": "'kalau dekat rumah kita boleh tengok lagi' dropped"
+  },
+  {
+   "id": "S05",
+   "in": 34.75,
+   "out": 45.15,
+   "zoom": 1.0,
+   "text": "tapi bila dah dekat luar, sekolah ke kan, kita tak tahu berapa lama dia terdedah dengan udara yang tercemar macam tu.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 57.25,
+   "out": 74.68,
+   "zoom": 1.0,
+   "text": "Jadi ibu ayah, abang kakak, kalau suka gummies berperisa buah, boleh pertimbangkan Careleaf Bursting Pear Paste Gummies ni.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 74.68,
+   "out": 80.0,
+   "zoom": 1.0,
+   "text": "Perisa buah pear dengan konsep inti yang meletup dalam mulut.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 82.55,
+   "out": 88.2,
+   "zoom": 1.0,
+   "text": "Dalam lapisan layer gummies tu ada inti buah.",
+   "note": "'Dia ada apa' dropped"
+  },
+  {
+   "id": "S09",
+   "in": 89.2,
+   "out": 92.35,
+   "zoom": 1.0,
+   "text": "Satu kotak berat bersih dia 80 gram.",
+   "note": "'Okey' dropped"
+  },
+  {
+   "id": "S10",
+   "in": 94.75,
+   "out": 97.36,
+   "zoom": 1.0,
+   "text": "Cuma gummies bukan",
+   "note": "owner's own disclaimer, 'apa' dropped"
+  },
+  {
+   "id": "S11",
+   "in": 98.45,
+   "out": 106.62,
+   "zoom": 1.0,
+   "text": "pelindung utamalah, cuma untuk tambahkan kesegaran nafas, untuk bagi",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 106.85,
+   "out": 108.55,
+   "zoom": 1.0,
+   "text": "kita rasa lebih fresh lah.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 109.4,
+   "out": 121.3,
+   "zoom": 1.0,
+   "text": "Jadi boleh dapatkan di beg kuning. Sekarang banyak voucher ada, tambah hujung bulan ni ada promosi payday dan banyak lagi,",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 121.35,
+   "out": 129.9,
+   "zoom": 1.04,
+   "text": "tengok dekat beg kuning, kalau ada voucher dan harga lebih murah daripada biasa, boleh grab terus produk daripada Careleaf.",
+   "note": "CTA"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Musim jerebu",
+  "lines": [
+   "Nak tarik nafas pun",
+   "tak selesa kan?"
+  ],
+  "accent_words": [
+   "tak",
+   "selesa",
+   "kan?"
+  ],
+  "to": 3.4,
+  "accent": "#C8E03A",
+  "accent2": "#F7A823",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S14",
+   "careleaf.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S06",
+    "boleh"
+   ],
+   "to": [
+    "S06",
+    "careleaf"
+   ],
+   "src": 5.0,
+   "note": "223849: kotak depan dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 66.0,
+   "note": "223849: gummy dibuka, inti pear",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 53.0,
+   "note": "223849: gummy berbalut",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 8.0,
+   "note": "223849: kotak depan (berat bersih)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S13",
+    "sekarang"
+   ],
+   "to": [
+    "S13",
+    "end"
+   ],
+   "src": 20.0,
+   "note": "223849: buka kotak",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S14",
+    "kalau"
+   ],
+   "to": [
+    "S14",
+    "boleh"
+   ],
+   "src": 31.0,
+   "note": "223849: buka kotak",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "langit",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: langit kelabu berjerebu"
+  },
+  {
+   "id": "aktiviti",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: aktiviti luar sekolah, jerebu"
+  },
+  {
+   "id": "risau",
+   "from": [
+    "S05",
+    "kita"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: ibu risau tengok jerebu"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S06",
+    "careleaf"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "theme": {
+  "key": "#F7A823",
+  "brand": "#9CC21A"
+ },
+ "brand_words": [
+  "careleaf",
+  "careleaf.",
+  "bursting",
+  "pear",
+  "paste",
+  "gummies"
+ ],
+ "keywords": [
+  "jerebu",
+  "nafas",
+  "selesa",
+  "kelabu,",
+  "risaulah.",
+  "tercemar",
+  "inti",
+  "meletup",
+  "80",
+  "gram.",
+  "kesegaran",
+  "nafas,",
+  "fresh",
+  "beg",
+  "kuning.",
+  "kuning,",
+  "voucher",
+  "promosi",
+  "payday",
+  "murah"
+ ],
+ "panel": {
+  "title": "SEMAK CARELEAF",
+  "from": [
+   "S07",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "PERISA PEAR",
+    "from": [
+     "S07",
+     "start"
+    ],
+    "done": [
+     "S07",
+     "dengan"
+    ]
+   },
+   {
+    "text": "INTI MELETUP",
+    "from": [
+     "S07",
+     "konsep"
+    ],
+    "done": [
+     "S07",
+     "end"
+    ]
+   },
+   {
+    "text": "INTI BUAH",
+    "from": [
+     "S08",
+     "start"
+    ],
+    "done": [
+     "S08",
+     "end"
+    ]
+   },
+   {
+    "text": "80 GRAM",
+    "from": [
+     "S09",
+     "start"
+    ],
+    "done": [
+     "S09",
+     "end"
+    ]
+   }
+  ]
+ }
+}

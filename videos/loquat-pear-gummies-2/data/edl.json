@@ -1,0 +1,354 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "28 Okt: 'Buat juga video untuk 2 produk baru upload'; permulaan tanpa transition effect — satu hook text motion premium ikut tema produk; klip putaran produk boleh guna. 26 Okt: brief premium (no invented claims).",
+ "_note": "Nature's Key Loquat & Pear Gummies #2 — Drive folder 1rA3wg-J… 'Video hari ini' (28 Oct). A-roll assets/a.mp4 = VID_20261028_142837 (front camera saved mirrored — flipped back in CSS): the haze (jerebu) angle. B-roll assets/b.mp4 = VID_20261027_165622 (also in Loquat #1; picks avoid #1's 1-4, 5.8-8, 8-11, 14-17, 37.5-40, 44-47, 72-75, 81.5-84). No haze-protection claim: the gummies are presented only by what the box says (12% concentrated pear juice, 5% concentrated loquat juice, 30 gummies). Card: box front from Loquat #1. Owner 28 Oct: opening = one premium motion-text hook, no transition effect.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 15.95,
+   "out": 24.25,
+   "zoom": 1.04,
+   "text": "Perasan tak, sekarang ni kita sangat diuji.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 25.15,
+   "out": 33.55,
+   "zoom": 1.0,
+   "text": "Negara kita sedang diuji dengan jerebu. Seperti yang ibu ayah, abang kakak tahu,",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 33.55,
+   "out": 41.1,
+   "zoom": 1.0,
+   "text": "kita dilanda jerebu yang agak serius, agak kritikal kan.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 44.1,
+   "out": 53.7,
+   "zoom": 1.0,
+   "text": "Pagi-pagi nak hantar anak sekolah pun kita dah mula risau. Anak kena keluar rumah, kita pula tak tahu macam mana keadaan udara kat luar sana.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 69.75,
+   "out": 82.65,
+   "zoom": 1.0,
+   "text": "Kita sebagai ibu ayah mestilah kita nak jaga kesihatan keluarga kita, anak-anak kita, ibu ayah kita, adik-beradik. Lagi-lagi bila kualiti udara ni tak menentu sekarang.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 101.7,
+   "out": 118.45,
+   "zoom": 1.0,
+   "text": "Yang ada pada saya ni, Nature's Key Loquat and Pear Gummies, gummies perisa pear, dengan 12% jus pear pekat dan 5% jus loquat pekat. Satu kotak ni ada 30 gummies lah.",
+   "note": "take 2 (take 1 at 85 stopped mid-way)"
+  },
+  {
+   "id": "S07",
+   "in": 125.75,
+   "out": 134.75,
+   "zoom": 1.0,
+   "text": "Jadi ibu ayah, abang kakak, kalau suka gummies yang ada flavour buah macam ni,",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 136.3,
+   "out": 145.85,
+   "zoom": 1.0,
+   "text": "boleh tengok dekat beg kuning. Sekarang ni pun hujung bulan ada banyak promosi, ada promosi payday, ada promosi dan voucher yang pelbagai lah.",
+   "note": "'Okay' and 'rasa buah … lah' dropped"
+  },
+  {
+   "id": "S09",
+   "in": 147.8,
+   "out": 155.75,
+   "zoom": 1.04,
+   "text": "Dan kalau nampak harga tu murah daripada biasa, boleh dapatkan Loquat and Pear Gummies ni daripada Nature's Key.",
+   "note": "CTA ('dekat beg kuning, boleh klik beg kuning tu' dropped)"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Musim jerebu",
+  "lines": [
+   "Anak keluar rumah,",
+   "udara tak menentu…"
+  ],
+  "accent_words": [
+   "udara",
+   "tak",
+   "menentu…"
+  ],
+  "to": 3.4,
+  "accent": "#F7A23B",
+  "accent2": "#8CC63F",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S09",
+   "key.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "nature's"
+   ],
+   "src": 19.0,
+   "note": "165622: kotak depan dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S06",
+    "dengan"
+   ],
+   "to": [
+    "S06",
+    "satu"
+   ],
+   "src": 28.0,
+   "note": "165622: gummies ditabur",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S06",
+    "satu"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 31.5,
+   "note": "165622: gummies di atas meja",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S07",
+    "kalau"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 49.0,
+   "note": "165622: buka bungkus gummy",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S08",
+    "sekarang"
+   ],
+   "to": [
+    "S08",
+    "ada#2"
+   ],
+   "src": 55.0,
+   "note": "165622: gummy dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S08",
+    "ada#2"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 76.0,
+   "note": "165622: gummy ke kamera",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "jerebu",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: bandar berjerebu"
+  },
+  {
+   "id": "hantar",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: hantar anak ke sekolah, langit berjerebu"
+  },
+  {
+   "id": "keluarga",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "lagi-lagi"
+   ],
+   "note": "AI: keluarga di rumah, jerebu di luar"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S06",
+    "nature's"
+   ],
+   "to": [
+    "S06",
+    "dengan"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "theme": {
+  "key": "#F7A23B",
+  "brand": "#8CC63F"
+ },
+ "brand_words": [
+  "nature's",
+  "key",
+  "key.",
+  "loquat",
+  "and",
+  "pear",
+  "gummies,",
+  "gummies"
+ ],
+ "keywords": [
+  "diuji.",
+  "jerebu.",
+  "jerebu",
+  "serius,",
+  "kritikal",
+  "risau.",
+  "udara",
+  "kesihatan",
+  "12%",
+  "5%",
+  "jus",
+  "pekat",
+  "30",
+  "beg",
+  "kuning.",
+  "promosi",
+  "payday,",
+  "voucher",
+  "murah"
+ ],
+ "panel": {
+  "title": "SEMAK LOQUAT",
+  "from": [
+   "S06",
+   "dengan"
+  ],
+  "items": [
+   {
+    "text": "12% JUS PEAR",
+    "from": [
+     "S06",
+     "dengan"
+    ],
+    "done": [
+     "S06",
+     "dan"
+    ]
+   },
+   {
+    "text": "5% JUS LOQUAT",
+    "from": [
+     "S06",
+     "dan"
+    ],
+    "done": [
+     "S06",
+     "satu"
+    ]
+   },
+   {
+    "text": "30 GUMMIES",
+    "from": [
+     "S06",
+     "satu"
+    ],
+    "done": [
+     "S06",
+     "end"
+    ]
+   }
+  ]
+ }
+}
