@@ -13,7 +13,7 @@
  },
  "titles": [],
  "_owner_decisions": "28 Okt: permulaan video tiada transition effect — satu hook text motion yang premium dan kemas ikut tema produk. 26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, 3D overlay, kapsyen ikut tema, tiada muzik).",
- "_note": "OLZZ DHA Liquid Sachet — Drive folder 1rA3wg-J… 'Video hari ini' (28 Oct). A-roll assets/a.mp4 = VID_20261028_102831 (0-44.07) + VID_20261028_103121 (44.07-…), both front camera saved mirrored — flipped back in CSS. B-roll assets/b.mp4 = VID_20261028_092803 (0-356.41: box opened, sachets, poured into a cup) + VID_20261028_092937 (356.41-381.23: box on the table, slow turn). Dropped: 102831 first 'yang lagi sedih' try, 'padahal' (clip ends mid-word); 103121 opening noise, product-name take 1 (stumbled on fosfatidilserin), second 'sebab itu' take, first sachet line, repeated age line, 'biasanya saya boleh buat begitulah … kalau banyak ada'. Box: Lion's Mane mushroom powder, DHA algae oil, phosphatidylserine, choline, walnut peptide, 10 x 10 mL sachets. Card: box front from 092937 at 6 s. Owner 28 Oct: opening = one premium motion-text hook, no transition effect.",
+ "_note": "OLZZ DHA Liquid Sachet — Drive folder 1rA3wg-J… 'Video hari ini' (28 Oct). A-roll assets/a.mp4 = VID_20261028_102831 (0-44.07) + VID_20261028_103121 (44.07-…), both front camera saved mirrored — flipped back in CSS. B-roll assets/b.mp4 = VID_20261028_092803 (0-356.41: box opened, sachets, poured into a cup) + VID_20261028_092937 (356.41-381.23: box on the table, slow turn — owner 28 Oct: rotation clips may be used). Dropped: 102831 first 'yang lagi sedih' try, 'padahal' (clip ends mid-word); 103121 opening noise, product-name take 1 (stumbled on fosfatidilserin), second 'sebab itu' take, first sachet line, repeated age line, 'biasanya saya boleh buat begitulah … kalau banyak ada'. Box: Lion's Mane mushroom powder, DHA algae oil, phosphatidylserine, choline, walnut peptide, 10 x 10 mL sachets. Card: box front from 092937 at 6 s. Owner 28 Oct: opening = one premium motion-text hook, no transition effect.",
  "segments": [
   {
    "id": "S01",
@@ -207,6 +207,24 @@
     1.06
    ],
    "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 360.41,
+   "note": "092937: kotak berputar (owner 28 Oct: klip putaran boleh guna)",
+   "push": [
+    1.0,
+    1.04
+   ],
+   "origin": "50% 50%"
   }
  ],
  "photos": [

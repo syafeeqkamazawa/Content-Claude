@@ -94,7 +94,9 @@ otherwise for a specific video.
 - **Clip selection:** use only high-value footage — hands using, opening,
   handling the product, bringing it to camera, label / texture close-ups.
   Reject static product shots, idle hands, dead time, blurry or irrelevant
-  shots. (In a single-video folder not every clip has to be used; the
+  shots. **Product rotation / turntable clips may be used** (owner, 28 Oct:
+  "Klip putaran produk boleh guna") — the box turning slowly on the table is
+  a product hero shot, not a static shot. (In a single-video folder not every clip has to be used; the
   batch-folder "use every clip" rule only applies when the owner asks for it.)
 - **Opening (owner, 28 Oct — replaces the old hook effect):** "Untuk permulaan
   video tak perlu ada transition effect, cuma ada satu hook text yang jelas
