@@ -49,7 +49,7 @@
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.set("#fl-block", { x: 0, y: 0, scale: 1 }, 0.0);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 0.0);
           tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 0.0);
           tl.set("#fl-0-0", { textContent: "A", color: "#8E9AA6" }, 0.0);
           tl.set("#fl-0-0", { textContent: "3", color: "#8E9AA6" }, 0.05);
@@ -5344,8 +5344,14 @@
           tl.set("#pn-st3", { textContent: "● DONE", color: "#5BD67A" }, 52.15);
           tl.set("#pn-dt3", { textContent: "03.0s" }, 52.15);
           tl.fromTo("#pn-st3", { scale: 1.25 }, { scale: 1, duration: 0.2, ease: "back.out(3)", immediateRender: false }, 52.15);
-          tl.set("#fl-panel", { x: 688, y: 332, scale: 1 }, 40.2667);
-          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 40.4167);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 0.7 }, 49.1167);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 49.1167);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 52.0333);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 1.0 }, 52.2);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 52.2);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 56.9833);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 0.7 }, 59.95);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 59.95);
           window.__timelines["captions"] = tl;
         })();
       </script>

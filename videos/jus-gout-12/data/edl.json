@@ -419,7 +419,38 @@
    "from": 40.27,
    "to": 42.18,
    "panel": false,
+   "top": 150,
    "why": "jar and cup"
+  },
+  {
+   "from": 42.18,
+   "to": 49.17,
+   "top": 150,
+   "why": "top-down usage shot: keep one spot, off the cup"
+  },
+  {
+   "from": 49.17,
+   "to": 52.25,
+   "top": 150,
+   "why": "top-down usage shot: keep one spot, off the cup"
+  },
+  {
+   "from": 57.2,
+   "to": 60.0,
+   "top": 150,
+   "why": "top-down usage shot: keep one spot, off the cup"
+  },
+  {
+   "from": 60.0,
+   "to": 63.18,
+   "top": 150,
+   "why": "top-down usage shot: keep one spot, off the cup"
+  },
+  {
+   "from": 63.18,
+   "to": 67.62,
+   "top": 150,
+   "why": "top-down usage shot: keep one spot, off the cup"
   }
  ]
 }
