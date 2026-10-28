@@ -1,0 +1,411 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "theme": {
+  "key": "#FFC21A",
+  "brand": "#FF7A45"
+ },
+ "brand_words": [
+  "jus",
+  "gout",
+  "pro",
+  "max",
+  "series,",
+  "series",
+  "by"
+ ],
+ "_owner_decisions": "28 Okt: 'Jus Gout ada 2 video bercakap' — satu video setiap klip; permulaan tanpa transition effect, satu hook text motion premium ikut tema produk; klip putaran produk boleh guna. 27 Okt: kekalkan framing 'ikhtiar dengan Jus Gout'. 26 Okt: brief premium.",
+ "_note": "Jus Gout Pro Max #12 — Drive folder 1rA3wg-J… 'Video hari ini' (28 Oct, owner: 'Jus Gout ada 2 video bercakap'). A-roll assets/a.mp4 = VID_20261028_120629 (front camera saved mirrored — flipped back in CSS; light grade: contrast 1.10, saturation 1.12). B-roll assets/b.mp4 = VID_20261012_172341 (same file as #11; picks differ from #11 and avoid #8-#10). Dropped: hook take 1, the first 'yang buat kita risau', 'Okay', the repeated kurkuma, 'memang insyaAllah', 'Boleh beli okay di bag kuning, sementara apa', 'haa', the tail after the CTA. Card: jar from #8. Owner 28 Oct: opening = one premium motion-text hook, no transition effect.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 17.0,
+   "out": 29.22,
+   "zoom": 1.04,
+   "text": "Korang pernah tak, tengah malam orang lain semua tidur lena, tapi kita masih berjaga sebab ibu jari kaki berdenyut-denyut, nak ubah posisi tidur pun susah.",
+   "note": "HOOK (take 2; take 1 at 7.2 dropped)"
+  },
+  {
+   "id": "S02",
+   "in": 29.22,
+   "out": 40.15,
+   "zoom": 1.0,
+   "text": "Kadang-kadang selimut tersentuh pun kaki rasa sakit. Orang yang kena gout je faham perasaan ni. Tengok jam, dah pukul 3 pagi, tak boleh tidur.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 49.3,
+   "out": 57.3,
+   "zoom": 1.0,
+   "text": "Yang buat kita lagi risau, esok pagi nak kena bangun pergi kerja, anak-anak nak makan, keluarga perlukan kita, tapi",
+   "note": "first try at 46.5 dropped"
+  },
+  {
+   "id": "S04",
+   "in": 59.35,
+   "out": 61.15,
+   "zoom": 1.0,
+   "text": "tengah malam nak tidur pun tak boleh.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 61.8,
+   "out": 63.75,
+   "zoom": 1.0,
+   "text": "Sebab tu gout jangan dipandang ringan.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 63.8,
+   "out": 69.32,
+   "zoom": 1.0,
+   "text": "Yang ada pada saya ni, salah satu alternatif untuk bantu masalah sakit gout ni.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 70.3,
+   "out": 74.45,
+   "zoom": 1.0,
+   "text": "Jus Gout by Pro Max series, ada 6 ekstrak herba terpilih,",
+   "note": "'Okay' dropped"
+  },
+  {
+   "id": "S08",
+   "in": 74.8,
+   "out": 81.95,
+   "zoom": 1.0,
+   "text": "macam ada ekstrak nanas, ada ekstrak lemon, ekstrak akar kurkuma,",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 84.15,
+   "out": 87.5,
+   "zoom": 1.0,
+   "text": "dan ekstrak oren, ekstrak halia.",
+   "note": "repeated 'ekstrak akar kurkuma' and 'memang insyaAllah' dropped"
+  },
+  {
+   "id": "S10",
+   "in": 94.2,
+   "out": 99.15,
+   "zoom": 1.0,
+   "text": "Boleh hadiahkan untuk ayah juga, ataupun boleh belikan untuk adik-beradik ke, ataupun diri sendiri ke.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 103.6,
+   "out": 106.4,
+   "zoom": 1.0,
+   "text": "Hujung bulan ni ada banyak promo, promo payday,",
+   "note": "'Boleh beli okay di bag kuning, sementara apa' dropped"
+  },
+  {
+   "id": "S12",
+   "in": 108.75,
+   "out": 111.95,
+   "zoom": 1.0,
+   "text": "ada voucher, boleh tengok kalau ada",
+   "note": "'haa' dropped"
+  },
+  {
+   "id": "S13",
+   "in": 112.55,
+   "out": 118.45,
+   "zoom": 1.04,
+   "text": "voucher ataupun harga tu lagi murah daripada biasa, boleh beli terus, okay, dapatkan di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Tengah malam…",
+  "lines": [
+   "Ibu jari kaki",
+   "berdenyut-denyut?"
+  ],
+  "accent_words": [
+   "berdenyut-denyut?"
+  ],
+  "to": 3.4,
+  "accent": "#FFC21A",
+  "accent2": "#FF7A45",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S13",
+   "kuning.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S07",
+    "ada"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 32.0,
+   "note": "172341: balang dan cawan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 68.0,
+   "note": "172341: buka balang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 108.0,
+   "note": "172341: sudukan serbuk",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 160.0,
+   "note": "172341: kacau jus",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 182.0,
+   "note": "172341: kacau jus",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S13",
+    "voucher"
+   ],
+   "to": [
+    "S13",
+    "okay,"
+   ],
+   "src": 228.0,
+   "note": "172341: balang dan cawan siap",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "malam",
+   "from": [
+    "S01",
+    "tapi"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: berjaga tengah malam pegang kaki"
+  },
+  {
+   "id": "selimut",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "orang"
+   ],
+   "note": "AI: selimut terkena kaki"
+  },
+  {
+   "id": "jam",
+   "from": [
+    "S02",
+    "tengok"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: jam 3 pagi"
+  },
+  {
+   "id": "keluarga",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: pagi keluarga, ayah letih"
+  }
+ ],
+ "cards": [
+  {
+   "id": "balang",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "ada"
+   ],
+   "img": "assets/products/balang.png",
+   "bg": "assets/products/balang-bg.jpg"
+  }
+ ],
+ "keywords": [
+  "berdenyut-denyut,",
+  "susah.",
+  "sakit.",
+  "3",
+  "pagi,",
+  "tidur.",
+  "risau,",
+  "ringan.",
+  "alternatif",
+  "6",
+  "ekstrak",
+  "herba",
+  "nanas,",
+  "lemon,",
+  "kurkuma,",
+  "oren,",
+  "halia.",
+  "hadiahkan",
+  "promo",
+  "payday,",
+  "voucher",
+  "murah",
+  "beg",
+  "kuning."
+ ],
+ "panel": {
+  "title": "6 HERBA TERPILIH",
+  "from": [
+   "S07",
+   "ada"
+  ],
+  "items": [
+   {
+    "text": "NANAS",
+    "from": [
+     "S08",
+     "start"
+    ],
+    "done": [
+     "S08",
+     "ada#2"
+    ]
+   },
+   {
+    "text": "LEMON",
+    "from": [
+     "S08",
+     "ada#2"
+    ],
+    "done": [
+     "S08",
+     "ekstrak#3"
+    ]
+   },
+   {
+    "text": "AKAR KURKUMA",
+    "from": [
+     "S08",
+     "ekstrak#3"
+    ],
+    "done": [
+     "S08",
+     "end"
+    ]
+   },
+   {
+    "text": "OREN HALIA",
+    "from": [
+     "S09",
+     "start"
+    ],
+    "done": [
+     "S09",
+     "end"
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,403 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "theme": {
+  "key": "#FFC21A",
+  "brand": "#FF7A45"
+ },
+ "brand_words": [
+  "jus",
+  "gout",
+  "pro",
+  "max",
+  "series,",
+  "series",
+  "by"
+ ],
+ "_owner_decisions": "28 Okt: 'Jus Gout ada 2 video bercakap' — satu video setiap klip; permulaan tanpa transition effect, satu hook text motion premium ikut tema produk; klip putaran produk boleh guna. 27 Okt: kekalkan framing 'ikhtiar dengan Jus Gout'. 26 Okt: brief premium.",
+ "_note": "Jus Gout Pro Max #11 — Drive folder 1rA3wg-J… 'Video hari ini' (28 Oct, owner: 'Jus Gout ada 2 video bercakap'). A-roll assets/a.mp4 = VID_20261028_120404 (front camera saved mirrored — flipped back in CSS; light grade: contrast 1.10, saturation 1.12 — the clip was washed out). B-roll assets/b.mp4 = VID_20261012_172341 (also in #1-#10; picks avoid the ranges #8-#10 used). Dropped: the first hook tail (retaken at 13.6), 'Ini pula', 'lah', 'apa tu', 'So apa tu', the second 'boleh dapatkan … hadiahkan' and the unclear ending. Herb names follow the jar label: bromelain, milk thistle, lemon, Curcuma longa, halia, oren. Card: jar from #8. Owner 28 Oct: opening = one premium motion-text hook, no transition effect.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 5.75,
+   "out": 8.95,
+   "zoom": 1.04,
+   "text": "Pernah tak bangun pagi baru nak pijak lantai,",
+   "note": "HOOK (first take; its tail 'ibu jari kaki dah sakit sampai nak berjalan' is retaken at 13.6)"
+  },
+  {
+   "id": "S02",
+   "in": 13.62,
+   "out": 17.62,
+   "zoom": 1.0,
+   "text": "ibu jari kaki sakit, sampai nak berjalan pun tak boleh.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 17.88,
+   "out": 27.25,
+   "zoom": 1.0,
+   "text": "Bayangkan, anak-anak dah tunggu nak pergi sekolah, isteri pun sibuk dah bersiap, tapi kita masih terduduk dekat tepi katil menahan sakit.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 31.95,
+   "out": 40.8,
+   "zoom": 1.0,
+   "text": "Yang paling merisaukan bukan sakit tu sahaja, tapi bila terfikir kalau tak boleh pergi kerja, macam mana nak cari rezeki untuk keluarga.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 40.8,
+   "out": 46.1,
+   "zoom": 1.0,
+   "text": "Sebab tu masalah gout ni jangan ambil ringan, jaga makanan, cukupkan air,",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 46.6,
+   "out": 48.35,
+   "zoom": 1.0,
+   "text": "dapatkan rawatan yang sesuai.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 49.72,
+   "out": 64.2,
+   "zoom": 1.0,
+   "text": "Yang ada pada saya ni, Jus Gout by Pro Max series, produk yang insyaAllah sebagai alternatif lah untuk bantu masalah gout ni.",
+   "note": "'Ini pula' dropped"
+  },
+  {
+   "id": "S08",
+   "in": 71.95,
+   "out": 76.45,
+   "zoom": 1.0,
+   "text": "Jus Gout ni dia ada campuran 6 ekstrak herba terpilih.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 78.05,
+   "out": 88.35,
+   "zoom": 1.0,
+   "text": "Lepas tu, ada seperti bromelain, bromelain ni ekstrak nanas. Ada milk thistle, lemon, halia, Curcuma longa dan oren.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 92.42,
+   "out": 98.4,
+   "zoom": 1.0,
+   "text": "Sebagai alternatif ikhtiar untuk mereka yang ada masalah sakit gout, insyaAllah.",
+   "note": "owner 27 Oct: keep the ikhtiar framing"
+  },
+  {
+   "id": "S11",
+   "in": 101.55,
+   "out": 105.65,
+   "zoom": 1.0,
+   "text": "Pada hujung-hujung bulan ni banyak promo payday, ada voucher,",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 105.65,
+   "out": 111.7,
+   "zoom": 1.0,
+   "text": "sementara seller bagi tu, boleh gunakan, dapat harga yang jauh lagi murah, insyaAllah.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 111.7,
+   "out": 114.05,
+   "zoom": 1.04,
+   "text": "So, boleh dapatkan di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Pernah tak?",
+  "lines": [
+   "Baru nak pijak lantai,",
+   "ibu jari kaki sakit"
+  ],
+  "accent_words": [
+   "ibu",
+   "jari",
+   "kaki",
+   "sakit"
+  ],
+  "to": 3.4,
+  "accent": "#FFC21A",
+  "accent2": "#FF7A45",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S13",
+   "kuning.",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "campuran"
+   ],
+   "src": 24.5,
+   "note": "172341: balang dipegang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S08",
+    "campuran"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 64.0,
+   "note": "172341: buka balang",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "ada#2"
+   ],
+   "src": 100.0,
+   "note": "172341: sudukan serbuk",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S09",
+    "ada#2"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 120.0,
+   "note": "172341: serbuk ke cawan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 150.0,
+   "note": "172341: kacau jus",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "dapat"
+   ],
+   "src": 170.0,
+   "note": "172341: kacau jus",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "katil",
+   "from": [
+    "S03",
+    "tapi"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: terduduk di tepi katil menahan sakit"
+  },
+  {
+   "id": "rezeki",
+   "from": [
+    "S04",
+    "tapi"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: risau tak boleh pergi kerja"
+  },
+  {
+   "id": "makan",
+   "from": [
+    "S05",
+    "jaga"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: hidangan sihat dan air kosong"
+  }
+ ],
+ "cards": [
+  {
+   "id": "balang",
+   "from": [
+    "S07",
+    "jus"
+   ],
+   "to": [
+    "S07",
+    "produk"
+   ],
+   "img": "assets/products/balang.png",
+   "bg": "assets/products/balang-bg.jpg"
+  }
+ ],
+ "keywords": [
+  "sakit,",
+  "sakit.",
+  "rezeki",
+  "ringan,",
+  "air,",
+  "rawatan",
+  "6",
+  "ekstrak",
+  "herba",
+  "bromelain,",
+  "nanas.",
+  "milk",
+  "thistle,",
+  "lemon,",
+  "halia,",
+  "curcuma",
+  "longa",
+  "oren.",
+  "ikhtiar",
+  "promo",
+  "payday,",
+  "voucher,",
+  "murah,",
+  "beg",
+  "kuning."
+ ],
+ "panel": {
+  "title": "6 HERBA TERPILIH",
+  "from": [
+   "S09",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "BROMELAIN",
+    "from": [
+     "S09",
+     "seperti"
+    ],
+    "done": [
+     "S09",
+     "ada#2"
+    ]
+   },
+   {
+    "text": "MILK THISTLE",
+    "from": [
+     "S09",
+     "ada#2"
+    ],
+    "done": [
+     "S09",
+     "lemon,"
+    ]
+   },
+   {
+    "text": "LEMON HALIA",
+    "from": [
+     "S09",
+     "lemon,"
+    ],
+    "done": [
+     "S09",
+     "curcuma"
+    ]
+   },
+   {
+    "text": "CURCUMA OREN",
+    "from": [
+     "S09",
+     "curcuma"
+    ],
+    "done": [
+     "S09",
+     "end"
+    ]
+   }
+  ]
+ }
+}
