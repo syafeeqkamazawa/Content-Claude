@@ -103,7 +103,7 @@
   {
    "id": "S10",
    "in": 94.2,
-   "out": 99.15,
+   "out": 99.4,
    "zoom": 1.0,
    "text": "Boleh hadiahkan untuk ayah juga, ataupun boleh belikan untuk adik-beradik ke, ataupun diri sendiri ke.",
    "note": ""
@@ -435,20 +435,20 @@
    "why": "top-down usage shot: keep one spot, off the cup"
   },
   {
-   "from": 57.2,
-   "to": 60.0,
+   "from": 57.45,
+   "to": 60.25,
    "top": 150,
    "why": "top-down usage shot: keep one spot, off the cup"
   },
   {
-   "from": 60.0,
-   "to": 63.18,
+   "from": 60.25,
+   "to": 63.43,
    "top": 150,
    "why": "top-down usage shot: keep one spot, off the cup"
   },
   {
-   "from": 63.18,
-   "to": 67.62,
+   "from": 63.43,
+   "to": 67.87,
    "top": 150,
    "why": "top-down usage shot: keep one spot, off the cup"
   }

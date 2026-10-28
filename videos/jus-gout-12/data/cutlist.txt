@@ -1,4 +1,4 @@
-TOTAL 69.27s  (13 A-roll segments, 6 B-roll shots, 4 photos, 5 audio fx, 86 caption cards)
+TOTAL 69.52s  (13 A-roll segments, 6 B-roll shots, 4 photos, 5 audio fx, 86 caption cards)
 
   0.00- 10.12  S01  src  17.00- 29.22  (3 pc)  Korang pernah tak, tengah malam orang lain semua tidur lena, tapi kita masih berjaga sebab ibu jari kaki berdenyut-denyut, nak ubah posisi tidur pun susah.
  10.12- 20.90  S02  src  29.22- 40.50  (3 pc)  Kadang-kadang selimut tersentuh pun kaki rasa sakit. Orang yang kena gout je faham perasaan ni. Tengok jam, dah pukul 3 pagi, tak boleh tidur.
@@ -9,10 +9,10 @@ TOTAL 69.27s  (13 A-roll segments, 6 B-roll shots, 4 photos, 5 audio fx, 86 capt
  38.03- 42.18  S07  src  70.30- 74.45  (1 pc)  Jus Gout by Pro Max series, ada 6 ekstrak herba terpilih,
  42.18- 49.17  S08  src  74.80- 81.95  (2 pc)  macam ada ekstrak nanas, ada ekstrak lemon, ekstrak akar kurkuma,
  49.17- 52.25  S09  src  84.15- 87.50  (2 pc)  dan ekstrak oren, ekstrak halia.
- 52.25- 57.20  S10  src  94.20- 99.15  (1 pc)  Boleh hadiahkan untuk ayah juga, ataupun boleh belikan untuk adik-beradik ke, ataupun diri sendiri ke.
- 57.20- 60.00  S11  src 103.60-106.40  (1 pc)  Hujung bulan ni ada banyak promo, promo payday,
- 60.00- 63.20  S12  src 108.75-111.95  (1 pc)  ada voucher, boleh tengok kalau ada
- 63.20- 69.27  S13  src 112.55-118.62  (1 pc)  voucher ataupun harga tu lagi murah daripada biasa, boleh beli terus, okay, dapatkan di beg kuning.
+ 52.25- 57.45  S10  src  94.20- 99.40  (1 pc)  Boleh hadiahkan untuk ayah juga, ataupun boleh belikan untuk adik-beradik ke, ataupun diri sendiri ke.
+ 57.45- 60.25  S11  src 103.60-106.40  (1 pc)  Hujung bulan ni ada banyak promo, promo payday,
+ 60.25- 63.45  S12  src 108.75-111.95  (1 pc)  ada voucher, boleh tengok kalau ada
+ 63.45- 69.52  S13  src 112.55-118.62  (1 pc)  voucher ataupun harga tu lagi murah daripada biasa, boleh beli terus, okay, dapatkan di beg kuning.
 
   cutaway   4.13- 10.12
   cutaway  10.12- 13.58
@@ -22,6 +22,6 @@ TOTAL 69.27s  (13 A-roll segments, 6 B-roll shots, 4 photos, 5 audio fx, 86 capt
   cutaway  40.27- 42.18
   cutaway  42.18- 49.17
   cutaway  49.17- 52.25
-  cutaway  57.20- 60.00
-  cutaway  60.00- 63.20
-  cutaway  63.18- 67.62
+  cutaway  57.45- 60.25
+  cutaway  60.25- 63.45
+  cutaway  63.43- 67.87
