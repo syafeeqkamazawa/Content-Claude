@@ -96,8 +96,12 @@ otherwise for a specific video.
   Reject static product shots, idle hands, dead time, blurry or irrelevant
   shots. (In a single-video folder not every clip has to be used; the
   batch-folder "use every clip" rule only applies when the owner asks for it.)
-- **First clip only:** one tasteful hook effect (punch / snap zoom, speed ramp,
-  light shake, flash, product reveal) with a synced hook SFX.
+- **Opening (owner, 28 Oct — replaces the old hook effect):** "Untuk permulaan
+  video tak perlu ada transition effect, cuma ada satu hook text yang jelas
+  berbentuk motion text dan text tu mestilah nampak premium dan kemas sesuai
+  dengan tema produk yang dijual". The first clip starts clean — no punch,
+  flash, shake or whip — with one clear, premium motion-text hook styled in
+  the product's colours and type mood.
 - **Other clips:** gentle motion 100–108% (push-in, pull-out, reframe) that
   follows the action, never cropping product details. Clean / match / whip /
   zoom transitions with light SFX; no background music.
