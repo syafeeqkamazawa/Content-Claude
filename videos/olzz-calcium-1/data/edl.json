@@ -13,7 +13,7 @@
  },
  "titles": [],
  "_owner_decisions": "28 Okt: permulaan video tiada transition effect — satu hook text motion yang premium dan kemas ikut tema produk. 26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, 3D overlay, kapsyen ikut tema, tiada muzik).",
- "_note": "OLZZ Liquid Calcium with Magnesium — Drive folder 1rA3wg-J… 'Video hari ini' (28 Oct). A-roll assets/a.mp4 = VID_20261028_102424 (front camera saved mirrored — box reads backwards — flipped back in CSS). B-roll assets/b.mp4 = VID_20261028_090858 (0-192.92: box opened, sachets, poured into a cup) + VID_20261028_093013 (192.92-220.51: box on the table, slow turn — owner 28 Oct: rotation clips may be used). Kept 2.80-12.30 (hook), 12.98-22.55, 29.30-32.20, 37.32-43.55 (restart at 33-37 dropped), 43.50-49.85, 49.85-60.45, 61.05-67.35, 77.55-86.00 (false start 74-77.5 dropped), 89.75-98.55, 102.30-107.38, 108.35-113.60, 114.80-119.95. Box: Ca, Mg, zinc citrate, L-lysine, L-glutamine, 10 x 10 mL sachets. Card: box front from 093013 at 12 s. Owner 28 Oct: opening = one premium motion-text hook, no transition effect.",
+ "_note": "OLZZ Liquid Calcium with Magnesium — Drive folder 1rA3wg-J… 'Video hari ini' (28 Oct). A-roll assets/a.mp4 = VID_20261028_102424 (front camera saved mirrored — box reads backwards — flipped back in CSS). B-roll assets/b.mp4 = VID_20261028_090858 (0-192.92: box opened, sachets, poured into a cup) + VID_20261028_093013 (192.92-220.51: box on the table, slow turn — owner 28 Oct: rotation clips may be used). Kept 2.80-12.30 (hook), 12.98-22.55, 29.30-32.20, 37.32-43.55 (restart at 33-37 dropped), 43.50-49.85, 49.85-60.68, 60.72-67.35, 77.55-86.00 (false start 74-77.5 dropped), 89.75-98.55, 102.30-107.38, 108.35-113.60, 114.80-119.95. Box: Ca, Mg, zinc citrate, L-lysine, L-glutamine, 10 x 10 mL sachets. Card: box front from 093013 at 12 s. Owner 28 Oct: opening = one premium motion-text hook, no transition effect.",
  "segments": [
   {
    "id": "S01",
@@ -58,14 +58,14 @@
   {
    "id": "S06",
    "in": 49.85,
-   "out": 60.45,
+   "out": 60.68,
    "zoom": 1.0,
    "text": "Setiap sachet ada 200mg kalsium bersama dengan magnesium, ada zink, vitamin D3, vitamin K dan lysine.",
    "note": ""
   },
   {
    "id": "S07",
-   "in": 61.05,
+   "in": 60.72,
    "out": 67.35,
    "zoom": 1.0,
    "text": "Nutrien macam kalsium dan vitamin D memang sangat penting untuk kesihatan tulang.",
@@ -446,14 +446,14 @@
    "why": "sachet close-up: keep one spot"
   },
   {
-   "from": 43.97,
-   "to": 49.65,
+   "from": 44.2,
+   "to": 50.22,
    "top": 150,
    "why": "handful of sachets: keep one spot"
   },
   {
-   "from": 69.75,
-   "to": 74.27,
+   "from": 70.32,
+   "to": 74.83,
    "panel": false,
    "why": "box rotation: label"
   }
