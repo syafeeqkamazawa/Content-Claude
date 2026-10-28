@@ -1,0 +1,290 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "28 Okt: permulaan video tiada transition effect — satu hook text motion yang premium dan kemas ikut tema produk. 26 Okt: brief premium (2K 60fps 20Mbps, klip bernilai sahaja, 3D overlay, kapsyen ikut tema, tiada muzik).",
+ "_note": "OLZZ Liquid Calcium with Magnesium — Drive folder 1rA3wg-J… 'Video hari ini' (28 Oct). A-roll assets/a.mp4 = VID_20261028_102424 (front camera saved mirrored — box reads backwards — flipped back in CSS). B-roll assets/b.mp4 = VID_20261028_090858 (0-192.92: box opened, sachets, poured into a cup) + VID_20261028_093013 (192.92-220.51: box on the table, slow turn). Kept 2.80-12.30 (hook), 12.98-22.55, 29.30-32.20, 37.32-43.55 (restart at 33-37 dropped), 43.50-49.85, 49.85-60.45, 61.05-67.35, 77.55-86.00 (false start 74-77.5 dropped), 89.75-98.55, 102.30-107.38, 108.35-113.60, 114.80-119.95. Box: Ca, Mg, zinc citrate, L-lysine, L-glutamine, 10 x 10 mL sachets. Card: box front from 093013 at 12 s. Owner 28 Oct: opening = one premium motion-text hook, no transition effect.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 2.8,
+   "out": 12.3,
+   "zoom": 1.04,
+   "text": "Ibu ayah, pernah tak terfikir anak semakin hari semakin membesar, tapi cukup ke tak sebenarnya nutrisi yang mereka dapat?",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 12.98,
+   "out": 22.55,
+   "zoom": 1.0,
+   "text": "Pagi pergi sekolah, petang sibuk main lagi, tapi bila buat makan, sayur memilih. Susu pun kadang-kadang tak habis.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 29.3,
+   "out": 32.2,
+   "zoom": 1.0,
+   "text": "Yang kita risau bukan sekadar anak kita kenyang,",
+   "note": "33-37 restart dropped"
+  },
+  {
+   "id": "S04",
+   "in": 37.32,
+   "out": 43.55,
+   "zoom": 1.0,
+   "text": "tapi sebenarnya kita dah beri nutrisi yang cukup ke sepanjang mereka membesar?",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 43.5,
+   "out": 49.85,
+   "zoom": 1.0,
+   "text": "Yang ada pada saya ni, OLZZ Liquid Calcium with Magnesium.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 49.85,
+   "out": 60.45,
+   "zoom": 1.0,
+   "text": "Setiap sachet ada 200mg kalsium bersama dengan magnesium, ada zink, vitamin D3, vitamin K dan lysine.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 61.05,
+   "out": 67.35,
+   "zoom": 1.0,
+   "text": "Nutrien macam kalsium dan vitamin D memang sangat penting untuk kesihatan tulang.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 77.55,
+   "out": 86.0,
+   "zoom": 1.0,
+   "text": "Untuk pengetahuan ibu ayah, dia dalam bentuk liquid sachet, senang nak bawa ke mana-mana. Sesuai untuk umur 4 hingga 18 tahun.",
+   "note": "74-77.5 false start dropped"
+  },
+  {
+   "id": "S09",
+   "in": 89.75,
+   "out": 98.55,
+   "zoom": 1.0,
+   "text": "Jadi ibu ayah yang berminat tu, sekarang ni pun tengah musim-musim hujung bulan, banyak promotion payday,",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 102.3,
+   "out": 107.38,
+   "zoom": 1.0,
+   "text": "ibu ayah boleh tengok beg kuning, kalau harga tu ada banyak",
+   "note": "'ada macam-macam voucher lah biasanya seller buat' dropped"
+  },
+  {
+   "id": "S11",
+   "in": 108.35,
+   "out": 113.6,
+   "zoom": 1.0,
+   "text": "promotion, ada banyak voucher, boleh ambil dan boleh dapatkan",
+   "note": "'apa' dropped"
+  },
+  {
+   "id": "S12",
+   "in": 114.8,
+   "out": 119.95,
+   "zoom": 1.04,
+   "text": "liquid calcium with magnesium ni, belikan untuk anak-anak kita.",
+   "note": "CTA"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Ibu ayah, tahu tak?",
+  "lines": [
+   "Anak makin membesar,",
+   "nutrisi cukup ke?"
+  ],
+  "accent_words": [
+   "nutrisi",
+   "cukup",
+   "ke?"
+  ],
+  "to": 3.4,
+  "accent": "#FFC53D",
+  "accent2": "#FF9F1C",
+  "top": 200
+ },
+ "punch": [
+  [
+   "S12",
+   "kita.",
+   1.06
+  ]
+ ],
+ "broll": [],
+ "photos": [
+  {
+   "id": "sekolah",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "petang"
+   ],
+   "note": "AI: pagi ke sekolah"
+  },
+  {
+   "id": "main",
+   "from": [
+    "S02",
+    "petang"
+   ],
+   "to": [
+    "S02",
+    "tapi"
+   ],
+   "note": "AI: petang bermain"
+  },
+  {
+   "id": "sayur",
+   "from": [
+    "S02",
+    "tapi"
+   ],
+   "to": [
+    "S02",
+    "susu"
+   ],
+   "note": "AI: asingkan sayur"
+  },
+  {
+   "id": "susu",
+   "from": [
+    "S02",
+    "susu"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: susu tak habis"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S05",
+    "olzz"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "theme": {
+  "key": "#FFC53D",
+  "brand": "#FF9F1C"
+ },
+ "brand_words": [
+  "olzz",
+  "liquid",
+  "calcium",
+  "with",
+  "magnesium",
+  "magnesium."
+ ],
+ "keywords": [
+  "nutrisi",
+  "200mg",
+  "kalsium",
+  "magnesium,",
+  "zink,",
+  "vitamin",
+  "d3,",
+  "k",
+  "lysine.",
+  "tulang.",
+  "sachet,",
+  "4",
+  "18",
+  "tahun.",
+  "promotion",
+  "payday,",
+  "voucher,",
+  "beg",
+  "kuning,"
+ ],
+ "panel": {
+  "title": "SEMAK OLZZ",
+  "from": [
+   "S06",
+   "start"
+  ],
+  "items": [
+   {
+    "text": "200MG KALSIUM",
+    "from": [
+     "S06",
+     "start"
+    ],
+    "done": [
+     "S06",
+     "bersama"
+    ]
+   },
+   {
+    "text": "MAGNESIUM",
+    "from": [
+     "S06",
+     "bersama"
+    ],
+    "done": [
+     "S06",
+     "ada#2"
+    ]
+   },
+   {
+    "text": "ZINK D3 K",
+    "from": [
+     "S06",
+     "ada#2"
+    ],
+    "done": [
+     "S06",
+     "dan"
+    ]
+   },
+   {
+    "text": "LYSINE",
+    "from": [
+     "S06",
+     "dan"
+    ],
+    "done": [
+     "S06",
+     "end"
+    ]
+   }
+  ]
+ }
+}
