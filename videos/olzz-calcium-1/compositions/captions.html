@@ -335,6 +335,9 @@
           tl.set("#fl-1-11", { textContent: "7", color: "#8E9AA6" }, 6.0333);
           tl.set("#fl-1-11", { textContent: "P", color: "#F4F4F4" }, 6.0833);
           tl.fromTo("#fl-1-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 6.0833);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 6.5833);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 6.75);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 6.75);
           tl.set("#fl-0-1", { textContent: "T", color: "#8E9AA6" }, 6.8333);
           tl.set("#fl-0-1", { textContent: "F", color: "#8E9AA6" }, 6.8667);
           tl.set("#fl-0-1", { textContent: "8", color: "#8E9AA6" }, 6.9167);
@@ -497,6 +500,9 @@
           tl.set("#fl-0-12", { textContent: "3", color: "#8E9AA6" }, 8.5167);
           tl.set("#fl-0-12", { textContent: "G", color: "#FFC53D" }, 8.5667);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 8.5667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 8.7167);
+          tl.set("#fl-block", { x: 0, y: 570, scale: 1.0 }, 8.8833);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 8.8833);
           tl.set("#fl-1-0", { textContent: "9", color: "#8E9AA6" }, 8.9333);
           tl.set("#fl-1-0", { textContent: "V", color: "#8E9AA6" }, 8.9833);
           tl.set("#fl-1-0", { textContent: "H", color: "#8E9AA6" }, 9.0167);
