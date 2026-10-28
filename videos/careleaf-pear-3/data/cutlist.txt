@@ -1,4 +1,4 @@
-TOTAL 81.85s  (14 A-roll segments, 6 B-roll shots, 3 photos, 6 audio fx, 87 caption cards)
+TOTAL 82.40s  (14 A-roll segments, 6 B-roll shots, 3 photos, 6 audio fx, 87 caption cards)
 
   0.00-  7.68  S01  src   6.30- 14.28  (2 pc)  Musim-musim jerebu ni, nak tarik nafas pun tak selesa kan, tambah-tambah dekat luar rumah tu.
   7.68- 13.30  S02  src  15.25- 21.40  (3 pc)  Pagi-pagi kau nak hantar anak sekolah, tengok langit, dah mula kelabu,
@@ -9,11 +9,11 @@ TOTAL 81.85s  (14 A-roll segments, 6 B-roll shots, 3 photos, 6 audio fx, 87 capt
  40.35- 45.30  S07  src  74.68- 80.00  (2 pc)  Perisa buah pear dengan konsep inti yang meletup dalam mulut.
  45.30- 50.58  S08  src  82.55- 88.20  (2 pc)  Dalam lapisan layer gummies tu ada inti buah.
  50.58- 53.93  S09  src  89.20- 92.55  (1 pc)  Satu kotak berat bersih dia 80 gram.
- 53.93- 55.35  S10  src  94.75- 97.36  (2 pc)  Cuma gummies bukan
- 55.35- 61.87  S11  src  98.45-106.62  (5 pc)  pelindung utamalah, cuma untuk tambahkan kesegaran nafas, untuk bagi
- 61.87- 63.57  S12  src 106.85-108.55  (1 pc)  kita rasa lebih fresh lah.
- 63.57- 74.12  S13  src 109.40-121.30  (4 pc)  Jadi boleh dapatkan di beg kuning. Sekarang banyak voucher ada, tambah hujung bulan ni ada promosi payday dan banyak lagi,
- 74.12- 81.85  S14  src 121.35-129.90  (3 pc)  tengok dekat beg kuning, kalau ada voucher dan harga lebih murah daripada biasa, boleh grab terus produk daripada Careleaf.
+ 53.93- 55.90  S10  src  94.75- 97.92  (2 pc)  Cuma gummies bukan
+ 55.90- 62.42  S11  src  98.45-106.62  (5 pc)  pelindung utamalah, cuma untuk tambahkan kesegaran nafas, untuk bagi
+ 62.42- 64.12  S12  src 106.85-108.55  (1 pc)  kita rasa lebih fresh lah.
+ 64.12- 74.67  S13  src 109.40-121.30  (4 pc)  Jadi boleh dapatkan di beg kuning. Sekarang banyak voucher ada, tambah hujung bulan ni ada promosi payday dan banyak lagi,
+ 74.67- 82.40  S14  src 121.35-129.90  (3 pc)  tengok dekat beg kuning, kalau ada voucher dan harga lebih murah daripada biasa, boleh grab terus produk daripada Careleaf.
 
   cutaway   7.68- 13.30
   cutaway  13.30- 17.83
@@ -23,5 +23,5 @@ TOTAL 81.85s  (14 A-roll segments, 6 B-roll shots, 3 photos, 6 audio fx, 87 capt
   cutaway  40.35- 45.30
   cutaway  45.30- 50.58
   cutaway  50.58- 53.93
-  cutaway  66.58- 74.12
-  cutaway  75.02- 77.98
+  cutaway  67.13- 74.67
+  cutaway  75.57- 78.53

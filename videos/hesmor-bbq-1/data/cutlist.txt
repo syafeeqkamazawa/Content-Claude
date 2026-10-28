@@ -1,4 +1,4 @@
-TOTAL 61.42s  (16 A-roll segments, 0 B-roll shots, 4 photos, 2 audio fx, 87 caption cards)
+TOTAL 61.53s  (16 A-roll segments, 0 B-roll shots, 4 photos, 2 audio fx, 87 caption cards)
 
   0.00-  8.10  S01  src   0.00-  8.40  (3 pc)  Nak buat BBQ, tapi bila nak set up alatan semua, terus takde mood. Sebab apa? Sebab nak buat BBQ ni, banyak barang nak kena set up.
   8.10-  9.85  S02  src   8.40- 10.15  (1 pc)  Tapi korang tengok ni,
@@ -12,10 +12,10 @@ TOTAL 61.42s  (16 A-roll segments, 0 B-roll shots, 4 photos, 2 audio fx, 87 capt
  37.02- 41.72  S10  src  53.65- 60.00  (6 pc)  Lepas tu, katalah korang nak bakar sebelah je, korang boleh tutup.
  41.72- 45.47  S11  src  60.30- 64.85  (3 pc)  Dan kat sini ada corong asap. Boleh tutup, boleh buka.
  45.47- 49.52  S12  src  65.70- 70.40  (2 pc)  Kat belakang ni pun ada saluran udara pun, asap pun boleh keluar kat sini sekali.
- 49.52- 51.22  S13  src  70.60- 72.30  (1 pc)  Memang cantik, memang nice.
- 51.22- 55.08  S14  src  73.20- 78.75  (4 pc)  Lepas tu, korang boleh bawa je macam ni. Memang style.
- 55.08- 58.82  S15  src  83.20- 87.12  (2 pc)  Dan sekarang ni TikTok tengah buat promotion banyak tau. Cuba tengok dekat beg kuning.
- 58.82- 61.42  S16  src  88.70- 91.30  (1 pc)  Kalau korang tengok harga tu tengah murah, korang check out terus.
+ 49.52- 51.33  S13  src  70.60- 72.42  (1 pc)  Memang cantik, memang nice.
+ 51.33- 55.20  S14  src  73.20- 78.75  (4 pc)  Lepas tu, korang boleh bawa je macam ni. Memang style.
+ 55.20- 58.93  S15  src  83.20- 87.12  (2 pc)  Dan sekarang ni TikTok tengah buat promotion banyak tau. Cuba tengok dekat beg kuning.
+ 58.93- 61.53  S16  src  88.70- 91.30  (1 pc)  Kalau korang tengok harga tu tengah murah, korang check out terus.
 
   cutaway   4.88-  8.10
   cutaway  31.02- 34.48

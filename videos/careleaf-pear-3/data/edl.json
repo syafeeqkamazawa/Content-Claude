@@ -90,10 +90,10 @@
   {
    "id": "S10",
    "in": 94.75,
-   "out": 97.36,
+   "out": 97.92,
    "zoom": 1.0,
    "text": "Cuma gummies bukan",
-   "note": "owner's own disclaimer, 'apa' dropped"
+   "note": "owner's own disclaimer ('bukan' runs to 97.85)"
   },
   {
    "id": "S11",
@@ -427,15 +427,15 @@
    "why": "box front"
   },
   {
-   "from": 66.58,
-   "to": 74.12,
+   "from": 67.13,
+   "to": 74.67,
    "top": 150,
    "panel": false,
    "why": "opening the box"
   },
   {
-   "from": 75.02,
-   "to": 77.98,
+   "from": 75.57,
+   "to": 78.53,
    "top": 150,
    "panel": false,
    "why": "opening the box"
