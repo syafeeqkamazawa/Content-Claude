@@ -375,5 +375,13 @@
     ]
    }
   ]
- }
+ },
+ "flap_force": [
+  {
+   "from": 24.3,
+   "to": 26.5,
+   "panel": false,
+   "why": "3D product card"
+  }
+ ]
 }

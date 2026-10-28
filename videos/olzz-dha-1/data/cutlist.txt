@@ -1,0 +1,24 @@
+TOTAL 66.25s  (10 A-roll segments, 6 B-roll shots, 4 photos, 4 audio fx, 75 caption cards)
+
+  0.00-  5.82  S01  src   7.05- 13.55  (3 pc)  Pernah tak anak tiba-tiba tanya, Ibu, kenapa saya tak pandai macam kawan-kawan?
+  5.82- 15.73  S02  src  14.35- 25.45  (3 pc)  Bayangkan, malam-malam kita temankan anak buat homework. Soalan yang sama, dah ajar berkali-kali, tapi dia masih keliru.
+ 15.73- 19.58  S03  src  38.50- 42.35  (1 pc)  Yang lagi sedih, bila anak mula rasa dia tak cukup bagus.
+ 19.58- 23.03  S04  src  59.52- 62.97  (1 pc)  Sebab tu ibu ayah, penting kita jaga pemakanan anak-anak kita.
+ 23.03- 31.27  S05  src  91.47-100.37  (3 pc)  Yang ada pada saya ni, OLZZ DHA Liquid Sachet dengan DHA daripada alga, kolin dan fosfatidilserin.
+ 31.27- 36.27  S06  src 101.32-106.32  (1 pc)  DHA ialah nutrien yang sangat penting untuk perkembangan otak dan mata.
+ 36.27- 45.50  S07  src 112.67-122.17  (2 pc)  Bentuk dia sachet, mudah kita nak bawa mana-mana dan senang untuk anak-anak kita minum. Untuk umur 3 tahun hingga 18 tahun.
+ 45.50- 51.43  S08  src 128.07-134.47  (3 pc)  Ibu ayah yang nak dapatkan untuk anak-anak, boleh dapatkan di beg kuning.
+ 51.43- 59.17  S09  src 134.47-142.52  (2 pc)  Sekarang pun ada banyak promotion, lagi-lagi hujung bulan ni, ada promotion payday dan sebagainya.
+ 59.17- 66.25  S10  src 154.62-162.07  (2 pc)  Ibu ayah boleh tengok beg kuning, kalau ada banyak promosi, harga lebih murah daripada biasa, ibu ayah boleh dapatkan.
+
+  cutaway   3.77-  5.82
+  cutaway   5.82- 10.97
+  cutaway  10.97- 15.73
+  cutaway  15.73- 19.58
+  cutaway  24.30- 26.50
+  cutaway  26.50- 31.27
+  cutaway  31.27- 36.27
+  cutaway  36.27- 39.37
+  cutaway  39.37- 42.85
+  cutaway  45.50- 51.43
+  cutaway  51.43- 53.12
