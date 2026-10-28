@@ -39,7 +39,7 @@
   {
    "id": "S02",
    "in": 29.22,
-   "out": 40.15,
+   "out": 40.5,
    "zoom": 1.0,
    "text": "Kadang-kadang selimut tersentuh pun kaki rasa sakit. Orang yang kena gout je faham perasaan ni. Tengok jam, dah pukul 3 pagi, tak boleh tidur.",
    "note": ""
@@ -55,7 +55,7 @@
   {
    "id": "S04",
    "in": 59.35,
-   "out": 61.15,
+   "out": 61.38,
    "zoom": 1.0,
    "text": "tengah malam nak tidur pun tak boleh.",
    "note": ""
@@ -71,7 +71,7 @@
   {
    "id": "S06",
    "in": 63.8,
-   "out": 69.32,
+   "out": 69.55,
    "zoom": 1.0,
    "text": "Yang ada pada saya ni, salah satu alternatif untuk bantu masalah sakit gout ni.",
    "note": ""
@@ -127,7 +127,7 @@
   {
    "id": "S13",
    "in": 112.55,
-   "out": 118.45,
+   "out": 118.62,
    "zoom": 1.04,
    "text": "voucher ataupun harga tu lagi murah daripada biasa, boleh beli terus, okay, dapatkan di beg kuning.",
    "note": "CTA"
@@ -407,5 +407,19 @@
     ]
    }
   ]
- }
+ },
+ "flap_force": [
+  {
+   "from": 38.03,
+   "to": 40.27,
+   "panel": false,
+   "why": "3D product card"
+  },
+  {
+   "from": 40.27,
+   "to": 42.18,
+   "panel": false,
+   "why": "jar and cup"
+  }
+ ]
 }

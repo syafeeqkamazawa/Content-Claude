@@ -39,7 +39,7 @@
   {
    "id": "S02",
    "in": 13.62,
-   "out": 17.62,
+   "out": 17.85,
    "zoom": 1.0,
    "text": "ibu jari kaki sakit, sampai nak berjalan pun tak boleh.",
    "note": ""
@@ -47,7 +47,7 @@
   {
    "id": "S03",
    "in": 17.88,
-   "out": 27.25,
+   "out": 27.38,
    "zoom": 1.0,
    "text": "Bayangkan, anak-anak dah tunggu nak pergi sekolah, isteri pun sibuk dah bersiap, tapi kita masih terduduk dekat tepi katil menahan sakit.",
    "note": ""
@@ -63,7 +63,7 @@
   {
    "id": "S05",
    "in": 40.8,
-   "out": 46.1,
+   "out": 46.33,
    "zoom": 1.0,
    "text": "Sebab tu masalah gout ni jangan ambil ringan, jaga makanan, cukupkan air,",
    "note": ""
@@ -103,7 +103,7 @@
   {
    "id": "S10",
    "in": 92.42,
-   "out": 98.4,
+   "out": 98.55,
    "zoom": 1.0,
    "text": "Sebagai alternatif ikhtiar untuk mereka yang ada masalah sakit gout, insyaAllah.",
    "note": "owner 27 Oct: keep the ikhtiar framing"
@@ -272,7 +272,7 @@
    "id": "katil",
    "from": [
     "S03",
-    "tapi"
+    "start"
    ],
    "to": [
     "S03",
@@ -399,5 +399,19 @@
     ]
    }
   ]
- }
+ },
+ "flap_force": [
+  {
+   "from": 33.72,
+   "to": 36.75,
+   "panel": false,
+   "why": "3D product card"
+  },
+  {
+   "from": 44.0,
+   "to": 45.68,
+   "panel": false,
+   "why": "jar held"
+  }
+ ]
 }
