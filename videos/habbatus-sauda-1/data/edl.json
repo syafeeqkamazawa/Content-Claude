@@ -1,0 +1,312 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "29 Okt: 'Ada video baru di folder minyak Habbatus Sauda Al Khair, buatkan 1 video, bahagian unboxing tu lajukan dan sesuaikan untuk dijadikan video affiliate. Pastikan ambil juga video cara guna minyak supaya lengkap sebagai 1 video panduan sampai cta beg kuning'. 28 Okt: opening = one premium motion-text hook, no transition effect. 26 Okt: brief premium (no invented claims).",
+ "_note": "Minyak Habbatus Sauda Al Khair #1 — clips from Drive folder 1FAVuabQ… 'Claude' (29 Oct). assets/a.mp4 = VID_20261028_235042 0-70 (talk + start of unboxing) + VID_20261029_001541 0-170 (cara guna) at +70 s; rear camera, not mirrored; audio already clean (-12.5 LUFS). assets/b.mp4 = fast-forward unboxing, muted: VID_20261028_235042 13.5-58 at 18x (0-2.47) + VID_20261029_001227 (8.6 min of unwrapping and lining up the bottles; audio is background chatter) at 150x (2.47-5.91); it runs over S02 and S02b (a 235042 24-28.5, quiet). Kept the owner's guide: 2x a day (before breakfast, before sleep), 1 pump ≈ 14 drops, hold in the mouth then swallow, drink plenty of water. Dropped: health/sunnah lines the owner did not state clearly, 'semua lapisan umur', 'elakkan … batuk', 'jangan terus tidur'. Promo 'beli 7 dapat extra 3' is the owner's own line.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 1.8,
+   "out": 9.95,
+   "zoom": 1.0,
+   "text": "Al Khair tengah buat promo. Beli tujuh, dapat extra tiga. Total sepuluh.",
+   "note": "HOOK — owner's own promo line"
+  },
+  {
+   "id": "S02",
+   "in": 12.2,
+   "out": 16.45,
+   "zoom": 1.0,
+   "text": "Apa benda ni? Jom kita tengok.",
+   "note": "unboxing starts (fast-forward over the rest)"
+  },
+  {
+   "id": "S02b",
+   "in": 24.0,
+   "out": 28.5,
+   "zoom": 1.0,
+   "text": "",
+   "note": "quiet unboxing under the fast-forward overlay, played uncut",
+   "keep_pauses": true
+  },
+  {
+   "id": "S03",
+   "in": 62.4,
+   "out": 69.1,
+   "zoom": 1.0,
+   "text": "Masya Allah. Minyak Habbatus Sauda keluaran Al Khair.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 84.45,
+   "out": 96.1,
+   "zoom": 1.0,
+   "text": "Dan juga jangan lupa cara penggunaan dia, satu hari dua kali. Satu kali sebelum sarapan, satu lagi sebelum tidur.",
+   "note": "001541 14.45-26.10 (two 'Dan juga' false starts dropped)"
+  },
+  {
+   "id": "S05",
+   "in": 96.4,
+   "out": 102.25,
+   "zoom": 1.0,
+   "text": "Okey, berapa banyak sukatan dia? Sukatan dia dah satu pump. Satu pump ni sekitar 14 titik.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 106.2,
+   "out": 110.4,
+   "zoom": 1.0,
+   "text": "Buka, kita picit je satu kali, kemudian kita angkat.",
+   "note": "demo of one pump"
+  },
+  {
+   "id": "S07",
+   "in": 110.9,
+   "out": 118.65,
+   "zoom": 1.0,
+   "text": "Kalau nampak banyak macam ni, ni dah lebih lah satu pump. Biasanya separuh daripada yang ada ni.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 145.2,
+   "out": 149.85,
+   "zoom": 1.0,
+   "text": "Sekarang ni dah pukul 12 malam, okey itu kita boleh ambil lah.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 151.4,
+   "out": 157.6,
+   "zoom": 1.0,
+   "text": "Bismillahirrahmanirrahim.",
+   "note": "demo: dropper into the mouth, played uncut",
+   "keep_pauses": true
+  },
+  {
+   "id": "S10",
+   "in": 163.2,
+   "out": 165.5,
+   "zoom": 1.0,
+   "text": "Jangan telan lagi. Okey, kemam dulu.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 174.0,
+   "out": 180.9,
+   "zoom": 1.0,
+   "text": "Memang kita akan rasa lah, rasa Habbatus Sauda tu. Tapi jangan risau, kita kemam. Jangan telan lagi.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 183.4,
+   "out": 186.65,
+   "zoom": 1.0,
+   "text": "Baru telan. Lepas tu jangan lupa minum air banyak.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 188.9,
+   "out": 190.45,
+   "zoom": 1.0,
+   "text": "Minum air sebanyak yang boleh.",
+   "note": "'supaya … batuk dan sebagainya' dropped"
+  },
+  {
+   "id": "S14",
+   "in": 202.5,
+   "out": 209.1,
+   "zoom": 1.0,
+   "text": "Minum air masak boleh, air buah ke. Tapi balas, balas balik dengan air.",
+   "note": "pink cup demo"
+  },
+  {
+   "id": "S15",
+   "in": 226.6,
+   "out": 235.95,
+   "zoom": 1.04,
+   "text": "Selamat beramal insyaAllah. Minyak Habbatus Sauda daripada Al Khair, insyaAllah boleh beli di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Minyak Habbatus Sauda",
+  "lines": [
+   "Beli 7, dapat",
+   "extra 3!"
+  ],
+  "accent_words": [
+   "extra",
+   "3!"
+  ],
+  "to": 3.4,
+  "accent": "#F2C45A",
+  "accent2": "#E8963A",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S15",
+   "beg",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "FF",
+   "from": [
+    "S02",
+    "jom"
+   ],
+   "to": [
+    "S02b",
+    "end"
+   ],
+   "src": 0.0,
+   "note": "unboxing, fast-forward",
+   "push": [
+    1.0,
+    1.04
+   ],
+   "origin": "50% 50%",
+   "ff": "UNBOXING DILAJUKAN"
+  }
+ ],
+ "photos": [
+  {
+   "id": "sarapan",
+   "from": [
+    "S04",
+    "satu#2"
+   ],
+   "to": [
+    "S04",
+    "satu#3"
+   ],
+   "note": "AI: sarapan pagi"
+  },
+  {
+   "id": "tidur",
+   "from": [
+    "S04",
+    "satu#3"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: bilik tidur waktu malam"
+  }
+ ],
+ "theme": {
+  "key": "#F2C45A",
+  "brand": "#9FD08A"
+ },
+ "brand_words": [
+  "al",
+  "khair.",
+  "khair,",
+  "khair",
+  "habbatus",
+  "sauda",
+  "sauda."
+ ],
+ "keywords": [
+  "promo.",
+  "tujuh,",
+  "tiga.",
+  "sepuluh.",
+  "minyak",
+  "dua",
+  "kali.",
+  "sarapan,",
+  "tidur.",
+  "sukatan",
+  "pump.",
+  "14",
+  "titik.",
+  "picit",
+  "satu",
+  "kali,",
+  "separuh",
+  "telan",
+  "kemam",
+  "kemam.",
+  "minum",
+  "air",
+  "banyak.",
+  "beg",
+  "kuning."
+ ],
+ "panel": {
+  "title": "CARA GUNA",
+  "from": [
+   "S04",
+   "satu"
+  ],
+  "items": [
+   {
+    "text": "2 KALI SEHARI",
+    "from": [
+     "S04",
+     "satu"
+    ],
+    "done": [
+     "S04",
+     "end"
+    ]
+   },
+   {
+    "text": "1 PAM = ±14 TITIK",
+    "from": [
+     "S05",
+     "sukatan#2"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   },
+   {
+    "text": "KEMAM DULU",
+    "from": [
+     "S10",
+     "kemam"
+    ],
+    "done": [
+     "S11",
+     "end"
+    ]
+   },
+   {
+    "text": "MINUM AIR",
+    "from": [
+     "S12",
+     "minum"
+    ],
+    "done": [
+     "S14",
+     "end"
+    ]
+   }
+  ]
+ },
+ "flap_force": []
+}

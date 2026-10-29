@@ -1,0 +1,22 @@
+TOTAL 79.32s  (16 A-roll segments, 1 B-roll shots, 2 photos, 2 audio fx, 90 caption cards)
+
+  0.00-  6.48  S01  src   1.80-  9.95  (6 pc)  Al Khair tengah buat promo. Beli tujuh, dapat extra tiga. Total sepuluh.
+  6.48-  9.17  S02  src  12.20- 16.45  (3 pc)  Apa benda ni? Jom kita tengok.
+  9.17- 13.67  S02b  src  24.00- 28.50  (1 pc)  
+ 13.67- 19.00  S03  src  62.40- 69.10  (3 pc)  Masya Allah. Minyak Habbatus Sauda keluaran Al Khair.
+ 19.00- 29.00  S04  src  84.45- 96.10  (4 pc)  Dan juga jangan lupa cara penggunaan dia, satu hari dua kali. Satu kali sebelum sarapan, satu lagi sebelum tidur.
+ 29.00- 34.57  S05  src  96.40-102.25  (2 pc)  Okey, berapa banyak sukatan dia? Sukatan dia dah satu pump. Satu pump ni sekitar 14 titik.
+ 34.57- 37.90  S06  src 106.20-110.40  (3 pc)  Buka, kita picit je satu kali, kemudian kita angkat.
+ 37.90- 44.82  S07  src 110.90-118.65  (4 pc)  Kalau nampak banyak macam ni, ni dah lebih lah satu pump. Biasanya separuh daripada yang ada ni.
+ 44.82- 48.63  S08  src 145.20-149.85  (3 pc)  Sekarang ni dah pukul 12 malam, okey itu kita boleh ambil lah.
+ 48.63- 54.83  S09  src 151.40-157.60  (1 pc)  Bismillahirrahmanirrahim.
+ 54.83- 56.98  S10  src 163.20-165.50  (2 pc)  Jangan telan lagi. Okey, kemam dulu.
+ 56.98- 62.23  S11  src 174.00-180.90  (4 pc)  Memang kita akan rasa lah, rasa Habbatus Sauda tu. Tapi jangan risau, kita kemam. Jangan telan lagi.
+ 62.23- 65.22  S12  src 183.40-186.65  (2 pc)  Baru telan. Lepas tu jangan lupa minum air banyak.
+ 65.22- 66.77  S13  src 188.90-190.45  (1 pc)  Minum air sebanyak yang boleh.
+ 66.77- 72.28  S14  src 202.50-209.10  (3 pc)  Minum air masak boleh, air buah ke. Tapi balas, balas balik dengan air.
+ 72.28- 79.32  S15  src 226.60-235.95  (4 pc)  Selamat beramal insyaAllah. Minyak Habbatus Sauda daripada Al Khair, insyaAllah boleh beli di beg kuning.
+
+  cutaway   7.78- 13.67
+  cutaway  23.93- 26.42
+  cutaway  26.42- 29.00

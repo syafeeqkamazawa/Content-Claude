@@ -1,3 +1,4 @@
+# Large media stays out of git (source footage lives on Google Drive).
 src/
 assets/a.mp4
 assets/b.mp4
@@ -5,3 +6,16 @@ renders/
 snapshots/
 .hyperframes/
 node_modules/
+.media/images/
+.media/audio/
+.media/gen.log
+data/a-rms.json
+tools/__pycache__/
+.media/flap-masks/
+.media/flap_place.log
+.media/flap-frames/
+.media/*.png
+.media/gen-map.txt
+assets/products/*-cut.png
+.media/sheet/
+.media/lbl*.jpg
