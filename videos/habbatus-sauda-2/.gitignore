@@ -19,3 +19,4 @@ tools/__pycache__/
 assets/products/*-cut.png
 .media/sheet/
 .media/lbl*.jpg
+.media/snapcheck*.jpg
