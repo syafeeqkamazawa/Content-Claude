@@ -25,17 +25,17 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-sarapan" class="clip fs" data-start="23.9333" data-duration="2.483" data-track-index="4"><div class="fs-in" id="fs-sarapan-in"><div class="fs-layer" id="fs-sarapan-bg" style="background-image:url(assets/photos/sarapan-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-sarapan-fg" style="background-image:url(assets/photos/sarapan-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-tidur" class="clip fs" data-start="26.4167" data-duration="2.583" data-track-index="4"><div class="fs-in" id="fs-tidur-in"><div class="fs-layer" id="fs-tidur-bg" style="background-image:url(assets/photos/tidur.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-sarapan" class="clip fs" data-start="24.4333" data-duration="2.483" data-track-index="4"><div class="fs-in" id="fs-sarapan-in"><div class="fs-layer" id="fs-sarapan-bg" style="background-image:url(assets/photos/sarapan-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-sarapan-fg" style="background-image:url(assets/photos/sarapan-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-tidur" class="clip fs" data-start="26.9167" data-duration="2.583" data-track-index="4"><div class="fs-in" id="fs-tidur-in"><div class="fs-layer" id="fs-tidur-bg" style="background-image:url(assets/photos/tidur.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.fromTo("#fs-sarapan-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 23.9333);
-          tl.fromTo("#fs-sarapan-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.4833, ease: "none", immediateRender: false }, 23.9333);
-          tl.fromTo("#fs-sarapan-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.4833, ease: "sine.inOut", immediateRender: false }, 23.9333);
-          tl.fromTo("#fs-tidur-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 26.4167);
-          tl.fromTo("#fs-tidur-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.5833, ease: "sine.inOut", immediateRender: false }, 26.4167);
+          tl.fromTo("#fs-sarapan-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 24.4333);
+          tl.fromTo("#fs-sarapan-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.4833, ease: "none", immediateRender: false }, 24.4333);
+          tl.fromTo("#fs-sarapan-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.4833, ease: "sine.inOut", immediateRender: false }, 24.4333);
+          tl.fromTo("#fs-tidur-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 26.9167);
+          tl.fromTo("#fs-tidur-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.5833, ease: "sine.inOut", immediateRender: false }, 26.9167);
           window.__timelines["visuals"] = tl;
         })();
       </script>

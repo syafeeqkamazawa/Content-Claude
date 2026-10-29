@@ -1,0 +1,25 @@
+TOTAL 64.37s  (15 A-roll segments, 5 B-roll shots, 1 photos, 8 audio fx, 69 caption cards)
+
+  0.00-  2.20  S01  src   8.40- 10.60  (1 pc)  Badan dah penat seharian bekerja.
+  2.20- 11.65  S02  src  16.30- 27.45  (4 pc)  Kalau badan dah seharian penat bekerja, ni ada satu supplement untuk
+ 11.65- 13.15  S03  src  39.30- 40.80  (1 pc)  bantu rehatkan badan.
+ 13.15- 16.80  S04  src  44.70- 48.85  (2 pc)  So ni daripada Pentavite.
+ 16.80- 27.17  S05  src  49.40- 60.35  (3 pc)  Okey, dia punya yang berkandungan yang paling utama ialah magnesium. So dia magnesium ni, dia bantu untuk rehatkan badan.
+ 27.17- 29.27  S06  src  80.70- 82.80  (1 pc)  Dia bentuk gummies. Dia bukan pil.
+ 29.27- 39.30  S07  src  88.90-100.10  (4 pc)  Dia ada mix blueberry, ada rasa lemon, ada lavender oil dicampur. Tapi bahan utama dia tu magnesium lah. Okey, vitamin B6 pun ada.
+ 39.30- 42.60  S08  src 100.80-104.10  (1 pc)  Dia punya flavour tu, strawberry flavour.
+ 42.60- 44.25  S09  src 121.85-123.50  (1 pc)  Satu kotak ni ada 30 gummies.
+ 44.25- 46.68  S10  src 124.85-128.00  (2 pc)  Jom kita tengok sama-sama. Ada bentuk dia.
+ 46.68- 48.58  S11  src 131.35-134.15  (2 pc)  Mg. Mg. Magnesium.
+ 48.58- 52.50  S12  src 145.50-149.62  (2 pc)  Cantik comel je. Dia tak melekit. Dia kering je.
+ 52.50- 55.48  S13  src 149.62-152.60  (1 pc)  Bismillah.
+ 55.48- 62.27  S14  src 153.15-162.70  (4 pc)  Rasa dia macam campur. Rasa lemon, masam-masam. Rasa beri, manis. Masam-masam manis.
+ 62.27- 64.37  S15  src 202.90-205.55  (2 pc)  Yang berminat, boleh tekan beg kuning.
+
+  cutaway   2.20-  7.55
+  cutaway  14.23- 16.80
+  cutaway  21.85- 27.17
+  cutaway  29.27- 34.20
+  cutaway  37.78- 39.30
+  cutaway  42.60- 44.25
+  cutaway  48.58- 52.50

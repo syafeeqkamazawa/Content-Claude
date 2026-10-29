@@ -150,7 +150,8 @@ def pieces_of(t_in, t_out):
 segs, cursor_f = [], 0
 for s in EDL["segments"]:
     seg = dict(s, start=fr(cursor_f), pieces=[])
-    for a, b in pieces_of(s["in"], s["out"]):
+    # A demo segment ("keep_pauses") plays uncut: its silent action is the point.
+    for a, b in ([(s["in"], s["out"])] if s.get("keep_pauses") else pieces_of(s["in"], s["out"])):
         n = round((b - a) * FPS)
         seg["pieces"].append({"in": a, "start": fr(cursor_f), "dur": fr_dur(n), "len": n / FPS})
         cursor_f += n
@@ -693,8 +694,8 @@ html, body {{ width: {W}px; height: {H}px; overflow: hidden; background: #1c0f06
 .push {{ position: absolute; inset: 0; transform-origin: 50% 40%; }}
 .hook-flash {{ position: absolute; inset: 0; background: #fff; opacity: 0; pointer-events: none; }}
 .ff {{ position: absolute; inset: 0; pointer-events: none; }}
-.ff-tag {{ position: absolute; right: 48px; top: 200px; font-family: "Archivo Black"; font-size: 46px; letter-spacing: 2px; color: {ACCENT};
-  background: rgba(20,32,90,.82); padding: 10px 24px; border-radius: 12px; border: 3px solid {ACCENT}; transform-origin: 100% 50%; }}
+.ff-tag {{ position: absolute; right: 48px; top: 1560px; font-family: "Plus Jakarta Sans"; font-weight: 800; font-size: 46px; letter-spacing: 2px; color: {ACCENT};
+  background: rgba(14,12,10,.78); padding: 10px 24px; border-radius: 12px; border: 3px solid {ACCENT}; transform-origin: 100% 50%; }}
 .ff-bar {{ position: absolute; left: 0; right: 0; bottom: 0; height: 14px; background: rgba(0,0,0,.35); }}
 .ff-fill {{ width: 100%; height: 100%; background: {ACCENT}; transform-origin: 0% 50%; }}
 """

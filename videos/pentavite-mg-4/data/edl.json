@@ -1,0 +1,370 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "29 Okt: 'Pentavite magnesium gummies ada juga kan, buat sekali' (clips from Drive folder 1FAVuabQ… 'Claude'). 28 Okt: opening = one premium motion-text hook, no transition effect. 26 Okt: brief premium (no invented claims).",
+ "_note": "Pentavite Magnesium Gummies #4 — A-roll assets/a.mp4 = VID_20261028_232324 (front camera saved mirrored — box reads backwards — flipped back in CSS; audio already clean). B-roll assets/b.mp4 = VID_20261004_001105 (also in #3; picks avoid #3's 0.3, 82.5, 90, 104, 168). Box label: Magnesium 115 mg, Vitamin B6 1.2 mg per serving, mixed blueberry with lemon balm extract & lavender oil gummies, strawberry flavour, 3.5 g x 30 gummies. Kept the owner's 'bantu rehatkan badan'; dropped his hearsay 'fikiran jadi lebih tenteram', the dose line ('satu hari satu' — label dose not checked), 'trusted brand'. Card: box front from #3.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 8.4,
+   "out": 10.6,
+   "zoom": 1.0,
+   "text": "Badan dah penat seharian bekerja.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 16.3,
+   "out": 27.45,
+   "zoom": 1.0,
+   "text": "Kalau badan dah seharian penat bekerja, ni ada satu supplement untuk",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 39.3,
+   "out": 40.8,
+   "zoom": 1.0,
+   "text": "bantu rehatkan badan.",
+   "note": "second, clean take (the first is drawn out over 28-39)"
+  },
+  {
+   "id": "S04",
+   "in": 44.7,
+   "out": 48.85,
+   "zoom": 1.0,
+   "text": "So ni daripada Pentavite.",
+   "note": "'Bekerja seharian kan penat' repeat dropped"
+  },
+  {
+   "id": "S05",
+   "in": 49.4,
+   "out": 60.35,
+   "zoom": 1.0,
+   "text": "Okey, dia punya yang berkandungan yang paling utama ialah magnesium. So dia magnesium ni, dia bantu untuk rehatkan badan.",
+   "note": "'orang kata … fikiran tenteram' (hearsay) dropped"
+  },
+  {
+   "id": "S06",
+   "in": 80.7,
+   "out": 82.8,
+   "zoom": 1.0,
+   "text": "Dia bentuk gummies. Dia bukan pil.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 88.9,
+   "out": 100.1,
+   "zoom": 1.0,
+   "text": "Dia ada mix blueberry, ada rasa lemon, ada lavender oil dicampur. Tapi bahan utama dia tu magnesium lah. Okey, vitamin B6 pun ada.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 100.8,
+   "out": 104.1,
+   "zoom": 1.0,
+   "text": "Dia punya flavour tu, strawberry flavour.",
+   "note": "'memang sangat membantu-membantu' dropped"
+  },
+  {
+   "id": "S09",
+   "in": 121.85,
+   "out": 123.5,
+   "zoom": 1.0,
+   "text": "Satu kotak ni ada 30 gummies.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 124.85,
+   "out": 128.0,
+   "zoom": 1.0,
+   "text": "Jom kita tengok sama-sama. Ada bentuk dia.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 131.35,
+   "out": 134.15,
+   "zoom": 1.0,
+   "text": "Mg. Mg. Magnesium.",
+   "note": "gummy shaped Mg"
+  },
+  {
+   "id": "S12",
+   "in": 145.5,
+   "out": 149.62,
+   "zoom": 1.0,
+   "text": "Cantik comel je. Dia tak melekit. Dia kering je.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 149.62,
+   "out": 152.6,
+   "zoom": 1.0,
+   "text": "Bismillah.",
+   "note": "eating the gummy, played uncut",
+   "keep_pauses": true
+  },
+  {
+   "id": "S14",
+   "in": 153.15,
+   "out": 162.7,
+   "zoom": 1.0,
+   "text": "Rasa dia macam campur. Rasa lemon, masam-masam. Rasa beri, manis. Masam-masam manis.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 202.9,
+   "out": 205.55,
+   "zoom": 1.04,
+   "text": "Yang berminat, boleh tekan beg kuning.",
+   "note": "CTA (dose line 187-200 and 'trusted brand' line dropped)"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Pentavite Magnesium Gummies",
+  "lines": [
+   "Penat seharian",
+   "bekerja?"
+  ],
+  "accent_words": [
+   "bekerja?"
+  ],
+  "to": 3.4,
+  "accent": "#B9A8FF",
+  "accent2": "#F2C45A",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S15",
+   "beg",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S05",
+    "magnesium"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 42.0,
+   "note": "001105: kotak depan (Mg)",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "tapi"
+   ],
+   "src": 93.0,
+   "note": "001105: kotak dibuka, sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S07",
+    "vitamin"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 54.0,
+   "note": "001105: kotak depan (Magnesium, B6)",
+   "push": [
+    1.0,
+    1.1
+   ],
+   "origin": "45% 60%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 135.0,
+   "note": "001105: kotak penuh sachet",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 172.0,
+   "note": "001105: gummy di tapak tangan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "penat",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "ni"
+   ],
+   "note": "AI: penat selepas kerja"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S04",
+    "daripada"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "theme": {
+  "key": "#F2C45A",
+  "brand": "#B9A8FF"
+ },
+ "brand_words": [
+  "pentavite.",
+  "pentavite"
+ ],
+ "keywords": [
+  "penat",
+  "bekerja.",
+  "bekerja,",
+  "supplement",
+  "rehatkan",
+  "badan.",
+  "magnesium.",
+  "gummies.",
+  "pil.",
+  "blueberry,",
+  "lemon,",
+  "lavender",
+  "magnesium",
+  "b6",
+  "strawberry",
+  "30",
+  "gummies.",
+  "comel",
+  "melekit.",
+  "kering",
+  "masam-masam",
+  "manis.",
+  "beg",
+  "kuning."
+ ],
+ "panel": {
+  "title": "SEMAK PENTAVITE",
+  "from": [
+   "S05",
+   "magnesium"
+  ],
+  "items": [
+   {
+    "text": "MAGNESIUM",
+    "from": [
+     "S05",
+     "magnesium"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   },
+   {
+    "text": "BENTUK GUMMY",
+    "from": [
+     "S06",
+     "start"
+    ],
+    "done": [
+     "S06",
+     "end"
+    ]
+   },
+   {
+    "text": "VITAMIN B6",
+    "from": [
+     "S07",
+     "vitamin"
+    ],
+    "done": [
+     "S07",
+     "end"
+    ]
+   },
+   {
+    "text": "30 GUMMIES",
+    "from": [
+     "S09",
+     "start"
+    ],
+    "done": [
+     "S09",
+     "end"
+    ]
+   }
+  ]
+ },
+ "flap_force": []
+}
