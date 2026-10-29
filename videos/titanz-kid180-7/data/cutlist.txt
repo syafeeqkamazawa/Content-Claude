@@ -1,0 +1,21 @@
+TOTAL 56.28s  (8 A-roll segments, 6 B-roll shots, 3 photos, 8 audio fx, 61 caption cards)
+
+  0.00-  8.53  S01  src   6.90- 17.15  (5 pc)  Kid180 tablet ni, anak saya dah start makan tanpa saya suruh, sebab memang sedap.
+  8.53- 14.83  S02  src  19.00- 26.05  (2 pc)  Dia macam vitamin lah, vitamin. Cuma yang lebih best, vitamin ni dia untuk backup.
+ 14.83- 23.83  S03  src  30.70- 40.60  (4 pc)  Biasanya kan anak-anak ni kan dia tak suka makan sayur. Sayur susah nak makan, benda-benda yang berkhasiat ni kan lambat. Kalau bagi jajan, laju.
+ 23.83- 31.13  S04  src  48.80- 56.80  (4 pc)  Anak-anak saya memang saya tak suruh lah. Memang dia akan tanya, abah nak makan vitamin boleh? So kita bagilah.
+ 31.13- 36.33  S05  src  62.70- 68.40  (2 pc)  So dalam satu botol ni ada 60 tablet.
+ 36.33- 44.58  S06  src  70.90- 79.70  (2 pc)  Jadi orang kata, sekurang-kurangnya nutrisi anak kita tu cukup lah dalam proses nak membesar tu kan.
+ 44.58- 52.27  S07  src  88.80- 97.98  (5 pc)  So daripada kecil lagi kita kena bantu, sokong nutrisi dia orang dengan pengambilan suplemen.
+ 52.27- 56.28  S08  src 100.70-105.10  (2 pc)  Ibu ayah yang berminat boleh tekan beg kuning tu sekarang.
+
+  cutaway   4.35-  8.53
+  cutaway  11.13- 14.83
+  cutaway  14.83- 22.10
+  cutaway  22.10- 23.83
+  cutaway  26.13- 31.13
+  cutaway  32.10- 34.55
+  cutaway  34.55- 36.33
+  cutaway  39.47- 44.58
+  cutaway  48.28- 52.27
+  cutaway  54.10- 56.28

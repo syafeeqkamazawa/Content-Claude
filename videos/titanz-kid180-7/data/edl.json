@@ -1,0 +1,345 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "29 Okt: 'Buat video untuk kid180 juga dari folder video hari ini' (clips sent via OneDrive after Drive quota block). 28 Okt: permulaan tanpa transition effect — satu hook text motion premium ikut tema produk. 26 Okt: brief premium (no invented claims).",
+ "_note": "Tiny Titanz Kid180 Tablet #7 — owner's OneDrive folder 'Claude' (29 Oct; same clips as Drive 'Video hari ini'). A-roll assets/a.mp4 = VID_20261028_233141 (front camera saved mirrored — label reads backwards — flipped back in CSS; audio already clean, -12.9 LUFS). B-roll pool assets/b.mp4 (1080x1920, 60 fps, muted) = VID_20261014_153413 0-43.33 (box, bottle, tablets in palm) + VID_20260908_140338 43.33-87.0 (tablets poured into the cap) + VID_20260827_170307 87.0-131.2 (kids taking a tablet; only 89-93 is used, zoomed to the hands — the rest shows the kids' bare feet). Dropped: dose line (two tablets a day — label not on hand, as in #4/#6), 'sampai umur 21' claim, unclear 'seimbangkan' line. Card: Kid180 box front (same still as #4-#6). No promo or price mentioned — CTA is the owner's 'tekan beg kuning sekarang'.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 6.9,
+   "out": 17.15,
+   "zoom": 1.0,
+   "text": "Kid180 tablet ni, anak saya dah start makan tanpa saya suruh, sebab memang sedap.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 19.0,
+   "out": 26.05,
+   "zoom": 1.0,
+   "text": "Dia macam vitamin lah, vitamin. Cuma yang lebih best, vitamin ni dia untuk backup.",
+   "note": "'untuk cover contoh biasa' dropped"
+  },
+  {
+   "id": "S03",
+   "in": 30.7,
+   "out": 40.6,
+   "zoom": 1.0,
+   "text": "Biasanya kan anak-anak ni kan dia tak suka makan sayur. Sayur susah nak makan, benda-benda yang berkhasiat ni kan lambat. Kalau bagi jajan, laju.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 48.8,
+   "out": 56.8,
+   "zoom": 1.0,
+   "text": "Anak-anak saya memang saya tak suruh lah. Memang dia akan tanya, abah nak makan vitamin boleh? So kita bagilah.",
+   "note": "41-48.7 ('nak bagi balance … seimbangkan') unclear, dropped"
+  },
+  {
+   "id": "S05",
+   "in": 62.7,
+   "out": 68.4,
+   "zoom": 1.0,
+   "text": "So dalam satu botol ni ada 60 tablet.",
+   "note": "dose line 57-62 dropped (label dose not on hand); repeat at 68.5 dropped"
+  },
+  {
+   "id": "S06",
+   "in": 70.9,
+   "out": 79.7,
+   "zoom": 1.0,
+   "text": "Jadi orang kata, sekurang-kurangnya nutrisi anak kita tu cukup lah dalam proses nak membesar tu kan.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 88.8,
+   "out": 97.98,
+   "zoom": 1.0,
+   "text": "So daripada kecil lagi kita kena bantu, sokong nutrisi dia orang dengan pengambilan suplemen.",
+   "note": "'membesar sampai umur 21, fasa tu panjang' dropped (unchecked claim)"
+  },
+  {
+   "id": "S08",
+   "in": 100.7,
+   "out": 105.1,
+   "zoom": 1.04,
+   "text": "Ibu ayah yang berminat boleh tekan beg kuning tu sekarang.",
+   "note": "CTA ('Okey' and the unclear 'ni kena-kenalah Kid180' dropped)"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Tiny Titanz Kid180",
+  "lines": [
+   "Anak makan sendiri,",
+   "tanpa disuruh!"
+  ],
+  "accent_words": [
+   "tanpa",
+   "disuruh!"
+  ],
+  "to": 3.4,
+  "accent": "#FFC93C",
+  "accent2": "#7DDB6B",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S08",
+   "tekan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S01",
+    "tanpa"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "src": 89.0,
+   "note": "0827: tablet ke tapak tangan anak (zoomed to the hands, no feet in frame)",
+   "push": [
+    1.28,
+    1.34
+   ],
+   "origin": "50% 22%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S02",
+    "cuma"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 18.0,
+   "note": "153413: botol Kid180",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S04",
+    "memang#2"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 28.0,
+   "note": "153413: buka botol",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S05",
+    "60"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 74.0,
+   "note": "0908: tablet dituang ke penutup",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S07",
+    "sokong"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 34.0,
+   "note": "153413: tablet di tapak tangan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S08",
+    "tekan"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 4.0,
+   "note": "153413: kotak depan",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "sayur",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "kalau"
+   ],
+   "note": "AI: anak tolak sayur"
+  },
+  {
+   "id": "jajan",
+   "from": [
+    "S03",
+    "kalau"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: anak capai jajan"
+  },
+  {
+   "id": "membesar",
+   "from": [
+    "S06",
+    "nutrisi"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: ibu ukur tinggi anak"
+  }
+ ],
+ "cards": [
+  {
+   "id": "kotak",
+   "from": [
+    "S05",
+    "satu"
+   ],
+   "to": [
+    "S05",
+    "60"
+   ],
+   "img": "assets/products/kotak.png",
+   "bg": "assets/products/kotak-bg.jpg"
+  }
+ ],
+ "theme": {
+  "key": "#FFC93C",
+  "brand": "#7DDB6B"
+ },
+ "brand_words": [
+  "titanz",
+  "kid180",
+  "kid180."
+ ],
+ "keywords": [
+  "tanpa",
+  "suruh,",
+  "sedap.",
+  "vitamin",
+  "backup.",
+  "sayur.",
+  "sayur",
+  "berkhasiat",
+  "lambat.",
+  "jajan,",
+  "laju.",
+  "vitamin",
+  "bagilah.",
+  "60",
+  "tablet.",
+  "nutrisi",
+  "cukup",
+  "membesar",
+  "kecil",
+  "sokong",
+  "suplemen.",
+  "beg",
+  "kuning"
+ ],
+ "panel": {
+  "title": "SEMAK KID180",
+  "from": [
+   "S05",
+   "satu"
+  ],
+  "items": [
+   {
+    "text": "60 TABLET SEBOTOL",
+    "from": [
+     "S05",
+     "satu"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   },
+   {
+    "text": "NUTRISI CUKUP",
+    "from": [
+     "S06",
+     "nutrisi"
+    ],
+    "done": [
+     "S06",
+     "end"
+    ]
+   },
+   {
+    "text": "SOKONG DARI KECIL",
+    "from": [
+     "S07",
+     "daripada"
+    ],
+    "done": [
+     "S07",
+     "end"
+    ]
+   }
+  ]
+ },
+ "flap_force": []
+}
