@@ -1,0 +1,236 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "29 Okt: 'Buat video Habbatus Sauda #2' — the unused part (70-180 s) of VID_20261028_235042 (re-uploaded, Drive 14hxxg4e…), with fast-forward unboxing, cara guna and CTA beg kuning. 28 Okt: opening = one premium motion-text hook, no transition effect. 26 Okt: brief premium (no invented claims).",
+ "_note": "Minyak Habbatus Sauda Al Khair #2 — assets/a.mp4 = VID_20261028_235042 (rear camera, not mirrored). #1 used 0-70 of this clip plus VID_20261029_001541; #2 uses 70-180 (the owner's own cara guna: 2 pumps a day, before breakfast / before sleep, half a dropper ≈ 14 drops, hold in the mouth until the taste fades, then swallow; swallowing straight away can tickle the throat). assets/b.mp4 = the same clip's unboxing 16-60 at 6x (7.33 s), muted, over a quiet slot (a 30-37.3). Dropped: morning-routine ramble, 'semua lapisan umur', 'ada kejayaan / kelebihan' lines.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 70.3,
+   "out": 79.75,
+   "zoom": 1.0,
+   "text": "Cara dia mudah sahaja. Satu hari dua pump. Okay, sebelum sarapan dengan sebelum tidur.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 30.0,
+   "out": 37.3,
+   "zoom": 1.0,
+   "text": "",
+   "note": "quiet unboxing under the fast-forward overlay, played uncut",
+   "keep_pauses": true
+  },
+  {
+   "id": "S03",
+   "in": 92.2,
+   "out": 101.4,
+   "zoom": 1.0,
+   "text": "Ambil satu sebelum sarapan tu, ataupun bawa. Sarapan dekat warung, kedai, restoran ke kan, tak balik rumah, bawa.",
+   "note": "'Pagi tu kan … lelaki lah' (79.9-91) ramble dropped"
+  },
+  {
+   "id": "S04",
+   "in": 101.9,
+   "out": 110.95,
+   "zoom": 1.0,
+   "text": "So sebelum start sarapan tu, ambil satu pump. Satu pump ni biasanya setengah macam tu. Ni satu pump. Nampak? Setengah.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 111.6,
+   "out": 117.38,
+   "zoom": 1.0,
+   "text": "Dalam 14 titik lah kalau titik tu. Setengah ni insyaAllah dapat 14 titik.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 117.4,
+   "out": 138.55,
+   "zoom": 1.0,
+   "text": "So satu pump ni masuk dalam mulut. Okey, kemam dulu, jangan telan terus. Kemam dulu sampai rasa, apa tu, macam air dia tu dah macam dah tak rasa sangat dekat dalam lingkar lidah tu. Okey, baru, apa tu, telan macam biasa.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 138.9,
+   "out": 149.38,
+   "zoom": 1.0,
+   "text": "Okey, sebab apa? Sebab kalau terus telan satu pump tu, nanti akan rasa geli tekak, ditakuti tekak rasa geli dan jadi batuk pula.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 151.3,
+   "out": 157.1,
+   "zoom": 1.0,
+   "text": "Ni Habbatus Sauda, apa tu, amalan sunnah.",
+   "note": "'Dalam sunnah ni ada kejayaan … kelebihan' and 'semua lapisan umur' dropped"
+  },
+  {
+   "id": "S09",
+   "in": 176.6,
+   "out": 180.6,
+   "zoom": 1.04,
+   "text": "Yang berminat, boleh dapatkan di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Minyak Habbatus Sauda Al Khair",
+  "lines": [
+   "Cara guna",
+   "mudah je!"
+  ],
+  "accent_words": [
+   "mudah",
+   "je!"
+  ],
+  "to": 3.4,
+  "accent": "#F2C45A",
+  "accent2": "#E8963A",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S09",
+   "beg",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "FF",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 0.0,
+   "note": "unboxing, fast-forward",
+   "push": [
+    1.0,
+    1.04
+   ],
+   "origin": "50% 50%",
+   "ff": "UNBOXING DILAJUKAN"
+  }
+ ],
+ "photos": [
+  {
+   "id": "warung",
+   "from": [
+    "S03",
+    "sarapan#2"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: sarapan di warung"
+  }
+ ],
+ "theme": {
+  "key": "#F2C45A",
+  "brand": "#9FD08A"
+ },
+ "brand_words": [
+  "habbatus",
+  "sauda"
+ ],
+ "keywords": [
+  "mudah",
+  "dua",
+  "pump.",
+  "sarapan",
+  "tidur.",
+  "bawa.",
+  "warung,",
+  "pump,",
+  "setengah.",
+  "setengah",
+  "14",
+  "titik",
+  "titik.",
+  "mulut.",
+  "kemam",
+  "telan",
+  "terus.",
+  "biasa.",
+  "geli",
+  "tekak,",
+  "sunnah.",
+  "beg",
+  "kuning."
+ ],
+ "panel": {
+  "title": "CARA GUNA",
+  "from": [
+   "S01",
+   "satu"
+  ],
+  "items": [
+   {
+    "text": "2 PAM SEHARI",
+    "from": [
+     "S01",
+     "satu"
+    ],
+    "done": [
+     "S01",
+     "end"
+    ]
+   },
+   {
+    "text": "1 PAM = ±14 TITIK",
+    "from": [
+     "S05",
+     "start"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   },
+   {
+    "text": "KEMAM DULU",
+    "from": [
+     "S06",
+     "kemam"
+    ],
+    "done": [
+     "S06",
+     "okey"
+    ]
+   },
+   {
+    "text": "BARU TELAN",
+    "from": [
+     "S06",
+     "okey"
+    ],
+    "done": [
+     "S06",
+     "end"
+    ]
+   }
+  ]
+ },
+ "flap_force": []
+}
