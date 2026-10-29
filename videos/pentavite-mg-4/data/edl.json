@@ -169,7 +169,7 @@
     "S05",
     "end"
    ],
-   "src": 42.0,
+   "src": 80.5,
    "note": "001105: kotak depan (Mg)",
    "push": [
     1.0,
@@ -205,13 +205,13 @@
     "S07",
     "end"
    ],
-   "src": 54.0,
+   "src": 2.5,
    "note": "001105: kotak depan (Magnesium, B6)",
    "push": [
     1.0,
-    1.1
+    1.08
    ],
-   "origin": "45% 60%"
+   "origin": "50% 55%"
   },
   {
    "id": "B4",

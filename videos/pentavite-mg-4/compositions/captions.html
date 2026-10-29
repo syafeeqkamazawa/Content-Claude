@@ -49,7 +49,7 @@
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.set("#fl-block", { x: 0, y: 0, scale: 1 }, 0.0);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 0.0);
           tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 0.0);
           tl.set("#fl-0-2", { textContent: "O", color: "#8E9AA6" }, 0.05);
           tl.set("#fl-0-2", { textContent: "A", color: "#8E9AA6" }, 0.1);
@@ -976,6 +976,9 @@
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 21.1667);
           tl.set("#fl-0-12", { textContent: "", color: "#F4F4F4" }, 21.1833);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 21.1833);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 21.6667);
+          tl.set("#fl-block", { x: -75, y: 0, scale: 0.6 }, 21.8333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 21.8333);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 22.05);
           tl.fromTo("#fl-0-1", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 22.05);
           tl.set("#fl-0-2", { textContent: "H", color: "#8E9AA6" }, 21.9333);
@@ -1281,6 +1284,9 @@
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 27.0833);
           tl.set("#fl-0-13", { textContent: "", color: "#F4F4F4" }, 27.1167);
           tl.fromTo("#fl-0-13", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 27.1167);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 26.95);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 27.1167);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 27.1167);
           tl.set("#fl-0-2", { textContent: "T", color: "#8E9AA6" }, 27.2167);
           tl.set("#fl-0-2", { textContent: "F", color: "#8E9AA6" }, 27.2667);
           tl.set("#fl-0-2", { textContent: "8", color: "#8E9AA6" }, 27.3);
@@ -1431,6 +1437,9 @@
           tl.set("#fl-0-13", { textContent: "3", color: "#8E9AA6" }, 28.6833);
           tl.set("#fl-0-13", { textContent: ".", color: "#F4F4F4" }, 28.7333);
           tl.fromTo("#fl-0-13", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 28.7333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 29.05);
+          tl.set("#fl-block", { x: -75, y: 1150, scale: 0.6 }, 29.2167);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 29.2167);
           tl.set("#fl-0-0", { textContent: "", color: "#F4F4F4" }, 29.4);
           tl.fromTo("#fl-0-0", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 29.4);
           tl.set("#fl-0-1", { textContent: "S", color: "#8E9AA6" }, 29.3);
@@ -1719,6 +1728,9 @@
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 33.6833);
           tl.set("#fl-0-12", { textContent: "", color: "#F4F4F4" }, 33.7);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 33.7);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 34.0167);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 34.1833);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 34.1833);
           tl.set("#fl-0-2", { textContent: "9", color: "#8E9AA6" }, 34.2833);
           tl.set("#fl-0-2", { textContent: "V", color: "#8E9AA6" }, 34.3333);
           tl.set("#fl-0-2", { textContent: "H", color: "#8E9AA6" }, 34.3667);
@@ -1875,6 +1887,9 @@
           tl.set("#fl-0-13", { textContent: "C", color: "#8E9AA6" }, 36.4167);
           tl.set("#fl-0-13", { textContent: ".", color: "#F2C45A" }, 36.4667);
           tl.fromTo("#fl-0-13", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 36.4667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 37.2167);
+          tl.set("#fl-block", { x: -75, y: 0, scale: 0.6 }, 37.3833);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 37.3833);
           tl.set("#fl-0-0", { textContent: "", color: "#F4F4F4" }, 37.5667);
           tl.fromTo("#fl-0-0", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 37.5667);
           tl.set("#fl-0-1", { textContent: "8", color: "#8E9AA6" }, 37.45);
@@ -1987,6 +2002,9 @@
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 38.8333);
           tl.set("#fl-0-12", { textContent: "", color: "#F4F4F4" }, 38.85);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 38.85);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 39.0833);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 39.25);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 39.25);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 39.4667);
           tl.fromTo("#fl-0-1", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 39.4667);
           tl.set("#fl-0-2", { textContent: "C", color: "#8E9AA6" }, 39.35);
@@ -2164,6 +2182,9 @@
           tl.fromTo("#fl-0-10", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 42.0667);
           tl.set("#fl-0-11", { textContent: "", color: "#F4F4F4" }, 42.1);
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 42.1);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 42.3833);
+          tl.set("#fl-block", { x: 560, y: 280, scale: 0.45 }, 42.55);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 42.55);
           tl.set("#fl-0-0", { textContent: "?", color: "#8E9AA6" }, 42.6);
           tl.set("#fl-0-0", { textContent: "Z", color: "#8E9AA6" }, 42.65);
           tl.set("#fl-0-0", { textContent: "L", color: "#8E9AA6" }, 42.6833);
@@ -2302,6 +2323,9 @@
           tl.set("#fl-0-10", { textContent: "/", color: "#8E9AA6" }, 44.2);
           tl.set("#fl-0-10", { textContent: ".", color: "#F4F4F4" }, 44.25);
           tl.fromTo("#fl-0-10", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 44.25);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 44.0333);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 44.2);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 44.2);
           tl.set("#fl-0-3", { textContent: "X", color: "#8E9AA6" }, 44.3333);
           tl.set("#fl-0-3", { textContent: "J", color: "#8E9AA6" }, 44.3667);
           tl.set("#fl-0-3", { textContent: "&", color: "#8E9AA6" }, 44.4167);
@@ -2564,6 +2588,9 @@
           tl.set("#fl-0-11", { textContent: "W", color: "#8E9AA6" }, 47.9833);
           tl.set("#fl-0-11", { textContent: ".", color: "#F2C45A" }, 48.0333);
           tl.fromTo("#fl-0-11", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 48.0333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 48.3667);
+          tl.set("#fl-block", { x: 560, y: 140, scale: 0.45 }, 48.5333);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 48.5333);
           tl.set("#fl-0-1", { textContent: "Z", color: "#8E9AA6" }, 48.6);
           tl.set("#fl-0-1", { textContent: "L", color: "#8E9AA6" }, 48.65);
           tl.set("#fl-0-1", { textContent: "!", color: "#8E9AA6" }, 48.7);
@@ -2616,6 +2643,9 @@
           tl.set("#fl-0-12", { textContent: "5", color: "#8E9AA6" }, 48.9667);
           tl.set("#fl-0-12", { textContent: "L", color: "#F2C45A" }, 49.0167);
           tl.fromTo("#fl-0-12", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 49.0167);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 49.65);
+          tl.set("#fl-block", { x: 560, y: 280, scale: 0.45 }, 49.8167);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 49.8167);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 50.0333);
           tl.fromTo("#fl-0-1", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 50.0333);
           tl.set("#fl-0-2", { textContent: "", color: "#F4F4F4" }, 50.05);
@@ -2721,6 +2751,9 @@
           tl.set("#fl-0-10", { textContent: "X", color: "#8E9AA6" }, 50.7833);
           tl.set("#fl-0-10", { textContent: ".", color: "#F4F4F4" }, 50.8333);
           tl.fromTo("#fl-0-10", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 50.8333);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 51.1833);
+          tl.set("#fl-block", { x: -81, y: 280, scale: 0.45 }, 51.35);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 51.35);
           tl.set("#fl-0-0", { textContent: "0", color: "#8E9AA6" }, 51.4);
           tl.set("#fl-0-0", { textContent: "M", color: "#8E9AA6" }, 51.45);
           tl.set("#fl-0-0", { textContent: "+", color: "#8E9AA6" }, 51.4833);
@@ -2785,6 +2818,9 @@
           tl.set("#fl-0-13", { textContent: "D", color: "#8E9AA6" }, 51.8167);
           tl.set("#fl-0-13", { textContent: ".", color: "#F2C45A" }, 51.8667);
           tl.fromTo("#fl-0-13", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 51.8667);
+          tl.to("#fl-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 52.2833);
+          tl.set("#fl-block", { x: 0, y: 0, scale: 1.0 }, 52.45);
+          tl.fromTo("#fl-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 52.45);
           tl.set("#fl-0-0", { textContent: "", color: "#F4F4F4" }, 52.6333);
           tl.fromTo("#fl-0-0", { scaleY: 0.25 }, { scaleY: 1, duration: 0.09, ease: "power2.out", immediateRender: false }, 52.6333);
           tl.set("#fl-0-1", { textContent: "", color: "#F4F4F4" }, 52.6667);
@@ -4515,8 +4551,21 @@
           tl.set("#pn-st3", { textContent: "● DONE", color: "#5BD67A" }, 44.15);
           tl.set("#pn-dt3", { textContent: "01.5s" }, 44.15);
           tl.fromTo("#pn-st3", { scale: 1.25 }, { scale: 1, duration: 0.2, ease: "back.out(3)", immediateRender: false }, 44.15);
-          tl.set("#fl-panel", { x: 688, y: 332, scale: 1 }, 21.85);
+          tl.set("#fl-panel", { x: 48, y: 266, scale: 0.7 }, 21.85);
           tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 22.0);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 26.95);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 0.7 }, 27.1167);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 27.1167);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 29.05);
+          tl.set("#fl-panel", { x: 48, y: 150, scale: 0.7 }, 29.2167);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 29.2167);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 34.0167);
+          tl.set("#fl-panel", { x: 48, y: 266, scale: 1.0 }, 37.3833);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", yPercent: -12 }, { opacity: 1, filter: "blur(0px)", yPercent: 0, duration: 0.34, ease: "power3.out", immediateRender: false }, 37.3833);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 39.0833);
+          tl.set("#fl-panel", { x: 48, y: 380, scale: 0.7 }, 39.25);
+          tl.fromTo("#pn-ghost", { opacity: 0, filter: "blur(14px)", scale: 1.04 }, { opacity: 1, filter: "blur(0px)", scale: 1, duration: 0.24, ease: "power2.out", immediateRender: false }, 39.25);
+          tl.to("#pn-ghost", { opacity: 0, filter: "blur(12px)", scale: 0.98, duration: 0.16, ease: "power2.in" }, 42.3833);
           window.__timelines["captions"] = tl;
         })();
       </script>
