@@ -1,0 +1,273 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "29 Okt: owner sent VID_20261028_163205 (Drive 1UMMAk6j…) — a second Hesmor BBQ grill take, made as Hesmor #2 in the style of #1. 28 Okt: opening = one premium motion-text hook, no transition effect. 26 Okt: brief premium (no invented claims or prices).",
+ "_note": "Hesmor BBQ grill #2 — assets/a.mp4 = VID_20261028_163205 (indoor kitchen take, rear camera held by someone else, not mirrored; audio -11.6 LUFS, already clean). The owner demos the grill himself (two grates, closing one side, chimney, carrying, legs), so the demo stays on screen. Dropped: the cameraman instructions (10-19, 28-47), stutters. AI photos (no product shown): alatan (the hassle), family (ayam bakar dengan family), tasik (lakeside). Offer: only the owner's words — promo and vouchers, beg kuning; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 0.3,
+   "out": 10.15,
+   "zoom": 1.0,
+   "text": "Kadang-kadang bukan tak nak BBQ, tapi leceh barang dia. Bila kau nak BBQ, nak kena keluar set alatan tu lah, alatan ni leceh.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 19.7,
+   "out": 22.15,
+   "zoom": 1.0,
+   "text": "Nak BBQ, nak makan ayam bakar dengan family je pun.",
+   "note": "director chatter 10-19 ('nanti kita potong video') dropped"
+  },
+  {
+   "id": "S03",
+   "in": 24.7,
+   "out": 27.8,
+   "zoom": 1.0,
+   "text": "Tapi bila fikir nak set up semua tu, terus hilang mood.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 48.0,
+   "out": 56.6,
+   "zoom": 1.0,
+   "text": "Sebab tu sekarang ni dah ada BBQ daripada Hesmor ni. Lagi senang. Nampak kecil tau, tapi bila kau buka je ni,",
+   "note": "28-47 ('kena bergerak-gerak, jangan static' etc. to the cameraman) dropped"
+  },
+  {
+   "id": "S05",
+   "in": 60.5,
+   "out": 66.0,
+   "zoom": 1.0,
+   "text": "Haa, boleh buat dua. Nampak? Senang kalau nak BBQ.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 66.3,
+   "out": 72.8,
+   "zoom": 1.0,
+   "text": "Walaupun nampak kecil tapi dua-dua belah boleh korang gunakan untuk panggang. Nampak?",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 73.5,
+   "out": 82.0,
+   "zoom": 1.0,
+   "text": "Memang cantik. Okey lagi satu, kalau kata korang nak BBQ sebelah je, korang boleh buat tutup macam ni.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 82.1,
+   "out": 86.9,
+   "zoom": 1.0,
+   "text": "Dan ada corong asap kat sini. Haa. Memang style weh. Memang style.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 88.4,
+   "out": 95.6,
+   "zoom": 1.0,
+   "text": "Lepas tu, kalau korang dah habis BBQ tu, korang tutup je macam ni. Dan korang boleh angkat je.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 97.2,
+   "out": 105.5,
+   "zoom": 1.0,
+   "text": "Dan lagi satu, korang nampak ada kaki dia. Kalau korang nak letak dekat tasik kan, tepi-tepi tasik ke, memang style je kan.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 109.7,
+   "out": 118.7,
+   "zoom": 1.04,
+   "text": "So sekarang ni tengah ada promo, voucher pun banyak, korang boleh tengok dekat beg kuning. Kalau korang nak dapatkan satu, boleh check out dekat beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "hook_text": {
+  "kicker": "BBQ Grill Hesmor",
+  "lines": [
+   "BBQ tak perlu",
+   "leceh lagi!"
+  ],
+  "accent_words": [
+   "leceh",
+   "lagi!"
+  ],
+  "to": 3.4,
+  "accent": "#FF7A2F",
+  "accent2": "#FFC15A",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S11",
+   "check",
+   1.06
+  ]
+ ],
+ "broll": [],
+ "photos": [
+  {
+   "id": "alatan",
+   "from": [
+    "S01",
+    "nak#2"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: barang BBQ bersepah"
+  },
+  {
+   "id": "family",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: keluarga makan ayam bakar"
+  },
+  {
+   "id": "tasik",
+   "from": [
+    "S10",
+    "kalau"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "note": "AI: tepi tasik"
+  }
+ ],
+ "theme": {
+  "key": "#FF8A3D",
+  "brand": "#FFC15A"
+ },
+ "brand_words": [
+  "hesmor",
+  "hesmor.",
+  "bbq",
+  "bbq,"
+ ],
+ "keywords": [
+  "leceh",
+  "leceh.",
+  "alatan",
+  "ayam",
+  "bakar",
+  "family",
+  "mood.",
+  "senang.",
+  "kecil",
+  "dua.",
+  "dua-dua",
+  "belah",
+  "panggang.",
+  "cantik.",
+  "sebelah",
+  "tutup",
+  "corong",
+  "asap",
+  "style",
+  "angkat",
+  "kaki",
+  "tasik",
+  "promo,",
+  "voucher",
+  "beg",
+  "kuning.",
+  "check",
+  "out"
+ ],
+ "panel": {
+  "title": "SEMAK HESMOR",
+  "from": [
+   "S05",
+   "boleh"
+  ],
+  "items": [
+   {
+    "text": "DUA BELAH GRILL",
+    "from": [
+     "S05",
+     "boleh"
+    ],
+    "done": [
+     "S06",
+     "end"
+    ]
+   },
+   {
+    "text": "TUTUP SEBELAH",
+    "from": [
+     "S07",
+     "sebelah"
+    ],
+    "done": [
+     "S07",
+     "end"
+    ]
+   },
+   {
+    "text": "CORONG ASAP",
+    "from": [
+     "S08",
+     "corong"
+    ],
+    "done": [
+     "S08",
+     "end"
+    ]
+   },
+   {
+    "text": "MUDAH DIANGKAT",
+    "from": [
+     "S09",
+     "angkat"
+    ],
+    "done": [
+     "S09",
+     "end"
+    ]
+   },
+   {
+    "text": "ADA KAKI",
+    "from": [
+     "S10",
+     "kaki"
+    ],
+    "done": [
+     "S10",
+     "end"
+    ]
+   }
+  ]
+ },
+ "flap_force": []
+}

@@ -1,0 +1,17 @@
+TOTAL 65.53s  (11 A-roll segments, 0 B-roll shots, 3 photos, 2 audio fx, 86 caption cards)
+
+  0.00-  9.20  S01  src   0.30- 10.15  (4 pc)  Kadang-kadang bukan tak nak BBQ, tapi leceh barang dia. Bila kau nak BBQ, nak kena keluar set alatan tu lah, alatan ni leceh.
+  9.20- 11.65  S02  src  19.70- 22.15  (1 pc)  Nak BBQ, nak makan ayam bakar dengan family je pun.
+ 11.65- 14.75  S03  src  24.70- 27.80  (1 pc)  Tapi bila fikir nak set up semua tu, terus hilang mood.
+ 14.75- 22.63  S04  src  48.00- 56.60  (3 pc)  Sebab tu sekarang ni dah ada BBQ daripada Hesmor ni. Lagi senang. Nampak kecil tau, tapi bila kau buka je ni,
+ 22.63- 26.80  S05  src  60.50- 66.00  (3 pc)  Haa, boleh buat dua. Nampak? Senang kalau nak BBQ.
+ 26.80- 32.67  S06  src  66.30- 72.80  (3 pc)  Walaupun nampak kecil tapi dua-dua belah boleh korang gunakan untuk panggang. Nampak?
+ 32.67- 39.57  S07  src  73.50- 82.00  (5 pc)  Memang cantik. Okey lagi satu, kalau kata korang nak BBQ sebelah je, korang boleh buat tutup macam ni.
+ 39.57- 43.62  S08  src  82.10- 86.90  (3 pc)  Dan ada corong asap kat sini. Haa. Memang style weh. Memang style.
+ 43.62- 49.48  S09  src  88.40- 95.60  (5 pc)  Lepas tu, kalau korang dah habis BBQ tu, korang tutup je macam ni. Dan korang boleh angkat je.
+ 49.48- 57.15  S10  src  97.20-105.50  (3 pc)  Dan lagi satu, korang nampak ada kaki dia. Kalau korang nak letak dekat tasik kan, tepi-tepi tasik ke, memang style je kan.
+ 57.15- 65.53  S11  src 109.70-118.70  (3 pc)  So sekarang ni tengah ada promo, voucher pun banyak, korang boleh tengok dekat beg kuning. Kalau korang nak dapatkan satu, boleh check out dekat beg kuning.
+
+  cutaway   4.65-  9.20
+  cutaway   9.20- 11.65
+  cutaway  52.30- 57.15

@@ -1,5 +1,5 @@
 #!/bin/bash
-# Generates the AI cutaways for Habbatus Sauda Al Khair #1 (owner's ChatGPT/Codex account). Run from the project root.
+# Generates the AI cutaways for Hesmor BBQ grill #2 (owner's ChatGPT/Codex account). Run from the project root.
 export PATH=$HOME/.local/bin:$PATH NODE_USE_ENV_PROXY=1
 MOD="Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition."
 PPL="Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people."
@@ -16,8 +16,10 @@ gen () {
 [ $# -gt 0 ] && ONLY=" $* " || ONLY=""
 want () { [ -z "$ONLY" ] || [[ "$ONLY" == *" $1 "* ]]; }
 
-SPACE="Composition: the subject sits in the lower 55% of the vertical frame and the upper 40% is calm empty background (plain wall, window light or soft bokeh) with nothing important in it."
-NOPPL="No people anywhere in the frame, no hands, no faces, no bottles of medicine or supplements."
-want sarapan && gen sarapan "A simple Malaysian breakfast on a wooden kitchen table in soft early-morning window light: a plate of nasi lemak, a cup of hot teh tarik and a glass of plain water, calm and homely. $NOPPL $SPACE"
-want tidur && gen tidur "A calm Malaysian bedroom at night: a neatly made bed with white sheets, a bedside table with a warm lamp switched on and a glass of plain water, dark window with curtains drawn, peaceful mood. $NOPPL $SPACE"
+FEET="Every woman and girl wears socks and her long skirt reaches the floor; no bare feet or ankles visible anywhere. Every man and boy wears a long-sleeved top and long trousers to the ankle with shoes or socks (no shorts, no bare arms, no bare feet)."
+SPACE="Composition: the subject sits in the lower 55% of the vertical frame and the upper 40% is calm empty background (sky, trees or soft bokeh) with nothing important in it."
+NOPPL="No people anywhere in the frame, no hands, no faces."
+want alatan && gen alatan "A garage corner in a Malaysian terrace house: a big dusty standing barbecue grill, sacks of charcoal, folding tables, skewers, tongs, a cooler box and tangled cords piled up — clearly a hassle to set up. No grill brand visible. $NOPPL $SPACE"
+want family && gen family "A happy Malay family having grilled chicken together at a garden table at dusk: a father in a long-sleeved baju melayu and long trousers, a mother in a loose baju kurung and a hijab covering her hair, neck and chest, two children (a boy in long sleeves and long trousers, a girl in a tudung and long dress), plates of ayam bakar on the table, fairy lights, no grill visible. $FEET $SPACE $PPL"
+want tasik && gen tasik "A calm Malaysian lakeside picnic spot in the late afternoon: a mat with a basket on the grass by the water, palm trees and hills reflected in the lake, golden light, no grill and no barbecue equipment visible. $NOPPL $SPACE"
 echo DONE

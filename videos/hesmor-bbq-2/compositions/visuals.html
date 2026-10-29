@@ -25,17 +25,20 @@
   color: #FFFBEF; background: rgba(40,20,8,.72); padding: 5px 10px; border-radius: 6px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-sarapan" class="clip fs" data-start="24.4333" data-duration="2.483" data-track-index="4"><div class="fs-in" id="fs-sarapan-in"><div class="fs-layer" id="fs-sarapan-bg" style="background-image:url(assets/photos/sarapan-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-sarapan-fg" style="background-image:url(assets/photos/sarapan-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-tidur" class="clip fs" data-start="26.9167" data-duration="2.583" data-track-index="4"><div class="fs-in" id="fs-tidur-in"><div class="fs-layer" id="fs-tidur-bg" style="background-image:url(assets/photos/tidur.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-alatan" class="clip fs" data-start="4.65" data-duration="4.549" data-track-index="4"><div class="fs-in" id="fs-alatan-in"><div class="fs-layer" id="fs-alatan-bg" style="background-image:url(assets/photos/alatan.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-family" class="clip fs" data-start="9.2" data-duration="2.449" data-track-index="4"><div class="fs-in" id="fs-family-in"><div class="fs-layer" id="fs-family-bg" style="background-image:url(assets/photos/family-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-family-fg" style="background-image:url(assets/photos/family-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-tasik" class="clip fs" data-start="52.3" data-duration="4.849" data-track-index="4"><div class="fs-in" id="fs-tasik-in"><div class="fs-layer" id="fs-tasik-bg" style="background-image:url(assets/photos/tasik.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.fromTo("#fs-sarapan-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 24.4333);
-          tl.fromTo("#fs-sarapan-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.4833, ease: "none", immediateRender: false }, 24.4333);
-          tl.fromTo("#fs-sarapan-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.4833, ease: "sine.inOut", immediateRender: false }, 24.4333);
-          tl.fromTo("#fs-tidur-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 26.9167);
-          tl.fromTo("#fs-tidur-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.5833, ease: "sine.inOut", immediateRender: false }, 26.9167);
+          tl.fromTo("#fs-alatan-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 4.65);
+          tl.fromTo("#fs-alatan-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 4.55, ease: "sine.inOut", immediateRender: false }, 4.65);
+          tl.fromTo("#fs-family-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 9.2);
+          tl.fromTo("#fs-family-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 2.45, ease: "none", immediateRender: false }, 9.2);
+          tl.fromTo("#fs-family-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 2.45, ease: "sine.inOut", immediateRender: false }, 9.2);
+          tl.fromTo("#fs-tasik-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 52.3);
+          tl.fromTo("#fs-tasik-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 4.85, ease: "sine.inOut", immediateRender: false }, 52.3);
           window.__timelines["visuals"] = tl;
         })();
       </script>
