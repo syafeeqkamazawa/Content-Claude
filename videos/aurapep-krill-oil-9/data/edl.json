@@ -1,0 +1,447 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "flap",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "1 Nov: owner shared Drive folder 1irOVOgs… 'Aurapep Krill Oil' with a new talking clip VID_20261101_170532 (Krill #9 = Aurapep Krill Oil video 9). 28 Okt: opening = one premium motion-text hook, no transition effect. 26 Okt: brief premium (no invented claims or prices).",
+ "_note": "Aurapep Krill Oil #9 — A-roll assets/a.mp4 = VID_20261101_170532 (rear camera, not mirrored; lavalier, -11.8 LUFS). B-roll assets/b.mp4 = the batch pool rebuilt from Drive (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8; same layout as videos/_batch-krill/plan.md). Claims are the owner's own words only (omega 3 / EPA for the heart / DHA for eyes and brain, astaxanthin, vitamin D3, K2; his wife's experience). Promo: the owner's 11.11 mention and 'beli 2-3 buat stock'; no price. Dropped: the age lines 173-193 (length), opening false starts, 'untuk pencerahan' (unclear), restarts, age ramble, date chatter.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 17.0,
+   "out": 28.3,
+   "zoom": 1.0,
+   "text": "Antara benda yang menakutkan, korang pernah tengok tak video yang tiba-tiba orang jatuh, tiba-tiba main futsal jatuh. Mengejut.",
+   "note": "HOOK (false starts 0-15 'Korang tahu tak … guys tahu tak' dropped)"
+  },
+  {
+   "id": "S02",
+   "in": 28.55,
+   "out": 48.1,
+   "zoom": 1.0,
+   "text": "Sebab apa? Sebab sebenarnya antara benda yang merisaukan kita, saluran darah ni yang ke jantung tu, bila dia nak berhenti ataupun dia dah semakin slow nak stop tu, dia tak ada signal. Itu masalah, itu yang menakutkan.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 49.6,
+   "out": 55.5,
+   "zoom": 1.0,
+   "text": "Jadi kita kena pastikan saluran darah tu lancar, ke jantung tu lancar.",
+   "note": "'untuk apa … pencerahan' (unclear) dropped"
+  },
+  {
+   "id": "S04",
+   "in": 66.5,
+   "out": 74.3,
+   "zoom": 1.0,
+   "text": "Biasanya, kalau berkaitan dengan saluran darah jantung ni, omega 3 betul. Fish oil, betul.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 89.6,
+   "out": 108.2,
+   "zoom": 1.0,
+   "text": "Macam mana kalau anda boleh dapatkan khasiat omega 3, plus lagi EPA dan DHA? Apa itu EPA? EPA bantu sokong kita punya jantung kita. Dan DHA pula, DHA untuk bantu kita punya mata dan otak kita.",
+   "note": "74-89 restart ('tapi jangan … anda semua') dropped"
+  },
+  {
+   "id": "S06",
+   "in": 108.8,
+   "out": 113.85,
+   "zoom": 1.0,
+   "text": "So dapat extra lagi. Apakah ia? Yang inilah yang saya maksudkan.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 118.6,
+   "out": 126.3,
+   "zoom": 1.0,
+   "text": "Aurapep Krill Oil ni ada DHA, ada EPA dan juga ada omega 3. Complete.",
+   "note": "first 'Aurapep Krill Oil ni dia under' restart dropped"
+  },
+  {
+   "id": "S08",
+   "in": 130.1,
+   "out": 138.8,
+   "zoom": 1.0,
+   "text": "Ada juga astaxanthin, vitamin D3, vitamin K2. Mana? Nak cari kat mana lagi?",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 141.1,
+   "out": 145.7,
+   "zoom": 1.0,
+   "text": "Dan yang paling penting, saya juga amalkan. Saya punya, isteri saya pun amalkan.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 145.8,
+   "out": 157.5,
+   "zoom": 1.0,
+   "text": "Isteri saya pun, ceritanya tak sedap mata, tak sedap. Bila drive, mata tak sedap. Kadang-kadang rasa nak fikir tu jadi loading.",
+   "note": "owner's own family experience"
+  },
+  {
+   "id": "S11",
+   "in": 167.5,
+   "out": 172.4,
+   "zoom": 1.0,
+   "text": "Alhamdulillah bila dah amalkan, pelan-pelan semakin, semakin baik insyaAllah.",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 193.3,
+   "out": 197.9,
+   "zoom": 1.0,
+   "text": "Okay, dapatkan Aurapep Krill Oil ni dekat beg kuning. Okay, promo banyak tau.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 197.9,
+   "out": 200.8,
+   "zoom": 1.0,
+   "text": "Jangan lupa nanti 11.11.",
+   "note": ""
+  },
+  {
+   "id": "S16",
+   "in": 203.3,
+   "out": 206.95,
+   "zoom": 1.0,
+   "text": "Promo 11.11 ni lagi dahsyat.",
+   "note": "'Ni dah berapa bulan, satu, lagi 10 hari' dropped"
+  },
+  {
+   "id": "S17",
+   "in": 207.0,
+   "out": 217.7,
+   "zoom": 1.0,
+   "text": "So ni tengok dekat beg kuning. Kalau sekarang pun, tengok harga dia berapa. Kalau tengah murah tu, jangan tunggu lagi. Beli terus. Beli 2-3 buat stock.",
+   "note": ""
+  },
+  {
+   "id": "S18",
+   "in": 230.2,
+   "out": 239.3,
+   "zoom": 1.04,
+   "text": "Boleh hadiahkan juga untuk ayah, ibu, isteri ke suami. Okay, dapatkan di beg kuning. InsyaAllah berbaloi.",
+   "note": "CTA"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Aurapep Krill Oil",
+  "lines": [
+   "Tiba-tiba jatuh,",
+   "tanpa signal?"
+  ],
+  "accent_words": [
+   "tanpa",
+   "signal?"
+  ],
+  "to": 3.4,
+  "accent": "#5AA9FF",
+  "accent2": "#E8B54A",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S18",
+   "dapatkan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S04",
+    "omega"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 99.0,
+   "note": "B: botol atas rumput",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S05",
+    "epa#2"
+   ],
+   "to": [
+    "S05",
+    "dan#2"
+   ],
+   "src": 54.0,
+   "note": "A: softgel ke kamera",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S05",
+    "dha#3"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 162.5,
+   "note": "C: softgel dekat",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 189.5,
+   "note": "C: label botol",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "mana"
+   ],
+   "src": 114.0,
+   "note": "B: botol dan softgel",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S14",
+    "dapatkan"
+   ],
+   "to": [
+    "S14",
+    "end"
+   ],
+   "src": 117.5,
+   "note": "B: botol dan softgel",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B7",
+   "from": [
+    "S18",
+    "start"
+   ],
+   "to": [
+    "S18",
+    "dapatkan"
+   ],
+   "src": 96.0,
+   "note": "B: botol atas rumput",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "futsal",
+   "from": [
+    "S01",
+    "tiba-tiba"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: main futsal, penat"
+  },
+  {
+   "id": "doktor",
+   "from": [
+    "S02",
+    "saluran"
+   ],
+   "to": [
+    "S02",
+    "itu"
+   ],
+   "note": "AI: doktor periksa jantung"
+  },
+  {
+   "id": "memandu",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "note": "AI: isteri memandu waktu malam"
+  }
+ ],
+ "theme": {
+  "key": "#E8B54A",
+  "brand": "#5AA9FF"
+ },
+ "brand_words": [
+  "aurapep",
+  "krill",
+  "oil"
+ ],
+ "keywords": [
+  "jatuh,",
+  "jatuh.",
+  "mengejut.",
+  "saluran",
+  "darah",
+  "jantung",
+  "signal.",
+  "menakutkan.",
+  "lancar,",
+  "lancar.",
+  "omega",
+  "3",
+  "3,",
+  "epa",
+  "dha",
+  "jantung",
+  "mata",
+  "otak",
+  "complete.",
+  "astaxanthin,",
+  "d3,",
+  "k2.",
+  "amalkan.",
+  "loading.",
+  "baik,",
+  "40",
+  "beringat",
+  "11.11.",
+  "11.11",
+  "promo",
+  "dahsyat.",
+  "beg",
+  "kuning.",
+  "murah",
+  "stock.",
+  "hadiahkan"
+ ],
+ "panel": {
+  "title": "SEMAK NUTRISI",
+  "from": [
+   "S05",
+   "omega"
+  ],
+  "items": [
+   {
+    "text": "OMEGA 3",
+    "from": [
+     "S05",
+     "omega"
+    ],
+    "done": [
+     "S05",
+     "plus"
+    ]
+   },
+   {
+    "text": "EPA",
+    "from": [
+     "S05",
+     "epa"
+    ],
+    "done": [
+     "S05",
+     "dha"
+    ]
+   },
+   {
+    "text": "DHA",
+    "from": [
+     "S05",
+     "dha"
+    ],
+    "done": [
+     "S05",
+     "end"
+    ]
+   },
+   {
+    "text": "ASTAXANTHIN",
+    "from": [
+     "S08",
+     "astaxanthin,"
+    ],
+    "done": [
+     "S08",
+     "vitamin"
+    ]
+   },
+   {
+    "text": "VITAMIN D3 + K2",
+    "from": [
+     "S08",
+     "vitamin"
+    ],
+    "done": [
+     "S08",
+     "end"
+    ]
+   }
+  ]
+ },
+ "flap_force": []
+}
