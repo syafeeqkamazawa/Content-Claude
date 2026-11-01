@@ -73,6 +73,15 @@ otherwise for a specific video.
 
 - Transcribe first, cut repeated takes / false starts / long pauses, put the
   strongest hook first.
+- **Keep every point the owner makes** (owner, 1 Nov: "Jangan potong semua
+  point yang saya nak sampaikan, cukup potong bahagian yang perlu sahaja
+  seperti percakapan tersangkut sangkut, yang berulang ulang dan bunyi eerr
+  dan seumpamanya"): cut only stumbles, repeated words/takes and fillers —
+  never drop a whole point to shorten the video.
+- **Overlays must include beautiful product close-ups and the owner using the
+  product** (owner, 1 Nov: "Pastikan overlay produk close up yang cantik dan
+  juga overlay saya sedang menggunakan produk") — pick these from the owner's
+  B-roll first; AI photos only fill the gaps.
 - **No draft step** (owner, 19 Oct: "Lepas ni terus render final"): check the
   edit yourself with snapshots, then render the final straight away and send it.
 - **Batch folders** (owner, 22 Oct): a folder may hold several talking clips

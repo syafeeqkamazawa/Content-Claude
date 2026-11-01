@@ -1,29 +1,40 @@
-TOTAL 118.05s  (16 A-roll segments, 7 B-roll shots, 3 photos, 9 audio fx, 137 caption cards)
+TOTAL 153.65s  (23 A-roll segments, 11 B-roll shots, 3 photos, 12 audio fx, 183 caption cards)
 
   0.00-  9.27  S01  src  17.00- 28.30  (5 pc)  Antara benda yang menakutkan, korang pernah tengok tak video yang tiba-tiba orang jatuh, tiba-tiba main futsal jatuh. Mengejut.
   9.27- 25.40  S02  src  28.55- 48.10  (7 pc)  Sebab apa? Sebab sebenarnya antara benda yang merisaukan kita, saluran darah ni yang ke jantung tu, bila dia nak berhenti ataupun dia dah semakin slow nak stop tu, dia tak ada signal. Itu masalah, itu yang menakutkan.
- 25.40- 30.47  S03  src  49.60- 55.50  (3 pc)  Jadi kita kena pastikan saluran darah tu lancar, ke jantung tu lancar.
- 30.47- 36.90  S04  src  66.50- 74.30  (5 pc)  Biasanya, kalau berkaitan dengan saluran darah jantung ni, omega 3 betul. Fish oil, betul.
- 36.90- 53.00  S05  src  89.60-108.20  (9 pc)  Macam mana kalau anda boleh dapatkan khasiat omega 3, plus lagi EPA dan DHA? Apa itu EPA? EPA bantu sokong kita punya jantung kita. Dan DHA pula, DHA untuk bantu kita punya mata dan otak kita.
- 53.00- 57.27  S06  src 108.80-113.85  (3 pc)  So dapat extra lagi. Apakah ia? Yang inilah yang saya maksudkan.
- 57.27- 63.78  S07  src 118.60-126.30  (3 pc)  Aurapep Krill Oil ni ada DHA, ada EPA dan juga ada omega 3. Complete.
- 63.78- 70.82  S08  src 130.10-138.80  (3 pc)  Ada juga astaxanthin, vitamin D3, vitamin K2. Mana? Nak cari kat mana lagi?
- 70.82- 75.42  S09  src 141.10-145.70  (1 pc)  Dan yang paling penting, saya juga amalkan. Saya punya, isteri saya pun amalkan.
- 75.42- 86.12  S10  src 145.80-157.50  (5 pc)  Isteri saya pun, ceritanya tak sedap mata, tak sedap. Bila drive, mata tak sedap. Kadang-kadang rasa nak fikir tu jadi loading.
- 86.12- 90.58  S11  src 167.50-172.40  (3 pc)  Alhamdulillah bila dah amalkan, pelan-pelan semakin, semakin baik insyaAllah.
- 90.58- 94.83  S14  src 193.30-197.90  (2 pc)  Okay, dapatkan Aurapep Krill Oil ni dekat beg kuning. Okay, promo banyak tau.
- 94.83- 97.53  S15  src 197.90-200.80  (2 pc)  Jangan lupa nanti 11.11.
- 97.53-100.83  S16  src 203.30-206.95  (3 pc)  Promo 11.11 ni lagi dahsyat.
-100.83-110.43  S17  src 207.00-217.70  (4 pc)  So ni tengok dekat beg kuning. Kalau sekarang pun, tengok harga dia berapa. Kalau tengah murah tu, jangan tunggu lagi. Beli terus. Beli 2-3 buat stock.
-110.43-118.05  S18  src 230.20-239.30  (6 pc)  Boleh hadiahkan juga untuk ayah, ibu, isteri ke suami. Okay, dapatkan di beg kuning. InsyaAllah berbaloi.
+ 25.40- 33.00  S03  src  49.60- 59.35  (5 pc)  Jadi kita kena pastikan saluran darah tu lancar, ke jantung tu lancar, untuk apa? Apa? Untuk pencegahan lah.
+ 33.00- 34.97  S03b  src  61.40- 63.65  (2 pc)  Masalahnya tak ada signal, itu yang kita takut.
+ 34.97- 41.40  S04  src  66.50- 74.30  (5 pc)  Biasanya, kalau berkaitan dengan saluran darah jantung ni, omega 3 betul. Fish oil, betul.
+ 41.40- 45.22  S04b  src  75.60- 80.10  (3 pc)  Tapi saya nak bagitahu dekat anda semua,
+ 45.22- 47.43  S04c  src  84.85- 87.90  (2 pc)  dalam tu ada fish oil juga.
+ 47.43- 63.53  S05  src  89.60-108.20  (9 pc)  Macam mana kalau anda boleh dapatkan khasiat omega 3, plus lagi EPA dan DHA? Apa itu EPA? EPA bantu sokong kita punya jantung kita. Dan DHA pula, DHA untuk bantu kita punya mata dan otak kita.
+ 63.53- 67.80  S06  src 108.80-113.85  (3 pc)  So dapat extra lagi. Apakah ia? Yang inilah yang saya maksudkan.
+ 67.80- 74.32  S07  src 118.60-126.30  (3 pc)  Aurapep Krill Oil ni ada DHA, ada EPA dan juga ada omega 3. Complete.
+ 74.32- 81.35  S08  src 130.10-138.80  (3 pc)  Ada juga astaxanthin, vitamin D3, vitamin K2. Mana? Nak cari kat mana lagi?
+ 81.35- 85.95  S09  src 141.10-145.70  (1 pc)  Dan yang paling penting, saya juga amalkan. Saya punya, isteri saya pun amalkan.
+ 85.95- 96.65  S10  src 145.80-157.50  (5 pc)  Isteri saya pun, ceritanya tak sedap mata, tak sedap. Bila drive, mata tak sedap. Kadang-kadang rasa nak fikir tu jadi loading.
+ 96.65-101.37  S10b  src 157.90-163.60  (4 pc)  Ni, insyaAllah kita bantu. Saya pun bagitahu dia, boleh amalkan.
+101.37-104.18  S10c  src 163.90-167.20  (3 pc)  So, Alhamdulillah membantu.
+104.18-108.65  S11  src 167.50-172.40  (3 pc)  Alhamdulillah bila dah amalkan, pelan-pelan semakin, semakin baik insyaAllah.
+108.65-115.52  S12  src 172.40-179.70  (3 pc)  So Alhamdulillah. Okay, saya sendiri pun ambil. Terutamanya umur 40 tahun ni, saya dah 40.
+115.52-123.88  S13  src 183.50-193.20  (5 pc)  Okay, yang mana umur dah masuk 4 series tu, beringat dah. Tak tunggu 4 series, 3 series pun dah boleh, dah better beringat awal-awal.
+123.88-128.13  S14  src 193.30-197.90  (2 pc)  Okay, dapatkan Aurapep Krill Oil ni dekat beg kuning. Okay, promo banyak tau.
+128.13-133.13  S15  src 197.90-203.10  (2 pc)  Jangan lupa nanti 11.11. Ni dah berapa bulan? Satu. Lagi 10 hari.
+133.13-136.43  S16  src 203.30-206.95  (3 pc)  Promo 11.11 ni lagi dahsyat.
+136.43-146.03  S17  src 207.00-217.70  (4 pc)  So ni tengok dekat beg kuning. Kalau sekarang pun, tengok harga dia berapa. Kalau tengah murah tu, jangan tunggu lagi. Beli terus. Beli 2-3 buat stock.
+146.03-153.65  S18  src 230.20-239.30  (6 pc)  Boleh hadiahkan juga untuk ayah, ibu, isteri ke suami. Okay, dapatkan di beg kuning. InsyaAllah berbaloi.
 
   cutaway   3.82-  9.27
   cutaway  14.52- 22.52
-  cutaway  34.27- 36.90
-  cutaway  44.07- 48.37
-  cutaway  49.13- 53.00
-  cutaway  57.27- 63.78
-  cutaway  63.78- 67.83
-  cutaway  75.42- 86.12
-  cutaway  91.35- 94.83
-  cutaway 110.43-114.95
+  cutaway  38.77- 41.40
+  cutaway  45.22- 47.43
+  cutaway  54.60- 58.90
+  cutaway  59.67- 63.53
+  cutaway  67.80- 74.32
+  cutaway  74.32- 78.37
+  cutaway  82.58- 85.95
+  cutaway  85.95- 96.65
+  cutaway  99.05-101.37
+  cutaway 109.87-115.52
+  cutaway 124.65-128.13
+  cutaway 146.03-150.55

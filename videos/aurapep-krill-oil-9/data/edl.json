@@ -13,7 +13,7 @@
  },
  "titles": [],
  "_owner_decisions": "1 Nov: owner shared Drive folder 1irOVOgs… 'Aurapep Krill Oil' with a new talking clip VID_20261101_170532 (Krill #9 = Aurapep Krill Oil video 9). 28 Okt: opening = one premium motion-text hook, no transition effect. 26 Okt: brief premium (no invented claims or prices).",
- "_note": "Aurapep Krill Oil #9 — A-roll assets/a.mp4 = VID_20261101_170532 (rear camera, not mirrored; lavalier, -11.8 LUFS). B-roll assets/b.mp4 = the batch pool rebuilt from Drive (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8; same layout as videos/_batch-krill/plan.md). Claims are the owner's own words only (omega 3 / EPA for the heart / DHA for eyes and brain, astaxanthin, vitamin D3, K2; his wife's experience). Promo: the owner's 11.11 mention and 'beli 2-3 buat stock'; no price. Dropped: the age lines 173-193 (length), opening false starts, 'untuk pencerahan' (unclear), restarts, age ramble, date chatter.",
+ "_note": "Aurapep Krill Oil #9 — A-roll assets/a.mp4 = VID_20261101_170532 (rear camera, not mirrored; lavalier, -11.8 LUFS). B-roll assets/b.mp4 = the batch pool rebuilt from Drive (A 092840 0-90.46, B 091344 90.46-129.79, C 091830 129.79-206.8; same layout as videos/_batch-krill/plan.md). Claims are the owner's own words only (omega 3 / EPA for the heart / DHA for eyes and brain, astaxanthin, vitamin D3, K2; his wife's experience). Promo: the owner's 11.11 mention and 'beli 2-3 buat stock'; no price. Owner 1 Nov: keep every point — only stumbles, repeats and fillers are cut; overlays favour product close-ups and the owner using the product.",
  "segments": [
   {
    "id": "S01",
@@ -34,10 +34,18 @@
   {
    "id": "S03",
    "in": 49.6,
-   "out": 55.5,
+   "out": 59.35,
    "zoom": 1.0,
-   "text": "Jadi kita kena pastikan saluran darah tu lancar, ke jantung tu lancar.",
-   "note": "'untuk apa … pencerahan' (unclear) dropped"
+   "text": "Jadi kita kena pastikan saluran darah tu lancar, ke jantung tu lancar, untuk apa? Untuk pencegahan lah.",
+   "note": "repeated 'untuk pencegahan' dropped"
+  },
+  {
+   "id": "S03b",
+   "in": 61.4,
+   "out": 63.65,
+   "zoom": 1.0,
+   "text": "Masalahnya tak ada signal, itu yang kita takut.",
+   "note": ""
   },
   {
    "id": "S04",
@@ -48,12 +56,28 @@
    "note": ""
   },
   {
+   "id": "S04b",
+   "in": 75.6,
+   "out": 80.1,
+   "zoom": 1.0,
+   "text": "Tapi saya nak bagitahu dekat anda semua,",
+   "note": "'Tapi jangan,' stumble dropped"
+  },
+  {
+   "id": "S04c",
+   "in": 84.85,
+   "out": 87.9,
+   "zoom": 1.0,
+   "text": "dalam tu ada fish oil juga.",
+   "note": "repeated 'selain daripada saya nak beritahu kepada anda semua' dropped"
+  },
+  {
    "id": "S05",
    "in": 89.6,
    "out": 108.2,
    "zoom": 1.0,
    "text": "Macam mana kalau anda boleh dapatkan khasiat omega 3, plus lagi EPA dan DHA? Apa itu EPA? EPA bantu sokong kita punya jantung kita. Dan DHA pula, DHA untuk bantu kita punya mata dan otak kita.",
-   "note": "74-89 restart ('tapi jangan … anda semua') dropped"
+   "note": ""
   },
   {
    "id": "S06",
@@ -96,12 +120,44 @@
    "note": "owner's own family experience"
   },
   {
+   "id": "S10b",
+   "in": 157.9,
+   "out": 163.6,
+   "zoom": 1.0,
+   "text": "Ni, insyaAllah kita bantu. Saya pun bagitahu dia, boleh amalkan.",
+   "note": ""
+  },
+  {
+   "id": "S10c",
+   "in": 163.9,
+   "out": 167.2,
+   "zoom": 1.0,
+   "text": "So, Alhamdulillah membantu.",
+   "note": ""
+  },
+  {
    "id": "S11",
    "in": 167.5,
    "out": 172.4,
    "zoom": 1.0,
    "text": "Alhamdulillah bila dah amalkan, pelan-pelan semakin, semakin baik insyaAllah.",
    "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 172.4,
+   "out": 179.7,
+   "zoom": 1.0,
+   "text": "So Alhamdulillah. Okay, saya sendiri pun ambil. Terutamanya umur 40 tahun ni, saya dah 40.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 183.5,
+   "out": 193.2,
+   "zoom": 1.0,
+   "text": "Okay, yang mana umur dah masuk 4 series tu, beringat dah. Tak tunggu 4 series, 3 series pun dah boleh, dah better beringat awal-awal.",
+   "note": "unclear 'bila dah masuk 40 ni lagilah …' (180.8-183.3) dropped"
   },
   {
    "id": "S14",
@@ -114,9 +170,9 @@
   {
    "id": "S15",
    "in": 197.9,
-   "out": 200.8,
+   "out": 203.1,
    "zoom": 1.0,
-   "text": "Jangan lupa nanti 11.11.",
+   "text": "Jangan lupa nanti 11.11. Ni dah berapa bulan? Satu. Lagi 10 hari.",
    "note": ""
   },
   {
@@ -125,7 +181,7 @@
    "out": 206.95,
    "zoom": 1.0,
    "text": "Promo 11.11 ni lagi dahsyat.",
-   "note": "'Ni dah berapa bulan, satu, lagi 10 hari' dropped"
+   "note": ""
   },
   {
    "id": "S17",
@@ -141,7 +197,7 @@
    "out": 239.3,
    "zoom": 1.04,
    "text": "Boleh hadiahkan juga untuk ayah, ibu, isteri ke suami. Okay, dapatkan di beg kuning. InsyaAllah berbaloi.",
-   "note": "CTA"
+   "note": "CTA (the first, repeated 'hadiahkan untuk ayah, isteri, ibu' 217.7-230 dropped)"
   }
  ],
  "hook_text": {
@@ -178,7 +234,7 @@
     "end"
    ],
    "src": 99.0,
-   "note": "B: botol atas rumput",
+   "note": "B: botol atas rumput (close-up)",
    "push": [
     1.0,
     1.06
@@ -188,15 +244,15 @@
   {
    "id": "B2",
    "from": [
-    "S05",
-    "epa#2"
+    "S04c",
+    "start"
    ],
    "to": [
-    "S05",
-    "dan#2"
+    "S04c",
+    "end"
    ],
-   "src": 54.0,
-   "note": "A: softgel ke kamera",
+   "src": 108.0,
+   "note": "B: buka botol, softgel",
    "push": [
     1.0,
     1.06
@@ -205,6 +261,24 @@
   },
   {
    "id": "B3",
+   "from": [
+    "S05",
+    "epa#2"
+   ],
+   "to": [
+    "S05",
+    "dan#2"
+   ],
+   "src": 102.0,
+   "note": "B: botol dekat (close-up)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
    "from": [
     "S05",
     "dha#3"
@@ -222,7 +296,7 @@
    "origin": "50% 45%"
   },
   {
-   "id": "B4",
+   "id": "B5",
    "from": [
     "S07",
     "start"
@@ -232,7 +306,7 @@
     "end"
    ],
    "src": 189.5,
-   "note": "C: label botol",
+   "note": "C: label botol (close-up)",
    "push": [
     1.0,
     1.08
@@ -240,7 +314,7 @@
    "origin": "50% 45%"
   },
   {
-   "id": "B5",
+   "id": "B6",
    "from": [
     "S08",
     "start"
@@ -250,25 +324,7 @@
     "mana"
    ],
    "src": 114.0,
-   "note": "B: botol dan softgel",
-   "push": [
-    1.0,
-    1.06
-   ],
-   "origin": "50% 45%"
-  },
-  {
-   "id": "B6",
-   "from": [
-    "S14",
-    "dapatkan"
-   ],
-   "to": [
-    "S14",
-    "end"
-   ],
-   "src": 117.5,
-   "note": "B: botol dan softgel",
+   "note": "B: botol dan softgel (close-up)",
    "push": [
     1.0,
     1.06
@@ -278,6 +334,78 @@
   {
    "id": "B7",
    "from": [
+    "S09",
+    "saya"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 166.0,
+   "note": "C: ambil softgel, minum (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B8",
+   "from": [
+    "S10b",
+    "saya"
+   ],
+   "to": [
+    "S10b",
+    "end"
+   ],
+   "src": 195.5,
+   "note": "C: minum air selepas softgel (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B9",
+   "from": [
+    "S12",
+    "okay"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 57.5,
+   "note": "A: softgel ke kamera, telan (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B10",
+   "from": [
+    "S14",
+    "dapatkan"
+   ],
+   "to": [
+    "S14",
+    "end"
+   ],
+   "src": 117.5,
+   "note": "B: botol dan softgel (close-up)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B11",
+   "from": [
     "S18",
     "start"
    ],
@@ -286,7 +414,7 @@
     "dapatkan"
    ],
    "src": 96.0,
-   "note": "B: botol atas rumput",
+   "note": "B: botol atas rumput (close-up)",
    "push": [
     1.0,
     1.06
