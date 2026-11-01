@@ -114,13 +114,45 @@
   {
    "id": "S10",
    "in": 145.8,
-   "out": 157.5,
+   "out": 146.85,
    "zoom": 1.0,
-   "text": "Isteri saya pun, ceritanya tak sedap mata, tak sedap. Bila drive, mata tak sedap. Kadang-kadang rasa nak fikir tu jadi loading.",
-   "note": "owner's own family experience"
+   "text": "Isteri saya pun,",
+   "note": "owner's own family experience; filler 'apa' cut out of this sentence (owner 1 Nov)"
+  },
+  {
+   "id": "S10a",
+   "in": 147.4,
+   "out": 150.55,
+   "zoom": 1.0,
+   "text": "ceritanya tak sedap mata, tak sedap.",
+   "note": ""
   },
   {
    "id": "S10b",
+   "in": 151.32,
+   "out": 152.8,
+   "zoom": 1.0,
+   "text": "Bila drive, mata tak sedap.",
+   "note": ""
+  },
+  {
+   "id": "S10c",
+   "in": 153.3,
+   "out": 155.4,
+   "zoom": 1.0,
+   "text": "Kadang-kadang rasa",
+   "note": ""
+  },
+  {
+   "id": "S10d",
+   "in": 156.1,
+   "out": 157.5,
+   "zoom": 1.0,
+   "text": "nak fikir tu jadi loading.",
+   "note": ""
+  },
+  {
+   "id": "S10e",
    "in": 157.9,
    "out": 163.6,
    "zoom": 1.0,
@@ -128,12 +160,13 @@
    "note": ""
   },
   {
-   "id": "S10c",
-   "in": 163.9,
-   "out": 167.2,
+   "id": "S10f",
+   "in": 163.6,
+   "out": 166.5,
    "zoom": 1.0,
-   "text": "So, Alhamdulillah membantu.",
-   "note": ""
+   "text": "Alhamdulillah membantu.",
+   "note": "filler apa after it cut; played uncut so the soft membantu survives",
+   "keep_pauses": true
   },
   {
    "id": "S11",
@@ -352,11 +385,11 @@
   {
    "id": "B8",
    "from": [
-    "S10b",
+    "S10e",
     "saya"
    ],
    "to": [
-    "S10b",
+    "S10e",
     "end"
    ],
    "src": 195.5,
@@ -454,7 +487,7 @@
     "start"
    ],
    "to": [
-    "S10",
+    "S10d",
     "end"
    ],
    "note": "AI: isteri memandu waktu malam"
