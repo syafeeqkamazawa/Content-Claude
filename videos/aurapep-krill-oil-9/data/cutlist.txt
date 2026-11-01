@@ -1,8 +1,8 @@
-TOTAL 153.65s  (23 A-roll segments, 11 B-roll shots, 3 photos, 12 audio fx, 183 caption cards)
+TOTAL 153.65s  (23 A-roll segments, 11 B-roll shots, 3 photos, 12 audio fx, 182 caption cards)
 
   0.00-  9.27  S01  src  17.00- 28.30  (5 pc)  Antara benda yang menakutkan, korang pernah tengok tak video yang tiba-tiba orang jatuh, tiba-tiba main futsal jatuh. Mengejut.
   9.27- 25.40  S02  src  28.55- 48.10  (7 pc)  Sebab apa? Sebab sebenarnya antara benda yang merisaukan kita, saluran darah ni yang ke jantung tu, bila dia nak berhenti ataupun dia dah semakin slow nak stop tu, dia tak ada signal. Itu masalah, itu yang menakutkan.
- 25.40- 33.00  S03  src  49.60- 59.35  (5 pc)  Jadi kita kena pastikan saluran darah tu lancar, ke jantung tu lancar, untuk apa? Apa? Untuk pencegahan lah.
+ 25.40- 33.00  S03  src  49.60- 59.35  (5 pc)  Jadi kita kena pastikan saluran darah tu lancar, ke jantung tu lancar, untuk apa? Untuk pencegahan lah.
  33.00- 34.97  S03b  src  61.40- 63.65  (2 pc)  Masalahnya tak ada signal, itu yang kita takut.
  34.97- 41.40  S04  src  66.50- 74.30  (5 pc)  Biasanya, kalau berkaitan dengan saluran darah jantung ni, omega 3 betul. Fish oil, betul.
  41.40- 45.22  S04b  src  75.60- 80.10  (3 pc)  Tapi saya nak bagitahu dekat anda semua,
