@@ -81,11 +81,11 @@
   },
   {
    "id": "S09",
-   "in": 229.2,
+   "in": 229.95,
    "out": 235.25,
    "zoom": 1.0,
    "text": "Syafiq suka ambil yang ni sebab dia cepat serap dan harga dia sama macam ayam gepuk.",
-   "note": "take 2 (take 1 at 210-216 stops after 'macam')"
+   "note": "take 2 (take 1 at 210-216 stops after 'macam'; the false-start 'Syafiq, eh' at 229.2 cut)"
   },
   {
    "id": "S10",
@@ -139,11 +139,11 @@
    "id": "i_muka",
    "from": [
     "S01",
-    "ini#2"
+    "ini#3"
    ],
    "to": [
     "S01",
-    "ini#3"
+    "ini#4"
    ],
    "img": "assets/photos/i_muka.jpg",
    "x": 586,
@@ -155,11 +155,11 @@
    "id": "i_bawahmata",
    "from": [
     "S01",
-    "ini#3"
+    "ini#4"
    ],
    "to": [
     "S01",
-    "ini#4"
+    "ini#5"
    ],
    "img": "assets/photos/i_bawahmata.jpg",
    "x": 24,
@@ -171,11 +171,11 @@
    "id": "i_tengkuk",
    "from": [
     "S01",
-    "ini#4"
+    "ini#5"
    ],
    "to": [
     "S01",
-    "ini#5"
+    "ini#6"
    ],
    "img": "assets/photos/i_tengkuk.jpg",
    "x": 586,
@@ -187,33 +187,17 @@
    "id": "i_lesu",
    "from": [
     "S01",
-    "ini#5"
-   ],
-   "to": [
-    "S01",
-    "ini#6"
-   ],
-   "img": "assets/photos/i_lesu.jpg",
-   "x": 24,
-   "y": 60,
-   "size": 470,
-   "pos": "50% 40%"
-  },
-  {
-   "id": "i_berat",
-   "from": [
-    "S01",
     "ini#6"
    ],
    "to": [
     "S01",
     "end"
    ],
-   "img": "assets/photos/i_berat.jpg",
-   "x": 586,
+   "img": "assets/photos/i_lesu.jpg",
+   "x": 24,
    "y": 60,
    "size": 470,
-   "pos": "50% 45%"
+   "pos": "50% 40%"
   },
   {
    "id": "i_dagu",
@@ -226,7 +210,7 @@
     "perut"
    ],
    "img": "assets/photos/i_dagu.jpg",
-   "x": 24,
+   "x": 586,
    "y": 60,
    "size": 470,
    "pos": "60% 28%"
@@ -239,13 +223,29 @@
    ],
    "to": [
     "S02",
-    "tapi"
+    "bukan"
    ],
    "img": "assets/photos/i_perut.jpg",
-   "x": 586,
+   "x": 24,
    "y": 60,
    "size": 470,
    "pos": "50% 42%"
+  },
+  {
+   "id": "i_berat",
+   "from": [
+    "S02",
+    "bukan"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "img": "assets/photos/i_berat.jpg",
+   "x": 586,
+   "y": 60,
+   "size": 470,
+   "pos": "50% 45%"
   }
  ],
  "broll": [
