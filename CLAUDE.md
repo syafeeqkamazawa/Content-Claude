@@ -66,6 +66,15 @@ otherwise for a specific video.
   T+ timer. Board and panel ghost-jump (blur out, blur in) when they must
   move; the panel ghosts out if there is no clear spot. Template:
   `videos/aurapep-krill-oil-2/` (build.py section 5, flap_place.py).
+- **2 Nov reference style** (Nature's Key Magnesium #2, owner: "Overlay mesti
+  sama dengan video rujukan overlay cuma masih ikut peraturan aurat. Caption
+  pula ikut video rujukan caption" — refs in Drive folder 1WZgRJ7i… "Hari ni"):
+  captions one word at a time, upper case, Archivo Black (OFL), white with a
+  black outline and a halftone-dot halo, centred low (~73% height), hard cuts
+  (EDL `caption_style: "word"`); overlays = square photo insets in the top
+  corners while the speaker lists symptoms (EDL `insets`), full-screen
+  cinematic cutaways, white-studio capsule shots. Template:
+  `videos/natures-key-mg-2/`. Ask the owner before using it on other videos.
 - Older videos (before 21 Oct) used softer sentence-case captions in Plus
   Jakarta Sans at about 56px; don't go back to that unless the owner asks.
 
