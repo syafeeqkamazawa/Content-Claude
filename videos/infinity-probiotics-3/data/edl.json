@@ -1,0 +1,528 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word2",
+ "fs_style": "ref",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "2 Nov: Drive folder 1xPV9TTz… 'Infinity Probiotics Plus' — 'Kali ni caption style ikut sama seratus peratus macam dalam gambar title Guna caption style sama macam ni.jpg. Dan style overlay mesti sama seratus peratus dengan video title Ikut video ni untuk overlay.mp4' (aurat rule still applies). Caption copied from the still: one upper-case word at a time, plain white heavy sans (Montserrat ExtraBold, OFL), soft dark shadow, no outline, centred at ~68 % height, hard cuts. Overlay style copied from the reference: frequent full-screen cutaways that land with a zoom blur (watercolour gut illustration, lifestyle shots, macro food and water, acne close-up), product macro in hands, a bold italic 'INFINITY / PROBIOTIK PLUS' title with a yellow bar when the product is named, a white article card dropping from the top, and small italic '400 ribu telah terjual' sales text beside the head. 1 Nov: keep every point; product close-ups and the owner using the product. 28 Oct: premium motion-text hook, no transition effect.",
+ "_note": "Infinity Probiotics Plus #3 — A-roll assets/a.mp4 = VID_20261102_233818 (front camera saved mirrored — label reads 'sulP scitoiborP' — flipped back in CSS; audio gated, already clean). B-roll assets/b.mp4 = VID_20261014_001726 (muted; also used in infinity-probiotics-plus and -2): box front 3-10, bottle in hand 14-34, opening 35-38, capsules into the cap and palm 40-68. Every point kept; only repeats/false starts dropped. The info card only restates the owner's own line (usus ↔ 80% masalah). '400 ribu terjual' and 'berkesan untuk ramai orang' are the owner's own words.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 8.7,
+   "out": 23.35,
+   "zoom": 1.0,
+   "text": "Kalau najis korang berketul macam ni, dan muka korang macam ni, badan korang ada water retention tau, dan ada banyak toksin yang tersangkut dalam badan korang. Dan bila korang mula nampak muka makin bloated,",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 27.85,
+   "out": 36.15,
+   "zoom": 1.0,
+   "text": "ya korang minum banyak air, tapi korang masih dahaga. Itulah tanda badan korang tak cukup nutrien yang diperlukan.",
+   "note": "false start 'ya korang minum banyak' (23.9-25.4) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 41.8,
+   "out": 45.9,
+   "zoom": 1.0,
+   "text": "Itu yang jadi kembung perut dan lately korang sentiasa rasa penat.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 57.2,
+   "out": 71.0,
+   "zoom": 1.0,
+   "text": "Dan mungkin korang fikir minum air lebih banyak dan makan lebih sihat tu akan bantu. Tapi tak. Sebab kebanyakan makanan kita dan sayuran kita beracun dan tak cukup nutrien yang badan kita perlukan.",
+   "note": "second take (first cut off at 46.4-49.7)"
+  },
+  {
+   "id": "S05",
+   "in": 77.9,
+   "out": 82.4,
+   "zoom": 1.0,
+   "text": "Even air filter pun yang kita minum dekat rumah tu tak cukup mineral.",
+   "note": "'Even air filter pun' false start (75.2) dropped"
+  },
+  {
+   "id": "S06",
+   "in": 97.5,
+   "out": 104.35,
+   "zoom": 1.0,
+   "text": "So sebelum korang minum air lagi banyak, yang mana saya tak recommend korang buat macam tu, korang cuba Infinity Probiotic Plus.",
+   "note": "second take (first, 82.9-92.4, trails off)"
+  },
+  {
+   "id": "S07",
+   "in": 105.4,
+   "out": 113.65,
+   "zoom": 1.0,
+   "text": "Probiotic ni akan bantu untuk bersihkan usus. Dan ramai tak tahu yang usus kita ni berkaitan dengan 80% masalah yang badan kita ada.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 119.0,
+   "out": 136.5,
+   "zoom": 1.0,
+   "text": "Bila usus kita sihat, dia akan bantu untuk flush toksin daripada badan kita. Bantu dengan sistem imun kita. Bantu dengan kolesterol kita. Even fokus kita, mood kita. Muka breakout ni pun berkaitan dengan kesihatan usus.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 144.6,
+   "out": 157.1,
+   "zoom": 1.0,
+   "text": "Probiotic Plus daripada Infinity ni dah komplit dengan probiotic dan prebiotic sekali. Jadi memang sangat sesuai untuk orang yang ada masalah water retention, masalah muka sembab, perut bloated.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 157.45,
+   "out": 164.15,
+   "zoom": 1.0,
+   "text": "Brand Infinity ni dah lebih 400 ribu dah terjual. So insya-Allah memang dah berkesan untuk ramai orang.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 173.25,
+   "out": 175.9,
+   "zoom": 1.0,
+   "text": "Dan lebih convenient untuk konsisten ambil setiap hari.",
+   "note": "second take (first at 167.6)"
+  },
+  {
+   "id": "S12",
+   "in": 187.6,
+   "out": 194.2,
+   "zoom": 1.0,
+   "text": "So kalau korang dah rasa penat, hadap muka breakout, boleh try probiotic daripada Infinity ni.",
+   "note": "two false starts (175.9, 184.2) dropped"
+  },
+  {
+   "id": "S13",
+   "in": 213.36,
+   "out": 216.7,
+   "zoom": 1.04,
+   "text": "Kalau stok masih ada dan korang ada rezeki, beg kuning ada dekat bawah.",
+   "note": "CTA (earlier takes 194-210 and the 'Ni' dropped)"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Infinity Probiotic Plus",
+  "lines": [
+   "Badan simpan air",
+   "& toksin?"
+  ],
+  "accent_words": [
+   "toksin?"
+  ],
+  "to": 3.4,
+  "accent": "#F2B705",
+  "accent2": "#2BB3C0",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S13",
+   "beg",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S07",
+    "bersihkan"
+   ],
+   "to": [
+    "S07",
+    "dan"
+   ],
+   "src": 14.5,
+   "note": "001726: botol di tangan (product close-up)",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "jadi"
+   ],
+   "src": 49.0,
+   "note": "001726: botol + kapsul di tapak tangan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 55%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S10",
+    "so"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 7.0,
+   "note": "001726: kotak depan",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 60.0,
+   "note": "001726: kapsul di penutup + botol di tapak tangan (guna produk; zoomed so the shelf behind stays soft)",
+   "push": [
+    1.22,
+    1.3
+   ],
+   "origin": "50% 60%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S12",
+    "boleh"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 26.0,
+   "note": "001726: botol di tapak tangan",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "najis",
+   "from": [
+    "S01",
+    "najis"
+   ],
+   "to": [
+    "S01",
+    "muka"
+   ],
+   "note": "AI: najis berketul (abstrak, studio putih)"
+  },
+  {
+   "id": "muka",
+   "from": [
+    "S01",
+    "muka"
+   ],
+   "to": [
+    "S01",
+    "badan"
+   ],
+   "note": "AI: muka sembab (profil)"
+  },
+  {
+   "id": "usus",
+   "from": [
+    "S01",
+    "banyak"
+   ],
+   "to": [
+    "S01",
+    "dan#3"
+   ],
+   "note": "AI: ilustrasi usus + toksin (watercolour)"
+  },
+  {
+   "id": "sembab",
+   "from": [
+    "S01",
+    "nampak"
+   ],
+   "to": [
+    "S02",
+    "tapi"
+   ],
+   "note": "AI: muka sembab di cermin"
+  },
+  {
+   "id": "dahaga",
+   "from": [
+    "S02",
+    "tapi"
+   ],
+   "to": [
+    "S02",
+    "itulah"
+   ],
+   "note": "AI: minum air, masih dahaga"
+  },
+  {
+   "id": "kembung",
+   "from": [
+    "S03",
+    "kembung"
+   ],
+   "to": [
+    "S03",
+    "dan"
+   ],
+   "note": "AI: kembung perut"
+  },
+  {
+   "id": "penat",
+   "from": [
+    "S03",
+    "lately"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: penat"
+  },
+  {
+   "id": "air",
+   "from": [
+    "S04",
+    "minum"
+   ],
+   "to": [
+    "S04",
+    "makan"
+   ],
+   "note": "AI: air dituang ke gelas"
+  },
+  {
+   "id": "makan",
+   "from": [
+    "S04",
+    "makan"
+   ],
+   "to": [
+    "S04",
+    "tapi"
+   ],
+   "note": "AI: makan sihat"
+  },
+  {
+   "id": "sayur",
+   "from": [
+    "S04",
+    "makanan"
+   ],
+   "to": [
+    "S04",
+    "beracun"
+   ],
+   "note": "AI: sayur dipotong"
+  },
+  {
+   "id": "racun",
+   "from": [
+    "S04",
+    "beracun"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: racun perosak disembur"
+  },
+  {
+   "id": "filter",
+   "from": [
+    "S05",
+    "air"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: air penapis di rumah"
+  },
+  {
+   "id": "flush",
+   "from": [
+    "S08",
+    "flush"
+   ],
+   "to": [
+    "S08",
+    "bantu#2"
+   ],
+   "note": "AI: ilustrasi usus dibersihkan"
+  },
+  {
+   "id": "imun",
+   "from": [
+    "S08",
+    "bantu#2"
+   ],
+   "to": [
+    "S08",
+    "bantu#3"
+   ],
+   "note": "AI: sel imun (3D)"
+  },
+  {
+   "id": "kolesterol",
+   "from": [
+    "S08",
+    "bantu#3"
+   ],
+   "to": [
+    "S08",
+    "even"
+   ],
+   "note": "AI: kolesterol dalam salur darah (3D)"
+  },
+  {
+   "id": "fokus",
+   "from": [
+    "S08",
+    "even"
+   ],
+   "to": [
+    "S08",
+    "mood"
+   ],
+   "note": "AI: fokus bekerja"
+  },
+  {
+   "id": "mood",
+   "from": [
+    "S08",
+    "mood"
+   ],
+   "to": [
+    "S08",
+    "muka"
+   ],
+   "note": "AI: mood tenang"
+  },
+  {
+   "id": "jerawat",
+   "from": [
+    "S08",
+    "muka"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "note": "AI: muka breakout"
+  },
+  {
+   "id": "bloated",
+   "from": [
+    "S09",
+    "retention"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "note": "AI: perut bloated"
+  }
+ ],
+ "brand_title": [
+  {
+   "from": [
+    "S06",
+    "infinity"
+   ],
+   "to": [
+    "S07",
+    "bantu"
+   ],
+   "top": "INFINITY",
+   "bar": "PROBIOTIK PLUS",
+   "y": 820
+  }
+ ],
+ "infocard": [
+  {
+   "from": [
+    "S07",
+    "ramai"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "body": "Ramai tak tahu, <b>usus</b> kita berkaitan dengan <b>80%</b> masalah yang badan kita ada. Bila usus sihat, ia bantu:",
+   "items": [
+    "Flush toksin daripada badan",
+    "Sistem imun",
+    "Kolesterol",
+    "Fokus dan mood",
+    "Muka breakout"
+   ]
+  }
+ ],
+ "stamp": [
+  {
+   "from": [
+    "S10",
+    "400"
+   ],
+   "to": [
+    "S10",
+    "so"
+   ],
+   "text": "400 ribu telah terjual",
+   "x": 430,
+   "y": 860
+  }
+ ],
+ "theme": {
+  "key": "#F2B705",
+  "brand": "#2BB3C0"
+ },
+ "brand_words": [
+  "infinity",
+  "probiotic",
+  "plus"
+ ],
+ "keywords": [],
+ "flap_force": []
+}

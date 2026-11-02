@@ -1,8 +1,8 @@
 #!/bin/bash
-# Generates the AI cutaways for Nature's Key Magnesium #2 (owner's ChatGPT/Codex account). Run from the project root.
+# Generates the AI cutaways for Infinity Probiotics Plus #3 (owner's ChatGPT/Codex account). Run from the project root.
+# Subjects follow the owner's overlay reference (Ikut video ni untuk overlay.mp4); every person covers aurat.
 export PATH=$HOME/.local/bin:$PATH NODE_USE_ENV_PROXY=1
-MOD="Photorealistic, natural light, candid lifestyle photography, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition."
-PPL="Everyone is modestly dressed with full aurat coverage (no shorts, no bare arms or legs). Malaysian Malay people."
+MOD="Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition."
 gen () {
   name=$1; shift
   for i in 1 2 3 4; do
@@ -17,21 +17,24 @@ gen () {
 want () { [ -z "$ONLY" ] || [[ "$ONLY" == *" $1 "* ]]; }
 
 MEN="A Malay man in his thirties, fully clothed in a long-sleeved shirt and long trousers to the ankle (no bare skin except face, neck and hands)."
-SQ="Square 1:1 crop composition, subject centred, clean soft background."
 NOPPL="No people anywhere in the frame, no hands, no faces."
-STUDIO="Seamless pure white studio background, soft diffused light, gentle shadows, crisp macro product photography, no text, no labels, no logos."
-want i_muka && gen i_muka "Close-up portrait of a Malay man in his thirties with a puffy round swollen face and full cheeks, wearing a long-sleeved shirt, neutral expression, plain light wall. $MEN $SQ"
-want i_perut && gen i_perut "A Malay man in his thirties standing side-on, his round belly bulging under a tight long-sleeved shirt tucked into long trousers with a belt, no skin showing, plain light room. $MEN $SQ"
-want i_dagu && gen i_dagu "Side profile close-up of a Malay man in his thirties with a double chin, wearing a buttoned long-sleeved shirt with collar, plain light wall. $MEN $SQ"
-want i_bawahmata && gen i_bawahmata "Extreme close-up of the tired eyes of a Malay man with dark circles and puffy eye bags under the eyes, natural skin texture, soft light. $SQ"
-want i_tengkuk && gen i_tengkuk "A Malay man in his thirties seen from behind and slightly to the side, thick neck and rounded upper back under a long-sleeved polo shirt, hand rubbing the back of his neck, plain light room. $MEN $SQ"
-want i_lesu && gen i_lesu "A Malay man in his thirties in a long-sleeved shirt slumped on a sofa with low energy, rubbing his forehead, afternoon light, living room. $MEN $SQ"
-want f_tidur && gen f_tidur "A Malay man in his thirties wearing long-sleeved pyjamas lying awake in bed at night staring at the ceiling, eyes open, bedside clock glowing, moonlight, blanket covering him up to the chest. Cinematic, vertical 9:16. $MEN"
-want f_mata && gen f_mata "Extreme macro close-up of one eye of a Malay man, the lower eyelid twitching, natural skin texture, cinematic shallow depth of field, vertical 9:16."
-want f_telinga && gen f_telinga "Close-up of a Malay man in his thirties wearing a long-sleeved shirt pressing his hand against his ear with a pained expression as if hearing a ringing sound, shallow depth of field, cinematic, vertical 9:16. $MEN"
-want f_stres && gen f_stres "A Malay man in his thirties in a long-sleeved office shirt and long trousers at his desk, head in his hands, stressed and frustrated, papers and laptop, moody window light, cinematic, vertical 9:16. $MEN"
-want p_kapsul && gen p_kapsul "Several white capsules tumbling out of a tilted plain white supplement bottle onto a white surface, frozen in mid-air, $STUDIO Vertical 9:16. $NOPPL"
-want p_zinc && gen p_zinc "Cream-coloured round tablets falling out of a tilted plain amber glass bottle onto a white surface, frozen in mid-air, $STUDIO Vertical 9:16. $NOPPL"
-want p_softgel && gen p_softgel "Golden softgel capsules falling out of a tilted plain amber glass bottle onto a white surface, frozen in mid-air, $STUDIO Vertical 9:16. $NOPPL"
-want i_berat && gen i_berat "A Malay man in his thirties in a long-sleeved shirt and long trousers to the ankle with socks standing on a bathroom weighing scale, looking down at it worried, clean bathroom. $MEN $SQ"
+want dahaga && gen dahaga "A Malay man in his thirties in a long-sleeved t-shirt and long trousers standing in a bright kitchen, gulping a big glass of water, still looking thirsty, morning light. $MEN"
+want kembung && gen kembung "A Malay man in his thirties in a long-sleeved hoodie and long trousers to the ankle sitting on a white sofa, both hands pressing his bloated stomach, uncomfortable grimace, bright living room. $MEN"
+want penat && gen penat "A Malay man in his thirties wearing long-sleeved pyjamas and long pyjama trousers sitting on the edge of his bed at night, exhausted, head lowered, warm dim bedside lamp, moody cinematic bedroom. $MEN"
+want air && gen air "Close-up of clear water being poured from a glass jug into a tall clear drinking glass on a white table, splashes and bubbles, bright clean soft light. $NOPPL"
+want makan && gen makan "A Malay man in his thirties in a long-sleeved sweater eating a healthy salad with grilled chicken at a dining table, fork in hand, warm soft light, plates and water glass on the table. $MEN"
+want sayur && gen sayur "Overhead close-up of freshly chopped tomatoes, green peppers and cucumbers in a large bowl, vivid colours, natural light. $NOPPL"
+want racun && gen racun "A farm worker fully covered in a long-sleeved protective suit, long trousers, boots, gloves, mask and hat spraying pesticide mist over rows of leafy green vegetables in a greenhouse, cinematic haze. Face covered by the mask."
+want filter && gen filter "A home kitchen water filter tap filling a clear glass with water, stainless steel sink, soft daylight, close-up. $NOPPL"
+want usus && gen usus "Soft watercolour medical illustration of the human digestive system, stomach and intestines in pink and purple tones, dark green clouds of toxins drifting around the gut, a pale translucent body outline, white background, artistic and clean. No text, no labels."
+want flush && gen flush "Soft watercolour medical illustration of healthy pink human intestines glowing gently, clear light flowing through the gut as dark toxin particles are washed out and away, white background, artistic and clean. No text, no labels."
+want imun && gen imun "Cinematic 3D microscopic render of round white immune cells and tiny glowing probiotic bacteria inside the soft pink lining of the gut, shallow depth of field. No text, no labels."
+want kolesterol && gen kolesterol "Cinematic 3D medical render of a blood vessel cross-section with red blood cells flowing and yellow fatty cholesterol plaque on the artery wall, shallow depth of field. No text, no labels."
+want fokus && gen fokus "A Malay man in his thirties in a long-sleeved shirt sitting at a wooden desk with a laptop and a cup of coffee, hand on his chin, deep in thought, warm window light, bookshelf behind. $MEN"
+want mood && gen mood "A Malay man in his thirties in a long-sleeved shirt sitting by a sunny window at home, relaxed calm smile, holding a mug, warm golden morning light. $MEN"
+want jerawat && gen jerawat "Extreme close-up of the cheek of a Malay man in his thirties with red acne breakout pimples on his skin, natural skin texture, soft side light, shallow depth of field."
+want sembab && gen sembab "A Malay man in his thirties in a long-sleeved shirt looking at his puffy swollen face in the bathroom mirror in the morning, touching his cheek, soft light. $MEN"
+want bloated && gen bloated "A Malay man in his thirties in a long-sleeved shirt and long trousers standing in a kitchen, one hand on his swollen bloated belly over his shirt, uncomfortable, after a meal, plates on the counter. $MEN"
+want najis && gen najis "Studio photo of small dark brown hard round lumpy pellets scattered and floating on a seamless pure white background, soft shadows, clean minimal composition, abstract and not gross. $NOPPL"
+want muka && gen muka "Side profile close-up of the lower face and neck of a Malay man in his thirties with a puffy swollen face and a double chin, wearing a crew-neck long-sleeved white t-shirt, plain bright blue studio background. $MEN"
 echo DONE

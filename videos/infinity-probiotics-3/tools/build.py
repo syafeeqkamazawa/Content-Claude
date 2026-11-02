@@ -74,7 +74,7 @@ def speech_islands(t0, t1, thr=-40, min_gap=0.12):
 
 
 # Spoken syllables for words the vowel count gets wrong.
-SYL = {"titanz": 2, "180+": 6, "180": 5, "12": 4, "18": 3, "60": 3, "aquamin": 3, "menaq7": 4, "k2": 2, "c": 1, "mixed": 1, "berries": 2, "kid": 1, "kid180": 4, "2": 2, "elderberry": 4, "cranberry": 3, "blueberry": 3, "check": 1, "check": 1, "3": 2, "12": 4, "fluoride": 3, "synergy": 3, "lysozyme": 3, "parent": 2, "check": 1, "strawberi": 3, "berry": 2, "buddies": 2}
+SYL = {"80%": 6, "400": 4, "lately": 2, "retention": 3, "convenient": 4, "probiotic": 4, "prebiotic": 4, "titanz": 2, "180+": 6, "180": 5, "12": 4, "18": 3, "60": 3, "aquamin": 3, "menaq7": 4, "k2": 2, "c": 1, "mixed": 1, "berries": 2, "kid": 1, "kid180": 4, "2": 2, "elderberry": 4, "cranberry": 3, "blueberry": 3, "check": 1, "check": 1, "3": 2, "12": 4, "fluoride": 3, "synergy": 3, "lysozyme": 3, "parent": 2, "check": 1, "strawberi": 3, "berry": 2, "buddies": 2}
 
 
 def syllables(word):
@@ -312,6 +312,9 @@ else:
     HT_CSS = ""
 
 # B-roll from video 2 (hands only, muted).
+# Owner (2 Nov, Infinity #3): "style overlay mesti sama seratus peratus dengan video" — the
+# reference's cutaways land with a zoom blur (big and soft → sharp in ~0.5 s). EDL fs_style "ref".
+REF_FS = EDL.get("fs_style") == "ref"
 cover = []  # (t0, t1) of everything full-screen over the A-roll
 for b in EDL["broll"]:
     t0, t1 = q(anchor(b["from"])), q(min(anchor(b["to"]), TOTAL))
@@ -324,7 +327,10 @@ for b in EDL["broll"]:
     origin = b.get("origin", "50% 50%")
     main_js.append(f'tl.set("#bw-{b["id"]}", {{ transformOrigin: "{origin}" }}, 0);')
     side = -1 if len(cover) % 2 else 1  # whip in from alternating sides, with motion blur
-    main_js.append(f'tl.fromTo("#bw-{b["id"]}", {{ scale: {round(z0 * 1.12, 3)}, x: {90 * side}, filter: "blur(10px)" }}, {{ scale: {z0}, x: 0, filter: "blur(0px)", duration: 0.3, ease: "power3.out" }}, {t0});')
+    if REF_FS:  # 2 Nov ref (Infinity #3): the cutaway lands with a zoom blur, no sideways whip
+        main_js.append(f'tl.fromTo("#bw-{b["id"]}", {{ scale: {round(z0 * 1.45, 3)}, filter: "blur(14px)" }}, {{ scale: {z0}, filter: "blur(0px)", duration: 0.34, ease: "power3.out" }}, {t0});')
+    else:
+        main_js.append(f'tl.fromTo("#bw-{b["id"]}", {{ scale: {round(z0 * 1.12, 3)}, x: {90 * side}, filter: "blur(10px)" }}, {{ scale: {z0}, x: 0, filter: "blur(0px)", duration: 0.3, ease: "power3.out" }}, {t0});')
     main_js.append(
         f'tl.fromTo("#bw-{b["id"]}", {{ scale: {z0} }}, {{ scale: {z1}, duration: {q(max(0.1, d - 0.34))}, ease: "power1.inOut", immediateRender: false }}, {q(t0 + 0.34)});'
     )
@@ -362,7 +368,10 @@ for k, p in enumerate(EDL["photos"]):
     if p.get("fx") == "shine":
         vis_js.append(f'tl.fromTo("#fs-{pid}-sh", {{ x: -1300, skewX: -18 }}, {{ x: 1300, skewX: -18, duration: 1.1, ease: "power2.inOut", repeat: 1, repeatDelay: 0.3 }}, {q(t0 + 0.3)});')
     # punch-in on the cut, then continuous motion for the whole shot
-    vis_js.append(f'tl.fromTo("#fs-{pid}-in", {{ scale: 1.14, opacity: 0.6 }}, {{ scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }}, {t0});')
+    if REF_FS:
+        vis_js.append(f'tl.fromTo("#fs-{pid}-in", {{ scale: 1.5, filter: "blur(16px)" }}, {{ scale: 1.0, filter: "blur(0px)", duration: 0.5, ease: "power3.out" }}, {t0});')
+    else:
+        vis_js.append(f'tl.fromTo("#fs-{pid}-in", {{ scale: 1.14, opacity: 0.6 }}, {{ scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }}, {t0});')
     if layered:
         vis_js.append(f'tl.fromTo("#fs-{pid}-bg", {{ scale: 1.1, x: {12 * side}, y: 0 }}, {{ scale: 1.15, x: {-12 * side}, y: -8, duration: {d}, ease: "none", immediateRender: false }}, {t0});')
         vis_js.append(f'tl.fromTo("#fs-{pid}-fg", {{ scale: 1.1, x: {-8 * side}, y: 6 }}, {{ scale: 1.18, x: {8 * side}, y: -10, duration: {d}, ease: "sine.inOut", immediateRender: false }}, {t0});')
@@ -466,6 +475,44 @@ for i, t in enumerate(EDL["titles"]):
         add_sfx(t.get("sfx", "pop"), t0 - 0.02, t.get("sfx_vol", 0.32))
         if t1 < TOTAL - 0.1:
             fade_out(f"#{tid}", t1)
+
+
+# Owner (2 Nov, Infinity #3) — the overlay reference's graphics:
+#  brand_title: a wide-tracked bold italic line on a yellow bar snaps together, then the brand
+#               word drops in above it (EDL "brand_title": [{from, to, top, bar, y}]);
+#  infocard:    a white article-style card drops from the top edge and covers the upper part
+#               of the frame (EDL "infocard": [{from, to, head, body, items}]) — only the
+#               owner's own words, never outside claims;
+#  stamp:       small bold italic sales text beside the head (EDL "stamp": [{from, to, text, x, y}]).
+for k, b in enumerate(EDL.get("brand_title", [])):
+    bid = f"bt{k}"
+    t0, t1 = card(f"ov-{bid}", anchor(b["from"]), anchor(b["to"]),
+                  f'<div class="bt" id="{bid}" style="top:{b.get("y", 760)}px"><div class="bt-top" id="{bid}-top">{html.escape(b["top"])}</div>'
+                  f'<div class="bt-barw"><div class="bt-bar" id="{bid}-bar"></div><div class="bt-sub" id="{bid}-sub">{html.escape(b["bar"])}</div></div></div>')
+    gfx_js.append(f'tl.fromTo("#{bid}-sub", {{ letterSpacing: "26px", opacity: 0, x: -40 }}, {{ letterSpacing: "1px", opacity: 1, x: 0, duration: 0.45, ease: "power3.out" }}, {t0});')
+    gfx_js.append(f'tl.fromTo("#{bid}-bar", {{ scaleX: 0 }}, {{ scaleX: 1, duration: 0.3, ease: "power3.out" }}, {q(t0 + 0.15)});')
+    gfx_js.append(f'tl.fromTo("#{bid}-top", {{ opacity: 0, y: -70, scale: 1.5 }}, {{ opacity: 1, y: 0, scale: 1, duration: 0.35, ease: "back.out(2.2)" }}, {q(t0 + 0.25)});')
+    gfx_js.append(f'tl.fromTo("#{bid}", {{ scale: 1 }}, {{ scale: 1.06, duration: {q(max(0.2, t1 - t0 - 0.6))}, ease: "none", immediateRender: false }}, {q(t0 + 0.6)});')
+    add_sfx("whoosh-short", t0 - 0.05, 0.3)
+    add_sfx("pop", t0 + 0.25, 0.3)
+    if t1 < TOTAL - 0.1:
+        fade_out(f"#{bid}", t1)
+for k, c in enumerate(EDL.get("infocard", [])):
+    cid = f"ic{k}"
+    items = "".join(f"<li>{html.escape(i)}</li>" for i in c.get("items", []))
+    t0, t1 = card(f"ov-{cid}", anchor(c["from"]), anchor(c["to"]),
+                  f'<div class="ic" id="{cid}"><p>{c["body"]}</p>' + (f"<ul>{items}</ul>" if items else "") + '</div>')
+    gfx_js.append(f'tl.fromTo("#{cid}", {{ y: -900 }}, {{ y: 0, duration: 0.45, ease: "power3.out" }}, {t0});')
+    gfx_js.append(f'tl.to("#{cid}", {{ y: -900, duration: 0.35, ease: "power3.in" }}, {q(t1 - 0.35)});')
+    add_sfx("whoosh-short", t0 - 0.05, 0.3)
+for k, st in enumerate(EDL.get("stamp", [])):
+    sid = f"st{k}"
+    t0, t1 = card(f"ov-{sid}", anchor(st["from"]), anchor(st["to"]),
+                  f'<div class="st" id="{sid}" style="left:{st.get("x", 560)}px; top:{st.get("y", 520)}px">{html.escape(st["text"])}</div>')
+    gfx_js.append(f'tl.fromTo("#{sid}", {{ opacity: 0, scale: 0.4 }}, {{ opacity: 1, scale: 1, duration: 0.3, ease: "back.out(2.4)" }}, {t0});')
+    add_sfx("pop", t0, 0.3)
+    if t1 < TOTAL - 0.1:
+        fade_out(f"#{sid}", t1)
 
 
 # ── 5. Captions ────────────────────────────────────────────────────────────
@@ -691,7 +738,8 @@ if PANEL:
 # case, heavy white Archivo Black with a black outline and a halftone-dot halo, centred
 # low in the frame; words switch with a hard cut (no animation), and the caption clears
 # in pauses longer than WORD_GAP.
-WORD_CAP = EDL.get("caption_style") == "word"
+WORD_CAP = EDL.get("caption_style") in ("word", "word2")
+WORD2 = EDL.get("caption_style") == "word2"
 WORD_GAP = 0.6
 if WORD_CAP:
     cap_dom, cap_js = [], []
@@ -707,6 +755,10 @@ if WORD_CAP:
             continue
         word = html.escape(w["text"].upper().strip(",.?!;:\"'"))
         if not word:
+            continue
+        if WORD2:
+            cap_dom.append(f'<div class="clip wc2" id="wc{cap_id}" data-start="{t0}" data-duration="{q(t1 - t0)}" data-track-index="0">{word}</div>')
+            cap_id += 1
             continue
         cap_dom.append(
             f'<div class="clip wc" id="wc{cap_id}" data-start="{t0}" data-duration="{q(t1 - t0)}" data-track-index="0">'
@@ -847,6 +899,24 @@ def subcomp(comp_id, root_id, css, dom_items, js_items):
 """
 
 
+CSS_GFX += """
+@font-face { font-family: "MontserratI"; src: url("assets/fonts/Montserrat-Italic-latin.woff2") format("woff2");
+  font-weight: 100 900; font-style: italic; font-display: block; }
+.bt { position: absolute; left: 0; width: 1080px; text-align: center; transform-origin: 50% 50%; }
+.bt-top { font-family: "MontserratI"; font-style: italic; font-weight: 900; font-size: 104px; line-height: 1; color: #FFFFFF;
+  letter-spacing: 1px; text-shadow: 6px 7px 0 rgba(20,20,20,.85), 0 6px 22px rgba(0,0,0,.4); }
+.bt-barw { position: relative; display: inline-block; margin-top: 6px; padding: 6px 30px 10px; }
+.bt-bar { position: absolute; inset: 0; background: #F2B705; transform: skewX(-12deg); transform-origin: 0% 50%; box-shadow: 0 8px 20px rgba(0,0,0,.3); }
+.bt-sub { position: relative; font-family: "MontserratI"; font-style: italic; font-weight: 900; font-size: 58px; line-height: 1.05; color: #FFFFFF;
+  letter-spacing: 1px; text-shadow: 4px 4px 0 rgba(30,30,30,.9); white-space: nowrap; }
+.ic { position: absolute; left: 0; top: 0; width: 1080px; background: #FFFFFF; padding: 150px 80px 70px; color: #141414;
+  font-family: "Plus Jakarta Sans"; font-size: 42px; line-height: 1.45; box-shadow: 0 18px 40px rgba(0,0,0,.35); }
+.ic p b { font-weight: 800; }
+.ic ul { margin: 22px 0 0 44px; }
+.ic li { margin: 6px 0; }
+.st { position: absolute; font-family: "MontserratI"; font-style: italic; font-weight: 900; font-size: 46px; color: #FFFFFF; white-space: nowrap;
+  text-shadow: 0 3px 6px rgba(0,0,0,.6), 0 0 18px rgba(0,0,0,.35); transform-origin: 50% 50%; }
+"""
 CSS_VIS += """
 .inset { position: absolute; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
 .inset-img { position: absolute; inset: 0; background-size: cover; background-position: center; }
@@ -861,6 +931,15 @@ if WORD_CAP:
 .wc text { font-family: "Archivo Black"; font-size: 70px; letter-spacing: 1px; }
 .wc-halo { fill: none; stroke: url(#wc-dots); stroke-width: 26px; stroke-linejoin: round; }
 .wc-ink { fill: #FFFFFF; stroke: #111111; stroke-width: 6px; stroke-linejoin: round; paint-order: stroke; }
+"""
+if WORD2:  # Infinity #3 caption reference (Guna caption style sama macam ni.jpg)
+    CSS_CAP = """@font-face { font-family: "Montserrat"; src: url("assets/fonts/Montserrat-latin.woff2") format("woff2");
+  font-weight: 100 900; font-style: normal; font-display: block; }
+* { margin: 0; padding: 0; box-sizing: border-box; }
+#cap-root { position: relative; width: 1080px; height: 1920px; overflow: hidden; }
+.wc2 { position: absolute; left: 0; top: 1265px; width: 1080px; text-align: center; pointer-events: none;
+  font-family: "Montserrat"; font-weight: 800; font-size: 68px; line-height: 80px; color: #FFFFFF; letter-spacing: 0.5px;
+  text-shadow: 0 3px 4px rgba(0,0,0,.45), 0 4px 18px rgba(0,0,0,.45); }
 """
 (ROOT / "compositions").mkdir(exist_ok=True)
 SHOW_CAPTIONS = EDL.get("captions", True)  # owner: this clip has no captions and no overlays

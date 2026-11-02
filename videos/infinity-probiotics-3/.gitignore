@@ -22,3 +22,4 @@ assets/products/*-cut.png
 .media/snapcheck*.jpg
 .media/sheet/
 ref/
+.media/gen2.log
