@@ -1,0 +1,435 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "2 Nov: Drive folder 1WZgRJ7i… 'Hari ni' — 'Overlay mesti sama dengan video rujukan overlay cuma masih ikut peraturan aurat. Caption pula ikut video rujukan caption' (refs: 'Copy overlay video ni.mp4', 'Guna caption style sama seratus peratus dari video ni.mp4'). Overlay style copied: square photo insets beside the head for the list of symptoms, full-screen cinematic cutaways, white-studio capsule shots; caption style copied: one word at a time, Archivo Black, white + black outline + halftone halo, low centre, hard cuts. 1 Nov: keep every point; overlays include product close-ups and the owner using the product. 28 Okt: one premium motion-text hook.",
+ "_note": "Nature's Key Magnesium Capsules #2 — A-roll assets/a.mp4 = VID_20261102_195601 (front camera saved mirrored — label reads backwards — flipped back in CSS; audio -12.1 LUFS, clean). The same script was recorded earlier as 'Recorder - 20261102-1859.m4a' (not synced to the video, not used). B-roll assets/b.mp4 = VID_20261014_153135 0-47 (Drive 1FsoDAeJ…, Magnesium Capsule folder): label close-ups 1-8, opening and pouring 12-17, bottle and capsules in palm 18-31. Label: Magnesium 250 mg; supplement facts list zinc, a vitamin B and a vitamin D. The owner says 'vitamin B3 dan juga D6' (captioned as spoken — flagged to the owner).",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 19.4,
+   "out": 35.7,
+   "zoom": 1.0,
+   "text": "Ini kortisol tinggi. Ini kortisol tinggi. Ini pun kortisol tinggi. Ini kortisol tinggi. Ini pun kortisol tinggi. Yang ini pun kortisol tinggi.",
+   "note": "HOOK — clean run (takes at 0-18 dropped)"
+  },
+  {
+   "id": "S02",
+   "in": 39.4,
+   "out": 48.6,
+   "zoom": 1.0,
+   "text": "Kalau dagu korang macam ni, perut korang macam ni, korang bukan gemuk tapi kortisol tinggi.",
+   "note": "first 'kalau dagu korang macam ni, baik' (36-38) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 67.7,
+   "out": 71.1,
+   "zoom": 1.0,
+   "text": "Andai kata kalau korang tak boleh tidur malam, kortisol tinggi.",
+   "note": "repeated 'Andai kata' (65.4) dropped"
+  },
+  {
+   "id": "S04",
+   "in": 73.5,
+   "out": 82.95,
+   "zoom": 1.0,
+   "text": "Mata berkedip sebelah, kortisol tinggi. Telinga tiba-tiba berdesing, kortisol tinggi. Stres dan mood swing, kortisol tinggi.",
+   "note": "first 'Mata berkedip' (71.6) dropped"
+  },
+  {
+   "id": "S05",
+   "in": 143.8,
+   "out": 149.6,
+   "zoom": 1.0,
+   "text": "Sebab tu kena ambil magnesium, dan bukan sebarangan magnesium je, tapi magnesium glycinate.",
+   "note": "best of the takes at 83-149"
+  },
+  {
+   "id": "S06",
+   "in": 154.7,
+   "out": 167.2,
+   "zoom": 1.0,
+   "text": "Magnesium kapsul daripada Nature's Key ni menggunakan magnesium glycinate tau. Di mana penyerapan dia 6 kali ganda berbanding biasa. Ada tambahan zinc dan juga vitamin B3 dan juga D6.",
+   "note": "'Nature's Key menggunakan magnesium' restart (149.9) dropped"
+  },
+  {
+   "id": "S07",
+   "in": 182.4,
+   "out": 189.2,
+   "zoom": 1.0,
+   "text": "Bukan sahaja untuk merelakskan badan dan minda korang, tapi membantu sistem penghadaman, saraf otot dan juga tulang.",
+   "note": "take 2 (take 1 at 173.6 stops after 'badan')"
+  },
+  {
+   "id": "S08",
+   "in": 201.6,
+   "out": 209.55,
+   "zoom": 1.0,
+   "text": "Semuanya dalam satu kapsul ni je. Dalam sebotol ni ada 60 biji kapsul. Jimat, boleh tahan sampai 2 bulan.",
+   "note": "last of four 'semuanya dalam satu kapsul ni' takes"
+  },
+  {
+   "id": "S09",
+   "in": 229.2,
+   "out": 235.25,
+   "zoom": 1.0,
+   "text": "Syafiq suka ambil yang ni sebab dia cepat serap dan harga dia sama macam ayam gepuk.",
+   "note": "take 2 (take 1 at 210-216 stops after 'macam')"
+  },
+  {
+   "id": "S10",
+   "in": 244.9,
+   "out": 249.72,
+   "zoom": 1.0,
+   "text": "Kalau korang ada semua masalah tadi tu, maknanya korang dah start kena ambil magnesium ni.",
+   "note": "take 2"
+  },
+  {
+   "id": "S11",
+   "in": 269.0,
+   "out": 273.3,
+   "zoom": 1.0,
+   "text": "Syafiq ada letak link dekat beg kuning tu. Kalau nak check out dekat beg kuning,",
+   "note": "last of the 'Syafiq dah letak link' takes"
+  },
+  {
+   "id": "S12",
+   "in": 286.7,
+   "out": 290.85,
+   "zoom": 1.04,
+   "text": "sementara promo masih ada tu, grab terus.",
+   "note": "CTA (repeated 'sementara' takes dropped)"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Nature's Key Magnesium",
+  "lines": [
+   "Ini semua",
+   "kortisol tinggi?"
+  ],
+  "accent_words": [
+   "kortisol",
+   "tinggi?"
+  ],
+  "to": 3.4,
+  "accent": "#9BE15D",
+  "accent2": "#3FBF7F",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S12",
+   "grab",
+   1.06
+  ]
+ ],
+ "insets": [
+  {
+   "id": "i_muka",
+   "from": [
+    "S01",
+    "ini#2"
+   ],
+   "to": [
+    "S01",
+    "ini#3"
+   ],
+   "img": "assets/photos/i_muka.jpg",
+   "x": 586,
+   "y": 60,
+   "size": 470,
+   "pos": "50% 22%"
+  },
+  {
+   "id": "i_bawahmata",
+   "from": [
+    "S01",
+    "ini#3"
+   ],
+   "to": [
+    "S01",
+    "ini#4"
+   ],
+   "img": "assets/photos/i_bawahmata.jpg",
+   "x": 24,
+   "y": 60,
+   "size": 470,
+   "pos": "50% 30%"
+  },
+  {
+   "id": "i_tengkuk",
+   "from": [
+    "S01",
+    "ini#4"
+   ],
+   "to": [
+    "S01",
+    "ini#5"
+   ],
+   "img": "assets/photos/i_tengkuk.jpg",
+   "x": 586,
+   "y": 60,
+   "size": 470,
+   "pos": "50% 22%"
+  },
+  {
+   "id": "i_lesu",
+   "from": [
+    "S01",
+    "ini#5"
+   ],
+   "to": [
+    "S01",
+    "ini#6"
+   ],
+   "img": "assets/photos/i_lesu.jpg",
+   "x": 24,
+   "y": 60,
+   "size": 470,
+   "pos": "50% 40%"
+  },
+  {
+   "id": "i_berat",
+   "from": [
+    "S01",
+    "ini#6"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "img": "assets/photos/i_berat.jpg",
+   "x": 586,
+   "y": 60,
+   "size": 470,
+   "pos": "50% 45%"
+  },
+  {
+   "id": "i_dagu",
+   "from": [
+    "S02",
+    "dagu"
+   ],
+   "to": [
+    "S02",
+    "perut"
+   ],
+   "img": "assets/photos/i_dagu.jpg",
+   "x": 24,
+   "y": 60,
+   "size": 470,
+   "pos": "60% 28%"
+  },
+  {
+   "id": "i_perut",
+   "from": [
+    "S02",
+    "perut"
+   ],
+   "to": [
+    "S02",
+    "tapi"
+   ],
+   "img": "assets/photos/i_perut.jpg",
+   "x": 586,
+   "y": 60,
+   "size": 470,
+   "pos": "50% 42%"
+  }
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S05",
+    "tapi"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 3.0,
+   "note": "153135: label close-up",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "di"
+   ],
+   "src": 1.0,
+   "note": "153135: label close-up",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S07",
+    "tapi"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 18.5,
+   "note": "153135: capsules in palm (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "jimat,"
+   ],
+   "src": 12.0,
+   "note": "153135: buka botol, tuang kapsul (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 24.0,
+   "note": "153135: botol dan kapsul di tapak tangan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "f_tidur",
+   "from": [
+    "S03",
+    "kalau"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: tak boleh tidur"
+  },
+  {
+   "id": "f_mata",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "telinga"
+   ],
+   "note": "AI: mata berkedip"
+  },
+  {
+   "id": "f_telinga",
+   "from": [
+    "S04",
+    "telinga"
+   ],
+   "to": [
+    "S04",
+    "stres"
+   ],
+   "note": "AI: telinga berdesing"
+  },
+  {
+   "id": "f_stres",
+   "from": [
+    "S04",
+    "stres"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: stres"
+  },
+  {
+   "id": "p_kapsul",
+   "from": [
+    "S06",
+    "di"
+   ],
+   "to": [
+    "S06",
+    "ada"
+   ],
+   "note": "AI: kapsul jatuh dari botol (studio)"
+  },
+  {
+   "id": "p_zinc",
+   "from": [
+    "S06",
+    "ada"
+   ],
+   "to": [
+    "S06",
+    "vitamin"
+   ],
+   "note": "AI: tablet zinc (studio)"
+  },
+  {
+   "id": "p_softgel",
+   "from": [
+    "S06",
+    "vitamin"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: softgel vitamin (studio)"
+  }
+ ],
+ "brand_words": [
+  "nature's",
+  "key"
+ ],
+ "keywords": [],
+ "flap_force": []
+}
