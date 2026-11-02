@@ -75,6 +75,14 @@ otherwise for a specific video.
   corners while the speaker lists symptoms (EDL `insets`), full-screen
   cinematic cutaways, white-studio capsule shots. Template:
   `videos/natures-key-mg-2/`. Ask the owner before using it on other videos.
+- **2 Nov Infinity reference** (Infinity Probiotics Plus #3, owner: "Kali ni caption
+  style ikut sama seratus peratus macam dalam gambar … dan style overlay mesti sama
+  seratus peratus dengan video" — refs in Drive folder 1xPV9TTz…): one white upper-case
+  Montserrat ExtraBold word at ~68% height with a soft shadow (EDL `caption_style:
+  "word2"`); cutaways land with a zoom blur (`fs_style: "ref"`), a bold italic brand title
+  on a yellow bar (`brand_title`), a white card dropping from the top (`infocard`, the
+  owner's own words only) and small italic sales text (`stamp`). Template:
+  `videos/infinity-probiotics-3/`. Said "kali ni", so ask before reusing it.
 - Older videos (before 21 Oct) used softer sentence-case captions in Plus
   Jakarta Sans at about 56px; don't go back to that unless the owner asks.
 
