@@ -1,0 +1,20 @@
+TOTAL 40.30s  (10 A-roll segments, 2 B-roll shots, 5 photos, 4 audio fx, 89 caption cards)
+
+  0.00-  3.50  S01  src  38.20- 41.70  (1 pc)  Guys, ini Probiotic Plus daripada Infinity.
+  3.50-  9.10  S02  src  42.10- 47.70  (1 pc)  Saya sarankan siapa-siapa yang ada 5 masalah ni untuk ambil produk ni segera.
+  9.10- 13.00  S03  src  48.40- 52.65  (2 pc)  Yang pertama, orang yang susah nak tidur, overstress.
+ 13.00- 16.50  S04  src  58.10- 61.60  (1 pc)  Yang kedua, ada masalah sembelit, susah nak membuang.
+ 16.50- 19.40  S05  src  62.10- 65.00  (1 pc)  Yang ketiga, perut selalu kembung, bloated.
+ 19.40- 23.45  S06  src  65.34- 69.50  (2 pc)  Yang keempat, orang yang ada masalah kulit, terutamanya jerawat.
+ 23.45- 27.17  S07  src  79.34- 83.05  (1 pc)  Dan yang kelima, siapa-siapa yang selalu ambil antibiotik.
+ 27.17- 31.47  S08  src  92.40- 96.70  (1 pc)  So please amalkan probiotic daripada Infinity sekarang.
+ 31.47- 34.57  S09  src  98.50-101.60  (1 pc)  Sekarang seller banyak tengah buat promo 11.11.
+ 34.57- 40.30  S10  src 101.95-107.92  (3 pc)  Boleh check dekat beg kuning, kalau ada voucher boleh claim. Sementara harga tengah murah, boleh beli sekarang.
+
+  cutaway   9.10- 13.00
+  cutaway  13.00- 16.50
+  cutaway  16.50- 19.40
+  cutaway  19.40- 23.45
+  cutaway  23.45- 27.17
+  cutaway  27.17- 31.47
+  cutaway  31.47- 34.57

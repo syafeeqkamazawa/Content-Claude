@@ -1,0 +1,257 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word2",
+ "word2": {
+  "top": 1540,
+  "size": 68,
+  "weight": 800
+ },
+ "fs_style": "ref",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "4 Nov: Drive folder 1xPV9TTz… 'Infinity Probiotics Plus' — 'Buat semua video yang belum digunakan ya'. Unused clips: VID_20261104_153839 (talking, with unboxing) and VID_20261104_154051 (new B-roll on grass) -> one video. No new reference, so the product's last style (Infinity #3, owner 2 Nov) is reused: one white Montserrat ExtraBold word with a soft shadow at ~68 % height; cutaways landing with a zoom blur; the INFINITY / PROBIOTIK PLUS title on a yellow bar; a white card dropping from the top listing the owner's own five points. 1 Nov: keep every point; product close-ups and the owner using the product.",
+ "_note": "Infinity Probiotics Plus #4 — A-roll assets/a.mp4 = VID_20261104_153839. B-roll assets/b.mp4 (muted) = VID_20261104_154051 0-74.32 (box 8-24, bottle 28-44, capsules in the cap 48-66, on grass) + VID_20261014_001726 74.32-171.2 (also used in #2/#3). AI photos penat, kembung, jerawat are reused from #3; stres, sembelit, antibiotik are new. The five problems and 'promo 11.11' are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 38.2,
+   "out": 41.7,
+   "zoom": 1.0,
+   "text": "Guys, ini Probiotic Plus daripada Infinity.",
+   "note": "HOOK, third take (12.7, 28.1 dropped; 0-12.7 is unboxing noise)"
+  },
+  {
+   "id": "S02",
+   "in": 42.1,
+   "out": 47.7,
+   "zoom": 1.0,
+   "text": "Saya sarankan siapa-siapa yang ada 5 masalah ni untuk ambil produk ni segera.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 48.4,
+   "out": 52.65,
+   "zoom": 1.0,
+   "text": "Yang pertama, orang yang susah nak tidur, overstress.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 58.1,
+   "out": 61.6,
+   "zoom": 1.0,
+   "text": "Yang kedua, ada masalah sembelit, susah nak membuang.",
+   "note": "first take 53.2 dropped"
+  },
+  {
+   "id": "S05",
+   "in": 62.1,
+   "out": 65.0,
+   "zoom": 1.0,
+   "text": "Yang ketiga, perut selalu kembung, bloated.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 65.34,
+   "out": 69.5,
+   "zoom": 1.0,
+   "text": "Yang keempat, orang yang ada masalah kulit, terutamanya jerawat.",
+   "note": "repeat 75.4 dropped"
+  },
+  {
+   "id": "S07",
+   "in": 79.34,
+   "out": 83.05,
+   "zoom": 1.0,
+   "text": "Dan yang kelima, siapa-siapa yang selalu ambil antibiotik.",
+   "note": "repeat 88.4 dropped"
+  },
+  {
+   "id": "S08",
+   "in": 92.4,
+   "out": 96.7,
+   "zoom": 1.0,
+   "text": "So please amalkan probiotic daripada Infinity sekarang.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 98.5,
+   "out": 101.6,
+   "zoom": 1.0,
+   "text": "Sekarang seller banyak tengah buat promo 11.11.",
+   "note": "'boleh klik dekat beg kuning' (97.2) dropped — repeated in the CTA"
+  },
+  {
+   "id": "S10",
+   "in": 101.95,
+   "out": 107.92,
+   "zoom": 1.04,
+   "text": "Boleh check dekat beg kuning, kalau ada voucher boleh claim. Sementara harga tengah murah, boleh beli sekarang.",
+   "note": "CTA"
+  }
+ ],
+ "brand_title": [
+  {
+   "from": [
+    "S01",
+    "ini"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "top": "INFINITY",
+   "bar": "PROBIOTIK PLUS",
+   "y": 820
+  }
+ ],
+ "infocard": [
+  {
+   "from": [
+    "S02",
+    "5"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "body": "Ambil <b>Probiotic Plus</b> kalau ada salah satu daripada <b>5 masalah</b> ni:",
+   "items": [
+    "Susah nak tidur, overstress",
+    "Sembelit, susah nak membuang",
+    "Perut selalu kembung, bloated",
+    "Kulit berjerawat",
+    "Selalu ambil antibiotik"
+   ]
+  }
+ ],
+ "punch": [
+  [
+   "S10",
+   "beli",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 50.0,
+   "note": "154051: botol + kapsul dalam penutup (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 12.0,
+   "note": "154051: kotak depan",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "stres",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: susah tidur, stres (baru)"
+  },
+  {
+   "id": "sembelit",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: sembelit (baru)"
+  },
+  {
+   "id": "kembung",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: kembung (dari #3)"
+  },
+  {
+   "id": "jerawat",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: jerawat (dari #3)"
+  },
+  {
+   "id": "antibiotik",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "note": "AI: antibiotik (baru)"
+  }
+ ],
+ "theme": {
+  "key": "#F2B705",
+  "brand": "#2BB3C0"
+ },
+ "brand_words": [
+  "infinity",
+  "probiotic",
+  "plus"
+ ],
+ "keywords": []
+}
