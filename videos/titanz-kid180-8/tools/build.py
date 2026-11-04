@@ -522,6 +522,21 @@ for k, st in enumerate(EDL.get("stamp", [])):
         fade_out(f"#{sid}", t1)
 
 
+# Owner (4 Nov, Kid180 #9 reference 2): a small italic title sticker sits top-centre for
+# the whole video ("Nak anak2 tinggi?" style) — EDL "sticker": {text, from?}; and a
+# one-beat TV colour-bar glitch frame on a cut — EDL "glitch": [anchor, ...].
+ST = EDL.get("sticker")
+if ST:
+    st0 = q(anchor(ST["from"])) if ST.get("from") else 0.0
+    card("ov-sticker", st0, TOTAL, f'<div class="stk" id="stk">{html.escape(ST["text"])}</div>')
+    gfx_js.append(f'tl.fromTo("#stk", {{ opacity: 0, scale: 0.55, y: -20 }}, {{ opacity: 1, scale: 1, y: 0, duration: 0.4, ease: "back.out(2.2)" }}, {q(st0 + 0.1)});')
+for k, g in enumerate(EDL.get("glitch", [])):
+    t0 = q(anchor(g))
+    gfx_dom.append(f'<div id="gl{k}" class="clip overlay glitch" data-start="{t0}" data-duration="0.15" data-track-index="2">'
+                   '<div class="gl-top"></div><div class="gl-mid"></div><div class="gl-bot"></div></div>')
+    add_sfx("click-soft", t0, 0.35)
+
+
 # ── 5. Captions ────────────────────────────────────────────────────────────
 # Owner (21 Oct): split-flap "departure board" captions like the reference video —
 # uppercase tiles that scramble left to right before settling, one colour per
@@ -951,6 +966,18 @@ CSS_GFX += """
 .ic li { margin: 6px 0; }
 .st { position: absolute; font-family: "MontserratI"; font-style: italic; font-weight: 900; font-size: 46px; color: #FFFFFF; white-space: nowrap;
   text-shadow: 0 3px 6px rgba(0,0,0,.6), 0 0 18px rgba(0,0,0,.35); transform-origin: 50% 50%; }
+"""
+CSS_GFX += """
+.stk { position: absolute; left: 50%; top: 150px; transform-origin: 50% 50%; translate: -50% 0; white-space: nowrap;
+  font-family: "MontserratI"; font-style: italic; font-weight: 800; font-size: 40px; color: #FFFFFF;
+  background: rgba(214, 72, 72, 0.88); padding: 8px 26px 10px; border-radius: 12px; box-shadow: 0 6px 18px rgba(0,0,0,.25); }
+.glitch { background: #000; }
+.gl-top { position: absolute; left: 0; right: 0; top: 0; height: 1240px;
+  background: linear-gradient(90deg, #C0C0C0 0 14.28%, #C0C000 0 28.57%, #00C0C0 0 42.85%, #00C000 0 57.14%, #C000C0 0 71.42%, #C00000 0 85.71%, #0000C0 0); }
+.gl-mid { position: absolute; left: 0; right: 0; top: 1240px; height: 160px;
+  background: linear-gradient(90deg, #0000C0 0 14.28%, #131313 0 28.57%, #C000C0 0 42.85%, #131313 0 57.14%, #00C0C0 0 71.42%, #131313 0 85.71%, #C0C0C0 0); }
+.gl-bot { position: absolute; left: 0; right: 0; top: 1400px; bottom: 0;
+  background: linear-gradient(90deg, #00214C 0 17.85%, #FFFFFF 0 35.7%, #32006A 0 53.55%, #131313 0 100%); }
 """
 if BOX_FS:
     CSS_VIS += """
