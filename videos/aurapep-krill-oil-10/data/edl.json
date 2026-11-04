@@ -1,0 +1,464 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word3",
+ "word3": {
+  "max": 2,
+  "chars": 16,
+  "highlight": false,
+  "top": 1600,
+  "size": 60
+ },
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "4 Nov: Drive folder 1irOVOgs… 'Aurapep Krill Oil' with 'video rujukan.mp4' (another creator's Aurapep review; the owner follows its script). Copied from the reference: captions of two upper-case heavy white words low in the frame with a soft shadow, hard cuts; full-screen cutaways — glowing blue x-ray renders (body, brain, eyes + brain, heart, nervous system), numb hands, aching knee, fish-oil softgels — and product close-ups. The reference's brand infographics (Astaxanthin Antioxidant Support, Advanced Formula, KKM certificate) are not available and are not recreated. Aurat: the x-ray bodies are cropped to head-to-chest; every man wears long sleeves and long trousers. 1 Nov: keep every point; product close-ups and the owner using the product.",
+ "_note": "Aurapep Krill Oil #10 — A-roll assets/a.mp4 = VID_20261104_145248 (front camera saved mirrored — 'aurapep' reads backwards — flipped back in CSS). B-roll pool assets/b.mp4 (muted): P 0-33.91 = VID_20261104_151915 (owner shows a softgel 3-14 and drinks it 15-27; #10 uses 0-14 only, 15-33 is kept for #11), Q 33.91-73.24 = VID_20261021_091344 (bottle and softgels on grass), R 73.24-163.7 = VID_20261022_092840 (owner at the table). Clip -> video: 145248 -> #10, 151832 -> #11. Claims and dose are the owner's own words ('maksimum dua biji', omega 3/6/9, astaxanthin, halal, lulus KKM, promo 11.11); no price figure quoted.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 24.8,
+   "out": 27.15,
+   "zoom": 1.0,
+   "text": "Makan yang ni sehari maksimum dua biji je.",
+   "note": "HOOK, third take (11.2, 19.4 dropped)"
+  },
+  {
+   "id": "S02",
+   "in": 27.25,
+   "out": 36.5,
+   "zoom": 1.0,
+   "text": "Dia bagus untuk sendi kita, bagus untuk kita punya mata, untuk otak, kuatkan ingatan kita, bagus juga untuk kesihatan jantung.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 37.0,
+   "out": 39.6,
+   "zoom": 1.0,
+   "text": "So ini adalah krill oil daripada Aurapep.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 43.0,
+   "out": 48.3,
+   "zoom": 1.0,
+   "text": "Dia lagi power daripada omega fish oil yang biasa, dan dia lagi power daripada astaxanthin yang biasa.",
+   "note": "first take 39.9 ('omega fish biasa') dropped"
+  },
+  {
+   "id": "S05",
+   "in": 61.4,
+   "out": 66.55,
+   "zoom": 1.0,
+   "text": "Yang ni, dalam ni dah siap ada omega 3, omega 6, omega 9.",
+   "note": "stumbling take 51-58.7 dropped"
+  },
+  {
+   "id": "S06",
+   "in": 70.2,
+   "out": 72.85,
+   "zoom": 1.0,
+   "text": "So dia sangat bagus untuk kesihatan kita secara keseluruhan.",
+   "note": "repeat 66.7-70 dropped"
+  },
+  {
+   "id": "S07",
+   "in": 77.8,
+   "out": 80.1,
+   "zoom": 1.0,
+   "text": "Dan dia juga sangat bagus untuk sistem saraf kita.",
+   "note": "first take 73.1 dropped"
+  },
+  {
+   "id": "S08",
+   "in": 95.8,
+   "out": 99.7,
+   "zoom": 1.0,
+   "text": "Terutamanya untuk akak abang yang selalu rasa kebas-kebas dekat tangan dan kaki kan?",
+   "note": "takes 80.6 and 91.6 dropped"
+  },
+  {
+   "id": "S09",
+   "in": 99.9,
+   "out": 103.9,
+   "zoom": 1.0,
+   "text": "Yang sendi-sendi selalu rasa lenguh tu, nak bergerak pun sakit, nak solat pun sakit.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 114.08,
+   "out": 116.1,
+   "zoom": 1.0,
+   "text": "Rukuk sujud pun tak selesa kan?",
+   "note": "first take 104-112 dropped"
+  },
+  {
+   "id": "S11",
+   "in": 120.2,
+   "out": 124.55,
+   "zoom": 1.0,
+   "text": "Juga ada astaxanthin, sejenis antioksidan yang sangat kuat.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 154.4,
+   "out": 157.05,
+   "zoom": 1.0,
+   "text": "Satu lagi yang ramai suka, dia tak ada bau hanyir tau.",
+   "note": "takes 125-152 dropped"
+  },
+  {
+   "id": "S13",
+   "in": 157.1,
+   "out": 159.75,
+   "zoom": 1.0,
+   "text": "Kalau lepas makan pun, bila sendawa tak keluar bau ikan.",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 178.1,
+   "out": 181.6,
+   "zoom": 1.0,
+   "text": "Kalau sesetengah fish oil atau krill oil tu, ada yang bau tau.",
+   "note": "takes 159.8-177.6 dropped"
+  },
+  {
+   "id": "S15",
+   "in": 182.0,
+   "out": 182.8,
+   "zoom": 1.0,
+   "text": "Yang ni tak ada.",
+   "note": ""
+  },
+  {
+   "id": "S16",
+   "in": 193.7,
+   "out": 196.5,
+   "zoom": 1.0,
+   "text": "Dalam banyak-banyak supplement, yang ni harga dia tinggi sikit,",
+   "note": "first take 183.5-192.6 dropped"
+  },
+  {
+   "id": "S17",
+   "in": 197.9,
+   "out": 204.0,
+   "zoom": 1.0,
+   "text": "tapi kualiti dia sangat berbaloi dengan harga dia. Jenama Aurapep ni antara krill oil yang harga dia sangat berpatutan,",
+   "note": ""
+  },
+  {
+   "id": "S18",
+   "in": 204.1,
+   "out": 207.35,
+   "zoom": 1.0,
+   "text": "mampu milik, ada halal, lulus KKM juga.",
+   "note": ""
+  },
+  {
+   "id": "S19",
+   "in": 220.35,
+   "out": 224.3,
+   "zoom": 1.0,
+   "text": "Jadi ibu ayah, abang, kakak boleh cuba beli yang ni, lagi berbaloi.",
+   "note": "takes 207.7-219 dropped"
+  },
+  {
+   "id": "S20",
+   "in": 246.2,
+   "out": 249.6,
+   "zoom": 1.0,
+   "text": "Sekarang ni banyak seller dah buat harga promo 11.11 tau.",
+   "note": "first takes 231-238 dropped"
+  },
+  {
+   "id": "S21",
+   "in": 249.9,
+   "out": 253.9,
+   "zoom": 1.04,
+   "text": "Cuba tengok dekat beg kuning, kalau nampak harga tengah murah tu, terus check out, okey?",
+   "note": "CTA"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Aurapep Krill Oil",
+  "lines": [
+   "Lagi power",
+   "dari fish oil?"
+  ],
+  "accent_words": [
+   "power",
+   "fish",
+   "oil?"
+  ],
+  "to": 2.3,
+  "accent": "#E8B44C",
+  "accent2": "#7FA8FF",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S21",
+   "check",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B2",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 36.2,
+   "note": "091344: botol Aurapep atas rumput",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S04",
+    "astaxanthin"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 55.2,
+   "note": "091344: botol + softgel merah dalam penutup",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 41.0,
+   "note": "091344: botol Aurapep di tangan",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 59.5,
+   "note": "091344: softgel merah dalam penutup + botol",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S15",
+    "start"
+   ],
+   "to": [
+    "S15",
+    "end"
+   ],
+   "src": 9.5,
+   "note": "151915: softgel di jari",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B7",
+   "from": [
+    "S17",
+    "jenama"
+   ],
+   "to": [
+    "S17",
+    "end"
+   ],
+   "src": 44.0,
+   "note": "091344: botol depan",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B8",
+   "from": [
+    "S19",
+    "start"
+   ],
+   "to": [
+    "S19",
+    "end"
+   ],
+   "src": 130.3,
+   "note": "092840: softgel di tapak tangan (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 55%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "lutut",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "mata"
+   ],
+   "note": "AI: sendi lutut"
+  },
+  {
+   "id": "x_mata",
+   "from": [
+    "S02",
+    "mata"
+   ],
+   "to": [
+    "S02",
+    "otak"
+   ],
+   "note": "AI: x-ray mata + otak"
+  },
+  {
+   "id": "x_otak",
+   "from": [
+    "S02",
+    "otak"
+   ],
+   "to": [
+    "S02",
+    "jantung"
+   ],
+   "note": "AI: x-ray otak"
+  },
+  {
+   "id": "x_jantung",
+   "from": [
+    "S02",
+    "jantung"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: x-ray jantung"
+  },
+  {
+   "id": "ikan",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "astaxanthin"
+   ],
+   "note": "AI: softgel minyak ikan"
+  },
+  {
+   "id": "x_badan",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: x-ray badan (kepala-dada)"
+  },
+  {
+   "id": "x_saraf",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "note": "AI: sistem saraf (kepala-dada)"
+  },
+  {
+   "id": "kebas",
+   "from": [
+    "S08",
+    "kebas-kebas"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "note": "AI: tangan kebas"
+  },
+  {
+   "id": "sendawa",
+   "from": [
+    "S13",
+    "start"
+   ],
+   "to": [
+    "S13",
+    "end"
+   ],
+   "note": "AI: sendawa selepas makan"
+  }
+ ],
+ "theme": {
+  "key": "#E8B44C",
+  "brand": "#7FA8FF"
+ },
+ "brand_words": [
+  "aurapep",
+  "aurapep."
+ ],
+ "keywords": []
+}
