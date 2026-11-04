@@ -1,0 +1,284 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word3",
+ "fs_style": "box",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "4 Nov: 'Ada satu lagi video saya bercakap, yang tu buat juga' — second talking clip in Drive folder 1aleA_8B… 'Kid180 Tablet', with 'video rujukan 2.mp4' (same creator as reference 1). Copied from reference 2: a small italic title sticker on a coral label top-centre for the whole video ('Nak anak2 tinggi?'), captions of 2-3 upper-case heavy white words with the spoken word in yellow, one TV colour-bar glitch frame on an early cut, letterboxed photo cutaways on black, product close-ups. Aurat rule kept. 1 Nov: keep every point; product close-ups and the owner's own footage.",
+ "_note": "Tiny Titanz Kid180 #9 — A-roll assets/a.mp4 = VID_20261104_143358 (front camera saved mirrored — label reads backwards — flipped back in CSS). B-roll pool assets/b.mp4 = the same pool as titanz-kid180-8 (hard link); the children's-hands shot (87-104) is not used (bare feet in the background); picks differ from #8 (#8 uses 2.2-9.7, 19-26, 33.5-38.3, 43.4-47, 50-56, 92-94.5). Clip -> video: 142139 -> #8, 143358 -> #9. 'Sebelum ni harga dia mahal sikit' and 'saya tengah buat promo' are the owner's own words; no figure quoted.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 1.4,
+   "out": 6.55,
+   "zoom": 1.0,
+   "text": "Kalau ibu ayah nak anak-anak tinggi, kena bantu mereka sebelum umur 18 tahun.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 7.0,
+   "out": 11.45,
+   "zoom": 1.0,
+   "text": "Sebab tumbesaran anak-anak paling aktif sebelum umur mereka mencapai 18 tahun.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 11.6,
+   "out": 13.98,
+   "zoom": 1.0,
+   "text": "Selepas daripada tu, dah agak terlambat.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 14.45,
+   "out": 20.3,
+   "zoom": 1.0,
+   "text": "Kalau anak-anak ada masalah rendah berbanding kawan-kawan dia yang sama umur, lepas tu dia pula jenis memilih makanan,",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 38.4,
+   "out": 43.72,
+   "zoom": 1.0,
+   "text": "ibu ayah boleh bagi anak-anak makan supplement Kid180 ni.",
+   "note": "earlier takes 20-34 dropped"
+  },
+  {
+   "id": "S06",
+   "in": 52.2,
+   "out": 63.5,
+   "zoom": 1.0,
+   "text": "Supplement ni, ibu ayah jangan risau, supplement ni ada sijil halal, HACCP, GMP dan juga MeSTI. Insya-Allah selamat untuk anak-anak kita.",
+   "note": "first take 44-50 dropped"
+  },
+  {
+   "id": "S07",
+   "in": 63.8,
+   "out": 65.9,
+   "zoom": 1.0,
+   "text": "Paling penting, dia ada kelulusan KKM juga.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 70.3,
+   "out": 75.55,
+   "zoom": 1.0,
+   "text": "Kid180 ni dia bagi nutrisi yang diperlukan oleh anak-anak kita untuk tumbesaran.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 88.8,
+   "out": 95.15,
+   "zoom": 1.0,
+   "text": "Satu tablet ni bersamaan dengan tiga cawan susu tau, ataupun makan sayur dan buah yang ada lebih 20 jenis vitamin.",
+   "note": "takes 75.9 and 99.4 dropped; 'bukan, bukan' dropped"
+  },
+  {
+   "id": "S10",
+   "in": 115.4,
+   "out": 124.55,
+   "zoom": 1.0,
+   "text": "Kid180 ni, sebelum ni harga dia mahal sikit tau. Sekarang saya tengah buat promo untuk masa yang terhad.",
+   "note": "spoken 'Kid satu lapan kosong'"
+  },
+  {
+   "id": "S11",
+   "in": 124.64,
+   "out": 127.35,
+   "zoom": 1.0,
+   "text": "Kid180 ni dah makin viral dekat TikTok Shop.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 127.75,
+   "out": 130.1,
+   "zoom": 1.0,
+   "text": "So kalau ibu ayah yang risaukan tumbesaran anak,",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 137.58,
+   "out": 142.5,
+   "zoom": 1.04,
+   "text": "atau ada anak yang picky eater, boleh dapatkan Kid180 ni dekat link video ni.",
+   "note": "CTA"
+  }
+ ],
+ "sticker": {
+  "text": "Nak anak-anak tinggi?"
+ },
+ "glitch": [
+  [
+   "S02",
+   "start"
+  ]
+ ],
+ "punch": [
+  [
+   "S13",
+   "dapatkan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S05",
+    "supplement"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 27.2,
+   "note": "153413: buka botol Kid180 (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S06",
+    "sijil"
+   ],
+   "to": [
+    "S06",
+    "insya-allah"
+   ],
+   "src": 72.5,
+   "note": "140338: tablet dituang ke penutup (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 37.9,
+   "note": "153413: tablet di tapak tangan + botol",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S10",
+    "sekarang"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 7.9,
+   "note": "153413: kotak depan",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "kelas",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: kanak-kanak aktif di tadika"
+  },
+  {
+   "id": "rendah",
+   "from": [
+    "S04",
+    "masalah"
+   ],
+   "to": [
+    "S04",
+    "lepas"
+   ],
+   "note": "AI: anak lebih rendah daripada kawan"
+  },
+  {
+   "id": "memilih",
+   "from": [
+    "S04",
+    "lepas"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: anak memilih makanan"
+  },
+  {
+   "id": "susu9",
+   "from": [
+    "S09",
+    "tiga"
+   ],
+   "to": [
+    "S09",
+    "ataupun"
+   ],
+   "note": "AI: susu dituang"
+  },
+  {
+   "id": "buah9",
+   "from": [
+    "S09",
+    "ataupun"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "note": "AI: sayur dan buah"
+  }
+ ],
+ "theme": {
+  "key": "#FFE600",
+  "brand": "#7DDB6B"
+ },
+ "brand_words": [
+  "kid180"
+ ],
+ "keywords": []
+}

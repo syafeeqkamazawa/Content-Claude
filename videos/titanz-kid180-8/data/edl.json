@@ -1,0 +1,334 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word3",
+ "fs_style": "box",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "4 Nov: Drive folder 1aleA_8B… 'Kid180 Tablet' with 'video rujukan.mp4' (a Kid180 review by another creator; the owner follows its script). Copied from the reference: captions of 2-3 upper-case heavy white words low in the frame with the spoken word in yellow, hard cuts; photo cutaways letterboxed on black; product close-ups full screen. The reference's comment-reply bubble is not copied (no real comment to answer) — a small top title sticker carries the hook instead (style of the owner's second reference). Aurat rule kept (the reference's family photo shows women without hijab). 1 Nov: keep every point; product close-ups and the owner's own footage.",
+ "_note": "Tiny Titanz Kid180 #8 — A-roll assets/a.mp4 = VID_20261104_142139 (front camera saved mirrored — label reads backwards — flipped back in CSS). B-roll pool assets/b.mp4 (muted) = VID_20261014_153413 0-43.33 (box, bottle, tablets in palm) + VID_20260908_140338 43.33-87.0 (tablets poured into the cap) + VID_20260827_170307 87.0-131.6 (tablets into the children's hands; not used in #8 — bare feet in the background). Clip -> video: 142139 -> #8, 143358 -> #9; B-roll shared, different picks. No price shown (the owner's 'sebelum ni harga sebotol dalam…' trails off with no figure); promo 11.11 and 'semakin viral' are the owner's own words.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 3.7,
+   "out": 12.2,
+   "zoom": 1.0,
+   "text": "Ibu ayah yang risau tumbesaran anak terbantut tu, kena pastikan nutrien intake anak tu lengkap.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 21.0,
+   "out": 24.25,
+   "zoom": 1.0,
+   "text": "Ada orang cakap, bukankah ketinggian ni faktor keturunan?",
+   "note": "doubled 'ada orang cakap' (17.8) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 24.45,
+   "out": 36.4,
+   "zoom": 1.0,
+   "text": "Okey, menurut kajian, 80% daripada ketinggian seseorang tu memang disebabkan oleh faktor keturunan. Means kalau mak ayahnya tinggi, anaknya pun insya-Allah akan tinggi juga.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 40.9,
+   "out": 45.7,
+   "zoom": 1.0,
+   "text": "Itu betul, tapi kita kena ingat, 20% lagi adalah disebabkan oleh faktor lain",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 45.74,
+   "out": 47.45,
+   "zoom": 1.0,
+   "text": "seperti pemakanan.",
+   "note": "false start 47.7-54 dropped"
+  },
+  {
+   "id": "S06",
+   "in": 55.1,
+   "out": 65.2,
+   "zoom": 1.0,
+   "text": "Ibu ayah yang risau tumbesaran anak terbantut tu, kena pastikan nutrien intake anak tu lengkap.",
+   "note": "scripted repeat of the hook (as in the reference video)"
+  },
+  {
+   "id": "S07",
+   "in": 91.2,
+   "out": 96.65,
+   "zoom": 1.0,
+   "text": "Kalau anak-anak ibu ayah suka memilih makanan, ibu ayah boleh berikan supplement Kid180 ni kepada anak-anak.",
+   "note": "earlier takes 65-84 and the 'kalau ibu ayah ada anak-anak yang suka' stumble dropped"
+  },
+  {
+   "id": "S08",
+   "in": 121.1,
+   "out": 128.95,
+   "zoom": 1.0,
+   "text": "Supplement ni jangan risau, dia ada sijil halal, HACCP, GMP, MeSTI, insya-Allah selamat untuk anak-anak.",
+   "note": "last take (97-118 retakes dropped)"
+  },
+  {
+   "id": "S09",
+   "in": 131.6,
+   "out": 134.15,
+   "zoom": 1.0,
+   "text": "Paling penting, dia juga dapat kelulusan KKM.",
+   "note": "false start 129.5 dropped"
+  },
+  {
+   "id": "S10",
+   "in": 148.7,
+   "out": 152.55,
+   "zoom": 1.0,
+   "text": "Kid180 ni dia bagi nutrien yang diperlukan oleh badan untuk tumbesaran.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 152.85,
+   "out": 159.58,
+   "zoom": 1.0,
+   "text": "Satu tablet ni bersamaan dengan tiga cawan susu, ataupun makan sayur dan buah, yang ada lebih 20 jenis.",
+   "note": "'vitamin, sebelum ni harga sebotol dalam…' has no price — cut after 'jenis'"
+  },
+  {
+   "id": "S12",
+   "in": 183.9,
+   "out": 193.65,
+   "zoom": 1.0,
+   "text": "Sekarang ni harga pun tengah murah, tapi untuk masa terhad. Banyak seller pun dah buat promo 11.11 tau. Cuba korang tengok dekat beg kuning.",
+   "note": "first take 165.9 dropped"
+  },
+  {
+   "id": "S13",
+   "in": 202.0,
+   "out": 204.55,
+   "zoom": 1.0,
+   "text": "Kid180 ni dah semakin viral dekat TikTok Shop.",
+   "note": "spoken 'Kid satu lapan kosong'"
+  },
+  {
+   "id": "S14",
+   "in": 244.3,
+   "out": 250.85,
+   "zoom": 1.04,
+   "text": "So ibu ayah yang risaukan tumbesaran anak tu, ataupun ada anak yang picky eater, boleh dapatkan Kid180 ni dekat link video ni sekarang.",
+   "note": "CTA, last of five takes (204.9-243)"
+  }
+ ],
+ "sticker": {
+  "text": "Tinggi ikut keturunan?"
+ },
+ "punch": [
+  [
+   "S14",
+   "dapatkan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S06",
+    "kena"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 43.4,
+   "note": "140338: botol Kid180 di tangan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S07",
+    "supplement"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 19.0,
+   "note": "153413: botol Kid180 di tangan",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 2.2,
+   "note": "153413: kotak di tangan (label)",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "diperlukan"
+   ],
+   "src": 33.5,
+   "note": "153413: tablet di tapak tangan + botol (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4b",
+   "from": [
+    "S10",
+    "diperlukan"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 20.5,
+   "note": "153413: botol Kid180 dipusing",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "cuba"
+   ],
+   "src": 50.0,
+   "note": "140338: tablet dituang ke penutup (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "lego",
+   "from": [
+    "S03",
+    "menurut"
+   ],
+   "to": [
+    "S03",
+    "means"
+   ],
+   "note": "AI: anak bermain blok"
+  },
+  {
+   "id": "keluarga",
+   "from": [
+    "S03",
+    "means"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: keluarga tinggi (menutup aurat)"
+  },
+  {
+   "id": "makan",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: pinggan makanan sihat"
+  },
+  {
+   "id": "picky",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "supplement"
+   ],
+   "note": "AI: anak tolak sayur"
+  },
+  {
+   "id": "susu",
+   "from": [
+    "S11",
+    "tiga"
+   ],
+   "to": [
+    "S11",
+    "ataupun"
+   ],
+   "note": "AI: tiga gelas susu"
+  },
+  {
+   "id": "buah",
+   "from": [
+    "S11",
+    "ataupun"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "note": "AI: sayur dan buah"
+  }
+ ],
+ "theme": {
+  "key": "#FFE600",
+  "brand": "#7DDB6B"
+ },
+ "brand_words": [
+  "kid180"
+ ],
+ "keywords": []
+}
