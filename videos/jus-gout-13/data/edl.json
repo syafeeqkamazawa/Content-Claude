@@ -1,0 +1,411 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": false,
+ "caption_style": "word2",
+ "fs_style": "cut",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "4 Nov: Drive folder 1R0pfbEi… 'Jus Gout' with 'video rujukan.mp4' (a faceless Jus Gout product video by another creator). Copied from the reference: product footage over the voice for almost the whole video (jar in hand, back label, opening, two scoops into the cup, hot water, stirring, the finished juice), hard cuts with a few quick white flashes / black dips, a 'Jus Gout Promaxx' title at the start, and no subtitles (the reference has none). The owner's face stays only where he holds the jar for the closing pitch and CTA. 1 Nov: keep every point; product close-ups and the owner using the product.",
+ "_note": "Jus Gout Promaxx #13 — A-roll assets/a.mp4 = VID_20261104_153048 (front camera saved mirrored — 'GOUT' reads backwards — flipped back in CSS). B-roll assets/b.mp4 = VID_20261012_172341 (also in #11/#12; muted): jar in hand 2-24 (back label 12-17), top-down jar 28-40, opening 40-52, scoops into the cup 54-110, hot water and stirring 112-210. Ingredients as spoken: bromelain, milk thistle, lemon extract, curcuma longa root extract, ginger extract, orange extract (six). Promo '11 hari bulan 11' and vouchers are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 3.26,
+   "out": 5.3,
+   "zoom": 1.0,
+   "text": "Dua skop sehari dah cukup.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 7.0,
+   "out": 8.85,
+   "zoom": 1.0,
+   "text": "Untuk korang yang ada sakit gout,",
+   "note": ""
+  },
+  {
+   "id": "S02b",
+   "in": 12.1,
+   "out": 16.36,
+   "zoom": 1.0,
+   "text": "saya nak rekomenkan sangat jus gout ni daripada Promaxx series.",
+   "note": "'saya nak rekomen kepada anda sangat' (9.2) repeat dropped"
+  },
+  {
+   "id": "S03",
+   "in": 16.54,
+   "out": 24.85,
+   "zoom": 1.0,
+   "text": "Jus gout dari Promaxx series ni adalah campuran dari 6 jenis bahan iaitu bromelain, milk thistle,",
+   "note": ""
+  },
+  {
+   "id": "S03b",
+   "in": 25.9,
+   "out": 27.1,
+   "zoom": 1.0,
+   "text": "lemon extract,",
+   "note": "'lemon' false start and the first 'curcuma longa' dropped"
+  },
+  {
+   "id": "S03c",
+   "in": 29.8,
+   "out": 34.35,
+   "zoom": 1.0,
+   "text": "curcuma longa root extract, ginger extract dan juga orange extract.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 41.3,
+   "out": 51.65,
+   "zoom": 1.0,
+   "text": "Jus gout ni dapat bantu untuk halang penghasilan asid urik. Ada bahan milk thistle dan bromelain, dan ianya bebas gula serta ianya adalah organik.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 61.1,
+   "out": 66.25,
+   "zoom": 1.0,
+   "text": "Jus gout ni bantu untuk halang penghasilan asid urik dan seimbangkan paras asid urik korang.",
+   "note": "first take 51.9 dropped"
+  },
+  {
+   "id": "S06",
+   "in": 80.6,
+   "out": 86.6,
+   "zoom": 1.0,
+   "text": "Cuma perlu campurkan dua skop jus gout ni dalam 250ml air panas dan kacau hingga larut.",
+   "note": "takes 66.8 and 76.5 dropped"
+  },
+  {
+   "id": "S07",
+   "in": 87.2,
+   "out": 90.9,
+   "zoom": 1.0,
+   "text": "Rasanya tu sangat sedap sebab perisa dia, perisa nenas.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 91.2,
+   "out": 93.65,
+   "zoom": 1.0,
+   "text": "Dan ianya 100% natural tau.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 94.3,
+   "out": 97.75,
+   "zoom": 1.0,
+   "text": "So kalau korang ada masalah gout, bolehlah cuba jus gout ni kat beg kuning.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 101.92,
+   "out": 106.2,
+   "zoom": 1.0,
+   "text": "Sekarang ni banyak seller dah buat promo untuk 11 hari bulan 11 tau.",
+   "note": "first take 98.2 dropped"
+  },
+  {
+   "id": "S11",
+   "in": 106.38,
+   "out": 113.58,
+   "zoom": 1.04,
+   "text": "Cuba tengok dekat beg kuning ada voucher tak. Kalau ada boleh claim, dan sementara harga masih murah tu, korang boleh dapatkan terus di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "stamp": [
+  {
+   "from": [
+    "S01",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "start"
+   ],
+   "text": "Jus Gout Promaxx",
+   "x": 330,
+   "y": 210
+  }
+ ],
+ "flash": [
+  [
+   [
+    "S02",
+    "start"
+   ],
+   "#FFFFFF"
+  ],
+  [
+   [
+    "S04",
+    "start"
+   ],
+   "#000000"
+  ],
+  [
+   [
+    "S06",
+    "start"
+   ],
+   "#FFFFFF"
+  ],
+  [
+   [
+    "S09",
+    "start"
+   ],
+   "#FFFFFF"
+  ]
+ ],
+ "punch": [
+  [
+   "S11",
+   "claim",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S01",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "start"
+   ],
+   "src": 4.0,
+   "note": "172341: balang Jus Gout di tangan",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02b",
+    "end"
+   ],
+   "src": 6.2,
+   "note": "172341: balang dipusing",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "bahan"
+   ],
+   "src": 12.4,
+   "note": "172341: label belakang",
+   "push": [
+    1.05,
+    1.15
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S03",
+    "bahan"
+   ],
+   "to": [
+    "S03c",
+    "end"
+   ],
+   "src": 28.5,
+   "note": "172341: balang dari atas",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "ada"
+   ],
+   "src": 40.5,
+   "note": "172341: buka balang (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S04",
+    "ada"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 18.0,
+   "note": "172341: balang depan",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B7",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 58.0,
+   "note": "172341: skop serbuk ke cawan (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B8",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "dalam"
+   ],
+   "src": 70.0,
+   "note": "172341: skop kedua (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B9",
+   "from": [
+    "S06",
+    "dalam"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 128.0,
+   "note": "172341: kacau dalam air panas (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B10",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 196.0,
+   "note": "172341: jus siap dikacau",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B11",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 20.5,
+   "note": "172341: balang depan",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B12",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 202.0,
+   "note": "172341: jus siap",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#F2B705",
+  "brand": "#C0392B"
+ },
+ "brand_words": [
+  "promaxx"
+ ],
+ "keywords": []
+}
