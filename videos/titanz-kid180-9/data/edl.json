@@ -91,10 +91,18 @@
   {
    "id": "S10",
    "in": 115.4,
+   "out": 117.35,
+   "zoom": 1.0,
+   "text": "Kid180 ni,",
+   "note": "spoken 'Kid satu lapan kosong'"
+  },
+  {
+   "id": "S10b",
+   "in": 120.15,
    "out": 124.55,
    "zoom": 1.0,
-   "text": "Kid180 ni, sebelum ni harga dia mahal sikit tau. Sekarang saya tengah buat promo untuk masa yang terhad.",
-   "note": "spoken 'Kid satu lapan kosong'"
+   "text": "sebelum ni harga dia mahal sikit tau. Sekarang saya tengah buat promo untuk masa yang terhad.",
+   "note": "'sebelum ni saya lihat' false start (117.9-119.6) dropped"
   },
   {
    "id": "S11",
@@ -195,11 +203,11 @@
   {
    "id": "B4",
    "from": [
-    "S10",
+    "S10b",
     "sekarang"
    ],
    "to": [
-    "S10",
+    "S10b",
     "end"
    ],
    "src": 7.9,
