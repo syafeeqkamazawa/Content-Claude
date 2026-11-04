@@ -1,4 +1,4 @@
-TOTAL 72.25s  (13 A-roll segments, 6 B-roll shots, 0 photos, 5 audio fx, 198 caption cards)
+TOTAL 71.22s  (14 A-roll segments, 6 B-roll shots, 0 photos, 5 audio fx, 198 caption cards)
 
   0.00-  6.45  S01  src   4.40- 10.85  (1 pc)  Sekarang ni tengah viral guys, berkenaan dengan krill oil yang dikatakan lagi baik berbanding dengan omega biasa.
   6.45- 12.00  S02  src  22.90- 28.45  (1 pc)  Saya dah cuba, alhamdulillah ada perubahan sejak saya amalkan krill oil daripada Aurapep ni.
@@ -9,14 +9,15 @@ TOTAL 72.25s  (13 A-roll segments, 6 B-roll shots, 0 photos, 5 audio fx, 198 cap
  31.25- 34.27  S07  src  78.38- 81.40  (1 pc)  yang kita rasa selalu lenguh-lenguh dan kebas-kebas tu kan?
  34.27- 43.37  S08  src  82.10- 91.20  (1 pc)  Dalam setiap kapsul ni mengandungi krill oil, mengandungi omega 3, mengandungi DHA dan juga EPA, astaxanthin, vitamin D3 dan juga vitamin K2.
  43.37- 45.57  S09  src  96.30- 98.50  (1 pc)  Kesemuanya dapat bantu support kesihatan kita.
- 45.57- 54.20  S10  src  98.64-107.82  (3 pc)  Harga dia sedikit mahal berbanding omega biasa, tapi berbaloi dengan manfaat yang dia boleh support mata, otak, jantung dan juga saraf kita.
- 54.20- 58.65  S11  src 170.30-174.75  (1 pc)  Satu botol ni ada 40 softgel. Satu hari cukup kita makan 2 softgel sahaja.
- 58.65- 66.45  S12  src 193.10-200.90  (1 pc)  Sekarang ni banyak seller tengah buat promo 11.11 tau. Cuba tengok dekat beg kuning harga dia berapa. Aurapep ni antara yang termurah tau.
- 66.45- 72.25  S13  src 228.20-234.00  (1 pc)  Kepada yang berminat nak cuba, boleh dapatkan segera dekat beg kuning, sementara masih ada stok dan harga dia masih murah.
+ 45.57- 49.55  S10  src  98.64-102.62  (1 pc)  Harga dia sedikit mahal berbanding omega biasa, tapi berbaloi
+ 49.55- 53.17  S10b  src 104.20-107.82  (1 pc)  dengan manfaat yang dia boleh support mata, otak, jantung dan juga saraf kita.
+ 53.17- 57.62  S11  src 170.30-174.75  (1 pc)  Satu botol ni ada 40 softgel. Satu hari cukup kita makan 2 softgel sahaja.
+ 57.62- 65.42  S12  src 193.10-200.90  (1 pc)  Sekarang ni banyak seller tengah buat promo 11.11 tau. Cuba tengok dekat beg kuning harga dia berapa. Aurapep ni antara yang termurah tau.
+ 65.42- 71.22  S13  src 228.20-234.00  (1 pc)  Kepada yang berminat nak cuba, boleh dapatkan segera dekat beg kuning, sementara masih ada stok dan harga dia masih murah.
 
   cutaway   9.58- 12.00
   cutaway  14.50- 17.45
   cutaway  34.27- 38.82
   cutaway  38.82- 43.37
-  cutaway  54.20- 58.65
-  cutaway  64.62- 66.45
+  cutaway  53.17- 57.62
+  cutaway  63.58- 65.42

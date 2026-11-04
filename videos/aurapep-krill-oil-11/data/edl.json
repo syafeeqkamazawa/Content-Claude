@@ -97,10 +97,18 @@
   {
    "id": "S10",
    "in": 98.64,
+   "out": 102.62,
+   "zoom": 1.0,
+   "text": "Harga dia sedikit mahal berbanding omega biasa, tapi berbaloi",
+   "note": ""
+  },
+  {
+   "id": "S10b",
+   "in": 104.2,
    "out": 107.82,
    "zoom": 1.0,
-   "text": "Harga dia sedikit mahal berbanding omega biasa, tapi berbaloi dengan manfaat yang dia boleh support mata, otak, jantung dan juga saraf kita.",
-   "note": ""
+   "text": "dengan manfaat yang dia boleh support mata, otak, jantung dan juga saraf kita.",
+   "note": "repeated 'dengan manfaat yang dia' (102.6) dropped"
   },
   {
    "id": "S11",

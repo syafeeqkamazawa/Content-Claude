@@ -1,0 +1,26 @@
+TOTAL 40.58s  (13 A-roll segments, 6 B-roll shots, 4 photos, 3 audio fx, 98 caption cards)
+
+  0.00-  3.68  S01  src  27.00- 31.15  (2 pc)  Kurma Ajwa, kurma ni disebut Kurma Nabi tau,
+  3.68-  5.98  S02  src  33.10- 35.40  (1 pc)  sebab kurma ni berasal dari Madinah,
+  5.98- 11.95  S03  src  36.30- 42.75  (2 pc)  dan sangat disukai oleh Nabi Muhammad SAW. Dan Nabi sebutkan beberapa keutamaan kurma Ajwa ni.
+ 11.95- 15.07  S04  src  43.30- 46.70  (2 pc)  Di antaranya, membentengi dari sihir dan racun.
+ 15.07- 20.12  S05  src  47.30- 53.60  (3 pc)  Dan secara sains pun ternyata, kurma ni kandungannya luar biasa tau.
+ 20.12- 23.72  S06  src  58.80- 62.40  (1 pc)  Antioksidannya, vitaminnya, mineralnya,
+ 23.72- 26.27  S07  src  64.90- 67.45  (1 pc)  asid aminonya, lengkap sangat.
+ 26.27- 28.25  S08  src  72.00- 74.50  (2 pc)  Puasa pun dah tak lama.
+ 28.25- 30.57  S09  src  78.30- 80.62  (1 pc)  Bolehlah standby awal-awal kurma Ajwa ni.
+ 30.57- 32.52  S10  src  81.90- 83.85  (1 pc)  Kalau kat luar, mungkin lagi mahal.
+ 32.52- 35.42  S11  src  95.80- 98.70  (1 pc)  Tambah pula ramai seller dah buat promo 11.11 tau.
+ 35.42- 38.02  S12  src 106.00-108.60  (1 pc)  Cuba tengok dekat beg kuning, berapa harga yang korang dapat.
+ 38.02- 40.58  S13  src 113.85-116.60  (2 pc)  Kalau harga tu tengah murah, bolehlah beli awal-awal.
+
+  cutaway   3.68-  5.98
+  cutaway   5.98-  8.73
+  cutaway   8.73- 11.95
+  cutaway  18.30- 20.12
+  cutaway  20.12- 23.72
+  cutaway  23.72- 26.27
+  cutaway  26.27- 28.25
+  cutaway  28.25- 30.57
+  cutaway  32.52- 35.42
+  cutaway  35.42- 38.02
