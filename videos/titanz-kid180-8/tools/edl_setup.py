@@ -16,7 +16,7 @@ segs = [
     seg("S05", 45.74, 47.45, "seperti pemakanan.", "false start 47.7-54 dropped"),
     seg("S06", 55.10, 65.20, "Ibu ayah yang risau tumbesaran anak terbantut tu, kena pastikan nutrien intake anak tu lengkap.", "scripted repeat of the hook (as in the reference video)"),
     seg("S07", 91.20, 96.65, "Kalau anak-anak ibu ayah suka memilih makanan, ibu ayah boleh berikan supplement Kid180 ni kepada anak-anak.", "earlier takes 65-84 and the 'kalau ibu ayah ada anak-anak yang suka' stumble dropped"),
-    seg("S08", 121.10, 128.95, "Supplement ni jangan risau, dia ada sijil halal, HACCP, GMP, MeSTI, insya-Allah selamat untuk anak-anak.", "last take (97-118 retakes dropped)"),
+    seg("S08", 122.30, 128.95, "Supplement ni jangan risau, dia ada sijil halal, HACCP, GMP, MeSTI, insya-Allah selamat untuk anak-anak.", "last take (97-118 retakes dropped)"),
     seg("S09", 131.60, 134.15, "Paling penting, dia juga dapat kelulusan KKM.", "false start 129.5 dropped"),
     seg("S10", 148.70, 152.55, "Kid180 ni dia bagi nutrien yang diperlukan oleh badan untuk tumbesaran."),
     seg("S11", 152.85, 159.58, "Satu tablet ni bersamaan dengan tiga cawan susu, ataupun makan sayur dan buah, yang ada lebih 20 jenis.", "'vitamin, sebelum ni harga sebotol dalam…' has no price — cut after 'jenis'"),

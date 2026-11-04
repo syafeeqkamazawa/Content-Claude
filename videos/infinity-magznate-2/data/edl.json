@@ -1,0 +1,266 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word2",
+ "word2": {
+  "top": 1500,
+  "size": 48,
+  "weight": 800,
+  "punct": true
+ },
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "4 Nov: Drive folder 1aM-W0W3… 'Infinity Magznate' with 'video rujukan.mp4' (a doctor's talking-head answer about sleeping pills; the owner follows its script). Copied from the reference: a plain talking head, captions one upper-case white word at a time with its comma / full stop, small, centred, with a soft shadow — the reference sits at ~62 % height, moved down to ~79 % so it stays off the owner's face and the product label, hard cuts, no photo cutaways. Not copied: the reference's comment-reply bubble (no real comment to answer) — the opening uses the owner's premium motion-text hook instead (28 Oct). Kept the owner's 1 Nov rule: a few product close-ups from his B-roll where he names the product.",
+ "_note": "Infinity Magznate #2 — A-roll assets/a.mp4 = VID_20261104_144251 (front camera saved mirrored — label reads backwards — flipped back in CSS). B-roll assets/b.mp4 = VID_20261014_010649 (muted; also used in videos/infinity-magznate: 8 label, 12.5 label, 24.5 pouring, 36 bottle + tablets). No AI photos. 'Promo 11.11' and the ubat tidur / konsultasi doktor lines are the owner's own words.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 31.1,
+   "out": 39.15,
+   "zoom": 1.0,
+   "text": "Siapa kat sini yang ada masalah susah nak tidur malam, berjaga sampai 2-3 pagi? Kadang-kadang 4 pagi baru dapat tidur.",
+   "note": "HOOK (three false starts 13-27 dropped)"
+  },
+  {
+   "id": "S02",
+   "in": 39.7,
+   "out": 43.25,
+   "zoom": 1.0,
+   "text": "Saya boleh cadangkan alternatif, iaitu magnesium Magznate.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 48.9,
+   "out": 52.5,
+   "zoom": 1.0,
+   "text": "Magnesium ni dia bantu untuk tenangkan kita, relakskan kita.",
+   "note": "second take (first, 43.8, says 'anda')"
+  },
+  {
+   "id": "S04",
+   "in": 52.68,
+   "out": 59.1,
+   "zoom": 1.0,
+   "text": "Sesiapa yang ada masalah anxiety, overthinking, stres, tak boleh tidur, insomnia,",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 61.8,
+   "out": 64.75,
+   "zoom": 1.0,
+   "text": "anda boleh cuba magnesium ni lah.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 70.85,
+   "out": 76.5,
+   "zoom": 1.0,
+   "text": "Dia membantu dan menyokong diri kita untuk lebih tenang dan lebih relaks.",
+   "note": "first take 65.3 dropped"
+  },
+  {
+   "id": "S07",
+   "in": 105.5,
+   "out": 114.85,
+   "zoom": 1.0,
+   "text": "Ubat tidur memang ada, tapi ubat tidur tak boleh dapat dekat TikTok, dekat online ke, pergi farmasi pun tak boleh beli ubat tidur.",
+   "note": "earlier take 77.2 dropped"
+  },
+  {
+   "id": "S08",
+   "in": 124.6,
+   "out": 130.5,
+   "zoom": 1.0,
+   "text": "Ataupun kita panggil sebagai ubat penenang lah.",
+   "note": "'especially ubat penenang (ni)' x2 dropped"
+  },
+  {
+   "id": "S09",
+   "in": 137.0,
+   "out": 143.85,
+   "zoom": 1.0,
+   "text": "Ubat tidur ni boleh dapat dengan konsultasi doktor sahaja, ataupun di klinik lah untuk kes-kes tertentu.",
+   "note": "first take 132.6 dropped"
+  },
+  {
+   "id": "S10",
+   "in": 143.9,
+   "out": 144.85,
+   "zoom": 1.0,
+   "text": "Bukan untuk semua orang.",
+   "note": ""
+  },
+  {
+   "id": "S10b",
+   "in": 147.5,
+   "out": 150.3,
+   "zoom": 1.0,
+   "text": "Tapi untuk masalah tak boleh tidur secara umumnya,",
+   "note": "repeated 'tapi untuk masalah' (145.4) dropped"
+  },
+  {
+   "id": "S11",
+   "in": 161.3,
+   "out": 164.25,
+   "zoom": 1.0,
+   "text": "saya sangat recommend anda boleh gunakan magnesium ni.",
+   "note": "'saya sangat cadangkan boleh dapat / saya sangat, saya sangat' stumbles dropped"
+  },
+  {
+   "id": "S12",
+   "in": 169.3,
+   "out": 173.4,
+   "zoom": 1.0,
+   "text": "So kalau anda ada masalah tidur, stres, anxiety, overthinking,",
+   "note": "'so kalau, so kalau' stumbles dropped"
+  },
+  {
+   "id": "S13",
+   "in": 175.6,
+   "out": 179.4,
+   "zoom": 1.0,
+   "text": "selalu fikir benda yang bukan-bukan, mungkin,",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 179.9,
+   "out": 186.1,
+   "zoom": 1.0,
+   "text": "saya cadangkan anda boleh dapatkan magnesium ni.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 215.8,
+   "out": 218.9,
+   "zoom": 1.0,
+   "text": "Sekarang ni kebanyakan seller dah buat promo 11.11 tau.",
+   "note": "'beg kuning kalau ada / kalau saya tengah buat promo' takes 186-213 dropped"
+  },
+  {
+   "id": "S16",
+   "in": 221.3,
+   "out": 224.8,
+   "zoom": 1.04,
+   "text": "Cuba tengok dekat beg kuning, kalau harga tengah murah tu, boleh beli terus.",
+   "note": "CTA (first take 219.1 dropped)"
+  }
+ ],
+ "hook_text": {
+  "kicker": "Infinity Magznate",
+  "lines": [
+   "Susah nak",
+   "tidur malam?"
+  ],
+  "accent_words": [
+   "tidur",
+   "malam?"
+  ],
+  "to": 3.4,
+  "accent": "#5FC7D4",
+  "accent2": "#A8E2EA",
+  "top": 140
+ },
+ "punch": [
+  [
+   "S16",
+   "beli",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "magnesium"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 8.0,
+   "note": "010649: botol Magznate, label",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 36.0,
+   "note": "010649: botol + tablet di tangan (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S11",
+    "gunakan"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 24.5,
+   "note": "010649: tuang tablet (guna produk)",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S14",
+    "dapatkan"
+   ],
+   "to": [
+    "S14",
+    "end"
+   ],
+   "src": 12.5,
+   "note": "010649: label Magnesium Bisglycinate & Zinc",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 40%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#5FC7D4",
+  "brand": "#A8E2EA"
+ },
+ "brand_words": [
+  "magznate"
+ ],
+ "keywords": []
+}
