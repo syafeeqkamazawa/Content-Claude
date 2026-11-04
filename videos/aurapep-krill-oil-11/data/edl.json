@@ -1,0 +1,266 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word2",
+ "word2": {
+  "top": 1640,
+  "size": 64,
+  "weight": 800,
+  "stroke": "#2B1CF0",
+  "stroke_w": 12
+ },
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "4 Nov: 'Video saya bercakap krill oil aurapep ada yang satu lagi. Buatkan juga yang tu' — second talking clip in Drive folder 1irOVOgs… with a second reference (TikDownloader…mp4, another creator's Aurapep video; the owner follows its script). Copied from that reference: a hook banner at the top — black condensed upper-case lines on bright green bars — for the opening seconds, then one upper-case white word at a time with a thick blue-violet outline low in the frame, hard cuts, and mostly talking head with product close-ups. The banner carries the owner's own hook (the reference's wording is not copied). 1 Nov: keep every point; product close-ups and the owner using the product.",
+ "_note": "Aurapep Krill Oil #11 — A-roll assets/a.mp4 = VID_20261104_151832 (front camera, mirrored back in CSS). B-roll assets/b.mp4 = the krill-10 pool (hard link): P 0-33.91 = VID_20261104_151915 (#11 uses 15-33: drinking the softgel, thumbs up; #10 used 0-14), Q 33.91-73.24 = VID_20261021_091344, R 73.24-163.7 = VID_20261022_092840; picks avoid #10's (Q 36.2-38.8, 41-48.6, 55.2-57.7, 59.5-63.9, P 9.5-10.3, R 130.3-133.8). Clip -> video: 145248 -> #10, 151832 -> #11, 151915 split between them. Claims, dose (2 softgel sehari), 'termurah' and promo 11.11 are the owner's own words; no price figure.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 4.4,
+   "out": 10.85,
+   "zoom": 1.0,
+   "text": "Sekarang ni tengah viral guys, berkenaan dengan krill oil yang dikatakan lagi baik berbanding dengan omega biasa.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 22.9,
+   "out": 28.45,
+   "zoom": 1.0,
+   "text": "Saya dah cuba, alhamdulillah ada perubahan sejak saya amalkan krill oil daripada Aurapep ni.",
+   "note": "first take 11.8 dropped"
+  },
+  {
+   "id": "S03",
+   "in": 28.55,
+   "out": 34.0,
+   "zoom": 1.0,
+   "text": "Sebab apa? Dia sangat berkualiti dan ada kelulusan daripada KKM dan halal JAKIM tau.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 34.5,
+   "out": 40.9,
+   "zoom": 1.0,
+   "text": "Krill oil ni memang dapat bantu untuk support kesihatan jantung kita, bantu support kesihatan mata kita,",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 44.6,
+   "out": 49.6,
+   "zoom": 1.0,
+   "text": "dan juga bantu support kesihatan otak kita supaya daya ingatan kita jadi lebih baik.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 74.2,
+   "out": 76.6,
+   "zoom": 1.0,
+   "text": "Dan juga support sistem saraf kita tau,",
+   "note": "stumbling takes 49.6-69.6 dropped"
+  },
+  {
+   "id": "S07",
+   "in": 78.38,
+   "out": 81.4,
+   "zoom": 1.0,
+   "text": "yang kita rasa selalu lenguh-lenguh dan kebas-kebas tu kan?",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 82.1,
+   "out": 91.2,
+   "zoom": 1.0,
+   "text": "Dalam setiap kapsul ni mengandungi krill oil, mengandungi omega 3, mengandungi DHA dan juga EPA, astaxanthin, vitamin D3 dan juga vitamin K2.",
+   "note": "label: Rich in Astaxanthin & Vitamin D3 & K2"
+  },
+  {
+   "id": "S09",
+   "in": 96.3,
+   "out": 98.5,
+   "zoom": 1.0,
+   "text": "Kesemuanya dapat bantu support kesihatan kita.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 98.64,
+   "out": 107.82,
+   "zoom": 1.0,
+   "text": "Harga dia sedikit mahal berbanding omega biasa, tapi berbaloi dengan manfaat yang dia boleh support mata, otak, jantung dan juga saraf kita.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 170.3,
+   "out": 174.75,
+   "zoom": 1.0,
+   "text": "Satu botol ni ada 40 softgel. Satu hari cukup kita makan 2 softgel sahaja.",
+   "note": "quiet stretch 108-160 and takes 159-169 dropped"
+  },
+  {
+   "id": "S12",
+   "in": 193.1,
+   "out": 200.9,
+   "zoom": 1.0,
+   "text": "Sekarang ni banyak seller tengah buat promo 11.11 tau. Cuba tengok dekat beg kuning harga dia berapa. Aurapep ni antara yang termurah tau.",
+   "note": "first take 182.9 dropped"
+  },
+  {
+   "id": "S13",
+   "in": 228.2,
+   "out": 234.0,
+   "zoom": 1.04,
+   "text": "Kepada yang berminat nak cuba, boleh dapatkan segera dekat beg kuning, sementara masih ada stok dan harga dia masih murah.",
+   "note": "CTA, last of four takes (200.9-225.6)"
+  }
+ ],
+ "banner": {
+  "lines": [
+   "Krill oil tengah viral,",
+   "lagi baik dari omega biasa?"
+  ],
+  "to": [
+   "S02",
+   "start"
+  ]
+ },
+ "punch": [
+  [
+   "S13",
+   "dapatkan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "amalkan"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 19.2,
+   "note": "151915: owner minum softgel (guna produk)",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S03",
+    "kelulusan"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 49.6,
+   "note": "091344: buka botol Aurapep",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "dha"
+   ],
+   "src": 64.0,
+   "note": "091344: softgel merah + botol",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S08",
+    "dha"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 121.0,
+   "note": "092840: softgel ke kamera (guna produk)",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 55%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 110.3,
+   "note": "092840: botol dibuka, penutup ke kamera",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 55%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S12",
+    "aurapep"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 23.0,
+   "note": "151915: owner thumbs up",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#3CEB2E",
+  "brand": "#2B1CF0"
+ },
+ "brand_words": [
+  "aurapep"
+ ],
+ "keywords": []
+}
