@@ -25,3 +25,5 @@ ref/
 .media/gen2.log
 ref/
 .media/tc.log
+.media/*.mp4
+.media/pl*.txt

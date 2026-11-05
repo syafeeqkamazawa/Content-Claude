@@ -35,10 +35,18 @@
   {
    "id": "S03",
    "in": 25.0,
+   "out": 27.78,
+   "zoom": 1.0,
+   "text": "Dalam dia pun ada kismis, badam, gajus.",
+   "note": "'ada kismis' false start (20.4) dropped"
+  },
+  {
+   "id": "S03b",
+   "in": 29.6,
    "out": 31.5,
    "zoom": 1.0,
-   "text": "Dalam dia pun ada kismis, badam, gajus. Yang penting, protein dia pun tinggi tau.",
-   "note": "'ada kismis' false start (20.4) dropped"
+   "text": "Yang penting, protein dia pun tinggi tau.",
+   "note": "repeated 'yang penting protein pun' (27.8-29.2) dropped"
   },
   {
    "id": "S04",
@@ -248,7 +256,7 @@
     "start"
    ],
    "to": [
-    "S03",
+    "S03b",
     "end"
    ],
    "note": "AI: kismis, badam, gajus"

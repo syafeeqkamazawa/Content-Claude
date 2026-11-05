@@ -12,7 +12,8 @@ def ph(i, f, t, note): return {"id": i, "from": f, "to": t, "note": note}
 segs = [
     seg("S01", 6.30, 13.80, "Bagi yang baru order kacang mixed nuts ni, ataupun yang tengah jaga makan, kalau nak sedap, korang campurkan dengan susu full cream ataupun dengan yogurt.", "HOOK (110040)"),
     seg("S02", 14.00, 20.10, "Kadang-kadang bila nak kudap waktu malam tu, nak kena makan Maggi. Tapi sekarang ni dah ada kacang yang sihat macam ni."),
-    seg("S03", 25.00, 31.50, "Dalam dia pun ada kismis, badam, gajus. Yang penting, protein dia pun tinggi tau.", "'ada kismis' false start (20.4) dropped"),
+    seg("S03", 25.00, 27.78, "Dalam dia pun ada kismis, badam, gajus.", "'ada kismis' false start (20.4) dropped"),
+    seg("S03b", 29.60, 31.50, "Yang penting, protein dia pun tinggi tau.", "repeated 'yang penting protein pun' (27.8-29.2) dropped"),
     seg("S04", O + 15.10, O + 18.55, "Lagi satu, harga dia murah je tau untuk satu pack 500 gram macam ni.", "110249 take 3 (110040 35-43 and 110249 takes 1-2 dropped)"),
     seg("S05", O + 34.20, O + 40.90, "Untuk yang baru nak try, sekarang ni aku suggestkan korang beli dua. Sebab apa? Sebab seller tengah buat offer. Lagi-lagi yang tengah jaga makan tu,", "takes 110249 18.9-32.3 dropped"),
     seg("S06", O + 41.10, O + 43.60, "kacang mixed nuts macam ni memang sesuai untuk korang."),
@@ -36,7 +37,7 @@ e = {"fps": 60, "width": 1080, "height": 1920, "captions": False, "caption_style
      "photos": [ph("susu", ["S01", "susu"], ["S01", "yogurt"], "AI: mangkuk kacang dengan susu"),
                 ph("yogurt", ["S01", "yogurt"], ["S01", "end"], "AI: yogurt dengan kacang"),
                 ph("maggi", ["S02", "start"], ["S02", "tapi"], "AI: makan mi segera waktu malam"),
-                ph("kacang", ["S03", "start"], ["S03", "end"], "AI: kismis, badam, gajus"),
+                ph("kacang", ["S03", "start"], ["S03b", "end"], "AI: kismis, badam, gajus"),
                 ph("sudu", ["S06", "start"], ["S06", "end"], "AI: sudu kacang dalam susu")],
      "theme": {"key": "#E9A23B", "brand": "#FFFFFF"},
      "brand_words": [], "keywords": []}
