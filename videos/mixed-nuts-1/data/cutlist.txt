@@ -1,0 +1,24 @@
+TOTAL 42.35s  (11 A-roll segments, 5 B-roll shots, 5 photos, 4 audio fx, 138 caption cards)
+
+  0.00-  3.63  S01  src  12.20- 15.84  (1 pc)  Snek ni, snek yang sihat, anak pun suka makan tau.
+  3.63-  8.70  S02  src  24.90- 29.97  (1 pc)  Yang ni healthy roasted mix snack tau, campuran tujuh jenis buah dan kekacang.
+  8.70- 12.08  S03  src  29.97- 33.35  (1 pc)  Semua yang rangup, manis, semula jadi dan halal pula tu.
+ 12.08- 14.88  S04  src  33.50- 36.30  (1 pc)  Yang paling best, dalam ni banyak gila kacang walnut.
+ 14.88- 19.68  S05  src  36.60- 41.40  (1 pc)  Brand lain selalunya bagi dua tiga biji je, tapi yang ni penuh satu pack, pemurah betul.
+ 19.68- 24.03  S06  src  44.50- 48.85  (1 pc)  Kacang dia crispy, buah-buah dia manis tau, anak pun boleh makan tanpa rasa bersalah.
+ 24.03- 30.55  S07  src  49.68- 56.20  (1 pc)  At least bila nak snacking, dapat juga khasiat dari kekacang dan buah kering tu. Jadi kalau korang tengah cari snek sihat untuk anak-anak,
+ 30.55- 33.60  S08  src  59.30- 62.35  (1 pc)  ni antara yang paling berbaloi tau. Try bagi anak korang yang ni.
+ 33.60- 34.95  S09  src  85.40- 86.75  (1 pc)  Confirm tak cari jajan dah.
+ 34.95- 38.70  S10  src  98.90-102.65  (1 pc)  Apa lagi korang, sekarang ni seller dah banyak buat promo 11.11 tau.
+ 38.70- 42.35  S11  src 115.90-119.55  (1 pc)  Kalau berminat, korang grab sekarang. Tengok dekat beg kuning berapa harga dan terus beli.
+
+  cutaway   1.57-  3.63
+  cutaway   4.13-  8.70
+  cutaway   8.70- 12.08
+  cutaway  12.08- 14.88
+  cutaway  17.13- 19.68
+  cutaway  19.68- 24.03
+  cutaway  24.03- 27.70
+  cutaway  32.10- 33.60
+  cutaway  33.60- 34.95
+  cutaway  34.95- 38.70

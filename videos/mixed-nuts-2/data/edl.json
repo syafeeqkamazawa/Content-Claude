@@ -1,0 +1,275 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": false,
+ "caption_style": "word2",
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "5 Nov: Drive folder 1PmTRs8K… 'Mixed Nuts' — the second content is several files joined: VID_20261105_110040 (susu / yogurt, kismis badam gajus) + VID_20261105_110249 (harga 500 g, beli dua, promo, CTA), with the owner's pouch shots from VID_20261105_110137 as B-roll. It follows TikDownloader…7593974540527537416 (Mixed Nuts in a bowl of milk, the same script): product shots for almost the whole video — pouch, open pouch, a bowl of nuts with milk, yogurt, spoon — crossfading, a white rounded text card near the top, and no running subtitles (the reference has none). The reference's 'Reply to … comment' bubble is not faked: the card carries the owner's own line instead. Aurat rule kept.",
+ "_note": "Mixed Nuts #2 — A-roll assets/a.mp4 = VID_20261105_110040 0-63.6 + VID_20261105_110249 from 63.622 s (front camera, mirrored back in CSS). B-roll assets/b.mp4 (flipped, muted) = 110137 0-5.5 (pouch to camera, opening) at 0-5.5, 110137 45.5-52.5 (open pouch full of nuts) at 5.5-12.5, 110249 23.3-30 (open pouch, silent) at 12.5-19.2. 105911 is camera set-up only (no usable speech; another person walks in) and is not used. Claims are the owner's own words (kismis, badam, gajus, protein tinggi, 500 g, beli dua, promo 11.11); no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 6.3,
+   "out": 13.8,
+   "zoom": 1.0,
+   "text": "Bagi yang baru order kacang mixed nuts ni, ataupun yang tengah jaga makan, kalau nak sedap, korang campurkan dengan susu full cream ataupun dengan yogurt.",
+   "note": "HOOK (110040)"
+  },
+  {
+   "id": "S02",
+   "in": 14.0,
+   "out": 20.1,
+   "zoom": 1.0,
+   "text": "Kadang-kadang bila nak kudap waktu malam tu, nak kena makan Maggi. Tapi sekarang ni dah ada kacang yang sihat macam ni.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 25.0,
+   "out": 31.5,
+   "zoom": 1.0,
+   "text": "Dalam dia pun ada kismis, badam, gajus. Yang penting, protein dia pun tinggi tau.",
+   "note": "'ada kismis' false start (20.4) dropped"
+  },
+  {
+   "id": "S04",
+   "in": 78.72,
+   "out": 82.17,
+   "zoom": 1.0,
+   "text": "Lagi satu, harga dia murah je tau untuk satu pack 500 gram macam ni.",
+   "note": "110249 take 3 (110040 35-43 and 110249 takes 1-2 dropped)"
+  },
+  {
+   "id": "S05",
+   "in": 97.82,
+   "out": 104.52,
+   "zoom": 1.0,
+   "text": "Untuk yang baru nak try, sekarang ni aku suggestkan korang beli dua. Sebab apa? Sebab seller tengah buat offer. Lagi-lagi yang tengah jaga makan tu,",
+   "note": "takes 110249 18.9-32.3 dropped"
+  },
+  {
+   "id": "S06",
+   "in": 104.72,
+   "out": 107.22,
+   "zoom": 1.0,
+   "text": "kacang mixed nuts macam ni memang sesuai untuk korang.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 118.72,
+   "out": 123.98,
+   "zoom": 1.0,
+   "text": "Sekarang ni pun dah ramai seller tengah buat promo 11.11 tau. Cuba korang tengok beg kuning, berapa harga korang dapat.",
+   "note": "takes 48.2-53.1 dropped"
+  },
+  {
+   "id": "S08",
+   "in": 124.02,
+   "out": 126.77,
+   "zoom": 1.04,
+   "text": "Kalau tengah murah tu, jangan tunggu lagi. Beli terus.",
+   "note": "CTA"
+  }
+ ],
+ "pin": {
+  "text": "Campur dengan susu full cream atau yogurt, baru sedap!",
+  "y": 300,
+  "size": 40,
+  "card": true
+ },
+ "punch": [
+  [
+   "S08",
+   "beli",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S01",
+    "start"
+   ],
+   "to": [
+    "S01",
+    "ataupun"
+   ],
+   "src": 0.6,
+   "note": "110137: pouch ke kamera",
+   "push": [
+    1.8,
+    1.95
+   ],
+   "origin": "55% 100%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S01",
+    "ataupun"
+   ],
+   "to": [
+    "S01",
+    "susu"
+   ],
+   "src": 6.5,
+   "note": "110137: pouch terbuka penuh kacang (guna produk)",
+   "push": [
+    1.8,
+    1.95
+   ],
+   "origin": "62% 100%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S02",
+    "tapi"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 13.0,
+   "note": "110249: kacang dalam pouch",
+   "push": [
+    1.8,
+    1.95
+   ],
+   "origin": "88% 100%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 1.5,
+   "note": "110137: pouch depan (500 g)",
+   "push": [
+    1.8,
+    1.95
+   ],
+   "origin": "55% 100%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S05",
+    "sebab"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 15.5,
+   "note": "110249: pouch terbuka",
+   "push": [
+    1.8,
+    1.95
+   ],
+   "origin": "60% 100%"
+  },
+  {
+   "id": "B6",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 8.5,
+   "note": "110137: kacang dalam pouch (guna produk)",
+   "push": [
+    1.8,
+    1.95
+   ],
+   "origin": "68% 100%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "susu",
+   "from": [
+    "S01",
+    "susu"
+   ],
+   "to": [
+    "S01",
+    "yogurt"
+   ],
+   "note": "AI: mangkuk kacang dengan susu"
+  },
+  {
+   "id": "yogurt",
+   "from": [
+    "S01",
+    "yogurt"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: yogurt dengan kacang"
+  },
+  {
+   "id": "maggi",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "tapi"
+   ],
+   "note": "AI: makan mi segera waktu malam"
+  },
+  {
+   "id": "kacang",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: kismis, badam, gajus"
+  },
+  {
+   "id": "sudu",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: sudu kacang dalam susu"
+  }
+ ],
+ "theme": {
+  "key": "#E9A23B",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [],
+ "keywords": []
+}

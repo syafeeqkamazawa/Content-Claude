@@ -1,0 +1,288 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word3",
+ "word3": {
+  "max": 3,
+  "chars": 18,
+  "highlight": false,
+  "box": true,
+  "top": 1770,
+  "size": 40
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "5 Nov: Drive folder 1PmTRs8K… 'Mixed Nuts' — 'Sepatutnya ada dua video akan disiapkan. Ada satu file video penuh dan untuk konten kedua ada beberapa file video yang perlu digabungkan. Rujuk video contoh dan buat overlay semirip mungkin dengan video contoh'. This full clip follows TikDownloader…7567006964455197972 (Lucky Deer mix nuts, the same script): a fixed white sentence with a dark outline near the top for the whole video, small 2-3-word captions on a dark box, and most of the talk covered by product shots that crossfade in — a tray / container full of nuts, nuts poured into a container, a child eating, plus the owner's own pouch close-ups. Aurat: the AI child wears a hijab and long sleeves; every person covers aurat.",
+ "_note": "Mixed Nuts #1 — A-roll assets/a.mp4 = VID_20261105_105650 (front camera saved mirrored — 'MIXED NUTS' reads backwards — flipped back in CSS). B-roll assets/b.mp4 = flipped crops of the same clip (muted): pouch front 0-9 (src 38-47), open pouch full of nuts 9-21 (src 68-80) and 21-46 (src 88-113). Clip -> video: 105650 -> #1; 110040 + 110249 (+ 110137 pouch shots) -> #2; 105911 is camera set-up only. Claims are the owner's own words (7 jenis buah dan kekacang, halal, banyak walnut, promo 11.11); no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 12.2,
+   "out": 15.84,
+   "zoom": 1.0,
+   "text": "Snek ni, snek yang sihat, anak pun suka makan tau.",
+   "note": "HOOK (false starts 3.8-12.0 and the unclear 'tempah je mix snack ni' dropped)"
+  },
+  {
+   "id": "S02",
+   "in": 24.9,
+   "out": 29.97,
+   "zoom": 1.0,
+   "text": "Yang ni healthy roasted mix snack tau, campuran tujuh jenis buah dan kekacang.",
+   "note": "'yang ni hel-' false start (17.6) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 29.97,
+   "out": 33.35,
+   "zoom": 1.0,
+   "text": "Semua yang rangup, manis, semula jadi dan halal pula tu.",
+   "note": "continues S02 without a cut"
+  },
+  {
+   "id": "S04",
+   "in": 33.5,
+   "out": 36.3,
+   "zoom": 1.0,
+   "text": "Yang paling best, dalam ni banyak gila kacang walnut.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 36.6,
+   "out": 41.4,
+   "zoom": 1.0,
+   "text": "Brand lain selalunya bagi dua tiga biji je, tapi yang ni penuh satu pack, pemurah betul.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 44.5,
+   "out": 48.85,
+   "zoom": 1.0,
+   "text": "Kacang dia crispy, buah-buah dia manis tau, anak pun boleh makan tanpa rasa bersalah.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 49.68,
+   "out": 56.2,
+   "zoom": 1.0,
+   "text": "At least bila nak snacking, dapat juga khasiat dari kekacang dan buah kering tu. Jadi kalau korang tengah cari snek sihat untuk anak-anak,",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 59.3,
+   "out": 62.35,
+   "zoom": 1.0,
+   "text": "ni antara yang paling berbaloi tau. Try bagi anak korang yang ni.",
+   "note": "first take 56.4 dropped"
+  },
+  {
+   "id": "S09",
+   "in": 85.4,
+   "out": 86.75,
+   "zoom": 1.0,
+   "text": "Confirm tak cari jajan dah.",
+   "note": "takes 62.7-84.2 dropped"
+  },
+  {
+   "id": "S10",
+   "in": 98.9,
+   "out": 102.65,
+   "zoom": 1.0,
+   "text": "Apa lagi korang, sekarang ni seller dah banyak buat promo 11.11 tau.",
+   "note": "'apa lagi korang' false starts 86.7-97 dropped"
+  },
+  {
+   "id": "S11",
+   "in": 115.9,
+   "out": 119.55,
+   "zoom": 1.04,
+   "text": "Kalau berminat, korang grab sekarang. Tengok dekat beg kuning berapa harga dan terus beli.",
+   "note": "CTA (takes 104-115 dropped)"
+  }
+ ],
+ "pin": {
+  "text": "Snacking sihat untuk anak dengan mix nuts ni. Paling best walnut penuh satu pek!",
+  "y": 330,
+  "size": 40
+ },
+ "punch": [
+  [
+   "S11",
+   "grab",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "B1",
+   "from": [
+    "S02",
+    "healthy"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 0.5,
+   "note": "105650: pouch depan",
+   "push": [
+    1.05,
+    1.4
+   ],
+   "origin": "50% 70%"
+  },
+  {
+   "id": "B2",
+   "from": [
+    "S05",
+    "tapi"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 11.5,
+   "note": "105650: pouch terbuka penuh kacang (guna produk)",
+   "push": [
+    1.0,
+    1.35
+   ],
+   "origin": "45% 72%"
+  },
+  {
+   "id": "B3",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "jadi"
+   ],
+   "src": 26.0,
+   "note": "105650: kacang dalam pouch",
+   "push": [
+    1.0,
+    1.35
+   ],
+   "origin": "45% 72%"
+  },
+  {
+   "id": "B4",
+   "from": [
+    "S08",
+    "try"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 6.2,
+   "note": "105650: pouch depan",
+   "push": [
+    1.05,
+    1.4
+   ],
+   "origin": "50% 70%"
+  },
+  {
+   "id": "B5",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 15.0,
+   "note": "105650: kacang dalam pouch",
+   "push": [
+    1.0,
+    1.35
+   ],
+   "origin": "45% 72%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "anak",
+   "from": [
+    "S01",
+    "anak"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: anak (bertudung) makan kacang"
+  },
+  {
+   "id": "bekas",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: bekas penuh kacang"
+  },
+  {
+   "id": "walnut",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: dulang kacang dengan walnut"
+  },
+  {
+   "id": "tuang",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: kacang dituang ke bekas"
+  },
+  {
+   "id": "jajan",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "note": "AI: anak pilih kacang, bukan jajan"
+  }
+ ],
+ "theme": {
+  "key": "#FFFFFF",
+  "brand": "#E9C46A"
+ },
+ "brand_words": [],
+ "keywords": []
+}

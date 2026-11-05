@@ -1,0 +1,2 @@
+file '/home/user/Content-Claude/videos/mixed-nuts-2/.media/a0.mp4'
+file '/home/user/Content-Claude/videos/mixed-nuts-2/.media/a1.mp4'

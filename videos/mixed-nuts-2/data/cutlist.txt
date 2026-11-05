@@ -1,0 +1,22 @@
+TOTAL 40.23s  (8 A-roll segments, 6 B-roll shots, 5 photos, 1 audio fx, 137 caption cards)
+
+  0.00-  7.50  S01  src   6.30- 13.80  (1 pc)  Bagi yang baru order kacang mixed nuts ni, ataupun yang tengah jaga makan, kalau nak sedap, korang campurkan dengan susu full cream ataupun dengan yogurt.
+  7.50- 13.60  S02  src  14.00- 20.10  (1 pc)  Kadang-kadang bila nak kudap waktu malam tu, nak kena makan Maggi. Tapi sekarang ni dah ada kacang yang sihat macam ni.
+ 13.60- 19.78  S03  src  25.00- 31.50  (2 pc)  Dalam dia pun ada kismis, badam, gajus. Yang penting, protein dia pun tinggi tau.
+ 19.78- 23.23  S04  src  78.72- 82.17  (1 pc)  Lagi satu, harga dia murah je tau untuk satu pack 500 gram macam ni.
+ 23.23- 29.93  S05  src  97.82-104.52  (1 pc)  Untuk yang baru nak try, sekarang ni aku suggestkan korang beli dua. Sebab apa? Sebab seller tengah buat offer. Lagi-lagi yang tengah jaga makan tu,
+ 29.93- 32.43  S06  src 104.72-107.22  (1 pc)  kacang mixed nuts macam ni memang sesuai untuk korang.
+ 32.43- 37.70  S07  src 118.72-123.98  (1 pc)  Sekarang ni pun dah ramai seller tengah buat promo 11.11 tau. Cuba korang tengok beg kuning, berapa harga korang dapat.
+ 37.70- 40.23  S08  src 124.02-126.77  (2 pc)  Kalau tengah murah tu, jangan tunggu lagi. Beli terus.
+
+  cutaway   0.00-  1.97
+  cutaway   1.97-  5.38
+  cutaway   5.38-  7.15
+  cutaway   7.15-  7.50
+  cutaway   7.50- 10.87
+  cutaway  10.87- 13.60
+  cutaway  13.60- 19.78
+  cutaway  19.78- 23.23
+  cutaway  25.98- 29.93
+  cutaway  29.93- 32.43
+  cutaway  32.43- 37.70
