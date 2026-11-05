@@ -1,21 +1,18 @@
-TOTAL 87.38s  (14 A-roll segments, 4 B-roll shots, 0 photos, 3 audio fx, 227 caption cards)
+TOTAL 58.22s  (11 A-roll segments, 4 B-roll shots, 0 photos, 3 audio fx, 155 caption cards)
 
-  0.00- 10.58  S01  src   3.20- 13.95  (2 pc)  Kurma Ajwa tengah buat promosi! Abang-abang, akak-akak, pak cik, mak cik, ayah-ayah, ibu-ibu semua, rugi tau kalau tak beli, sebab kita dah nak masuk bulan Ramadan, tak lama dah tau, bulan dua.
- 10.58- 18.58  S02  src  14.60- 22.95  (3 pc)  Dah Ramadan dah. Sekarang 11, 12, 1, sekejap sangat. Kalau tengok ni, Kurma Ajwa ni grade A tau, satu kilo yang saya ambil ni.
- 18.58- 25.07  S03  src 136.01-143.15  (3 pc)  Kalau awak tengah cari kurma Ajwa yang harga murah, boleh beli daripada Quba Food ni. Kualiti memang premium tau.
- 25.07- 29.25  S04  src 146.81-151.51  (3 pc)  Memang puas hati, kurma dia sangat sedap.
- 29.25- 35.95  S05  src 159.21-166.51  (3 pc)  Kurma dia memang sangat sedap, gemuk-gemuk, nampak ni besar-besar tau, hitam je. Saiz dia saiz grade A tau.
- 35.95- 42.70  S06  src 192.91-201.93  (4 pc)  Tahu tak kenapa saya suka sangat kurma ni? Sangat lembut tau kurma dia. Tengoklah. Bismillahirrahmanirrahim.
- 42.70- 48.95  S07  src 203.11-211.31  (5 pc)  Kurma Ajwa, memang tak mengecewakan. Masya-Allah, tengoklah dia punya texture dia.
- 48.95- 56.30  S08  src 213.21-223.67  (8 pc)  Nampak tak? Memang sangat sedap. Juicy, tak kering. Lepas tu dia bersih tau.
- 56.30- 59.10  S10  src 249.11-251.91  (1 pc)  Rasa dia sangat sedap, manis berlemak.
- 59.10- 61.55  S11  src 276.56-279.01  (1 pc)  Awak pergilah beli dengan seller ni, antara yang termurah tau.
- 61.55- 76.15  S12  src 279.31-297.21  (10 pc)  Yang saya beli ni, yang saya dapat, yang ada dengan saya ni satu kg tau, dapat dalam bentuk pek besar macam ni. Gemuk-gemuk je, grade A, harga dia antara yang termurah tau. Pergi beli cepat, berebut orang beli ni.
- 76.15- 80.33  S13  src  86.70- 91.30  (3 pc)  Kurma Ajwa by Quba Food, memang sangat best.
- 80.33- 83.43  S14  src 111.85-114.95  (1 pc)  Sekarang ni ramai seller dah tengah buat promo 11.11 tau.
- 83.43- 87.38  S15  src 115.40-119.65  (2 pc)  Cuba tengok dekat beg kuning, berapa harga korang dapat. Kalau tengah murah tu, beli sekarang.
+  0.00-  6.32  S01  src  13.00- 20.14  (4 pc)  Kalau awak tengah cari kurma Ajwa yang harga murah, boleh beli daripada Quba Food ni. Kualiti memang premium tau.
+  6.32- 10.37  S02  src  23.80- 28.50  (3 pc)  Memang puas hati, kurma dia sangat sedap.
+ 10.37- 15.55  S03  src  36.20- 43.50  (4 pc)  Kurma dia memang sangat sedap, gemuk-gemuk, nampak ni besar-besar tau, hitam je. Saiz dia saiz grade A tau.
+ 15.55- 22.05  S04  src  69.90- 79.06  (6 pc)  Tahu tak kenapa saya suka sangat kurma ni? Sangat lembut tau kurma dia. Tengoklah. Bismillahirrahmanirrahim.
+ 22.05- 28.43  S05  src  80.10- 88.30  (5 pc)  Kurma Ajwa, memang tak mengecewakan. Masya-Allah, tengoklah dia punya texture dia.
+ 28.43- 34.27  S06  src  90.20-100.66  (5 pc)  Nampak tak? Memang sangat sedap. Juicy, tak kering. Lepas tu dia bersih tau.
+ 34.27- 37.07  S07  src 126.10-128.90  (1 pc)  Rasa dia sangat sedap, manis berlemak.
+ 37.07- 38.98  S08  src 153.43-156.00  (2 pc)  Awak pergilah beli dengan seller ni, antara yang termurah tau.
+ 38.98- 54.17  S09  src 156.30-174.20  (6 pc)  Yang saya beli ni, yang saya dapat, yang ada dengan saya ni satu kg tau, dapat dalam bentuk pek besar macam ni. Gemuk-gemuk je, grade A, harga dia antara yang termurah tau. Pergi beli cepat, berebut orang beli ni.
+ 54.17- 55.83  S10  src 180.70-182.85  (2 pc)  Dah ramai seller buat promo 11.11 tau.
+ 55.83- 58.22  S11  src 183.30-188.15  (3 pc)  Cuba tengok dekat beg kuning, kalau harga tengah murah tu, boleh buat stok awal-awal.
 
-  cutaway  29.25- 35.95
-  cutaway  42.70- 48.95
-  cutaway  48.95- 56.30
-  cutaway  61.55- 76.15
+  cutaway  10.37- 15.55
+  cutaway  22.05- 28.43
+  cutaway  28.43- 34.27
+  cutaway  38.98- 54.17

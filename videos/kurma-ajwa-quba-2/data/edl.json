@@ -21,126 +21,102 @@
   "blip": 0.03
  },
  "titles": [],
- "_owner_decisions": "5 Nov: 'Buat overlay yang perlu sahaja atau closeup bila explain tentang produk. Ada satu lagi video kurma' — two new talking clips in Drive folder 17vMTWca… joined into one video: the hook and CTA from VID_20261105_114618, the product explanation from VID_20261105_113237. Overlays are only close-ups of the owner's own hands and the dates while he explains them; no AI photos. Captions as Kurma Ajwa #1 (2-3 upper-case words, spoken word light blue).",
- "_note": "Kurma Ajwa #2 — A-roll assets/a.mp4 = VID_20261105_114618 then VID_20261105_113237 from .media/offset.txt (front camera, mirrored back in CSS). assets/b.mp4 = the same joined clip flipped and muted; close-ups play the same moment zoomed into the hands. Dropped: repeated 'Kurma Ajwa memang best' takes, the second 'lembut, lepas tu bersih' (113237 121.9-125.1; its last words are unclear), the unclear lines (113237 29-35 and 143-149), filler 'haa'. Promo 11.11, 'paling murah / termurah' and 'grade A, 1 kg' are the owner's own words; no price.",
+ "_owner_decisions": "5 Nov: 'Buat overlay yang perlu sahaja atau closeup bila explain tentang produk. Ada satu lagi video kurma' — two new talking clips in Drive folder 17vMTWca…; owner then: 'Kurma Ajwa sepatutnya ada satu lagi' — one video per clip: this is VID_20261105_113237, #3 is VID_20261105_114618. Overlays are only close-ups of the owner's own hands and the dates while he explains them; no AI photos. Captions as Kurma Ajwa #1 (2-3 upper-case words, spoken word light blue).",
+ "_note": "Kurma Ajwa #2 — A-roll assets/a.mp4 = VID_20261105_113237 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted; close-ups play the same moment zoomed into the hands. Clip -> video: 113237 -> #2, 114618 -> #3 (no part in both). Dropped: repeated takes, the unclear lines (29-35, 121.9-125.1, 143-149), filler haa. Promo 11.11, termurah, grade A 1 kg are the owner's own words; no price.",
  "segments": [
   {
    "id": "S01",
-   "in": 3.2,
-   "out": 13.95,
+   "in": 13.0,
+   "out": 20.14,
    "zoom": 1.0,
-   "text": "Kurma Ajwa tengah buat promosi! Abang-abang, akak-akak, pak cik, mak cik, ayah-ayah, ibu-ibu semua, rugi tau kalau tak beli, sebab kita dah nak masuk bulan Ramadan, tak lama dah tau, bulan dua.",
-   "note": "HOOK (114618)"
+   "text": "Kalau awak tengah cari kurma Ajwa yang harga murah, boleh beli daripada Quba Food ni. Kualiti memang premium tau.",
+   "note": "HOOK"
   },
   {
    "id": "S02",
-   "in": 14.6,
-   "out": 22.95,
-   "zoom": 1.0,
-   "text": "Dah Ramadan dah. Sekarang 11, 12, 1, sekejap sangat. Kalau tengok ni, Kurma Ajwa ni grade A tau, satu kilo yang saya ambil ni.",
-   "note": ""
-  },
-  {
-   "id": "S03",
-   "in": 136.01,
-   "out": 143.15,
-   "zoom": 1.0,
-   "text": "Kalau awak tengah cari kurma Ajwa yang harga murah, boleh beli daripada Quba Food ni. Kualiti memang premium tau.",
-   "note": "113237 from here"
-  },
-  {
-   "id": "S04",
-   "in": 146.81,
-   "out": 151.51,
+   "in": 23.8,
+   "out": 28.5,
    "zoom": 1.0,
    "text": "Memang puas hati, kurma dia sangat sedap.",
    "note": ""
   },
   {
-   "id": "S05",
-   "in": 159.21,
-   "out": 166.51,
+   "id": "S03",
+   "in": 36.2,
+   "out": 43.5,
    "zoom": 1.0,
    "text": "Kurma dia memang sangat sedap, gemuk-gemuk, nampak ni besar-besar tau, hitam je. Saiz dia saiz grade A tau.",
    "note": ""
   },
   {
-   "id": "S06",
-   "in": 192.91,
-   "out": 201.93,
+   "id": "S04",
+   "in": 69.9,
+   "out": 79.06,
    "zoom": 1.0,
    "text": "Tahu tak kenapa saya suka sangat kurma ni? Sangat lembut tau kurma dia. Tengoklah. Bismillahirrahmanirrahim.",
    "note": "eating"
   },
   {
-   "id": "S07",
-   "in": 203.11,
-   "out": 211.31,
+   "id": "S05",
+   "in": 80.1,
+   "out": 88.3,
    "zoom": 1.0,
    "text": "Kurma Ajwa, memang tak mengecewakan. Masya-Allah, tengoklah dia punya texture dia.",
    "note": ""
   },
   {
-   "id": "S08",
-   "in": 213.21,
-   "out": 223.67,
+   "id": "S06",
+   "in": 90.2,
+   "out": 100.66,
    "zoom": 1.0,
    "text": "Nampak tak? Memang sangat sedap. Juicy, tak kering. Lepas tu dia bersih tau.",
    "note": ""
   },
   {
-   "id": "S10",
-   "in": 249.11,
-   "out": 251.91,
+   "id": "S07",
+   "in": 126.1,
+   "out": 128.9,
    "zoom": 1.0,
    "text": "Rasa dia sangat sedap, manis berlemak.",
-   "note": "the unclear 'kalau makan dengan …' line (143.6) dropped"
+   "note": ""
   },
   {
-   "id": "S11",
-   "in": 276.56,
-   "out": 279.01,
+   "id": "S08",
+   "in": 153.43,
+   "out": 156.0,
    "zoom": 1.0,
    "text": "Awak pergilah beli dengan seller ni, antara yang termurah tau.",
    "note": "first take 150.0 dropped"
   },
   {
-   "id": "S12",
-   "in": 279.31,
-   "out": 297.21,
+   "id": "S09",
+   "in": 156.3,
+   "out": 174.2,
    "zoom": 1.0,
    "text": "Yang saya beli ni, yang saya dapat, yang ada dengan saya ni satu kg tau, dapat dalam bentuk pek besar macam ni. Gemuk-gemuk je, grade A, harga dia antara yang termurah tau. Pergi beli cepat, berebut orang beli ni.",
    "note": ""
   },
   {
-   "id": "S13",
-   "in": 86.7,
-   "out": 91.3,
+   "id": "S10",
+   "in": 180.7,
+   "out": 182.85,
    "zoom": 1.0,
-   "text": "Kurma Ajwa by Quba Food, memang sangat best.",
-   "note": "back to 114618"
+   "text": "Dah ramai seller buat promo 11.11 tau.",
+   "note": "first take 176.9 dropped"
   },
   {
-   "id": "S14",
-   "in": 111.85,
-   "out": 114.95,
-   "zoom": 1.0,
-   "text": "Sekarang ni ramai seller dah tengah buat promo 11.11 tau.",
-   "note": ""
-  },
-  {
-   "id": "S15",
-   "in": 115.4,
-   "out": 119.65,
+   "id": "S11",
+   "in": 183.3,
+   "out": 188.15,
    "zoom": 1.04,
-   "text": "Cuba tengok dekat beg kuning, berapa harga korang dapat. Kalau tengah murah tu, beli sekarang.",
+   "text": "Cuba tengok dekat beg kuning, kalau harga tengah murah tu, boleh buat stok awal-awal.",
    "note": "CTA"
   }
  ],
  "punch": [
   [
-   "S15",
-   "beli",
+   "S11",
+   "stok",
    1.06
   ]
  ],
@@ -148,14 +124,14 @@
   {
    "id": "C1",
    "from": [
-    "S05",
+    "S03",
     "start"
    ],
    "to": [
-    "S05",
+    "S03",
     "end"
    ],
-   "src": 159.21,
+   "src": 36.2,
    "note": "close-up of the owner's hands / dates (same moment)",
    "push": [
     1.6,
@@ -166,14 +142,14 @@
   {
    "id": "C2",
    "from": [
-    "S07",
+    "S05",
     "start"
    ],
    "to": [
-    "S07",
+    "S05",
     "end"
    ],
-   "src": 203.11,
+   "src": 80.1,
    "note": "close-up of the owner's hands / dates (same moment)",
    "push": [
     1.6,
@@ -184,14 +160,14 @@
   {
    "id": "C3",
    "from": [
-    "S08",
+    "S06",
     "start"
    ],
    "to": [
-    "S08",
+    "S06",
     "end"
    ],
-   "src": 213.21,
+   "src": 90.2,
    "note": "close-up of the owner's hands / dates (same moment)",
    "push": [
     1.6,
@@ -200,16 +176,16 @@
    "origin": "55% 62%"
   },
   {
-   "id": "C5",
+   "id": "C4",
    "from": [
-    "S12",
+    "S09",
     "start"
    ],
    "to": [
-    "S12",
+    "S09",
     "end"
    ],
-   "src": 279.31,
+   "src": 156.3,
    "note": "close-up of the owner's hands / dates (same moment)",
    "push": [
     1.35,
