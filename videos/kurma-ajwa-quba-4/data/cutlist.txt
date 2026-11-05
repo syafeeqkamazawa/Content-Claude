@@ -1,0 +1,30 @@
+TOTAL 72.53s  (19 A-roll segments, 6 B-roll shots, 2 photos, 3 audio fx, 198 caption cards)
+
+  0.00-  5.87  S01  src  64.40- 70.55  (2 pc)  Korang tahu tak, ada yang tak suka makan kurma tau. Tapi bila makan je kurma Ajwa ni, terus jadi suka pula.
+  5.87-  9.77  S02  src  75.90- 80.30  (2 pc)  Sebab texture kurma dia macam ni tau. Masya-Allah.
+  9.77- 16.53  S03  src  80.80- 87.95  (3 pc)  Dia cantik, dia lembut, dan dia tak terlalu basah tau. Dia sedang-sedang je.
+ 16.53- 22.53  S04  src 118.80-125.20  (2 pc)  Kurma Ajwa ni, tekstur dia sangat-sangat lembut tau. Kemas, bersih je.
+ 22.53- 26.12  S05  src 128.80-132.50  (2 pc)  Okey, yang daripada saya ni satu kg tau.
+ 26.12- 28.72  S06  src 137.00-139.60  (1 pc)  Tapi dia comel, dia tak besar sangat, senang nak buat macam-macam.
+ 28.72- 31.22  S07  src 141.40-143.90  (1 pc)  Dia macam chewy, lembut dan sedap.
+ 31.22- 36.03  S08  src 170.70-175.85  (2 pc)  Pagi, letak kurma yang dah buang biji dalam susu. Insya-Allah sedap tau.
+ 36.03- 37.13  S09  src 176.20-177.30  (1 pc)  Kurma ni dia tak kering.
+ 37.13- 43.68  S10  src 181.70-188.25  (1 pc)  So kalau korang yang tak suka kurma tu, bukannya sebab korang memang tak suka, tapi sebab korang mungkin belum jumpa kurma yang sedap macam ni.
+ 43.68- 50.33  S11  src 196.30-202.95  (1 pc)  Bismillah. Sedap, memang sedap.
+ 50.33- 52.47  S12  src 205.50-209.15  (3 pc)  So korang try lah.
+ 52.47- 53.53  S13  src 340.18-341.24  (1 pc)  Amalkan kurma Ajwa,
+ 53.53- 56.43  S14  src 342.20-345.25  (2 pc)  bangun tidur je, minum air, kemudian makan kurma.
+ 56.43- 58.85  S15  src 348.88-351.30  (1 pc)  So kalau korang nak juga kurma Ajwa ni,
+ 58.85- 61.95  S16  src 353.40-356.50  (1 pc)  Syafiq dah sediakan dekat beg kuning tu. Yang ni satu kg.
+ 61.95- 64.85  S17  src 362.80-365.70  (1 pc)  Boleh tengok dekat beg kuning tu, kalau ada pilihan lain boleh pilih.
+ 64.85- 67.85  S18  src 370.30-373.30  (1 pc)  Dan juga, sekarang ni ramai seller dah buat promo 11.11 tau.
+ 67.85- 72.53  S19  src 378.10-382.95  (2 pc)  Kalau harga tu lebih murah dan ada voucher, boleh claim sekali. Boleh beli terus di beg kuning.
+
+  cutaway   5.87-  9.77
+  cutaway   9.77- 16.53
+  cutaway  16.53- 22.53
+  cutaway  22.53- 26.12
+  cutaway  26.12- 31.22
+  cutaway  31.22- 37.13
+  cutaway  52.47- 56.43
+  cutaway  58.93- 61.95

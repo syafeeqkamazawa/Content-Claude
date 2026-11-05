@@ -1,0 +1,332 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word3",
+ "word3": {
+  "max": 3,
+  "chars": 18,
+  "highlight": true,
+  "on": "#3DD6F5",
+  "top": 1690,
+  "size": 58
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "5 Nov: 'Ada video baru kurma Ajwa. Jangan guna bahagian yang mungkin kena violation TikTok, pastikan ada overlay untuk setiap penerangan yang perlukan overlay'. Dropped as TikTok risk (unverified health / medical claims): every line about easy childbirth ('senang bersalin, tak jahit, tak koyak'), TTC, softening the cervix and 'banyak kajian mengatakan' (0-46, 147-167, 210-338). Kept: taste, texture, size, 1 kg pack, serving ideas (in milk, after waking with water), promo 11.11. Overlays on every explanation: close-ups of the owner's own hands and dates for texture, size and the 1 kg pack; realistic AI photos for the serving ideas (no people). Captions as Kurma Ajwa #1-#3.",
+ "_note": "Kurma Ajwa #4 — A-roll assets/a.mp4 = VID_20261105_173905 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted; close-ups play the same moment zoomed into the hands. Promo 11.11 and vouchers are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 64.4,
+   "out": 70.55,
+   "zoom": 1.0,
+   "text": "Korang tahu tak, ada yang tak suka makan kurma tau. Tapi bila makan je kurma Ajwa ni, terus jadi suka pula.",
+   "note": "HOOK (first take 55.9 dropped)"
+  },
+  {
+   "id": "S02",
+   "in": 75.9,
+   "out": 80.3,
+   "zoom": 1.0,
+   "text": "Sebab texture kurma dia macam ni tau. Masya-Allah.",
+   "note": "'sebab kurma dia' false start dropped"
+  },
+  {
+   "id": "S03",
+   "in": 80.8,
+   "out": 87.95,
+   "zoom": 1.0,
+   "text": "Dia cantik, dia lembut, dan dia tak terlalu basah tau. Dia sedang-sedang je.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 118.8,
+   "out": 125.2,
+   "zoom": 1.0,
+   "text": "Kurma Ajwa ni, tekstur dia sangat-sangat lembut tau. Kemas, bersih je.",
+   "note": "earlier texture takes 92-105 dropped"
+  },
+  {
+   "id": "S05",
+   "in": 128.8,
+   "out": 132.5,
+   "zoom": 1.0,
+   "text": "Okey, yang daripada saya ni satu kg tau.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 137.0,
+   "out": 139.6,
+   "zoom": 1.0,
+   "text": "Tapi dia comel, dia tak besar sangat, senang nak buat macam-macam.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 141.4,
+   "out": 143.9,
+   "zoom": 1.0,
+   "text": "Dia macam chewy, lembut dan sedap.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 170.7,
+   "out": 175.85,
+   "zoom": 1.0,
+   "text": "Pagi, letak kurma yang dah buang biji dalam susu. Insya-Allah sedap tau.",
+   "note": "the TTC line before it (147-167) dropped — TikTok health-claim risk"
+  },
+  {
+   "id": "S09",
+   "in": 176.2,
+   "out": 177.3,
+   "zoom": 1.0,
+   "text": "Kurma ni dia tak kering.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 181.7,
+   "out": 188.25,
+   "zoom": 1.0,
+   "text": "So kalau korang yang tak suka kurma tu, bukannya sebab korang memang tak suka, tapi sebab korang mungkin belum jumpa kurma yang sedap macam ni.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 196.3,
+   "out": 202.95,
+   "zoom": 1.0,
+   "text": "Bismillah. Sedap, memang sedap.",
+   "note": "eating",
+   "keep_pauses": true
+  },
+  {
+   "id": "S12",
+   "in": 205.5,
+   "out": 209.15,
+   "zoom": 1.0,
+   "text": "So korang try lah.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 340.18,
+   "out": 341.24,
+   "zoom": 1.0,
+   "text": "Amalkan kurma Ajwa,",
+   "note": "all of 210-338 dropped — TTC, bersalin, servik, 'kajian' claims (TikTok health-claim risk)"
+  },
+  {
+   "id": "S14",
+   "in": 342.2,
+   "out": 345.25,
+   "zoom": 1.0,
+   "text": "bangun tidur je, minum air, kemudian makan kurma.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 348.88,
+   "out": 351.3,
+   "zoom": 1.0,
+   "text": "So kalau korang nak juga kurma Ajwa ni,",
+   "note": ""
+  },
+  {
+   "id": "S16",
+   "in": 353.4,
+   "out": 356.5,
+   "zoom": 1.0,
+   "text": "Syafiq dah sediakan dekat beg kuning tu. Yang ni satu kg.",
+   "note": "'Syafiq dah letak dekat beg' false start dropped"
+  },
+  {
+   "id": "S17",
+   "in": 362.8,
+   "out": 365.7,
+   "zoom": 1.0,
+   "text": "Boleh tengok dekat beg kuning tu, kalau ada pilihan lain boleh pilih.",
+   "note": ""
+  },
+  {
+   "id": "S18",
+   "in": 370.3,
+   "out": 373.3,
+   "zoom": 1.0,
+   "text": "Dan juga, sekarang ni ramai seller dah buat promo 11.11 tau.",
+   "note": "'dan juga seller sekarang ni' false start dropped"
+  },
+  {
+   "id": "S19",
+   "in": 378.1,
+   "out": 382.95,
+   "zoom": 1.04,
+   "text": "Kalau harga tu lebih murah dan ada voucher, boleh claim sekali. Boleh beli terus di beg kuning.",
+   "note": "CTA (first take 373.7 dropped)"
+  }
+ ],
+ "punch": [
+  [
+   "S19",
+   "beli",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 75.9,
+   "note": "close-up of the owner's hands / dates (same moment)",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "55% 62%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 80.8,
+   "note": "close-up of the owner's hands / dates (same moment)",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "55% 62%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 118.8,
+   "note": "close-up of the owner's hands / dates (same moment)",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "55% 62%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 128.8,
+   "note": "close-up of the owner's hands / dates (same moment)",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "50% 66%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 137.0,
+   "note": "close-up of the owner's hands / dates (same moment)",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "55% 62%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "S16",
+    "syafiq"
+   ],
+   "to": [
+    "S16",
+    "end"
+   ],
+   "src": 353.4,
+   "note": "close-up of the owner's hands / dates (same moment)",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "50% 66%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "susu",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "note": "AI: kurma dalam susu"
+  },
+  {
+   "id": "pagi",
+   "from": [
+    "S13",
+    "start"
+   ],
+   "to": [
+    "S14",
+    "end"
+   ],
+   "note": "AI: air dan kurma waktu pagi"
+  }
+ ],
+ "theme": {
+  "key": "#3DD6F5",
+  "brand": "#E9C46A"
+ },
+ "brand_words": [
+  "ajwa"
+ ],
+ "keywords": []
+}
