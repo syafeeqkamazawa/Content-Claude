@@ -51,11 +51,11 @@
   },
   {
    "id": "S04",
-   "in": 45.1,
+   "in": 47.5,
    "out": 49.7,
    "zoom": 1.0,
-   "text": "Dalam ni ada tujuh jenis kacang berlainan",
-   "note": ""
+   "text": "Dalam ni ada tujuh jenis kacang yang berlainan",
+   "note": "first try 45.1 dropped"
   },
   {
    "id": "S05",
@@ -225,7 +225,7 @@
     "S04",
     "end"
    ],
-   "src": 45.1,
+   "src": 47.5,
    "note": "close-up of the owner's hands / product (same moment)",
    "push": [
     1.7,
