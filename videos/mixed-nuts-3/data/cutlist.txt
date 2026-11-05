@@ -1,0 +1,33 @@
+TOTAL 73.18s  (22 A-roll segments, 8 B-roll shots, 0 photos, 6 audio fx, 195 caption cards)
+
+  0.00-  4.00  S01  src  16.00- 20.00  (1 pc)  Ya Allah sedapnya, ya Allah sedapnya.
+  4.00- 10.18  S02  src  26.30- 33.25  (3 pc)  Kepada siapa yang tengah cari kudapan-kudapan sihat, nak makan malam-malam tu, korang boleh cuba mix nuts ni tau.
+ 10.18- 15.03  S03  src  39.60- 44.70  (2 pc)  Macam yang saya beli dekat TikTok Shop ni. Mixed nuts ni, kacang campur tau.
+ 15.03- 19.23  S04  src  45.10- 49.70  (2 pc)  Dalam ni ada tujuh jenis kacang berlainan
+ 19.23- 20.73  S05  src  54.60- 56.10  (1 pc)  yang boleh kita makan terus.
+ 20.73- 27.33  S06  src  70.30- 77.20  (2 pc)  Yang awak tengok saya pegang ni, setengah kilo tau, memang sangat banyak. Awak tengok dalam ni, memang banyak, berat tau.
+ 27.33- 29.83  S07  src  87.00- 89.50  (1 pc)  Ini saya ambil lagi. Bismillahirrahmanirrahim.
+ 29.83- 33.82  S08  src  90.20- 94.95  (3 pc)  Sedap, memang sedap. Ada macam-macam kacang dalam ni.
+ 33.82- 37.22  S09  src 112.60-116.40  (2 pc)  Yang hijau-hijau semua ni biji labu tau.
+ 37.22- 38.92  S10  src 116.90-118.60  (1 pc)  InsyaAllah sedap.
+ 38.92- 44.15  S11  src 126.40-131.80  (2 pc)  Okey, ada kacang almond, lepas tu biji bunga matahari.
+ 44.15- 45.45  S12  src 132.20-133.50  (1 pc)  Ada kismis.
+ 45.45- 46.38  S13  src 142.20-143.14  (1 pc)  Manis, sedap.
+ 46.38- 48.03  S14  src 145.30-146.95  (1 pc)  Lepas tu ada cranberry juga.
+ 48.03- 49.45  S15  src 150.78-152.20  (1 pc)  Kalau beli ni, mesti nak repeat ni.
+ 49.45- 53.28  S16  src 157.10-160.94  (1 pc)  Kacang dia segar-segar tau, tak ada langsung masuk angin ke apa.
+ 53.28- 55.87  S17  src 169.00-171.70  (2 pc)  Rasa sedap, rangup krispi, rasa original.
+ 55.87- 58.02  S18  src 172.80-174.95  (1 pc)  Tak ada langsung perisa tambahan.
+ 58.02- 62.98  S19  src 183.88-189.00  (2 pc)  Siapa yang tengah cari makanan sihat tu untuk kudap-kudap malam, awak cubalah beli mix nuts ni, okey.
+ 62.98- 65.43  S20  src 192.80-195.25  (1 pc)  Memang elok tau, beli setengah kilo terus, jimat.
+ 65.43- 68.53  S21  src 197.50-200.60  (1 pc)  Sekarang ni pun banyak seller tengah buat promo tau, 11.11 punya promo.
+ 68.53- 73.18  S22  src 201.00-205.65  (1 pc)  Cuba tengok dekat beg kuning, ada voucher ke tak, boleh claim. Kalau harga tengah murah tu, boleh beli terus.
+
+  cutaway  15.03- 19.23
+  cutaway  20.73- 27.33
+  cutaway  33.82- 37.22
+  cutaway  38.92- 44.15
+  cutaway  44.15- 45.45
+  cutaway  46.38- 48.03
+  cutaway  49.45- 53.28
+  cutaway  53.28- 55.87

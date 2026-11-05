@@ -1,0 +1,370 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word3",
+ "word3": {
+  "max": 3,
+  "chars": 18,
+  "highlight": false,
+  "box": true,
+  "top": 1770,
+  "size": 40
+ },
+ "fs_style": "cut",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "5 Nov: 'Mixed Nuts ada satu lagi video ya … Buat overlay yang perlu sahaja atau closeup bila explain tentang produk' (reference TikDownloader…7466063042132888839: talking head with the product, close-ups of the nuts in hand). Overlays here are only close-ups of the owner's own hands and the nuts at the moments he explains the product (seven kinds, half a kilo, biji labu, almond, biji bunga matahari, kismis, cranberry, fresh and crispy); no AI photos. Captions as Mixed Nuts #1: small 2-3-word captions on a dark box below the product, plus a fixed line at the top.",
+ "_note": "Mixed Nuts #3 — A-roll assets/a.mp4 = VID_20261105_112003 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted; each close-up plays the same moment zoomed into the owner's hands. All points kept; takes, false starts and repeats dropped. Promo 11.11 is the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 16.0,
+   "out": 20.0,
+   "zoom": 1.0,
+   "text": "Ya Allah sedapnya, ya Allah sedapnya.",
+   "note": "HOOK — owner eating the nuts",
+   "keep_pauses": true
+  },
+  {
+   "id": "S02",
+   "in": 26.3,
+   "out": 33.25,
+   "zoom": 1.0,
+   "text": "Kepada siapa yang tengah cari kudapan-kudapan sihat, nak makan malam-malam tu, korang boleh cuba mix nuts ni tau.",
+   "note": "first take 20.3 dropped"
+  },
+  {
+   "id": "S03",
+   "in": 39.6,
+   "out": 44.7,
+   "zoom": 1.0,
+   "text": "Macam yang saya beli dekat TikTok Shop ni. Mixed nuts ni, kacang campur tau.",
+   "note": "two false starts 34.8-38.9 dropped"
+  },
+  {
+   "id": "S04",
+   "in": 45.1,
+   "out": 49.7,
+   "zoom": 1.0,
+   "text": "Dalam ni ada tujuh jenis kacang berlainan",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 54.6,
+   "out": 56.1,
+   "zoom": 1.0,
+   "text": "yang boleh kita makan terus.",
+   "note": "repeat 'yang boleh kita terus makan' dropped"
+  },
+  {
+   "id": "S06",
+   "in": 70.3,
+   "out": 77.2,
+   "zoom": 1.0,
+   "text": "Yang awak tengok saya pegang ni, setengah kilo tau, memang sangat banyak. Awak tengok dalam ni, memang banyak, berat tau.",
+   "note": "first take 59.1 dropped"
+  },
+  {
+   "id": "S07",
+   "in": 87.0,
+   "out": 89.5,
+   "zoom": 1.0,
+   "text": "Ini saya ambil lagi. Bismillahirrahmanirrahim.",
+   "note": "eating"
+  },
+  {
+   "id": "S08",
+   "in": 90.2,
+   "out": 94.95,
+   "zoom": 1.0,
+   "text": "Sedap, memang sedap. Ada macam-macam kacang dalam ni.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 112.6,
+   "out": 116.4,
+   "zoom": 1.0,
+   "text": "Yang hijau-hijau semua ni biji labu tau.",
+   "note": "first take 108.3 dropped"
+  },
+  {
+   "id": "S10",
+   "in": 116.9,
+   "out": 118.6,
+   "zoom": 1.0,
+   "text": "InsyaAllah sedap.",
+   "note": "'lepas tu ada kacang almond juga' — said again at 126.4, kept there"
+  },
+  {
+   "id": "S11",
+   "in": 126.4,
+   "out": 131.8,
+   "zoom": 1.0,
+   "text": "Okey, ada kacang almond, lepas tu biji bunga matahari.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 132.2,
+   "out": 133.5,
+   "zoom": 1.0,
+   "text": "Ada kismis.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 142.2,
+   "out": 143.14,
+   "zoom": 1.0,
+   "text": "Manis, sedap.",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 145.3,
+   "out": 146.95,
+   "zoom": 1.0,
+   "text": "Lepas tu ada cranberry juga.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 150.78,
+   "out": 152.2,
+   "zoom": 1.0,
+   "text": "Kalau beli ni, mesti nak repeat ni.",
+   "note": "repeated 'kalau beli ni' (149.4) dropped"
+  },
+  {
+   "id": "S16",
+   "in": 157.1,
+   "out": 160.94,
+   "zoom": 1.0,
+   "text": "Kacang dia segar-segar tau, tak ada langsung masuk angin ke apa.",
+   "note": ""
+  },
+  {
+   "id": "S17",
+   "in": 169.0,
+   "out": 171.7,
+   "zoom": 1.0,
+   "text": "Rasa sedap, rangup krispi, rasa original.",
+   "note": ""
+  },
+  {
+   "id": "S18",
+   "in": 172.8,
+   "out": 174.95,
+   "zoom": 1.0,
+   "text": "Tak ada langsung perisa tambahan.",
+   "note": ""
+  },
+  {
+   "id": "S19",
+   "in": 183.88,
+   "out": 189.0,
+   "zoom": 1.0,
+   "text": "Siapa yang tengah cari makanan sihat tu untuk kudap-kudap malam, awak cubalah beli mix nuts ni, okey.",
+   "note": ""
+  },
+  {
+   "id": "S20",
+   "in": 192.8,
+   "out": 195.25,
+   "zoom": 1.0,
+   "text": "Memang elok tau, beli setengah kilo terus, jimat.",
+   "note": "repeat of the same line dropped"
+  },
+  {
+   "id": "S21",
+   "in": 197.5,
+   "out": 200.6,
+   "zoom": 1.0,
+   "text": "Sekarang ni pun banyak seller tengah buat promo tau, 11.11 punya promo.",
+   "note": "false start 196 dropped"
+  },
+  {
+   "id": "S22",
+   "in": 201.0,
+   "out": 205.65,
+   "zoom": 1.04,
+   "text": "Cuba tengok dekat beg kuning, ada voucher ke tak, boleh claim. Kalau harga tengah murah tu, boleh beli terus.",
+   "note": "CTA"
+  }
+ ],
+ "pin": {
+  "text": "Mixed nuts kacang campur, 7 jenis dalam satu pek, setengah kilo!",
+  "y": 330,
+  "size": 40
+ },
+ "punch": [
+  [
+   "S22",
+   "beli",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 45.1,
+   "note": "close-up of the owner's hands / product (same moment)",
+   "push": [
+    1.7,
+    1.85
+   ],
+   "origin": "55% 60%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 70.3,
+   "note": "close-up of the owner's hands / product (same moment)",
+   "push": [
+    1.5,
+    1.65
+   ],
+   "origin": "55% 70%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 112.6,
+   "note": "close-up of the owner's hands / product (same moment)",
+   "push": [
+    1.7,
+    1.85
+   ],
+   "origin": "55% 60%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 126.4,
+   "note": "close-up of the owner's hands / product (same moment)",
+   "push": [
+    1.7,
+    1.85
+   ],
+   "origin": "55% 60%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 132.2,
+   "note": "close-up of the owner's hands / product (same moment)",
+   "push": [
+    1.7,
+    1.85
+   ],
+   "origin": "55% 60%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "S14",
+    "start"
+   ],
+   "to": [
+    "S14",
+    "end"
+   ],
+   "src": 145.3,
+   "note": "close-up of the owner's hands / product (same moment)",
+   "push": [
+    1.7,
+    1.85
+   ],
+   "origin": "55% 60%"
+  },
+  {
+   "id": "C7",
+   "from": [
+    "S16",
+    "start"
+   ],
+   "to": [
+    "S16",
+    "end"
+   ],
+   "src": 157.1,
+   "note": "close-up of the owner's hands / product (same moment)",
+   "push": [
+    1.7,
+    1.85
+   ],
+   "origin": "55% 60%"
+  },
+  {
+   "id": "C8",
+   "from": [
+    "S17",
+    "start"
+   ],
+   "to": [
+    "S17",
+    "end"
+   ],
+   "src": 169.0,
+   "note": "close-up of the owner's hands / product (same moment)",
+   "push": [
+    1.7,
+    1.85
+   ],
+   "origin": "55% 60%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#FFFFFF",
+  "brand": "#E9C46A"
+ },
+ "brand_words": [],
+ "keywords": []
+}
