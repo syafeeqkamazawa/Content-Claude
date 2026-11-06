@@ -9,7 +9,7 @@ def ph(i, f, t, note): return {"id": i, "from": f, "to": t, "note": note}
 
 
 segs = [
-    seg("S01", 69.15, 86.68, "Masalah dengan Shilajit ni, especially yang bentuk macam cecair likat tu, rasa dia aduh, memang tak sedap langsung. Rasa macam besi pun ada, macam tanah pun ada juga. So memang susah nak konsisten.", "HOOK — the owner's own problem line moved up (earlier take 64.3-69.1 dropped); the opening 'soalan lelaki / supplement untuk kesihatan lelaki' (10.9-21.5) dropped: TikTok risk (owner 5 Nov)"),
+    seg("S01", 73.40, 86.68, "Masalah dengan Shilajit ni, especially yang bentuk macam cecair likat tu, rasa dia aduh, memang tak sedap langsung. Rasa macam besi pun ada, macam tanah pun ada juga. So memang susah nak konsisten.", "HOOK — the owner's own problem line moved up (earlier takes 64.3-73.3 dropped); the opening 'soalan lelaki / supplement untuk kesihatan lelaki' (10.9-21.5) dropped: TikTok risk (owner 5 Nov)"),
     seg("S02", 86.85, 95.30, "Untuk abang-abang yang nak amalkan Shilajit ni, bolehlah cuba Shilajit dalam bentuk tablet macam ni, ya, daripada Aurapep ni, macam ni."),
     seg("S03", 24.35, 32.15, "Korang pernah tak try supplement Shilajit daripada Aurapep ni? Shilajit ni bagus untuk kesihatan badan kita tau, secara menyeluruh.", "'terutama sekali untuk masalah lelaki' (41.8-43.9) dropped"),
     seg("S04", 49.50, 52.80, "Shilajit ni dia tinggi dengan mineral, antioxidant.", "first take (44.4-48.9) and 'boost tenaga dan tingkatkan stamina' (52.9-56) dropped"),

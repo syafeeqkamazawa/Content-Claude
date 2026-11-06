@@ -29,17 +29,17 @@
 .inset .fs-tag { left: 10px; bottom: 10px; font-size: 13px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-likat" class="clip fs" data-start="0.0" data-duration="13.083" data-track-index="4"><div class="fs-in" id="fs-likat-in"><div class="fs-layer" id="fs-likat-bg" style="background-image:url(assets/photos/likat-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-likat-fg" style="background-image:url(assets/photos/likat-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-batu" class="clip fs" data-start="31.2667" data-duration="3.299" data-track-index="4"><div class="fs-in" id="fs-batu-in"><div class="fs-layer" id="fs-batu-bg" style="background-image:url(assets/photos/batu.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-likat" class="clip fs" data-start="0.0" data-duration="9.816" data-track-index="4"><div class="fs-in" id="fs-likat-in"><div class="fs-layer" id="fs-likat-bg" style="background-image:url(assets/photos/likat-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-likat-fg" style="background-image:url(assets/photos/likat-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-batu" class="clip fs" data-start="27.6333" data-duration="3.299" data-track-index="4"><div class="fs-in" id="fs-batu-in"><div class="fs-layer" id="fs-batu-bg" style="background-image:url(assets/photos/batu.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-likat", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "sine.inOut" }, 0.0);
-          tl.fromTo("#fs-likat-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 13.0833, ease: "none", immediateRender: false }, 0.0);
-          tl.fromTo("#fs-likat-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 13.0833, ease: "sine.inOut", immediateRender: false }, 0.0);
-          tl.fromTo("#fs-batu", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "sine.inOut" }, 31.2667);
-          tl.fromTo("#fs-batu-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 3.3, ease: "sine.inOut", immediateRender: false }, 31.2667);
+          tl.fromTo("#fs-likat-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 9.8167, ease: "none", immediateRender: false }, 0.0);
+          tl.fromTo("#fs-likat-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 9.8167, ease: "sine.inOut", immediateRender: false }, 0.0);
+          tl.fromTo("#fs-batu", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "sine.inOut" }, 27.6333);
+          tl.fromTo("#fs-batu-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 3.3, ease: "sine.inOut", immediateRender: false }, 27.6333);
           window.__timelines["visuals"] = tl;
         })();
       </script>
