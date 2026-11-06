@@ -1,5 +1,5 @@
 #!/bin/bash
-# Generates the AI cutaways for Quba Food Kurma Ajwa #4 (owner's ChatGPT/Codex account). Run from the project root.
+# Generates the AI cutaways for Quba Food Kurma Ajwa #5 (owner's ChatGPT/Codex account). Run from the project root.
 # Subjects follow the owner's overlay reference (video rujukan.mp4 (Krill)); every person covers aurat.
 export PATH=$HOME/.local/bin:$PATH NODE_USE_ENV_PROXY=1
 MOD="Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition."
@@ -18,6 +18,6 @@ want () { [ -z "$ONLY" ] || [[ "$ONLY" == *" $1 "* ]]; }
 
 NOPPL="No people anywhere in the frame, no hands, no faces."
 PLAIN="No brand names, no logos, no readable text."
-want susu && gen susu "Close-up of a tall glass of fresh milk with pitted dark ajwa dates soaking inside, a few dates on a small plate beside it, bright morning kitchen light, clean and appetising. $NOPPL $PLAIN"
-want pagi && gen pagi "A glass of plain water and a small bowl of dark ajwa dates on a wooden bedside table next to a window at sunrise, soft warm morning light, calm. $NOPPL $PLAIN"
+want pagi7 && gen pagi7 "Seven dark ajwa dates neatly arranged on a small white plate beside a glass of water on a wooden breakfast table, soft morning sunlight through a window. $NOPPL $PLAIN"
+want iftar && gen iftar "A Ramadan iftar table at sunset with a bowl of dark ajwa dates, glasses of water and Malaysian dishes, warm lantern light, cinematic. $NOPPL $PLAIN"
 echo DONE
