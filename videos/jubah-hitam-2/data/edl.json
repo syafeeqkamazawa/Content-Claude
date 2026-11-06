@@ -1,0 +1,166 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1380
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "7 Nov: 'Jubah hitam ada 3 video' — Drive folder 'Jubah Hitam' (1qxVqw_2…): 015650 → #1, 015936 → #2, 020132 → #3, one video per clip. Caption: the 6 Nov default at ~72% height (the owner is filmed full-body, so the face sits high; same placement as Kurta Zeke). Overlays on every explanation (owner 6 Nov): close-ups of the owner wearing the jubah first; realistic AI photos for wuduk (forearms only).",
+ "_note": "Jubah Hitam #2 — A-roll assets/a.mp4 = VID_20261107_015936 (rear camera, not mirrored). assets/b.mp4 = the same clip, muted. Price / promo 11.11 / stock talk are the owner's own words; no price shown. Size note (L, 165 cm, 76 kg) is the owner's own.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 9.35,
+   "out": 14.48,
+   "zoom": 1.0,
+   "text": "Kenapa nak beli yang mahal, kalau ada yang murah tapi nampak macam mahal?",
+   "note": "HOOK — first fragment 'kalau ada yang murah' (5.5-7.4) dropped"
+  },
+  {
+   "id": "S02",
+   "in": 14.45,
+   "out": 27.62,
+   "zoom": 1.0,
+   "text": "Korang tengok ni, jubah yang aku pakai ni sangat selesa, nampak premium, tapi tengok dekat beg kuning, confirm korang terkejut, harganya memang sangat murah. Seller tengah buat promo guys.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 27.55,
+   "out": 36.2,
+   "zoom": 1.0,
+   "text": "Sekarang ni pun musim seller buat promo 11.11 guys, harga dia pun memang luar biasa juga, tengok.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 36.38,
+   "out": 50.65,
+   "zoom": 1.0,
+   "text": "Memang cantik. Yang aku pakai ni jubah saiz L, tengok lengan dia, 3 suku, nak ambil wuduk senang guys, korang tarik sikit je dah boleh singsing lengan, dah boleh ambil wuduk sampai siku.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 51.1,
+   "out": 56.95,
+   "zoom": 1.0,
+   "text": "Berat aku 76 kg, tinggi 165 cm, aku pakai saiz L.",
+   "note": "first take (51.7-55) dropped"
+  },
+  {
+   "id": "S06",
+   "in": 57.4,
+   "out": 65.0,
+   "zoom": 1.0,
+   "text": "Korang boleh tengok dekat beg kuning, ada pelbagai lagi warna, korang boleh tengok, yang mana berkenan boleh terus check out.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 65.35,
+   "out": 69.85,
+   "zoom": 1.0,
+   "text": "Beli awal guys, kalau korang beli lewat, takut-takut stok dah habis.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 72.22,
+   "out": 76.3,
+   "zoom": 1.04,
+   "text": "Sementara stok masih ada, harga tengah murah tu, korang terus check out di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "premium,"
+   ],
+   "src": 15.0,
+   "note": "close-up of the owner wearing the jubah (fabric / sleeve)",
+   "push": [
+    1.35,
+    1.5
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S04",
+    "tengok"
+   ],
+   "to": [
+    "S04",
+    "guys,"
+   ],
+   "src": 40.0,
+   "note": "close-up of the owner wearing the jubah (fabric / sleeve)",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 57.4,
+   "note": "close-up of the owner wearing the jubah (fabric / sleeve)",
+   "push": [
+    1.25,
+    1.35
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "wuduk",
+   "from": [
+    "S04",
+    "korang"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: ambil wuduk (lengan sahaja)"
+  }
+ ],
+ "theme": {
+  "key": "#C9A227",
+  "brand": "#E9E9E9"
+ },
+ "brand_words": [],
+ "keywords": []
+}
