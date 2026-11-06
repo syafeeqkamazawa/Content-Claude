@@ -88,10 +88,18 @@
   {
    "id": "S09",
    "in": 86.4,
+   "out": 87.8,
+   "zoom": 1.0,
+   "text": "Macam ni punya packaging,",
+   "note": ""
+  },
+  {
+   "id": "S09b",
+   "in": 90.4,
    "out": 92.2,
    "zoom": 1.0,
-   "text": "Macam ni punya packaging, barulah kita rasa selamat nak makan.",
-   "note": ""
+   "text": "barulah kita rasa selamat nak makan.",
+   "note": "repeated 'barulah kita rasa selamat nak' dropped"
   },
   {
    "id": "S10",
@@ -227,7 +235,7 @@
     "start"
    ],
    "to": [
-    "S09",
+    "S09b",
     "end"
    ],
    "src": 79.1,
