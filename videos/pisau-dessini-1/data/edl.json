@@ -23,19 +23,20 @@
  "segments": [
   {
    "id": "S01",
-   "in": 18.9,
+   "in": 17.35,
    "out": 28.4,
    "zoom": 1.0,
-   "text": "Kalau korang guna ni buat potong bawang, korang sekali hiris dia, tak perasan kalau tiba-tiba dah terpotong dah, dia punya tajam pisau ni.",
-   "note": "HOOK. Opening 'pisau daripada Dessini guys' (5.9-8.2) and the repeated 'dia punya tajam pisau ni / bismillah' takes (30-39) dropped"
+   "text": "Pisau daripada Dessini guys, kalau korang guna ni buat potong bawang, korang sekali hiris dia, tak perasan kalau tiba-tiba dah terpotong dah, dia punya tajam pisau ni.",
+   "note": "HOOK. The repeated 'dia punya tajam pisau ni / bismillah' takes (30-39) dropped"
   },
   {
    "id": "S02",
    "in": 39.7,
-   "out": 42.3,
+   "out": 42.45,
    "zoom": 1.0,
    "text": "Memang sangat tajam je set pisau Dessini ni,",
-   "note": ""
+   "note": "",
+   "cap_top": 220
   },
   {
    "id": "S03",
@@ -43,7 +44,8 @@
    "out": 68.6,
    "zoom": 1.0,
    "text": "yang paling ramai mak-mak tengah cari dekat TikTok Shop ni tau, tak lain tak bukan, set pisau daripada Dessini ni, lapan dalam satu tau.",
-   "note": "second, clean take (first take 42.5-51 and false start 57.2 dropped)"
+   "note": "second, clean take (first take 42.5-51 and false start 57.2 dropped)",
+   "cap_top": 220
   },
   {
    "id": "S04",
@@ -64,7 +66,7 @@
   {
    "id": "S06",
    "in": 85.75,
-   "out": 92.4,
+   "out": 92.55,
    "zoom": 1.0,
    "text": "Dan ni tempat dia, ni tempat letak pisau, cantik kan, oh cantik guys.",
    "note": ""
@@ -79,8 +81,8 @@
   },
   {
    "id": "S08",
-   "in": 143.6,
-   "out": 149.95,
+   "in": 143.4,
+   "out": 150.1,
    "zoom": 1.0,
    "text": "Yang ni kita panggil holder atau pemegang dia tau, jadi dia ada lima bilah semua.",
    "note": "earlier stumbling takes of the holder line (117-140) dropped"
@@ -111,7 +113,7 @@
   },
   {
    "id": "S12",
-   "in": 186.55,
+   "in": 186.25,
    "out": 191.7,
    "zoom": 1.0,
    "text": "dapat satu pisau chef, satu pisau slicer, dan yang ni yang sederhana kecil.",
@@ -119,7 +121,7 @@
   },
   {
    "id": "S13",
-   "in": 194.35,
+   "in": 194.0,
    "out": 198.9,
    "zoom": 1.0,
    "text": "Sesuai lah kalau kita nak buat potong buah kan, dan yang paling kecil ni nak kupas bawang.",
@@ -127,8 +129,8 @@
   },
   {
    "id": "S14",
-   "in": 199.4,
-   "out": 203.25,
+   "in": 200.4,
+   "out": 203.45,
    "zoom": 1.0,
    "text": "Dapat satu gunting, gunting pun ada.",
    "note": ""
@@ -159,16 +161,16 @@
   },
   {
    "id": "S18",
-   "in": 291.05,
-   "out": 294.05,
+   "in": 290.95,
+   "out": 294.15,
    "zoom": 1.0,
-   "text": "Setiap rumah mesti ada satu set pisau daripada Dessini ni tau.",
+   "text": "So, setiap rumah mesti ada satu set pisau daripada Dessini ni tau.",
    "note": "the long run of 'so' (278-291) dropped"
   },
   {
    "id": "S19",
    "in": 297.45,
-   "out": 306.15,
+   "out": 306.25,
    "zoom": 1.0,
    "text": "InsyaAllah bila korang dapat nanti korang try potong, contohnya korang potong ubi, memang korang potong tu senang sangat sebab pisau ni tajam tau.",
    "note": ""
@@ -184,7 +186,7 @@
   {
    "id": "S21",
    "in": 319.25,
-   "out": 324.15,
+   "out": 324.3,
    "zoom": 1.0,
    "text": "Dah lah cantik atas bawah dengan stylish dia. Jadi tak risau tau hulu dia tercabut ke tak.",
    "note": "first take 'dah lah cantik atas bawah sama' (316.9) dropped"
@@ -200,7 +202,7 @@
   {
    "id": "S23",
    "in": 449.1,
-   "out": 452.25,
+   "out": 452.35,
    "zoom": 1.0,
    "text": "sebab pisau ni pisau stainless steel tau.",
    "note": ""
@@ -223,16 +225,24 @@
   },
   {
    "id": "S26",
-   "in": 537.7,
-   "out": 551.98,
+   "in": 537.5,
+   "out": 539.05,
    "zoom": 1.0,
-   "text": "Cantik ni kalau buat raya, untuk puasa pun dah dekat, nak masak juadah puasa tu sesuai sangat nak guna ni. Lagi-lagi raya lagi lah nak guna kan.",
+   "text": "Cantik ni kalau buat raya,",
    "note": ""
+  },
+  {
+   "id": "S26b",
+   "in": 542.3,
+   "out": 552.1,
+   "zoom": 1.0,
+   "text": "puasa pun dah dekat, nak masak juadah puasa tu sesuai sangat nak guna ni. Lagi-lagi raya lagi lah nak guna kan.",
+   "note": "false starts 'untuk apa, puasa, puasa pun dah' (539-542.2) dropped"
   },
   {
    "id": "S27",
    "in": 519.4,
-   "out": 536.25,
+   "out": 536.35,
    "zoom": 1.04,
    "text": "Ya Allah korang, pergilah order dekat beg kuning tu. Sebab sekarang ni seller pun tengah buat promo tau, banyak promo sekarang sebab apa? Sempena promotion 11.11 pun seller tengah banyak buat dah. Cuba tengok dekat beg kuning, kalau ada voucher claim sekali, kalau nampak harga tengah murah daripada biasa tu, boleh check out terus.",
    "note": "CTA — the first CTA take (480-500) and 'saya sangat recommend' repeat (510-518) dropped"
@@ -240,7 +250,7 @@
   {
    "id": "S28",
    "in": 552.95,
-   "out": 553.98,
+   "out": 554.15,
    "zoom": 1.06,
    "text": "So dapatkan di beg kuning.",
    "note": ""
@@ -264,13 +274,13 @@
     "S03",
     "end"
    ],
-   "src": 60.5,
+   "src": 18.0,
    "note": "close-up of the owner's own Dessini footage",
    "push": [
-    1.15,
-    1.25
+    1.04,
+    1.1
    ],
-   "origin": "55% 52%"
+   "origin": "55% 0%"
   },
   {
    "id": "C2",
@@ -360,7 +370,7 @@
     1.3,
     1.4
    ],
-   "origin": "82% 66%"
+   "origin": "82% 0%"
   },
   {
    "id": "C7",
@@ -378,7 +388,7 @@
     1.3,
     1.4
    ],
-   "origin": "82% 62%"
+   "origin": "82% 0%"
   },
   {
    "id": "C8",
@@ -475,11 +485,11 @@
   {
    "id": "juadah",
    "from": [
-    "S26",
-    "puasa"
+    "S26b",
+    "start"
    ],
    "to": [
-    "S26",
+    "S26b",
     "end"
    ],
    "note": "AI: juadah berbuka"
