@@ -1,4 +1,4 @@
-TOTAL 77.40s  (11 A-roll segments, 4 B-roll shots, 2 photos, 3 audio fx, 192 caption cards)
+TOTAL 76.17s  (12 A-roll segments, 4 B-roll shots, 2 photos, 3 audio fx, 192 caption cards)
 
   0.00- 11.55  S01  src  73.40- 86.68  (7 pc)  Masalah dengan Shilajit ni, especially yang bentuk macam cecair likat tu, rasa dia aduh, memang tak sedap langsung. Rasa macam besi pun ada, macam tanah pun ada juga. So memang susah nak konsisten.
  11.55- 19.83  S02  src  86.85- 95.30  (2 pc)  Untuk abang-abang yang nak amalkan Shilajit ni, bolehlah cuba Shilajit dalam bentuk tablet macam ni, ya, daripada Aurapep ni, macam ni.
@@ -6,15 +6,16 @@ TOTAL 77.40s  (11 A-roll segments, 4 B-roll shots, 2 photos, 3 audio fx, 192 cap
  27.63- 30.93  S04  src  49.50- 52.80  (1 pc)  Shilajit ni dia tinggi dengan mineral, antioxidant.
  30.93- 39.05  S05  src 101.10-109.75  (3 pc)  Okey, so Aurapep Shilajit ni siap ada tambahan zinc tau, ada magnesium dan ganoderma extra.
  39.05- 42.55  S06  src 112.75-116.25  (1 pc)  Kesemua bahan-bahan dalam ni bantu sokong nutrisi harian kita.
- 42.55- 46.82  S07  src 153.50-158.15  (2 pc)  Ini adalah Aurapep Shilajit Complex Tablet.
- 46.82- 51.62  S08  src 159.20-164.00  (1 pc)  Jadi untuk abang-abang, ayah-ayah, pakcik-pakcik yang tengah cari suplemen,
- 51.62- 57.15  S09  src 167.98-173.80  (2 pc)  boleh cuba Aurapep Shilajit Complex Tablet ini. Saya dah sediakan link dekat beg kuning.
- 57.15- 69.08  S10  src 183.85-196.95  (6 pc)  Dan sekarang ni juga banyak seller tengah buat promosi tau, promosi 11.11, biasanya harga lebih murah daripada biasa. Cuba tengok beg kuning, tengok berapa harga dapat. Kalau memang tengah murah tu, boleh beli terus.
- 69.08- 77.40  S11  src 214.20-222.85  (3 pc)  Kalau boleh, jangan beli satu botol tau, beli dua tiga botol, boleh buat stok awal-awal. Nanti kalau stok habis, dah ada lebih dah, tak risau.
+ 42.55- 44.33  S07  src 153.50-155.28  (1 pc)  Ini adalah Aurapep
+ 44.33- 45.58  S07b  src 156.90-158.15  (1 pc)  Shilajit Complex Tablet.
+ 45.58- 50.38  S08  src 159.20-164.00  (1 pc)  Jadi untuk abang-abang, ayah-ayah, pakcik-pakcik yang tengah cari suplemen,
+ 50.38- 55.92  S09  src 167.98-173.80  (2 pc)  boleh cuba Aurapep Shilajit Complex Tablet ini. Saya dah sediakan link dekat beg kuning.
+ 55.92- 67.85  S10  src 183.85-196.95  (6 pc)  Dan sekarang ni juga banyak seller tengah buat promosi tau, promosi 11.11, biasanya harga lebih murah daripada biasa. Cuba tengok beg kuning, tengok berapa harga dapat. Kalau memang tengah murah tu, boleh beli terus.
+ 67.85- 76.17  S11  src 214.20-222.85  (3 pc)  Kalau boleh, jangan beli satu botol tau, beli dua tiga botol, boleh buat stok awal-awal. Nanti kalau stok habis, dah ada lebih dah, tak risau.
 
   cutaway   0.00-  9.82
   cutaway  11.55- 19.83
   cutaway  27.63- 30.93
   cutaway  30.93- 42.55
-  cutaway  42.55- 46.82
-  cutaway  51.62- 57.15
+  cutaway  42.55- 45.58
+  cutaway  50.38- 55.92

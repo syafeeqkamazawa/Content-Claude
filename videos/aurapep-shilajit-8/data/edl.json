@@ -72,10 +72,18 @@
   {
    "id": "S07",
    "in": 153.5,
+   "out": 155.28,
+   "zoom": 1.0,
+   "text": "Ini adalah Aurapep",
+   "note": ""
+  },
+  {
+   "id": "S07b",
+   "in": 156.9,
    "out": 158.15,
    "zoom": 1.0,
-   "text": "Ini adalah Aurapep Shilajit Complex Tablet.",
-   "note": ""
+   "text": "Shilajit Complex Tablet.",
+   "note": "repeated 'Shilajit' (155.3-156.9) dropped"
   },
   {
    "id": "S08",
@@ -161,7 +169,7 @@
     "start"
    ],
    "to": [
-    "S07",
+    "S07b",
     "end"
    ],
    "src": 20.0,
