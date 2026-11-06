@@ -562,11 +562,11 @@ TT = EDL.get("toptitle")
 if TT:
     t1 = q(anchor(TT["to"])) if isinstance(TT.get("to"), list) else float(TT.get("to", 4))
     inner = "".join(f'<div class="tt-line" id="tt{i}">{html.escape(t)}</div>' for i, t in enumerate(TT["lines"]))
-    card("ov-toptitle", 0.0, t1, f'<div class="tt" style="top:{TT.get("top", 250)}px">{inner}</div>')
+    card("ov-toptitle", 0.0, t1, f'<div class="tt" id="ttbox" style="top:{TT.get("top", 250)}px">{inner}</div>')
     for i in range(len(TT["lines"])):
         gfx_js.append(f'tl.fromTo("#tt{i}", {{ opacity: 0, y: -16 }}, {{ opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }}, {q(0.05 + 0.1 * i)});')
     if t1 < TOTAL - 0.1:
-        fade_out(".tt", t1)
+        fade_out("#ttbox", t1)
 for k, lb in enumerate(EDL.get("labels", [])):
     lid = f"lb{k}"
     t0, t1 = card(f"ov-{lid}", anchor(lb["from"]), anchor(lb["to"]),

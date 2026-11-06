@@ -32,7 +32,7 @@
   {
    "id": "S02",
    "in": 39.1,
-   "out": 43.95,
+   "out": 44.1,
    "zoom": 1.0,
    "text": "Yang cawan krill oil tu dah larut bersama dengan seluruh air tu, itu yang original.",
    "note": "stumbles 'yang cawan penuh dengan / yang cawan dah apa' dropped"
@@ -47,8 +47,8 @@
   },
   {
    "id": "S04",
-   "in": 67.7,
-   "out": 72.8,
+   "in": 67.55,
+   "out": 72.88,
    "zoom": 1.0,
    "text": "Kalau yang original, krill oil akan bawa sekali semua minyak tu ke dalam air.",
    "note": ""
@@ -64,7 +64,7 @@
   {
    "id": "S06",
    "in": 137.45,
-   "out": 144.95,
+   "out": 145.12,
    "zoom": 1.0,
    "text": "Aurapep Krill Oil ni kita perlu tahulah baik untuk apa? Untuk otak dan mata. Sebab apa? Sebab dalam ni ada DHA.",
    "note": "fillers (121-137) dropped"
@@ -72,7 +72,7 @@
   {
    "id": "S07",
    "in": 161.45,
-   "out": 172.75,
+   "out": 172.92,
    "zoom": 1.0,
    "text": "Krill oil baik untuk darah, jantung, saraf, sendi, lutut, sebab ada EPA tau. Dan dia jenis omega-3.",
    "note": "first take (145.5-156.3) dropped"
@@ -80,7 +80,7 @@
   {
    "id": "S08",
    "in": 294.55,
-   "out": 303.7,
+   "out": 303.78,
    "zoom": 1.0,
    "text": "Lagi satu, krill oil ni kenapa dia warna merah? Sebab dia ada astaxanthin dekat dalam ni tau. Astaxanthin ni memang banyaklah kelebihan dia.",
    "note": "earlier takes (280-293) and the unclear 304-323 dropped"
@@ -88,7 +88,7 @@
   {
    "id": "S09",
    "in": 324.6,
-   "out": 330.55,
+   "out": 330.65,
    "zoom": 1.0,
    "text": "Dan juga brand Aurapep ni punya krill oil ada vitamin D3 dan K2 sekali.",
    "note": ""
@@ -96,7 +96,7 @@
   {
    "id": "S10",
    "in": 343.1,
-   "out": 349.25,
+   "out": 349.33,
    "zoom": 1.0,
    "text": "So D3 dengan K2 ni baik untuk apa? Untuk kita punya immune system, baik untuk tulang sendi.",
    "note": "'baik untuk pipe darah' (349.7) dropped"
@@ -112,7 +112,7 @@
   {
    "id": "S12",
    "in": 394.75,
-   "out": 398.55,
+   "out": 398.65,
    "zoom": 1.0,
    "text": "Kandungan dia tinggi tau, 1000 mg setiap 2 biji tu.",
    "note": ""
@@ -120,7 +120,7 @@
   {
    "id": "S13",
    "in": 412.0,
-   "out": 420.35,
+   "out": 420.42,
    "zoom": 1.0,
    "text": "Satu botol pula ada 40 biji, sehari makan 2 biji cukup, boleh makan selama 20 hari, tapi harga dia tu lebih bajet sikit.",
    "note": ""
@@ -136,7 +136,7 @@
   {
    "id": "S15",
    "in": 450.5,
-   "out": 457.4,
+   "out": 457.5,
    "zoom": 1.0,
    "text": "Tapi sekarang guys, sekarang ni seller tengah banyak buat promo tau, lagi-lagi sekarang ni promotion 11.11.",
    "note": ""
@@ -152,7 +152,7 @@
   {
    "id": "S17",
    "in": 482.38,
-   "out": 487.1,
+   "out": 487.15,
    "zoom": 1.0,
    "text": "Satu botol baru tahan 20 hari, ambil 3 botol atau 6 botol tu simpan dekat rumah.",
    "note": "'warga emas boleh makan 4 biji' (488-492.7) dropped — dose beyond the label"
@@ -175,7 +175,7 @@
   },
   {
    "id": "S20",
-   "in": 518.15,
+   "in": 518.0,
    "out": 521.85,
    "zoom": 1.0,
    "text": "orang berusia pun lagilah patut amalkan.",
@@ -296,6 +296,24 @@
  ],
  "broll": [
   {
+   "id": "C0",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 104.0,
+   "note": "close-up of the owner's own Aurapep bottle / softgels",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "55% 72%"
+  },
+  {
    "id": "C1",
    "from": [
     "S06",
@@ -412,7 +430,7 @@
     "start"
    ],
    "to": [
-    "S05",
+    "S04",
     "end"
    ],
    "note": "AI: ujian cawan — larut vs terapung (illustrasi, tiada orang)"
