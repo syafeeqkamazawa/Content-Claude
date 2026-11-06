@@ -1,0 +1,282 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "6 Nov: Periuk nasi Giselle, Drive folder 1UWCUgtn… (two talking clips → two videos; this is clip 091130). Caption: the 6 Nov default (docs/caption-style-6nov.jpg), moved up to the wall (top 300) so it never covers the pot or its logo. Overlays on every explanation (owner 6 Nov): close-ups of the owner's own rice-cooker demo first, realistic AI photos (no people) for picnic, rice with sambal sotong and a kampung-style meal. The Khairul Aming line is left out (owner dropped it himself in clip 090321).",
+ "_note": "Periuk Giselle #2 — A-roll assets/a.mp4 = VID_20261106_091130 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. Clip 090321 is periuk-giselle-1. Promo 11.11 / vouchers are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 97.15,
+   "out": 102.45,
+   "zoom": 1.0,
+   "text": "Boleh buat dua dalam satu. Nasi masak, lauk pun jadi panas.",
+   "note": "HOOK (moved up from the cooking result)"
+  },
+  {
+   "id": "S02",
+   "in": 76.45,
+   "out": 81.25,
+   "zoom": 1.0,
+   "text": "Periuk nasi daripada Giselle ni memang sangat comel tau. Serius tak tipu korang.",
+   "note": "opening 'beli periuk nasi yang macam Khairul Aming beli tu' (4.8-9.3) dropped — a celebrity name the owner chose not to use in clip 090321 ('actually tak payah'); aside 'saya tak payah' (73.9) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 81.6,
+   "out": 85.7,
+   "zoom": 1.0,
+   "text": "Korang tengoklah sendiri. Memang lawa lah. Memang comel. Macam cute-cute je macam tu.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 14.05,
+   "out": 17.95,
+   "zoom": 1.0,
+   "text": "So kalau korang nak pergi piknik kan, sangat sesuai.",
+   "note": "filler 'nah, ok' (11.7-12.8) dropped"
+  },
+  {
+   "id": "S05",
+   "in": 20.2,
+   "out": 23.75,
+   "zoom": 1.0,
+   "text": "Alang-alang saya nak share juga, apa kita boleh masak.",
+   "note": "repeated 'saya pun nak share juga / jom saya share / ok kita cuba masak nasi' (25-34.4) dropped"
+  },
+  {
+   "id": "S06",
+   "in": 35.1,
+   "out": 37.05,
+   "zoom": 1.0,
+   "text": "Kita masak nasi guna periuk Giselle.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 37.95,
+   "out": 46.25,
+   "zoom": 1.0,
+   "text": "Masukkan dalam periuk ni dua pot. Lepas tu, contohnya ada lauk sotong, boleh panaskan dalam ni.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 49.2,
+   "out": 54.75,
+   "zoom": 1.0,
+   "text": "Lauk sotong tu letak kat sini, letak kat atas tu.",
+   "note": "filler 'ni kan ada kan' dropped"
+  },
+  {
+   "id": "S09",
+   "in": 55.2,
+   "out": 62.95,
+   "zoom": 1.0,
+   "text": "Beras boleh letak kat bawah, tu boleh masak nasi bersama dengan panaskan sotong sekali, macam tu.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 70.0,
+   "out": 72.55,
+   "zoom": 1.0,
+   "text": "Lepas tu kita tengoklah macam mana rupa dia ni.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 90.05,
+   "out": 96.95,
+   "zoom": 1.0,
+   "text": "Bila dah siap masak, korang tengok, nasi dah siap masak. Sedap. Lauk pun boleh siap panas sekali.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 102.9,
+   "out": 104.75,
+   "zoom": 1.0,
+   "text": "Memang sedap lah nak makan kan?",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 150.0,
+   "out": 153.75,
+   "zoom": 1.0,
+   "text": "Mana tahu bila korang makan tu, rasa macam ala-ala makan dekat Rembayung.",
+   "note": "best of the seven takes (108-162)"
+  },
+  {
+   "id": "S14",
+   "in": 169.05,
+   "out": 184.55,
+   "zoom": 1.04,
+   "text": "So guys, seller sekarang ni tengah buat promo banyak tau, 11.11 punya promotion. Cuba tengok dekat beg kuning, kalau ada voucher boleh claim. Kalau harga tu tengah murah daripada biasa, korang boleh beli tu dekat beg kuning, ok?",
+   "note": "CTA — false start 'so guys seller tengah buat promo' (163.8-166.5) dropped"
+  }
+ ],
+ "punch": [
+  [
+   "S14",
+   "cuba",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 76.45,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "35% 70%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 31.5,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "30% 62%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 37.95,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "40% 62%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 49.2,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.2,
+    1.3
+   ],
+   "origin": "45% 58%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 70.0,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "45% 65%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "piknik",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: piknik keluarga (tiada orang)"
+  },
+  {
+   "id": "sotong",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "note": "AI: nasi panas + sambal sotong"
+  },
+  {
+   "id": "kampung",
+   "from": [
+    "S13",
+    "start"
+   ],
+   "to": [
+    "S13",
+    "end"
+   ],
+   "note": "AI: hidangan kampung (generic, bukan restoran sebenar)"
+  }
+ ],
+ "theme": {
+  "key": "#7FB8A4",
+  "brand": "#E9DCC4"
+ },
+ "brand_words": [
+  "giselle"
+ ],
+ "keywords": []
+}
