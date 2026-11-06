@@ -1,0 +1,26 @@
+TOTAL 74.40s  (14 A-roll segments, 6 B-roll shots, 3 photos, 1 audio fx, 185 caption cards)
+
+  0.00-  5.42  S01  src  97.15-102.70  (2 pc)  Boleh buat dua dalam satu. Nasi masak, lauk pun jadi panas.
+  5.42- 10.57  S02  src  76.30- 81.45  (1 pc)  Periuk nasi daripada Giselle ni memang sangat comel tau. Serius tak tipu korang.
+ 10.57- 14.67  S03  src  81.60- 85.70  (1 pc)  Korang tengoklah sendiri. Memang lawa lah. Memang comel. Macam cute-cute je macam tu.
+ 14.67- 18.50  S04  src  14.05- 18.05  (2 pc)  So kalau korang nak pergi piknik kan, sangat sesuai.
+ 18.50- 22.02  S05  src  20.20- 23.85  (2 pc)  Alang-alang saya nak share juga, apa kita boleh masak.
+ 22.02- 24.12  S06  src  35.10- 37.20  (1 pc)  Kita masak nasi guna periuk Giselle.
+ 24.12- 32.02  S07  src  37.75- 46.25  (4 pc)  Masukkan dalam periuk ni dua pot. Lepas tu, contohnya ada lauk sotong, boleh panaskan dalam ni.
+ 32.02- 37.13  S08  src  49.20- 54.85  (3 pc)  Lauk sotong tu letak kat sini, letak kat atas tu.
+ 37.13- 44.48  S09  src  55.20- 62.95  (2 pc)  Beras boleh letak kat bawah, tu boleh masak nasi bersama dengan panaskan sotong sekali, macam tu.
+ 44.48- 47.23  S10  src  69.80- 72.55  (1 pc)  Lepas tu kita tengoklah macam mana rupa dia ni.
+ 47.23- 53.78  S11  src  89.90- 96.95  (3 pc)  Bila dah siap masak, korang tengok, nasi dah siap masak. Sedap. Lauk pun boleh siap panas sekali.
+ 53.78- 55.63  S12  src 102.90-104.75  (1 pc)  Memang sedap lah nak makan kan?
+ 55.63- 59.43  S13  src 150.00-153.80  (1 pc)  Mana tahu bila korang makan tu, rasa macam ala-ala makan dekat Rembayung.
+ 59.43- 74.40  S14  src 169.05-184.55  (3 pc)  So guys, seller sekarang ni tengah buat promo banyak tau, 11.11 punya promotion. Cuba tengok dekat beg kuning, kalau ada voucher boleh claim. Kalau harga tu tengah murah daripada biasa, korang boleh beli tu dekat beg kuning, ok?
+
+  cutaway   5.42- 10.57
+  cutaway  10.57- 14.67
+  cutaway  14.67- 18.50
+  cutaway  18.50- 24.12
+  cutaway  24.12- 32.02
+  cutaway  32.02- 44.48
+  cutaway  44.48- 47.23
+  cutaway  47.23- 55.63
+  cutaway  55.63- 59.43

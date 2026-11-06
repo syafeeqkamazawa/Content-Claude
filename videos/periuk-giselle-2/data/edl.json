@@ -24,15 +24,15 @@
   {
    "id": "S01",
    "in": 97.15,
-   "out": 102.45,
+   "out": 102.7,
    "zoom": 1.0,
    "text": "Boleh buat dua dalam satu. Nasi masak, lauk pun jadi panas.",
    "note": "HOOK (moved up from the cooking result)"
   },
   {
    "id": "S02",
-   "in": 76.45,
-   "out": 81.25,
+   "in": 76.3,
+   "out": 81.45,
    "zoom": 1.0,
    "text": "Periuk nasi daripada Giselle ni memang sangat comel tau. Serius tak tipu korang.",
    "note": "opening 'beli periuk nasi yang macam Khairul Aming beli tu' (4.8-9.3) dropped — a celebrity name the owner chose not to use in clip 090321 ('actually tak payah'); aside 'saya tak payah' (73.9) dropped"
@@ -48,7 +48,7 @@
   {
    "id": "S04",
    "in": 14.05,
-   "out": 17.95,
+   "out": 18.05,
    "zoom": 1.0,
    "text": "So kalau korang nak pergi piknik kan, sangat sesuai.",
    "note": "filler 'nah, ok' (11.7-12.8) dropped"
@@ -56,7 +56,7 @@
   {
    "id": "S05",
    "in": 20.2,
-   "out": 23.75,
+   "out": 23.85,
    "zoom": 1.0,
    "text": "Alang-alang saya nak share juga, apa kita boleh masak.",
    "note": "repeated 'saya pun nak share juga / jom saya share / ok kita cuba masak nasi' (25-34.4) dropped"
@@ -64,14 +64,14 @@
   {
    "id": "S06",
    "in": 35.1,
-   "out": 37.05,
+   "out": 37.2,
    "zoom": 1.0,
    "text": "Kita masak nasi guna periuk Giselle.",
    "note": ""
   },
   {
    "id": "S07",
-   "in": 37.95,
+   "in": 37.75,
    "out": 46.25,
    "zoom": 1.0,
    "text": "Masukkan dalam periuk ni dua pot. Lepas tu, contohnya ada lauk sotong, boleh panaskan dalam ni.",
@@ -80,7 +80,7 @@
   {
    "id": "S08",
    "in": 49.2,
-   "out": 54.75,
+   "out": 54.85,
    "zoom": 1.0,
    "text": "Lauk sotong tu letak kat sini, letak kat atas tu.",
    "note": "filler 'ni kan ada kan' dropped"
@@ -95,7 +95,7 @@
   },
   {
    "id": "S10",
-   "in": 70.0,
+   "in": 69.8,
    "out": 72.55,
    "zoom": 1.0,
    "text": "Lepas tu kita tengoklah macam mana rupa dia ni.",
@@ -103,7 +103,7 @@
   },
   {
    "id": "S11",
-   "in": 90.05,
+   "in": 89.9,
    "out": 96.95,
    "zoom": 1.0,
    "text": "Bila dah siap masak, korang tengok, nasi dah siap masak. Sedap. Lauk pun boleh siap panas sekali.",
@@ -120,7 +120,7 @@
   {
    "id": "S13",
    "in": 150.0,
-   "out": 153.75,
+   "out": 153.8,
    "zoom": 1.0,
    "text": "Mana tahu bila korang makan tu, rasa macam ala-ala makan dekat Rembayung.",
    "note": "best of the seven takes (108-162)"
@@ -149,16 +149,34 @@
     "start"
    ],
    "to": [
-    "S03",
+    "S02",
     "end"
    ],
-   "src": 76.45,
+   "src": 76.3,
    "note": "close-up of the owner's own rice cooker footage",
    "push": [
     1.3,
     1.45
    ],
    "origin": "35% 70%"
+  },
+  {
+   "id": "C1b",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 178.0,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "55% 66%"
   },
   {
    "id": "C2",
