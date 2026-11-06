@@ -1,0 +1,34 @@
+TOTAL 103.58s  (23 A-roll segments, 5 B-roll shots, 3 photos, 5 audio fx, 184 caption cards)
+
+  0.00-  6.40  S01  src  63.45- 70.15  (2 pc)  Saya betul-betul dah lama tak amalkan solat tahajud.
+  6.40- 14.98  S02  src  70.30- 79.75  (3 pc)  Insya-Allah saya nak mulakan satu journey, Day 1 Tahajud Journey bersama Syafiq Kamazawa.
+ 14.98- 18.03  S03  src  82.85- 85.90  (1 pc)  Setiap hari saya akan share
+ 18.03- 21.73  S04  src  93.90- 97.60  (1 pc)  sedikit input daripada buku ni, yang mana
+ 21.73- 27.45  S05  src 102.60-108.70  (3 pc)  tengok video ni pun dapat manfaat sekali, insya-Allah.
+ 27.45- 32.73  S06  src 110.80-116.55  (2 pc)  Saya buka dulu plastik dia. Cantik packaging dia, macam ni.
+ 32.73- 42.18  S07  src 116.70-127.20  (3 pc)  Insya-Allah, Hidup Dengan Tahajud. Dan di belakang ni ada review lah daripada Mufti Wilayah Persekutuan, Ustaz Haji Ahmad Fawaz bin Fazil juga.
+ 42.18- 46.68  S08  src 137.75-142.25  (1 pc)  Buku ni jika tak silap saya, ia daripada Iddin Ramli.
+ 46.68- 52.63  S09  src 160.15-166.25  (2 pc)  Saya akan baca dahulu.
+ 52.63- 61.38  S10  src 168.40-177.15  (1 pc)  Sedikit lah, tak boleh semua kan. Sebab kalau nak baca semua, kena dapatkan lah di beg kuning tadi tu, insya-Allah.
+ 61.38- 63.13  S11  src 177.75-179.50  (1 pc)  Jadi saya akan share sedikit
+ 63.13- 66.35  S11b  src 180.60-184.30  (3 pc)  daripada part-part yang ada lah.
+ 66.35- 67.27  S12  src 187.70-188.62  (1 pc)  Pertama,
+ 67.27- 70.02  S13  src 193.00-195.75  (1 pc)  bila waktu dikira sebagai tahajud?
+ 70.02- 71.77  S14  src 200.45-202.20  (1 pc)  Ikut mazhab Syafie,
+ 71.77- 74.87  S14b  src 203.15-206.25  (1 pc)  tahajud tu mesti tidur dahulu selepas isyak.
+ 74.87- 80.12  S15  src 208.55-213.80  (1 pc)  So tidur sedikit pun tak menjadi masalah, janji tidur sebentar.
+ 80.12- 81.58  S16  src 242.95-244.42  (1 pc)  Kita akan share lagi
+ 81.58- 84.53  S17  src 246.35-249.90  (2 pc)  sedikit di hari-hari seterusnya.
+ 84.53- 86.63  S18  src 257.90-260.00  (1 pc)  Semoga mendapat sedikit input.
+ 86.63- 90.98  S19  src 262.15-266.50  (1 pc)  Kalau nak baca penuh, boleh dapatkan di beg kuning, insya-Allah.
+ 90.98-101.48  S20  src 282.85-294.85  (5 pc)  Semoga kita dapat hidup dengan tahajud, insya-Allah, dan Allah SWT perbaiki kehidupan kita, insya-Allah.
+101.48-103.58  S21  src 296.00-298.10  (1 pc)  Dapatkan di beg kuning, insya-Allah.
+
+  cutaway   6.40- 14.98
+  cutaway  27.45- 32.73
+  cutaway  35.32- 42.18
+  cutaway  44.38- 46.68
+  cutaway  46.68- 61.38
+  cutaway  71.77- 80.12
+  cutaway  80.12- 90.98
+  cutaway  90.98-101.48

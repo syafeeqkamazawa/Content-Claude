@@ -1,0 +1,358 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "7 Nov: 'Video buku hidup dengan tahajud' — Drive folder 'Buku Hidup Dengan Tahajud By Iddin Ramli' (1RmjrBGH…), one clip VID_20261107_014958. Caption: the 6 Nov default, on the wall above the head (top 300). The owner frames it as a series ('Day 1 Tahajud Journey bersama Syafiq Kamazawa'), so a small series title sits at the top for the opening. Overlays on every explanation (owner 6 Nov): close-ups of the owner's own copy of the book first; realistic aurat-safe AI photos for tahajud at night and sleeping after isyak.",
+ "_note": "Buku Hidup Dengan Tahajud #1 — A-roll assets/a.mp4 = VID_20261107_014958 (rear camera, NOT mirrored: the cover reads correctly). assets/b.mp4 = the same clip, muted, not flipped. No price; 'dapatkan di beg kuning' is the owner's own CTA.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 63.45,
+   "out": 70.15,
+   "zoom": 1.0,
+   "text": "Saya betul-betul dah lama tak amalkan solat tahajud.",
+   "note": "HOOK — the slow title reading (30-62.8) dropped"
+  },
+  {
+   "id": "S02",
+   "in": 70.3,
+   "out": 79.75,
+   "zoom": 1.0,
+   "text": "Insya-Allah saya nak mulakan satu journey, Day 1 Tahajud Journey bersama Syafiq Kamazawa.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 82.85,
+   "out": 85.9,
+   "zoom": 1.0,
+   "text": "Setiap hari saya akan share",
+   "note": "stumble 'dan sebelum' dropped"
+  },
+  {
+   "id": "S04",
+   "in": 93.9,
+   "out": 97.6,
+   "zoom": 1.0,
+   "text": "sedikit input daripada buku ni, yang mana",
+   "note": "hesitation 'semoga, apa tu, yang mana' (97.6-102.6) dropped"
+  },
+  {
+   "id": "S05",
+   "in": 102.6,
+   "out": 108.7,
+   "zoom": 1.0,
+   "text": "tengok video ni pun dapat manfaat sekali, insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 110.8,
+   "out": 116.55,
+   "zoom": 1.0,
+   "text": "Saya buka dulu plastik dia. Cantik packaging dia, macam ni.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 116.7,
+   "out": 127.2,
+   "zoom": 1.0,
+   "text": "Insya-Allah, Hidup Dengan Tahajud. Dan di belakang ni ada review lah daripada Mufti Wilayah Persekutuan, Ustaz Haji Ahmad Fawaz bin Fazil juga.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 137.75,
+   "out": 142.25,
+   "zoom": 1.0,
+   "text": "Buku ni jika tak silap saya, ia daripada Iddin Ramli.",
+   "note": "the unclear 'yang kenal … Malaysia pun dah kenal' (142.4-145.6) left out"
+  },
+  {
+   "id": "S09",
+   "in": 160.15,
+   "out": 166.25,
+   "zoom": 1.0,
+   "text": "Saya akan baca dahulu.",
+   "note": "'Day 1 Tahajud Journey' repeat (151-158) dropped"
+  },
+  {
+   "id": "S10",
+   "in": 168.4,
+   "out": 177.15,
+   "zoom": 1.0,
+   "text": "Sedikit lah, tak boleh semua kan. Sebab kalau nak baca semua, kena dapatkan lah di beg kuning tadi tu, insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 177.75,
+   "out": 179.5,
+   "zoom": 1.0,
+   "text": "Jadi saya akan share sedikit",
+   "note": ""
+  },
+  {
+   "id": "S11b",
+   "in": 180.6,
+   "out": 184.3,
+   "zoom": 1.0,
+   "text": "daripada part-part yang ada lah.",
+   "note": "stutter 'lebih, dah sedikit' dropped"
+  },
+  {
+   "id": "S12",
+   "in": 187.7,
+   "out": 188.62,
+   "zoom": 1.0,
+   "text": "Pertama,",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 193.0,
+   "out": 195.75,
+   "zoom": 1.0,
+   "text": "bila waktu dikira sebagai tahajud?",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 200.45,
+   "out": 202.2,
+   "zoom": 1.0,
+   "text": "Ikut mazhab Syafie,",
+   "note": "first take 'untuk tahajud ni mesti tidur dahulu' (197.2-200) dropped"
+  },
+  {
+   "id": "S14b",
+   "in": 203.15,
+   "out": 206.25,
+   "zoom": 1.0,
+   "text": "tahajud tu mesti tidur dahulu selepas isyak.",
+   "note": "filler 'okay' dropped"
+  },
+  {
+   "id": "S15",
+   "in": 208.55,
+   "out": 213.8,
+   "zoom": 1.0,
+   "text": "So tidur sedikit pun tak menjadi masalah, janji tidur sebentar.",
+   "note": "the repeat of the same lesson (216-235) dropped"
+  },
+  {
+   "id": "S16",
+   "in": 242.95,
+   "out": 244.42,
+   "zoom": 1.0,
+   "text": "Kita akan share lagi",
+   "note": "stutter 'sedikit, sedikit' dropped"
+  },
+  {
+   "id": "S17",
+   "in": 246.35,
+   "out": 249.9,
+   "zoom": 1.0,
+   "text": "sedikit di hari-hari seterusnya.",
+   "note": ""
+  },
+  {
+   "id": "S18",
+   "in": 257.9,
+   "out": 260.0,
+   "zoom": 1.0,
+   "text": "Semoga mendapat sedikit input.",
+   "note": "unclear 'daripada … saya' left out; 'Tahajud Day 1 bersama Syafiq' repeat (250-256) dropped"
+  },
+  {
+   "id": "S19",
+   "in": 262.15,
+   "out": 266.5,
+   "zoom": 1.0,
+   "text": "Kalau nak baca penuh, boleh dapatkan di beg kuning, insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S20",
+   "in": 282.85,
+   "out": 294.85,
+   "zoom": 1.0,
+   "text": "Semoga kita dapat hidup dengan tahajud, insya-Allah, dan Allah SWT perbaiki kehidupan kita, insya-Allah.",
+   "note": "hesitation (266.9-282.8) dropped"
+  },
+  {
+   "id": "S21",
+   "in": 296.0,
+   "out": 298.1,
+   "zoom": 1.04,
+   "text": "Dapatkan di beg kuning, insya-Allah.",
+   "note": "CTA"
+  }
+ ],
+ "toptitle": {
+  "lines": [
+   "Day 1 · Tahajud Journey"
+  ],
+  "to": [
+   "S05",
+   "end"
+  ],
+  "top": 150
+ },
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 112.0,
+   "note": "close-up of the owner's own copy of the book",
+   "push": [
+    1.25,
+    1.4
+   ],
+   "origin": "60% 72%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S07",
+    "Dan"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 119.5,
+   "note": "close-up of the owner's own copy of the book",
+   "push": [
+    1.25,
+    1.4
+   ],
+   "origin": "45% 72%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S08",
+    "ia"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 288.0,
+   "note": "close-up of the owner's own copy of the book",
+   "push": [
+    1.15,
+    1.22
+   ],
+   "origin": "50% 60%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 172.0,
+   "note": "close-up of the owner's own copy of the book",
+   "push": [
+    1.2,
+    1.3
+   ],
+   "origin": "52% 62%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S16",
+    "start"
+   ],
+   "to": [
+    "S19",
+    "end"
+   ],
+   "src": 262.0,
+   "note": "close-up of the owner's own copy of the book",
+   "push": [
+    1.2,
+    1.3
+   ],
+   "origin": "55% 62%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "tahajud",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: solat tahajud waktu malam (lelaki berpakaian penuh)"
+  },
+  {
+   "id": "tidur",
+   "from": [
+    "S14b",
+    "start"
+   ],
+   "to": [
+    "S15",
+    "end"
+   ],
+   "note": "AI: tidur selepas isyak (lelaki berpakaian penuh)"
+  },
+  {
+   "id": "malam",
+   "from": [
+    "S20",
+    "start"
+   ],
+   "to": [
+    "S20",
+    "end"
+   ],
+   "note": "AI: sejadah waktu malam (tiada orang)"
+  }
+ ],
+ "theme": {
+  "key": "#7B5EA7",
+  "brand": "#E9E2F5"
+ },
+ "brand_words": [
+  "tahajud"
+ ],
+ "keywords": []
+}
