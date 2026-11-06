@@ -24,14 +24,14 @@
   {
    "id": "S01",
    "in": 5.4,
-   "out": 10.8,
+   "out": 10.92,
    "zoom": 1.0,
    "text": "Korang jangan main-main tau, ni Shilajit eh. Shilajit ni bukan biasa-biasa tau.",
    "note": "HOOK"
   },
   {
    "id": "S02",
-   "in": 11.1,
+   "in": 11.0,
    "out": 13.0,
    "zoom": 1.0,
    "text": "Dia punya rasa dia tak ada bau.",
@@ -39,7 +39,7 @@
   },
   {
    "id": "S03",
-   "in": 14.0,
+   "in": 13.75,
    "out": 21.4,
    "zoom": 1.0,
    "text": "Biasanya ada Shilajit yang ada bau, yang ni tak ada bau, tak menusuk dan tak susah untuk ditelan.",
@@ -48,7 +48,7 @@
   {
    "id": "S04",
    "in": 22.25,
-   "out": 27.9,
+   "out": 28.0,
    "zoom": 1.0,
    "text": "InsyaAllah orang kata lebih mudah lah untuk gunakan Shilajit ni, dia dalam bentuk kapsul tau.",
    "note": ""
@@ -64,7 +64,7 @@
   {
    "id": "S06",
    "in": 46.5,
-   "out": 53.95,
+   "out": 54.02,
    "zoom": 1.0,
    "text": "Siapa yang selalu pagi-pagi tu susah nak bangun, malam susah nak tidur kan,",
    "note": "first take (41.9-46.2) dropped"
@@ -88,7 +88,7 @@
   {
    "id": "S09",
    "in": 98.15,
-   "out": 101.85,
+   "out": 101.95,
    "zoom": 1.0,
    "text": "Seller tengah buat promotion ni, 11.11 punya promotion.",
    "note": ""
@@ -120,7 +120,7 @@
     "S02",
     "end"
    ],
-   "src": 11.1,
+   "src": 11.0,
    "note": "close-up of the owner's own Shilajit bottle / box",
    "push": [
     1.3,

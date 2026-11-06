@@ -1,0 +1,241 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "6 Nov: Aurapep Shilajit, Drive folder 12AIw3W3… — clip 172057 → #9 (170843 → #7, 171623 → #8). Caption: the 6 Nov default on the wall above the head (top 300). Overlays on every explanation (owner 6 Nov): close-ups of the owner's own bottle first; realistic AI photos (no people / one long-sleeved hand) for the crowded supplement shelf, ganoderma and the one-tablet dose. Stamina / 'tenaga dalam' / 'masalah yang sama' lines dropped (owner 5 Nov: no TikTok-risk health claims).",
+ "_note": "Aurapep Shilajit #9 — A-roll assets/a.mp4 = VID_20261106_172057 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. Promo 11.11 / restock / 'feedback sangat baik' are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 5.4,
+   "out": 9.6,
+   "zoom": 1.0,
+   "text": "Sekarang ni tengah viral guys, Shilajit daripada Aurapep ni.",
+   "note": "HOOK — the 'dikatakan dapat bantu support dan boost stamina' claim (9.5-21.8, two takes) dropped: TikTok health-claim risk (owner 5 Nov)"
+  },
+  {
+   "id": "S02",
+   "in": 31.8,
+   "out": 41.55,
+   "zoom": 1.0,
+   "text": "Ramai yang dah cuba Aurapep Shilajit Complex Tablet ni dan kebanyakannya feedback yang sangat baik.",
+   "note": "first take (22.5-27.3) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 44.75,
+   "out": 49.05,
+   "zoom": 1.0,
+   "text": "Tetapi macam mana kita nak pilih Shilajit yang berkualiti dalam pasaran sekarang?",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 50.35,
+   "out": 58.3,
+   "zoom": 1.0,
+   "text": "Ini yang saya nak share kepada anda semua, Shilajit Complex Tablet daripada Aurapep ni, sebab sangat berkualiti.",
+   "note": "false start 'saya nak share' dropped"
+  },
+  {
+   "id": "S05",
+   "in": 58.3,
+   "out": 62.0,
+   "zoom": 1.0,
+   "text": "Ada kelulusan daripada KKM dan juga Halal JAKIM.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 67.15,
+   "out": 70.85,
+   "zoom": 1.0,
+   "text": "Mengandungi Shilajit, magnesium, zinc dan juga ganoderma.",
+   "note": "'yang semuanya dapat bantu support boost stamina kita, tambah-tambah untuk tenaga dalam' (70.8-76.1) dropped: TikTok health-claim risk"
+  },
+  {
+   "id": "S07",
+   "in": 76.4,
+   "out": 81.75,
+   "zoom": 1.0,
+   "text": "Dalam satu botol ni ada 60 tablet, satu hari cukup kita makan satu tablet sahaja.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 82.2,
+   "out": 92.55,
+   "zoom": 1.0,
+   "text": "Sekarang harga tengah murah tau, tengah promo yang banyak dekat beg kuning. Kenapa? Sebab sekarang ni promotion 11.11 pun dah mula berjalan, seller tengah buat harga special dekat beg kuning.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 97.9,
+   "out": 101.35,
+   "zoom": 1.0,
+   "text": "Kepada kawan-kawan, abang-abang, pakcik-pakcik, ayah-ayah,",
+   "note": "stumble 'kepada kawan-kawan, ibu' dropped"
+  },
+  {
+   "id": "S10",
+   "in": 103.4,
+   "out": 104.9,
+   "zoom": 1.0,
+   "text": "dapatkan segera dekat beg kuning.",
+   "note": "'yang ada masalah yang sama nak mencuba' dropped: implies a health problem"
+  },
+  {
+   "id": "S11",
+   "in": 105.0,
+   "out": 119.6,
+   "zoom": 1.04,
+   "text": "Stok baru habis baru ni, sekarang dia dah restock balik. Sementara stok ada tu dan harga masih dalam promosi, grab awal-awal.",
+   "note": "CTA"
+  }
+ ],
+ "punch": [
+  [
+   "S11",
+   "grab",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 33.0,
+   "note": "close-up of the owner's own Shilajit bottle",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "60% 62%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 52.0,
+   "note": "close-up of the owner's own Shilajit bottle",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "58% 62%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "satu#2"
+   ],
+   "src": 76.4,
+   "note": "close-up of the owner's own Shilajit bottle",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "60% 62%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 98.0,
+   "note": "close-up of the owner's own Shilajit bottle",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "58% 62%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "rak",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: rak suplemen di farmasi (tanpa jenama)"
+  },
+  {
+   "id": "ganoderma",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: ganoderma"
+  },
+  {
+   "id": "dos",
+   "from": [
+    "S07",
+    "satu#2"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "note": "AI: satu tablet sehari (tangan berlengan panjang)"
+  }
+ ],
+ "theme": {
+  "key": "#C9A227",
+  "brand": "#E9E9E9"
+ },
+ "brand_words": [
+  "shilajit",
+  "aurapep"
+ ],
+ "keywords": []
+}

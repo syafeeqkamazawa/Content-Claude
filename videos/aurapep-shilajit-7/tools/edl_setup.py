@@ -9,15 +9,15 @@ def ph(i, f, t, note): return {"id": i, "from": f, "to": t, "note": note}
 
 
 segs = [
-    seg("S01", 5.40, 10.80, "Korang jangan main-main tau, ni Shilajit eh. Shilajit ni bukan biasa-biasa tau.", "HOOK"),
-    seg("S02", 11.10, 13.00, "Dia punya rasa dia tak ada bau."),
-    seg("S03", 14.00, 21.40, "Biasanya ada Shilajit yang ada bau, yang ni tak ada bau, tak menusuk dan tak susah untuk ditelan."),
-    seg("S04", 22.25, 27.90, "InsyaAllah orang kata lebih mudah lah untuk gunakan Shilajit ni, dia dalam bentuk kapsul tau."),
+    seg("S01", 5.40, 10.92, "Korang jangan main-main tau, ni Shilajit eh. Shilajit ni bukan biasa-biasa tau.", "HOOK"),
+    seg("S02", 11.00, 13.00, "Dia punya rasa dia tak ada bau."),
+    seg("S03", 13.75, 21.40, "Biasanya ada Shilajit yang ada bau, yang ni tak ada bau, tak menusuk dan tak susah untuk ditelan."),
+    seg("S04", 22.25, 28.00, "InsyaAllah orang kata lebih mudah lah untuk gunakan Shilajit ni, dia dalam bentuk kapsul tau."),
     seg("S05", 31.85, 41.15, "Shilajit ni gabungan cendawan reishi, ada magnesium dan ada zinc sekali. Memang sangat bagus Shilajit ni.", "stumble 'dia ada gabungan eh' dropped"),
-    seg("S06", 46.50, 53.95, "Siapa yang selalu pagi-pagi tu susah nak bangun, malam susah nak tidur kan,", "first take (41.9-46.2) dropped"),
+    seg("S06", 46.50, 54.02, "Siapa yang selalu pagi-pagi tu susah nak bangun, malam susah nak tidur kan,", "first take (41.9-46.2) dropped"),
     seg("S07", 83.90, 88.35, "petang-petang dah masuk pukul 2 tu, otak dah rasa berat tu kan? Ambil ni 2 biji.", "four earlier takes of the 'petang pukul 2' line (53.9-83) dropped"),
     seg("S08", 88.55, 97.85, "Sekarang seller dah buat promotion tau. Kalau beli kat luar mahal sikit ni, tapi kalau tengok dekat link tu ada special harga murah."),
-    seg("S09", 98.15, 101.85, "Seller tengah buat promotion ni, 11.11 punya promotion."),
+    seg("S09", 98.15, 101.95, "Seller tengah buat promotion ni, 11.11 punya promotion."),
     seg("S10", 103.65, 112.95, "So ambil ni, sekarang ni tengah viral kat TikTok tau. Jangan tunggu lagi, takut nanti stok habis. Ni seller baru restock balik tau. Siapa nak grab, grab sekarang.", "CTA", 1.04),
 ]
 (P / 'data/transcript-a.json').write_text('[]')
@@ -28,7 +28,7 @@ e = {"fps": 60, "width": 1080, "height": 1920, "captions": True, "caption_style"
      "_note": "Aurapep Shilajit #7 — A-roll assets/a.mp4 = VID_20261106_170843 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. Promo 11.11 / 'kat luar mahal sikit' / restock are the owner's own words; no price.",
      "segments": segs,
      "punch": [["S10", "jangan", 1.06]],
-     "broll": [cu("C1", ["S02", "start"], ["S02", "end"], 11.1, "40% 66%"),
+     "broll": [cu("C1", ["S02", "start"], ["S02", "end"], 11.0, "40% 66%"),
                cu("C2", ["S04", "start"], ["S04", "end"], 22.25, "60% 66%"),
                cu("C3", ["S05", "magnesium"], ["S05", "end"], 36.3, "62% 66%"),
                cu("C4", ["S09", "start"], ["S09", "end"], 98.15, "45% 66%")],
