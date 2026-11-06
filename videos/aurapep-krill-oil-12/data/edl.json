@@ -1,0 +1,429 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 400
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "6 Nov: Aurapep Krill Oil, Drive folder 1irOVOgs… — the owner's talking clip 'Yang ini boleh refer video Ali untuk rujukan overlay' (558 s), overlays following 'Guna overlay sama dengan video Ali ni' (another creator's video, reference only — none of its footage or its product infographic is used): a two-line white condensed title with a black outline at the top for the hook, and one-word ingredient labels top-centre when named (DHA, EPA, Omega-3, Astaxanthin, D3 + K2, 1000 mg, KKM • Halal). Caption: the 6 Nov default, set at top 400 below the labels (the bottle sits low in the frame). The cup comparison the owner describes is shown as a realistic AI photo. 'Bersihkan darah', 'pipe darah' and 'warga emas makan 4 biji' left out (owner 5 Nov: no TikTok-risk lines).",
+ "_note": "Aurapep Krill Oil #12 — A-roll assets/a.mp4 = the talking clip (front camera, mirrored back in CSS). assets/b.mp4 = A-roll flipped and muted (0-558.12) + the owner's B-roll VID_20261106_173831 (taking a softgel, drinking, thumbs up; 558.12-594). Old clips 091344/091830/092840 already used in #1-#11 — not reused. Promo 11.11 / 'lebih bajet' are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 22.9,
+   "out": 29.1,
+   "zoom": 1.0,
+   "text": "Kalau nak tengok beza krill oil original dengan krill oil palsu, boleh tengok yang ni dengan yang ni.",
+   "note": "HOOK — two earlier takes (9.5-21) dropped"
+  },
+  {
+   "id": "S02",
+   "in": 39.1,
+   "out": 43.95,
+   "zoom": 1.0,
+   "text": "Yang cawan krill oil tu dah larut bersama dengan seluruh air tu, itu yang original.",
+   "note": "stumbles 'yang cawan penuh dengan / yang cawan dah apa' dropped"
+  },
+  {
+   "id": "S03",
+   "in": 53.4,
+   "out": 61.0,
+   "zoom": 1.0,
+   "text": "Yang satu lagi cawan yang krill oil dia hanya terapung di permukaan sahaja, tak larut bersama air, itu adalah yang palsu.",
+   "note": "false starts (44.5-53.4) dropped"
+  },
+  {
+   "id": "S04",
+   "in": 67.7,
+   "out": 72.8,
+   "zoom": 1.0,
+   "text": "Kalau yang original, krill oil akan bawa sekali semua minyak tu ke dalam air.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 101.5,
+   "out": 112.32,
+   "zoom": 1.0,
+   "text": "Tapi kalau minyak krill oil yang terapung di permukaan tu, maksudnya dia punya penyerapan tak berapa baik, sebab dia tak boleh serap minyak.",
+   "note": "stumbling takes (72.8-101.5) and 'tak boleh bersihkan kita punya darah' (112.3-121) dropped — cure-like claim; the second cup explanation (200-268) dropped as a repeat"
+  },
+  {
+   "id": "S06",
+   "in": 137.45,
+   "out": 144.95,
+   "zoom": 1.0,
+   "text": "Aurapep Krill Oil ni kita perlu tahulah baik untuk apa? Untuk otak dan mata. Sebab apa? Sebab dalam ni ada DHA.",
+   "note": "fillers (121-137) dropped"
+  },
+  {
+   "id": "S07",
+   "in": 161.45,
+   "out": 172.75,
+   "zoom": 1.0,
+   "text": "Krill oil baik untuk darah, jantung, saraf, sendi, lutut, sebab ada EPA tau. Dan dia jenis omega-3.",
+   "note": "first take (145.5-156.3) dropped"
+  },
+  {
+   "id": "S08",
+   "in": 294.55,
+   "out": 303.7,
+   "zoom": 1.0,
+   "text": "Lagi satu, krill oil ni kenapa dia warna merah? Sebab dia ada astaxanthin dekat dalam ni tau. Astaxanthin ni memang banyaklah kelebihan dia.",
+   "note": "earlier takes (280-293) and the unclear 304-323 dropped"
+  },
+  {
+   "id": "S09",
+   "in": 324.6,
+   "out": 330.55,
+   "zoom": 1.0,
+   "text": "Dan juga brand Aurapep ni punya krill oil ada vitamin D3 dan K2 sekali.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 343.1,
+   "out": 349.25,
+   "zoom": 1.0,
+   "text": "So D3 dengan K2 ni baik untuk apa? Untuk kita punya immune system, baik untuk tulang sendi.",
+   "note": "'baik untuk pipe darah' (349.7) dropped"
+  },
+  {
+   "id": "S11",
+   "in": 374.95,
+   "out": 380.75,
+   "zoom": 1.0,
+   "text": "So saya amat cadangkan boleh ambil krill oil daripada Aurapep ni.",
+   "note": "false starts (362-375) dropped"
+  },
+  {
+   "id": "S12",
+   "in": 394.75,
+   "out": 398.55,
+   "zoom": 1.0,
+   "text": "Kandungan dia tinggi tau, 1000 mg setiap 2 biji tu.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 412.0,
+   "out": 420.35,
+   "zoom": 1.0,
+   "text": "Satu botol pula ada 40 biji, sehari makan 2 biji cukup, boleh makan selama 20 hari, tapi harga dia tu lebih bajet sikit.",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 434.3,
+   "out": 441.05,
+   "zoom": 1.0,
+   "text": "Tapi yang paling penting, Aurapep ni ada KKM, halal.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 450.5,
+   "out": 457.4,
+   "zoom": 1.0,
+   "text": "Tapi sekarang guys, sekarang ni seller tengah banyak buat promo tau, lagi-lagi sekarang ni promotion 11.11.",
+   "note": ""
+  },
+  {
+   "id": "S16",
+   "in": 467.36,
+   "out": 472.9,
+   "zoom": 1.0,
+   "text": "So kalau boleh, tengok dekat beg kuning, jangan ambil satu botol, ambillah 2-3 botol.",
+   "note": "retakes (457.6-467.3) dropped"
+  },
+  {
+   "id": "S17",
+   "in": 482.38,
+   "out": 487.1,
+   "zoom": 1.0,
+   "text": "Satu botol baru tahan 20 hari, ambil 3 botol atau 6 botol tu simpan dekat rumah.",
+   "note": "'warga emas boleh makan 4 biji' (488-492.7) dropped — dose beyond the label"
+  },
+  {
+   "id": "S18",
+   "in": 500.55,
+   "out": 504.0,
+   "zoom": 1.0,
+   "text": "Yang ada ibu ayah, boleh belikan untuk ibu ayah.",
+   "note": "first take (497-500.6) dropped"
+  },
+  {
+   "id": "S19",
+   "in": 511.65,
+   "out": 514.95,
+   "zoom": 1.0,
+   "text": "Aurapep Krill Oil ni bukan sahaja orang muda tau perlu amalkan,",
+   "note": "first take (506-510) dropped"
+  },
+  {
+   "id": "S20",
+   "in": 518.15,
+   "out": 521.85,
+   "zoom": 1.0,
+   "text": "orang berusia pun lagilah patut amalkan.",
+   "note": ""
+  },
+  {
+   "id": "S21",
+   "in": 547.2,
+   "out": 555.15,
+   "zoom": 1.04,
+   "text": "So guys, seller tengah buat promo 11.11 ni, bila-bila masa je boleh habis. Sebelum promo habis, boleh grab awal, check out dekat beg kuning.",
+   "note": "CTA — earlier takes (530-547) dropped"
+  }
+ ],
+ "toptitle": {
+  "lines": [
+   "Beza Krill Oil Original Vs Palsu",
+   "(Cara nak tengok)"
+  ],
+  "to": [
+   "S01",
+   "end"
+  ],
+  "top": 150
+ },
+ "labels": [
+  {
+   "text": "DHA",
+   "from": [
+    "S06",
+    "DHA."
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "top": 170
+  },
+  {
+   "text": "EPA",
+   "from": [
+    "S07",
+    "EPA"
+   ],
+   "to": [
+    "S07",
+    "Dan"
+   ],
+   "top": 170
+  },
+  {
+   "text": "Omega-3",
+   "from": [
+    "S07",
+    "Dan"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "top": 170
+  },
+  {
+   "text": "Astaxanthin",
+   "from": [
+    "S08",
+    "astaxanthin"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "top": 170
+  },
+  {
+   "text": "D3 + K2",
+   "from": [
+    "S09",
+    "D3"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "top": 170
+  },
+  {
+   "text": "1000 mg",
+   "from": [
+    "S12",
+    "1000"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "top": 170
+  },
+  {
+   "text": "KKM • Halal",
+   "from": [
+    "S14",
+    "KKM,"
+   ],
+   "to": [
+    "S14",
+    "end"
+   ],
+   "top": 170
+  }
+ ],
+ "punch": [
+  [
+   "S21",
+   "sebelum",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 140.0,
+   "note": "close-up of the owner's own Aurapep bottle / softgels",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "55% 72%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 296.0,
+   "note": "close-up of the owner's own Aurapep bottle / softgels",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "50% 72%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 395.0,
+   "note": "close-up of the owner's own Aurapep bottle / softgels",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "55% 72%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S13",
+    "start"
+   ],
+   "to": [
+    "S13",
+    "end"
+   ],
+   "src": 562.12,
+   "note": "the owner's own B-roll: taking a softgel and drinking water",
+   "push": [
+    1.05,
+    1.12
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S17",
+    "start"
+   ],
+   "to": [
+    "S17",
+    "end"
+   ],
+   "src": 580.12,
+   "note": "the owner's own B-roll: thumbs up after the softgel",
+   "push": [
+    1.05,
+    1.12
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "S19",
+    "start"
+   ],
+   "to": [
+    "S20",
+    "end"
+   ],
+   "src": 512.0,
+   "note": "close-up of the owner's own Aurapep bottle / softgels",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "55% 72%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "cawan",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: ujian cawan — larut vs terapung (illustrasi, tiada orang)"
+  }
+ ],
+ "theme": {
+  "key": "#E0342C",
+  "brand": "#2C4A8C"
+ },
+ "brand_words": [
+  "aurapep"
+ ],
+ "keywords": []
+}
