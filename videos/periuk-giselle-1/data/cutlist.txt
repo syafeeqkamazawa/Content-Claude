@@ -1,0 +1,39 @@
+TOTAL 118.52s  (24 A-roll segments, 8 B-roll shots, 4 photos, 4 audio fx, 298 caption cards)
+
+  0.00-  6.03  S01  src  52.35- 59.60  (3 pc)  Yang paling saya surprise, periuk nasi ni dia boleh masak sampai dua pot nasi tau.
+  6.03- 12.73  S02  src  40.00- 47.10  (2 pc)  Family saya, saya, wife, anak saya tiga orang, bawah lapan tahun ke bawah.
+ 12.73- 16.43  S03  src  47.60- 51.30  (1 pc)  So, I think I need a rice cooker yang small lah, like this.
+ 16.43- 19.38  S04  src  24.40- 27.35  (1 pc)  Cukup-cukup memang just nice dengan periuk ni.
+ 19.38- 23.97  S05  src  61.45- 66.25  (2 pc)  Dan seller siap bagi sekali pot, so korang tak perlu risau.
+ 23.97- 25.52  S06  src  75.40- 76.95  (1 pc)  So, kalau time puasa,
+ 25.52- 29.67  S07  src  87.65- 92.06  (2 pc)  bila masak nasi tu ngam-ngam lah untuk family kecil saya, dan tak membazir.
+ 29.67- 34.70  S07b  src  92.06- 97.10  (1 pc)  Sebab selalunya kalau saya guna periuk nasi besar, selalunya mesti ada lebih.
+ 34.70- 43.53  S08  src  97.25-106.50  (3 pc)  Yang paling saya suka dia punya colour. Nampak? Colour dia, colour beg Muji macam tu kan. Dan juga ada lagi beberapa pilihan colour yang lain lah dekat beg kuning.
+ 43.53- 49.10  S09  src 108.15-114.50  (3 pc)  Dan colour ni actually is my favourite colour, colour green cream macam tu.
+ 49.10- 54.85  S10  src 120.40-126.30  (2 pc)  Dan dia juga ada handle tau, nampak? Ada handle, senang nak angkat ke mana-mana.
+ 54.85- 59.68  S11  src 126.45-131.48  (2 pc)  Dan rice cooker ni juga guna plug 3 pin, jangan risau.
+ 59.68- 61.48  S12  src 137.00-138.80  (1 pc)  Very easy to plug in.
+ 61.48- 64.13  S13  src 139.75-142.40  (1 pc)  Dan gunakan periuk ni sangat senang.
+ 64.13- 67.43  S14  src 148.75-152.05  (1 pc)  Dan juga dia ada bagi sekali dengan senduk nasi.
+ 67.43- 69.62  S15  src 159.80-161.98  (1 pc)  Dan juga dia bagi sekali yang ni.
+ 69.62- 72.37  S16  src 164.40-167.15  (1 pc)  Anda boleh letak je ke atas ni macam tu.
+ 72.37- 78.12  S17  src 168.00-174.00  (2 pc)  So, nak panaskan lauk, nasi dekat bawah kan, bila nak start masak tu,
+ 78.12- 81.83  S17b  src 174.55-178.40  (2 pc)  beras dah kat bawah, letak je kat atas dan tutup.
+ 81.83- 83.08  S18  src 180.80-182.05  (1 pc)  So, senang kan?
+ 83.08- 90.98  S19  src 186.50-194.40  (1 pc)  And last but not least, saya paling suka sebab dia sangatlah jimat ruang. Sebab apa? Sebab dia kecil, just nice macam tu.
+ 90.98-103.42  S20  src 195.10-208.50  (6 pc)  So ibu ayah, abang kakak, acik-macik boleh tengok dekat beg kuning seller sekarang ni, ramai tengah buat promo 11.11 tau. Harga dia mesti turun banyak ni, kan?
+103.42-113.62  S21  src 212.20-222.75  (3 pc)  Boleh buat hadiah untuk pasangan baru kahwin pun boleh, hadiah untuk ibu, keluarga, pasangan. Okay, sangat-sangat sesuai.
+113.62-118.52  S22  src 223.40-228.45  (2 pc)  So jangan tunggu lagi, tengok dekat beg kuning sekarang. Harga tengah murah, boleh beli terus.
+
+  cutaway   6.03- 12.73
+  cutaway  19.38- 23.97
+  cutaway  23.97- 29.67
+  cutaway  29.67- 34.70
+  cutaway  34.70- 43.53
+  cutaway  43.53- 49.10
+  cutaway  49.10- 54.85
+  cutaway  54.85- 61.48
+  cutaway  61.48- 67.43
+  cutaway  67.43- 72.37
+  cutaway  83.08- 90.98
+  cutaway 103.42-113.62

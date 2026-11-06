@@ -1,0 +1,428 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "6 Nov: Periuk nasi Giselle, Drive folder 1UWCUgtn… (two talking clips → two videos; this is clip 090321). Caption: the 6 Nov default (docs/caption-style-6nov.jpg), moved up to the empty wall above the head (top 300) because at ~72% it would cover the pot and its logo. Overlays on every explanation (owner 6 Nov): close-ups of the owner's own rice-cooker footage first, realistic AI photos (no people except an aurat-safe family) for family, leftover rice, 3-pin plug and gift.",
+ "_note": "Periuk Giselle #1 — A-roll assets/a.mp4 = VID_20261106_090321 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. Clip 091130 goes to periuk-giselle-2. Promo 11.11 is the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 52.35,
+   "out": 59.6,
+   "zoom": 1.0,
+   "text": "Yang paling saya surprise, periuk nasi ni dia boleh masak sampai dua pot nasi tau.",
+   "note": "HOOK. The opening 'Periuk KA / Khairul Amin … actually tak payah' (0-18) is the owner's own scrapped intro — dropped"
+  },
+  {
+   "id": "S02",
+   "in": 40.0,
+   "out": 47.1,
+   "zoom": 1.0,
+   "text": "Family saya, saya, wife, anak saya tiga orang, bawah lapan tahun ke bawah.",
+   "note": "second take of the family line (take 1 at 20.6-24.1 dropped)"
+  },
+  {
+   "id": "S03",
+   "in": 47.6,
+   "out": 51.3,
+   "zoom": 1.0,
+   "text": "So, I think I need a rice cooker yang small lah, like this.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 24.4,
+   "out": 27.35,
+   "zoom": 1.0,
+   "text": "Cukup-cukup memang just nice dengan periuk ni.",
+   "note": "only said in take 1 — kept"
+  },
+  {
+   "id": "S05",
+   "in": 61.45,
+   "out": 66.25,
+   "zoom": 1.0,
+   "text": "Dan seller siap bagi sekali pot, so korang tak perlu risau.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 75.4,
+   "out": 76.95,
+   "zoom": 1.0,
+   "text": "So, kalau time puasa,",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 87.65,
+   "out": 92.06,
+   "zoom": 1.0,
+   "text": "bila masak nasi tu ngam-ngam lah untuk family kecil saya, dan tak membazir.",
+   "note": ""
+  },
+  {
+   "id": "S07b",
+   "in": 92.06,
+   "out": 97.1,
+   "zoom": 1.0,
+   "text": "Sebab selalunya kalau saya guna periuk nasi besar, selalunya mesti ada lebih.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 97.25,
+   "out": 106.5,
+   "zoom": 1.0,
+   "text": "Yang paling saya suka dia punya colour. Nampak? Colour dia, colour beg Muji macam tu kan. Dan juga ada lagi beberapa pilihan colour yang lain lah dekat beg kuning.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 108.15,
+   "out": 114.5,
+   "zoom": 1.0,
+   "text": "Dan colour ni actually is my favourite colour, colour green cream macam tu.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 120.4,
+   "out": 126.3,
+   "zoom": 1.0,
+   "text": "Dan dia juga ada handle tau, nampak? Ada handle, senang nak angkat ke mana-mana.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 126.45,
+   "out": 131.48,
+   "zoom": 1.0,
+   "text": "Dan rice cooker ni juga guna plug 3 pin, jangan risau.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 137.0,
+   "out": 138.8,
+   "zoom": 1.0,
+   "text": "Very easy to plug in.",
+   "note": "repeat 'very easy untuk plug' (131.5-135.8) dropped"
+  },
+  {
+   "id": "S13",
+   "in": 139.75,
+   "out": 142.4,
+   "zoom": 1.0,
+   "text": "Dan gunakan periuk ni sangat senang.",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 148.75,
+   "out": 152.05,
+   "zoom": 1.0,
+   "text": "Dan juga dia ada bagi sekali dengan senduk nasi.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 159.8,
+   "out": 161.98,
+   "zoom": 1.0,
+   "text": "Dan juga dia bagi sekali yang ni.",
+   "note": "repeated 'yang ni' dropped"
+  },
+  {
+   "id": "S16",
+   "in": 164.4,
+   "out": 167.15,
+   "zoom": 1.0,
+   "text": "Anda boleh letak je ke atas ni macam tu.",
+   "note": ""
+  },
+  {
+   "id": "S17",
+   "in": 168.0,
+   "out": 174.0,
+   "zoom": 1.0,
+   "text": "So, nak panaskan lauk, nasi dekat bawah kan, bila nak start masak tu,",
+   "note": ""
+  },
+  {
+   "id": "S17b",
+   "in": 174.55,
+   "out": 178.4,
+   "zoom": 1.0,
+   "text": "beras dah kat bawah, letak je kat atas dan tutup.",
+   "note": "stumble 'nasi' dropped"
+  },
+  {
+   "id": "S18",
+   "in": 180.8,
+   "out": 182.05,
+   "zoom": 1.0,
+   "text": "So, senang kan?",
+   "note": ""
+  },
+  {
+   "id": "S19",
+   "in": 186.5,
+   "out": 194.4,
+   "zoom": 1.0,
+   "text": "And last but not least, saya paling suka sebab dia sangatlah jimat ruang. Sebab apa? Sebab dia kecil, just nice macam tu.",
+   "note": ""
+  },
+  {
+   "id": "S20",
+   "in": 195.1,
+   "out": 208.5,
+   "zoom": 1.0,
+   "text": "So ibu ayah, abang kakak, acik-macik boleh tengok dekat beg kuning seller sekarang ni, ramai tengah buat promo 11.11 tau. Harga dia mesti turun banyak ni, kan?",
+   "note": "the repeated 'kalau harga tengah murah boleh terus beli' (208.8-211.7) dropped — said again in the CTA"
+  },
+  {
+   "id": "S21",
+   "in": 212.2,
+   "out": 222.75,
+   "zoom": 1.0,
+   "text": "Boleh buat hadiah untuk pasangan baru kahwin pun boleh, hadiah untuk ibu, keluarga, pasangan. Okay, sangat-sangat sesuai.",
+   "note": ""
+  },
+  {
+   "id": "S22",
+   "in": 223.4,
+   "out": 228.45,
+   "zoom": 1.04,
+   "text": "So jangan tunggu lagi, tengok dekat beg kuning sekarang. Harga tengah murah, boleh beli terus.",
+   "note": "CTA"
+  }
+ ],
+ "punch": [
+  [
+   "S22",
+   "jangan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 61.45,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "62% 68%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 76.0,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "50% 65%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 97.6,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "40% 68%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 108.45,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "50% 66%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 120.4,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.25,
+    1.35
+   ],
+   "origin": "50% 62%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "S13",
+    "start"
+   ],
+   "to": [
+    "S14",
+    "end"
+   ],
+   "src": 139.75,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "55% 72%"
+  },
+  {
+   "id": "C7",
+   "from": [
+    "S15",
+    "start"
+   ],
+   "to": [
+    "S16",
+    "end"
+   ],
+   "src": 160.0,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.2,
+    1.3
+   ],
+   "origin": "40% 70%"
+  },
+  {
+   "id": "C8",
+   "from": [
+    "S19",
+    "start"
+   ],
+   "to": [
+    "S19",
+    "end"
+   ],
+   "src": 186.75,
+   "note": "close-up of the owner's own rice cooker footage",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "50% 72%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "keluarga",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: keluarga kecil makan nasi (aurat-safe)"
+  },
+  {
+   "id": "lebih",
+   "from": [
+    "S07b",
+    "start"
+   ],
+   "to": [
+    "S07b",
+    "end"
+   ],
+   "note": "AI: nasi berlebihan dalam periuk besar"
+  },
+  {
+   "id": "plug",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "note": "AI: plug 3 pin"
+  },
+  {
+   "id": "hadiah",
+   "from": [
+    "S21",
+    "start"
+   ],
+   "to": [
+    "S21",
+    "end"
+   ],
+   "note": "AI: hadiah berbalut"
+  }
+ ],
+ "theme": {
+  "key": "#7FB8A4",
+  "brand": "#E9DCC4"
+ },
+ "brand_words": [
+  "giselle"
+ ],
+ "keywords": []
+}
