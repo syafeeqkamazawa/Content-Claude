@@ -1,0 +1,340 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1380
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "6 Nov: Drive folder 1nA5GNqX… 'Kurta Zeke V1'. Caption: 'Guna caption style sama seperti dalam gambar mesti sama 100%' + 'Lepas ni always pakai caption style macam dalam gambar' (docs/caption-style-6nov.jpg): one upper-case word, Rubik Mono One, off-white with a thin black outline and a halftone-dot halo, hard cuts. Overlays: 'Semua video ada overlay yang sesuai supaya viewer senang faham dan lebih mudah nak tengok video sampai habis' — close-ups of the kurta on the owner for every feature (V neck, 3/4 sleeve, scuba fabric, anti-wrinkle demo), realistic aurat-safe AI photos for the occasions and situations he describes.",
+ "_note": "Kurta Zeke #1 — A-roll assets/a.mp4 = VID_20261106_083553 (front camera saved mirrored, flipped back in CSS as in the owner's other front-camera clips). assets/b.mp4 = the same clip flipped and muted; close-ups play the same moment zoomed into the kurta. Promo 11.11 and 'murah' are the owner's own words; no price. Dropped: repeated takes of the price / promo / stock lines, stutters.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 69.5,
+   "out": 72.5,
+   "zoom": 1.0,
+   "text": "Kurta ni kalau korang pakai, memang auto handsome, guys.",
+   "note": "HOOK (moved up)"
+  },
+  {
+   "id": "S02",
+   "in": 5.4,
+   "out": 24.35,
+   "zoom": 1.0,
+   "text": "Guys, pakai kurta ni kalau nak pergi kenduri, kalau nak pergi event, ataupun puasa pun dah tak lama kan, nak pergi tarawih pun cantik.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 24.35,
+   "out": 36.7,
+   "zoom": 1.0,
+   "text": "Pakai kurta daripada Zeke ni. Yang ni jenis V macam ni, lengan tiga suku, nak ambil wuduk pun senang tau. Memang cantik, memang nice.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 43.3,
+   "out": 45.8,
+   "zoom": 1.0,
+   "text": "Sangat selesa pakai, memang sangat selesa.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 49.3,
+   "out": 51.3,
+   "zoom": 1.0,
+   "text": "Kain dia ni scuba tau.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 59.2,
+   "out": 60.9,
+   "zoom": 1.0,
+   "text": "Pakai baju ni, sejuk je rasa.",
+   "note": "first take 54.3 dropped"
+  },
+  {
+   "id": "S07",
+   "in": 80.3,
+   "out": 84.65,
+   "zoom": 1.0,
+   "text": "Lepas tu baju ni dia yang licin tau, anti-kedut.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 84.65,
+   "out": 87.3,
+   "zoom": 1.0,
+   "text": "Kalau buat macam ni pun, kalau buat macam ni je, tu tak nampak kedut dia.",
+   "note": "demo"
+  },
+  {
+   "id": "S09",
+   "in": 100.4,
+   "out": 103.4,
+   "zoom": 1.0,
+   "text": "Yang lagi penting, harga dia murah tau. Cuba korang tengok dekat beg kuning.",
+   "note": "'yang lagi penting' stumbles dropped"
+  },
+  {
+   "id": "S10",
+   "in": 108.5,
+   "out": 111.3,
+   "zoom": 1.0,
+   "text": "Sekarang ni pun ramai seller dah buat promo 11.11 tau.",
+   "note": "first take 103.9 dropped"
+  },
+  {
+   "id": "S11",
+   "in": 111.7,
+   "out": 113.55,
+   "zoom": 1.0,
+   "text": "Cuba tengok dekat beg kuning, harga dia berapa.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 155.6,
+   "out": 158.9,
+   "zoom": 1.0,
+   "text": "Hari tu, hari tu pernah aku tengok stok habis tau.",
+   "note": "repeated price / promo takes 113.6-151 dropped"
+  },
+  {
+   "id": "S13",
+   "in": 171.4,
+   "out": 177.2,
+   "zoom": 1.0,
+   "text": "Nak tunggu, tak tahu bila seller nak stok balik.",
+   "note": "takes 159-170 dropped"
+  },
+  {
+   "id": "S14",
+   "in": 180.7,
+   "out": 183.3,
+   "zoom": 1.0,
+   "text": "So korang kena beli awal-awal sebelum stok habis.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 190.0,
+   "out": 193.8,
+   "zoom": 1.0,
+   "text": "Untuk abang-abang, pak cik-pak cik di luar sana nak nampak smart kan,",
+   "note": "first take 183-189 dropped"
+  },
+  {
+   "id": "S16",
+   "in": 194.0,
+   "out": 196.3,
+   "zoom": 1.0,
+   "text": "auto handsome, beli kurta macam ni.",
+   "note": ""
+  },
+  {
+   "id": "S17",
+   "in": 196.3,
+   "out": 201.55,
+   "zoom": 1.0,
+   "text": "Harga dia murah sangat. Memang murah, tapi lawa, kemas.",
+   "note": ""
+  },
+  {
+   "id": "S18",
+   "in": 210.7,
+   "out": 213.6,
+   "zoom": 1.0,
+   "text": "Kurta ni dari Zeke tau, memang sangat best.",
+   "note": "'pakai ni auto handsome' repeat (204.8) dropped"
+  },
+  {
+   "id": "S19",
+   "in": 213.6,
+   "out": 216.3,
+   "zoom": 1.04,
+   "text": "Okey, jangan lupa, boleh check out terus di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "punch": [
+  [
+   "S19",
+   "check",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S03",
+    "pakai"
+   ],
+   "to": [
+    "S03",
+    "lengan"
+   ],
+   "src": 24.35,
+   "note": "close-up of the kurta on the owner (same moment)",
+   "push": [
+    1.7,
+    1.85
+   ],
+   "origin": "50% 68%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S03",
+    "lengan"
+   ],
+   "to": [
+    "S03",
+    "nak"
+   ],
+   "src": 29.0,
+   "note": "close-up of the kurta on the owner (same moment)",
+   "push": [
+    1.7,
+    1.85
+   ],
+   "origin": "25% 75%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 49.3,
+   "note": "close-up of the kurta on the owner (same moment)",
+   "push": [
+    1.7,
+    1.85
+   ],
+   "origin": "50% 75%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 80.3,
+   "note": "close-up of the kurta on the owner (same moment)",
+   "push": [
+    1.5,
+    1.65
+   ],
+   "origin": "50% 55%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "kenduri",
+   "from": [
+    "S02",
+    "kenduri"
+   ],
+   "to": [
+    "S02",
+    "puasa"
+   ],
+   "note": "AI: ke kenduri berkurta"
+  },
+  {
+   "id": "tarawih",
+   "from": [
+    "S02",
+    "puasa"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: ke masjid untuk tarawih"
+  },
+  {
+   "id": "wuduk",
+   "from": [
+    "S03",
+    "nak"
+   ],
+   "to": [
+    "S03",
+    "memang"
+   ],
+   "note": "AI: ambil wuduk, lengan tiga suku"
+  },
+  {
+   "id": "selesa",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: selesa berkurta"
+  },
+  {
+   "id": "stok",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S13",
+    "end"
+   ],
+   "note": "AI: rak baju hampir kosong (stok habis)"
+  },
+  {
+   "id": "smart",
+   "from": [
+    "S15",
+    "start"
+   ],
+   "to": [
+    "S16",
+    "end"
+   ],
+   "note": "AI: nampak smart berkurta"
+  }
+ ],
+ "theme": {
+  "key": "#FFFFFF",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "zeke"
+ ],
+ "keywords": []
+}

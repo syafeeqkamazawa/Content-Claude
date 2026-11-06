@@ -33,6 +33,15 @@ otherwise for a specific video.
 
 ## Captions
 
+- **DEFAULT FROM 6 NOV — overrides every older caption style below** (owner: "Guna
+  caption style sama seperti dalam gambar mesti sama 100%" + "Lepas ni always pakai
+  caption style macam dalam gambar" — reference `docs/caption-style-6nov.jpg`): one
+  upper-case word at a time, Rubik Mono One (OFL, `assets/fonts/RubikMonoOne-latin.woff2`),
+  off-white fill, thin black outline with a fine halftone-dot halo, centred at ~72-77 %
+  height (move it only if it would cover a face, label or product), hard cuts, no
+  animation. EDL: `caption_style: "word"` with `word: {"font": "Rubik Mono One",
+  "size": 74, "top": 1380}`. Template: `videos/kurta-zeke-1/` (build.py, the `WS` block).
+
 - **Split-flap "departure board" style** (owner, 21 Oct: "Caption style untuk
   content ini dan seterusnya gunakan style macam dalam video rujukan caption
   style" — reference in `videos/jus-gout-6/src/ref/`, Drive 1kmDeS6-…):
@@ -87,6 +96,15 @@ otherwise for a specific video.
   Jakarta Sans at about 56px; don't go back to that unless the owner asks.
 
 ## Workflow
+
+- **Every video gets fitting overlays** (owner, 6 Nov: "Semua video ada overlay yang sesuai
+  supaya viewer senang faham dan lebih mudah nak tengok video sampai habis"): each
+  explanation gets a matching overlay — close-ups of the owner's own product footage
+  first, realistic aurat-safe AI photos for situations he describes — so viewers follow
+  along and watch to the end.
+- **No TikTok-risk lines** (owner, 5 Nov): drop unverified health / medical claims
+  (childbirth, fertility, cures, "kajian mengatakan…") and anything else likely to be
+  flagged; keep taste, texture, use, pack and promo.
 
 - Transcribe first, cut repeated takes / false starts / long pauses, put the
   strongest hook first.
