@@ -1,24 +1,24 @@
-TOTAL 72.73s  (19 A-roll segments, 4 B-roll shots, 6 photos, 5 audio fx, 201 caption cards)
+TOTAL 69.70s  (19 A-roll segments, 4 B-roll shots, 6 photos, 5 audio fx, 201 caption cards)
 
   0.00-  3.00  S01  src  69.50- 72.50  (1 pc)  Kurta ni kalau korang pakai, memang auto handsome, guys.
   3.00- 14.38  S02  src   5.40- 24.35  (8 pc)  Guys, pakai kurta ni kalau nak pergi kenduri, kalau nak pergi event, ataupun puasa pun dah tak lama kan, nak pergi tarawih pun cantik.
  14.38- 25.73  S03  src  24.35- 36.70  (5 pc)  Pakai kurta daripada Zeke ni. Yang ni jenis V macam ni, lengan tiga suku, nak ambil wuduk pun senang tau. Memang cantik, memang nice.
  25.73- 28.23  S04  src  43.30- 45.80  (1 pc)  Sangat selesa pakai, memang sangat selesa.
- 28.23- 30.23  S05  src  49.30- 51.30  (1 pc)  Kain dia ni scuba tau.
- 30.23- 31.93  S06  src  59.20- 60.90  (1 pc)  Pakai baju ni, sejuk je rasa.
- 31.93- 35.80  S07  src  80.30- 84.65  (2 pc)  Lepas tu baju ni dia yang licin tau, anti-kedut.
- 35.80- 38.45  S08  src  84.65- 87.30  (1 pc)  Kalau buat macam ni pun, kalau buat macam ni je, tu tak nampak kedut dia.
- 38.45- 41.45  S09  src 100.40-103.40  (1 pc)  Yang lagi penting, harga dia murah tau. Cuba korang tengok dekat beg kuning.
- 41.45- 44.25  S10  src 108.50-111.30  (1 pc)  Sekarang ni pun ramai seller dah buat promo 11.11 tau.
- 44.25- 46.10  S11  src 111.70-113.55  (1 pc)  Cuba tengok dekat beg kuning, harga dia berapa.
- 46.10- 49.40  S12  src 155.60-158.90  (1 pc)  Hari tu, hari tu pernah aku tengok stok habis tau.
- 49.40- 54.33  S13  src 171.40-177.20  (2 pc)  Nak tunggu, tak tahu bila seller nak stok balik.
- 54.33- 56.93  S14  src 180.70-183.30  (1 pc)  So korang kena beli awal-awal sebelum stok habis.
- 56.93- 60.73  S15  src 190.00-193.80  (1 pc)  Untuk abang-abang, pak cik-pak cik di luar sana nak nampak smart kan,
- 60.73- 62.85  S16  src 194.00-196.30  (2 pc)  auto handsome, beli kurta macam ni.
- 62.85- 67.32  S17  src 196.30-201.55  (3 pc)  Harga dia murah sangat. Memang murah, tapi lawa, kemas.
- 67.32- 70.22  S18  src 210.70-213.60  (1 pc)  Kurta ni dari Zeke tau, memang sangat best.
- 70.22- 72.73  S19  src 213.60-216.30  (2 pc)  Okey, jangan lupa, boleh check out terus di beg kuning.
+ 28.23- 29.63  S05  src  49.90- 51.30  (1 pc)  Kain dia ni scuba tau.
+ 29.63- 31.33  S06  src  59.20- 60.90  (1 pc)  Pakai baju ni, sejuk je rasa.
+ 31.33- 35.20  S07  src  80.30- 84.65  (2 pc)  Lepas tu baju ni dia yang licin tau, anti-kedut.
+ 35.20- 37.85  S08  src  84.65- 87.30  (1 pc)  Kalau buat macam ni pun, kalau buat macam ni je, tu tak nampak kedut dia.
+ 37.85- 40.85  S09  src 100.40-103.40  (1 pc)  Yang lagi penting, harga dia murah tau. Cuba korang tengok dekat beg kuning.
+ 40.85- 43.65  S10  src 108.50-111.30  (1 pc)  Sekarang ni pun ramai seller dah buat promo 11.11 tau.
+ 43.65- 45.50  S11  src 111.70-113.55  (1 pc)  Cuba tengok dekat beg kuning, harga dia berapa.
+ 45.50- 48.80  S12  src 155.60-158.90  (1 pc)  Hari tu, hari tu pernah aku tengok stok habis tau.
+ 48.80- 51.30  S13  src 174.75-177.25  (1 pc)  Nak tunggu, tak tahu bila seller nak stok balik.
+ 51.30- 53.90  S14  src 180.70-183.30  (1 pc)  So korang kena beli awal-awal sebelum stok habis.
+ 53.90- 57.70  S15  src 190.00-193.80  (1 pc)  Untuk abang-abang, pak cik-pak cik di luar sana nak nampak smart kan,
+ 57.70- 59.82  S16  src 194.00-196.30  (2 pc)  auto handsome, beli kurta macam ni.
+ 59.82- 64.28  S17  src 196.30-201.55  (3 pc)  Harga dia murah sangat. Memang murah, tapi lawa, kemas.
+ 64.28- 67.18  S18  src 210.70-213.60  (1 pc)  Kurta ni dari Zeke tau, memang sangat best.
+ 67.18- 69.70  S19  src 213.60-216.30  (2 pc)  Okey, jangan lupa, boleh check out terus di beg kuning.
 
   cutaway   7.07- 10.28
   cutaway  10.28- 14.38
@@ -26,7 +26,7 @@ TOTAL 72.73s  (19 A-roll segments, 4 B-roll shots, 6 photos, 5 audio fx, 201 cap
   cutaway  19.47- 20.93
   cutaway  20.93- 23.45
   cutaway  25.73- 28.23
-  cutaway  28.23- 30.23
-  cutaway  31.93- 38.45
-  cutaway  46.10- 54.33
-  cutaway  56.93- 62.85
+  cutaway  28.23- 29.63
+  cutaway  31.33- 37.85
+  cutaway  45.50- 51.30
+  cutaway  53.90- 59.82
