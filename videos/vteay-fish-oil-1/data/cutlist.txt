@@ -1,0 +1,32 @@
+TOTAL 89.35s  (17 A-roll segments, 6 B-roll shots, 6 photos, 2 audio fx, 238 caption cards)
+
+  0.00-  4.30  S01  src   2.05-  6.35  (1 pc)  Jangan kita beli Omega-3 Fish Oil sebelum kita cek 3 benda ni.
+  4.30-  8.80  S02  src  16.60- 21.10  (1 pc)  Jangan kita hanya tengok pada label, packaging, harga, terus kita nak beli.
+  8.80- 12.85  S03  src  29.60- 33.65  (1 pc)  3 benda yang saya maksudkan ialah: pertama, kena cek kandungan EPA dia.
+ 12.85- 14.95  S04  src  34.40- 36.50  (1 pc)  Kedua, kena cek kandungan DHA dia.
+ 14.95- 18.65  S05  src  36.70- 40.40  (1 pc)  Dan ketiga, kena tengok ada tak kelulusan daripada KKM.
+ 18.65- 27.68  S06  src  61.80- 75.15  (4 pc)  Saya nak syorkan kepada ibu ayah, abang kakak, pak cik mak cik semua, Omega-3 Fish Oil daripada VTEAY yang menjadi pilihan ramai sekarang ni tau. Sebab apa?
+ 27.68- 31.27  S07  src  75.40- 79.10  (2 pc)  Ada kelulusan daripada KKM dan sangat berkualiti.
+ 31.27- 37.82  S08  src  79.10- 86.02  (3 pc)  Cuba tengok, packaging dia pun sangat kemas. Baru sampai dekat saya ni.
+ 37.82- 43.07  S09  src  86.40- 92.20  (2 pc)  Macam ni punya packaging, barulah kita rasa selamat nak makan.
+ 43.07- 52.17  S10  src 154.50-163.60  (1 pc)  Dalam satu botol ni ada 2,500 mg fish oil, 483 EPA dan 644 DHA tau.
+ 52.17- 59.02  S11  src 182.40-189.25  (1 pc)  Kita nak memilih Omega-3 Fish Oil ni, biarlah yang berkualiti, kena tengok kandungan EPA dan DHA yang tinggi macam ni.
+ 59.02- 65.72  S12  src 194.80-201.50  (1 pc)  Sebab EPA dan DHA yang tinggi bantu support kesihatan jantung kita, dapat bantu juga support kesihatan saraf kita.
+ 65.72- 70.07  S13  src 209.00-213.35  (1 pc)  Juga dapat bantu support kesihatan otak kita, supaya lebih fokus dan daya ingatan yang lebih baik.
+ 70.07- 76.92  S14  src 221.25-228.10  (1 pc)  Omega-3 Fish Oil VTEAY ni sekarang ni ada banyak promosi tau dekat beg kuning. Promo 11.11 pun ramai seller dah tengah buat sekarang.
+ 76.92- 78.72  S15  src 228.50-230.30  (1 pc)  Harga sangat-sangat murah.
+ 78.72- 83.30  S16  src 230.40-235.10  (2 pc)  Satu botol ni ada 60 softgel, satu hari cukup kita ambil 2 softgel sahaja.
+ 83.30- 89.35  S17  src 241.00-247.05  (1 pc)  Kepada kawan-kawan, ibu ayah, abang kakak, pak cik mak cik yang berminat, boleh dapatkan segera dekat beg kuning, sementara masih ada stok.
+
+  cutaway   0.00-  8.80
+  cutaway  22.68- 27.68
+  cutaway  27.68- 31.27
+  cutaway  31.27- 43.07
+  cutaway  43.07- 52.17
+  cutaway  52.17- 59.02
+  cutaway  59.02- 65.10
+  cutaway  65.10- 65.72
+  cutaway  65.72- 67.88
+  cutaway  67.88- 70.07
+  cutaway  70.07- 78.72
+  cutaway  78.72- 83.30

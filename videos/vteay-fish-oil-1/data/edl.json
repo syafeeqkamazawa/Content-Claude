@@ -1,0 +1,378 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1380
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "6 Nov: Drive folder 1-HP8DmM… 'VTEAY Fish Oil'. Caption: the 6 Nov default (docs/caption-style-6nov.jpg, owner: 'Lepas ni always pakai caption style macam dalam gambar'). Overlays: 'Semua video ada overlay yang sesuai supaya viewer senang faham dan lebih mudah nak tengok video sampai habis' — close-ups of the bottle in the owner's hand whenever he shows it, a white checklist card for the 3 things to check (EPA, DHA, KKM), realistic AI photos (pharmacy shelf, softgels, x-ray heart / nerves / brain, focused man). Dropped as TikTok risk: 'lenguh, kebas-kebas … insya-Allah dapat bantu'.",
+ "_note": "VTEAY Omega-3 Fish Oil #1 — A-roll assets/a.mp4 = VID_20261106_084402 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. Figures (2,500 mg fish oil, 483 EPA, 644 DHA, 60 softgel, 2 a day), KKM, promo 11.11 are the owner's own words from the label; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 2.05,
+   "out": 6.35,
+   "zoom": 1.0,
+   "text": "Jangan kita beli Omega-3 Fish Oil sebelum kita cek 3 benda ni.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 16.6,
+   "out": 21.1,
+   "zoom": 1.0,
+   "text": "Jangan kita hanya tengok pada label, packaging, harga, terus kita nak beli.",
+   "note": "takes 7.1-13.6 dropped"
+  },
+  {
+   "id": "S03",
+   "in": 29.6,
+   "out": 33.65,
+   "zoom": 1.0,
+   "text": "3 benda yang saya maksudkan ialah: pertama, kena cek kandungan EPA dia.",
+   "note": "first take 21.5 dropped"
+  },
+  {
+   "id": "S04",
+   "in": 34.4,
+   "out": 36.5,
+   "zoom": 1.0,
+   "text": "Kedua, kena cek kandungan DHA dia.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 36.7,
+   "out": 40.4,
+   "zoom": 1.0,
+   "text": "Dan ketiga, kena tengok ada tak kelulusan daripada KKM.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 61.8,
+   "out": 75.15,
+   "zoom": 1.0,
+   "text": "Saya nak syorkan kepada ibu ayah, abang kakak, pak cik mak cik semua, Omega-3 Fish Oil daripada VTEAY yang menjadi pilihan ramai sekarang ni tau. Sebab apa?",
+   "note": "takes 47-59 dropped"
+  },
+  {
+   "id": "S07",
+   "in": 75.4,
+   "out": 79.1,
+   "zoom": 1.0,
+   "text": "Ada kelulusan daripada KKM dan sangat berkualiti.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 79.1,
+   "out": 86.02,
+   "zoom": 1.0,
+   "text": "Cuba tengok, packaging dia pun sangat kemas. Baru sampai dekat saya ni.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 86.4,
+   "out": 92.2,
+   "zoom": 1.0,
+   "text": "Macam ni punya packaging, barulah kita rasa selamat nak makan.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 154.5,
+   "out": 163.6,
+   "zoom": 1.0,
+   "text": "Dalam satu botol ni ada 2,500 mg fish oil, 483 EPA dan 644 DHA tau.",
+   "note": "many stumbling takes 92-154 dropped"
+  },
+  {
+   "id": "S11",
+   "in": 182.4,
+   "out": 189.25,
+   "zoom": 1.0,
+   "text": "Kita nak memilih Omega-3 Fish Oil ni, biarlah yang berkualiti, kena tengok kandungan EPA dan DHA yang tinggi macam ni.",
+   "note": "repeat 163-180 dropped"
+  },
+  {
+   "id": "S12",
+   "in": 194.8,
+   "out": 201.5,
+   "zoom": 1.0,
+   "text": "Sebab EPA dan DHA yang tinggi bantu support kesihatan jantung kita, dapat bantu juga support kesihatan saraf kita.",
+   "note": "the 'lenguh, kebas-kebas … insya-Allah dapat bantu' line (201-208) dropped — TikTok health-claim risk"
+  },
+  {
+   "id": "S13",
+   "in": 209.0,
+   "out": 213.35,
+   "zoom": 1.0,
+   "text": "Juga dapat bantu support kesihatan otak kita, supaya lebih fokus dan daya ingatan yang lebih baik.",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 221.25,
+   "out": 228.1,
+   "zoom": 1.0,
+   "text": "Omega-3 Fish Oil VTEAY ni sekarang ni ada banyak promosi tau dekat beg kuning. Promo 11.11 pun ramai seller dah tengah buat sekarang.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 228.5,
+   "out": 230.3,
+   "zoom": 1.0,
+   "text": "Harga sangat-sangat murah.",
+   "note": ""
+  },
+  {
+   "id": "S16",
+   "in": 230.4,
+   "out": 235.1,
+   "zoom": 1.0,
+   "text": "Satu botol ni ada 60 softgel, satu hari cukup kita ambil 2 softgel sahaja.",
+   "note": ""
+  },
+  {
+   "id": "S17",
+   "in": 241.0,
+   "out": 247.05,
+   "zoom": 1.04,
+   "text": "Kepada kawan-kawan, ibu ayah, abang kakak, pak cik mak cik yang berminat, boleh dapatkan segera dekat beg kuning, sementara masih ada stok.",
+   "note": "CTA (first take 235-240 dropped)"
+  }
+ ],
+ "infocard": [
+  {
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "body": "<b>3 benda</b> yang kena cek sebelum beli Omega-3 Fish Oil:",
+   "items": [
+    "Kandungan EPA",
+    "Kandungan DHA",
+    "Kelulusan KKM"
+   ]
+  }
+ ],
+ "punch": [
+  [
+   "S17",
+   "dapatkan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S06",
+    "omega-3"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 66.0,
+   "note": "close-up of the bottle in the owner's hand (same moment)",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "60% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 75.4,
+   "note": "close-up of the bottle in the owner's hand (same moment)",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "60% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 79.1,
+   "note": "close-up of the bottle in the owner's hand (same moment)",
+   "push": [
+    1.4,
+    1.55
+   ],
+   "origin": "55% 45%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 154.5,
+   "note": "close-up of the bottle in the owner's hand (same moment)",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "60% 45%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 182.4,
+   "note": "close-up of the bottle in the owner's hand (same moment)",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "60% 45%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "S16",
+    "start"
+   ],
+   "to": [
+    "S16",
+    "end"
+   ],
+   "src": 230.4,
+   "note": "close-up of the bottle in the owner's hand (same moment)",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "60% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "rak",
+   "from": [
+    "S01",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: rak suplemen di farmasi"
+  },
+  {
+   "id": "softgel",
+   "from": [
+    "S14",
+    "start"
+   ],
+   "to": [
+    "S15",
+    "end"
+   ],
+   "note": "AI: softgel minyak ikan"
+  },
+  {
+   "id": "x_jantung",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "saraf"
+   ],
+   "note": "AI: x-ray jantung"
+  },
+  {
+   "id": "x_saraf",
+   "from": [
+    "S12",
+    "saraf"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "note": "AI: x-ray saraf"
+  },
+  {
+   "id": "x_otak",
+   "from": [
+    "S13",
+    "start"
+   ],
+   "to": [
+    "S13",
+    "supaya"
+   ],
+   "note": "AI: x-ray otak"
+  },
+  {
+   "id": "fokus",
+   "from": [
+    "S13",
+    "supaya"
+   ],
+   "to": [
+    "S13",
+    "end"
+   ],
+   "note": "AI: lelaki fokus bekerja"
+  }
+ ],
+ "theme": {
+  "key": "#5FB8E0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "vteay"
+ ],
+ "keywords": []
+}

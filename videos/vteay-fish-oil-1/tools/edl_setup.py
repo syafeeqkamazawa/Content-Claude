@@ -9,22 +9,22 @@ def ph(i, f, t, note): return {"id": i, "from": f, "to": t, "note": note}
 
 
 segs = [
-    seg("S01", 2.20, 6.35, "Jangan kita beli Omega-3 Fish Oil sebelum kita cek 3 benda ni.", "HOOK"),
+    seg("S01", 2.05, 6.35, "Jangan kita beli Omega-3 Fish Oil sebelum kita cek 3 benda ni.", "HOOK"),
     seg("S02", 16.60, 21.10, "Jangan kita hanya tengok pada label, packaging, harga, terus kita nak beli.", "takes 7.1-13.6 dropped"),
     seg("S03", 29.60, 33.65, "3 benda yang saya maksudkan ialah: pertama, kena cek kandungan EPA dia.", "first take 21.5 dropped"),
     seg("S04", 34.40, 36.50, "Kedua, kena cek kandungan DHA dia."),
-    seg("S05", 36.90, 40.40, "Dan ketiga, kena tengok ada tak kelulusan daripada KKM."),
+    seg("S05", 36.70, 40.40, "Dan ketiga, kena tengok ada tak kelulusan daripada KKM."),
     seg("S06", 61.80, 75.15, "Saya nak syorkan kepada ibu ayah, abang kakak, pak cik mak cik semua, Omega-3 Fish Oil daripada VTEAY yang menjadi pilihan ramai sekarang ni tau. Sebab apa?", "takes 47-59 dropped"),
     seg("S07", 75.40, 79.10, "Ada kelulusan daripada KKM dan sangat berkualiti."),
-    seg("S08", 79.10, 85.90, "Cuba tengok, packaging dia pun sangat kemas. Baru sampai dekat saya ni."),
-    seg("S09", 86.40, 92.40, "Macam ni punya packaging, barulah kita rasa selamat nak makan."),
+    seg("S08", 79.10, 86.02, "Cuba tengok, packaging dia pun sangat kemas. Baru sampai dekat saya ni."),
+    seg("S09", 86.40, 92.20, "Macam ni punya packaging, barulah kita rasa selamat nak makan."),
     seg("S10", 154.50, 163.60, "Dalam satu botol ni ada 2,500 mg fish oil, 483 EPA dan 644 DHA tau.", "many stumbling takes 92-154 dropped"),
-    seg("S11", 180.40, 189.25, "Kita nak memilih Omega-3 Fish Oil ni, biarlah yang berkualiti, kena tengok kandungan EPA dan DHA yang tinggi macam ni.", "repeat 163-180 dropped"),
+    seg("S11", 182.40, 189.25, "Kita nak memilih Omega-3 Fish Oil ni, biarlah yang berkualiti, kena tengok kandungan EPA dan DHA yang tinggi macam ni.", "repeat 163-180 dropped"),
     seg("S12", 194.80, 201.50, "Sebab EPA dan DHA yang tinggi bantu support kesihatan jantung kita, dapat bantu juga support kesihatan saraf kita.", "the 'lenguh, kebas-kebas … insya-Allah dapat bantu' line (201-208) dropped — TikTok health-claim risk"),
     seg("S13", 209.00, 213.35, "Juga dapat bantu support kesihatan otak kita, supaya lebih fokus dan daya ingatan yang lebih baik."),
-    seg("S14", 221.40, 228.10, "Omega-3 Fish Oil VTEAY ni sekarang ni ada banyak promosi tau dekat beg kuning. Promo 11.11 pun ramai seller dah tengah buat sekarang."),
+    seg("S14", 221.25, 228.10, "Omega-3 Fish Oil VTEAY ni sekarang ni ada banyak promosi tau dekat beg kuning. Promo 11.11 pun ramai seller dah tengah buat sekarang."),
     seg("S15", 228.50, 230.30, "Harga sangat-sangat murah."),
-    seg("S16", 230.70, 235.10, "Satu botol ni ada 60 softgel, satu hari cukup kita ambil 2 softgel sahaja."),
+    seg("S16", 230.40, 235.10, "Satu botol ni ada 60 softgel, satu hari cukup kita ambil 2 softgel sahaja."),
     seg("S17", 241.00, 247.05, "Kepada kawan-kawan, ibu ayah, abang kakak, pak cik mak cik yang berminat, boleh dapatkan segera dekat beg kuning, sementara masih ada stok.", "CTA (first take 235-240 dropped)", 1.04),
 ]
 (P / 'data/transcript-a.json').write_text('[]')
@@ -39,7 +39,7 @@ e = {"fps": 60, "width": 1080, "height": 1920, "captions": True, "caption_style"
      "punch": [["S17", "dapatkan", 1.06]],
      "broll": [cu("C1", ["S06", "omega-3"], ["S06", "end"], 66.0), cu("C2", ["S07", "start"], ["S07", "end"], 75.40),
                cu("C3", ["S08", "start"], ["S09", "end"], 79.10, "55% 45%", (1.4, 1.55)), cu("C4", ["S10", "start"], ["S10", "end"], 154.50),
-               cu("C5", ["S11", "start"], ["S11", "end"], 180.40), cu("C6", ["S16", "start"], ["S16", "end"], 230.70)],
+               cu("C5", ["S11", "start"], ["S11", "end"], 182.40), cu("C6", ["S16", "start"], ["S16", "end"], 230.40)],
      "photos": [ph("rak", ["S01", "start"], ["S02", "end"], "AI: rak suplemen di farmasi"),
                 ph("softgel", ["S14", "start"], ["S15", "end"], "AI: softgel minyak ikan"),
                 ph("x_jantung", ["S12", "start"], ["S12", "saraf"], "AI: x-ray jantung"),
