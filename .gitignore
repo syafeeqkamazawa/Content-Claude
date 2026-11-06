@@ -1,3 +1,5 @@
 **/.media/*.wav
 **/.media/*.log
 **/.media/transcript.txt
+**/.media/words.txt
+**/.media/tc.err
