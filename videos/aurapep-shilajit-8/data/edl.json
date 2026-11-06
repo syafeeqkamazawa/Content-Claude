@@ -1,0 +1,229 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "6 Nov: Aurapep Shilajit, Drive folder 12AIw3W3… — clip 171623 → #8 (170843 → #7, 172057 → #9). Caption: the 6 Nov default on the wall above the head (top 300). Overlays on every explanation (owner 6 Nov): close-ups of the owner's own bottle / box first; realistic AI photos (no people) for liquid shilajit and the raw mineral rock. Men's-health / stamina / 'kesihatan lelaki' lines dropped (owner 5 Nov: no TikTok-risk health claims).",
+ "_note": "Aurapep Shilajit #8 — A-roll assets/a.mp4 = VID_20261106_171623 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. Promo 11.11 / 'beli dua tiga botol' are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 64.25,
+   "out": 86.55,
+   "zoom": 1.0,
+   "text": "Masalah dengan Shilajit ni, especially yang bentuk macam cecair likat tu, rasa dia aduh, memang tak sedap langsung. Rasa macam besi pun ada, macam tanah pun ada juga. So memang susah nak konsisten.",
+   "note": "HOOK — the owner's own problem line moved up; the opening 'soalan lelaki / supplement untuk kesihatan lelaki' (10.9-21.5) dropped: TikTok risk (owner 5 Nov)"
+  },
+  {
+   "id": "S02",
+   "in": 86.85,
+   "out": 95.3,
+   "zoom": 1.0,
+   "text": "Untuk abang-abang yang nak amalkan Shilajit ni, bolehlah cuba Shilajit dalam bentuk tablet macam ni, ya, daripada Aurapep ni, macam ni.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 24.35,
+   "out": 32.15,
+   "zoom": 1.0,
+   "text": "Korang pernah tak try supplement Shilajit daripada Aurapep ni? Shilajit ni bagus untuk kesihatan badan kita tau, secara menyeluruh.",
+   "note": "'terutama sekali untuk masalah lelaki' (41.8-43.9) dropped"
+  },
+  {
+   "id": "S04",
+   "in": 49.5,
+   "out": 52.8,
+   "zoom": 1.0,
+   "text": "Shilajit ni dia tinggi dengan mineral, antioxidant.",
+   "note": "first take (44.4-48.9) and 'boost tenaga dan tingkatkan stamina' (52.9-56) dropped"
+  },
+  {
+   "id": "S05",
+   "in": 101.1,
+   "out": 109.75,
+   "zoom": 1.0,
+   "text": "Okey, so Aurapep Shilajit ni siap ada tambahan zinc tau, ada magnesium dan ganoderma extra.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 112.75,
+   "out": 116.25,
+   "zoom": 1.0,
+   "text": "Kesemua bahan-bahan dalam ni bantu sokong nutrisi harian kita.",
+   "note": "its list of benefits incl. 'kesihatan lelaki' (116.2-124.2) dropped: TikTok risk"
+  },
+  {
+   "id": "S07",
+   "in": 153.5,
+   "out": 158.15,
+   "zoom": 1.0,
+   "text": "Ini adalah Aurapep Shilajit Complex Tablet.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 159.2,
+   "out": 164.0,
+   "zoom": 1.0,
+   "text": "Jadi untuk abang-abang, ayah-ayah, pakcik-pakcik yang tengah cari suplemen,",
+   "note": "first take (128.9-143.6) dropped"
+  },
+  {
+   "id": "S09",
+   "in": 167.98,
+   "out": 173.8,
+   "zoom": 1.0,
+   "text": "boleh cuba Aurapep Shilajit Complex Tablet ini. Saya dah sediakan link dekat beg kuning.",
+   "note": "'untuk bantu boost tenaga dan tingkatkan kesihatan lelaki' (164-167.8) dropped: TikTok risk"
+  },
+  {
+   "id": "S10",
+   "in": 180.7,
+   "out": 196.8,
+   "zoom": 1.0,
+   "text": "Dan sekarang ni juga banyak seller tengah buat promosi tau, promosi 11.11, biasanya harga lebih murah daripada biasa. Cuba tengok beg kuning, tengok berapa harga dapat. Kalau memang tengah murah tu, boleh beli terus.",
+   "note": "false starts (174.4-180.7) dropped"
+  },
+  {
+   "id": "S11",
+   "in": 214.3,
+   "out": 222.85,
+   "zoom": 1.04,
+   "text": "Kalau boleh, jangan beli satu botol tau, beli dua tiga botol, boleh buat stok awal-awal. Nanti kalau stok habis, dah ada lebih dah, tak risau.",
+   "note": "CTA — first take (200.3-208.3) dropped"
+  }
+ ],
+ "punch": [
+  [
+   "S11",
+   "beli#2",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 88.0,
+   "note": "close-up of the owner's own Shilajit bottle / box",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "58% 60%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 101.1,
+   "note": "close-up of the owner's own Shilajit bottle / box",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "60% 60%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 20.0,
+   "note": "close-up of the owner's own Shilajit bottle / box",
+   "push": [
+    1.2,
+    1.3
+   ],
+   "origin": "45% 60%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 168.0,
+   "note": "close-up of the owner's own Shilajit bottle / box",
+   "push": [
+    1.3,
+    1.45
+   ],
+   "origin": "55% 60%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "likat",
+   "from": [
+    "S01",
+    "start"
+   ],
+   "to": [
+    "S01",
+    "So"
+   ],
+   "note": "AI: shilajit cecair likat"
+  },
+  {
+   "id": "batu",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: batu mineral shilajit"
+  }
+ ],
+ "theme": {
+  "key": "#C9A227",
+  "brand": "#E9E9E9"
+ },
+ "brand_words": [
+  "shilajit",
+  "aurapep"
+ ],
+ "keywords": []
+}

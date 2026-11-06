@@ -31,16 +31,16 @@
   },
   {
    "id": "S02",
-   "in": 31.8,
+   "in": 33.55,
    "out": 41.55,
    "zoom": 1.0,
-   "text": "Ramai yang dah cuba Aurapep Shilajit Complex Tablet ni dan kebanyakannya feedback yang sangat baik.",
-   "note": "first take (22.5-27.3) dropped"
+   "text": "Ramai dah cuba Aurapep Shilajit Complex Tablet ni dan kebanyakannya feedback yang sangat baik.",
+   "note": "earlier takes (22.5-27.3, 31.8-33.5) dropped"
   },
   {
    "id": "S03",
-   "in": 44.75,
-   "out": 49.05,
+   "in": 44.45,
+   "out": 49.18,
    "zoom": 1.0,
    "text": "Tetapi macam mana kita nak pilih Shilajit yang berkualiti dalam pasaran sekarang?",
    "note": ""
@@ -48,7 +48,7 @@
   {
    "id": "S04",
    "in": 50.35,
-   "out": 58.3,
+   "out": 58.38,
    "zoom": 1.0,
    "text": "Ini yang saya nak share kepada anda semua, Shilajit Complex Tablet daripada Aurapep ni, sebab sangat berkualiti.",
    "note": "false start 'saya nak share' dropped"
@@ -56,7 +56,7 @@
   {
    "id": "S05",
    "in": 58.3,
-   "out": 62.0,
+   "out": 62.55,
    "zoom": 1.0,
    "text": "Ada kelulusan daripada KKM dan juga Halal JAKIM.",
    "note": ""
@@ -64,14 +64,14 @@
   {
    "id": "S06",
    "in": 67.15,
-   "out": 70.85,
+   "out": 70.92,
    "zoom": 1.0,
    "text": "Mengandungi Shilajit, magnesium, zinc dan juga ganoderma.",
    "note": "'yang semuanya dapat bantu support boost stamina kita, tambah-tambah untuk tenaga dalam' (70.8-76.1) dropped: TikTok health-claim risk"
   },
   {
    "id": "S07",
-   "in": 76.4,
+   "in": 76.32,
    "out": 81.75,
    "zoom": 1.0,
    "text": "Dalam satu botol ni ada 60 tablet, satu hari cukup kita makan satu tablet sahaja.",
@@ -79,8 +79,8 @@
   },
   {
    "id": "S08",
-   "in": 82.2,
-   "out": 92.55,
+   "in": 82.0,
+   "out": 92.72,
    "zoom": 1.0,
    "text": "Sekarang harga tengah murah tau, tengah promo yang banyak dekat beg kuning. Kenapa? Sebab sekarang ni promotion 11.11 pun dah mula berjalan, seller tengah buat harga special dekat beg kuning.",
    "note": ""
@@ -96,14 +96,14 @@
   {
    "id": "S10",
    "in": 103.4,
-   "out": 104.9,
+   "out": 105.0,
    "zoom": 1.0,
    "text": "dapatkan segera dekat beg kuning.",
    "note": "'yang ada masalah yang sama nak mencuba' dropped: implies a health problem"
   },
   {
    "id": "S11",
-   "in": 105.0,
+   "in": 105.02,
    "out": 119.6,
    "zoom": 1.04,
    "text": "Stok baru habis baru ni, sekarang dia dah restock balik. Sementara stok ada tu dan harga masih dalam promosi, grab awal-awal.",
@@ -128,7 +128,7 @@
     "S02",
     "end"
    ],
-   "src": 33.0,
+   "src": 33.55,
    "note": "close-up of the owner's own Shilajit bottle",
    "push": [
     1.3,
