@@ -74,7 +74,7 @@ def speech_islands(t0, t1, thr=-40, min_gap=0.12):
 
 
 # Spoken syllables for words the vowel count gets wrong.
-SYL = {"250ml": 7, "100%": 5, "11": 3, "11.11": 6, "dha": 3, "epa": 3, "d3": 2, "k2": 2, "80%": 6, "400": 4, "lately": 2, "retention": 3, "convenient": 4, "probiotic": 4, "prebiotic": 4, "titanz": 2, "180+": 6, "180": 5, "12": 4, "18": 3, "60": 3, "aquamin": 3, "menaq7": 4, "k2": 2, "c": 1, "mixed": 1, "berries": 2, "kid": 1, "kid180": 6, "11.11": 6, "haccp": 6, "gmp": 3, "kkm": 3, "mesti": 2, "tiktok": 2, "2": 2, "elderberry": 4, "cranberry": 3, "blueberry": 3, "check": 1, "check": 1, "3": 2, "12": 4, "fluoride": 3, "synergy": 3, "lysozyme": 3, "parent": 2, "check": 1, "strawberi": 3, "berry": 2, "buddies": 2}
+SYL = {"11.11": 6, "2,500": 6, "483": 7, "644": 7, "epa": 3, "dha": 3, "kkm": 3, "250ml": 7, "100%": 5, "11": 3, "11.11": 6, "dha": 3, "epa": 3, "d3": 2, "k2": 2, "80%": 6, "400": 4, "lately": 2, "retention": 3, "convenient": 4, "probiotic": 4, "prebiotic": 4, "titanz": 2, "180+": 6, "180": 5, "12": 4, "18": 3, "60": 3, "aquamin": 3, "menaq7": 4, "k2": 2, "c": 1, "mixed": 1, "berries": 2, "kid": 1, "kid180": 6, "11.11": 6, "haccp": 6, "gmp": 3, "kkm": 3, "mesti": 2, "tiktok": 2, "2": 2, "elderberry": 4, "cranberry": 3, "blueberry": 3, "check": 1, "check": 1, "3": 2, "12": 4, "fluoride": 3, "synergy": 3, "lysozyme": 3, "parent": 2, "check": 1, "strawberi": 3, "berry": 2, "buddies": 2}
 
 
 def syllables(word):
