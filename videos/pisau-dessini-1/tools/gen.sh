@@ -1,5 +1,5 @@
 #!/bin/bash
-# Generates the AI cutaways for Quba Food Kurma Ajwa #5 (owner's ChatGPT/Codex account). Run from the project root.
+# Generates the AI cutaways for Set Pisau Dessini #1 (owner's ChatGPT/Codex account). Run from the project root.
 # Subjects follow the owner's overlay reference (video rujukan.mp4 (Krill)); every person covers aurat.
 export PATH=$HOME/.local/bin:$PATH NODE_USE_ENV_PROXY=1
 MOD="Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition."
@@ -18,6 +18,9 @@ want () { [ -z "$ONLY" ] || [[ "$ONLY" == *" $1 "* ]]; }
 
 NOPPL="No people anywhere in the frame, no hands, no faces."
 PLAIN="No brand names, no logos, no readable text."
-want pagi7 && gen pagi7 "Seven dark ajwa dates neatly arranged on a small white plate beside a glass of water on a wooden breakfast table, soft morning sunlight through a window. $NOPPL $PLAIN"
-want iftar && gen iftar "A Ramadan iftar table at sunset with a bowl of dark ajwa dates, glasses of water and Malaysian dishes, warm lantern light, cinematic. $NOPPL $PLAIN"
+HANDS="Only two hands visible, wearing long sleeves down to the wrists; no face, no other body parts."
+want bawang && gen bawang "Close-up of a sharp stainless steel chef knife slicing a red onion into thin rings on a wooden chopping board in a bright Malaysian home kitchen, one smooth cut. $HANDS $PLAIN"
+want dapur && gen dapur "A clean, bright Malaysian home kitchen counter with a wooden chopping board, fresh vegetables, shallots and chillies ready for cooking, warm morning light. $NOPPL $PLAIN"
+want ubi && gen ubi "Close-up of a stainless steel knife cutting cassava (ubi kayu) into neat thick slices on a wooden chopping board, kitchen counter. $HANDS $PLAIN"
+want juadah && gen juadah "A Malaysian Ramadan iftar spread of home-cooked dishes on a dining table at dusk: rendang, sliced vegetables, kuih, dates, glasses of water, warm light. $NOPPL $PLAIN"
 echo DONE

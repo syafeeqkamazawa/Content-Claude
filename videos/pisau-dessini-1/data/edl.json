@@ -1,0 +1,496 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "6 Nov: Set Pisau Dessini, Drive folder 16e_wkdi… (clip 093343; clip 110642 is pisau-dessini-2). Caption: the 6 Nov default (docs/caption-style-6nov.jpg) placed on the wall above the head (top 300) because the box / holder / knives fill the lower frame; per-segment cap_top where needed. Overlays on every explanation (owner 6 Nov): close-ups of the owner's own box, holder and knives first; realistic AI photos (hands in long sleeves only, or no people) for slicing onion, cutting ubi, a home kitchen and juadah puasa. 9-minute ramble cut to the points; every point kept.",
+ "_note": "Pisau Dessini #1 — A-roll assets/a.mp4 = VID_20261106_093343 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. Promo 11.11 / vouchers are the owner's own words; no price. 'Tak berkarat' is tied to the box's own 'STAINLESS STEEL' print.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 18.9,
+   "out": 28.4,
+   "zoom": 1.0,
+   "text": "Kalau korang guna ni buat potong bawang, korang sekali hiris dia, tak perasan kalau tiba-tiba dah terpotong dah, dia punya tajam pisau ni.",
+   "note": "HOOK. Opening 'pisau daripada Dessini guys' (5.9-8.2) and the repeated 'dia punya tajam pisau ni / bismillah' takes (30-39) dropped"
+  },
+  {
+   "id": "S02",
+   "in": 39.7,
+   "out": 42.3,
+   "zoom": 1.0,
+   "text": "Memang sangat tajam je set pisau Dessini ni,",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 60.5,
+   "out": 68.6,
+   "zoom": 1.0,
+   "text": "yang paling ramai mak-mak tengah cari dekat TikTok Shop ni tau, tak lain tak bukan, set pisau daripada Dessini ni, lapan dalam satu tau.",
+   "note": "second, clean take (first take 42.5-51 and false start 57.2 dropped)"
+  },
+  {
+   "id": "S04",
+   "in": 68.7,
+   "out": 74.45,
+   "zoom": 1.0,
+   "text": "So kita buka, tengok dulu, jom. Tengok packaging dia cantik kan.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 80.95,
+   "out": 84.85,
+   "zoom": 1.0,
+   "text": "Dia dah buat macam ni, so lebih selamat lah.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 85.75,
+   "out": 92.4,
+   "zoom": 1.0,
+   "text": "Dan ni tempat dia, ni tempat letak pisau, cantik kan, oh cantik guys.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 95.6,
+   "out": 100.25,
+   "zoom": 1.0,
+   "text": "So pisau boleh letak kat dalam ni lah, ok, semua pisau, lapan pisau ada kat dalam ni.",
+   "note": "repeat 'pisau semua gunting semua ada kat dalam ni' (108.7) dropped"
+  },
+  {
+   "id": "S08",
+   "in": 143.6,
+   "out": 149.95,
+   "zoom": 1.0,
+   "text": "Yang ni kita panggil holder atau pemegang dia tau, jadi dia ada lima bilah semua.",
+   "note": "earlier stumbling takes of the holder line (117-140) dropped"
+  },
+  {
+   "id": "S09",
+   "in": 155.4,
+   "out": 159.7,
+   "zoom": 1.0,
+   "text": "Pisau yang paling besar, pisau potong daging, macam ni.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 161.25,
+   "out": 166.55,
+   "zoom": 1.0,
+   "text": "Ya Allah memang nampak premium sangat, pisau semua duduk dalam ni eh, jangan risau, cukup lengkap.",
+   "note": "repeated 'memang nampak premium' (171-177) dropped"
+  },
+  {
+   "id": "S11",
+   "in": 181.5,
+   "out": 184.5,
+   "zoom": 1.0,
+   "text": "Semua pisau dia ada tulis kat sini,",
+   "note": "repeat 'semua pisau ada tulis kat sini' dropped"
+  },
+  {
+   "id": "S12",
+   "in": 186.55,
+   "out": 191.7,
+   "zoom": 1.0,
+   "text": "dapat satu pisau chef, satu pisau slicer, dan yang ni yang sederhana kecil.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 194.35,
+   "out": 198.9,
+   "zoom": 1.0,
+   "text": "Sesuai lah kalau kita nak buat potong buah kan, dan yang paling kecil ni nak kupas bawang.",
+   "note": ""
+  },
+  {
+   "id": "S14",
+   "in": 199.4,
+   "out": 203.25,
+   "zoom": 1.0,
+   "text": "Dapat satu gunting, gunting pun ada.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 207.85,
+   "out": 210.35,
+   "zoom": 1.0,
+   "text": "Yang menarik dia dekat tengah ada rubber tau,",
+   "note": "stumbles 'yang menarik dia ada, dia ada' and the retakes (213-225, 245-258) dropped"
+  },
+  {
+   "id": "S16",
+   "in": 225.8,
+   "out": 227.95,
+   "zoom": 1.0,
+   "text": "jadi dia tak menyakitkan tangan kita lah.",
+   "note": ""
+  },
+  {
+   "id": "S17",
+   "in": 259.45,
+   "out": 268.2,
+   "zoom": 1.0,
+   "text": "Dan last sekali dapat satu pengasah, ni, ni pengasah dia dapat juga, so kita nak asah pisau senang je, pakai je pengasah yang ni.",
+   "note": ""
+  },
+  {
+   "id": "S18",
+   "in": 291.05,
+   "out": 294.05,
+   "zoom": 1.0,
+   "text": "Setiap rumah mesti ada satu set pisau daripada Dessini ni tau.",
+   "note": "the long run of 'so' (278-291) dropped"
+  },
+  {
+   "id": "S19",
+   "in": 297.45,
+   "out": 306.15,
+   "zoom": 1.0,
+   "text": "InsyaAllah bila korang dapat nanti korang try potong, contohnya korang potong ubi, memang korang potong tu senang sangat sebab pisau ni tajam tau.",
+   "note": ""
+  },
+  {
+   "id": "S20",
+   "in": 313.3,
+   "out": 316.85,
+   "zoom": 1.0,
+   "text": "Ya Allah korang, patutlah ramai orang beli set pisau Dessini ni.",
+   "note": ""
+  },
+  {
+   "id": "S21",
+   "in": 319.25,
+   "out": 324.15,
+   "zoom": 1.0,
+   "text": "Dah lah cantik atas bawah dengan stylish dia. Jadi tak risau tau hulu dia tercabut ke tak.",
+   "note": "first take 'dah lah cantik atas bawah sama' (316.9) dropped"
+  },
+  {
+   "id": "S22",
+   "in": 402.55,
+   "out": 405.25,
+   "zoom": 1.0,
+   "text": "Ibu-ibu akak-akak, yang ni dia tak berkarat tau,",
+   "note": "repeat of the hulu / stylish lines (368-415) dropped"
+  },
+  {
+   "id": "S23",
+   "in": 449.1,
+   "out": 452.25,
+   "zoom": 1.0,
+   "text": "sebab pisau ni pisau stainless steel tau.",
+   "note": ""
+  },
+  {
+   "id": "S24",
+   "in": 468.35,
+   "out": 470.2,
+   "zoom": 1.0,
+   "text": "Yang ni pula ni boleh berpusing tau.",
+   "note": ""
+  },
+  {
+   "id": "S25",
+   "in": 458.6,
+   "out": 462.85,
+   "zoom": 1.0,
+   "text": "Siapa yang nak cari pisau ni, boleh beli daripada Dessini ni, memang recommend sangat-sangat.",
+   "note": ""
+  },
+  {
+   "id": "S26",
+   "in": 537.7,
+   "out": 551.98,
+   "zoom": 1.0,
+   "text": "Cantik ni kalau buat raya, untuk puasa pun dah dekat, nak masak juadah puasa tu sesuai sangat nak guna ni. Lagi-lagi raya lagi lah nak guna kan.",
+   "note": ""
+  },
+  {
+   "id": "S27",
+   "in": 519.4,
+   "out": 536.25,
+   "zoom": 1.04,
+   "text": "Ya Allah korang, pergilah order dekat beg kuning tu. Sebab sekarang ni seller pun tengah buat promo tau, banyak promo sekarang sebab apa? Sempena promotion 11.11 pun seller tengah banyak buat dah. Cuba tengok dekat beg kuning, kalau ada voucher claim sekali, kalau nampak harga tengah murah daripada biasa tu, boleh check out terus.",
+   "note": "CTA — the first CTA take (480-500) and 'saya sangat recommend' repeat (510-518) dropped"
+  },
+  {
+   "id": "S28",
+   "in": 552.95,
+   "out": 553.98,
+   "zoom": 1.06,
+   "text": "So dapatkan di beg kuning.",
+   "note": ""
+  }
+ ],
+ "punch": [
+  [
+   "S27",
+   "cuba",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 60.5,
+   "note": "close-up of the owner's own Dessini footage",
+   "push": [
+    1.15,
+    1.25
+   ],
+   "origin": "55% 52%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 70.0,
+   "note": "close-up of the owner's own Dessini footage",
+   "push": [
+    1.12,
+    1.2
+   ],
+   "origin": "50% 58%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 95.6,
+   "note": "close-up of the owner's own Dessini footage",
+   "push": [
+    1.3,
+    1.4
+   ],
+   "origin": "70% 66%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 143.6,
+   "note": "close-up of the owner's own Dessini footage",
+   "push": [
+    1.15,
+    1.25
+   ],
+   "origin": "45% 60%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 432.0,
+   "note": "close-up of the owner's own Dessini footage",
+   "push": [
+    1.15,
+    1.25
+   ],
+   "origin": "55% 72%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S13",
+    "end"
+   ],
+   "src": 184.0,
+   "note": "close-up of the owner's own Dessini footage",
+   "push": [
+    1.3,
+    1.4
+   ],
+   "origin": "82% 66%"
+  },
+  {
+   "id": "C7",
+   "from": [
+    "S14",
+    "start"
+   ],
+   "to": [
+    "S16",
+    "end"
+   ],
+   "src": 246.0,
+   "note": "close-up of the owner's own Dessini footage",
+   "push": [
+    1.3,
+    1.4
+   ],
+   "origin": "82% 62%"
+  },
+  {
+   "id": "C8",
+   "from": [
+    "S21",
+    "start"
+   ],
+   "to": [
+    "S21",
+    "end"
+   ],
+   "src": 383.0,
+   "note": "close-up of the owner's own Dessini footage",
+   "push": [
+    1.15,
+    1.25
+   ],
+   "origin": "35% 58%"
+  },
+  {
+   "id": "C9",
+   "from": [
+    "S22",
+    "start"
+   ],
+   "to": [
+    "S23",
+    "end"
+   ],
+   "src": 402.5,
+   "note": "close-up of the owner's own Dessini footage",
+   "push": [
+    1.15,
+    1.25
+   ],
+   "origin": "30% 58%"
+  },
+  {
+   "id": "C10",
+   "from": [
+    "S24",
+    "start"
+   ],
+   "to": [
+    "S24",
+    "end"
+   ],
+   "src": 467.5,
+   "note": "close-up of the owner's own Dessini footage",
+   "push": [
+    1.12,
+    1.2
+   ],
+   "origin": "48% 72%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "bawang",
+   "from": [
+    "S01",
+    "sekali"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: hiris bawang (tangan berlengan panjang sahaja)"
+  },
+  {
+   "id": "dapur",
+   "from": [
+    "S18",
+    "start"
+   ],
+   "to": [
+    "S18",
+    "end"
+   ],
+   "note": "AI: dapur rumah"
+  },
+  {
+   "id": "ubi",
+   "from": [
+    "S19",
+    "contohnya"
+   ],
+   "to": [
+    "S19",
+    "end"
+   ],
+   "note": "AI: potong ubi kayu"
+  },
+  {
+   "id": "juadah",
+   "from": [
+    "S26",
+    "puasa"
+   ],
+   "to": [
+    "S26",
+    "end"
+   ],
+   "note": "AI: juadah berbuka"
+  }
+ ],
+ "theme": {
+  "key": "#D7263D",
+  "brand": "#E9E9E9"
+ },
+ "brand_words": [
+  "dessini"
+ ],
+ "keywords": []
+}

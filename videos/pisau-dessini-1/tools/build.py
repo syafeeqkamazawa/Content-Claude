@@ -796,6 +796,11 @@ if WORD_CAP:
     cap_dom, cap_js = [], []
     cap_dom.append('<svg width="0" height="0" style="position:absolute"><defs><pattern id="wc-dots" width="4" height="4" '
                    'patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1.05" fill="#101010"/></pattern></defs></svg>')
+    # Optional per-segment caption height (EDL segment "cap_top"): lets the word sit
+    # where it never covers the face or the product in that shot.
+    for sg in segs:
+        for w in sg["words"]:
+            w["_ct"] = sg.get("cap_top")
     allw = [w for sg in segs for w in sg["words"]]
     cap_id = 0
     # Owner (4 Nov, Kid180 #8 reference): 2-3 upper-case words per card, heavy white
@@ -841,7 +846,8 @@ if WORD_CAP:
             cap_id += 1
             continue
         cap_dom.append(
-            f'<div class="clip wc" id="wc{cap_id}" data-start="{t0}" data-duration="{q(t1 - t0)}" data-track-index="0">'
+            f'<div class="clip wc" id="wc{cap_id}" data-start="{t0}" data-duration="{q(t1 - t0)}" data-track-index="0"'
+            + (f' style="top:{w["_ct"]}px"' if w.get("_ct") is not None else '') + '>'
             f'<svg width="1080" height="200" viewBox="0 0 1080 200"><text x="540" y="120" text-anchor="middle" class="wc-halo">{word}</text>'
             f'<text x="540" y="120" text-anchor="middle" class="wc-ink">{word}</text></svg></div>')
         cap_id += 1
