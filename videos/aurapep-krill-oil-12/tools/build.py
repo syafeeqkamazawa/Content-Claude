@@ -554,6 +554,29 @@ if BN:
         fade_out("#bn", b1)
 
 
+# Owner (6 Nov, Krill #12: "Guna overlay sama dengan video Ali ni"): the reference keeps a
+# two-line title at the top for the opening seconds and flashes a one-word ingredient label
+# top-centre when it is named — white condensed type with a black outline, no box.
+# EDL "toptitle": {lines, to}; "labels": [{text, from, to}].
+TT = EDL.get("toptitle")
+if TT:
+    t1 = q(anchor(TT["to"])) if isinstance(TT.get("to"), list) else float(TT.get("to", 4))
+    inner = "".join(f'<div class="tt-line" id="tt{i}">{html.escape(t)}</div>' for i, t in enumerate(TT["lines"]))
+    card("ov-toptitle", 0.0, t1, f'<div class="tt" style="top:{TT.get("top", 250)}px">{inner}</div>')
+    for i in range(len(TT["lines"])):
+        gfx_js.append(f'tl.fromTo("#tt{i}", {{ opacity: 0, y: -16 }}, {{ opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }}, {q(0.05 + 0.1 * i)});')
+    if t1 < TOTAL - 0.1:
+        fade_out(".tt", t1)
+for k, lb in enumerate(EDL.get("labels", [])):
+    lid = f"lb{k}"
+    t0, t1 = card(f"ov-{lid}", anchor(lb["from"]), anchor(lb["to"]),
+                  f'<div class="tt" style="top:{lb.get("top", 250)}px"><div class="tt-line" id="{lid}">{html.escape(lb["text"])}</div></div>')
+    gfx_js.append(f'tl.fromTo("#{lid}", {{ opacity: 0, scale: 0.8 }}, {{ opacity: 1, scale: 1, duration: 0.22, ease: "back.out(2)" }}, {t0});')
+    add_sfx("pop", t0, 0.25)
+    if t1 < TOTAL - 0.1:
+        fade_out(f"#{lid}", t1)
+
+
 # Owner (4 Nov, Jus Gout #13 reference): quick white flashes / black dips on some cuts.
 # EDL "flash": [[anchor, colour], ...]
 for k, (fa, fc) in enumerate(EDL.get("flash", [])):
@@ -1018,6 +1041,9 @@ CSS_GFX += """
 CSS_GFX += """
 @font-face { font-family: "Anton"; src: url("assets/fonts/Anton-latin.woff2") format("woff2"); font-weight: 400; font-style: normal; font-display: block; }
 .bn { position: absolute; left: 0; width: 1080px; top: 190px; text-align: center; }
+.tt { position: absolute; left: 0; width: 1080px; text-align: center; }
+.tt-line { display: block; font-family: "Anton"; font-size: 66px; line-height: 1.15; color: #FFFFFF; letter-spacing: 1px;
+  -webkit-text-stroke: 7px #0B0B0B; paint-order: stroke fill; text-shadow: 0 3px 10px rgba(0,0,0,0.35); transform-origin: 50% 50%; }
 .bn-line { margin: 0 0 6px; }
 .bn-line span { display: inline-block; font-family: "Anton"; font-size: 58px; line-height: 1.1; color: #0B0B0B; background: #3CEB2E;
   padding: 2px 16px 4px; letter-spacing: 0.5px; text-transform: uppercase; transform-origin: 50% 50%; }

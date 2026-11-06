@@ -9,7 +9,7 @@ def ph(i, f, t, note): return {"id": i, "from": f, "to": t, "note": note}
 
 
 segs = [
-    seg("S01", 64.25, 86.55, "Masalah dengan Shilajit ni, especially yang bentuk macam cecair likat tu, rasa dia aduh, memang tak sedap langsung. Rasa macam besi pun ada, macam tanah pun ada juga. So memang susah nak konsisten.", "HOOK — the owner's own problem line moved up; the opening 'soalan lelaki / supplement untuk kesihatan lelaki' (10.9-21.5) dropped: TikTok risk (owner 5 Nov)"),
+    seg("S01", 64.50, 86.68, "Masalah dengan Shilajit ni, especially yang bentuk macam cecair likat tu, rasa dia aduh, memang tak sedap langsung. Rasa macam besi pun ada, macam tanah pun ada juga. So memang susah nak konsisten.", "HOOK — the owner's own problem line moved up; the opening 'soalan lelaki / supplement untuk kesihatan lelaki' (10.9-21.5) dropped: TikTok risk (owner 5 Nov)"),
     seg("S02", 86.85, 95.30, "Untuk abang-abang yang nak amalkan Shilajit ni, bolehlah cuba Shilajit dalam bentuk tablet macam ni, ya, daripada Aurapep ni, macam ni."),
     seg("S03", 24.35, 32.15, "Korang pernah tak try supplement Shilajit daripada Aurapep ni? Shilajit ni bagus untuk kesihatan badan kita tau, secara menyeluruh.", "'terutama sekali untuk masalah lelaki' (41.8-43.9) dropped"),
     seg("S04", 49.50, 52.80, "Shilajit ni dia tinggi dengan mineral, antioxidant.", "first take (44.4-48.9) and 'boost tenaga dan tingkatkan stamina' (52.9-56) dropped"),
@@ -18,8 +18,8 @@ segs = [
     seg("S07", 153.50, 158.15, "Ini adalah Aurapep Shilajit Complex Tablet."),
     seg("S08", 159.20, 164.00, "Jadi untuk abang-abang, ayah-ayah, pakcik-pakcik yang tengah cari suplemen,", "first take (128.9-143.6) dropped"),
     seg("S09", 167.98, 173.80, "boleh cuba Aurapep Shilajit Complex Tablet ini. Saya dah sediakan link dekat beg kuning.", "'untuk bantu boost tenaga dan tingkatkan kesihatan lelaki' (164-167.8) dropped: TikTok risk"),
-    seg("S10", 180.70, 196.80, "Dan sekarang ni juga banyak seller tengah buat promosi tau, promosi 11.11, biasanya harga lebih murah daripada biasa. Cuba tengok beg kuning, tengok berapa harga dapat. Kalau memang tengah murah tu, boleh beli terus.", "false starts (174.4-180.7) dropped"),
-    seg("S11", 214.30, 222.85, "Kalau boleh, jangan beli satu botol tau, beli dua tiga botol, boleh buat stok awal-awal. Nanti kalau stok habis, dah ada lebih dah, tak risau.", "CTA — first take (200.3-208.3) dropped", 1.04),
+    seg("S10", 183.85, 196.95, "Dan sekarang ni juga banyak seller tengah buat promosi tau, promosi 11.11, biasanya harga lebih murah daripada biasa. Cuba tengok beg kuning, tengok berapa harga dapat. Kalau memang tengah murah tu, boleh beli terus.", "false starts (174.4-183.8) dropped"),
+    seg("S11", 214.20, 222.85, "Kalau boleh, jangan beli satu botol tau, beli dua tiga botol, boleh buat stok awal-awal. Nanti kalau stok habis, dah ada lebih dah, tak risau.", "CTA — first take (200.3-208.3) dropped", 1.04),
 ]
 (P / 'data/transcript-a.json').write_text('[]')
 e = {"fps": 60, "width": 1080, "height": 1920, "captions": True, "caption_style": "word",
