@@ -1,5 +1,5 @@
 #!/bin/bash
-# Generates the AI cutaways for Quba Food Kurma Ajwa #5 (owner's ChatGPT/Codex account). Run from the project root.
+# Generates the AI cutaways for Aurapep Shilajit #7 (owner's ChatGPT/Codex account). Run from the project root.
 # Subjects follow the owner's overlay reference (video rujukan.mp4 (Krill)); every person covers aurat.
 export PATH=$HOME/.local/bin:$PATH NODE_USE_ENV_PROXY=1
 MOD="Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition."
@@ -18,6 +18,9 @@ want () { [ -z "$ONLY" ] || [[ "$ONLY" == *" $1 "* ]]; }
 
 NOPPL="No people anywhere in the frame, no hands, no faces."
 PLAIN="No brand names, no logos, no readable text."
-want pagi7 && gen pagi7 "Seven dark ajwa dates neatly arranged on a small white plate beside a glass of water on a wooden breakfast table, soft morning sunlight through a window. $NOPPL $PLAIN"
-want iftar && gen iftar "A Ramadan iftar table at sunset with a bowl of dark ajwa dates, glasses of water and Malaysian dishes, warm lantern light, cinematic. $NOPPL $PLAIN"
+MAN="A Malaysian Malay man in his thirties wearing a long-sleeved shirt and long trousers to the ankle, fully covered."
+want resin && gen resin "Close-up of raw dark shilajit resin, sticky and tar-like, on a small wooden spoon beside a small open glass jar, dark moody studio light. $NOPPL $PLAIN"
+want reishi && gen reishi "Fresh glossy red reishi (lingzhi) mushrooms on a wooden board with a few dried slices, natural soft light, clean studio background. $NOPPL $PLAIN"
+want pagi && gen pagi "$MAN He sits on the edge of his bed early in the morning rubbing his eyes, still sleepy, alarm clock on the bedside table, soft dawn light in a Malaysian bedroom. $PLAIN"
+want petang && gen petang "$MAN He sits at an office desk at 2pm, tired and heavy-eyed, hand on his forehead, laptop open, afternoon light. $PLAIN"
 echo DONE

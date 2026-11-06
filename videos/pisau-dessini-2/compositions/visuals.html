@@ -29,17 +29,19 @@
 .inset .fs-tag { left: 10px; bottom: 10px; font-size: 13px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-papan" class="clip fs" data-start="45.7833" data-duration="6.849" data-track-index="4"><div class="fs-in" id="fs-papan-in"><div class="fs-layer" id="fs-papan-bg" style="background-image:url(assets/photos/papan.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-daging" class="clip fs" data-start="71.7333" data-duration="4.216" data-track-index="4"><div class="fs-in" id="fs-daging-in"><div class="fs-layer" id="fs-daging-bg" style="background-image:url(assets/photos/daging.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-papan" class="clip fs" data-start="45.7833" data-duration="6.849" data-track-index="4"><div class="fs-in" id="fs-papan-in"><div class="fs-layer" id="fs-papan-bg" style="background-image:url(assets/photos/papan-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-papan-fg" style="background-image:url(assets/photos/papan-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-daging" class="clip fs" data-start="71.7333" data-duration="4.216" data-track-index="4"><div class="fs-in" id="fs-daging-in"><div class="fs-layer" id="fs-daging-bg" style="background-image:url(assets/photos/daging-bg.jpg)"></div><div class="fs-layer fs-fg" id="fs-daging-fg" style="background-image:url(assets/photos/daging-fg.png)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
         <div id="fs-raya" class="clip fs" data-start="95.6333" data-duration="7.399" data-track-index="4"><div class="fs-in" id="fs-raya-in"><div class="fs-layer" id="fs-raya-bg" style="background-image:url(assets/photos/raya.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-papan", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "sine.inOut" }, 45.7833);
-          tl.fromTo("#fs-papan-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 6.85, ease: "sine.inOut", immediateRender: false }, 45.7833);
+          tl.fromTo("#fs-papan-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 6.85, ease: "none", immediateRender: false }, 45.7833);
+          tl.fromTo("#fs-papan-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 6.85, ease: "sine.inOut", immediateRender: false }, 45.7833);
           tl.fromTo("#fs-daging", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "sine.inOut" }, 71.7333);
-          tl.fromTo("#fs-daging-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 4.2167, ease: "sine.inOut", immediateRender: false }, 71.7333);
+          tl.fromTo("#fs-daging-bg", { scale: 1.1, x: -12, y: 0 }, { scale: 1.15, x: 12, y: -8, duration: 4.2167, ease: "none", immediateRender: false }, 71.7333);
+          tl.fromTo("#fs-daging-fg", { scale: 1.1, x: 8, y: 6 }, { scale: 1.18, x: -8, y: -10, duration: 4.2167, ease: "sine.inOut", immediateRender: false }, 71.7333);
           tl.fromTo("#fs-raya", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "sine.inOut" }, 95.6333);
           tl.fromTo("#fs-raya-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 7.4, ease: "sine.inOut", immediateRender: false }, 95.6333);
           window.__timelines["visuals"] = tl;

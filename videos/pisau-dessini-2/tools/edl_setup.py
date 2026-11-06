@@ -40,7 +40,7 @@ e = {"fps": 60, "width": 1080, "height": 1920, "captions": True, "caption_style"
                cu("C3", ["S06", "start"], ["S07", "end"], 92.4, "50% 66%", (1.15, 1.25)),
                cu("C4", ["S09", "start"], ["S09", "end"], 113.5, "50% 62%", (1.15, 1.25)),
                cu("C5", ["S10", "start"], ["S10", "end"], 124.8, "50% 66%", (1.15, 1.25)),
-               cu("C6", ["S12", "start"], ["S12", "end"], 147.0, "50% 60%", (1.12, 1.2)),
+               cu("C6", ["S12", "start"], ["S12", "end"], 156.0, "45% 62%", (1.12, 1.2)),
                cu("C7", ["S13", "start"], ["S13", "end"], 180.0, "50% 66%", (1.12, 1.2))],
      "photos": [ph("papan", ["S08", "start"], ["S08", "end"], "AI: papan potong — daging, buah, sayur, bawang"),
                 ph("daging", ["S11", "nak"], ["S11", "end"], "AI: hiris daging (tangan berlengan panjang sahaja)"),
