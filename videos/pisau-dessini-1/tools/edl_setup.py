@@ -35,7 +35,7 @@ segs = [
     seg("S24", 468.35, 470.20, "Yang ni pula ni boleh berpusing tau."),
     seg("S25", 458.60, 462.85, "Siapa yang nak cari pisau ni, boleh beli daripada Dessini ni, memang recommend sangat-sangat."),
     seg("S26", 537.50, 539.05, "Cantik ni kalau buat raya,"),
-    seg("S26b", 542.30, 552.10, "puasa pun dah dekat, nak masak juadah puasa tu sesuai sangat nak guna ni. Lagi-lagi raya lagi lah nak guna kan.", "false starts 'untuk apa, puasa, puasa pun dah' (539-542.2) dropped"),
+    seg("S26b", 543.20, 552.10, "puasa pun dah dekat, nak masak juadah puasa tu sesuai sangat nak guna ni. Lagi-lagi raya lagi lah nak guna kan.", "false starts 'untuk apa, puasa, puasa pun dah' (539-543.2) dropped"),
     seg("S27", 519.40, 536.35, "Ya Allah korang, pergilah order dekat beg kuning tu. Sebab sekarang ni seller pun tengah buat promo tau, banyak promo sekarang sebab apa? Sempena promotion 11.11 pun seller tengah banyak buat dah. Cuba tengok dekat beg kuning, kalau ada voucher claim sekali, kalau nampak harga tengah murah daripada biasa tu, boleh check out terus.", "CTA — the first CTA take (480-500) and 'saya sangat recommend' repeat (510-518) dropped", 1.04),
     seg("S28", 552.95, 554.15, "So dapatkan di beg kuning.", "", 1.06),
 ]

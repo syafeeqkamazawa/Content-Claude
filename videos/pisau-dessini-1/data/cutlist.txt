@@ -1,4 +1,4 @@
-TOTAL 145.23s  (29 A-roll segments, 10 B-roll shots, 4 photos, 6 audio fx, 415 caption cards)
+TOTAL 144.52s  (29 A-roll segments, 10 B-roll shots, 4 photos, 6 audio fx, 415 caption cards)
 
   0.00- 10.35  S01  src  17.35- 28.40  (3 pc)  Pisau daripada Dessini guys, kalau korang guna ni buat potong bawang, korang sekali hiris dia, tak perasan kalau tiba-tiba dah terpotong dah, dia punya tajam pisau ni.
  10.35- 13.10  S02  src  39.70- 42.45  (1 pc)  Memang sangat tajam je set pisau Dessini ni,
@@ -26,9 +26,9 @@ TOTAL 145.23s  (29 A-roll segments, 10 B-roll shots, 4 photos, 6 audio fx, 415 c
 110.65-112.50  S24  src 468.35-470.20  (1 pc)  Yang ni pula ni boleh berpusing tau.
 112.50-116.75  S25  src 458.60-462.85  (1 pc)  Siapa yang nak cari pisau ni, boleh beli daripada Dessini ni, memang recommend sangat-sangat.
 116.75-118.30  S26  src 537.50-539.05  (1 pc)  Cantik ni kalau buat raya,
-118.30-127.55  S26b  src 542.30-552.10  (4 pc)  puasa pun dah dekat, nak masak juadah puasa tu sesuai sangat nak guna ni. Lagi-lagi raya lagi lah nak guna kan.
-127.55-144.03  S27  src 519.40-536.35  (3 pc)  Ya Allah korang, pergilah order dekat beg kuning tu. Sebab sekarang ni seller pun tengah buat promo tau, banyak promo sekarang sebab apa? Sempena promotion 11.11 pun seller tengah banyak buat dah. Cuba tengok dekat beg kuning, kalau ada voucher claim sekali, kalau nampak harga tengah murah daripada biasa tu, boleh check out terus.
-144.03-145.23  S28  src 552.95-554.15  (1 pc)  So dapatkan di beg kuning.
+118.30-126.83  S26b  src 543.20-552.10  (3 pc)  puasa pun dah dekat, nak masak juadah puasa tu sesuai sangat nak guna ni. Lagi-lagi raya lagi lah nak guna kan.
+126.83-143.32  S27  src 519.40-536.35  (3 pc)  Ya Allah korang, pergilah order dekat beg kuning tu. Sebab sekarang ni seller pun tengah buat promo tau, banyak promo sekarang sebab apa? Sempena promotion 11.11 pun seller tengah banyak buat dah. Cuba tengok dekat beg kuning, kalau ada voucher claim sekali, kalau nampak harga tengah murah daripada biasa tu, boleh check out terus.
+143.32-144.52  S28  src 552.95-554.15  (1 pc)  So dapatkan di beg kuning.
 
   cutaway   4.10- 10.35
   cutaway  10.35- 21.07
@@ -43,4 +43,4 @@ TOTAL 145.23s  (29 A-roll segments, 10 B-roll shots, 4 photos, 6 audio fx, 415 c
   cutaway 100.17-105.22
   cutaway 105.22-110.65
   cutaway 110.65-112.50
-  cutaway 118.30-127.55
+  cutaway 118.30-126.83
