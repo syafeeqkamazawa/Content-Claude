@@ -1,0 +1,55 @@
+TOTAL 159.68s  (23 A-roll segments, 11 B-roll shots, 18 photos, 10 audio fx, 432 caption cards)
+
+  0.00-  5.73  S01  src   9.50- 15.24  (1 pc)  Supplement yang baik untuk kita punya otak, kita punya saraf, kita punya jantung,
+  5.73- 13.37  S01b  src  17.55- 25.50  (2 pc)  kita punya mata, kita punya ingatan kita, sendi, kita punya lutut kita, ni adalah fish oil.
+ 13.37- 22.63  S02  src  34.80- 44.56  (3 pc)  Bila tengok harga tu mula-mula saya risau juga, kenapa murah sangat? Tapi memang bila saya dah check, dia adalah original, so jangan risau.
+ 22.63- 28.57  S03  src  44.56- 50.50  (1 pc)  Fish oil daripada StemLabs ni memang official daripada store dia.
+ 28.57- 38.57  S04  src  55.40- 66.00  (4 pc)  Yang paling penting, dia ada hologram KKM tau. Maksudnya dia dah jual dekat offline dan dekat farmasi pun ada tau. Tapi harga dia lebih mahal lah.
+ 38.57- 45.87  S05  src  66.70- 74.00  (1 pc)  So kalau beli dekat beg kuning, jauh lebih murah. Dan dia juga ada halal JAKIM, korang boleh check juga dia punya nombor.
+ 45.87- 51.38  S06  src  85.60- 91.12  (1 pc)  Fish oil dari StemLabs ni made in New Zealand tau, manufacture dia dekat New Zealand juga.
+ 51.38- 54.98  S06b  src  94.80- 98.40  (1 pc)  Expired date pun dia ada tulis lah, so tak payah risau, memang legit.
+ 54.98- 62.82  S07  src  98.40-106.70  (2 pc)  Fish oil daripada StemLabs ni, apa yang saya boleh kata, ini adalah fish oil yang harga dia memang sangat murah,
+ 62.82- 65.68  S07b  src 115.06-117.92  (1 pc)  antara brand yang jual fish oil yang sangat murah tau.
+ 65.68- 79.97  S08  src 124.90-140.60  (5 pc)  Kalau dekat farmasi memang kena jual mahal sikit sebab farmasi itu pun sewa bangunan, memang dia akan jadi mahal. Tapi kalau beli dekat beg kuning memang jauh lebih murah, sebab dah tak ada dah kos-kos nak sewa bangunan dan sebagainya.
+ 79.97- 83.87  S09  src 146.50-150.40  (1 pc)  Jadi sebab tu harganya lebih murah. So korang jangan risau,
+ 83.87- 86.37  S09b  src 153.90-156.40  (1 pc)  ini adalah original daripada StemLabs tau.
+ 86.37-104.70  S10  src 171.45-191.00  (8 pc)  Yang saya pegang ni satu botol 30 biji. Boleh tengok dekat beg kuning kalau ada pilihan, boleh tengok mana yang korang lebih prefer. Harga dia ni sangat murah, kalau nak beli 100 biji atau 400 biji pun masih sangat-sangat berbaloi tau. Dalam beg kuning ada pilihan dia.
+104.70-110.00  S11  src 238.50-244.25  (2 pc)  So fish oil daripada StemLabs ni, kandungan dia 1000 mg fish oil dan dia juga
+110.00-113.20  S11b  src 248.40-251.60  (1 pc)  EPA 300 dan juga DHA 200 lah.
+113.20-116.62  S12  src 255.90-259.60  (2 pc)  Kalau dewasa tu biasanya makan 2 atau 3 biji,
+116.62-122.52  S12b  src 262.60-268.50  (1 pc)  tapi kalau budak kan, sekitar umur 6 tahun dah boleh makan, tapi 1 biji je lah.
+122.52-130.33  S13  src 271.00-279.10  (2 pc)  DHA ni baik untuk otak tau dan baik untuk kita punya mata juga. Kalau EPA pula, kita punya sendi, baik untuk kita punya jantung.
+130.33-133.83  S14  src 304.40-307.90  (1 pc)  EPA pula dia berfungsi sebagai anti radang tau.
+133.83-145.70  S15  src 307.92-320.40  (4 pc)  So dalam ni ada 30 biji boleh makan. Kalau 1 hari 2 biji, dalam 15 hari dah habislah. So better ambil 2 atau 3 botol buat stok awal, sebab stok dia sangat cepat habis tau.
+145.70-153.33  S16  src 320.60-328.70  (3 pc)  Boleh klik dekat beg kuning. Seller pun banyak tengah buat promo ni, promo 11.11 pun ada, dan harga dia sangat murah daripada biasa.
+153.33-159.68  S17  src 365.35-371.70  (1 pc)  Boleh tengok dekat beg kuning, kalau ada voucher tu boleh claim, kalau harga tu tengah murah daripada biasa, boleh borong 2-3 botol terus.
+
+  cutaway   2.45-  3.85
+  cutaway   3.85-  5.23
+  cutaway   5.23-  5.73
+  cutaway   5.73-  8.00
+  cutaway   8.00-  9.02
+  cutaway   9.02- 11.57
+  cutaway  18.33- 22.63
+  cutaway  22.63- 28.57
+  cutaway  28.57- 31.60
+  cutaway  31.60- 38.57
+  cutaway  41.25- 45.87
+  cutaway  45.87- 51.38
+  cutaway  51.38- 54.98
+  cutaway  54.98- 65.68
+  cutaway  65.68- 72.88
+  cutaway  72.88- 79.97
+  cutaway  83.87- 86.37
+  cutaway  86.37- 94.85
+  cutaway  94.85-104.70
+  cutaway 104.70-110.00
+  cutaway 110.00-113.20
+  cutaway 113.20-122.52
+  cutaway 122.52-125.72
+  cutaway 125.72-126.48
+  cutaway 126.48-128.83
+  cutaway 128.83-130.33
+  cutaway 133.83-136.77
+  cutaway 136.77-145.70
+  cutaway 153.33-156.00

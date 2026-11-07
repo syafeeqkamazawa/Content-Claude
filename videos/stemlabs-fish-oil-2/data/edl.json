@@ -1,0 +1,692 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "7 Nov: 'Ada 5 video baru' — VID_20261107_170617 in the Drive root → StemLabs Fish Oil #2. Caption: the 6 Nov default on the wall above the head (top 300). Many repeated takes cut to the cleanest one each; 'tekanan darah', 'saluran pipe darah' and 'darah sumbat … sangat digalakkan' dropped (TikTok risk, owner 5 Nov). Overlays on every explanation (owner 6 Nov): close-ups of the bottle and the cup of softgels in the owner's hands, KKM / Halal / figure labels, realistic AI photos (x-ray brain / nerves / heart / eyes / knee, focused man, New Zealand, pharmacy shelf and shopfront, online shopping, mother and son, softgels, boxes of stock).",
+ "_note": "StemLabs Fish Oil #2 — A-roll assets/a.mp4 = VID_20261107_170617 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. KKM hologram, halal JAKIM, made in New Zealand, 30 / 100 / 400 softgel packs, 1000 mg, EPA 300, DHA 200, 2-3 a day for adults / 1 for children from 6, promo 11.11, voucher are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 9.5,
+   "out": 15.24,
+   "zoom": 1.0,
+   "text": "Supplement yang baik untuk kita punya otak, kita punya saraf, kita punya jantung,",
+   "note": "HOOK — 'kita punya tekanan darah' (15.2-17.5) dropped (TikTok risk, owner 5 Nov)"
+  },
+  {
+   "id": "S01b",
+   "in": 17.55,
+   "out": 25.5,
+   "zoom": 1.0,
+   "text": "kita punya mata, kita punya ingatan kita, sendi, kita punya lutut kita, ni adalah fish oil.",
+   "note": ""
+  },
+  {
+   "id": "S02",
+   "in": 34.8,
+   "out": 44.56,
+   "zoom": 1.0,
+   "text": "Bila tengok harga tu mula-mula saya risau juga, kenapa murah sangat? Tapi memang bila saya dah check, dia adalah original, so jangan risau.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 44.56,
+   "out": 50.5,
+   "zoom": 1.0,
+   "text": "Fish oil daripada StemLabs ni memang official daripada store dia.",
+   "note": "'ok' (50.5-55.4) dropped"
+  },
+  {
+   "id": "S04",
+   "in": 55.4,
+   "out": 66.0,
+   "zoom": 1.0,
+   "text": "Yang paling penting, dia ada hologram KKM tau. Maksudnya dia dah jual dekat offline dan dekat farmasi pun ada tau. Tapi harga dia lebih mahal lah.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 66.7,
+   "out": 74.0,
+   "zoom": 1.0,
+   "text": "So kalau beli dekat beg kuning, jauh lebih murah. Dan dia juga ada halal JAKIM, korang boleh check juga dia punya nombor.",
+   "note": "repeated 'korang boleh cek juga' (74.9-85.6) dropped"
+  },
+  {
+   "id": "S06",
+   "in": 85.6,
+   "out": 91.12,
+   "zoom": 1.0,
+   "text": "Fish oil dari StemLabs ni made in New Zealand tau, manufacture dia dekat New Zealand juga.",
+   "note": ""
+  },
+  {
+   "id": "S06b",
+   "in": 94.8,
+   "out": 98.4,
+   "zoom": 1.0,
+   "text": "Expired date pun dia ada tulis lah, so tak payah risau, memang legit.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 98.4,
+   "out": 106.7,
+   "zoom": 1.0,
+   "text": "Fish oil daripada StemLabs ni, apa yang saya boleh kata, ini adalah fish oil yang harga dia memang sangat murah,",
+   "note": "'ok' (106.7-115) and the false start 'antara brand yang kau' (113.7-114.9) dropped"
+  },
+  {
+   "id": "S07b",
+   "in": 115.06,
+   "out": 117.92,
+   "zoom": 1.0,
+   "text": "antara brand yang jual fish oil yang sangat murah tau.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 124.9,
+   "out": 140.6,
+   "zoom": 1.0,
+   "text": "Kalau dekat farmasi memang kena jual mahal sikit sebab farmasi itu pun sewa bangunan, memang dia akan jadi mahal. Tapi kalau beli dekat beg kuning memang jauh lebih murah, sebab dah tak ada dah kos-kos nak sewa bangunan dan sebagainya.",
+   "note": "first take (119.7-123) dropped"
+  },
+  {
+   "id": "S09",
+   "in": 146.5,
+   "out": 150.4,
+   "zoom": 1.0,
+   "text": "Jadi sebab tu harganya lebih murah. So korang jangan risau,",
+   "note": ""
+  },
+  {
+   "id": "S09b",
+   "in": 153.9,
+   "out": 156.4,
+   "zoom": 1.0,
+   "text": "ini adalah original daripada StemLabs tau.",
+   "note": "first 'ini adalah original daripada' (150.9-153.9) dropped — said twice"
+  },
+  {
+   "id": "S10",
+   "in": 171.45,
+   "out": 191.0,
+   "zoom": 1.0,
+   "text": "Yang saya pegang ni satu botol 30 biji. Boleh tengok dekat beg kuning kalau ada pilihan, boleh tengok mana yang korang lebih prefer. Harga dia ni sangat murah, kalau nak beli 100 biji atau 400 biji pun masih sangat-sangat berbaloi tau. Dalam beg kuning ada pilihan dia.",
+   "note": "pause (156.4-170.5) dropped"
+  },
+  {
+   "id": "S11",
+   "in": 238.5,
+   "out": 244.25,
+   "zoom": 1.0,
+   "text": "So fish oil daripada StemLabs ni, kandungan dia 1000 mg fish oil dan dia juga",
+   "note": "the stumbling figure takes (191-238) dropped"
+  },
+  {
+   "id": "S11b",
+   "in": 248.4,
+   "out": 251.6,
+   "zoom": 1.0,
+   "text": "EPA 300 dan juga DHA 200 lah.",
+   "note": "repeated 'ada EPA 300 dan juga dan dia juga ada' (244.3-248.4) dropped"
+  },
+  {
+   "id": "S12",
+   "in": 255.9,
+   "out": 259.6,
+   "zoom": 1.0,
+   "text": "Kalau dewasa tu biasanya makan 2 atau 3 biji,",
+   "note": ""
+  },
+  {
+   "id": "S12b",
+   "in": 262.6,
+   "out": 268.5,
+   "zoom": 1.0,
+   "text": "tapi kalau budak kan, sekitar umur 6 tahun dah boleh makan, tapi 1 biji je lah.",
+   "note": "'tapi kalau budak, tengok dekat sini' (259.6-262.6) dropped"
+  },
+  {
+   "id": "S13",
+   "in": 271.0,
+   "out": 279.1,
+   "zoom": 1.0,
+   "text": "DHA ni baik untuk otak tau dan baik untuk kita punya mata juga. Kalau EPA pula, kita punya sendi, baik untuk kita punya jantung.",
+   "note": "'tekanan darah, saluran pipe darah, siapa yang ada masalah darah sumbat … sangat digalakkan' (279-292) dropped — TikTok-risk claim"
+  },
+  {
+   "id": "S14",
+   "in": 304.4,
+   "out": 307.9,
+   "zoom": 1.0,
+   "text": "EPA pula dia berfungsi sebagai anti radang tau.",
+   "note": "three earlier takes (295-304) dropped"
+  },
+  {
+   "id": "S15",
+   "in": 307.92,
+   "out": 320.4,
+   "zoom": 1.0,
+   "text": "So dalam ni ada 30 biji boleh makan. Kalau 1 hari 2 biji, dalam 15 hari dah habislah. So better ambil 2 atau 3 botol buat stok awal, sebab stok dia sangat cepat habis tau.",
+   "note": ""
+  },
+  {
+   "id": "S16",
+   "in": 320.6,
+   "out": 328.7,
+   "zoom": 1.0,
+   "text": "Boleh klik dekat beg kuning. Seller pun banyak tengah buat promo ni, promo 11.11 pun ada, dan harga dia sangat murah daripada biasa.",
+   "note": "the messy CTA retakes (328.7-362.6) dropped"
+  },
+  {
+   "id": "S17",
+   "in": 365.35,
+   "out": 371.7,
+   "zoom": 1.04,
+   "text": "Boleh tengok dekat beg kuning, kalau ada voucher tu boleh claim, kalau harga tu tengah murah daripada biasa, boleh borong 2-3 botol terus.",
+   "note": "CTA — first 'boleh tengok dekat beg kuning, kalau ada' (362.7-365.3) dropped, said twice"
+  }
+ ],
+ "labels": [
+  {
+   "text": "KKM",
+   "from": [
+    "S04",
+    "KKM"
+   ],
+   "to": [
+    "S04",
+    "maksudnya"
+   ],
+   "top": 170
+  },
+  {
+   "text": "Halal JAKIM",
+   "from": [
+    "S05",
+    "halal"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "top": 170
+  },
+  {
+   "text": "1000 mg Fish Oil",
+   "from": [
+    "S11",
+    "1000"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "top": 170
+  },
+  {
+   "text": "EPA 300 • DHA 200",
+   "from": [
+    "S11b",
+    "start"
+   ],
+   "to": [
+    "S11b",
+    "end"
+   ],
+   "top": 170
+  }
+ ],
+ "punch": [
+  [
+   "S17",
+   "borong",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "tapi"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 41.0,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "50% 75%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "maksudnya"
+   ],
+   "src": 56.0,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "50% 75%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S05",
+    "dan"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 70.0,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "50% 75%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S06b",
+    "start"
+   ],
+   "to": [
+    "S06b",
+    "end"
+   ],
+   "src": 95.0,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "50% 75%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S09b",
+    "start"
+   ],
+   "to": [
+    "S09b",
+    "end"
+   ],
+   "src": 154.0,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "50% 75%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "harga"
+   ],
+   "src": 171.0,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "50% 75%"
+  },
+  {
+   "id": "C6b",
+   "from": [
+    "S10",
+    "harga"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 181.5,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "62% 74%"
+  },
+  {
+   "id": "C7",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 239.0,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "50% 75%"
+  },
+  {
+   "id": "C7b",
+   "from": [
+    "S11b",
+    "start"
+   ],
+   "to": [
+    "S11b",
+    "end"
+   ],
+   "src": 248.5,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "65% 78%"
+  },
+  {
+   "id": "C8",
+   "from": [
+    "S15",
+    "start"
+   ],
+   "to": [
+    "S15",
+    "kalau"
+   ],
+   "src": 308.0,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "50% 75%"
+  },
+  {
+   "id": "C9",
+   "from": [
+    "S17",
+    "start"
+   ],
+   "to": [
+    "S17",
+    "kalau#2"
+   ],
+   "src": 365.5,
+   "note": "close-up of the StemLabs bottle and the cup of softgels in the owner's hands",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "50% 75%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "x_otak",
+   "from": [
+    "S01",
+    "otak,"
+   ],
+   "to": [
+    "S01",
+    "saraf,"
+   ],
+   "note": "AI: x-ray otak"
+  },
+  {
+   "id": "x_saraf",
+   "from": [
+    "S01",
+    "saraf,"
+   ],
+   "to": [
+    "S01",
+    "jantung,"
+   ],
+   "note": "AI: x-ray saraf"
+  },
+  {
+   "id": "x_jantung",
+   "from": [
+    "S01",
+    "jantung,"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: x-ray jantung"
+  },
+  {
+   "id": "x_mata",
+   "from": [
+    "S01b",
+    "start"
+   ],
+   "to": [
+    "S01b",
+    "ingatan"
+   ],
+   "note": "AI: x-ray mata"
+  },
+  {
+   "id": "fokus",
+   "from": [
+    "S01b",
+    "ingatan"
+   ],
+   "to": [
+    "S01b",
+    "sendi,"
+   ],
+   "note": "AI: lelaki fokus bekerja"
+  },
+  {
+   "id": "x_lutut",
+   "from": [
+    "S01b",
+    "sendi,"
+   ],
+   "to": [
+    "S01b",
+    "ni"
+   ],
+   "note": "AI: x-ray lutut"
+  },
+  {
+   "id": "belanja",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: wanita bertudung membeli online"
+  },
+  {
+   "id": "rak",
+   "from": [
+    "S04",
+    "maksudnya"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: rak suplemen di farmasi"
+  },
+  {
+   "id": "nz",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: pemandangan New Zealand (tiada orang)"
+  },
+  {
+   "id": "softgel",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07b",
+    "end"
+   ],
+   "note": "AI: softgel minyak ikan"
+  },
+  {
+   "id": "farmasi",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "tapi"
+   ],
+   "note": "AI: kedai farmasi (tiada orang)"
+  },
+  {
+   "id": "belanja",
+   "from": [
+    "S08",
+    "tapi"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "note": "AI: wanita bertudung membeli online"
+  },
+  {
+   "id": "budak",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12b",
+    "end"
+   ],
+   "note": "AI: ibu bertudung & anak (aurat ditutup)"
+  },
+  {
+   "id": "x_otak",
+   "from": [
+    "S13",
+    "start"
+   ],
+   "to": [
+    "S13",
+    "mata"
+   ],
+   "note": "AI: x-ray otak"
+  },
+  {
+   "id": "x_mata",
+   "from": [
+    "S13",
+    "mata"
+   ],
+   "to": [
+    "S13",
+    "kalau"
+   ],
+   "note": "AI: x-ray mata"
+  },
+  {
+   "id": "x_lutut",
+   "from": [
+    "S13",
+    "kalau"
+   ],
+   "to": [
+    "S13",
+    "baik#3"
+   ],
+   "note": "AI: x-ray lutut"
+  },
+  {
+   "id": "x_jantung",
+   "from": [
+    "S13",
+    "baik#3"
+   ],
+   "to": [
+    "S13",
+    "end"
+   ],
+   "note": "AI: x-ray jantung"
+  },
+  {
+   "id": "stok",
+   "from": [
+    "S15",
+    "kalau"
+   ],
+   "to": [
+    "S15",
+    "end"
+   ],
+   "note": "AI: kotak stok (tiada orang)"
+  }
+ ],
+ "theme": {
+  "key": "#2FA8E0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "stemlabs"
+ ],
+ "keywords": []
+}
