@@ -1,0 +1,341 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "50% 62%",
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "7 Nov: 'Set Pisau Dessini' — new clip VID_20261107_094425 in Drive folder 16e_wkdi… → #3 (093343 = #1, 110642 = #2). Filmed wide across the kitchen, so the A-roll is zoomed ×1.75 toward the counter (zoom_origin 50% 62%). Caption: the 6 Nov default on the wall above the head (top 300) — the set sits on the counter low in the frame. Overlays on every explanation (owner 6 Nov): tight close-ups of the owner's own set first; realistic AI photos (hands in long sleeves only, or no people) for cutting fish / chicken, the scissors and a gift.",
+ "_note": "Pisau Dessini #3 — A-roll assets/a.mp4 = VID_20261107_094425 (rear camera, not mirrored). assets/b.mp4 = the same clip, muted. Price talk and promo 11.11 are the owner's own words; no price shown.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 18.75,
+   "out": 40.3,
+   "zoom": 1.75,
+   "text": "Set pisau Dessini, harga dia masya-Allah murah sangat. Sekarang ni promotion 11.11, seller buat promotion harga kau-kau. Cuba tengok dekat beg kuning berapa harga dia, mesti terkejut. Okay, sementara harga murah, baik ibu-ibu, akak-akak, beli terus.",
+   "note": "HOOK — greeting and the unclear 'saya nak …' (10-17.7) dropped"
+  },
+  {
+   "id": "S02",
+   "in": 42.5,
+   "out": 49.45,
+   "zoom": 1.75,
+   "text": "Kita ada satu, dua, tiga, empat, lima. Lima pisau, satu pengasah, satu gunting.",
+   "note": "the recounting (50-63.7) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 63.75,
+   "out": 66.35,
+   "zoom": 1.75,
+   "text": "Lapan tu termasuk holder.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 73.5,
+   "out": 77.05,
+   "zoom": 1.75,
+   "text": "Jom kita buka dulu, bismillah.",
+   "note": "doubled 'jom' dropped"
+  },
+  {
+   "id": "S05",
+   "in": 94.0,
+   "out": 98.5,
+   "zoom": 1.75,
+   "text": "Masya-Allah, tengok eh, boleh pusing.",
+   "note": "repeated 'boleh pusing' dropped"
+  },
+  {
+   "id": "S06",
+   "in": 100.45,
+   "out": 108.95,
+   "zoom": 1.75,
+   "text": "Kalau kita pegang ni kan, tapak dia boleh pusing.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 110.35,
+   "out": 114.95,
+   "zoom": 1.75,
+   "text": "Lepas tu kita pasang pisau dulu, pisau yang kecil sekali.",
+   "note": "unclear 'pisau apa ni, ketik pisau dia' (115.9-122.5) dropped"
+  },
+  {
+   "id": "S08",
+   "in": 125.9,
+   "out": 132.2,
+   "zoom": 1.75,
+   "text": "Okay next, pengasah. Ini pengasah pisau tau.",
+   "note": "unclear tail (133.5-140.7) dropped"
+  },
+  {
+   "id": "S09",
+   "in": 144.0,
+   "out": 145.62,
+   "zoom": 1.75,
+   "text": "Yang seterusnya,",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 148.2,
+   "out": 149.22,
+   "zoom": 1.75,
+   "text": "pisau pemotong daging.",
+   "note": "stumble 'abad, abad sayang' dropped"
+  },
+  {
+   "id": "S11",
+   "in": 150.85,
+   "out": 153.4,
+   "zoom": 1.75,
+   "text": "Semua pisau ni, hulu dia tak ada,",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 159.45,
+   "out": 163.52,
+   "zoom": 1.75,
+   "text": "dia hulu ke hujung ni dia bercantum, dia stainless steel,",
+   "note": "hesitation 'apa tu orang kata, tak, tak separuh-separuh' dropped"
+  },
+  {
+   "id": "S13",
+   "in": 165.6,
+   "out": 170.5,
+   "zoom": 1.75,
+   "text": "so memang tak risau lah hulu tercabut, insya-Allah.",
+   "note": "repeated 'orang kata tak' dropped"
+  },
+  {
+   "id": "S14",
+   "in": 179.55,
+   "out": 184.35,
+   "zoom": 1.75,
+   "text": "Pisau memotong ikan pun boleh kot, ayam juga kan.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 189.95,
+   "out": 200.8,
+   "zoom": 1.75,
+   "text": "Gunting dia kat tengah ni ada getah tau, korang tak rasa sakit bila korang nak potong apa-apa berkaitan dengan masakan ni. Korang nak potong tak sakit sebab ada getah kat tengah ni.",
+   "note": "first 'gunting' and the search for the scissors' slot (202-217) dropped"
+  },
+  {
+   "id": "S16",
+   "in": 220.25,
+   "out": 227.7,
+   "zoom": 1.75,
+   "text": "Seterusnya, pisau yang macam nak potong ikan kot, potong ikan tu, potong sayur boleh juga ni, dia panjang sikit tu.",
+   "note": ""
+  },
+  {
+   "id": "S17",
+   "in": 237.9,
+   "out": 244.26,
+   "zoom": 1.75,
+   "text": "Yang terakhir, pisau sederhana lah, potong sayur boleh, potong bawang kan.",
+   "note": ""
+  },
+  {
+   "id": "S18",
+   "in": 249.45,
+   "out": 251.1,
+   "zoom": 1.75,
+   "text": "So complete.",
+   "note": ""
+  },
+  {
+   "id": "S19",
+   "in": 262.4,
+   "out": 264.9,
+   "zoom": 1.75,
+   "text": "Baru lah nampak style.",
+   "note": ""
+  },
+  {
+   "id": "S20",
+   "in": 274.0,
+   "out": 283.55,
+   "zoom": 1.75,
+   "text": "So nampak tak ibu-ibu akak-akak, kalau lawa macam ni pun kau tak beli lagi tak tahulah, dengan harga yang sangat mampu milik.",
+   "note": ""
+  },
+  {
+   "id": "S21",
+   "in": 284.62,
+   "out": 285.84,
+   "zoom": 1.75,
+   "text": "Harga tu masih",
+   "note": "'teman-teman' dropped"
+  },
+  {
+   "id": "S22",
+   "in": 287.14,
+   "out": 304.5,
+   "zoom": 1.82,
+   "text": "dalam tempoh promosi, harga yang sangat murah. Ibu-ibu kakak-kakak beli terus, ataupun abang-abang ayah-ayah belikan lah untuk ibu-ibu, belikan untuk pasangan, insya-Allah memang sangat gembira dia orang. So boleh check out di beg kuning sekarang.",
+   "note": "CTA"
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 96.0,
+   "note": "close-up of the owner's own Dessini set on the counter",
+   "push": [
+    2.3,
+    2.5
+   ],
+   "origin": "50% 70%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 112.0,
+   "note": "close-up of the owner's own Dessini set on the counter",
+   "push": [
+    2.5,
+    2.7
+   ],
+   "origin": "50% 70%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S13",
+    "end"
+   ],
+   "src": 150.0,
+   "note": "close-up of the owner's own Dessini set on the counter",
+   "push": [
+    2.3,
+    2.5
+   ],
+   "origin": "50% 68%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S16",
+    "start"
+   ],
+   "to": [
+    "S17",
+    "end"
+   ],
+   "src": 222.0,
+   "note": "close-up of the owner's own Dessini set on the counter",
+   "push": [
+    2.5,
+    2.7
+   ],
+   "origin": "50% 68%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S18",
+    "start"
+   ],
+   "to": [
+    "S19",
+    "end"
+   ],
+   "src": 262.4,
+   "note": "close-up of the owner's own Dessini set on the counter",
+   "push": [
+    2.2,
+    2.4
+   ],
+   "origin": "50% 68%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "ikan",
+   "from": [
+    "S14",
+    "start"
+   ],
+   "to": [
+    "S14",
+    "end"
+   ],
+   "note": "AI: potong ikan & ayam (tangan berlengan panjang)"
+  },
+  {
+   "id": "gunting",
+   "from": [
+    "S15",
+    "korang"
+   ],
+   "to": [
+    "S15",
+    "end"
+   ],
+   "note": "AI: gunting dapur (tangan berlengan panjang)"
+  },
+  {
+   "id": "hadiah",
+   "from": [
+    "S22",
+    "ataupun"
+   ],
+   "to": [
+    "S22",
+    "insya-Allah"
+   ],
+   "note": "AI: hadiah (tiada orang)"
+  }
+ ],
+ "theme": {
+  "key": "#D7263D",
+  "brand": "#E9E9E9"
+ },
+ "brand_words": [
+  "dessini"
+ ],
+ "keywords": []
+}
