@@ -1,0 +1,408 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "7 Nov: 'Ada 5 video baru' — VID_20261107_165756 in the Drive root → VTEAY Fish Oil #4 (petua memilih omega-3). Caption: the 6 Nov default on the wall above the head (top 300). Many repeated takes cut to the cleanest one each; 'lenguh-lenguh, kebas … dapat bantu' dropped (TikTok risk, owner 5 Nov). Overlays on every explanation (owner 6 Nov): close-ups of the bottle in the owner's hand, EPA / DHA / KKM / figure labels, realistic AI photos (pharmacy shelf, x-ray heart / nerves / brain, focused man, online shopping, boxes of stock, family).",
+ "_note": "VTEAY Omega-3 Fish Oil #4 — A-roll assets/a.mp4 = VID_20261107_165756 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. 2500 mg fish oil, 483 EPA, 644 DHA, KKM, promo 11.11, voucher are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 4.22,
+   "out": 10.85,
+   "zoom": 1.0,
+   "text": "Petua untuk kita nak pilih Omega-3 fish oil yang berkualiti, kena tengok kandungan EPA dan DHA.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 24.88,
+   "out": 29.35,
+   "zoom": 1.0,
+   "text": "Jangan tengok pada label, packaging ataupun pada harga semata-mata je.",
+   "note": "two earlier takes (10.6-24.9) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 29.54,
+   "out": 36.48,
+   "zoom": 1.0,
+   "text": "Saya nak syorkan kepada anda semua Omega-3 fish oil ni daripada VTEAY ni, ada kelulusan daripada KKM tau.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 36.48,
+   "out": 41.78,
+   "zoom": 1.0,
+   "text": "So jangan risau, maknanya kita boleh gunakan secara selamat, yakin dan berkualiti tau.",
+   "note": "'omega 3 fish oil ni' false start (41.8-45.5) and the stumbling figure takes (45.5-64) dropped"
+  },
+  {
+   "id": "S05",
+   "in": 64.0,
+   "out": 73.78,
+   "zoom": 1.0,
+   "text": "Dalam satu botol ni ada 2500 mg fish oil, 483 EPA dan juga 644 DHA, dan DHA yang tinggi macam ni",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 73.78,
+   "out": 79.5,
+   "zoom": 1.0,
+   "text": "dapat bantu untuk support kesihatan jantung kita, dapat bantu untuk support kesihatan saraf kita.",
+   "note": "'yang kita rasa selalu lenguh-lenguh, kebas … dapat bantu' (79.5-84.4) dropped — TikTok-risk claim (as VTEAY #1); first take of the brain line (85.9-89.2) dropped"
+  },
+  {
+   "id": "S07",
+   "in": 92.36,
+   "out": 98.16,
+   "zoom": 1.0,
+   "text": "Dan juga dapat bantu untuk support sistem otak kita tau, supaya lebih fokus dan daya ingatan yang lebih baik.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 117.1,
+   "out": 120.66,
+   "zoom": 1.0,
+   "text": "Omega-3 fish oil dari VTEAY ni sekarang harga tengah murah tau,",
+   "note": "repeated takes (98.2-117) dropped"
+  },
+  {
+   "id": "S09",
+   "in": 120.78,
+   "out": 123.48,
+   "zoom": 1.0,
+   "text": "seller tengah buat promo, banyak sekarang ni.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 123.4,
+   "out": 132.4,
+   "zoom": 1.0,
+   "text": "Tambah pula sekarang ni promo 11.11 sedang berlangsung tau. Cuba tengok dekat beg kuning, kalau ada voucher claim terus, kalau harga tu tengah murah daripada biasa,",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 133.18,
+   "out": 141.65,
+   "zoom": 1.0,
+   "text": "jangan tunggu lagi, terus check out, dan jangan beli satu botol, beli dua tiga botol terus, sebab apa stok dia cepat sangat habis, bila-bila masa dia boleh habis.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 142.36,
+   "out": 149.1,
+   "zoom": 1.0,
+   "text": "So kepada kawan-kawan, ibu ayah, abang-abang, pakcik-pakcik, kakak-kakak,",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 149.08,
+   "out": 154.25,
+   "zoom": 1.04,
+   "text": "boleh klik segera sementara ada stok dan masih lagi harga promosi itu, boleh dapatkan terus di beg kuning ni.",
+   "note": "CTA"
+  }
+ ],
+ "labels": [
+  {
+   "text": "EPA • DHA",
+   "from": [
+    "S01",
+    "EPA"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "top": 170
+  },
+  {
+   "text": "KKM",
+   "from": [
+    "S03",
+    "KKM"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "top": 170
+  },
+  {
+   "text": "2500 mg Fish Oil",
+   "from": [
+    "S05",
+    "2500"
+   ],
+   "to": [
+    "S05",
+    "483"
+   ],
+   "top": 170
+  },
+  {
+   "text": "483 mg EPA",
+   "from": [
+    "S05",
+    "483"
+   ],
+   "to": [
+    "S05",
+    "644"
+   ],
+   "top": 170
+  },
+  {
+   "text": "644 mg DHA",
+   "from": [
+    "S05",
+    "644"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "top": 170
+  }
+ ],
+ "punch": [
+  [
+   "S13",
+   "boleh",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 31.0,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.5,
+    1.6
+   ],
+   "origin": "50% 79%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 37.5,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "50% 77%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 66.0,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "43% 69%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 117.5,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "38% 75%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "dan"
+   ],
+   "src": 134.0,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.5,
+    1.6
+   ],
+   "origin": "41% 79%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "rak",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: rak suplemen di farmasi"
+  },
+  {
+   "id": "x_jantung",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "saraf"
+   ],
+   "note": "AI: x-ray jantung"
+  },
+  {
+   "id": "x_saraf",
+   "from": [
+    "S06",
+    "saraf"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: x-ray saraf"
+  },
+  {
+   "id": "x_otak",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "supaya"
+   ],
+   "note": "AI: x-ray otak"
+  },
+  {
+   "id": "fokus",
+   "from": [
+    "S07",
+    "supaya"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "note": "AI: lelaki fokus bekerja"
+  },
+  {
+   "id": "belanja",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "note": "AI: wanita bertudung membeli online"
+  },
+  {
+   "id": "stok",
+   "from": [
+    "S11",
+    "dan"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "note": "AI: kotak stok (tiada orang)"
+  },
+  {
+   "id": "keluarga",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "abang-abang,"
+   ],
+   "note": "AI: keluarga (aurat ditutup)"
+  },
+  {
+   "id": "ibubapa2",
+   "from": [
+    "S12",
+    "abang-abang,"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "note": "AI: keluarga di rumah (aurat ditutup)"
+  }
+ ],
+ "theme": {
+  "key": "#5FB8E0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "vteay"
+ ],
+ "keywords": []
+}
