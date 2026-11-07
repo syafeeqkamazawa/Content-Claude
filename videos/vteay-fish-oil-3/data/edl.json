@@ -1,0 +1,390 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "7 Nov: 'Ada 5 video baru' — VID_20261107_165405 in the Drive root → VTEAY Fish Oil #3. Caption: the 6 Nov default on the wall above the head (top 300). The opening ('boleh ambil 2 biji sehari kalau dah lupa, mata kabur, badan rasa sakit') dropped as a TikTok-risk claim (owner 5 Nov); the video opens on 'Omega-3 fish oil yang sangat bagus untuk badan'. Overlays on every explanation (owner 6 Nov): close-ups of the bottle in the owner's hand and realistic AI photos (x-ray brain / heart / knee / body / blood vessels, softgels, a softgel with water, online shopping, boxes of stock).",
+ "_note": "VTEAY Omega-3 Fish Oil #3 — A-roll assets/a.mp4 = VID_20261107_165405 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. 30 / 60 / 120 softgel packs, 2 a day, KKM, no fishy smell, promo 11.11, voucher are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 30.6,
+   "out": 34.98,
+   "zoom": 1.0,
+   "text": "Yang ada pada saya ni Omega-3 fish oil yang sangat bagus untuk badan.",
+   "note": "HOOK — the opening 'boleh ambil 2 biji sehari kalau dah lupa, mata kabur, badan sakit' (0-30, several takes) dropped: symptoms tied to a dose = TikTok-risk claim (owner 5 Nov)"
+  },
+  {
+   "id": "S02",
+   "in": 34.98,
+   "out": 40.95,
+   "zoom": 1.0,
+   "text": "Satu supplement je dah baik untuk otak, jantung, lutut, hati, sendi, pembuluh darah.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 41.66,
+   "out": 44.95,
+   "zoom": 1.0,
+   "text": "Yang ni korang, Omega-3 fish oil tau daripada VTEAY.",
+   "note": "'ok' (45-52) dropped"
+  },
+  {
+   "id": "S04",
+   "in": 52.1,
+   "out": 54.95,
+   "zoom": 1.0,
+   "text": "Dalam satu botol ni ada 30 biji.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 56.14,
+   "out": 60.1,
+   "zoom": 1.0,
+   "text": "Korang juga boleh pilih yang ada 60 biji, ada 120 biji pun.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 61.18,
+   "out": 62.9,
+   "zoom": 1.0,
+   "text": "Korang boleh pilih dekat beg kuning.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 64.0,
+   "out": 66.75,
+   "zoom": 1.0,
+   "text": "Korang jangan risau tau, yang ni KKM dah approve tau.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 67.9,
+   "out": 71.4,
+   "zoom": 1.0,
+   "text": "Awak amalkan je 2 biji sehari, rasa dia sedap je.",
+   "note": "pause (71.4-76) dropped"
+  },
+  {
+   "id": "S09",
+   "in": 76.0,
+   "out": 81.4,
+   "zoom": 1.0,
+   "text": "Nak kata sedap tu bukanlah, maksudnya tak ada bau hanyir, awak telan je.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 81.4,
+   "out": 90.4,
+   "zoom": 1.0,
+   "text": "So siapa yang nak dapatkan, boleh dapatkan dekat beg kuning. Sekarang ni seller tengah buat promo tau, 11.11 punya promo, harga dia mungkin lebih rendah daripada biasa.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 90.65,
+   "out": 93.25,
+   "zoom": 1.0,
+   "text": "Cuba tengok dekat beg kuning. Kalau ada voucher boleh claim terus.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 93.35,
+   "out": 101.6,
+   "zoom": 1.0,
+   "text": "Kalau harga tu memang tengah murah dan stok masih ada, boleh ambil. Jangan ambil satu botol, ambil dua ke tiga botol sebab stok dia bila-bila masa dia boleh habis.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 102.2,
+   "out": 103.2,
+   "zoom": 1.04,
+   "text": "Dapatkan di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "labels": [
+  {
+   "text": "30 • 60 • 120 biji",
+   "from": [
+    "S05",
+    "60"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "top": 170
+  },
+  {
+   "text": "KKM",
+   "from": [
+    "S07",
+    "KKM"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "top": 170
+  }
+ ],
+ "punch": [
+  [
+   "S13",
+   "dapatkan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 42.0,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "44% 68%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 52.5,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "44% 68%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 57.0,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "44% 68%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 64.5,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "44% 68%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "src": 91.0,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "44% 68%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "S12",
+    "jangan"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 97.5,
+   "note": "close-up of the VTEAY bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "44% 68%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "x_otak",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "jantung,"
+   ],
+   "note": "AI: x-ray otak"
+  },
+  {
+   "id": "x_jantung",
+   "from": [
+    "S02",
+    "jantung,"
+   ],
+   "to": [
+    "S02",
+    "lutut,"
+   ],
+   "note": "AI: x-ray jantung"
+  },
+  {
+   "id": "x_lutut",
+   "from": [
+    "S02",
+    "lutut,"
+   ],
+   "to": [
+    "S02",
+    "hati,"
+   ],
+   "note": "AI: x-ray lutut"
+  },
+  {
+   "id": "x_badan",
+   "from": [
+    "S02",
+    "hati,"
+   ],
+   "to": [
+    "S02",
+    "pembuluh"
+   ],
+   "note": "AI: x-ray badan"
+  },
+  {
+   "id": "x_darah",
+   "from": [
+    "S02",
+    "pembuluh"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: x-ray salur darah"
+  },
+  {
+   "id": "softgel",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "note": "AI: softgel minyak ikan"
+  },
+  {
+   "id": "telan",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "note": "AI: softgel & air (tangan berlengan panjang)"
+  },
+  {
+   "id": "belanja",
+   "from": [
+    "S10",
+    "sekarang"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "note": "AI: wanita bertudung membeli online"
+  },
+  {
+   "id": "stok",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "jangan"
+   ],
+   "note": "AI: kotak stok (tiada orang)"
+  }
+ ],
+ "theme": {
+  "key": "#5FB8E0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "vteay"
+ ],
+ "keywords": []
+}

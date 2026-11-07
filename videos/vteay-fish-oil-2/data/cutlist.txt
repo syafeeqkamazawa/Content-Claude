@@ -1,0 +1,30 @@
+TOTAL 58.30s  (14 A-roll segments, 6 B-roll shots, 7 photos, 3 audio fx, 146 caption cards)
+
+  0.00-  6.35  S01  src  69.80- 76.26  (2 pc)  Saya pilih jenama ni daripada VTEAY sebab dia punya EPA dan DHA dia sangat tinggi.
+  6.35-  8.80  S01b  src  77.40- 79.85  (1 pc)  Dia adalah lebih konsentrat.
+  8.80- 15.38  S02  src  94.56-101.30  (2 pc)  Dalam dia ada 483 mg EPA dan juga 644 mg DHA tau, sangat tinggi.
+ 15.38- 20.13  S03  src 102.90-108.28  (2 pc)  So setiap hari selepas kamu makan, ambil 1 ke 2 biji sahaja dah cukup.
+ 20.13- 24.15  S04  src 113.74-117.75  (1 pc)  Setakat nak jaga kesihatan mata, jantung dan otak, untuk maintain kesihatan itu,
+ 24.15- 26.32  S04b  src 129.10-131.56  (2 pc)  setiap hari sebiji dah memadai.
+ 26.32- 29.20  S05  src 136.34-139.35  (2 pc)  Boleh order dekat link dekat beg kuning saya.
+ 29.20- 32.82  S06  src 144.28-147.90  (1 pc)  Sekarang ni pun seller tengah buat promo 11.11 tau,
+ 32.82- 35.47  S06a  src 149.30-152.40  (2 pc)  harga dia jauh lebih rendah daripada biasa.
+ 35.47- 39.02  S06b  src 153.45-157.00  (1 pc)  Sementara harga tengah murah, boleh beli dekat beg kuning saya.
+ 39.02- 46.48  S07  src 169.48-177.60  (3 pc)  Jadi sekali lagi, yang belum pernah cuba, dapatkan di beg kuning, harga dia sangat-sangat murah.
+ 46.48- 51.75  S08  src 177.60-183.08  (2 pc)  Promo 11.11 ni bila-bila masa dia boleh habis, sementara masih ada stok.
+ 51.75- 57.07  S09  src 183.08-188.86  (3 pc)  Boleh beli terus, jangan beli satu botol, beli dua-tiga botol sebab stok dia cepat sangat habis.
+ 57.07- 58.30  S10  src 188.86-190.10  (1 pc)  Ok, beli di beg kuning.
+
+  cutaway   3.98-  8.80
+  cutaway   8.80- 15.38
+  cutaway  15.38- 20.13
+  cutaway  20.13- 21.97
+  cutaway  21.97- 22.37
+  cutaway  22.37- 24.15
+  cutaway  24.15- 26.32
+  cutaway  26.32- 29.20
+  cutaway  29.20- 35.47
+  cutaway  35.47- 39.02
+  cutaway  39.02- 46.48
+  cutaway  46.48- 51.75
+  cutaway  51.75- 57.07

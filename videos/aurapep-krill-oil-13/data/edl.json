@@ -1,0 +1,500 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 300
+ },
+ "fs_style": "fade",
+ "mirror": true,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.12,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "7 Nov: 'Ada 5 video baru' — VID_20261107_164428 in the Drive root → Aurapep Krill Oil #13 (165018/165405/165756 = VTEAY Fish Oil #2-#4, 170617 = StemLabs Fish Oil #2). Caption: the 6 Nov default on the wall above the head (top 300) — the bottle is held low in front of the chest. Overlays on every explanation (owner 6 Nov): close-ups of the bottle in the owner's hand, ingredient labels top-centre (Omega-3, EPA • DHA, D3 + K2) and realistic AI photos (Antarctic sea, x-ray heart / brain & eyes / body, red krill, softgels, phone search, pharmacy shelf, online shopping, boxes of stock, krill swarm) — mostly reused from earlier Krill videos, one new (carian).",
+ "_note": "Aurapep Krill Oil #13 — A-roll assets/a.mp4 = VID_20261107_164428 (front camera, mirrored back in CSS). assets/b.mp4 = the same clip flipped and muted. 1000 mg, omega-3/EPA/DHA/D3/K2, 2 softgels a day, 40 softgels, 'sampai 200' for other krill oils and promo 11.11 are the owner's own words; no Aurapep price shown.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 3.7,
+   "out": 12.92,
+   "zoom": 1.0,
+   "text": "Krill oil ni mahal tau sebenarnya. Tapi krill oil ni dia lebih padu daripada omega ataupun fish oil.",
+   "note": "HOOK"
+  },
+  {
+   "id": "S02",
+   "in": 12.9,
+   "out": 15.55,
+   "zoom": 1.0,
+   "text": "Tapi ramai tak tahu sebab apa.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 15.5,
+   "out": 17.26,
+   "zoom": 1.0,
+   "text": "Krill oil ni,",
+   "note": "stumble 'ataupun kita nama' (17.3-19.6) dropped"
+  },
+  {
+   "id": "S03b",
+   "in": 19.58,
+   "out": 21.42,
+   "zoom": 1.0,
+   "text": "nama dia Antarctic krill oil ni.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 21.4,
+   "out": 31.0,
+   "zoom": 1.0,
+   "text": "Antara fungsi dia boleh bagi untuk sihatkan jantung, otak kita, mata kita, tulang pun ia juga",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 35.8,
+   "out": 37.75,
+   "zoom": 1.0,
+   "text": "perlindungan antioksidan.",
+   "note": "pause (31-35.8) dropped"
+  },
+  {
+   "id": "S06",
+   "in": 37.72,
+   "out": 43.05,
+   "zoom": 1.0,
+   "text": "Dan krill oil daripada Aurapep ni 1000 mg tau.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 44.05,
+   "out": 56.8,
+   "zoom": 1.0,
+   "text": "Dia ada apa? Ada omega-3, EPA, DHA, masya-Allah. Ada vitamin D3 lagi, vitamin K2, masya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 56.78,
+   "out": 69.2,
+   "zoom": 1.0,
+   "text": "Semua ni dalam softgel yang kita boleh amalkan secara harian. Satu hari ambil dua softgel sahaja. Dalam satu botol ni ada 40 softgel.",
+   "note": "'betul tak tak perlu … betul-betul' (69-81.6) dropped — unclear"
+  },
+  {
+   "id": "S09",
+   "in": 81.55,
+   "out": 92.98,
+   "zoom": 1.0,
+   "text": "Kalau rasa ragu-ragu lagi, jangan risau. Boleh check Google, check GPT, tanya apa fungsi krill oil ni.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 92.98,
+   "out": 95.7,
+   "zoom": 1.0,
+   "text": "Tapi krill oil ni boleh ikutkan mahal,",
+   "note": "repeated 'mahal' (95.7-96.8) dropped"
+  },
+  {
+   "id": "S10b",
+   "in": 96.8,
+   "out": 97.66,
+   "zoom": 1.0,
+   "text": "sangat mahal.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 119.15,
+   "out": 122.16,
+   "zoom": 1.0,
+   "text": "Ada setengah krill oil tu boleh sampai 200 tau.",
+   "note": "moved up next to 'sangat mahal'"
+  },
+  {
+   "id": "S12",
+   "in": 97.85,
+   "out": 103.96,
+   "zoom": 1.0,
+   "text": "Tapi yang ni daripada Aurapep, cuba tengok dekat beg kuning. Sekarang ni pun ada promo 11.11 tau.",
+   "note": "repeated 'tengok dekat beg kuning' (104.2-105.4) dropped"
+  },
+  {
+   "id": "S13",
+   "in": 105.45,
+   "out": 107.48,
+   "zoom": 1.0,
+   "text": "Harga dia berapa? Mesti korang terkejut.",
+   "note": "'kalau ok terkejut ni' (107.5-119) and the repeated price question (122.6-128.5) dropped"
+  },
+  {
+   "id": "S14",
+   "in": 136.85,
+   "out": 139.75,
+   "zoom": 1.0,
+   "text": "Krill oil daripada Aurapep ni bukan fish oil biasa-biasa.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 140.6,
+   "out": 145.55,
+   "zoom": 1.0,
+   "text": "Ok korang tengok kat beg kuning sekarang. Harga tengah ada promo tu, sementara harga tengah murah,",
+   "note": "false start 'krill oil' (135.6-136.8) before S14 dropped"
+  },
+  {
+   "id": "S15b",
+   "in": 147.6,
+   "out": 149.32,
+   "zoom": 1.0,
+   "text": "korang boleh check out awal-awal.",
+   "note": "first 'korang boleh' (145.6-147.6) dropped — said twice"
+  },
+  {
+   "id": "S16",
+   "in": 149.32,
+   "out": 153.6,
+   "zoom": 1.0,
+   "text": "Jangan beli satu botol, beli dua ke tiga botol, sebab stok dia tak tentu tau.",
+   "note": ""
+  },
+  {
+   "id": "S17",
+   "in": 154.25,
+   "out": 156.62,
+   "zoom": 1.0,
+   "text": "Tiba-tiba boleh habis sekejap je, pasal",
+   "note": "repeated 'dah ramai yang beli' (156.6-161.5) dropped"
+  },
+  {
+   "id": "S17b",
+   "in": 161.5,
+   "out": 165.3,
+   "zoom": 1.0,
+   "text": "dah ramai sangat yang beli dari Aurapep ni.",
+   "note": ""
+  },
+  {
+   "id": "S18",
+   "in": 174.95,
+   "out": 183.62,
+   "zoom": 1.0,
+   "text": "Okay guys, make sure korang try tau, sebab krill oil ni dah menggantikan keterujaan orang terhadap fish oil.",
+   "note": "'ok ok ok' (165-175) dropped"
+  },
+  {
+   "id": "S19",
+   "in": 184.3,
+   "out": 186.6,
+   "zoom": 1.04,
+   "text": "Okay, check out di beg kuning sekarang.",
+   "note": "CTA"
+  }
+ ],
+ "labels": [
+  {
+   "text": "Omega-3",
+   "from": [
+    "S07",
+    "omega-3,"
+   ],
+   "to": [
+    "S07",
+    "EPA,"
+   ],
+   "top": 170
+  },
+  {
+   "text": "EPA • DHA",
+   "from": [
+    "S07",
+    "EPA,"
+   ],
+   "to": [
+    "S07",
+    "vitamin"
+   ],
+   "top": 170
+  },
+  {
+   "text": "D3 + K2",
+   "from": [
+    "S07",
+    "vitamin"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "top": 170
+  }
+ ],
+ "punch": [
+  [
+   "S19",
+   "check",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 39.5,
+   "note": "close-up of the Aurapep bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "50% 75%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 46.0,
+   "note": "close-up of the Aurapep bottle in the owner's hand",
+   "push": [
+    1.45,
+    1.55
+   ],
+   "origin": "42% 58%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 100.0,
+   "note": "close-up of the Aurapep bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "44% 74%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S14",
+    "start"
+   ],
+   "to": [
+    "S14",
+    "end"
+   ],
+   "src": 136.5,
+   "note": "close-up of the Aurapep bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "43% 70%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S16",
+    "start"
+   ],
+   "to": [
+    "S16",
+    "end"
+   ],
+   "src": 150.0,
+   "note": "close-up of the Aurapep bottle in the owner's hand",
+   "push": [
+    1.6,
+    1.75
+   ],
+   "origin": "44% 69%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "fishoil",
+   "from": [
+    "S01",
+    "daripada"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: minyak ikan & ikan"
+  },
+  {
+   "id": "laut",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03b",
+    "end"
+   ],
+   "note": "AI: laut Antartika (tiada orang)"
+  },
+  {
+   "id": "x_jantung",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "otak"
+   ],
+   "note": "AI: x-ray jantung"
+  },
+  {
+   "id": "x_mata",
+   "from": [
+    "S04",
+    "otak"
+   ],
+   "to": [
+    "S04",
+    "tulang"
+   ],
+   "note": "AI: x-ray otak & mata"
+  },
+  {
+   "id": "x_badan",
+   "from": [
+    "S04",
+    "tulang"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: x-ray badan"
+  },
+  {
+   "id": "merah",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: krill merah (tiada orang)"
+  },
+  {
+   "id": "softgel",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "note": "AI: softgel merah di tapak tangan (berlengan panjang)"
+  },
+  {
+   "id": "carian",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "note": "AI: carian di telefon (berlengan panjang)"
+  },
+  {
+   "id": "rak",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "note": "AI: rak suplemen di farmasi"
+  },
+  {
+   "id": "belanja",
+   "from": [
+    "S15",
+    "start"
+   ],
+   "to": [
+    "S15b",
+    "end"
+   ],
+   "note": "AI: wanita bertudung membeli online"
+  },
+  {
+   "id": "stok",
+   "from": [
+    "S17",
+    "start"
+   ],
+   "to": [
+    "S17b",
+    "end"
+   ],
+   "note": "AI: kotak stok (tiada orang)"
+  },
+  {
+   "id": "krill",
+   "from": [
+    "S18",
+    "start"
+   ],
+   "to": [
+    "S18",
+    "end"
+   ],
+   "note": "AI: kawanan krill (tiada orang)"
+  }
+ ],
+ "theme": {
+  "key": "#E0342C",
+  "brand": "#2C4A8C"
+ },
+ "brand_words": [
+  "aurapep"
+ ],
+ "keywords": []
+}

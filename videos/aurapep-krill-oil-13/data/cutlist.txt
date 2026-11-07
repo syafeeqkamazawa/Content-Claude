@@ -1,0 +1,43 @@
+TOTAL 105.25s  (23 A-roll segments, 5 B-roll shots, 12 photos, 6 audio fx, 240 caption cards)
+
+  0.00-  8.30  S01  src   3.70- 12.92  (3 pc)  Krill oil ni mahal tau sebenarnya. Tapi krill oil ni dia lebih padu daripada omega ataupun fish oil.
+  8.30- 10.95  S02  src  12.90- 15.55  (1 pc)  Tapi ramai tak tahu sebab apa.
+ 10.95- 12.72  S03  src  15.50- 17.26  (1 pc)  Krill oil ni,
+ 12.72- 14.55  S03b  src  19.58- 21.42  (1 pc)  nama dia Antarctic krill oil ni.
+ 14.55- 22.75  S04  src  21.40- 31.00  (3 pc)  Antara fungsi dia boleh bagi untuk sihatkan jantung, otak kita, mata kita, tulang pun ia juga
+ 22.75- 24.70  S05  src  35.80- 37.75  (1 pc)  perlindungan antioksidan.
+ 24.70- 29.40  S06  src  37.72- 43.05  (2 pc)  Dan krill oil daripada Aurapep ni 1000 mg tau.
+ 29.40- 40.43  S07  src  44.05- 56.80  (5 pc)  Dia ada apa? Ada omega-3, EPA, DHA, masya-Allah. Ada vitamin D3 lagi, vitamin K2, masya-Allah.
+ 40.43- 51.63  S08  src  56.78- 69.20  (5 pc)  Semua ni dalam softgel yang kita boleh amalkan secara harian. Satu hari ambil dua softgel sahaja. Dalam satu botol ni ada 40 softgel.
+ 51.63- 61.40  S09  src  81.55- 92.98  (6 pc)  Kalau rasa ragu-ragu lagi, jangan risau. Boleh check Google, check GPT, tanya apa fungsi krill oil ni.
+ 61.40- 64.12  S10  src  92.98- 95.70  (1 pc)  Tapi krill oil ni boleh ikutkan mahal,
+ 64.12- 64.98  S10b  src  96.80- 97.66  (1 pc)  sangat mahal.
+ 64.98- 68.00  S11  src 119.15-122.16  (1 pc)  Ada setengah krill oil tu boleh sampai 200 tau.
+ 68.00- 73.88  S12  src  97.85-103.96  (2 pc)  Tapi yang ni daripada Aurapep, cuba tengok dekat beg kuning. Sekarang ni pun ada promo 11.11 tau.
+ 73.88- 75.92  S13  src 105.45-107.48  (1 pc)  Harga dia berapa? Mesti korang terkejut.
+ 75.92- 78.82  S14  src 136.85-139.75  (1 pc)  Krill oil daripada Aurapep ni bukan fish oil biasa-biasa.
+ 78.82- 83.45  S15  src 140.60-145.55  (2 pc)  Ok korang tengok kat beg kuning sekarang. Harga tengah ada promo tu, sementara harga tengah murah,
+ 83.45- 85.17  S15b  src 147.60-149.32  (1 pc)  korang boleh check out awal-awal.
+ 85.17- 89.28  S16  src 149.32-153.60  (2 pc)  Jangan beli satu botol, beli dua ke tiga botol, sebab stok dia tak tentu tau.
+ 89.28- 91.65  S17  src 154.25-156.62  (1 pc)  Tiba-tiba boleh habis sekejap je, pasal
+ 91.65- 95.45  S17b  src 161.50-165.30  (1 pc)  dah ramai sangat yang beli dari Aurapep ni.
+ 95.45-103.27  S18  src 174.95-183.62  (4 pc)  Okay guys, make sure korang try tau, sebab krill oil ni dah menggantikan keterujaan orang terhadap fish oil.
+103.27-105.25  S19  src 184.30-186.60  (2 pc)  Okay, check out di beg kuning sekarang.
+
+  cutaway   5.20-  8.30
+  cutaway  10.95- 14.55
+  cutaway  14.55- 19.15
+  cutaway  19.15- 21.38
+  cutaway  21.38- 22.75
+  cutaway  22.75- 24.70
+  cutaway  24.70- 29.40
+  cutaway  29.40- 40.43
+  cutaway  40.43- 51.63
+  cutaway  51.63- 61.40
+  cutaway  61.40- 68.00
+  cutaway  68.00- 73.88
+  cutaway  75.92- 78.82
+  cutaway  78.82- 85.17
+  cutaway  85.17- 89.28
+  cutaway  89.28- 95.45
+  cutaway  95.45-103.27
