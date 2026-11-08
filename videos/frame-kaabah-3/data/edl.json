@@ -104,18 +104,26 @@
   },
   {
    "id": "S11",
-   "in": 68.5,
+   "in": 69.0,
    "out": 80.15,
    "zoom": 1.0,
    "text": "Memang cantik. Bulan puasa nanti kalau ada frame ni, lagi menaikkan semangat, lagi naik seri bulan puasa nanti. Raya lagilah bertambah serinya, insya-Allah.",
-   "note": ""
+   "note": "filler 'okey' (68.5-69) dropped"
   },
   {
    "id": "S12",
-   "in": 80.15,
-   "out": 87.6,
+   "in": 80.5,
+   "out": 82.78,
    "zoom": 1.1,
-   "text": "So jangan tunggu lagi, dapatkan di beg kuning. Sementara promo masih ada, stok masih ada tu, boleh beli sekarang.",
+   "text": "Jangan tunggu lagi, dapatkan di beg kuning.",
+   "note": "fillers 'ok so' (80.2-80.5) and 'ok' (82.8-83.2) dropped"
+  },
+  {
+   "id": "S12b",
+   "in": 83.25,
+   "out": 87.6,
+   "zoom": 1.0,
+   "text": "Sementara promo masih ada, stok masih ada tu, boleh beli sekarang.",
    "note": "CTA"
   }
  ],

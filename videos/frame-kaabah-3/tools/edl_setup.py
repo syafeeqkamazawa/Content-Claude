@@ -15,7 +15,8 @@ write(P, 3, "VID_20261108_131431", [
     ("S08", 48.85, 57.20, "Korang tengok, ada suis kat sini, korang pasang je bateri kat belakang ni, dan bila korang on suis, Masya-Allah, korang akan nampak lagi berkelipan."),
     ("S09", 57.70, 62.45, "Korang tengok ni, lawa guys. Tengok tu, Masya-Allah."),
     ("S10", 62.44, 68.45, "Korang beli dekat beg kuning sekarang, sementara stok masih ada, harga masih murah tu, korang beli awal-awal."),
-    ("S11", 68.50, 80.15, "Memang cantik. Bulan puasa nanti kalau ada frame ni, lagi menaikkan semangat, lagi naik seri bulan puasa nanti. Raya lagilah bertambah serinya, insya-Allah."),
-    ("S12", 80.15, 87.60, "So jangan tunggu lagi, dapatkan di beg kuning. Sementara promo masih ada, stok masih ada tu, boleh beli sekarang.", "CTA"),
+    ("S11", 69.00, 80.15, "Memang cantik. Bulan puasa nanti kalau ada frame ni, lagi menaikkan semangat, lagi naik seri bulan puasa nanti. Raya lagilah bertambah serinya, insya-Allah.", "filler 'okey' (68.5-69) dropped"),
+    ("S12", 80.50, 82.78, "Jangan tunggu lagi, dapatkan di beg kuning.", "fillers 'ok so' (80.2-80.5) and 'ok' (82.8-83.2) dropped"),
+    ("S12b", 83.25, 87.60, "Sementara promo masih ada, stok masih ada tu, boleh beli sekarang.", "CTA"),
 ], cap_top=1560,
    extra_note=" Caption set at top 1560 (over the legs) — 1380 touched the bottom edge of the frame when he holds it close.")

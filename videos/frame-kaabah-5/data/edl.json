@@ -57,9 +57,9 @@
   {
    "id": "S04",
    "in": 20.0,
-   "out": 25.0,
+   "out": 24.35,
    "zoom": 1.1,
-   "text": "Tu dia, memang lawa, okey?",
+   "text": "Tu dia, memang lawa.",
    "note": "pause (15.7-20) dropped"
   },
   {
@@ -113,33 +113,41 @@
   {
    "id": "S09",
    "in": 63.9,
-   "out": 72.0,
+   "out": 65.62,
    "zoom": 1.1,
-   "text": "Cantik guys, memang cantik. Okay, korang belilah satu untuk rumah, boleh buat hadiah pun boleh, hadiah pun untuk parent, hadiah pun untuk pasangan.",
+   "text": "Cantik guys, memang cantik.",
    "note": ""
+  },
+  {
+   "id": "S09b",
+   "in": 66.1,
+   "out": 72.0,
+   "zoom": 1.0,
+   "text": "Korang belilah satu untuk rumah, boleh buat hadiah pun boleh, hadiah pun untuk parent, hadiah pun untuk pasangan.",
+   "note": "filler 'okay' (65.6-66.1) dropped"
   },
   {
    "id": "S10",
    "in": 73.3,
    "out": 77.25,
-   "zoom": 1.0,
+   "zoom": 1.1,
    "text": "Memang sangat sesuai nak jadikan hadiah pun, sangat sesuai, insya-Allah.",
    "note": ""
   },
   {
    "id": "S11",
-   "in": 77.5,
+   "in": 77.75,
    "out": 80.4,
-   "zoom": 1.1,
-   "text": "Okay, so dapatkan dia di beg kuning ni, harga dia murah je guys.",
+   "zoom": 1.0,
+   "text": "So dapatkan dia di beg kuning ni, harga dia murah je guys.",
    "note": ""
   },
   {
    "id": "S12",
-   "in": 80.48,
+   "in": 80.64,
    "out": 87.6,
-   "zoom": 1.0,
-   "text": "Okay, korang beli awal-awal sementara stok masih ada, sementara harga masih murah, korang beli terus. Mantap!",
+   "zoom": 1.1,
+   "text": "Korang beli awal-awal sementara stok masih ada, sementara harga masih murah, korang beli terus. Mantap!",
    "note": "CTA"
   }
  ],

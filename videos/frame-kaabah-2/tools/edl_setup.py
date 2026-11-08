@@ -15,7 +15,7 @@ write(P, 2, "VID_20261108_131000", [
     ("S08", 52.33, 56.62, "Bukan frame macam ni sahaja tau, dia ada lampu LED sekali, bila korang on je lampu,"),
     ("S09", 56.75, 59.25, "dekat tepi ni ada suis tau, korang tengok,", "repeated 'ada suis tau' (59.3-60.8) dropped"),
     ("S10", 60.85, 64.25, "korang on je, makin berkelipan,"),
-    ("S11", 64.40, 68.00, "makin berseri korang punya frame Kaabah,", "repeated 'makin berseri' (68-70.6) dropped"),
+    ("S11", 65.35, 68.00, "makin berseri korang punya frame Kaabah,", "filler 'okay' (64.4-65.3) and the repeated 'makin berseri' (68-70.6) dropped"),
     ("S11b", 70.60, 75.40, "sebab dia akan ada macam cahaya di sebalik frame ni."),
     ("S12", 75.65, 77.52, "Dan di belakang ni ada hook sekali,", "stumble 'korang jangan, korang hanya perlu apa' (77.5-81.4) dropped"),
     ("S12b", 81.35, 84.70, "sini, kanan dan kiri, dua-dua dah ada."),
