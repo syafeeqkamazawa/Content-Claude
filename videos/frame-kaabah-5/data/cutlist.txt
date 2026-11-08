@@ -1,4 +1,4 @@
-TOTAL 55.85s  (16 A-roll segments, 0 B-roll shots, 0 photos, 0 audio fx, 147 caption cards)
+TOTAL 55.25s  (16 A-roll segments, 0 B-roll shots, 0 photos, 0 audio fx, 146 caption cards)
 
   0.00-  4.65  S01  src   0.00-  5.20  (3 pc)  Korang tengok ni, aku akan buka untuk korang tengok lebih actual dia bila kita
   4.65-  5.33  S01b  src   5.36-  6.05  (1 pc)  buka plastik ni.
@@ -10,10 +10,10 @@ TOTAL 55.85s  (16 A-roll segments, 0 B-roll shots, 0 photos, 0 audio fx, 147 cap
  19.83- 29.35  S06  src  36.74- 47.45  (4 pc)  korang akan nampak lebih terang, tambah-tambah pula bila korang on je lampu LED tu, tengok, Masya-Allah, lawa tak? Memang lawa kan.
  29.35- 31.70  S07  src  48.00- 50.35  (1 pc)  Korang beli awal-awal,
  31.70- 33.28  S08  src  52.90- 54.48  (1 pc)  bulan puasa pun dah tak lama guys.
- 33.28- 36.15  S08b  src  61.00- 63.98  (2 pc)  Dah bulan 2 dah puasa, raya bulan 3 ni.
- 36.15- 37.87  S09  src  63.90- 65.62  (1 pc)  Cantik guys, memang cantik.
- 37.87- 43.77  S09b  src  66.10- 72.00  (1 pc)  Korang belilah satu untuk rumah, boleh buat hadiah pun boleh, hadiah pun untuk parent, hadiah pun untuk pasangan.
- 43.77- 47.42  S10  src  73.30- 77.25  (2 pc)  Memang sangat sesuai nak jadikan hadiah pun, sangat sesuai, insya-Allah.
- 47.42- 50.07  S11  src  77.75- 80.40  (1 pc)  So dapatkan dia di beg kuning ni, harga dia murah je guys.
- 50.07- 55.85  S12  src  80.64- 87.60  (3 pc)  Korang beli awal-awal sementara stok masih ada, sementara harga masih murah, korang beli terus. Mantap!
+ 33.28- 35.55  S08b  src  61.60- 63.98  (2 pc)  Bulan 2 dah puasa, raya bulan 3 ni.
+ 35.55- 37.27  S09  src  63.90- 65.62  (1 pc)  Cantik guys, memang cantik.
+ 37.27- 43.17  S09b  src  66.10- 72.00  (1 pc)  Korang belilah satu untuk rumah, boleh buat hadiah pun boleh, hadiah pun untuk parent, hadiah pun untuk pasangan.
+ 43.17- 46.82  S10  src  73.30- 77.25  (2 pc)  Memang sangat sesuai nak jadikan hadiah pun, sangat sesuai, insya-Allah.
+ 46.82- 49.47  S11  src  77.75- 80.40  (1 pc)  So dapatkan dia di beg kuning ni, harga dia murah je guys.
+ 49.47- 55.25  S12  src  80.64- 87.60  (3 pc)  Korang beli awal-awal sementara stok masih ada, sementara harga masih murah, korang beli terus. Mantap!
 

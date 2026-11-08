@@ -104,11 +104,11 @@
   },
   {
    "id": "S08b",
-   "in": 61.0,
+   "in": 61.6,
    "out": 63.98,
    "zoom": 1.0,
-   "text": "Dah bulan 2 dah puasa, raya bulan 3 ni.",
-   "note": ""
+   "text": "Bulan 2 dah puasa, raya bulan 3 ni.",
+   "note": "'dah bulan apa' (61-61.6) dropped"
   },
   {
    "id": "S09",

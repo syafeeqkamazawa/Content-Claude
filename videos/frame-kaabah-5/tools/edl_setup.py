@@ -15,7 +15,7 @@ write(P, 5, "VID_20261108_131730", [
     ("S06", 36.74, 47.45, "korang akan nampak lebih terang, tambah-tambah pula bila korang on je lampu LED tu, tengok, Masya-Allah, lawa tak? Memang lawa kan."),
     ("S07", 48.00, 50.35, "Korang beli awal-awal,", "stumble 'sebelum pula' (50.4-52.8) dropped"),
     ("S08", 52.90, 54.48, "bulan puasa pun dah tak lama guys.", "'bulan puasa bulan 2, sekarang bulan 11, 12, 1, dah 2, ok raya pun' (54.5-61) dropped as a stumble"),
-    ("S08b", 61.00, 63.98, "Dah bulan 2 dah puasa, raya bulan 3 ni.", "", "same"),
+    ("S08b", 61.60, 63.98, "Bulan 2 dah puasa, raya bulan 3 ni.", "'dah bulan apa' (61-61.6) dropped", "same"),
     ("S09", 63.90, 65.62, "Cantik guys, memang cantik."),
     ("S09b", 66.10, 72.00, "Korang belilah satu untuk rumah, boleh buat hadiah pun boleh, hadiah pun untuk parent, hadiah pun untuk pasangan.", "filler 'okay' (65.6-66.1) dropped"),
     ("S10", 73.30, 77.25, "Memang sangat sesuai nak jadikan hadiah pun, sangat sesuai, insya-Allah."),
