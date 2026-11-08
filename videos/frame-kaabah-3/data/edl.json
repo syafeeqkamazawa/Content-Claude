@@ -1,0 +1,133 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1560
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "45% 42%",
+ "tighten": {
+  "max_pause": 0.4,
+  "keep": 0.16,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "8 Nov: 'Ada 5 video frame Kaabah. Jangan buat overlay untuk video ni, pastikan potong percakapan sangkut sangkut dan berulang. Bagi video nampak smooth dan setiap perkataan disebut dengan jelas sebelum pergi klip seterusnya' — Drive folder 'Frame Kaabah' (1hILJi_e…), 5 clips → 5 videos. No overlays (no B-roll, photos, labels or hook text) — only the 6 Nov default caption. Stumbles, repeats and fillers cut; every cut lands after the word has finished (tighten keep 0.16 s, joins checked by ear-transcript). Zoom alternates 100% / 110% between segments so the jump cuts read as camera changes. Caption set at top 1560 (over the legs) — 1380 touched the bottom edge of the frame when he holds it close.",
+ "_note": "Frame Kaabah #3 — A-roll assets/a.mp4 = VID_20261108_131431 (rear camera, not mirrored). Sizes, LED, hooks, battery, prices and promo 11.11 are the owner's own words.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 1.05,
+   "out": 8.25,
+   "zoom": 1.0,
+   "text": "Bukan 100, 80 pun bukan, 70 pun jauh sekali, tak sampai 60 guys.",
+   "note": "HOOK — price talk is the owner's own words (heard as 'bukan seratus, lapan puluh pun bukan, tujuh puluh pun jauh sekali, tak sampai 60')"
+  },
+  {
+   "id": "S02",
+   "in": 8.25,
+   "out": 11.85,
+   "zoom": 1.1,
+   "text": "Korang tengok dekat beg kuning, seller tengah buat promo gila-gila punya,",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 11.82,
+   "out": 18.44,
+   "zoom": 1.0,
+   "text": "dan sekarang ni pun promo 11.11 pun berlangsung lagi tau, cuba tengok dekat beg kuning. Tengok ni,",
+   "note": "stutter 'frame,' (18.4-18.7) dropped"
+  },
+  {
+   "id": "S04b",
+   "in": 18.7,
+   "out": 21.72,
+   "zoom": 1.1,
+   "text": "frame Kaabah pun ada, frame Ayat Kursi pun ada.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 21.66,
+   "out": 31.95,
+   "zoom": 1.0,
+   "text": "Saiz ada pelbagai saiz, korang tengok, yang aku pegang ni saiz 90 cm x 60 cm, ada juga saiz yang lebih kecil iaitu 60 cm x 40 cm.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 31.92,
+   "out": 42.55,
+   "zoom": 1.1,
+   "text": "Korang boleh tengok, sesuaikan dengan ruang rumah korang. Boleh letak dekat ruang tamu boleh, dekat tangga boleh, dekat ruang keluarga, semua sesuai. Memang cantik, korang tengok.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 42.54,
+   "out": 48.48,
+   "zoom": 1.0,
+   "text": "Dan yang lagi best, frame ni bukan sekadar frame, dia ada lampu LED sekali ni.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 48.85,
+   "out": 57.2,
+   "zoom": 1.1,
+   "text": "Korang tengok, ada suis kat sini, korang pasang je bateri kat belakang ni, dan bila korang on suis, Masya-Allah, korang akan nampak lagi berkelipan.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 57.7,
+   "out": 62.45,
+   "zoom": 1.0,
+   "text": "Korang tengok ni, lawa guys. Tengok tu, Masya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 62.44,
+   "out": 68.45,
+   "zoom": 1.1,
+   "text": "Korang beli dekat beg kuning sekarang, sementara stok masih ada, harga masih murah tu, korang beli awal-awal.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 68.5,
+   "out": 80.15,
+   "zoom": 1.0,
+   "text": "Memang cantik. Bulan puasa nanti kalau ada frame ni, lagi menaikkan semangat, lagi naik seri bulan puasa nanti. Raya lagilah bertambah serinya, insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 80.15,
+   "out": 87.6,
+   "zoom": 1.1,
+   "text": "So jangan tunggu lagi, dapatkan di beg kuning. Sementara promo masih ada, stok masih ada tu, boleh beli sekarang.",
+   "note": "CTA"
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [],
+ "theme": {
+  "key": "#D4AF37",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "kaabah"
+ ],
+ "keywords": []
+}

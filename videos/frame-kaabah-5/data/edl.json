@@ -1,0 +1,157 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 170
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "50% 50%",
+ "tighten": {
+  "max_pause": 0.4,
+  "keep": 0.16,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "8 Nov: 'Ada 5 video frame Kaabah. Jangan buat overlay untuk video ni, pastikan potong percakapan sangkut sangkut dan berulang. Bagi video nampak smooth dan setiap perkataan disebut dengan jelas sebelum pergi klip seterusnya' — Drive folder 'Frame Kaabah' (1hILJi_e…), 5 clips → 5 videos. No overlays (no B-roll, photos, labels or hook text) — only the 6 Nov default caption. Stumbles, repeats and fillers cut; every cut lands after the word has finished (tighten keep 0.16 s, joins checked by ear-transcript). Zoom alternates 100% / 110% between segments so the jump cuts read as camera changes. Caption set high (top 170) — the frame fills the lower two thirds and the head moves between 15% and 40% height.",
+ "_note": "Frame Kaabah #5 — A-roll assets/a.mp4 = VID_20261108_131730 (rear camera, not mirrored). Sizes, LED, hooks, battery, prices and promo 11.11 are the owner's own words.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 0.0,
+   "out": 5.2,
+   "zoom": 1.0,
+   "text": "Korang tengok ni, aku akan buka untuk korang tengok lebih actual dia bila kita",
+   "note": "HOOK"
+  },
+  {
+   "id": "S01b",
+   "in": 5.36,
+   "out": 6.05,
+   "zoom": 1.0,
+   "text": "buka plastik ni.",
+   "note": "doubled 'buka' (5.2-5.36) dropped"
+  },
+  {
+   "id": "S02",
+   "in": 6.05,
+   "out": 9.35,
+   "zoom": 1.1,
+   "text": "Korang tengok eh, memang sangat lawa, sangat cantik eh,",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 13.9,
+   "out": 15.65,
+   "zoom": 1.0,
+   "text": "lawa guys, Masya-Allah.",
+   "note": "pause while unwrapping (9.4-13.9) dropped"
+  },
+  {
+   "id": "S04",
+   "in": 20.0,
+   "out": 25.0,
+   "zoom": 1.1,
+   "text": "Tu dia, memang lawa, okey?",
+   "note": "pause (15.7-20) dropped"
+  },
+  {
+   "id": "S05",
+   "in": 27.0,
+   "out": 27.72,
+   "zoom": 1.0,
+   "text": "Cuba korang tengok,",
+   "note": "stutter 'dia punya' (28.9-30.2) dropped"
+  },
+  {
+   "id": "S05b",
+   "in": 30.2,
+   "out": 36.8,
+   "zoom": 1.1,
+   "text": "dia punya design dia sangat jelas, sangat terang, bukan design biasa-biasa tau,",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 36.74,
+   "out": 47.45,
+   "zoom": 1.0,
+   "text": "korang akan nampak lebih terang, tambah-tambah pula bila korang on je lampu LED tu, tengok, Masya-Allah, lawa tak? Memang lawa kan.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 48.0,
+   "out": 50.35,
+   "zoom": 1.1,
+   "text": "Korang beli awal-awal,",
+   "note": "stumble 'sebelum pula' (50.4-52.8) dropped"
+  },
+  {
+   "id": "S08",
+   "in": 52.9,
+   "out": 54.48,
+   "zoom": 1.0,
+   "text": "bulan puasa pun dah tak lama guys.",
+   "note": "'bulan puasa bulan 2, sekarang bulan 11, 12, 1, dah 2, ok raya pun' (54.5-61) dropped as a stumble"
+  },
+  {
+   "id": "S08b",
+   "in": 61.0,
+   "out": 63.98,
+   "zoom": 1.0,
+   "text": "Dah bulan 2 dah puasa, raya bulan 3 ni.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 63.9,
+   "out": 72.0,
+   "zoom": 1.1,
+   "text": "Cantik guys, memang cantik. Okay, korang belilah satu untuk rumah, boleh buat hadiah pun boleh, hadiah pun untuk parent, hadiah pun untuk pasangan.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 73.3,
+   "out": 77.25,
+   "zoom": 1.0,
+   "text": "Memang sangat sesuai nak jadikan hadiah pun, sangat sesuai, insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S11",
+   "in": 77.5,
+   "out": 80.4,
+   "zoom": 1.1,
+   "text": "Okay, so dapatkan dia di beg kuning ni, harga dia murah je guys.",
+   "note": ""
+  },
+  {
+   "id": "S12",
+   "in": 80.48,
+   "out": 87.6,
+   "zoom": 1.0,
+   "text": "Okay, korang beli awal-awal sementara stok masih ada, sementara harga masih murah, korang beli terus. Mantap!",
+   "note": "CTA"
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [],
+ "theme": {
+  "key": "#D4AF37",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "kaabah"
+ ],
+ "keywords": []
+}

@@ -1,0 +1,125 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1560
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "45% 42%",
+ "tighten": {
+  "max_pause": 0.4,
+  "keep": 0.16,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "8 Nov: 'Ada 5 video frame Kaabah. Jangan buat overlay untuk video ni, pastikan potong percakapan sangkut sangkut dan berulang. Bagi video nampak smooth dan setiap perkataan disebut dengan jelas sebelum pergi klip seterusnya' — Drive folder 'Frame Kaabah' (1hILJi_e…), 5 clips → 5 videos. No overlays (no B-roll, photos, labels or hook text) — only the 6 Nov default caption. Stumbles, repeats and fillers cut; every cut lands after the word has finished (tighten keep 0.16 s, joins checked by ear-transcript). Zoom alternates 100% / 110% between segments so the jump cuts read as camera changes. Caption set at top 1560 (over the legs) — 1380 touched the bottom edge of the frame when he holds it close.",
+ "_note": "Frame Kaabah #1 — A-roll assets/a.mp4 = VID_20261108_130736 (rear camera, not mirrored). Sizes, LED, hooks, battery, prices and promo 11.11 are the owner's own words.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 12.2,
+   "out": 17.55,
+   "zoom": 1.0,
+   "text": "Masya-Allah, korang tengok ni, memang lawa frame Kaabah untuk korang letak dekat dinding.",
+   "note": "HOOK — unfinished 'frame Kaabah daripada' (2.9-4.7) and the pause after it dropped"
+  },
+  {
+   "id": "S02",
+   "in": 17.5,
+   "out": 22.3,
+   "zoom": 1.1,
+   "text": "Frame ni bukan frame biasa tau, korang tengok, ada suis kat sini.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 23.5,
+   "out": 31.56,
+   "zoom": 1.0,
+   "text": "Suis ni untuk apa? Sebab nanti bila korang on suis ni, korang akan nampak ada LED, dia akan jadi lebih menyala bila malam.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 31.56,
+   "out": 36.5,
+   "zoom": 1.1,
+   "text": "Korang pasang, korang on kat lampu ni, dia akan nampak lagi macam berkelipan tau.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 37.45,
+   "out": 43.7,
+   "zoom": 1.0,
+   "text": "Ada pelbagai design dekat beg kuning. Korang tengok dekat beg kuning tu, ada design, salah satunya design ni.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 44.0,
+   "out": 52.9,
+   "zoom": 1.1,
+   "text": "Okay, saiz yang aku pegang ni 90 cm x 60 cm. 90 cm panjang, 60 cm lebar. Memang sangat lawa.",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 52.86,
+   "out": 63.68,
+   "zoom": 1.0,
+   "text": "Di belakang ni korang jangan risau, dah ada tempat gantung dia, hook kanan dan kiri. Dekat sini korang letak bateri untuk korang on-kan LED.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 64.3,
+   "out": 66.45,
+   "zoom": 1.1,
+   "text": "Tu memang lawa, memang cantik.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 67.35,
+   "out": 71.78,
+   "zoom": 1.0,
+   "text": "Dia punya cetakan jelas, dia punya design ni memang sangat jelas, korang tengok.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 72.4,
+   "out": 76.3,
+   "zoom": 1.1,
+   "text": "Yang berminat tengok dekat beg kuning, seller tengah buat promo ni guys.",
+   "note": "the repeated 'promo 11.11 pun … seller buat' (76.2-86.1) dropped"
+  },
+  {
+   "id": "S11",
+   "in": 86.15,
+   "out": 93.42,
+   "zoom": 1.0,
+   "text": "Promo 11.11 pun masih berjalan tau. Korang tengok dekat beg kuning, kalau dapat harga murah, korang boleh check out terus.",
+   "note": "CTA"
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [],
+ "theme": {
+  "key": "#D4AF37",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "kaabah"
+ ],
+ "keywords": []
+}

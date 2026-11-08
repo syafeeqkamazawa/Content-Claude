@@ -1,0 +1,23 @@
+TOTAL 73.68s  (20 A-roll segments, 0 B-roll shots, 0 photos, 0 audio fx, 211 caption cards)
+
+  0.00-  5.25  S01  src   2.10-  7.70  (2 pc)  Masya-Allah, korang tengok ni, frame untuk korang letak dekat dinding, dekat bahagian rumah korang,
+  5.25- 11.05  S02  src   7.70- 13.90  (4 pc)  dekat ruang tangga pun boleh, dekat ruang tamu, semua sesuai.
+ 11.05- 14.55  S03  src  25.60- 29.10  (1 pc)  Korang boleh gantung dekat mana-mana ruang dalam rumah korang, memang lawa.
+ 14.55- 19.20  S04  src  32.20- 36.85  (1 pc)  Dekat beg kuning bukan design ni sahaja ada tau, korang boleh tengok dekat beg kuning, ada pelbagai design lagi.
+ 19.20- 25.85  S05  src  36.85- 43.70  (2 pc)  Yang aku pegang ni saiz dia panjang 90 cm, lebar 60 cm. Memang sangat lawa, sangat cantik.
+ 25.85- 28.45  S06  src  46.40- 49.00  (1 pc)  Bila korang gantung je dekat rumah korang, korang naik seri rumah tau.
+ 28.45- 29.95  S07  src  49.70- 51.20  (1 pc)  Memang cantik korang tengok.
+ 29.95- 34.23  S08  src  52.33- 56.62  (1 pc)  Bukan frame macam ni sahaja tau, dia ada lampu LED sekali, bila korang on je lampu,
+ 34.23- 36.73  S09  src  56.75- 59.25  (1 pc)  dekat tepi ni ada suis tau, korang tengok,
+ 36.73- 39.80  S10  src  60.85- 64.25  (2 pc)  korang on je, makin berkelipan,
+ 39.80- 43.12  S11  src  64.40- 68.00  (2 pc)  makin berseri korang punya frame Kaabah,
+ 43.12- 47.75  S11b  src  70.60- 75.40  (2 pc)  sebab dia akan ada macam cahaya di sebalik frame ni.
+ 47.75- 49.62  S12  src  75.65- 77.52  (1 pc)  Dan di belakang ni ada hook sekali,
+ 49.62- 52.72  S12b  src  81.35- 84.70  (2 pc)  sini, kanan dan kiri, dua-dua dah ada.
+ 52.72- 54.87  S13  src  85.75- 87.90  (1 pc)  Lepas tu ada bateri kat sini, korang letak je bateri kat sini.
+ 54.87- 58.32  S14  src  88.95- 92.85  (2 pc)  Memang senang dan cantik guys, memang cantik.
+ 58.32- 60.30  S15  src  92.80- 94.78  (1 pc)  Yang berminat tengok dekat beg kuning,
+ 60.30- 62.15  S16  src 101.40-103.25  (1 pc)  seller tengah buat promo guys.
+ 62.15- 67.88  S17  src 103.65-109.48  (2 pc)  Sekarang ni pun ada promotion 11.11, cuba korang tengok dekat beg kuning, harga pun memang murah.
+ 67.88- 73.68  S18  src 109.50-115.62  (3 pc)  Kalau korang berminat, korang tengok dekat beg kuning, harga tu kalau tengah murah daripada biasa, korang check out terus.
+
