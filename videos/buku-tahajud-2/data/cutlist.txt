@@ -1,0 +1,33 @@
+TOTAL 92.30s  (23 A-roll segments, 2 B-roll shots, 5 photos, 16 audio fx, 223 caption cards)
+
+  0.00-  2.80  S01  src  35.70- 38.50  (1 pc)  Tahajud ni memang sangat penting sebenarnya.
+  2.80-  4.15  S01b  src  39.00- 40.35  (1 pc)  Kenapa penting tahajud?
+  4.15-  5.55  S02  src   8.85- 10.25  (1 pc)  Assalamualaikum warahmatullahi wabarakatuh.
+  5.55-  8.65  S03  src  14.00- 17.10  (1 pc)  Tahajud Journey bersama Syafiq, insya-Allah.
+  8.65-  9.90  S04  src  17.75- 19.00  (1 pc)  Hari tu saya ada kongsi lah
+  9.90- 14.00  S04b  src  21.15- 25.25  (1 pc)  beberapa input daripada buku Hidup Dengan Tahajud daripada Iddin Ramli.
+ 14.00- 21.83  S05  src  25.65- 33.65  (2 pc)  Insya-Allah buku ni memang sangat-sangat membantu kita untuk kita faham, daripada faham, kita rasa nak buat, insya-Allah.
+ 21.83- 27.43  S06  src  57.95- 63.95  (2 pc)  Saya akan sharekan tentang kenapa perlu bangun malam.
+ 27.43- 35.63  S07  src 145.60-153.80  (1 pc)  Input yang kedua ni iaitu sebab, kat sini ada mention tujuh tau, tujuh sebab utama untuk saya bertahajud, tujuh sebab utama.
+ 35.63- 37.25  S08  src 154.00-155.62  (1 pc)  Saya akan bagi satu dululah.
+ 37.25- 40.35  S09  src 168.95-172.05  (1 pc)  Antaranya ialah doa-doa akan dikabulkan.
+ 40.35- 43.75  S10  src 173.40-176.80  (1 pc)  Banyak lagi sebab-sebab dia, tapi ni antara sebab utama dia.
+ 43.75- 44.95  S11  src 180.80-182.00  (1 pc)  So hajat kita yang,
+ 44.95- 47.00  S11b  src 185.70-187.75  (1 pc)  entah bila kan Tuhan nak kabulkan sebenarnya,
+ 47.00- 47.70  S11c  src 187.90-188.60  (1 pc)  kita boleh
+ 47.70- 57.00  S11d  src 191.90-201.42  (2 pc)  jadikan tahajud ni sebagai kabel kita, sebagai perantara yang lebih dekat, supaya Allah SWT bantu apa yang kita hajati, insya-Allah.
+ 57.00- 58.88  S12  src 210.00-212.10  (2 pc)  Dan sentiasa bersangka baik dengan Allah.
+ 58.88- 67.23  S13  src 213.30-221.65  (1 pc)  Even kita dah solat, kadang-kadang belum sampai lagi tu, kita kena bersangka baik dengan Allah. Allah lebih tahu yang terbaik untuk kita kan.
+ 67.23- 77.30  S14  src 226.15-236.30  (2 pc)  Tapi kelebihan dia memang ada, bila kita tahajud ni memang seumpamanya kita dah macam ada shortcut. Ni untuk saya juga, insya-Allah.
+ 77.30- 78.15  S15  src 240.10-240.95  (1 pc)  Yang tengok
+ 78.15- 84.00  S15b  src 242.50-248.55  (2 pc)  perkongsian saya ni daripada buku Hidup Dengan Tahajud daripada Iddin Ramli, boleh sama-sama insya-Allah,
+ 84.00- 88.00  S15c  src 249.15-253.32  (2 pc)  kita niat, kita azam untuk hidup dengan tahajud, insya-Allah.
+ 88.00- 92.30  S16  src 253.65-257.95  (1 pc)  Saya akan kongsikan lagi dalam video-video yang akan datang. Yang belum follow saya, boleh follow, insya-Allah.
+
+  cutaway   0.00-  4.15
+  cutaway  11.38- 14.00
+  cutaway  24.62- 27.43
+  cutaway  37.25- 43.75
+  cutaway  47.70- 57.00
+  cutaway  67.23- 71.35
+  cutaway  78.15- 84.00

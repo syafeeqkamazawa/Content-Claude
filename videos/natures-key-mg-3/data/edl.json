@@ -1,0 +1,403 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1600
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.14,
+  "threshold_db": -30,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "9 Nov: car talking clip VID_20261109_201010 → one video per product; this is the Nature's Key Magnesium part (85-164.5 s). 6 Nov caption set low (top 1600); full-screen realistic photos for each problem the owner lists (owner: 'overlay full cover waktu nak visualkan masalah'); big kinetic key-point text (EDL kp) in the Nature's Key green on the car ceiling; the owner's own close-ups VID_20261014_153135 (label, capsules in the palm); phone mic → tools/voice.sh; night footage lifted slightly.",
+ "_note": "Nature's Key Magnesium Capsules #3 — A-roll assets/a.mp4 = VID_20261109_201010 85-164.5 s (rear camera, not mirrored). Halal, 'trusted brand', 'feedback padu' are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 13.0,
+   "out": 15.98,
+   "zoom": 1.0,
+   "text": "Yang ada simptom, contoh,",
+   "note": "HOOK — the long pause before (0-13) dropped"
+  },
+  {
+   "id": "S02",
+   "in": 18.55,
+   "out": 25.3,
+   "zoom": 1.0,
+   "text": "susah nak bangun pagi, ataupun nak berehat waktu malam tu susah,",
+   "note": "first 'susah nak bangun' (16-18.5) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 28.1,
+   "out": 30.92,
+   "zoom": 1.0,
+   "text": "kadang otak rasa penat,",
+   "note": "'ataupun' + pause (25.3-28.1) dropped"
+  },
+  {
+   "id": "S04",
+   "in": 40.1,
+   "out": 42.8,
+   "zoom": 1.0,
+   "text": "tiba-tiba rasa pening,",
+   "note": "'ataupun, apa lagi, contoh macam' (31-40) dropped"
+  },
+  {
+   "id": "S05",
+   "in": 42.94,
+   "out": 45.4,
+   "zoom": 1.0,
+   "text": "macam tak boleh nak fokus sangat.",
+   "note": "stutter 'macam tak' → one 'tak' (42.8-42.9) dropped"
+  },
+  {
+   "id": "S06",
+   "in": 45.4,
+   "out": 50.5,
+   "zoom": 1.0,
+   "text": "So boleh dapatkan Magnesium Capsule daripada Nature's Key ni, ada halal,",
+   "note": ""
+  },
+  {
+   "id": "S07",
+   "in": 51.15,
+   "out": 58.35,
+   "zoom": 1.0,
+   "text": "insya-Allah, so jangan risau. Okay, Nature's Key ni trusted brand lah, korang tengok dekat beg kuning, feedback pun memang padu-padu semua.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 59.95,
+   "out": 66.0,
+   "zoom": 1.0,
+   "text": "Magnesium Capsule daripada Nature's Key ni memang sangat membantu kita untuk masalah-masalah yang saya sebutkan tadi.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 68.36,
+   "out": 69.4,
+   "zoom": 1.0,
+   "text": "Untuk cover",
+   "note": "'ok, supaya' (66-68.3) dropped"
+  },
+  {
+   "id": "S09b",
+   "in": 70.72,
+   "out": 73.95,
+   "zoom": 1.0,
+   "text": "kita punya badan kita yang penat seharian bekerja kan.",
+   "note": "repeated 'kita punya' (69.4-70.7) dropped"
+  },
+  {
+   "id": "S10",
+   "in": 74.4,
+   "out": 76.75,
+   "zoom": 1.04,
+   "text": "Boleh dapatkan di beg kuning, harga pun tengah murah ni.",
+   "note": "CTA"
+  }
+ ],
+ "kp": [
+  {
+   "text": "SUSAH BANGUN PAGI?",
+   "hi": [
+    "PAGI?"
+   ],
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "ataupun"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "SUSAH NAK REHAT",
+   "hi": [
+    "REHAT"
+   ],
+   "from": [
+    "S02",
+    "ataupun"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "anim": "slide",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "OTAK PENAT",
+   "hi": [
+    "PENAT"
+   ],
+   "from": [
+    "S03",
+    "otak"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "PENING?",
+   "hi": [
+    "PENING?"
+   ],
+   "from": [
+    "S04",
+    "pening,"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "TAK FOKUS",
+   "hi": [
+    "FOKUS"
+   ],
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "anim": "split",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "MAGNESIUM / CAPSULE",
+   "hi": [
+    "MAGNESIUM"
+   ],
+   "from": [
+    "S06",
+    "magnesium"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "FEEDBACK PADU",
+   "hi": [
+    "PADU"
+   ],
+   "from": [
+    "S07",
+    "feedback"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "PENAT SEHARIAN?",
+   "hi": [
+    "PENAT"
+   ],
+   "from": [
+    "S09b",
+    "penat"
+   ],
+   "to": [
+    "S09b",
+    "end"
+   ],
+   "anim": "slide",
+   "top": 210,
+   "size": 118
+  }
+ ],
+ "punch": [
+  [
+   "S10",
+   "boleh",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S06",
+    "magnesium"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 80.55,
+   "note": "the owner's own close-up of Nature's Key Magnesium Capsules",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S07",
+    "okay,"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 93.55,
+   "note": "the owner's own close-up of Nature's Key Magnesium Capsules",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 103.55,
+   "note": "the owner's own close-up of Nature's Key Magnesium Capsules",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "src": 75.0,
+   "note": "close-up of the bottle in the owner's hand (same moment)",
+   "push": [
+    1.5,
+    1.6
+   ],
+   "origin": "35% 62%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "pagi",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "ataupun"
+   ],
+   "note": "AI: susah bangun pagi (aurat ditutup)"
+  },
+  {
+   "id": "insomnia",
+   "from": [
+    "S02",
+    "ataupun"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: susah tidur malam (aurat ditutup)"
+  },
+  {
+   "id": "fog",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: otak penat (bertudung)"
+  },
+  {
+   "id": "i_lesu",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: pening, tak fokus (berlengan panjang)"
+  },
+  {
+   "id": "tired",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09b",
+    "end"
+   ],
+   "note": "AI: penat bekerja (berlengan panjang)"
+  }
+ ],
+ "theme": {
+  "key": "#8BC34A",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "nature's",
+  "key"
+ ],
+ "keywords": []
+}

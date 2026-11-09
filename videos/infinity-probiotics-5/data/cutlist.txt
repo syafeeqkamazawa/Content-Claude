@@ -1,0 +1,27 @@
+TOTAL 58.57s  (14 A-roll segments, 5 B-roll shots, 5 photos, 9 audio fx, 125 caption cards)
+
+  0.00-  4.20  S01  src  10.80- 15.00  (1 pc)  Sebenarnya kita punya usus, kita kena jaga tau,
+  4.20-  5.15  S02  src  15.00- 15.95  (1 pc)  sebab
+  5.15-  6.58  S02b  src  19.72- 21.16  (1 pc)  hampir keseluruhan,
+  6.58-  8.98  S02c  src  23.40- 26.00  (2 pc)  badan kita punya simptom
+  8.98- 14.13  S02d  src  27.85- 33.00  (1 pc)  yang ada pada badan kita, kebanyakannya berpunca daripada usus.
+ 14.13- 22.70  S03  src  33.00- 41.56  (1 pc)  Contoh macam nafas berbau, so kadang-kadang bukan sebab kita tak jaga gosok gigi, tapi sebenarnya daripada perut kita.
+ 22.70- 25.78  S04  src  41.56- 44.65  (1 pc)  So usus tu kita kena jaga.
+ 25.78- 26.38  S05  src  44.55- 45.15  (1 pc)  So
+ 26.38- 30.93  S05b  src  49.60- 54.40  (2 pc)  antara yang saya boleh sarankan, boleh ambil ni, probiotik daripada Infinity ni.
+ 30.93- 38.55  S06  src  55.80- 63.42  (1 pc)  Lagi penting, ada halal tau. Ada halal JAKIM dan juga dia ada KKM punya nombor siri.
+ 38.55- 40.63  S07  src  63.42- 65.50  (1 pc)  So jangan risau, trusted insya-Allah.
+ 40.63- 51.73  S08  src  66.10- 77.62  (3 pc)  Infinity Probiotic Plus ni insya-Allah, dia ada 5 probiotik, 1 prebiotik dan juga 3 digestive enzyme. Memang sangat trusted lah insya-Allah.
+ 51.73- 55.67  S09  src  77.62- 81.55  (1 pc)  So boleh dapatkan di beg kuning, harga tengah murah ni, promosi tengah berjalan,
+ 55.67- 58.57  S10  src  82.80- 85.70  (1 pc)  promosi 11.11 pun masih ada. Okay, dapatkan di beg kuning.
+
+  cutaway   4.20- 10.97
+  cutaway  10.97- 14.13
+  cutaway  14.13- 16.88
+  cutaway  16.88- 19.67
+  cutaway  19.67- 22.70
+  cutaway  29.02- 30.93
+  cutaway  30.93- 40.63
+  cutaway  40.63- 49.30
+  cutaway  49.30- 51.73
+  cutaway  51.73- 55.67

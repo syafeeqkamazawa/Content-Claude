@@ -1,0 +1,400 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1600
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.14,
+  "threshold_db": -30,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "9 Nov: car talking clip VID_20261109_201010 → one video per product; this is the VTEAY Fish Oil part (287.5-373.5 s). 6 Nov caption set low (top 1600); full-screen realistic photos (shopping, softgels, x-ray brain / heart / eyes, boxes of stock); big kinetic key-point text (EDL kp) in the VTEAY blue on the car ceiling; no separate B-roll of this product in Drive, so close-ups come from the owner holding the bottle up; phone mic → tools/voice.sh.",
+ "_note": "VTEAY Omega-3 Fish Oil #5 — A-roll assets/a.mp4 = VID_20261109_201010 287.5-373.5 s (rear camera, not mirrored). assets/b.mp4 = the same clip, muted. Restock, 'antara yang termurah di TikTok', halal, KKM, EPA/DHA, promo are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 9.3,
+   "out": 11.36,
+   "zoom": 1.0,
+   "text": "Seller baru restock korang!",
+   "note": "HOOK — the tail of the previous product (0-6) and a pause dropped"
+  },
+  {
+   "id": "S02",
+   "in": 15.0,
+   "out": 19.95,
+   "zoom": 1.0,
+   "text": "Hari tu lama juga stock dah sold out, sekarang seller dah restock balik.",
+   "note": "first take 'hari tu lama juga seller dah sold out' (11.4-15) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 19.95,
+   "out": 25.75,
+   "zoom": 1.0,
+   "text": "Masya-Allah korang, ni fish oil antara yang termurah di dalam TikTok.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 27.45,
+   "out": 30.42,
+   "zoom": 1.0,
+   "text": "Walaupun dia murah, jangan risau, ada dia punya",
+   "note": "stumble 'apa tu' (30.4-32.2) dropped"
+  },
+  {
+   "id": "S04b",
+   "in": 32.2,
+   "out": 38.38,
+   "zoom": 1.0,
+   "text": "halal, ada, dan KKM pun ada. Boleh tengok dekat beg kuning, dan feedback pun memang padu-padu.",
+   "note": "'fish oil ni dia boleh bantu … kalau rasa lenguh-lenguh, kebas-kebas' (38.4-44.2) dropped — TikTok risk (as VTEAY #1-#4)"
+  },
+  {
+   "id": "S05",
+   "in": 44.55,
+   "out": 50.88,
+   "zoom": 1.0,
+   "text": "Lepas tu dalam fish oil VTEAY ni ada EPA dan DHA sekali tau,",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 55.1,
+   "out": 56.28,
+   "zoom": 1.0,
+   "text": "kandungan dia tu banyak.",
+   "note": "stumble 'dan banyak dia punya' (50.9-55.1) dropped"
+  },
+  {
+   "id": "S07",
+   "in": 56.28,
+   "out": 64.62,
+   "zoom": 1.0,
+   "text": "So dia EPA DHA ni dia boleh bantu juga untuk bantu kita punya sistem otak, kita punya jantung, mata.",
+   "note": "'untuk bantu kita punya bahagian-bahagian yang saya sebutkan tadi' (64.6-70) dropped — repeat"
+  },
+  {
+   "id": "S08",
+   "in": 70.88,
+   "out": 74.32,
+   "zoom": 1.0,
+   "text": "Dapatkan di beg kuning, memang harga tengah murah ni, seller tengah buat promosi.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 75.0,
+   "out": 82.18,
+   "zoom": 1.0,
+   "text": "Stok pun cepat habis ni. Sementara stok ada tu, beli 2-3 botol terus. Nanti bila dah sold out, kita dah ada stand by kan.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 83.58,
+   "out": 85.25,
+   "zoom": 1.04,
+   "text": "Abang kakak, dapatkan di beg kuning sekarang.",
+   "note": "CTA — 'ok, so, ibu ya' (82.5-83.6) dropped"
+  }
+ ],
+ "kp": [
+  {
+   "text": "RESTOCK!",
+   "hi": [
+    "RESTOCK!"
+   ],
+   "from": [
+    "S01",
+    "restock"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 150
+  },
+  {
+   "text": "SOLD OUT → RESTOCK",
+   "hi": [
+    "RESTOCK"
+   ],
+   "from": [
+    "S02",
+    "sold"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "anim": "slide",
+   "top": 210,
+   "size": 104
+  },
+  {
+   "text": "ANTARA TERMURAH / DI TIKTOK",
+   "hi": [
+    "TERMURAH"
+   ],
+   "from": [
+    "S03",
+    "antara"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 180,
+   "size": 108
+  },
+  {
+   "text": "HALAL • KKM",
+   "hi": [
+    "HALAL",
+    "KKM"
+   ],
+   "from": [
+    "S04b",
+    "start"
+   ],
+   "to": [
+    "S04b",
+    "boleh"
+   ],
+   "anim": "rise",
+   "top": 210,
+   "size": 130
+  },
+  {
+   "text": "FEEDBACK PADU",
+   "hi": [
+    "PADU"
+   ],
+   "from": [
+    "S04b",
+    "feedback"
+   ],
+   "to": [
+    "S04b",
+    "end"
+   ],
+   "anim": "split",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "EPA • DHA",
+   "hi": [
+    "EPA",
+    "DHA"
+   ],
+   "from": [
+    "S05",
+    "EPA"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 140
+  },
+  {
+   "text": "OTAK • JANTUNG / MATA",
+   "hi": [
+    "OTAK",
+    "JANTUNG",
+    "MATA"
+   ],
+   "from": [
+    "S07",
+    "sistem"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 180,
+   "size": 110
+  },
+  {
+   "text": "BELI 2-3 BOTOL",
+   "hi": [
+    "2-3"
+   ],
+   "from": [
+    "S09",
+    "beli"
+   ],
+   "to": [
+    "S09",
+    "nanti"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 118
+  }
+ ],
+ "punch": [
+  [
+   "S10",
+   "dapatkan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04b",
+    "feedback"
+   ],
+   "src": 34.0,
+   "note": "close-up of the VTEAY bottle in the owner's hand (same moment)",
+   "push": [
+    1.5,
+    1.6
+   ],
+   "origin": "48% 58%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 72.0,
+   "note": "close-up of the VTEAY bottle in the owner's hand (same moment)",
+   "push": [
+    1.5,
+    1.6
+   ],
+   "origin": "57% 55%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S09",
+    "nanti"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 79.0,
+   "note": "close-up of the VTEAY bottle in the owner's hand (same moment)",
+   "push": [
+    1.5,
+    1.6
+   ],
+   "origin": "53% 55%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "belanja",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: membeli di TikTok (bertudung)"
+  },
+  {
+   "id": "softgel",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: softgel minyak ikan"
+  },
+  {
+   "id": "x_otak",
+   "from": [
+    "S07",
+    "sistem"
+   ],
+   "to": [
+    "S07",
+    "jantung,"
+   ],
+   "note": "AI: x-ray otak"
+  },
+  {
+   "id": "x_jantung",
+   "from": [
+    "S07",
+    "jantung,"
+   ],
+   "to": [
+    "S07",
+    "mata."
+   ],
+   "note": "AI: x-ray jantung"
+  },
+  {
+   "id": "x_mata",
+   "from": [
+    "S07",
+    "mata."
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "note": "AI: x-ray mata"
+  },
+  {
+   "id": "stok",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "nanti"
+   ],
+   "note": "AI: kotak stok (tiada orang)"
+  }
+ ],
+ "theme": {
+  "key": "#5FB8E0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "vteay"
+ ],
+ "keywords": []
+}

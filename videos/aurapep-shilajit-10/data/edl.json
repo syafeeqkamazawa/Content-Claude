@@ -1,0 +1,212 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1600
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.14,
+  "threshold_db": -30,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "9 Nov: car talking clip VID_20261109_195852 (Aurapep Shilajit). 6 Nov caption set low (top 1600); full-screen realistic photo for 'lemau badan'; big kinetic key-point text (EDL kp) in the Aurapep gold on the car ceiling; the owner's own close-ups on the grass at home (VID_20261019_090353 / 090625 — 'produk close up dekat rumput rumah saya'); phone mic → tools/voice.sh. Most of the clip is an energy / stamina pitch, dropped as TikTok risk — the video is short.",
+ "_note": "Aurapep Shilajit #10 — A-roll assets/a.mp4 = VID_20261109_195852 (rear camera, not mirrored). Promo is the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 15.15,
+   "out": 16.62,
+   "zoom": 1.0,
+   "text": "Abang-abang yang",
+   "note": "HOOK — false starts 'yang pada, yang ada pada' (9.5-12.2) dropped; 'tak cukup tenaga, mungkin' (16.6-19.8) dropped — TikTok risk"
+  },
+  {
+   "id": "S01b",
+   "in": 19.78,
+   "out": 22.16,
+   "zoom": 1.0,
+   "text": "rasa selalu lemau badan,",
+   "note": ""
+  },
+  {
+   "id": "S02",
+   "in": 22.16,
+   "out": 25.22,
+   "zoom": 1.0,
+   "text": "boleh try dengan Shilajit daripada Aurapep ni.",
+   "note": "the repeat 'Shilajit daripada Aurapep ni' and 'insya-Allah bantu boost kita punya extra energy, supaya badan lebih bertenaga, lebih fokus' (25.2-37.3) dropped — energy / stamina claims are TikTok risk (owner 5 Nov; as Shilajit #8, #9)"
+  },
+  {
+   "id": "S03",
+   "in": 38.75,
+   "out": 44.75,
+   "zoom": 1.04,
+   "text": "So dekat beg kuning ni memang seller tengah buat promosi ni, sementara harga tengah murah, boleh check out di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "kp": [
+  {
+   "text": "LEMAU BADAN?",
+   "hi": [
+    "LEMAU"
+   ],
+   "from": [
+    "S01b",
+    "start"
+   ],
+   "to": [
+    "S01b",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "SHILAJIT / AURAPEP",
+   "hi": [
+    "SHILAJIT"
+   ],
+   "from": [
+    "S02",
+    "shilajit"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 190,
+   "size": 120
+  },
+  {
+   "text": "PROMO SEKARANG",
+   "hi": [
+    "PROMO"
+   ],
+   "from": [
+    "S03",
+    "promosi"
+   ],
+   "to": [
+    "S03",
+    "boleh"
+   ],
+   "anim": "split",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "CHECK OUT!",
+   "hi": [
+    "CHECK"
+   ],
+   "from": [
+    "S03",
+    "boleh"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 118
+  }
+ ],
+ "punch": [
+  [
+   "S03",
+   "boleh",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 52.7667,
+   "note": "the owner's own close-up of Aurapep Shilajit on the grass at home",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "sementara"
+   ],
+   "src": 117.09440000000001,
+   "note": "the owner's own close-up of Aurapep Shilajit on the grass at home",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S03",
+    "sementara"
+   ],
+   "to": [
+    "S03",
+    "boleh"
+   ],
+   "src": 152.0944,
+   "note": "the owner's own close-up: tablets in the bottle",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "tired",
+   "from": [
+    "S01",
+    "start"
+   ],
+   "to": [
+    "S01b",
+    "end"
+   ],
+   "note": "AI: lemau badan (berlengan panjang)"
+  }
+ ],
+ "theme": {
+  "key": "#C9A227",
+  "brand": "#E9E9E9"
+ },
+ "brand_words": [
+  "aurapep"
+ ],
+ "keywords": []
+}

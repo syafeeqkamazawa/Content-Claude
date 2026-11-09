@@ -1,0 +1,23 @@
+TOTAL 40.93s  (11 A-roll segments, 4 B-roll shots, 5 photos, 11 audio fx, 96 caption cards)
+
+  0.00-  2.72  S01  src  13.00- 15.98  (2 pc)  Yang ada simptom, contoh,
+  2.72-  8.50  S02  src  18.55- 25.30  (4 pc)  susah nak bangun pagi, ataupun nak berehat waktu malam tu susah,
+  8.50- 11.03  S03  src  28.10- 30.92  (2 pc)  kadang otak rasa penat,
+ 11.03- 13.73  S04  src  40.10- 42.80  (1 pc)  tiba-tiba rasa pening,
+ 13.73- 16.10  S05  src  42.94- 45.40  (2 pc)  macam tak boleh nak fokus sangat.
+ 16.10- 21.20  S06  src  45.40- 50.50  (1 pc)  So boleh dapatkan Magnesium Capsule daripada Nature's Key ni, ada halal,
+ 21.20- 28.40  S07  src  51.15- 58.35  (1 pc)  insya-Allah, so jangan risau. Okay, Nature's Key ni trusted brand lah, korang tengok dekat beg kuning, feedback pun memang padu-padu semua.
+ 28.40- 34.32  S08  src  59.95- 66.00  (2 pc)  Magnesium Capsule daripada Nature's Key ni memang sangat membantu kita untuk masalah-masalah yang saya sebutkan tadi.
+ 34.32- 35.35  S09  src  68.36- 69.40  (1 pc)  Untuk cover
+ 35.35- 38.58  S09b  src  70.72- 73.95  (1 pc)  kita punya badan kita yang penat seharian bekerja kan.
+ 38.58- 40.93  S10  src  74.40- 76.75  (1 pc)  Boleh dapatkan di beg kuning, harga pun tengah murah ni.
+
+  cutaway   2.72-  4.38
+  cutaway   4.38-  8.50
+  cutaway   8.50- 11.03
+  cutaway  11.03- 16.10
+  cutaway  17.28- 21.20
+  cutaway  22.78- 28.40
+  cutaway  28.40- 34.32
+  cutaway  34.32- 38.58
+  cutaway  38.58- 40.93

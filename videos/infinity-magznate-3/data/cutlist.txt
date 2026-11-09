@@ -1,0 +1,25 @@
+TOTAL 35.15s  (12 A-roll segments, 3 B-roll shots, 7 photos, 14 audio fx, 94 caption cards)
+
+  0.00-  4.03  S01  src  19.10- 23.62  (3 pc)  Kalau badan dah rasa lesu ataupun tak boleh nak fokus,
+  4.03- 12.00  S02  src  24.90- 32.86  (1 pc)  tiba-tiba rasa pening ke, ataupun contohnya nak bangun tidur pun susah, nak tidur pun lambat, nak rehat tu kan macam tak boleh nak rehat,
+ 12.00- 13.48  S03  src  33.38- 34.86  (1 pc)  boleh dapatkan Magnesium.
+ 13.48- 16.90  S04  src  35.60- 39.18  (2 pc)  Yang ni daripada Infinity Magnesium.
+ 16.90- 19.40  S05  src  41.60- 44.10  (1 pc)  Brand ni yang sangat-sangat trusted lah,
+ 19.40- 24.07  S06  src  45.94- 50.60  (1 pc)  ada KKM, ada hologram sekali dan ada halal JAKIM.
+ 24.07- 25.63  S07  src  50.60- 52.16  (1 pc)  So trusted, jangan risau, insya-Allah.
+ 25.63- 27.25  S08  src  52.78- 54.40  (1 pc)  Satu botol ni ada 60 tablet.
+ 27.25- 29.78  S08b  src  55.04- 57.58  (1 pc)  Sehari boleh ambil 1 ke 2 tablet lah.
+ 29.78- 32.05  S09  src  58.00- 60.26  (1 pc)  Dapatkan di beg kuning insya-Allah, harga tengah murah ni,
+ 32.05- 34.03  S09b  src  61.00- 62.98  (1 pc)  seller banyak tengah buat promotion,
+ 34.03- 35.15  S10  src  63.14- 64.25  (1 pc)  dapatkan di beg kuning.
+
+  cutaway   0.00-  1.98
+  cutaway   1.98-  4.03
+  cutaway   4.03-  5.70
+  cutaway   5.70-  8.37
+  cutaway   8.37-  9.50
+  cutaway   9.50- 12.00
+  cutaway  13.48- 16.90
+  cutaway  19.40- 24.07
+  cutaway  25.63- 29.78
+  cutaway  31.13- 34.03

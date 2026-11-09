@@ -1,0 +1,451 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1600
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.14,
+  "threshold_db": -30,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "9 Nov: car talking clip VID_20261109_201010 → one video per product; this is the Infinity Magnesium (Magznate) part (224-289 s). 6 Nov caption set low (top 1600); full-screen realistic photos for each problem (lesu, tak fokus, pening, susah bangun, lambat tidur, tak boleh rehat); big kinetic key-point text (EDL kp) in the Magznate aqua on the car ceiling; no separate B-roll of this product in the Drive folder any more, so close-ups come from the moments the owner holds the bottle up to the camera; phone mic → tools/voice.sh.",
+ "_note": "Infinity Magznate #3 — A-roll assets/a.mp4 = VID_20261109_201010 224-289 s (rear camera, not mirrored). assets/b.mp4 = the same clip, muted. KKM, hologram, halal JAKIM, 60 tablets, 1-2 a day and promo are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 19.1,
+   "out": 23.62,
+   "zoom": 1.0,
+   "text": "Kalau badan dah rasa lesu ataupun tak boleh nak fokus,",
+   "note": "HOOK — false start 'kalau badan tengah' (17.7-19.1) dropped"
+  },
+  {
+   "id": "S02",
+   "in": 24.9,
+   "out": 32.86,
+   "zoom": 1.0,
+   "text": "tiba-tiba rasa pening ke, ataupun contohnya nak bangun tidur pun susah, nak tidur pun lambat, nak rehat tu kan macam tak boleh nak rehat,",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 33.38,
+   "out": 34.86,
+   "zoom": 1.0,
+   "text": "boleh dapatkan Magnesium.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 35.6,
+   "out": 39.18,
+   "zoom": 1.0,
+   "text": "Yang ni daripada Infinity Magnesium.",
+   "note": "'ok' (35-35.5) and the repeat 'Magnesium daripada Infinity, ok' (39.2-41.6) dropped"
+  },
+  {
+   "id": "S05",
+   "in": 41.6,
+   "out": 44.1,
+   "zoom": 1.0,
+   "text": "Brand ni yang sangat-sangat trusted lah,",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 45.94,
+   "out": 50.6,
+   "zoom": 1.0,
+   "text": "ada KKM, ada hologram sekali dan ada halal JAKIM.",
+   "note": "first 'ada KKM, jangan risau' (44.1-45.9) dropped — said twice"
+  },
+  {
+   "id": "S07",
+   "in": 50.6,
+   "out": 52.16,
+   "zoom": 1.0,
+   "text": "So trusted, jangan risau, insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 52.78,
+   "out": 54.4,
+   "zoom": 1.0,
+   "text": "Satu botol ni ada 60 tablet.",
+   "note": "filler 'ok' (52.2-52.7) dropped"
+  },
+  {
+   "id": "S08b",
+   "in": 55.04,
+   "out": 57.58,
+   "zoom": 1.0,
+   "text": "Sehari boleh ambil 1 ke 2 tablet lah.",
+   "note": "filler 'ok' (54.4-55) dropped"
+  },
+  {
+   "id": "S09",
+   "in": 58.0,
+   "out": 60.26,
+   "zoom": 1.0,
+   "text": "Dapatkan di beg kuning insya-Allah, harga tengah murah ni,",
+   "note": ""
+  },
+  {
+   "id": "S09b",
+   "in": 61.0,
+   "out": 62.98,
+   "zoom": 1.0,
+   "text": "seller banyak tengah buat promotion,",
+   "note": "first 'seller banyak tengah' (60.3-61) dropped — said twice"
+  },
+  {
+   "id": "S10",
+   "in": 63.14,
+   "out": 64.25,
+   "zoom": 1.04,
+   "text": "dapatkan di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "kp": [
+  {
+   "text": "LESU?",
+   "hi": [
+    "LESU?"
+   ],
+   "from": [
+    "S01",
+    "lesu"
+   ],
+   "to": [
+    "S01",
+    "ataupun"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 150
+  },
+  {
+   "text": "TAK BOLEH FOKUS",
+   "hi": [
+    "FOKUS"
+   ],
+   "from": [
+    "S01",
+    "ataupun"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "anim": "split",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "PENING?",
+   "hi": [
+    "PENING?"
+   ],
+   "from": [
+    "S02",
+    "pening"
+   ],
+   "to": [
+    "S02",
+    "ataupun"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 140
+  },
+  {
+   "text": "SUSAH BANGUN",
+   "hi": [
+    "BANGUN"
+   ],
+   "from": [
+    "S02",
+    "ataupun"
+   ],
+   "to": [
+    "S02",
+    "nak#2"
+   ],
+   "anim": "slide",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "LAMBAT TIDUR",
+   "hi": [
+    "TIDUR"
+   ],
+   "from": [
+    "S02",
+    "nak#2"
+   ],
+   "to": [
+    "S02",
+    "nak#3"
+   ],
+   "anim": "slide",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "TAK BOLEH REHAT",
+   "hi": [
+    "REHAT"
+   ],
+   "from": [
+    "S02",
+    "nak#3"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "INFINITY / MAGNESIUM",
+   "hi": [
+    "MAGNESIUM"
+   ],
+   "from": [
+    "S04",
+    "infinity"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "KKM • HOLOGRAM / HALAL JAKIM",
+   "hi": [
+    "KKM",
+    "HALAL"
+   ],
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 180,
+   "size": 104
+  },
+  {
+   "text": "60 TABLET",
+   "hi": [
+    "60"
+   ],
+   "from": [
+    "S08",
+    "60"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 140
+  },
+  {
+   "text": "1-2 SEHARI",
+   "hi": [
+    "1-2"
+   ],
+   "from": [
+    "S08b",
+    "start"
+   ],
+   "to": [
+    "S08b",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 130
+  }
+ ],
+ "punch": [
+  [
+   "S10",
+   "dapatkan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 36.0,
+   "note": "close-up of the Magznate bottle the owner holds up to the camera (same moment)",
+   "push": [
+    1.25,
+    1.35
+   ],
+   "origin": "45% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 46.5,
+   "note": "close-up of the Magznate bottle the owner holds up to the camera (same moment)",
+   "push": [
+    1.35,
+    1.45
+   ],
+   "origin": "62% 42%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08b",
+    "end"
+   ],
+   "src": 53.0,
+   "note": "close-up of the Magznate bottle the owner holds up to the camera (same moment)",
+   "push": [
+    1.35,
+    1.45
+   ],
+   "origin": "55% 40%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "i_lesu",
+   "from": [
+    "S01",
+    "start"
+   ],
+   "to": [
+    "S01",
+    "ataupun"
+   ],
+   "note": "AI: lesu (berlengan panjang)"
+  },
+  {
+   "id": "fog",
+   "from": [
+    "S01",
+    "ataupun"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: tak fokus (bertudung)"
+  },
+  {
+   "id": "penat",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "ataupun"
+   ],
+   "note": "AI: pening (berlengan panjang)"
+  },
+  {
+   "id": "pagi",
+   "from": [
+    "S02",
+    "ataupun"
+   ],
+   "to": [
+    "S02",
+    "nak#2"
+   ],
+   "note": "AI: susah bangun (aurat ditutup)"
+  },
+  {
+   "id": "insomnia",
+   "from": [
+    "S02",
+    "nak#2"
+   ],
+   "to": [
+    "S02",
+    "nak#3"
+   ],
+   "note": "AI: lambat tidur (aurat ditutup)"
+  },
+  {
+   "id": "anxious",
+   "from": [
+    "S02",
+    "nak#3"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "note": "AI: tak boleh rehat (bertudung)"
+  },
+  {
+   "id": "belanja",
+   "from": [
+    "S09",
+    "harga"
+   ],
+   "to": [
+    "S09b",
+    "end"
+   ],
+   "note": "AI: membeli online (bertudung)"
+  }
+ ],
+ "theme": {
+  "key": "#5FC7D4",
+  "brand": "#A8E2EA"
+ },
+ "brand_words": [
+  "infinity"
+ ],
+ "keywords": []
+}

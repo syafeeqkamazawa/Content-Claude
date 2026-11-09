@@ -1,0 +1,430 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1600
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.14,
+  "threshold_db": -30,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "9 Nov: two talking clips filmed in the car (VID_20261109_201010 — six products — and 195852 — Shilajit), one video per product. Owner: 'Gunakan caption style latest' → the 6 Nov caption, set low (top 1600, on the shirt) since the face is mid-frame and the product is held in front of the chest; 'Buat overlay full cover waktu nak visualkan masalah' → full-screen realistic photos for each problem; 'highlight text dengan font huruf besar … motion … sesuai dengan tema produk' → EDL kp (big Anton words, key words in the Infinity yellow, colour bar wipe) on every key point, set on the car ceiling above the head; 'overlay dari klip … produk close up dekat rumput rumah saya' → VID_20261104_154051 (box, bottle, capsules on the grass) first, then the shelf close-ups VID_20261014_001726; phone mic → tools/voice.sh. The night car footage is lifted slightly (gamma 1.10).",
+ "_note": "Infinity Probiotics Plus #5 — A-roll assets/a.mp4 = VID_20261109_201010 0-86.5 s (rear camera, not mirrored). 5 probiotik / 1 prebiotik / 3 digestive enzyme, halal JAKIM, KKM and promo 11.11 are the owner's own words; no price. Whisper hears the brand as 'Envora' — it is Infinity.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 10.8,
+   "out": 15.0,
+   "zoom": 1.0,
+   "text": "Sebenarnya kita punya usus, kita kena jaga tau,",
+   "note": "HOOK — silence before (0-10.8) dropped"
+  },
+  {
+   "id": "S02",
+   "in": 15.0,
+   "out": 15.95,
+   "zoom": 1.0,
+   "text": "sebab",
+   "note": "stumbles 'hampir, kita punya' (15.9-19.7), 'kita punya, badan-' (21.2-23.4) and 'yang, apa' (26-27.8) dropped"
+  },
+  {
+   "id": "S02b",
+   "in": 19.72,
+   "out": 21.16,
+   "zoom": 1.0,
+   "text": "hampir keseluruhan,",
+   "note": ""
+  },
+  {
+   "id": "S02c",
+   "in": 23.4,
+   "out": 26.0,
+   "zoom": 1.0,
+   "text": "badan kita punya simptom",
+   "note": ""
+  },
+  {
+   "id": "S02d",
+   "in": 27.85,
+   "out": 33.0,
+   "zoom": 1.0,
+   "text": "yang ada pada badan kita, kebanyakannya berpunca daripada usus.",
+   "note": ""
+  },
+  {
+   "id": "S03",
+   "in": 33.0,
+   "out": 41.56,
+   "zoom": 1.0,
+   "text": "Contoh macam nafas berbau, so kadang-kadang bukan sebab kita tak jaga gosok gigi, tapi sebenarnya daripada perut kita.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 41.56,
+   "out": 44.65,
+   "zoom": 1.0,
+   "text": "So usus tu kita kena jaga.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 44.55,
+   "out": 45.15,
+   "zoom": 1.0,
+   "text": "So",
+   "note": "stumble 'antara, apa, eh eh' (45.2-49.6) dropped"
+  },
+  {
+   "id": "S05b",
+   "in": 49.6,
+   "out": 54.4,
+   "zoom": 1.0,
+   "text": "antara yang saya boleh sarankan, boleh ambil ni, probiotik daripada Infinity ni.",
+   "note": ""
+  },
+  {
+   "id": "S06",
+   "in": 55.8,
+   "out": 63.42,
+   "zoom": 1.0,
+   "text": "Lagi penting, ada halal tau. Ada halal JAKIM dan juga dia ada KKM punya nombor siri.",
+   "note": "stumble 'yang apa' (54.4-55.7) dropped"
+  },
+  {
+   "id": "S07",
+   "in": 63.42,
+   "out": 65.5,
+   "zoom": 1.0,
+   "text": "So jangan risau, trusted insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 66.1,
+   "out": 77.62,
+   "zoom": 1.0,
+   "text": "Infinity Probiotic Plus ni insya-Allah, dia ada 5 probiotik, 1 prebiotik dan juga 3 digestive enzyme. Memang sangat trusted lah insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S09",
+   "in": 77.62,
+   "out": 81.55,
+   "zoom": 1.0,
+   "text": "So boleh dapatkan di beg kuning, harga tengah murah ni, promosi tengah berjalan,",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 82.8,
+   "out": 85.7,
+   "zoom": 1.04,
+   "text": "promosi 11.11 pun masih ada. Okay, dapatkan di beg kuning.",
+   "note": "CTA"
+  }
+ ],
+ "kp": [
+  {
+   "text": "JAGA USUS!",
+   "hi": [
+    "USUS!"
+   ],
+   "from": [
+    "S01",
+    "usus,"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "PUNCA: USUS",
+   "hi": [
+    "USUS"
+   ],
+   "from": [
+    "S02d",
+    "kebanyakannya"
+   ],
+   "to": [
+    "S02d",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "NAFAS BERBAU?",
+   "hi": [
+    "BERBAU?"
+   ],
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "bukan"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "BUKAN SEBAB / GOSOK GIGI",
+   "hi": [
+    "GIGI"
+   ],
+   "from": [
+    "S03",
+    "bukan"
+   ],
+   "to": [
+    "S03",
+    "tapi"
+   ],
+   "anim": "slide",
+   "top": 210,
+   "size": 104
+  },
+  {
+   "text": "HALAL JAKIM / KKM",
+   "hi": [
+    "JAKIM",
+    "KKM"
+   ],
+   "from": [
+    "S06",
+    "halal"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "5 PROBIOTIK / 1 PREBIOTIK / 3 ENZIM",
+   "hi": [
+    "5",
+    "1",
+    "3"
+   ],
+   "from": [
+    "S08",
+    "5"
+   ],
+   "to": [
+    "S08",
+    "memang"
+   ],
+   "anim": "slide",
+   "top": 170,
+   "size": 104
+  },
+  {
+   "text": "PROMO 11.11",
+   "hi": [
+    "11.11"
+   ],
+   "from": [
+    "S10",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "okay,"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 118
+  }
+ ],
+ "punch": [
+  [
+   "S10",
+   "dapatkan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S05b",
+    "probiotik"
+   ],
+   "to": [
+    "S05b",
+    "end"
+   ],
+   "src": 96.0167,
+   "note": "the owner's own close-up of Infinity Probiotics Plus (on the grass at home)",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 114.5167,
+   "note": "the owner's own close-up of Infinity Probiotics Plus (on the grass at home)",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S08",
+    "start"
+   ],
+   "to": [
+    "S08",
+    "memang"
+   ],
+   "src": 136.51670000000001,
+   "note": "the owner's own close-up of Infinity Probiotics Plus (on the grass at home)",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S08",
+    "memang"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 200.8327,
+   "note": "the owner's own close-up: capsules in the palm",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S09",
+    "end"
+   ],
+   "src": 174.8327,
+   "note": "the owner's own close-up: the bottle",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "penat",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02d",
+    "kebanyakannya"
+   ],
+   "note": "AI: simptom badan (berlengan panjang)"
+  },
+  {
+   "id": "usus",
+   "from": [
+    "S02d",
+    "kebanyakannya"
+   ],
+   "to": [
+    "S02d",
+    "end"
+   ],
+   "note": "AI: ilustrasi usus"
+  },
+  {
+   "id": "nafas",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "bukan"
+   ],
+   "note": "AI: nafas berbau (berlengan panjang)"
+  },
+  {
+   "id": "gigi",
+   "from": [
+    "S03",
+    "bukan"
+   ],
+   "to": [
+    "S03",
+    "tapi"
+   ],
+   "note": "AI: berus gigi (tiada orang)"
+  },
+  {
+   "id": "perut",
+   "from": [
+    "S03",
+    "tapi"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: model perut & usus (tiada orang)"
+  }
+ ],
+ "theme": {
+  "key": "#F2B705",
+  "brand": "#2BB3C0"
+ },
+ "brand_words": [
+  "infinity"
+ ],
+ "keywords": []
+}

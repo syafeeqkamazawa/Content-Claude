@@ -1,0 +1,495 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1600
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.14,
+  "threshold_db": -30,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "9 Nov: car talking clip VID_20261109_201010 → one video per product; this is the Hidup Dengan Tahajud (Iddin Ramli) sharing, part 2 (372-630 s). 6 Nov caption set low (top 1600); full-screen realistic photos (night prayer, doa, waking at night, prayer mat); big kinetic key-point text (EDL kp) in the book's purple on the car ceiling; close-ups of the book cover from the moment the owner holds it up; phone mic → tools/voice.sh. Repeats, 'apa tu' fillers and the long silent reading pause cut.",
+ "_note": "Buku Hidup Dengan Tahajud #2 — A-roll assets/a.mp4 = VID_20261109_201010 372-630 s (rear camera, not mirrored). assets/b.mp4 = the same clip, muted. 'Tahajud je ni' is heard as the owner's series name and captioned 'Tahajud Journey'. No price / CTA beyond 'follow' — the owner's own words.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 35.7,
+   "out": 38.5,
+   "zoom": 1.0,
+   "text": "Tahajud ni memang sangat penting sebenarnya.",
+   "note": "HOOK — moved up from the intro"
+  },
+  {
+   "id": "S01b",
+   "in": 39.0,
+   "out": 40.35,
+   "zoom": 1.0,
+   "text": "Kenapa penting tahajud?",
+   "note": ""
+  },
+  {
+   "id": "S02",
+   "in": 8.85,
+   "out": 10.25,
+   "zoom": 1.0,
+   "text": "Assalamualaikum warahmatullahi wabarakatuh.",
+   "note": "the tail of the previous product (0-0.7) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 14.0,
+   "out": 17.1,
+   "zoom": 1.0,
+   "text": "Tahajud Journey bersama Syafiq, insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 17.75,
+   "out": 19.0,
+   "zoom": 1.0,
+   "text": "Hari tu saya ada kongsi lah",
+   "note": "repeat 'Tahajud Journey' (17.2-17.7) dropped"
+  },
+  {
+   "id": "S04b",
+   "in": 21.15,
+   "out": 25.25,
+   "zoom": 1.0,
+   "text": "beberapa input daripada buku Hidup Dengan Tahajud daripada Iddin Ramli.",
+   "note": "'apa tu' (19.4-21.1) dropped"
+  },
+  {
+   "id": "S05",
+   "in": 25.65,
+   "out": 33.65,
+   "zoom": 1.0,
+   "text": "Insya-Allah buku ni memang sangat-sangat membantu kita untuk kita faham, daripada faham, kita rasa nak buat, insya-Allah.",
+   "note": "the repeated intro 'so … baru ni saya dah share … untuk kali kedua ni, err, iaitu Tahajud Journey kedua' (34-57.9; the hook was taken from it) dropped"
+  },
+  {
+   "id": "S06",
+   "in": 57.95,
+   "out": 63.95,
+   "zoom": 1.0,
+   "text": "Saya akan sharekan tentang kenapa perlu bangun malam.",
+   "note": "repeat 'so kenapa perlu bangun malam' and the silent book reading (64-145.6) dropped"
+  },
+  {
+   "id": "S07",
+   "in": 145.6,
+   "out": 153.8,
+   "zoom": 1.0,
+   "text": "Input yang kedua ni iaitu sebab, kat sini ada mention tujuh tau, tujuh sebab utama untuk saya bertahajud, tujuh sebab utama.",
+   "note": ""
+  },
+  {
+   "id": "S08",
+   "in": 154.0,
+   "out": 155.62,
+   "zoom": 1.0,
+   "text": "Saya akan bagi satu dululah.",
+   "note": "'ok so apa dia sebab utama … ada tujuh sebab kat sini … saya bagi yang antaranya' (155.7-168.9) dropped — repeat"
+  },
+  {
+   "id": "S09",
+   "in": 168.95,
+   "out": 172.05,
+   "zoom": 1.0,
+   "text": "Antaranya ialah doa-doa akan dikabulkan.",
+   "note": ""
+  },
+  {
+   "id": "S10",
+   "in": 173.4,
+   "out": 176.8,
+   "zoom": 1.0,
+   "text": "Banyak lagi sebab-sebab dia, tapi ni antara sebab utama dia.",
+   "note": "repeat 'pentingnya bertahajud doa-doa dikabulkan' (177.9-180.4) dropped"
+  },
+  {
+   "id": "S11",
+   "in": 180.8,
+   "out": 182.0,
+   "zoom": 1.0,
+   "text": "So hajat kita yang,",
+   "note": ""
+  },
+  {
+   "id": "S11b",
+   "in": 185.7,
+   "out": 187.75,
+   "zoom": 1.0,
+   "text": "entah bila kan Tuhan nak kabulkan sebenarnya,",
+   "note": "'apa tu' (184.3-185.6) dropped"
+  },
+  {
+   "id": "S11c",
+   "in": 187.9,
+   "out": 188.6,
+   "zoom": 1.0,
+   "text": "kita boleh",
+   "note": ""
+  },
+  {
+   "id": "S11d",
+   "in": 191.9,
+   "out": 201.42,
+   "zoom": 1.0,
+   "text": "jadikan tahajud ni sebagai kabel kita, sebagai perantara yang lebih dekat, supaya Allah SWT bantu apa yang kita hajati, insya-Allah.",
+   "note": "'orang kata' (190.4-191.8) dropped; the recap 'ni antara sebab utama dia … doa-doa akan dikabulkan' (201.5-209.7) dropped — repeat"
+  },
+  {
+   "id": "S12",
+   "in": 210.0,
+   "out": 212.1,
+   "zoom": 1.0,
+   "text": "Dan sentiasa bersangka baik dengan Allah.",
+   "note": ""
+  },
+  {
+   "id": "S13",
+   "in": 213.3,
+   "out": 221.65,
+   "zoom": 1.0,
+   "text": "Even kita dah solat, kadang-kadang belum sampai lagi tu, kita kena bersangka baik dengan Allah. Allah lebih tahu yang terbaik untuk kita kan.",
+   "note": "repeat 'so sentiasa bersangka baik dengan Allah, ok' (222-225.6) dropped"
+  },
+  {
+   "id": "S14",
+   "in": 226.15,
+   "out": 236.3,
+   "zoom": 1.0,
+   "text": "Tapi kelebihan dia memang ada, bila kita tahajud ni memang seumpamanya kita dah macam ada shortcut. Ni untuk saya juga, insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S15",
+   "in": 240.1,
+   "out": 240.95,
+   "zoom": 1.0,
+   "text": "Yang tengok",
+   "note": "'ok so yang tengok, yang tengok' (236.4-240.1) dropped — said three times"
+  },
+  {
+   "id": "S15b",
+   "in": 242.5,
+   "out": 248.55,
+   "zoom": 1.0,
+   "text": "perkongsian saya ni daripada buku Hidup Dengan Tahajud daripada Iddin Ramli, boleh sama-sama insya-Allah,",
+   "note": "'apa tu' (241-242.4) dropped"
+  },
+  {
+   "id": "S15c",
+   "in": 249.15,
+   "out": 253.32,
+   "zoom": 1.0,
+   "text": "kita niat, kita azam untuk hidup dengan tahajud, insya-Allah.",
+   "note": ""
+  },
+  {
+   "id": "S16",
+   "in": 253.65,
+   "out": 257.95,
+   "zoom": 1.04,
+   "text": "Saya akan kongsikan lagi dalam video-video yang akan datang. Yang belum follow saya, boleh follow, insya-Allah.",
+   "note": "end"
+  }
+ ],
+ "kp": [
+  {
+   "text": "KENAPA PENTING / TAHAJUD?",
+   "hi": [
+    "TAHAJUD?"
+   ],
+   "from": [
+    "S01b",
+    "start"
+   ],
+   "to": [
+    "S01b",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 180,
+   "size": 112
+  },
+  {
+   "text": "HIDUP DENGAN TAHAJUD",
+   "hi": [
+    "TAHAJUD"
+   ],
+   "from": [
+    "S04b",
+    "buku"
+   ],
+   "to": [
+    "S04b",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 200,
+   "size": 104
+  },
+  {
+   "text": "FAHAM → BUAT",
+   "hi": [
+    "BUAT"
+   ],
+   "from": [
+    "S05",
+    "faham,"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "anim": "slide",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "KENAPA PERLU / BANGUN MALAM?",
+   "hi": [
+    "MALAM?"
+   ],
+   "from": [
+    "S06",
+    "kenapa"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 180,
+   "size": 110
+  },
+  {
+   "text": "7 SEBAB UTAMA",
+   "hi": [
+    "7"
+   ],
+   "from": [
+    "S07",
+    "tujuh#2"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 130
+  },
+  {
+   "text": "DOA DIKABULKAN",
+   "hi": [
+    "DIKABULKAN"
+   ],
+   "from": [
+    "S09",
+    "doa-doa"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "anim": "split",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "PERANTARA / LEBIH DEKAT",
+   "hi": [
+    "DEKAT"
+   ],
+   "from": [
+    "S11d",
+    "sebagai#2"
+   ],
+   "to": [
+    "S11d",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 190,
+   "size": 112
+  },
+  {
+   "text": "BERSANGKA BAIK / DENGAN ALLAH",
+   "hi": [
+    "BAIK"
+   ],
+   "from": [
+    "S12",
+    "start"
+   ],
+   "to": [
+    "S13",
+    "allah.#1"
+   ],
+   "anim": "rise",
+   "top": 180,
+   "size": 104
+  },
+  {
+   "text": "SHORTCUT",
+   "hi": [
+    "SHORTCUT"
+   ],
+   "from": [
+    "S14",
+    "shortcut."
+   ],
+   "to": [
+    "S14",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 150
+  },
+  {
+   "text": "NIAT • AZAM",
+   "hi": [
+    "NIAT",
+    "AZAM"
+   ],
+   "from": [
+    "S15c",
+    "start"
+   ],
+   "to": [
+    "S15c",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 118
+  }
+ ],
+ "punch": [
+  [
+   "S16",
+   "yang",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S04b",
+    "buku"
+   ],
+   "to": [
+    "S04b",
+    "end"
+   ],
+   "src": 244.4,
+   "note": "close-up of the book cover the owner holds up (same take)",
+   "push": [
+    1.55,
+    1.65
+   ],
+   "origin": "68% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S15b",
+    "start"
+   ],
+   "to": [
+    "S15b",
+    "end"
+   ],
+   "src": 244.0,
+   "note": "close-up of the book cover the owner holds up (same take)",
+   "push": [
+    1.55,
+    1.65
+   ],
+   "origin": "68% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "tahajud",
+   "from": [
+    "S01",
+    "start"
+   ],
+   "to": [
+    "S01b",
+    "end"
+   ],
+   "note": "AI: solat tahajud (aurat ditutup)"
+  },
+  {
+   "id": "tidur",
+   "from": [
+    "S06",
+    "kenapa"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: bangun malam (aurat ditutup)"
+  },
+  {
+   "id": "doa",
+   "from": [
+    "S09",
+    "start"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "note": "AI: berdoa waktu malam (aurat ditutup)"
+  },
+  {
+   "id": "malam",
+   "from": [
+    "S11d",
+    "start"
+   ],
+   "to": [
+    "S11d",
+    "end"
+   ],
+   "note": "AI: sejadah waktu malam (tiada orang)"
+  },
+  {
+   "id": "tahajud",
+   "from": [
+    "S14",
+    "start"
+   ],
+   "to": [
+    "S14",
+    "ni"
+   ],
+   "note": "AI: solat tahajud (aurat ditutup)"
+  }
+ ],
+ "theme": {
+  "key": "#9B7ED1",
+  "brand": "#E9E2F5"
+ },
+ "brand_words": [],
+ "keywords": []
+}

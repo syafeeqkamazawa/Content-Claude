@@ -1,0 +1,371 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 74,
+  "top": 1600
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 0.35,
+  "keep": 0.14,
+  "threshold_db": -30,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "9 Nov: car talking clip VID_20261109_201010 → one video per product; this is the Aurapep Krill Oil part (163-225 s). 6 Nov caption set low (top 1600); full-screen realistic photos (fish oil vs krill, x-ray eyes / joints / nerves / heart); big kinetic key-point text (EDL kp) in the Aurapep red on the car ceiling; the owner's own B-roll VID_20261106_173831 (taking a softgel); phone mic → tools/voice.sh.",
+ "_note": "Aurapep Krill Oil #14 — A-roll assets/a.mp4 = VID_20261109_201010 163-225 s (rear camera, not mirrored). Omega-3, DHA, EPA, promo are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 6.85,
+   "out": 10.05,
+   "zoom": 1.0,
+   "text": "Tahu tak korang, sebenarnya fish oil ni ada",
+   "note": "HOOK"
+  },
+  {
+   "id": "S01b",
+   "in": 12.7,
+   "out": 17.62,
+   "zoom": 1.0,
+   "text": "yang lebih, orang kata kesan tu extra daripada fish oil, iaitu krill oil.",
+   "note": "pause/stutter 'ada' (10-12.7) dropped"
+  },
+  {
+   "id": "S02",
+   "in": 17.62,
+   "out": 19.85,
+   "zoom": 1.0,
+   "text": "Krill oil ni dia dah ada omega-3.",
+   "note": "'dan juga Aurapep ni' (19.9-21.4) dropped"
+  },
+  {
+   "id": "S03",
+   "in": 21.6,
+   "out": 25.65,
+   "zoom": 1.0,
+   "text": "Brand Aurapep krill oil ni dia ada DHA, EPA.",
+   "note": ""
+  },
+  {
+   "id": "S04",
+   "in": 26.05,
+   "out": 33.96,
+   "zoom": 1.0,
+   "text": "Dua-dua ni fungsi dia untuk jaga kita punya mata, otak, kita punya sendi, saraf,",
+   "note": "'saluran darah' (34-35.3) dropped — TikTok risk (as Krill #12)"
+  },
+  {
+   "id": "S04b",
+   "in": 50.75,
+   "out": 51.95,
+   "zoom": 1.0,
+   "text": "kita punya jantung.",
+   "note": "moved up from the repeated list (37-53, said twice) — only 'jantung' was new"
+  },
+  {
+   "id": "S04c",
+   "in": 35.28,
+   "out": 36.9,
+   "zoom": 1.0,
+   "text": "Memang komplit lah ni.",
+   "note": ""
+  },
+  {
+   "id": "S05",
+   "in": 53.15,
+   "out": 61.45,
+   "zoom": 1.04,
+   "text": "Insya-Allah, boleh beli di beg kuning, harga pun tengah ada promotion, seller tengah buat promosi, dapatkan di beg kuning sementara harga tengah murah.",
+   "note": "CTA"
+  }
+ ],
+ "kp": [
+  {
+   "text": "LEBIH PADU / DARIPADA FISH OIL",
+   "hi": [
+    "PADU"
+   ],
+   "from": [
+    "S01b",
+    "start"
+   ],
+   "to": [
+    "S01b",
+    "iaitu"
+   ],
+   "anim": "slide",
+   "top": 190,
+   "size": 104
+  },
+  {
+   "text": "KRILL OIL",
+   "hi": [
+    "KRILL"
+   ],
+   "from": [
+    "S01b",
+    "iaitu"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 150
+  },
+  {
+   "text": "DHA • EPA",
+   "hi": [
+    "DHA",
+    "EPA"
+   ],
+   "from": [
+    "S03",
+    "DHA,"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 140
+  },
+  {
+   "text": "MATA • OTAK / SENDI • SARAF",
+   "hi": [
+    "MATA",
+    "OTAK",
+    "SENDI",
+    "SARAF"
+   ],
+   "from": [
+    "S04",
+    "mata,"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 170,
+   "size": 108
+  },
+  {
+   "text": "JANTUNG",
+   "hi": [
+    "JANTUNG"
+   ],
+   "from": [
+    "S04b",
+    "start"
+   ],
+   "to": [
+    "S04b",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 210,
+   "size": 118
+  },
+  {
+   "text": "KOMPLIT!",
+   "hi": [
+    "KOMPLIT!"
+   ],
+   "from": [
+    "S04c",
+    "start"
+   ],
+   "to": [
+    "S04c",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 210,
+   "size": 150
+  },
+  {
+   "text": "PROMO SEKARANG",
+   "hi": [
+    "PROMO"
+   ],
+   "from": [
+    "S05",
+    "promotion,"
+   ],
+   "to": [
+    "S05",
+    "dapatkan"
+   ],
+   "anim": "split",
+   "top": 210,
+   "size": 118
+  }
+ ],
+ "punch": [
+  [
+   "S05",
+   "dapatkan",
+   1.06
+  ]
+ ],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 66.5333,
+   "note": "the owner's own B-roll: showing a krill softgel",
+   "push": [
+    1.05,
+    1.12
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 22.0,
+   "note": "close-up of the Aurapep bottle in the owner's hand (same moment)",
+   "push": [
+    1.5,
+    1.6
+   ],
+   "origin": "35% 52%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S04c",
+    "start"
+   ],
+   "to": [
+    "S04c",
+    "end"
+   ],
+   "src": 76.0333,
+   "note": "the owner's own B-roll: taking the softgel with water",
+   "push": [
+    1.05,
+    1.12
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "fishoil",
+   "from": [
+    "S01",
+    "fish"
+   ],
+   "to": [
+    "S01b",
+    "iaitu"
+   ],
+   "note": "AI: minyak ikan"
+  },
+  {
+   "id": "krill",
+   "from": [
+    "S01b",
+    "iaitu"
+   ],
+   "to": [
+    "S01b",
+    "end"
+   ],
+   "note": "AI: kawanan krill (tiada orang)"
+  },
+  {
+   "id": "x_mata",
+   "from": [
+    "S04",
+    "mata,"
+   ],
+   "to": [
+    "S04",
+    "sendi,"
+   ],
+   "note": "AI: x-ray mata & otak"
+  },
+  {
+   "id": "x_lutut",
+   "from": [
+    "S04",
+    "sendi,"
+   ],
+   "to": [
+    "S04",
+    "saraf,"
+   ],
+   "note": "AI: x-ray sendi lutut"
+  },
+  {
+   "id": "x_saraf",
+   "from": [
+    "S04",
+    "saraf,"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "note": "AI: x-ray saraf"
+  },
+  {
+   "id": "x_jantung",
+   "from": [
+    "S04b",
+    "start"
+   ],
+   "to": [
+    "S04b",
+    "end"
+   ],
+   "note": "AI: x-ray jantung"
+  },
+  {
+   "id": "belanja",
+   "from": [
+    "S05",
+    "harga"
+   ],
+   "to": [
+    "S05",
+    "dapatkan"
+   ],
+   "note": "AI: membeli online (bertudung)"
+  }
+ ],
+ "theme": {
+  "key": "#E0342C",
+  "brand": "#2C4A8C"
+ },
+ "brand_words": [
+  "aurapep"
+ ],
+ "keywords": []
+}
