@@ -33,6 +33,12 @@ otherwise for a specific video.
 
 ## Captions
 
+- **Caption height and size (owner, 9 Nov — overrides the 72-77 % / size 74 / "top 1600"
+  settings below):** "Next time caption atas skit dan kecilkan skit sahaja, bertindih dengan
+  produk pun takpe sebab kalau bawah sangat nanti masuk TikTok bertindih dengan posting text
+  dan icon beg kuning". Keep the word caption out of the bottom third — TikTok's post text and
+  the yellow-bag icon sit there: `word.top` about **1150-1250** (never lower than ~1300) and
+  `word.size` about **62**. Overlapping the product is fine; still keep it off the face.
 - **DEFAULT FROM 6 NOV — overrides every older caption style below** (owner: "Guna
   caption style sama seperti dalam gambar mesti sama 100%" + "Lepas ni always pakai
   caption style macam dalam gambar" — reference `docs/caption-style-6nov.jpg`): one
