@@ -1,0 +1,99 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": false,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 62,
+  "top": 1200
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "tighten": {
+  "max_pause": 999,
+  "keep": 0.0,
+  "threshold_db": -90,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "10 Nov, VTEAY Fish Oil folder 1-HP8DmM…: 'Hanya tambah overlay visual masalah dan kelebihan sahaja. Yang lain, caption, suara, potong klip, semua tak perlu sentuh.' The owner's own finished edit (lv_0_20261110231242.mp4, 30.8 s, captions burned in) plays whole: no cuts, no captions added, no voice processing. Only full-screen realistic overlays on the problems (lemah badan, sakit sendi, mata kabur, mula lupa) and the benefits (pembuluh darah, jantung, mata, sendi, nampak kesan). After the render, tools/finish.sh puts the owner's burned-in caption back on top of the overlays (white text keyed from the original, with a soft shadow) and copies the original audio stream unchanged.",
+ "_note": "VTEAY Fish Oil #6 — A-roll assets/a.mp4 = lv_0_20261110231242.mp4 as delivered (1080×1920, 60 fps). assets/b.mp4 = the same, muted.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 0.0,
+   "out": 30.79,
+   "zoom": 1.0,
+   "note": "the owner's finished edit, played whole and untouched",
+   "text": "Yang ada masalah lemah-lemah badan kan, sakit satu sendi tu, mata dah start kabur dan mula dah start lupa tu kan. Korang boleh amalkan omega fish oil, just ambil 2 biji sehari je. Omega fish oil ni bagus untuk support kita punya pembuluh darah tau, kita punya jantung, mata dan juga sendi-sendi pulang. Cuma kalau ambil 2 biji je sehari korang dah boleh nampak kesan dia tau. Untuk hari ni harga dia tengah promo tau, tu kalau korang nak kan, tekan dekat beg kuning tu sekarang sebelum harga dia naikkan semula."
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [
+  {
+   "id": "i_lesu",
+   "from": 0.0,
+   "to": 2.2,
+   "note": "AI: lemah badan (berlengan panjang)"
+  },
+  {
+   "id": "lutut",
+   "from": 2.2,
+   "to": 3.4,
+   "note": "AI: sakit sendi lutut (seluar panjang)"
+  },
+  {
+   "id": "kabur",
+   "from": 3.4,
+   "to": 5.12,
+   "note": "AI: mata kabur (berlengan panjang)"
+  },
+  {
+   "id": "lupa",
+   "from": 5.12,
+   "to": 6.98,
+   "note": "AI: mula lupa (berlengan panjang)"
+  },
+  {
+   "id": "x_darah",
+   "from": 13.4,
+   "to": 15.3,
+   "note": "AI: x-ray salur darah"
+  },
+  {
+   "id": "x_jantung",
+   "from": 15.3,
+   "to": 16.15,
+   "note": "AI: x-ray jantung"
+  },
+  {
+   "id": "x_mata",
+   "from": 16.15,
+   "to": 16.6,
+   "note": "AI: x-ray mata"
+  },
+  {
+   "id": "x_lutut",
+   "from": 16.6,
+   "to": 18.28,
+   "note": "AI: x-ray sendi"
+  },
+  {
+   "id": "sihat",
+   "from": 19.98,
+   "to": 21.88,
+   "note": "AI: badan sihat & aktif (aurat ditutup)"
+  }
+ ],
+ "theme": {
+  "key": "#5FB8E0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "vteay"
+ ],
+ "keywords": []
+}

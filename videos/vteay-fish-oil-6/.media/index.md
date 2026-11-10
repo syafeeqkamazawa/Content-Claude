@@ -1,0 +1,5 @@
+# .media · 2 assets
+
+id         type   dur   dims   path                         description
+image_001  image  —     —      .media/images/image_001.png  A Malaysian man in his forties wearing a loose long-sleeved shirt and long trousers, squinting hard at his smartphone held at arm's length, struggling to read, sitting on a sofa at home, soft evening light. Fully clothed, modest. No brand names, no logos, no readable text. Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
+image_002  image  —     —      .media/images/image_002.png  A Malaysian man in his forties wearing a loose long-sleeved shirt and long trousers standing at the front door of his home, patting his pockets and looking around confused as if he forgot where he put his keys, natural daylight. Fully clothed, modest. No brand names, no logos, no readable text. Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
