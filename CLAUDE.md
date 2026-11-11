@@ -33,6 +33,14 @@ otherwise for a specific video.
 
 ## Captions
 
+- **Caption position = the owner's 11 Nov screenshot (overrides the 9 Nov line below):** "Guna caption
+  style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama
+  seperti dalam gambar" (reference `docs/caption-position-11nov.jpg`): the 6 Nov Rubik Mono One word
+  caption at `word: {"size": 62, "top": 1328}` — cap height ~50 px, centred at ~1423 px (74 % of 1920),
+  ~230 px above TikTok's yellow-bag label. Measured from the screenshot and checked on a render.
+- **Frame Kaabah (owner, 11 Nov):** complete sentences only, never cut tight — ~0.5 s between lines
+  (segment edges from Silero VAD: ~0.25 s before / ~0.35 s after the speech; tighten keep 0.25); overlays
+  only on the important points; close-ups of the frame whenever a feature is explained.
 - **Caption height and size (owner, 9 Nov — overrides the 72-77 % / size 74 / "top 1600"
   settings below):** "Next time caption atas skit dan kecilkan skit sahaja, bertindih dengan
   produk pun takpe sebab kalau bawah sangat nanti masuk TikTok bertindih dengan posting text

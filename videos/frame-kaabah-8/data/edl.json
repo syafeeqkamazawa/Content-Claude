@@ -1,0 +1,323 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 62,
+  "top": 1328
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "93% 45%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature.",
+ "_note": "Frame Kaabah #8 — A-roll assets/a.mp4 = VID_20261111_114256 (rear camera, not mirrored; the audio is digital silence between lines). assets/b.mp4 = the same clip, muted. Sizes, LED, switch, battery, hooks and promo are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 43.53,
+   "out": 49.89,
+   "text": "Antara kesilapan paling biasa bila beli hiasan dinding ni, nampak cantik je, terus check out.",
+   "note": "HOOK — three false starts 'antara kesilapan' (25-42.5) dropped",
+   "zoom": 1.6
+  },
+  {
+   "id": "S02",
+   "in": 55.43,
+   "out": 61.69,
+   "text": "Bila sampai rumah, rupa-rupanya saiz tak ngam dengan ruang yang kita nak letak.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S03",
+   "in": 70.76,
+   "out": 88.83,
+   "text": "Untuk frame canvas LED, frame Kaabah ni, seller dah menyatakan dengan jelas. So jangan risau, ada 90 cm x 60 cm yang ada pada saya ni dan juga satu lagi saiz 60 cm x 40 cm.",
+   "note": "",
+   "zoom": 1.6
+  },
+  {
+   "id": "S04",
+   "in": 89.86,
+   "out": 95.33,
+   "text": "Boleh check dulu saiz ruang dengan saiz yang dah dinyatakan dalam beg kuning.",
+   "note": "first take 'contoh kalau nak letak dekat sofa' (108.9-113) dropped",
+   "zoom": 1.696
+  },
+  {
+   "id": "S05",
+   "in": 119.81,
+   "out": 131.81,
+   "text": "Contohnya korang letak dekat atas sofa ke, ataupun dinding tu luas, boleh ukur dulu ruang yang kosong tu, kemudian barulah sesuaikan dengan pilihan yang ada dekat beg kuning tu.",
+   "note": "",
+   "zoom": 1.6
+  },
+  {
+   "id": "S06",
+   "in": 142.79,
+   "out": 150.3,
+   "text": "Dan juga ketebalan frame ni 60 mm, so tebal eh.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S07",
+   "in": 161.64,
+   "out": 169.63,
+   "text": "Dan juga frame canvas Kaabah yang korang tengok ni ada lampu LED, sangat lawa, suis ada kat tepi ni.",
+   "note": "",
+   "zoom": 1.6
+  },
+  {
+   "id": "S08",
+   "in": 199.75,
+   "out": 207.23,
+   "text": "Jadi pesanan saya untuk korang kat luar sana, sebelum beli, ukur dinding dulu.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S09",
+   "in": 211.4,
+   "out": 213.37,
+   "text": "Tengok variasi design,",
+   "note": "",
+   "zoom": 1.6
+  },
+  {
+   "id": "S09b",
+   "in": 218.37,
+   "out": 220.93,
+   "text": "kemudian barulah pilih saiz.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S10",
+   "in": 227.05,
+   "out": 245.57,
+   "text": "Yang berminat, saya dah letak link dekat beg kuning, boleh pilih design dan saiz kegemaran anda semua, dan seller tengah buat harga promo, sementara harga promo masih ada dan stok juga masih ada, boleh beli di beg kuning.",
+   "note": "CTA — false start 'saya dah letak' (225.9-226.5) dropped",
+   "zoom": 1.6
+  }
+ ],
+ "kp": [
+  {
+   "text": "SAIZ TAK NGAM?",
+   "hi": [
+    "NGAM?"
+   ],
+   "from": [
+    "S02",
+    "saiz"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 112
+  },
+  {
+   "text": "90 x 60 CM",
+   "hi": [
+    "90",
+    "60"
+   ],
+   "from": [
+    "S03",
+    "90"
+   ],
+   "to": [
+    "S03",
+    "dan"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "60 x 40 CM",
+   "hi": [
+    "60",
+    "40"
+   ],
+   "from": [
+    "S03",
+    "saiz"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "TEBAL 60 MM",
+   "hi": [
+    "60"
+   ],
+   "from": [
+    "S06",
+    "ketebalan"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "LAMPU LED",
+   "hi": [
+    "LED"
+   ],
+   "from": [
+    "S07",
+    "lampu"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "UKUR DINDING DULU",
+   "hi": [
+    "UKUR"
+   ],
+   "from": [
+    "S08",
+    "ukur"
+   ],
+   "to": [
+    "S09b",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 230,
+   "size": 104
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S03",
+    "so"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "src": 80.0,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "79% 59%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 146.0,
+   "note": "close-up of the frame edge (thickness)",
+   "push": [
+    2.4,
+    2.55
+   ],
+   "origin": "79% 59%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 165.0,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "79% 59%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "belanja",
+   "from": [
+    "S01",
+    "nampak"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: membeli online (bertudung)"
+  },
+  {
+   "id": "ukur",
+   "from": [
+    "S05",
+    "ukur"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "note": "AI: ukur dinding (berlengan panjang)"
+  },
+  {
+   "id": "ukur",
+   "from": [
+    "S08",
+    "ukur"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "note": "AI: ukur dinding (berlengan panjang)"
+  }
+ ],
+ "theme": {
+  "key": "#D4AF37",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "kaabah"
+ ],
+ "keywords": []
+}

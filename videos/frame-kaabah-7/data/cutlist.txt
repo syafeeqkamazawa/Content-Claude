@@ -1,0 +1,16 @@
+TOTAL 69.17s  (10 A-roll segments, 3 B-roll shots, 0 photos, 7 audio fx, 166 caption cards)
+
+  0.00-  1.27  S01  src  57.06- 58.33  (1 pc)  Tunggu sekejap!
+  1.27-  7.33  S01b  src  58.66- 64.73  (1 pc)  Kalau korang tengok frame Kaabah kan, mesti korang dah ingat frame Kaabah ni frame Kaabah yang biasa-biasa kan.
+  7.33- 10.75  S02  src  81.13- 84.54  (1 pc)  Meh aku tunjukkan korang apa specialnya frame Kaabah ni.
+ 10.75- 14.97  S03  src  84.81- 89.02  (1 pc)  Dekat tepinya dia suis tau, korang on je, korang akan nampak lampu berkelipan.
+ 14.97- 23.70  S04  src  89.06- 97.79  (1 pc)  Dan kelipan dia tak statik tau, dia bergerak-gerak, sekejap menyala kat sini, sekejap menyala kat sini.
+ 23.70- 25.90  S05  src  97.86-100.06  (1 pc)  So bila malam, memang nampak sangat cantik.
+ 25.90- 30.05  S06  src 139.75-143.90  (1 pc)  Kalau korang tengok ni, cetakan dia sangat jelas dan terang.
+ 30.05- 44.17  S07  src 145.06-159.17  (1 pc)  Dan yang saya pegang ni saiz 90 cm x 60 cm, juga ada pilihan yang lain lah, 60 cm x 40 cm. So boleh tengok mana yang sesuai untuk ruang, untuk ruang rumah korang.
+ 44.17- 55.23  S08  src 180.13-191.20  (1 pc)  Yang menariknya, kita boleh dapatkan dua muka beza tau. Satu, nyalaan macam ni, dan juga satu lagi tanpa nyalaan. So ada variasi kat situ.
+ 55.23- 69.17  S09  src 205.00-219.33  (3 pc)  Kalau korang suka deko-deko ada vibe Islami macam ni, korang boleh dapatkan dekat beg kuning, ada pelbagai design juga dan pelbagai saiz. Sementara seller tengah buat harga promo ni, korang grab awal-awal ni.
+
+  cutaway  10.75- 25.90
+  cutaway  25.90- 30.05
+  cutaway  48.77- 55.23

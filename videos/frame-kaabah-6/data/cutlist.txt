@@ -1,0 +1,22 @@
+TOTAL 98.35s  (12 A-roll segments, 6 B-roll shots, 1 photos, 8 audio fx, 219 caption cards)
+
+  0.00-  8.72  S01  src  16.20- 25.10  (2 pc)  Korang pernah tak, dah susun meja, dah susun sofa, tapi bila tengok dekat ruang tamu ni macam ada yang kurang?
+  8.72- 22.70  S02  src  38.95- 53.65  (4 pc)  Sebenarnya bukan kita perlu tukar semua perabot pun, tetapi kita perlu ada satu benda yang bila orang masuk tu, dia jadi satu benda yang semua orang boleh tengok.
+ 22.70- 23.98  S03  src  70.55- 71.84  (1 pc)  Cuba korang tengok,
+ 23.98- 27.62  S03b  src  72.86- 76.50  (1 pc)  frame Kaabah ni, cetakan dia sangat jelas.
+ 27.62- 33.50  S04  src  76.42- 82.30  (1 pc)  Dan yang part paling best, frame Kaabah ni ada lampu LED tau.
+ 33.50- 38.55  S04b  src  89.55- 94.60  (1 pc)  Sangat cantik tau, kelipan dia ni bergerak-gerak tau, tak statik.
+ 38.55- 44.00  S05  src 113.70-119.15  (1 pc)  Suis dia dekat sini, dekat tepi ni suis dia, lepas tu bateri dia kat belakang ni lah.
+ 44.00- 53.05  S06  src 120.85-129.90  (1 pc)  Dan ada cangkuk kanan dan kiri, dah siap bagi, dah tinggal korang letak tempat untuk gantung sahaja.
+ 53.05- 60.50  S07  src 144.20-151.80  (2 pc)  Bila korang on je switch LED ni, bila sebelah malam, korang akan nampak lain sangat, lawa, cantik.
+ 60.50- 75.40  S08  src 165.40-180.30  (1 pc)  Yang saya pegang ni 90 cm x 60 cm. Ada juga dekat beg kuning pilihan saiz yang lain iaitu 60 cm x 40 cm. So boleh pilih berdasarkan ruang yang korang nak letak lah.
+ 75.40- 79.90  S09  src 254.40-258.90  (1 pc)  Boleh tengok di beg kuning, ada pelbagai design tau dan juga ada pelbagai saiz.
+ 79.90- 98.35  S10  src 206.85-225.30  (1 pc)  So kepada korang yang tengah cari hiasan untuk letak di dalam ruang rumah korang ataupun dekat homestay ataupun pejabat, boleh tekan dekat beg kuning sekarang, seller tengah buat harga promo tau, sementara harga masih murah tu boleh check out sekarang.
+
+  cutaway   3.95-  8.72
+  cutaway  15.57- 22.70
+  cutaway  22.70- 27.62
+  cutaway  30.07- 38.55
+  cutaway  38.55- 44.00
+  cutaway  44.00- 53.05
+  cutaway  53.05- 60.50

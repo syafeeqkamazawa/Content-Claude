@@ -1,0 +1,345 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 62,
+  "top": 1328
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "100% 37%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature.",
+ "_note": "Frame Kaabah #6 — A-roll assets/a.mp4 = VID_20261111_113209 (rear camera, not mirrored; the audio is digital silence between lines). assets/b.mp4 = the same clip, muted. Sizes, LED, switch, battery, hooks and promo are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 16.2,
+   "out": 25.1,
+   "text": "Korang pernah tak, dah susun meja, dah susun sofa, tapi bila tengok dekat ruang tamu ni macam ada yang kurang?",
+   "note": "HOOK",
+   "zoom": 1.6
+  },
+  {
+   "id": "S02",
+   "in": 38.95,
+   "out": 53.65,
+   "text": "Sebenarnya bukan kita perlu tukar semua perabot pun, tetapi kita perlu ada satu benda yang bila orang masuk tu, dia jadi satu benda yang semua orang boleh tengok.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S03",
+   "in": 70.55,
+   "out": 71.84,
+   "text": "Cuba korang tengok,",
+   "note": "repeated 'frame Kaabah ni' (71.8-72.9) dropped",
+   "zoom": 1.6
+  },
+  {
+   "id": "S03b",
+   "in": 72.86,
+   "out": 76.5,
+   "text": "frame Kaabah ni, cetakan dia sangat jelas.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S04",
+   "in": 76.42,
+   "out": 82.3,
+   "text": "Dan yang part paling best, frame Kaabah ni ada lampu LED tau.",
+   "note": "",
+   "zoom": 1.6
+  },
+  {
+   "id": "S04b",
+   "in": 89.55,
+   "out": 94.6,
+   "text": "Sangat cantik tau, kelipan dia ni bergerak-gerak tau, tak statik.",
+   "note": "unclear muttering (84.2-89.1) dropped",
+   "zoom": 1.696
+  },
+  {
+   "id": "S05",
+   "in": 113.7,
+   "out": 119.15,
+   "text": "Suis dia dekat sini, dekat tepi ni suis dia, lepas tu bateri dia kat belakang ni lah.",
+   "note": "'ok' (119.4-119.8) dropped",
+   "zoom": 1.6
+  },
+  {
+   "id": "S06",
+   "in": 120.85,
+   "out": 129.9,
+   "text": "Dan ada cangkuk kanan dan kiri, dah siap bagi, dah tinggal korang letak tempat untuk gantung sahaja.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S07",
+   "in": 144.2,
+   "out": 151.8,
+   "text": "Bila korang on je switch LED ni, bila sebelah malam, korang akan nampak lain sangat, lawa, cantik.",
+   "note": "",
+   "zoom": 1.6
+  },
+  {
+   "id": "S08",
+   "in": 165.4,
+   "out": 180.3,
+   "text": "Yang saya pegang ni 90 cm x 60 cm. Ada juga dekat beg kuning pilihan saiz yang lain iaitu 60 cm x 40 cm. So boleh pilih berdasarkan ruang yang korang nak letak lah.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S09",
+   "in": 254.4,
+   "out": 258.9,
+   "text": "Boleh tengok di beg kuning, ada pelbagai design tau dan juga ada pelbagai saiz.",
+   "note": "the messy first take (242.8-252.3) dropped; its 'sementara seller tengah buat harga promo, boleh check out sekarang' repeats the CTA below",
+   "zoom": 1.6
+  },
+  {
+   "id": "S10",
+   "in": 206.85,
+   "out": 225.3,
+   "text": "So kepada korang yang tengah cari hiasan untuk letak di dalam ruang rumah korang ataupun dekat homestay ataupun pejabat, boleh tekan dekat beg kuning sekarang, seller tengah buat harga promo tau, sementara harga masih murah tu boleh check out sekarang.",
+   "note": "CTA (moved after the design/size line)",
+   "zoom": 1.696
+  }
+ ],
+ "kp": [
+  {
+   "text": "LAMPU LED",
+   "hi": [
+    "LED"
+   ],
+   "from": [
+    "S04",
+    "lampu"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "SUIS • BATERI",
+   "hi": [
+    "SUIS",
+    "BATERI"
+   ],
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "anim": "slide",
+   "top": 230,
+   "size": 104
+  },
+  {
+   "text": "CANGKUK SIAP",
+   "hi": [
+    "CANGKUK"
+   ],
+   "from": [
+    "S06",
+    "cangkuk"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 230,
+   "size": 104
+  },
+  {
+   "text": "90 x 60 CM",
+   "hi": [
+    "90",
+    "60"
+   ],
+   "from": [
+    "S08",
+    "90"
+   ],
+   "to": [
+    "S08",
+    "ada"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "60 x 40 CM",
+   "hi": [
+    "60",
+    "40"
+   ],
+   "from": [
+    "S08",
+    "iaitu"
+   ],
+   "to": [
+    "S08",
+    "so"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 120
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "satu"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "src": 46.0,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "100% 48%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03b",
+    "end"
+   ],
+   "src": 73.5,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "100% 48%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S04",
+    "frame"
+   ],
+   "to": [
+    "S04b",
+    "end"
+   ],
+   "src": 78.5,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "100% 48%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S05",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 115.5,
+   "note": "close-up of the switch / battery side of the frame",
+   "push": [
+    2.6,
+    2.75
+   ],
+   "origin": "100% 45%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 122.5,
+   "note": "close-up of the hooks on the back of the frame",
+   "push": [
+    2.2,
+    2.35
+   ],
+   "origin": "100% 50%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "S07",
+    "start"
+   ],
+   "to": [
+    "S07",
+    "end"
+   ],
+   "src": 145.0,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "100% 48%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "ruangtamu",
+   "from": [
+    "S01",
+    "bila"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "note": "AI: ruang tamu kemas, dinding kosong (tiada orang)"
+  }
+ ],
+ "theme": {
+  "key": "#D4AF37",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "kaabah"
+ ],
+ "keywords": []
+}

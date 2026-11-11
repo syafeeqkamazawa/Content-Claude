@@ -1,0 +1,285 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 62,
+  "top": 1328
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "35% 35%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature.",
+ "_note": "Frame Kaabah #9 — A-roll assets/a.mp4 = VID_20261111_114809 (rear camera, not mirrored; the audio is digital silence between lines). assets/b.mp4 = the same clip, muted. Sizes, LED, switch, battery, hooks and promo are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 50.37,
+   "out": 58.11,
+   "text": "Korang yang suka hiasan dinding tapi tak suka wayar berselirat kat belakang, boleh tengok frame Kaabah daripada saya.",
+   "note": "HOOK — pre-roll (0-32) dropped",
+   "zoom": 1.5
+  },
+  {
+   "id": "S02",
+   "in": 76.45,
+   "out": 88.03,
+   "text": "Frame Kaabah ni dah siap dengan suis kat sini, dia dilengkapi dengan suis dan juga bateri dekat belakang ni, bermakna wayar-wayar semua dah ada kat dalam ni, tak berselerak tau.",
+   "note": "",
+   "zoom": 1.59
+  },
+  {
+   "id": "S03",
+   "in": 111.37,
+   "out": 116.41,
+   "text": "Bateri yang digunakan saiz double A tau. So ada tiga yang perlu letak kat dalam ni.",
+   "note": "false start 'bateri' (105.3-106) dropped",
+   "zoom": 1.5
+  },
+  {
+   "id": "S04",
+   "in": 130.09,
+   "out": 142.97,
+   "text": "Dan juga frame ni dah siap ada tempat untuk korang gantung, korang tak perlu pasang dah, extra dah ada siap kat sini, tinggal nak pasang cangkuk sahaja dekat dinding.",
+   "note": "",
+   "zoom": 1.59
+  },
+  {
+   "id": "S05",
+   "in": 148.93,
+   "out": 167.42,
+   "text": "Dan macam yang saya beritahu tadi, dia ada suis dan bateri untuk apa? Untuk nyalaan LED macam ni, insya-Allah cantik kan? Dan kelipan dia, kelipan yang tak statik, dia berkelip sebelah kanan, sekejap berkelip sebelah kiri. Kalau malam-malam memang nampak sangat cantik.",
+   "note": "",
+   "zoom": 1.5
+  },
+  {
+   "id": "S06",
+   "in": 191.24,
+   "out": 205.92,
+   "text": "Dan juga korang jangan risau, belian korang untuk frame Kaabah ni dah siap juga bersama dengan tiga paku untuk korang letak dekat dinding, dan boleh terus gantungkan frame Kaabah ni.",
+   "note": "",
+   "zoom": 1.59
+  },
+  {
+   "id": "S07",
+   "in": 227.01,
+   "out": 252.99,
+   "text": "Jadi kepada korang yang nak pasang frame Kaabah ni dekat ruang dinding korang, ruang tamu ke, bilik solat ke, ataupun di mana-mana ruang yang rasa sesuai, boleh tengok dekat beg kuning, ada pelbagai design dan saiz juga, harga tengah murah, sementara harga masih murah dan stok pun masih ada, boleh terus beli di beg kuning sekarang.",
+   "note": "CTA",
+   "zoom": 1.5
+  }
+ ],
+ "kp": [
+  {
+   "text": "TAK ADA WAYAR",
+   "hi": [
+    "WAYAR"
+   ],
+   "from": [
+    "S02",
+    "bermakna"
+   ],
+   "to": [
+    "S02",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 112
+  },
+  {
+   "text": "BATERI AA x3",
+   "hi": [
+    "AA",
+    "x3"
+   ],
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "SIAP TEMPAT GANTUNG",
+   "hi": [
+    "GANTUNG"
+   ],
+   "from": [
+    "S04",
+    "siap"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 230,
+   "size": 100
+  },
+  {
+   "text": "LAMPU LED",
+   "hi": [
+    "LED"
+   ],
+   "from": [
+    "S05",
+    "LED"
+   ],
+   "to": [
+    "S05",
+    "dan#2"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "SIAP 3 PAKU",
+   "hi": [
+    "3"
+   ],
+   "from": [
+    "S06",
+    "tiga"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 120
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S02",
+    "start"
+   ],
+   "to": [
+    "S02",
+    "bermakna"
+   ],
+   "src": 78.0,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "32% 37%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S04",
+    "start"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "src": 135.0,
+   "note": "close-up of the hanging points on the back of the frame",
+   "push": [
+    2.0,
+    2.15
+   ],
+   "origin": "32% 37%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S05",
+    "untuk#2"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 156.0,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "32% 37%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "wayar",
+   "from": [
+    "S01",
+    "tak"
+   ],
+   "to": [
+    "S01",
+    "boleh"
+   ],
+   "note": "AI: wayar berselirat (tiada orang)"
+  },
+  {
+   "id": "bateri",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S03",
+    "end"
+   ],
+   "note": "AI: bateri AA (tiada orang)"
+  },
+  {
+   "id": "paku",
+   "from": [
+    "S06",
+    "tiga"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "note": "AI: tiga paku dinding (tiada orang)"
+  },
+  {
+   "id": "malam",
+   "from": [
+    "S07",
+    "bilik"
+   ],
+   "to": [
+    "S07",
+    "ataupun"
+   ],
+   "note": "AI: sudut solat (tiada orang)"
+  }
+ ],
+ "theme": {
+  "key": "#D4AF37",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "kaabah"
+ ],
+ "keywords": []
+}

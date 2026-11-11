@@ -1,0 +1,261 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 62,
+  "top": 1328
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "100% 37%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature.",
+ "_note": "Frame Kaabah #7 — A-roll assets/a.mp4 = VID_20261111_113653 (rear camera, not mirrored; the audio is digital silence between lines). assets/b.mp4 = the same clip, muted. Sizes, LED, switch, battery, hooks and promo are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S01",
+   "in": 57.06,
+   "out": 58.33,
+   "text": "Tunggu sekejap!",
+   "note": "HOOK — earlier takes (42.6-56.7) and the pre-roll (0-25) dropped",
+   "zoom": 1.6
+  },
+  {
+   "id": "S01b",
+   "in": 58.66,
+   "out": 64.73,
+   "text": "Kalau korang tengok frame Kaabah kan, mesti korang dah ingat frame Kaabah ni frame Kaabah yang biasa-biasa kan.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S02",
+   "in": 81.13,
+   "out": 84.54,
+   "text": "Meh aku tunjukkan korang apa specialnya frame Kaabah ni.",
+   "note": "",
+   "zoom": 1.6
+  },
+  {
+   "id": "S03",
+   "in": 84.81,
+   "out": 89.02,
+   "text": "Dekat tepinya dia suis tau, korang on je, korang akan nampak lampu berkelipan.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S04",
+   "in": 89.06,
+   "out": 97.79,
+   "text": "Dan kelipan dia tak statik tau, dia bergerak-gerak, sekejap menyala kat sini, sekejap menyala kat sini.",
+   "note": "",
+   "zoom": 1.6
+  },
+  {
+   "id": "S05",
+   "in": 97.86,
+   "out": 100.06,
+   "text": "So bila malam, memang nampak sangat cantik.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S06",
+   "in": 139.75,
+   "out": 143.9,
+   "text": "Kalau korang tengok ni, cetakan dia sangat jelas dan terang.",
+   "note": "",
+   "zoom": 1.6
+  },
+  {
+   "id": "S07",
+   "in": 145.06,
+   "out": 159.17,
+   "text": "Dan yang saya pegang ni saiz 90 cm x 60 cm, juga ada pilihan yang lain lah, 60 cm x 40 cm. So boleh tengok mana yang sesuai untuk ruang, untuk ruang rumah korang.",
+   "note": "",
+   "zoom": 1.696
+  },
+  {
+   "id": "S08",
+   "in": 180.13,
+   "out": 191.2,
+   "text": "Yang menariknya, kita boleh dapatkan dua muka beza tau. Satu, nyalaan macam ni, dan juga satu lagi tanpa nyalaan. So ada variasi kat situ.",
+   "note": "",
+   "zoom": 1.6
+  },
+  {
+   "id": "S09",
+   "in": 205.0,
+   "out": 219.33,
+   "text": "Kalau korang suka deko-deko ada vibe Islami macam ni, korang boleh dapatkan dekat beg kuning, ada pelbagai design juga dan pelbagai saiz. Sementara seller tengah buat harga promo ni, korang grab awal-awal ni.",
+   "note": "CTA",
+   "zoom": 1.696
+  }
+ ],
+ "kp": [
+  {
+   "text": "TUNGGU SEKEJAP!",
+   "hi": [
+    "SEKEJAP!"
+   ],
+   "from": [
+    "S01",
+    "start"
+   ],
+   "to": [
+    "S01",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 112
+  },
+  {
+   "text": "LAMPU LED",
+   "hi": [
+    "LED"
+   ],
+   "from": [
+    "S03",
+    "suis"
+   ],
+   "to": [
+    "S04",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "90 x 60 CM",
+   "hi": [
+    "90",
+    "60"
+   ],
+   "from": [
+    "S07",
+    "saiz"
+   ],
+   "to": [
+    "S07",
+    "juga"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "60 x 40 CM",
+   "hi": [
+    "60",
+    "40"
+   ],
+   "from": [
+    "S07",
+    "lah,"
+   ],
+   "to": [
+    "S07",
+    "so"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "2 VARIASI",
+   "hi": [
+    "2"
+   ],
+   "from": [
+    "S08",
+    "dua"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 120
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S03",
+    "start"
+   ],
+   "to": [
+    "S05",
+    "end"
+   ],
+   "src": 86.5,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "87% 54%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S06",
+    "start"
+   ],
+   "to": [
+    "S06",
+    "end"
+   ],
+   "src": 141.0,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "87% 54%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S08",
+    "satu,"
+   ],
+   "to": [
+    "S08",
+    "end"
+   ],
+   "src": 185.0,
+   "note": "close-up of the Kaabah frame (same take) while the owner explains it",
+   "push": [
+    2.3,
+    2.45
+   ],
+   "origin": "87% 54%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#D4AF37",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "kaabah"
+ ],
+ "keywords": []
+}
