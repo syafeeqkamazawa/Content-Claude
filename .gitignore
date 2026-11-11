@@ -5,3 +5,6 @@
 **/.media/tc.err
 **/.media/*.wav
 **/.media/cat.txt
+
+# raw Drive downloads for a batch in progress (originals stay on Drive)
+videos/_batch-*/

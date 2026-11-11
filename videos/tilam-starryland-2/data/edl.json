@@ -1,0 +1,252 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 62,
+  "top": 1328
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "50% 50%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. Tilam (owner, 11 Nov): 'untuk Tilam pun sama, overlay yang perlu sahaja. Gunakan juga klip yang lama untuk overlay contoh tilam bergulung dan tengok lah mana yang perlu lagi.' Voiceover over the owner's footage; close-ups of the mattress (quilting, mesh side, hand press) whenever a feature is named.",
+ "_note": "Tilam Starryland Back-Wave #2 — voiceover edit. assets/a.mp4 is built by tools/prep.py: the voiceover src/voice.m4a (Recorder 20261111-1511) with silence added so sentences sit ~0.6 s apart, over a montage of VID_20261111_121807 (close-ups), VID_20261111_122144 (owner lying/sitting) and the old TikTok post 7694908315205192966 (rolled mattress, cropped below its title sticker). assets/b.mp4 = a.mp4 muted. Sizes, promo and features are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 6.525,
+   "text": "Weh, kalau tilam rumah korang dah lama, lembek, tidur pun rasa tak selesa, mungkin dah sampai masa tukar.",
+   "note": "HOOK — problem; AI photo of a man who can't sleep",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 6.525,
+   "out": 14.015,
+   "text": "Korang tengok Starryland Back-Wave ni, tebal 10 inci tau, tapi yang bestnya, tilam ni datang bergulung dalam kotak tau.",
+   "note": "names per the owner's product info (voice sounds like 'Starryland Back-Wave')",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 14.015,
+   "out": 17.715,
+   "text": "Bila buka plastik, dia akan mengembang sampai jadi tilam.",
+   "note": "old TikTok clip, unrolling fast-forward",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 17.715,
+   "out": 21.6,
+   "text": "Dalam dia ada TechFlex pocket spring untuk sokongan badan tau.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 21.6,
+   "out": 26.955,
+   "text": "Cloud Motion Foam bagi rasa lebih selesa dengan 3D mesh fabric yang bantu pengudaraan.",
+   "note": "'Cloud Motion Foam' as heard (whisper agrees across settings)",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 26.955,
+   "out": 30.79,
+   "text": "Lagi satu, ada pilihan size, single sampai king.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 30.79,
+   "out": 34.9,
+   "text": "Kalau dah lama pula nak tukar tilam tu, cuba tengok harga dekat beg kuning.",
+   "note": "CTA",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 34.9,
+   "out": 38.26,
+   "text": "Seller tengah buat promo tau, memang berbaloi grab sekarang.",
+   "note": "CTA",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "TILAM DAH LEMBEK?",
+   "hi": [
+    "LEMBEK?"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "S1",
+    "mungkin"
+   ],
+   "anim": "rise",
+   "top": 230,
+   "size": 104
+  },
+  {
+   "text": "TEBAL 10 INCI",
+   "hi": [
+    "10",
+    "INCI"
+   ],
+   "from": [
+    "S2",
+    "tebal"
+   ],
+   "to": [
+    "S2",
+    "tapi"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "SAMPAI BERGULUNG",
+   "hi": [
+    "BERGULUNG"
+   ],
+   "from": [
+    "S2",
+    "tilam"
+   ],
+   "to": [
+    "S2",
+    "end"
+   ],
+   "anim": "slide",
+   "top": 230,
+   "size": 104
+  },
+  {
+   "text": "TECHFLEX POCKET SPRING",
+   "hi": [
+    "POCKET",
+    "SPRING"
+   ],
+   "from": [
+    "S4",
+    "start"
+   ],
+   "to": [
+    "S4",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 230,
+   "size": 96
+  },
+  {
+   "text": "3D MESH FABRIC",
+   "hi": [
+    "3D",
+    "MESH"
+   ],
+   "from": [
+    "S5",
+    "dengan"
+   ],
+   "to": [
+    "S5",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 110
+  },
+  {
+   "text": "SINGLE SAMPAI KING",
+   "hi": [
+    "SINGLE",
+    "KING"
+   ],
+   "from": [
+    "S6",
+    "pilihan"
+   ],
+   "to": [
+    "S6",
+    "end"
+   ],
+   "anim": "split",
+   "top": 230,
+   "size": 104
+  },
+  {
+   "text": "TENGAH PROMO",
+   "hi": [
+    "PROMO"
+   ],
+   "from": [
+    "S8",
+    "promo"
+   ],
+   "to": [
+    "S8",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 120
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [
+  {
+   "id": "tidur",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "S1",
+    "mungkin"
+   ],
+   "note": "AI (reused from magnesium): man lying awake, covered by blanket, long sleeves"
+  },
+  {
+   "id": "spring",
+   "from": [
+    "S4",
+    "start"
+   ],
+   "to": [
+    "S4",
+    "untuk"
+   ],
+   "note": "AI (from tilam-bed-wave): pocket-spring cross-section, no people"
+  }
+ ],
+ "theme": {
+  "key": "#7FB8E6",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "starryland",
+  "back-wave"
+ ],
+ "keywords": []
+}
