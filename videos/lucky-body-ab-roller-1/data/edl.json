@@ -1,0 +1,331 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 62,
+  "top": 1328
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "50% 50%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. Lucky Body Ab Roller (owner sent the clips + a voiceover, no other instructions): the 11 Nov rules apply — screenshot caption, complete sentences ~0.6 s apart, overlays only on the key points, close-ups of the product when a feature is named.",
+ "_note": "Lucky Body Ab Roller #1 — voiceover edit. assets/a.mp4 is built by tools/prep.py: the owner's on-camera hook (VID_20261111_172759) + the best take of each voiceover line (Recorder 20261111-1731), ~0.6 s apart, over a montage of VID_20261111_172759 (unboxing, rolling, product to camera) and VID_20261111_173042 (rolling with his daughter on his back). Dropped: voice 1.5-3.0 'sebab sebenarnya' false start; 31.1-37.1 take 1 of the four-wheel line (take 2 ends the sentence); 61.3-67.2 two false starts of the elbow-pad line; 97.8-102.7 stumbles of 'tak perlu beli'; 108.1-111.9 and 122.5-144.7 other CTA takes ('aku dah letak dekat beg kuning' repeats 'klik beg kuning'); 'terima kasih kerana menonton' after 149.3 is whisper hallucination over silence. Features (4 wheels, 12 mm elbow pads, auto rebound) are the owner's own words and match the product page; no price.",
+ "segments": [
+  {
+   "id": "H",
+   "in": 0.0,
+   "out": 5.79,
+   "text": "Korang tahu tak, buat senaman setiap hari pun belum tentu lemak pada perut ni terus hilang.",
+   "note": "HOOK — the owner on camera (his own audio, VID_20261111_172759 7.4-12.6)",
+   "zoom": 1.0
+  },
+  {
+   "id": "L1",
+   "in": 5.79,
+   "out": 11.51,
+   "text": "Sebab sebenarnya senaman perut ni bukan untuk bakar lemak dekat perut semata-mata.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "L2",
+   "in": 11.51,
+   "out": 14.93,
+   "text": "Dia lebih kepada melatih otot core kita.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "L3",
+   "in": 14.93,
+   "out": 20.68,
+   "text": "Nak kurangkan lemak badan, pemakanan dan aktiviti keseluruhan pun kena jaga juga.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "L4",
+   "in": 20.68,
+   "out": 25.99,
+   "text": "Kalau korang nak mula latih otot core dekat rumah, cuba tengok alat ni.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "L5",
+   "in": 25.99,
+   "out": 28.38,
+   "text": "Ini Lucky Body ab roller.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "L6",
+   "in": 28.38,
+   "out": 35.26,
+   "text": "Dia ada empat roda, jadi tapak dia lebih lebar dan boleh bantu bagi kestabilan masa kita buat pergerakan.",
+   "note": "take 2 (take 1 stops at 'masa kita buat')",
+   "zoom": 1.0
+  },
+  {
+   "id": "L7",
+   "in": 35.26,
+   "out": 37.27,
+   "text": "Cara guna pun senang je.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "L8",
+   "in": 37.27,
+   "out": 43.69,
+   "text": "Mula dengan lutut atas mat, pegang handle, tolak perlahan-lahan ke depan, kemudian tarik balik.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "L9",
+   "in": 43.69,
+   "out": 48.68,
+   "text": "Tapi jangan terus pergi jauh. Mula dengan jarak pendek dulu. Ikut kemampuan badan.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "L10",
+   "in": 48.68,
+   "out": 56.64,
+   "text": "Yang aku suka, dia siap ada pad siku setebal 12mm dan sistem auto rebound yang bantu pergerakan balik.",
+   "note": "'pad siku' (heard as 'peksiku'); two false starts before it dropped",
+   "zoom": 1.0
+  },
+  {
+   "id": "L11",
+   "in": 56.64,
+   "out": 62.61,
+   "text": "Jadi bukan sekadar roller biasa yang kita pegang dan tolak. Dia mudahkan kita bila kita nak undur balik.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "L12",
+   "in": 62.61,
+   "out": 74.02,
+   "text": "Cuma ingat, alat ni bukan magic yang boleh kempiskan perut dalam beberapa hari tau. Tapi kalau korang konsisten berlatih, jaga teknik dan pemakanan, ini boleh jadi salah satu alat untuk bina rutin senaman korang.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "L13",
+   "in": 74.02,
+   "out": 76.92,
+   "text": "Tak perlu terus beli macam-macam equipment mahal.",
+   "note": "clean take after two stumbles",
+   "zoom": 1.06
+  },
+  {
+   "id": "L14",
+   "in": 76.92,
+   "out": 83.96,
+   "text": "Kalau nak mula workout core dekat rumah, boleh klik beg kuning dan dapatkan ab roller empat roda ni.",
+   "note": "CTA — the take that names the yellow bag",
+   "zoom": 1.0
+  },
+  {
+   "id": "L15",
+   "in": 83.96,
+   "out": 88.65,
+   "text": "Seller tengah buat promo sementara harga masih murah. Dapatkan sekarang.",
+   "note": "CTA",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "LEMAK PERUT TAK HILANG?",
+   "hi": [
+    "PERUT"
+   ],
+   "from": [
+    "H",
+    "start"
+   ],
+   "to": [
+    "H",
+    "end"
+   ],
+   "anim": "rise",
+   "top": 230,
+   "size": 100
+  },
+  {
+   "text": "LATIH OTOT CORE",
+   "hi": [
+    "CORE"
+   ],
+   "from": [
+    "L2",
+    "melatih"
+   ],
+   "to": [
+    "L2",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 112
+  },
+  {
+   "text": "LUCKY BODY AB ROLLER",
+   "hi": [
+    "LUCKY",
+    "BODY"
+   ],
+   "from": [
+    "L5",
+    "start"
+   ],
+   "to": [
+    "L5",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 100
+  },
+  {
+   "text": "4 RODA, TAPAK LEBAR",
+   "hi": [
+    "4",
+    "RODA,"
+   ],
+   "from": [
+    "L6",
+    "empat"
+   ],
+   "to": [
+    "L6",
+    "kestabilan"
+   ],
+   "anim": "rise",
+   "top": 230,
+   "size": 104
+  },
+  {
+   "text": "PAD SIKU 12MM",
+   "hi": [
+    "12MM"
+   ],
+   "from": [
+    "L10",
+    "pad"
+   ],
+   "to": [
+    "L10",
+    "dan"
+   ],
+   "anim": "zoom",
+   "top": 230,
+   "size": 116
+  },
+  {
+   "text": "AUTO REBOUND",
+   "hi": [
+    "REBOUND"
+   ],
+   "from": [
+    "L10",
+    "auto"
+   ],
+   "to": [
+    "L10",
+    "end"
+   ],
+   "anim": "slide",
+   "top": 230,
+   "size": 116
+  },
+  {
+   "text": "KONSISTEN",
+   "hi": [
+    "KONSISTEN"
+   ],
+   "from": [
+    "L12",
+    "konsisten"
+   ],
+   "to": [
+    "L12",
+    "ini"
+   ],
+   "anim": "split",
+   "top": 230,
+   "size": 120
+  },
+  {
+   "text": "TENGAH PROMO",
+   "hi": [
+    "PROMO"
+   ],
+   "from": [
+    "L15",
+    "promo"
+   ],
+   "to": [
+    "L15",
+    "end"
+   ],
+   "anim": "slam",
+   "top": 230,
+   "size": 120
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [
+  {
+   "id": "pemakanan",
+   "from": [
+    "L3",
+    "pemakanan"
+   ],
+   "to": [
+    "L3",
+    "keseluruhan"
+   ],
+   "note": "AI (reused from jus-gout-7): healthy home meal, hands only"
+  },
+  {
+   "id": "senaman",
+   "from": [
+    "L3",
+    "keseluruhan"
+   ],
+   "to": [
+    "L3",
+    "end"
+   ],
+   "note": "AI (reused from stemlabs-5): man brisk-walking in a park, long sleeves + long trousers; woman behind in hijab"
+  }
+ ],
+ "theme": {
+  "key": "#FF8A1F",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "lucky",
+  "body"
+ ],
+ "keywords": []
+}
