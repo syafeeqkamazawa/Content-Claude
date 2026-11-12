@@ -1,0 +1,234 @@
+{
+ "lines": {
+  "Q1": {
+   "src": "k1",
+   "pieces": [
+    [
+     40.61,
+     45.4
+    ],
+    [
+     46.02,
+     48.74
+    ]
+   ],
+   "e0": 0.0,
+   "e1": 7.51,
+   "text": "Kalau korang ada masalah, contoh nak sarapan dengan lebih cepat dan mudah, tanpa perlu masa yang banyak,"
+  },
+  "Q2": {
+   "src": "k1",
+   "pieces": [
+    [
+     51.59,
+     53.44
+    ]
+   ],
+   "e0": 7.51,
+   "e1": 9.36,
+   "text": "jangan terus scroll dulu."
+  },
+  "Q4": {
+   "src": "k1",
+   "pieces": [
+    [
+     75.91,
+     79.35
+    ],
+    [
+     79.69,
+     81.46
+    ],
+    [
+     81.86,
+     84.16
+    ]
+   ],
+   "e0": 9.36,
+   "e1": 16.87,
+   "text": "Kalau korang ada masalah tadi tu, aku cadangkan korang boleh gantikan dengan ni, kurma ajwa daripada Quba Food ni."
+  },
+  "Q5": {
+   "src": "k1",
+   "pieces": [
+    [
+     90.05,
+     93.06
+    ]
+   ],
+   "e0": 16.87,
+   "e1": 19.88,
+   "text": "Yang aku pegang ni, kurma satu kilogram tau."
+  },
+  "Q6": {
+   "src": "k1",
+   "pieces": [
+    [
+     99.08,
+     104.42
+    ]
+   ],
+   "e0": 19.88,
+   "e1": 25.22,
+   "text": "Aku tunjuk dekat korang macam mana bentuk kurma dia, tekstur dia, macam mana kualiti dia."
+  },
+  "Q7": {
+   "src": "k1",
+   "pieces": [
+    [
+     110.63,
+     122.02
+    ]
+   ],
+   "e0": 25.22,
+   "e1": 36.61,
+   "text": "Ni kurma dia, korang tengok kurma dia, dengan tekstur macam ni, kurma ajwa eh, dengan harga macam ni kat luar susah tau nak dapat."
+  },
+  "Q8": {
+   "src": "k1",
+   "pieces": [
+    [
+     122.52,
+     123.6
+    ],
+    [
+     124.14,
+     125.42
+    ],
+    [
+     126.6,
+     128.86
+    ]
+   ],
+   "e0": 36.61,
+   "e1": 41.23,
+   "text": "Tengok tekstur dia. Masya Allah kan. Dan berat dia yang ni, satu kg."
+  },
+  "Q9": {
+   "src": "k1",
+   "pieces": [
+    [
+     133.08,
+     136.52
+    ],
+    [
+     136.54,
+     137.58
+    ],
+    [
+     138.48,
+     139.78
+    ],
+    [
+     140.74,
+     143.22
+    ],
+    [
+     143.4,
+     144.46
+    ]
+   ],
+   "e0": 41.23,
+   "e1": 50.55,
+   "text": "Lepas tu korang tengok ni, korang nilailah sendiri macam mana kualiti dia kan, memang sangat, orang kata kemas lah, dan dia tak terlalu basah, tak terlalu kering, sederhana tu."
+  },
+  "R1": {
+   "src": "k2",
+   "pieces": [
+    [
+     3.16,
+     4.82
+    ],
+    [
+     6.3,
+     8.1
+    ],
+    [
+     12.34,
+     13.64
+    ],
+    [
+     15.38,
+     17.22
+    ],
+    [
+     17.9,
+     20.12
+    ],
+    [
+     21.08,
+     24.62
+    ]
+   ],
+   "e0": 50.55,
+   "e1": 62.91,
+   "text": "Tengok kurma ajwa ni, kat dalam dia, aku buka. Kat dalam dia, kemas je, kering, kat sini kering, dekat luar basah, chewy-chewy, ni macam chewy-chewy ni tu tau."
+  },
+  "R2": {
+   "src": "k2",
+   "pieces": [
+    [
+     26.3,
+     29.7
+    ],
+    [
+     30.58,
+     33.72
+    ],
+    [
+     33.92,
+     38.54
+    ],
+    [
+     38.86,
+     41.0
+    ],
+    [
+     41.26,
+     45.38
+    ]
+   ],
+   "e0": 62.91,
+   "e1": 80.33,
+   "text": "Bila kau makan, sedap. Macam kau, kau tak rasa macam kau makan kurma. Yang mana tak suka kurma tu, please, beli dekat beg kuning. Korang rasa sendiri, dan korang komen, macam mana feedback korang."
+  },
+  "R3": {
+   "src": "k2",
+   "pieces": [
+    [
+     66.4,
+     71.3
+    ],
+    [
+     72.02,
+     73.52
+    ],
+    [
+     73.78,
+     77.32
+    ]
+   ],
+   "e0": 80.33,
+   "e1": 90.27,
+   "text": "Yang mana dah pernah rasa kurma ajwa daripada Quba Food ni, korang drop komen. Memang insyaAllah lah, kat aku makan ni memang sangat sedap dan berkualiti."
+  },
+  "Q10": {
+   "src": "k1",
+   "pieces": [
+    [
+     161.88,
+     167.0
+    ],
+    [
+     167.58,
+     172.1
+    ]
+   ],
+   "e0": 90.27,
+   "e1": 99.91,
+   "text": "So korang yang mana nak sarapan dengan lebih pantas, aku dah sediakan link dekat beg kuning. Seller tengah buat harga promo tu, sementara harga murah, korang check out terus."
+  }
+ },
+ "total": 99.91,
+ "dropped": "162407: three earlier tries of the hook (0-39), 'ok', 'sebenarnya kan, ni antara sebab aku suka semak' (unfinished, 56-62), 'tau ya', the first try of 'kalau korang ada masalah' (74), the 'ok's / 'haa's between pieces, the first CTA take (152-160); 162533: the first two tries of the comment line (45.9-65.4), the doubled 'kat', the 'terima kasih' whisper hallucinations at the end"
+}

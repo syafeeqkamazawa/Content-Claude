@@ -1,0 +1,322 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 40%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 12 Nov: motion text + caption from the Jus Gout 'video contoh'; visual overlays; talking kept.",
+ "_note": "Kurma Ajwa Quba Food #6 — assets/a.mp4 built by tools/prep.py from VID_20261112_162407 and VID_20261112_162533 (both talking; picture synced). Dropped: 162407: three earlier tries of the hook (0-39), 'ok', 'sebenarnya kan, ni antara sebab aku suka semak' (unfinished, 56-62), 'tau ya', the first try of 'kalau korang ada masalah' (74), the 'ok's / 'haa's between pieces, the first CTA take (152-160); 162533: the first two tries of the comment line (45.9-65.4), the doubled 'kat', the 'terima kasih' whisper hallucinations at the end. 1 kg, texture and promo are the owner's own words; no price.",
+ "segments": [
+  {
+   "id": "Q1",
+   "in": 0.0,
+   "out": 7.51,
+   "text": "Kalau korang ada masalah, contoh nak sarapan dengan lebih cepat dan mudah, tanpa perlu masa yang banyak,",
+   "note": "HOOK — fourth try (0-39 dropped)",
+   "zoom": 1.0
+  },
+  {
+   "id": "Q2",
+   "in": 7.51,
+   "out": 9.36,
+   "text": "jangan terus scroll dulu.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "Q4",
+   "in": 9.36,
+   "out": 16.87,
+   "text": "Kalau korang ada masalah tadi tu, aku cadangkan korang boleh gantikan dengan ni, kurma ajwa daripada Quba Food ni.",
+   "note": "first try at 74 dropped",
+   "zoom": 1.0
+  },
+  {
+   "id": "Q5",
+   "in": 16.87,
+   "out": 19.88,
+   "text": "Yang aku pegang ni, kurma satu kilogram tau.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "Q6",
+   "in": 19.88,
+   "out": 25.22,
+   "text": "Aku tunjuk dekat korang macam mana bentuk kurma dia, tekstur dia, macam mana kualiti dia.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "Q7",
+   "in": 25.22,
+   "out": 36.61,
+   "text": "Ni kurma dia, korang tengok kurma dia, dengan tekstur macam ni, kurma ajwa eh, dengan harga macam ni kat luar susah tau nak dapat.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "Q8",
+   "in": 36.61,
+   "out": 41.23,
+   "text": "Tengok tekstur dia. Masya Allah kan. Dan berat dia yang ni, satu kg.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "Q9",
+   "in": 41.23,
+   "out": 50.55,
+   "text": "Lepas tu korang tengok ni, korang nilailah sendiri macam mana kualiti dia kan, memang sangat, orang kata kemas lah, dan dia tak terlalu basah, tak terlalu kering, sederhana tu.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "R1",
+   "in": 50.55,
+   "out": 62.91,
+   "text": "Tengok kurma ajwa ni, kat dalam dia, aku buka. Kat dalam dia, kemas je, kering, kat sini kering, dekat luar basah, chewy-chewy, ni macam chewy-chewy ni tu tau.",
+   "note": "VID_20261112_162533 — opens and shows a date",
+   "zoom": 1.0
+  },
+  {
+   "id": "R2",
+   "in": 62.91,
+   "out": 80.33,
+   "text": "Bila kau makan, sedap. Macam kau, kau tak rasa macam kau makan kurma. Yang mana tak suka kurma tu, please, beli dekat beg kuning. Korang rasa sendiri, dan korang komen, macam mana feedback korang.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "R3",
+   "in": 80.33,
+   "out": 90.27,
+   "text": "Yang mana dah pernah rasa kurma ajwa daripada Quba Food ni, korang drop komen. Memang insyaAllah lah, kat aku makan ni memang sangat sedap dan berkualiti.",
+   "note": "third try of the comment line",
+   "zoom": 1.0
+  },
+  {
+   "id": "Q10",
+   "in": 90.27,
+   "out": 99.91,
+   "text": "So korang yang mana nak sarapan dengan lebih pantas, aku dah sediakan link dekat beg kuning. Seller tengah buat harga promo tu, sementara harga murah, korang check out terus.",
+   "note": "CTA take 2",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "SARAPAN CEPAT?",
+   "hi": [
+    "CEPAT?"
+   ],
+   "from": [
+    "Q1",
+    "start"
+   ],
+   "to": [
+    "Q1",
+    "sarapan"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 118
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [
+  {
+   "id": "pagi7",
+   "from": [
+    "Q1",
+    "sarapan"
+   ],
+   "to": [
+    "Q1",
+    "end"
+   ],
+   "note": "AI (kurma-ajwa-quba-5): seven dates and water on the breakfast table, no people"
+  },
+  {
+   "id": "pagi",
+   "from": [
+    "Q10",
+    "sarapan"
+   ],
+   "to": [
+    "Q10",
+    "aku"
+   ],
+   "note": "AI (kurma-ajwa-quba-4): dates and water by the window at sunrise, no people"
+  }
+ ],
+ "theme": {
+  "key": "#E8B04B",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "quba",
+  "food",
+  "ajwa"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "Q4",
+    "kurma"
+   ],
+   "to": [
+    "Q4",
+    "end"
+   ],
+   "text": "KURMA AJWA QUBA FOOD",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "Q5",
+    "kurma"
+   ],
+   "to": [
+    "Q5",
+    "end"
+   ],
+   "n": 1,
+   "label": "KILOGRAM",
+   "x": 300,
+   "y": 330
+  },
+  {
+   "type": "tags",
+   "from": [
+    "Q6",
+    "bentuk"
+   ],
+   "to": [
+    "Q6",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "BENTUK",
+     "at": [
+      "Q6",
+      "bentuk"
+     ]
+    },
+    {
+     "text": "TEKSTUR",
+     "at": [
+      "Q6",
+      "tekstur"
+     ]
+    },
+    {
+     "text": "KUALITI",
+     "at": [
+      "Q6",
+      "kualiti"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "Q8",
+    "berat"
+   ],
+   "to": [
+    "Q8",
+    "end"
+   ],
+   "text": "BERAT 1 KG",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "Q9",
+    "dan"
+   ],
+   "to": [
+    "Q9",
+    "end"
+   ],
+   "title": "TEKSTUR",
+   "value": "SEDERHANA",
+   "sub": "TAK TERLALU BASAH, TAK TERLALU KERING",
+   "x": 380,
+   "y": 170
+  },
+  {
+   "type": "pill",
+   "from": [
+    "R1",
+    "chewy-chewy,"
+   ],
+   "to": [
+    "R1",
+    "end"
+   ],
+   "text": "CHEWY-CHEWY",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "R3",
+    "start"
+   ],
+   "to": [
+    "R3",
+    "memang"
+   ],
+   "text": "DROP KOMEN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "Q10",
+    "promo"
+   ],
+   "to": [
+    "Q10",
+    "end"
+   ],
+   "tag": "PROMO",
+   "title": "SEMENTARA HARGA MURAH",
+   "sub": "DI BEG KUNING",
+   "y": 230
+  }
+ ]
+}
