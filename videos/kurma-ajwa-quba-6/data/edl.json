@@ -11,7 +11,7 @@
   "halo": false
  },
  "fs_style": "cut",
- "mirror": false,
+ "mirror": true,
  "zoom_origin": "50% 40%",
  "tighten": {
   "max_pause": 0.6,

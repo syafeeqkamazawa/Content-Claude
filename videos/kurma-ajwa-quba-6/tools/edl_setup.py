@@ -55,5 +55,6 @@ e["_note"] = ("Kurma Ajwa Quba Food #6 — assets/a.mp4 built by tools/prep.py f
               "(both talking; picture synced). Dropped: " + T["dropped"] + ". 1 kg, texture and promo are the owner's own words; no price.")
 e["theme"] = {"key": "#E8B04B", "brand": "#FFFFFF"}
 e["fs_style"] = "cut"
+e["mirror"] = True   # front camera saved mirrored (label reads backwards) — flipped back in CSS
 e["brand_words"] = ["quba", "food", "ajwa"]
 (P / 'data/edl.json').write_text(json.dumps(e, indent=1, ensure_ascii=False))

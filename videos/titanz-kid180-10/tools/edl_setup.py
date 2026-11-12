@@ -73,5 +73,6 @@ e["_note"] = ("Titanz Kid180 #10 — assets/a.mp4 built by tools/prep.py from VI
               + T["dropped"] + ". Contents (blueberry, green tea, vitamin C; label nutrients) as the owner reads them; no price.")
 e["theme"] = {"key": "#FFC21A", "brand": "#FFFFFF"}
 e["fs_style"] = "cut"
+e["mirror"] = True   # front camera saved mirrored (label reads backwards) — flipped back in CSS
 e["brand_words"] = ["titanz", "kid180"]
 (P / 'data/edl.json').write_text(json.dumps(e, indent=1, ensure_ascii=False))
