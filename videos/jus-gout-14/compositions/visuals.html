@@ -34,7 +34,7 @@
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.fromTo("#fs-pain", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "sine.inOut" }, 85.3333);
+          tl.fromTo("#fs-pain-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 85.3333);
           tl.fromTo("#fs-pain-bg", { scale: 1.1, x: 12, y: 0 }, { scale: 1.15, x: -12, y: -8, duration: 2.8167, ease: "none", immediateRender: false }, 85.3333);
           tl.fromTo("#fs-pain-fg", { scale: 1.1, x: -8, y: 6 }, { scale: 1.18, x: 8, y: -10, duration: 2.8167, ease: "sine.inOut", immediateRender: false }, 85.3333);
           window.__timelines["visuals"] = tl;

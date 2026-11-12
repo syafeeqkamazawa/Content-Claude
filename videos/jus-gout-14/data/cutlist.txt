@@ -1,4 +1,4 @@
-TOTAL 100.35s  (16 A-roll segments, 0 B-roll shots, 1 photos, 16 audio fx, 217 caption cards)
+TOTAL 100.35s  (16 A-roll segments, 6 B-roll shots, 1 photos, 19 audio fx, 217 caption cards)
 
   0.00-  3.18  H1  src   0.00-  3.19  (1 pc)  Korang ada masalah sakit sendi tak? Jangan scroll lagi.
   3.18- 10.82  H2  src   3.19- 10.83  (1 pc)  Ini antara sebab kenapa aku suka tengok barang ni ikut masalah sebenar, bukannya ikut video viral je.
@@ -17,4 +17,10 @@ TOTAL 100.35s  (16 A-roll segments, 0 B-roll shots, 1 photos, 16 audio fx, 217 c
  88.15- 92.68  D  src  88.94- 93.64  (2 pc)  So, boleh insyaAllah cuba Jus Gout ni daripada Pro Max series.
  92.68-100.35  E  src  93.64-101.31  (1 pc)  Seller pun tengah buat harga promo tu sebelum harga tu naik balik, boleh grab awal-awal di beg kuning.
 
+  cutaway  14.57- 17.62
+  cutaway  22.80- 25.85
+  cutaway  25.85- 35.02
+  cutaway  41.28- 43.97
+  cutaway  43.97- 47.65
+  cutaway  47.65- 49.75
   cutaway  85.33- 88.15

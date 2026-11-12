@@ -53,7 +53,7 @@ e = json.loads((P / 'data/edl.json').read_text())
 e["word"] = {"font": "Rubik Mono One", "size": 50, "top": 1243, "halo": False}   # reference caption: white, thin outline, ~40 px/letter, centred ~1349 px (70 %)
 e["fx"] = [
     {"type": "pill", "from": ["H2", "ikut"], "to": ["H2", "end"], "text": "IKUT MASALAH SEBENAR", "x": 90, "y": 250},
-    {"type": "bracket", "from": ["H3", "jus"], "to": ["H3", "end"], "label": "JUS GOUT PRO MAX", "x": 560, "y": 1000, "w": 640, "h": 820},
+    {"type": "bracket", "from": ["H3", "jus"], "to": ["H3", "end"], "label": "JUS GOUT PRO MAX", "x": 560, "y": 860, "w": 620, "h": 640},
     {"type": "pill", "from": ["L4", "minuman"], "to": ["L4", "end"], "text": "MINUMAN HERBA", "x": 90, "y": 250},
     {"type": "dial", "from": ["L5", "campuran"], "to": ["L5", "end"], "n": 6, "label": "EKSTRAK HERBA", "x": 300, "y": 330},
     {"type": "tags", "from": ["L6", "start"], "to": ["L6", "end"], "y": 120, "cols": 2, "x0": 40, "dx": 540, "items": [

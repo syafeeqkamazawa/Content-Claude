@@ -10,7 +10,7 @@
   "top": 1243,
   "halo": false
  },
- "fs_style": "fade",
+ "fs_style": "cut",
  "mirror": false,
  "zoom_origin": "50% 40%",
  "tighten": {
@@ -172,7 +172,116 @@
   }
  ],
  "punch": [],
- "broll": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "H3",
+    "jus"
+   ],
+   "to": [
+    "H3",
+    "end"
+   ],
+   "src": 3.0,
+   "note": "jar front while he names the product",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "L5",
+    "campuran"
+   ],
+   "to": [
+    "L5",
+    "end"
+   ],
+   "src": 12.2,
+   "note": "back label (ingredients) — six herbs",
+   "push": [
+    1.02,
+    1.1
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "L6",
+    "start"
+   ],
+   "to": [
+    "L6",
+    "end"
+   ],
+   "src": 55.0,
+   "note": "open jar top-down while he lists the herbs",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "L9",
+    "serbuk"
+   ],
+   "to": [
+    "L9",
+    "end"
+   ],
+   "src": 88.5,
+   "note": "scooping the powder",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 35%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "L10",
+    "start"
+   ],
+   "to": [
+    "L10",
+    "end"
+   ],
+   "src": 100.5,
+   "note": "two scoops in the cup",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "L11",
+    "start"
+   ],
+   "to": [
+    "L11",
+    "end"
+   ],
+   "src": 173.3,
+   "note": "hot water poured, stirred",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  }
+ ],
  "photos": [
   {
    "id": "pain",
@@ -222,10 +331,10 @@
     "end"
    ],
    "label": "JUS GOUT PRO MAX",
-   "x": 760,
-   "y": 1230,
-   "w": 420,
-   "h": 520
+   "x": 560,
+   "y": 860,
+   "w": 620,
+   "h": 640
   },
   {
    "type": "pill",
@@ -326,10 +435,10 @@
     "korang"
    ],
    "label": "SERBUK",
-   "x": 560,
-   "y": 1250,
-   "w": 460,
-   "h": 420
+   "x": 540,
+   "y": 560,
+   "w": 480,
+   "h": 480
   },
   {
    "type": "hud",
