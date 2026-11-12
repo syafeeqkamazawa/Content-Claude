@@ -1,0 +1,597 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 40%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 12 Nov: motion text + caption from the Jus Gout 'video contoh'; visual overlays on the key points; talking clip stays.",
+ "_note": "Titanz Kid180 #10 — assets/a.mp4 built by tools/prep.py from VID_20261112_151248 (talking). assets/b.mp4 = VID_20260908_140338 (0-43.67 s, bottle + tablets) + VID_20260827_170307 (43.67 s on, his children). Dropped: 'kalau ana…' (12.2); 'sebab tu kita' false start (70.3); the 'okay's and 'haa's between pieces; 123-155 (off camera with his children: 'Fatima', 'vitamin', 'bismillah'…); 'sukatan ambil apa?' and the first 'kandungan penuh pada tablet ni' (said again right after); CTA take 1 (247.8-249.1) and 'selamat menikmati' hallucination. Contents (blueberry, green tea, vitamin C; label nutrients) as the owner reads them; no price.",
+ "segments": [
+  {
+   "id": "K1",
+   "in": 0.0,
+   "out": 5.5,
+   "text": "Kalau korang tengah cari suplemen untuk anak-anak, jangan tengok je nama atau harga je tau.",
+   "note": "HOOK",
+   "zoom": 1.0
+  },
+  {
+   "id": "K2",
+   "in": 5.5,
+   "out": 11.13,
+   "text": "Ada 3 benda penting yang ibu ayah kena tahu dulu sebelum beli suplemen.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "K3",
+   "in": 11.13,
+   "out": 14.61,
+   "text": "Pertama, kenapa kalsium penting untuk anak?",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "K4",
+   "in": 14.61,
+   "out": 23.82,
+   "text": "Anak-anak ni tengah membesar tau, jadi badan mereka perlukan kalsium yang mencukupi untuk membantu pembentukan tulang dan gigi yang kuat.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "K5",
+   "in": 23.82,
+   "out": 29.99,
+   "text": "Sebab tu, kita kena pastikan pemakanan harian anak-anak cukup nutrisinya termasuk kalsium.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "K6",
+   "in": 29.99,
+   "out": 34.05,
+   "text": "Kedua, apa yang menarik tentang Titanz Kid180 ni,",
+   "note": "'okay' between dropped",
+   "zoom": 1.06
+  },
+  {
+   "id": "K7",
+   "in": 34.05,
+   "out": 37.86,
+   "text": "produk ni merupakan tablet kunyah yang mengandungi kalsium.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "K8",
+   "in": 37.86,
+   "out": 46.43,
+   "text": "Pada kotak dia juga ada nyatakan ada beri biru, teh hijau dan vitamin C. Jadi bukan sekadar kalsium sahaja tau.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "K9",
+   "in": 46.43,
+   "out": 56.44,
+   "text": "Lagi satu, bentuk dia tablet kunyah, tak perlu telan macam kapsul biasa. Untuk anak yang susah nak telan tablet tu, bentuk macam ni mungkin lebih mudah.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "K10",
+   "in": 56.44,
+   "out": 62.26,
+   "text": "So, macam ni bentuk dia, boleh dikunyah. Memang sangat sedap lah.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "K11",
+   "in": 62.26,
+   "out": 67.06,
+   "text": "Anak-anak saya pun memang sangat menyukai tablet ni. Alhamdulillah.",
+   "note": "'okay' dropped",
+   "zoom": 1.0
+  },
+  {
+   "id": "K12",
+   "in": 67.06,
+   "out": 74.17,
+   "text": "So, tablet dia memang macam anak-anak kita makan candy lah. Sedap. Rasa beri-beri macam tu.",
+   "note": "'okay guys' and the 'haa's dropped",
+   "zoom": 1.06
+  },
+  {
+   "id": "K13",
+   "in": 74.17,
+   "out": 79.21,
+   "text": "Ketiga, sesuai tak untuk anak kita? Sesuai lah, macam saya tadi, saya baru je bagi ke anak saya.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "K14",
+   "in": 79.21,
+   "out": 88.07,
+   "text": "Yang ni penting tau sebab sebelum beli, semak dulu umur yang disyorkan, sukatan dia kena ambil banyak-banyak, kandungan penuh pada label botol ni.",
+   "note": "'sukatan ambil apa?' and the first 'kandungan penuh pada tablet ni' dropped",
+   "zoom": 1.06
+  },
+  {
+   "id": "K15",
+   "in": 88.07,
+   "out": 99.53,
+   "text": "Dalam botol ni dinyatakan lah energinya berapa, karbohidrat, total sugar, fat, lemak, protein. Ada sodium, natrium, vitamin C, kalsium dan vitamin K. Complete insyaAllah.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "K16",
+   "in": 99.53,
+   "out": 102.11,
+   "text": "So, bantu seimbangkan nutrisi anak kita.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "K17",
+   "in": 102.11,
+   "out": 114.61,
+   "text": "Sebab penting kita cek juga sebab keperluan setiap anak ni tak semestinya sama. Kena ingat, suplemen ni bukan pengganti makanan seimbang, dia bantu lengkapkan pengambilan nutrisi bila diperlukan.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "K18",
+   "in": 114.61,
+   "out": 131.6,
+   "text": "Sebab kita sedia maklum, anak-anak kita ni memang masalah bila nak makan sayur, nak makan benda-benda yang berkhasiat ni, memang mencabar sikit. Jadi, inilah antara option alternatif yang kita boleh ambil insyaAllah.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "K19",
+   "in": 131.6,
+   "out": 138.51,
+   "text": "Jadi, kalau korang tengah survey suplemen kalsium untuk anak, boleh pertimbangkan Titanz Kid180 tablet ni.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "K20",
+   "in": 138.51,
+   "out": 146.59,
+   "text": "Saya dah letak dekat beg kuning. Sementara seller tengah buat harga promo, boleh dapatkan awal-awal sebelum harga naik.",
+   "note": "CTA take 2",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "SUPLEMEN ANAK?",
+   "hi": [
+    "ANAK?"
+   ],
+   "from": [
+    "K1",
+    "start"
+   ],
+   "to": [
+    "K1",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 118
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "K7",
+    "start"
+   ],
+   "to": [
+    "K7",
+    "end"
+   ],
+   "src": 0.2,
+   "note": "bottle in hand, Kid180 label",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 55%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "K9",
+    "start"
+   ],
+   "to": [
+    "K9",
+    "telan#2"
+   ],
+   "src": 9.0,
+   "note": "chewable tablets poured into the cap",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "K9",
+    "telan#2"
+   ],
+   "to": [
+    "K9",
+    "end"
+   ],
+   "src": 30.0,
+   "note": "tablets close",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 55%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "K11",
+    "start"
+   ],
+   "to": [
+    "K11",
+    "end"
+   ],
+   "src": 68.17,
+   "note": "his daughters after taking the tablets (hijab, covered)",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "K13",
+    "macam"
+   ],
+   "to": [
+    "K13",
+    "end"
+   ],
+   "src": 46.67,
+   "note": "giving a tablet into the child's hand",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "membesar",
+   "from": [
+    "K4",
+    "start"
+   ],
+   "to": [
+    "K4",
+    "kalsium"
+   ],
+   "note": "AI (titanz-kid180-2): family walking, hijab + long clothes"
+  },
+  {
+   "id": "gigi",
+   "from": [
+    "K4",
+    "tulang"
+   ],
+   "to": [
+    "K4",
+    "end"
+   ],
+   "note": "AI (titanz-kid180-2): boy brushing teeth, pyjamas"
+  },
+  {
+   "id": "pinggan",
+   "from": [
+    "K5",
+    "pemakanan"
+   ],
+   "to": [
+    "K5",
+    "end"
+   ],
+   "note": "AI (titanz-kid180-3): balanced plate"
+  },
+  {
+   "id": "beri",
+   "from": [
+    "K8",
+    "beri"
+   ],
+   "to": [
+    "K8",
+    "jadi,"
+   ],
+   "note": "AI (titanz-kid180-2): blueberries, green tea, orange — no people"
+  },
+  {
+   "id": "memilih",
+   "from": [
+    "K18",
+    "masalah"
+   ],
+   "to": [
+    "K18",
+    "jadi,"
+   ],
+   "note": "AI (titanz-kid180-6): boy who won't eat, mother in hijab"
+  }
+ ],
+ "theme": {
+  "key": "#FFC21A",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "titanz",
+  "kid180"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "dial",
+   "from": [
+    "K2",
+    "benda"
+   ],
+   "to": [
+    "K2",
+    "end"
+   ],
+   "n": 3,
+   "label": "BENDA PENTING",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "pill",
+   "from": [
+    "K3",
+    "start"
+   ],
+   "to": [
+    "K3",
+    "end"
+   ],
+   "text": "1. KENAPA KALSIUM PENTING?",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "K6",
+    "start"
+   ],
+   "to": [
+    "K6",
+    "end"
+   ],
+   "text": "2. APA YANG MENARIK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "K7",
+    "tablet"
+   ],
+   "to": [
+    "K7",
+    "end"
+   ],
+   "text": "TABLET KUNYAH",
+   "x": 60,
+   "y": 250,
+   "ring": [
+    560,
+    1000,
+    330
+   ]
+  },
+  {
+   "type": "tags",
+   "from": [
+    "K8",
+    "beri"
+   ],
+   "to": [
+    "K8",
+    "jadi,"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "BERI BIRU",
+     "at": [
+      "K8",
+      "beri"
+     ]
+    },
+    {
+     "text": "TEH HIJAU",
+     "at": [
+      "K8",
+      "teh"
+     ]
+    },
+    {
+     "text": "VITAMIN C",
+     "at": [
+      "K8",
+      "vitamin"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "K9",
+    "tak"
+   ],
+   "to": [
+    "K9",
+    "untuk"
+   ],
+   "text": "TAK PERLU TELAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "K13",
+    "start"
+   ],
+   "to": [
+    "K13",
+    "macam"
+   ],
+   "text": "3. SESUAI TAK?",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "K14",
+    "semak"
+   ],
+   "to": [
+    "K14",
+    "end"
+   ],
+   "title": "SEMAK DULU",
+   "value": "LABEL",
+   "sub": "UMUR, SUKATAN, KANDUNGAN",
+   "x": 470,
+   "y": 170
+  },
+  {
+   "type": "tags",
+   "from": [
+    "K15",
+    "karbohidrat,"
+   ],
+   "to": [
+    "K15",
+    "end"
+   ],
+   "y": 120,
+   "cols": 2,
+   "x0": 40,
+   "dx": 540,
+   "items": [
+    {
+     "text": "KARBOHIDRAT",
+     "at": [
+      "K15",
+      "karbohidrat,"
+     ]
+    },
+    {
+     "text": "PROTEIN",
+     "at": [
+      "K15",
+      "protein."
+     ]
+    },
+    {
+     "text": "VITAMIN C",
+     "at": [
+      "K15",
+      "vitamin"
+     ]
+    },
+    {
+     "text": "KALSIUM",
+     "at": [
+      "K15",
+      "kalsium"
+     ]
+    },
+    {
+     "text": "VITAMIN K",
+     "at": [
+      "K15",
+      "vitamin#2"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "K17",
+    "kena"
+   ],
+   "to": [
+    "K17",
+    "end"
+   ],
+   "text": "BUKAN PENGGANTI MAKANAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "K20",
+    "promo,"
+   ],
+   "to": [
+    "K20",
+    "end"
+   ],
+   "tag": "PROMO",
+   "title": "SEBELUM HARGA NAIK",
+   "sub": "DI BEG KUNING",
+   "y": 230
+  }
+ ]
+}
