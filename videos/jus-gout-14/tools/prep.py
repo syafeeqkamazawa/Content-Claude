@@ -143,7 +143,9 @@ def main():
     run("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"), "-i", str(tmp / "voice.wav"),
         "-map", "0:v", "-map", "1:a", "-c:v", "libx264", "-preset", "fast", "-crf", "15", "-r", "60", "-g", "30",
         "-c:a", "aac", "-b:a", "192k", str(P / "assets/a.mp4"))
-    run("ffmpeg", "-v", "error", "-y", "-i", str(P / "assets/a.mp4"), "-an", "-c:v", "copy", str(P / "assets/b.mp4"))
+    # B-roll for the cut-aways (owner 12 Nov: "Overlay visual juga masih diperlukan"): the product footage
+    run("ffmpeg", "-v", "error", "-y", "-i", str(P / "src/b172341.mp4"), "-an", "-vf", "scale=1080:1920,setsar=1,fps=60",
+        "-c:v", "libx264", "-preset", "fast", "-crf", "16", "-pix_fmt", "yuv420p", "-g", "30", str(P / "assets/b.mp4"))
     (P / "data/timeline.json").write_text(json.dumps({"lines": L, "total": TOTAL, "dropped": DROPPED}, indent=1, ensure_ascii=False))
     print("TOTAL", TOTAL)
 
