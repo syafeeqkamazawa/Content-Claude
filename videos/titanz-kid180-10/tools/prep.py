@@ -24,7 +24,7 @@ LINES = [
     ("K11", "clip", [(116.70, 119.90), (120.88, 121.70)], "Anak-anak saya pun memang sangat menyukai tablet ni. Alhamdulillah."),
     ("K12", "clip", [(157.45, 161.84), (162.30, 162.80), (163.50, 164.70)], "So, tablet dia memang macam anak-anak kita makan candy lah. Sedap. Rasa beri-beri macam tu."),
     ("K13", "clip", [(166.36, 168.32), (168.86, 169.22), (170.00, 171.70)], "Ketiga, sesuai tak untuk anak kita? Sesuai lah, macam saya tadi, saya baru je bagi ke anak saya."),
-    ("K14", "clip", [(172.70, 176.98), (179.48, 181.12), (185.44, 187.36)], "Yang ni penting tau sebab sebelum beli, semak dulu umur yang disyorkan, sukatan dia kena ambil banyak-banyak, kandungan penuh pada label botol ni."),
+    ("K14", "clip", [(172.70, 176.98), (179.48, 181.12), (185.44, 187.36)], "Yang ni penting tau sebab sebelum beli, semak dulu umur yang disyorkan, sukatan dia kena ambil banyak mana, kandungan penuh pada label botol ni."),
     ("K15", "clip", [(188.74, 190.20), (192.36, 193.66), (194.72, 201.26), (201.86, 202.76)], "Dalam botol ni dinyatakan lah energinya berapa, karbohidrat, total sugar, fat, lemak, protein. Ada sodium, natrium, vitamin C, kalsium dan vitamin K. Complete insyaAllah."),
     ("K16", "clip", [(203.76, 205.80)], "So, bantu seimbangkan nutrisi anak kita."),
     ("K17", "clip", [(209.84, 210.52), (211.44, 222.48)], "Sebab penting kita cek juga sebab keperluan setiap anak ni tak semestinya sama. Kena ingat, suplemen ni bukan pengganti makanan seimbang, dia bantu lengkapkan pengambilan nutrisi bila diperlukan."),
