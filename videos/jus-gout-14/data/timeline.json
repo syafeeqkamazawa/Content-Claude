@@ -1,0 +1,210 @@
+{
+ "lines": {
+  "H1": {
+   "src": "clip",
+   "pieces": [
+    [
+     47.24,
+     50.43
+    ]
+   ],
+   "e0": 0.0,
+   "e1": 3.19,
+   "text": "Korang ada masalah sakit sendi tak? Jangan scroll lagi."
+  },
+  "H2": {
+   "src": "clip",
+   "pieces": [
+    [
+     50.63,
+     58.27
+    ]
+   ],
+   "e0": 3.19,
+   "e1": 10.83,
+   "text": "Ini antara sebab kenapa aku suka tengok barang ni ikut masalah sebenar, bukannya ikut video viral je."
+  },
+  "H3": {
+   "src": "clip",
+   "pieces": [
+    [
+     58.44,
+     65.34
+    ]
+   ],
+   "e0": 10.83,
+   "e1": 17.73,
+   "text": "Kali ni produk yang aku nak bagitahu, Jus Gout daripada Pro Max series."
+  },
+  "L4": {
+   "src": "clip",
+   "pieces": [
+    [
+     66.18,
+     69.68
+    ]
+   ],
+   "e0": 17.73,
+   "e1": 21.23,
+   "text": "Jus Gout Pro Max series ni minuman herba tau."
+  },
+  "L5": {
+   "src": "clip",
+   "pieces": [
+    [
+     79.43,
+     84.16
+    ]
+   ],
+   "e0": 21.23,
+   "e1": 25.96,
+   "text": "Dalam ni ada campuran 6 ekstrak herba terpilih lah."
+  },
+  "L6": {
+   "src": "clip",
+   "pieces": [
+    [
+     84.2,
+     93.52
+    ]
+   ],
+   "e0": 25.96,
+   "e1": 35.28,
+   "text": "Ada bromelain iaitu ekstrak nanas, milk thistle, lemon, halia, curcuma longa dan juga oren."
+  },
+  "L7": {
+   "src": "clip",
+   "pieces": [
+    [
+     96.64,
+     100.48
+    ]
+   ],
+   "e0": 35.28,
+   "e1": 39.12,
+   "text": "Cara penyediaan ni pun sangat mudah."
+  },
+  "L9": {
+   "src": "clip",
+   "pieces": [
+    [
+     113.96,
+     116.25
+    ],
+    [
+     118.58,
+     119.67
+    ],
+    [
+     120.28,
+     122.02
+    ]
+   ],
+   "e0": 39.12,
+   "e1": 44.24,
+   "text": "Dalam dia bentuk macam ni tau. Serbuk macam ni. Korang ambil je dua sudu."
+  },
+  "L10": {
+   "src": "clip",
+   "pieces": [
+    [
+     125.23,
+     128.92
+    ]
+   ],
+   "e0": 44.24,
+   "e1": 47.93,
+   "text": "Dua sudu untuk 250ml."
+  },
+  "L11": {
+   "src": "clip",
+   "pieces": [
+    [
+     129.56,
+     130.54
+    ],
+    [
+     131.6,
+     132.72
+    ]
+   ],
+   "e0": 47.93,
+   "e1": 50.03,
+   "text": "Air panas lah, dan kacau."
+  },
+  "S1": {
+   "src": "s1",
+   "pieces": [
+    [
+     2.4,
+     24.94
+    ]
+   ],
+   "e0": 50.03,
+   "e1": 72.57,
+   "text": "Korang kacau sampai larut, sampai sebati, lepas tu korang akan nampak, korang akan bau, bau dia ada bau halia, bau nanas, orang kata tak adalah kurang susah nak minum sebab dia ada bau-bau yang, orang kata bau-bau buah, bau yang senang kita nak minum setiap hari lah."
+  },
+  "A": {
+   "src": "s2",
+   "pieces": [
+    [
+     2.76,
+     9.06
+    ]
+   ],
+   "e0": 72.57,
+   "e1": 78.87,
+   "text": "Jadi, Jus Gout ni adalah alternatif lah kepada yang ada masalah sakit gout ni."
+  },
+  "B": {
+   "src": "s2",
+   "pieces": [
+    [
+     14.18,
+     21.44
+    ]
+   ],
+   "e0": 78.87,
+   "e1": 86.13,
+   "text": "Saya sendiri pun ada sakit gout ni, memang hanya orang yang ada sakit gout je faham betapa sakit ni."
+  },
+  "C": {
+   "src": "s2",
+   "pieces": [
+    [
+     21.57,
+     24.38
+    ]
+   ],
+   "e0": 86.13,
+   "e1": 88.94,
+   "text": "Sakit gout ni, dia punya denyut tu kan."
+  },
+  "D": {
+   "src": "s2",
+   "pieces": [
+    [
+     24.77,
+     29.47
+    ]
+   ],
+   "e0": 88.94,
+   "e1": 93.64,
+   "text": "So, boleh insyaAllah cuba Jus Gout ni daripada Pro Max series."
+  },
+  "E": {
+   "src": "s2",
+   "pieces": [
+    [
+     44.23,
+     51.9
+    ]
+   ],
+   "e0": 93.64,
+   "e1": 101.31,
+   "text": "Seller pun tengah buat harga promo tu sebelum harga tu naik balik, boleh grab awal-awal di beg kuning."
+  }
+ },
+ "total": 101.31,
+ "dropped": "clip 16-46: three earlier tries of the hook; 'kandungan dan cara penyediaan mesti kandungan' (69.4-76.2); 'dalam ni, ok?' after the herb list; 'korang tengok ni'; the 'ok's between the powder lines; 'dua sudu, letaklah ni' (repeated); 'haa kacau, kacau sampai larut lah, lepas tu, bila dah korang kacau ni' (said again in sambungan 1); sambungan 1 'ok' at both ends; sambungan 2 'insyaAllah boleh ikhtiar, boleh cuba…' (9.3, said again at 25.0), CTA take 1 (29.8-36.7) and 'okay' before take 2"
+}

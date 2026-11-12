@@ -1,0 +1,380 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "fade",
+ "mirror": false,
+ "zoom_origin": "50% 40%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 12 Nov: reference src/contoh.mp4 for the motion text and the caption only; the talking clip stays.",
+ "_note": "Jus Gout Pro Max #14 — assets/a.mp4 built by tools/prep.py: VID_20261112_142940 (the owner talking; its audio dies at 143 s) then 'sambungan 1.m4a' and 'sambungan 2.m4a' over VID_20261012_172341 product footage. Dropped: clip 16-46: three earlier tries of the hook; 'kandungan dan cara penyediaan mesti kandungan' (69.4-76.2); 'dalam ni, ok?' after the herb list; 'korang tengok ni'; the 'ok's between the powder lines; 'dua sudu, letaklah ni' (repeated); 'haa kacau, kacau sampai larut lah, lepas tu, bila dah korang kacau ni' (said again in sambungan 1); sambungan 1 'ok' at both ends; sambungan 2 'insyaAllah boleh ikhtiar, boleh cuba…' (9.3, said again at 25.0), CTA take 1 (29.8-36.7) and 'okay' before take 2. Herbs as spoken (bromelain, milk thistle, lemon, halia, curcuma longa, oren); no price.",
+ "segments": [
+  {
+   "id": "H1",
+   "in": 0.0,
+   "out": 3.19,
+   "text": "Korang ada masalah sakit sendi tak? Jangan scroll lagi.",
+   "note": "HOOK — fourth try of the hook (16-46 dropped)",
+   "zoom": 1.0
+  },
+  {
+   "id": "H2",
+   "in": 3.19,
+   "out": 10.83,
+   "text": "Ini antara sebab kenapa aku suka tengok barang ni ikut masalah sebenar, bukannya ikut video viral je.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "H3",
+   "in": 10.83,
+   "out": 17.73,
+   "text": "Kali ni produk yang aku nak bagitahu, Jus Gout daripada Pro Max series.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "L4",
+   "in": 17.73,
+   "out": 21.23,
+   "text": "Jus Gout Pro Max series ni minuman herba tau.",
+   "note": "'kandungan dan cara penyediaan mesti kandungan' dropped",
+   "zoom": 1.06
+  },
+  {
+   "id": "L5",
+   "in": 21.23,
+   "out": 25.96,
+   "text": "Dalam ni ada campuran 6 ekstrak herba terpilih lah.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "L6",
+   "in": 25.96,
+   "out": 35.28,
+   "text": "Ada bromelain iaitu ekstrak nanas, milk thistle, lemon, halia, curcuma longa dan juga oren.",
+   "note": "'dalam ni, ok?' dropped",
+   "zoom": 1.06
+  },
+  {
+   "id": "L7",
+   "in": 35.28,
+   "out": 39.12,
+   "text": "Cara penyediaan ni pun sangat mudah.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "L9",
+   "in": 39.12,
+   "out": 44.24,
+   "text": "Dalam dia bentuk macam ni tau. Serbuk macam ni. Korang ambil je dua sudu.",
+   "note": "'ok's between the pieces dropped",
+   "zoom": 1.06
+  },
+  {
+   "id": "L10",
+   "in": 44.24,
+   "out": 47.93,
+   "text": "Dua sudu untuk 250ml.",
+   "note": "'dua sudu, letaklah ni' dropped",
+   "zoom": 1.0
+  },
+  {
+   "id": "L11",
+   "in": 47.93,
+   "out": 50.03,
+   "text": "Air panas lah, dan kacau.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "S1",
+   "in": 50.03,
+   "out": 72.57,
+   "text": "Korang kacau sampai larut, sampai sebati, lepas tu korang akan nampak, korang akan bau, bau dia ada bau halia, bau nanas, orang kata tak adalah kurang susah nak minum sebab dia ada bau-bau yang, orang kata bau-bau buah, bau yang senang kita nak minum setiap hari lah.",
+   "note": "sambungan 1 (the clip's sound dies at 143 s)",
+   "zoom": 1.0
+  },
+  {
+   "id": "A",
+   "in": 72.57,
+   "out": 78.87,
+   "text": "Jadi, Jus Gout ni adalah alternatif lah kepada yang ada masalah sakit gout ni.",
+   "note": "sambungan 2; 'ikhtiar' framing kept as approved 27 Oct",
+   "zoom": 1.06
+  },
+  {
+   "id": "B",
+   "in": 78.87,
+   "out": 86.13,
+   "text": "Saya sendiri pun ada sakit gout ni, memang hanya orang yang ada sakit gout je faham betapa sakit ni.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "C",
+   "in": 86.13,
+   "out": 88.94,
+   "text": "Sakit gout ni, dia punya denyut tu kan.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "D",
+   "in": 88.94,
+   "out": 93.64,
+   "text": "So, boleh insyaAllah cuba Jus Gout ni daripada Pro Max series.",
+   "note": "the 9.3 s 'insyaAllah boleh ikhtiar, boleh cuba…' is the same line — this later take kept",
+   "zoom": 1.0
+  },
+  {
+   "id": "E",
+   "in": 93.64,
+   "out": 101.31,
+   "text": "Seller pun tengah buat harga promo tu sebelum harga tu naik balik, boleh grab awal-awal di beg kuning.",
+   "note": "CTA take 2 ('okay' dropped)",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "SAKIT SENDI?",
+   "hi": [
+    "SENDI?"
+   ],
+   "from": [
+    "H1",
+    "start"
+   ],
+   "to": [
+    "H1",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 120
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [
+  {
+   "id": "pain",
+   "from": [
+    "C",
+    "start"
+   ],
+   "to": [
+    "C",
+    "end"
+   ],
+   "note": "AI (reused from jus-gout): man on the bed holding his foot, long sleeves + long trousers"
+  }
+ ],
+ "theme": {
+  "key": "#FFC21A",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "jus",
+  "gout"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "H2",
+    "ikut"
+   ],
+   "to": [
+    "H2",
+    "end"
+   ],
+   "text": "IKUT MASALAH SEBENAR",
+   "x": 90,
+   "y": 250
+  },
+  {
+   "type": "bracket",
+   "from": [
+    "H3",
+    "jus"
+   ],
+   "to": [
+    "H3",
+    "end"
+   ],
+   "label": "JUS GOUT PRO MAX",
+   "x": 760,
+   "y": 1230,
+   "w": 420,
+   "h": 520
+  },
+  {
+   "type": "pill",
+   "from": [
+    "L4",
+    "minuman"
+   ],
+   "to": [
+    "L4",
+    "end"
+   ],
+   "text": "MINUMAN HERBA",
+   "x": 90,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "L5",
+    "campuran"
+   ],
+   "to": [
+    "L5",
+    "end"
+   ],
+   "n": 6,
+   "label": "EKSTRAK HERBA",
+   "x": 300,
+   "y": 330
+  },
+  {
+   "type": "tags",
+   "from": [
+    "L6",
+    "start"
+   ],
+   "to": [
+    "L6",
+    "end"
+   ],
+   "y": 120,
+   "cols": 2,
+   "x0": 40,
+   "dx": 540,
+   "items": [
+    {
+     "text": "BROMELAIN (NANAS)",
+     "at": [
+      "L6",
+      "bromelain"
+     ]
+    },
+    {
+     "text": "MILK THISTLE",
+     "at": [
+      "L6",
+      "milk"
+     ]
+    },
+    {
+     "text": "LEMON",
+     "at": [
+      "L6",
+      "lemon,"
+     ]
+    },
+    {
+     "text": "HALIA",
+     "at": [
+      "L6",
+      "halia,"
+     ]
+    },
+    {
+     "text": "CURCUMA LONGA",
+     "at": [
+      "L6",
+      "curcuma"
+     ]
+    },
+    {
+     "text": "OREN",
+     "at": [
+      "L6",
+      "oren."
+     ]
+    }
+   ]
+  },
+  {
+   "type": "bracket",
+   "from": [
+    "L9",
+    "serbuk"
+   ],
+   "to": [
+    "L9",
+    "korang"
+   ],
+   "label": "SERBUK",
+   "x": 560,
+   "y": 1250,
+   "w": 460,
+   "h": 420
+  },
+  {
+   "type": "hud",
+   "from": [
+    "L10",
+    "start"
+   ],
+   "to": [
+    "L11",
+    "end"
+   ],
+   "title": "CARA BANCUH",
+   "value": "2 SUDU",
+   "sub": "250 ML AIR PANAS",
+   "x": 470,
+   "y": 170
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S1",
+    "halia,"
+   ],
+   "to": [
+    "S1",
+    "orang"
+   ],
+   "text": "BAU HALIA & NANAS",
+   "x": 90,
+   "y": 260
+  },
+  {
+   "type": "promo",
+   "from": [
+    "E",
+    "promo"
+   ],
+   "to": [
+    "E",
+    "end"
+   ],
+   "tag": "PROMO",
+   "title": "SEBELUM HARGA NAIK BALIK",
+   "sub": "DI BEG KUNING",
+   "y": 230
+  }
+ ]
+}

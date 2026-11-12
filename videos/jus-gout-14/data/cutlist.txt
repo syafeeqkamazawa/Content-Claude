@@ -1,0 +1,20 @@
+TOTAL 100.35s  (16 A-roll segments, 0 B-roll shots, 1 photos, 16 audio fx, 217 caption cards)
+
+  0.00-  3.18  H1  src   0.00-  3.19  (1 pc)  Korang ada masalah sakit sendi tak? Jangan scroll lagi.
+  3.18- 10.82  H2  src   3.19- 10.83  (1 pc)  Ini antara sebab kenapa aku suka tengok barang ni ikut masalah sebenar, bukannya ikut video viral je.
+ 10.82- 17.62  H3  src  10.83- 17.73  (2 pc)  Kali ni produk yang aku nak bagitahu, Jus Gout daripada Pro Max series.
+ 17.62- 21.12  L4  src  17.73- 21.23  (1 pc)  Jus Gout Pro Max series ni minuman herba tau.
+ 21.12- 25.85  L5  src  21.23- 25.96  (1 pc)  Dalam ni ada campuran 6 ekstrak herba terpilih lah.
+ 25.85- 35.02  L6  src  25.96- 35.28  (2 pc)  Ada bromelain iaitu ekstrak nanas, milk thistle, lemon, halia, curcuma longa dan juga oren.
+ 35.02- 38.85  L7  src  35.28- 39.12  (1 pc)  Cara penyediaan ni pun sangat mudah.
+ 38.85- 43.97  L9  src  39.12- 44.24  (1 pc)  Dalam dia bentuk macam ni tau. Serbuk macam ni. Korang ambil je dua sudu.
+ 43.97- 47.65  L10  src  44.24- 47.93  (1 pc)  Dua sudu untuk 250ml.
+ 47.65- 49.75  L11  src  47.93- 50.03  (1 pc)  Air panas lah, dan kacau.
+ 49.75- 71.77  S1  src  50.03- 72.57  (4 pc)  Korang kacau sampai larut, sampai sebati, lepas tu korang akan nampak, korang akan bau, bau dia ada bau halia, bau nanas, orang kata tak adalah kurang susah nak minum sebab dia ada bau-bau yang, orang kata bau-bau buah, bau yang senang kita nak minum setiap hari lah.
+ 71.77- 78.07  A  src  72.57- 78.87  (1 pc)  Jadi, Jus Gout ni adalah alternatif lah kepada yang ada masalah sakit gout ni.
+ 78.07- 85.33  B  src  78.87- 86.13  (1 pc)  Saya sendiri pun ada sakit gout ni, memang hanya orang yang ada sakit gout je faham betapa sakit ni.
+ 85.33- 88.15  C  src  86.13- 88.94  (1 pc)  Sakit gout ni, dia punya denyut tu kan.
+ 88.15- 92.68  D  src  88.94- 93.64  (2 pc)  So, boleh insyaAllah cuba Jus Gout ni daripada Pro Max series.
+ 92.68-100.35  E  src  93.64-101.31  (1 pc)  Seller pun tengah buat harga promo tu sebelum harga tu naik balik, boleh grab awal-awal di beg kuning.
+
+  cutaway  85.33- 88.15
