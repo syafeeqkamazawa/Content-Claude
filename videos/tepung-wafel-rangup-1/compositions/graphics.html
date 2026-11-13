@@ -63,15 +63,15 @@
 .kpl { display: block; }
 .kpw { display: inline-block; color: #FFFFFF; -webkit-text-stroke: 10px #0B0B0B; paint-order: stroke fill;
   text-shadow: 0 10px 26px rgba(0,0,0,.55); margin: 0 6px; }
-.kpw.hot { color: #E8B04B; }
-.kpbar { height: 16px; width: 62%; margin: 14px auto 0; background: #E8B04B; border-radius: 8px;
+.kpw.hot { color: #F5A623; }
+.kpbar { height: 16px; width: 62%; margin: 14px auto 0; background: #F5A623; border-radius: 8px;
   box-shadow: 0 6px 18px rgba(0,0,0,.45); transform-origin: 0% 50%; }
 @font-face { font-family: "Montserrat"; src: url("assets/fonts/Montserrat-latin.woff2") format("woff2"); font-weight: 100 900; font-style: normal; font-display: block; }
 .fxwrap { position: absolute; inset: 0; }
 .fxdial { position: absolute; width: 400px; height: 400px; }
 .fxdial svg { position: absolute; inset: 0; overflow: visible; }
 .fxtick { stroke: rgba(255,255,255,.35); stroke-width: 5; stroke-linecap: round; }
-.fxtick.on { stroke: #E8B04B; filter: drop-shadow(0 0 8px #E8B04B); }
+.fxtick.on { stroke: #F5A623; filter: drop-shadow(0 0 8px #F5A623); }
 .fxnum { position: absolute; left: 0; right: 0; top: 92px; height: 200px; text-align: center; }
 .fxdig { position: absolute; left: 0; right: 0; opacity: 0; font-family: "Montserrat"; font-weight: 800; font-size: 190px; line-height: 200px;
   color: #fff; text-shadow: 0 0 30px rgba(0,0,0,.55), 0 6px 18px rgba(0,0,0,.5); }
@@ -80,10 +80,10 @@
 .fxchip { position: absolute; display: flex; align-items: center; gap: 14px; padding: 14px 28px 14px 18px; border-radius: 999px;
   background: rgba(10,10,10,.72); border: 2px solid rgba(255,255,255,.22); font-family: "Montserrat"; font-weight: 800;
   font-size: 36px; color: #fff; white-space: nowrap; box-shadow: 0 10px 30px rgba(0,0,0,.35); }
-.fxdot { width: 22px; height: 22px; border-radius: 50%; background: #E8B04B; box-shadow: 0 0 14px #E8B04B; flex: none; }
+.fxdot { width: 22px; height: 22px; border-radius: 50%; background: #F5A623; box-shadow: 0 0 14px #F5A623; flex: none; }
 .fxarc { position: absolute; left: 0; overflow: visible; }
-.fxarc path { fill: none; stroke: #E8B04B; stroke-width: 7; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1;
-  filter: drop-shadow(0 0 10px #E8B04B) drop-shadow(0 0 22px #E8B04B); opacity: .9; }
+.fxarc path { fill: none; stroke: #F5A623; stroke-width: 7; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1;
+  filter: drop-shadow(0 0 10px #F5A623) drop-shadow(0 0 22px #F5A623); opacity: .9; }
 .fxbr { position: absolute; }
 .fxc { position: absolute; width: 74px; height: 74px; border: 0 solid #fff; filter: drop-shadow(0 2px 6px rgba(0,0,0,.5)); }
 .fxctl { left: 0; top: 0; border-top-width: 9px; border-left-width: 9px; border-top-left-radius: 14px; }
@@ -95,104 +95,122 @@
   box-shadow: 0 8px 22px rgba(0,0,0,.4); }
 .fxblab span { display: inline-block; }
 .fxpill { position: absolute; display: flex; align-items: center; gap: 16px; padding: 16px 34px 16px 22px; border-radius: 999px;
-  background: rgba(10,10,10,.78); border: 2px solid #E8B04B; font-family: "Montserrat"; font-weight: 800; font-size: 46px; color: #fff;
+  background: rgba(10,10,10,.78); border: 2px solid #F5A623; font-family: "Montserrat"; font-weight: 800; font-size: 46px; color: #fff;
   white-space: nowrap; box-shadow: 0 0 26px rgba(255,180,0,.35), 0 10px 30px rgba(0,0,0,.4); }
 .fxring { position: absolute; overflow: visible; }
 .fxring circle { fill: none; stroke: #fff; stroke-width: 6; stroke-dasharray: 4 18; stroke-linecap: round; filter: drop-shadow(0 0 6px rgba(0,0,0,.6)); }
 .fxhud { position: absolute; width: 560px; padding: 26px 34px 30px; border-radius: 30px; background: rgba(14,14,14,.74);
-  border: 2px solid #E8B04B; box-shadow: 0 0 30px rgba(255,180,0,.35), 0 14px 40px rgba(0,0,0,.45); transform-origin: 100% 50%; }
-.fxhtit { display: flex; align-items: center; gap: 14px; font-family: "Montserrat"; font-weight: 800; font-size: 34px; color: #E8B04B; letter-spacing: 1px; }
+  border: 2px solid #F5A623; box-shadow: 0 0 30px rgba(255,180,0,.35), 0 14px 40px rgba(0,0,0,.45); transform-origin: 100% 50%; }
+.fxhtit { display: flex; align-items: center; gap: 14px; font-family: "Montserrat"; font-weight: 800; font-size: 34px; color: #F5A623; letter-spacing: 1px; }
 .fxhval { font-family: "Montserrat"; font-weight: 900; font-size: 118px; line-height: 1.05; color: #fff; transform-origin: 0% 50%; margin-top: 6px; }
 .fxhsub { font-family: "Montserrat"; font-weight: 800; font-size: 40px; color: rgba(255,255,255,.9); }
 .fxbar { height: 16px; margin-top: 20px; border-radius: 8px; background: rgba(255,255,255,.18); overflow: hidden; }
-.fxbarf { height: 100%; background: #E8B04B; box-shadow: 0 0 14px #E8B04B; transform-origin: 0% 50%; }
+.fxbarf { height: 100%; background: #F5A623; box-shadow: 0 0 14px #F5A623; transform-origin: 0% 50%; }
 .fxpromo { position: absolute; left: 140px; width: 800px; padding: 30px 40px 36px; text-align: center; border-radius: 34px;
-  background: rgba(12,12,12,.8); border: 3px solid #E8B04B; box-shadow: 0 0 40px rgba(255,180,0,.45), 0 16px 44px rgba(0,0,0,.5); }
-.fxptag { display: inline-block; padding: 8px 30px; border-radius: 999px; background: #E8B04B; color: #111; font-family: "Montserrat";
+  background: rgba(12,12,12,.8); border: 3px solid #F5A623; box-shadow: 0 0 40px rgba(255,180,0,.45), 0 16px 44px rgba(0,0,0,.5); }
+.fxptag { display: inline-block; padding: 8px 30px; border-radius: 999px; background: #F5A623; color: #111; font-family: "Montserrat";
   font-weight: 900; font-size: 44px; letter-spacing: 2px; }
 .fxpbig { margin-top: 16px; font-family: "Montserrat"; font-weight: 900; font-size: 74px; line-height: 1.05; color: #fff; }
-.fxpsub { margin-top: 12px; font-family: "Montserrat"; font-weight: 800; font-size: 40px; color: #E8B04B; }
+.fxpsub { margin-top: 12px; font-family: "Montserrat"; font-weight: 800; font-size: 40px; color: #F5A623; }
 </style>
       <div id="gfx-root" data-composition-id="graphics" data-width="1080" data-height="1920">
-        <div id="ov-kp0" class="clip overlay" data-start="0.0" data-duration="2.5167" data-track-index="2"><div class="kp" id="kp0" style="top:200px;font-size:142px"><div class="kpl"><span class="kpw" id="kp0w0">SARAPAN</span> <span class="kpw hot" id="kp0w1">CEPAT?</span></div><div class="kpbar" id="kp0bar"></div></div></div>
-        <div id="ov-fx0" class="clip overlay" data-start="14.5" data-duration="2.3833" data-track-index="2"><div class="fxwrap" id="fx0"><div class="fxpill" id="fx0p" style="left:60px;top:250px"><span class="fxdot"></span><span>KURMA AJWA QUBA FOOD</span></div></div></div>
-        <div id="ov-fx1" class="clip overlay" data-start="18.2333" data-duration="1.6667" data-track-index="2"><div class="fxdial" id="fx1" style="left:100px;top:130px"><svg width="400" height="400" viewBox="0 0 400 400"><line x1="98.2" y1="301.8" x2="78.4" y2="321.6" class="fxtick" id="fx1t0"/><line x1="85.8" y1="287.7" x2="63.5" y2="304.7" class="fxtick" id="fx1t1"/><line x1="75.3" y1="272.0" x2="51.0" y2="286.0" class="fxtick" id="fx1t2"/><line x1="67.0" y1="255.1" x2="41.1" y2="265.8" class="fxtick" id="fx1t3"/><line x1="60.9" y1="237.3" x2="33.9" y2="244.5" class="fxtick" id="fx1t4"/><line x1="57.2" y1="218.8" x2="29.5" y2="222.5" class="fxtick" id="fx1t5"/><line x1="56.0" y1="200.0" x2="28.0" y2="200.0" class="fxtick" id="fx1t6"/><line x1="57.2" y1="181.2" x2="29.5" y2="177.5" class="fxtick" id="fx1t7"/><line x1="60.9" y1="162.7" x2="33.9" y2="155.5" class="fxtick" id="fx1t8"/><line x1="67.0" y1="144.9" x2="41.1" y2="134.2" class="fxtick" id="fx1t9"/><line x1="75.3" y1="128.0" x2="51.0" y2="114.0" class="fxtick" id="fx1t10"/><line x1="85.8" y1="112.3" x2="63.5" y2="95.3" class="fxtick" id="fx1t11"/><line x1="98.2" y1="98.2" x2="78.4" y2="78.4" class="fxtick" id="fx1t12"/><line x1="112.3" y1="85.8" x2="95.3" y2="63.5" class="fxtick" id="fx1t13"/><line x1="128.0" y1="75.3" x2="114.0" y2="51.0" class="fxtick" id="fx1t14"/><line x1="144.9" y1="67.0" x2="134.2" y2="41.1" class="fxtick" id="fx1t15"/><line x1="162.7" y1="60.9" x2="155.5" y2="33.9" class="fxtick" id="fx1t16"/><line x1="181.2" y1="57.2" x2="177.5" y2="29.5" class="fxtick" id="fx1t17"/><line x1="200.0" y1="56.0" x2="200.0" y2="28.0" class="fxtick" id="fx1t18"/><line x1="218.8" y1="57.2" x2="222.5" y2="29.5" class="fxtick" id="fx1t19"/><line x1="237.3" y1="60.9" x2="244.5" y2="33.9" class="fxtick" id="fx1t20"/><line x1="255.1" y1="67.0" x2="265.8" y2="41.1" class="fxtick" id="fx1t21"/><line x1="272.0" y1="75.3" x2="286.0" y2="51.0" class="fxtick" id="fx1t22"/><line x1="287.7" y1="85.8" x2="304.7" y2="63.5" class="fxtick" id="fx1t23"/><line x1="301.8" y1="98.2" x2="321.6" y2="78.4" class="fxtick" id="fx1t24"/><line x1="314.2" y1="112.3" x2="336.5" y2="95.3" class="fxtick" id="fx1t25"/><line x1="324.7" y1="128.0" x2="349.0" y2="114.0" class="fxtick" id="fx1t26"/><line x1="333.0" y1="144.9" x2="358.9" y2="134.2" class="fxtick" id="fx1t27"/><line x1="339.1" y1="162.7" x2="366.1" y2="155.5" class="fxtick" id="fx1t28"/><line x1="342.8" y1="181.2" x2="370.5" y2="177.5" class="fxtick" id="fx1t29"/><line x1="344.0" y1="200.0" x2="372.0" y2="200.0" class="fxtick" id="fx1t30"/><line x1="342.8" y1="218.8" x2="370.5" y2="222.5" class="fxtick" id="fx1t31"/><line x1="339.1" y1="237.3" x2="366.1" y2="244.5" class="fxtick" id="fx1t32"/><line x1="333.0" y1="255.1" x2="358.9" y2="265.8" class="fxtick" id="fx1t33"/><line x1="324.7" y1="272.0" x2="349.0" y2="286.0" class="fxtick" id="fx1t34"/><line x1="314.2" y1="287.7" x2="336.5" y2="304.7" class="fxtick" id="fx1t35"/><line x1="301.8" y1="301.8" x2="321.6" y2="321.6" class="fxtick" id="fx1t36"/></svg><div class="fxnum"><span class="fxdig" id="fx1d1">1</span></div><div class="fxlab">KILOGRAM</div></div></div>
-        <div id="ov-fx2" class="clip overlay" data-start="21.7833" data-duration="3.45" data-track-index="2"><div class="fxwrap" id="fx2"><svg class="fxarc" width="1080" height="260" style="top:332px" viewBox="0 0 1080 260"><path id="fx2p" d="M 60 200 Q 540 -40 1020 200" pathLength="1"/></svg><div class="fxchip" id="fx2c0" style="left:60px;top:140px"><span class="fxdot"></span>BENTUK</div><div class="fxchip" id="fx2c1" style="left:60px;top:244px"><span class="fxdot"></span>TEKSTUR</div><div class="fxchip" id="fx2c2" style="left:60px;top:348px"><span class="fxdot"></span>KUALITI</div></div></div>
-        <div id="ov-fx3" class="clip overlay" data-start="37.1333" data-duration="2.0167" data-track-index="2"><div class="fxwrap" id="fx3"><div class="fxpill" id="fx3p" style="left:60px;top:250px"><span class="fxdot"></span><span>BERAT 1 KG</span></div></div></div>
-        <div id="ov-fx4" class="clip overlay" data-start="45.2167" data-duration="3.25" data-track-index="2"><div class="fxhud" id="fx4" style="left:380px;top:170px"><div class="fxhtit"><span class="fxdot"></span>TEKSTUR</div><div class="fxhval" id="fx4v">SEDERHANA</div><div class="fxhsub">TAK TERLALU BASAH, TAK TERLALU KERING</div><div class="fxbar"><div class="fxbarf" id="fx4b"></div></div></div></div>
-        <div id="ov-fx5" class="clip overlay" data-start="57.3667" data-duration="3.4667" data-track-index="2"><div class="fxwrap" id="fx5"><div class="fxpill" id="fx5p" style="left:60px;top:250px"><span class="fxdot"></span><span>CHEWY-CHEWY</span></div></div></div>
-        <div id="ov-fx6" class="clip overlay" data-start="76.75" data-duration="5.5167" data-track-index="2"><div class="fxwrap" id="fx6"><div class="fxpill" id="fx6p" style="left:60px;top:250px"><span class="fxdot"></span><span>DROP KOMEN</span></div></div></div>
-        <div id="ov-fx7" class="clip overlay" data-start="92.5333" data-duration="3.7833" data-track-index="2"><div class="fxwrap" id="fx7"><svg class="fxarc" width="1080" height="260" style="top:480px" viewBox="0 0 1080 260"><path id="fx7p" d="M 40 220 Q 540 -20 1040 220" pathLength="1"/></svg><div class="fxpromo" id="fx7c" style="top:230px"><div class="fxptag">PROMO</div><div class="fxpbig">SEMENTARA HARGA MURAH</div><div class="fxpsub">DI BEG KUNING</div></div></div></div>
+        <div id="ov-kp0" class="clip overlay" data-start="0.0" data-duration="3.65" data-track-index="2"><div class="kp" id="kp0" style="top:200px;font-size:134px"><div class="kpl"><span class="kpw" id="kp0w0">TEPUNG</span> <span class="kpw" id="kp0w1">WAFEL</span> <span class="kpw hot" id="kp0w2">RANGUP</span></div><div class="kpbar" id="kp0bar"></div></div></div>
+        <div id="ov-fx0" class="clip overlay" data-start="11.8333" data-duration="4.7667" data-track-index="2"><div class="fxdial" id="fx0" style="left:100px;top:130px"><svg width="400" height="400" viewBox="0 0 400 400"><line x1="98.2" y1="301.8" x2="78.4" y2="321.6" class="fxtick" id="fx0t0"/><line x1="85.8" y1="287.7" x2="63.5" y2="304.7" class="fxtick" id="fx0t1"/><line x1="75.3" y1="272.0" x2="51.0" y2="286.0" class="fxtick" id="fx0t2"/><line x1="67.0" y1="255.1" x2="41.1" y2="265.8" class="fxtick" id="fx0t3"/><line x1="60.9" y1="237.3" x2="33.9" y2="244.5" class="fxtick" id="fx0t4"/><line x1="57.2" y1="218.8" x2="29.5" y2="222.5" class="fxtick" id="fx0t5"/><line x1="56.0" y1="200.0" x2="28.0" y2="200.0" class="fxtick" id="fx0t6"/><line x1="57.2" y1="181.2" x2="29.5" y2="177.5" class="fxtick" id="fx0t7"/><line x1="60.9" y1="162.7" x2="33.9" y2="155.5" class="fxtick" id="fx0t8"/><line x1="67.0" y1="144.9" x2="41.1" y2="134.2" class="fxtick" id="fx0t9"/><line x1="75.3" y1="128.0" x2="51.0" y2="114.0" class="fxtick" id="fx0t10"/><line x1="85.8" y1="112.3" x2="63.5" y2="95.3" class="fxtick" id="fx0t11"/><line x1="98.2" y1="98.2" x2="78.4" y2="78.4" class="fxtick" id="fx0t12"/><line x1="112.3" y1="85.8" x2="95.3" y2="63.5" class="fxtick" id="fx0t13"/><line x1="128.0" y1="75.3" x2="114.0" y2="51.0" class="fxtick" id="fx0t14"/><line x1="144.9" y1="67.0" x2="134.2" y2="41.1" class="fxtick" id="fx0t15"/><line x1="162.7" y1="60.9" x2="155.5" y2="33.9" class="fxtick" id="fx0t16"/><line x1="181.2" y1="57.2" x2="177.5" y2="29.5" class="fxtick" id="fx0t17"/><line x1="200.0" y1="56.0" x2="200.0" y2="28.0" class="fxtick" id="fx0t18"/><line x1="218.8" y1="57.2" x2="222.5" y2="29.5" class="fxtick" id="fx0t19"/><line x1="237.3" y1="60.9" x2="244.5" y2="33.9" class="fxtick" id="fx0t20"/><line x1="255.1" y1="67.0" x2="265.8" y2="41.1" class="fxtick" id="fx0t21"/><line x1="272.0" y1="75.3" x2="286.0" y2="51.0" class="fxtick" id="fx0t22"/><line x1="287.7" y1="85.8" x2="304.7" y2="63.5" class="fxtick" id="fx0t23"/><line x1="301.8" y1="98.2" x2="321.6" y2="78.4" class="fxtick" id="fx0t24"/><line x1="314.2" y1="112.3" x2="336.5" y2="95.3" class="fxtick" id="fx0t25"/><line x1="324.7" y1="128.0" x2="349.0" y2="114.0" class="fxtick" id="fx0t26"/><line x1="333.0" y1="144.9" x2="358.9" y2="134.2" class="fxtick" id="fx0t27"/><line x1="339.1" y1="162.7" x2="366.1" y2="155.5" class="fxtick" id="fx0t28"/><line x1="342.8" y1="181.2" x2="370.5" y2="177.5" class="fxtick" id="fx0t29"/><line x1="344.0" y1="200.0" x2="372.0" y2="200.0" class="fxtick" id="fx0t30"/><line x1="342.8" y1="218.8" x2="370.5" y2="222.5" class="fxtick" id="fx0t31"/><line x1="339.1" y1="237.3" x2="366.1" y2="244.5" class="fxtick" id="fx0t32"/><line x1="333.0" y1="255.1" x2="358.9" y2="265.8" class="fxtick" id="fx0t33"/><line x1="324.7" y1="272.0" x2="349.0" y2="286.0" class="fxtick" id="fx0t34"/><line x1="314.2" y1="287.7" x2="336.5" y2="304.7" class="fxtick" id="fx0t35"/><line x1="301.8" y1="301.8" x2="321.6" y2="321.6" class="fxtick" id="fx0t36"/></svg><div class="fxnum"><span class="fxdig" id="fx0d1">1</span><span class="fxdig" id="fx0d2">2</span></div><div class="fxlab">KALI RESTOCK</div></div></div>
+        <div id="ov-fx1" class="clip overlay" data-start="19.8" data-duration="4.2667" data-track-index="2"><div class="fxwrap" id="fx1"><div class="fxpill" id="fx1p" style="left:60px;top:250px"><span class="fxdot"></span><span>PACKAGING BARU</span></div></div></div>
+        <div id="ov-fx2" class="clip overlay" data-start="25.1" data-duration="7.8833" data-track-index="2"><div class="fxhud" id="fx2" style="left:380px;top:170px"><div class="fxhtit"><span class="fxdot"></span>SAMBUTAN</div><div class="fxhval" id="fx2v">HIGH DEMAND</div><div class="fxhsub">RAMAI ORANG BELI</div><div class="fxbar"><div class="fxbarf" id="fx2b"></div></div></div></div>
+        <div id="ov-fx3" class="clip overlay" data-start="36.9667" data-duration="2.9167" data-track-index="2"><div class="fxwrap" id="fx3"><div class="fxpill" id="fx3p" style="left:60px;top:250px"><span class="fxdot"></span><span>ORANG BELI DUA</span></div></div></div>
+        <div id="ov-fx4" class="clip overlay" data-start="40.75" data-duration="4.9667" data-track-index="2"><div class="fxwrap" id="fx4"><div class="fxpill" id="fx4p" style="left:60px;top:250px"><span class="fxdot"></span><span>CARA MUDAH</span></div></div></div>
+        <div id="ov-fx5" class="clip overlay" data-start="47.8833" data-duration="6.8" data-track-index="2"><div class="fxwrap" id="fx5"><svg class="fxarc" width="1080" height="260" style="top:332px" viewBox="0 0 1080 260"><path id="fx5p" d="M 60 200 Q 540 -40 1020 200" pathLength="1"/></svg><div class="fxchip" id="fx5c0" style="left:60px;top:140px"><span class="fxdot"></span>AIR</div><div class="fxchip" id="fx5c1" style="left:60px;top:244px"><span class="fxdot"></span>MINYAK</div><div class="fxchip" id="fx5c2" style="left:60px;top:348px"><span class="fxdot"></span>TELUR</div></div></div>
+        <div id="ov-fx6" class="clip overlay" data-start="56.5" data-duration="3.4833" data-track-index="2"><div class="fxwrap" id="fx6"><svg class="fxarc" width="1080" height="260" style="top:228px" viewBox="0 0 1080 260"><path id="fx6p" d="M 60 200 Q 540 -40 1020 200" pathLength="1"/></svg><div class="fxchip" id="fx6c0" style="left:60px;top:140px"><span class="fxdot"></span>ACUAN WAFFLE</div><div class="fxchip" id="fx6c1" style="left:60px;top:244px"><span class="fxdot"></span>KUALI</div></div></div>
+        <div id="ov-fx7" class="clip overlay" data-start="65.7" data-duration="4.2833" data-track-index="2"><div class="fxwrap" id="fx7"><div class="fxpill" id="fx7p" style="left:60px;top:250px"><span class="fxdot"></span><span>NAK GARING? BIAR LAMA</span></div></div></div>
+        <div id="ov-fx8" class="clip overlay" data-start="84.0667" data-duration="4.9167" data-track-index="2"><div class="fxwrap" id="fx8"><svg class="fxarc" width="1080" height="260" style="top:228px" viewBox="0 0 1080 260"><path id="fx8p" d="M 60 200 Q 540 -40 1020 200" pathLength="1"/></svg><div class="fxchip" id="fx8c0" style="left:60px;top:140px"><span class="fxdot"></span>SARAPAN</div><div class="fxchip" id="fx8c1" style="left:60px;top:244px"><span class="fxdot"></span>BEKAL SEKOLAH</div></div></div>
+        <div id="ov-fx9" class="clip overlay" data-start="88.9833" data-duration="2.5167" data-track-index="2"><div class="fxwrap" id="fx9"><svg class="fxarc" width="1080" height="260" style="top:228px" viewBox="0 0 1080 260"><path id="fx9p" d="M 60 200 Q 540 -40 1020 200" pathLength="1"/></svg><div class="fxchip" id="fx9c0" style="left:60px;top:140px"><span class="fxdot"></span>COKLAT</div><div class="fxchip" id="fx9c1" style="left:60px;top:244px"><span class="fxdot"></span>KAYA</div></div></div>
+        <div id="ov-fx10" class="clip overlay" data-start="99.2667" data-duration="6.0167" data-track-index="2"><div class="fxwrap" id="fx10"><svg class="fxarc" width="1080" height="260" style="top:480px" viewBox="0 0 1080 260"><path id="fx10p" d="M 40 220 Q 540 -20 1040 220" pathLength="1"/></svg><div class="fxpromo" id="fx10c" style="top:230px"><div class="fxptag">VOUCHER</div><div class="fxpbig">CLAIM DI BEG KUNING</div><div class="fxpsub">SEBELUM HARGA NAIK</div></div></div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#kp0w0", { opacity: 0, scale: 2.6, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.42, ease: "expo.out" }, 0.0);
           tl.fromTo("#kp0w1", { opacity: 0, scale: 2.6, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.42, ease: "expo.out" }, 0.0667);
-          tl.fromTo("#kp0bar", { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: "power3.inOut" }, 0.2333);
-          tl.fromTo("#kp0", { scale: 1 }, { scale: 1.05, duration: 2.5167, ease: "none", immediateRender: false }, 0.0);
-          tl.to("#kp0", { opacity: 0, y: -30, filter: "blur(10px)", duration: 0.25, ease: "power2.in" }, 2.2667);
-          tl.fromTo("#fx0p", { opacity: 0, x: -60, filter: "blur(10px)" }, { opacity: 1, x: 0, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 14.5);
-          tl.to("#fx0", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 16.6667);
-          tl.fromTo("#fx1", { opacity: 0, scale: 0.6, filter: "blur(12px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 18.2333);
-          tl.set("#fx1t0", { attr: { class: "fxtick on" } }, 18.3833);
-          tl.set("#fx1t1", { attr: { class: "fxtick on" } }, 18.4);
-          tl.set("#fx1t2", { attr: { class: "fxtick on" } }, 18.4333);
-          tl.set("#fx1t3", { attr: { class: "fxtick on" } }, 18.45);
-          tl.set("#fx1t4", { attr: { class: "fxtick on" } }, 18.4833);
-          tl.set("#fx1t5", { attr: { class: "fxtick on" } }, 18.5);
-          tl.set("#fx1t6", { attr: { class: "fxtick on" } }, 18.5333);
-          tl.set("#fx1t7", { attr: { class: "fxtick on" } }, 18.55);
-          tl.set("#fx1t8", { attr: { class: "fxtick on" } }, 18.5833);
-          tl.set("#fx1t9", { attr: { class: "fxtick on" } }, 18.6);
-          tl.set("#fx1t10", { attr: { class: "fxtick on" } }, 18.6333);
-          tl.set("#fx1t11", { attr: { class: "fxtick on" } }, 18.65);
-          tl.set("#fx1t12", { attr: { class: "fxtick on" } }, 18.6833);
-          tl.set("#fx1t13", { attr: { class: "fxtick on" } }, 18.7);
-          tl.set("#fx1t14", { attr: { class: "fxtick on" } }, 18.7333);
-          tl.set("#fx1t15", { attr: { class: "fxtick on" } }, 18.75);
-          tl.set("#fx1t16", { attr: { class: "fxtick on" } }, 18.7833);
-          tl.set("#fx1t17", { attr: { class: "fxtick on" } }, 18.8);
-          tl.set("#fx1t18", { attr: { class: "fxtick on" } }, 18.8333);
-          tl.set("#fx1t19", { attr: { class: "fxtick on" } }, 18.85);
-          tl.set("#fx1t20", { attr: { class: "fxtick on" } }, 18.8833);
-          tl.set("#fx1t21", { attr: { class: "fxtick on" } }, 18.9);
-          tl.set("#fx1t22", { attr: { class: "fxtick on" } }, 18.9333);
-          tl.set("#fx1t23", { attr: { class: "fxtick on" } }, 18.95);
-          tl.set("#fx1t24", { attr: { class: "fxtick on" } }, 18.9833);
-          tl.set("#fx1t25", { attr: { class: "fxtick on" } }, 19.0);
-          tl.set("#fx1t26", { attr: { class: "fxtick on" } }, 19.0333);
-          tl.set("#fx1t27", { attr: { class: "fxtick on" } }, 19.05);
-          tl.set("#fx1t28", { attr: { class: "fxtick on" } }, 19.0833);
-          tl.set("#fx1t29", { attr: { class: "fxtick on" } }, 19.1);
-          tl.set("#fx1t30", { attr: { class: "fxtick on" } }, 19.1333);
-          tl.set("#fx1t31", { attr: { class: "fxtick on" } }, 19.15);
-          tl.set("#fx1t32", { attr: { class: "fxtick on" } }, 19.1833);
-          tl.set("#fx1t33", { attr: { class: "fxtick on" } }, 19.2);
-          tl.set("#fx1t34", { attr: { class: "fxtick on" } }, 19.2333);
-          tl.set("#fx1t35", { attr: { class: "fxtick on" } }, 19.25);
-          tl.set("#fx1t36", { attr: { class: "fxtick on" } }, 19.2833);
-          tl.set("#fx1d1", { opacity: 1 }, 18.3833);
-          tl.fromTo("#fx1d1", { scale: 1.35 }, { scale: 1, duration: 0.35, ease: "back.out(3)", immediateRender: false }, 19.2833);
-          tl.to("#fx1", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 19.6833);
-          tl.fromTo("#fx2p", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 2.0667, ease: "power2.inOut" }, 21.7833);
-          tl.fromTo("#fx2c0", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 21.7833);
-          tl.fromTo("#fx2c1", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 23.0667);
-          tl.fromTo("#fx2c2", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 24.5667);
-          tl.to("#fx2", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 25.0167);
-          tl.fromTo("#fx3p", { opacity: 0, x: -60, filter: "blur(10px)" }, { opacity: 1, x: 0, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 37.1333);
-          tl.to("#fx3", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 38.9333);
-          tl.fromTo("#fx4", { opacity: 0, x: 140, rotationY: -35, filter: "blur(10px)" }, { opacity: 1, x: 0, rotationY: 0, filter: "blur(0px)", duration: 0.5, ease: "expo.out" }, 45.2167);
-          tl.fromTo("#fx4b", { scaleX: 0 }, { scaleX: 1, duration: 2.65, ease: "power1.inOut" }, 45.5167);
-          tl.fromTo("#fx4v", { scale: 1.25 }, { scale: 1, duration: 0.4, ease: "back.out(3)", immediateRender: false }, 45.4167);
-          tl.to("#fx4", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 48.25);
-          tl.fromTo("#fx5p", { opacity: 0, x: -60, filter: "blur(10px)" }, { opacity: 1, x: 0, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 57.3667);
-          tl.to("#fx5", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 60.6167);
-          tl.fromTo("#fx6p", { opacity: 0, x: -60, filter: "blur(10px)" }, { opacity: 1, x: 0, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 76.75);
-          tl.to("#fx6", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 82.05);
-          tl.fromTo("#fx7c", { opacity: 0, y: -80, scale: 0.85, filter: "blur(12px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.5, ease: "back.out(1.8)" }, 92.5333);
-          tl.fromTo("#fx7p", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.8, ease: "power2.inOut" }, 92.7333);
-          tl.fromTo("#fx7c", { scale: 1 }, { scale: 1.04, duration: 3.2833, ease: "sine.inOut", immediateRender: false }, 93.0333);
+          tl.fromTo("#kp0w2", { opacity: 0, scale: 2.6, filter: "blur(10px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.42, ease: "expo.out" }, 0.1167);
+          tl.fromTo("#kp0bar", { scaleX: 0 }, { scaleX: 1, duration: 0.45, ease: "power3.inOut" }, 0.3);
+          tl.fromTo("#kp0", { scale: 1 }, { scale: 1.05, duration: 3.65, ease: "none", immediateRender: false }, 0.0);
+          tl.to("#kp0", { opacity: 0, y: -30, filter: "blur(10px)", duration: 0.25, ease: "power2.in" }, 3.4);
+          tl.fromTo("#fx0", { opacity: 0, scale: 0.6, filter: "blur(12px)" }, { opacity: 1, scale: 1, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 11.8333);
+          tl.set("#fx0t0", { attr: { class: "fxtick on" } }, 11.9833);
+          tl.set("#fx0t1", { attr: { class: "fxtick on" } }, 12.0);
+          tl.set("#fx0t2", { attr: { class: "fxtick on" } }, 12.0333);
+          tl.set("#fx0t3", { attr: { class: "fxtick on" } }, 12.05);
+          tl.set("#fx0t4", { attr: { class: "fxtick on" } }, 12.0833);
+          tl.set("#fx0t5", { attr: { class: "fxtick on" } }, 12.1);
+          tl.set("#fx0t6", { attr: { class: "fxtick on" } }, 12.1333);
+          tl.set("#fx0t7", { attr: { class: "fxtick on" } }, 12.15);
+          tl.set("#fx0t8", { attr: { class: "fxtick on" } }, 12.1833);
+          tl.set("#fx0t9", { attr: { class: "fxtick on" } }, 12.2);
+          tl.set("#fx0t10", { attr: { class: "fxtick on" } }, 12.2333);
+          tl.set("#fx0t11", { attr: { class: "fxtick on" } }, 12.25);
+          tl.set("#fx0t12", { attr: { class: "fxtick on" } }, 12.2833);
+          tl.set("#fx0t13", { attr: { class: "fxtick on" } }, 12.3);
+          tl.set("#fx0t14", { attr: { class: "fxtick on" } }, 12.3333);
+          tl.set("#fx0t15", { attr: { class: "fxtick on" } }, 12.35);
+          tl.set("#fx0t16", { attr: { class: "fxtick on" } }, 12.3833);
+          tl.set("#fx0t17", { attr: { class: "fxtick on" } }, 12.4);
+          tl.set("#fx0t18", { attr: { class: "fxtick on" } }, 12.4333);
+          tl.set("#fx0t19", { attr: { class: "fxtick on" } }, 12.45);
+          tl.set("#fx0t20", { attr: { class: "fxtick on" } }, 12.4833);
+          tl.set("#fx0t21", { attr: { class: "fxtick on" } }, 12.5);
+          tl.set("#fx0t22", { attr: { class: "fxtick on" } }, 12.5333);
+          tl.set("#fx0t23", { attr: { class: "fxtick on" } }, 12.55);
+          tl.set("#fx0t24", { attr: { class: "fxtick on" } }, 12.5833);
+          tl.set("#fx0t25", { attr: { class: "fxtick on" } }, 12.6);
+          tl.set("#fx0t26", { attr: { class: "fxtick on" } }, 12.6333);
+          tl.set("#fx0t27", { attr: { class: "fxtick on" } }, 12.65);
+          tl.set("#fx0t28", { attr: { class: "fxtick on" } }, 12.6833);
+          tl.set("#fx0t29", { attr: { class: "fxtick on" } }, 12.7);
+          tl.set("#fx0t30", { attr: { class: "fxtick on" } }, 12.7333);
+          tl.set("#fx0t31", { attr: { class: "fxtick on" } }, 12.75);
+          tl.set("#fx0t32", { attr: { class: "fxtick on" } }, 12.7833);
+          tl.set("#fx0t33", { attr: { class: "fxtick on" } }, 12.8);
+          tl.set("#fx0t34", { attr: { class: "fxtick on" } }, 12.8333);
+          tl.set("#fx0t35", { attr: { class: "fxtick on" } }, 12.85);
+          tl.set("#fx0t36", { attr: { class: "fxtick on" } }, 12.8833);
+          tl.set("#fx0d1", { opacity: 1 }, 11.9833);
+          tl.set("#fx0d2", { opacity: 1 }, 12.8833);
+          tl.set("#fx0d1", { opacity: 0 }, 12.8833);
+          tl.fromTo("#fx0d2", { scale: 1.35 }, { scale: 1, duration: 0.35, ease: "back.out(3)", immediateRender: false }, 12.8833);
+          tl.to("#fx0", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 16.3833);
+          tl.fromTo("#fx1p", { opacity: 0, x: -60, filter: "blur(10px)" }, { opacity: 1, x: 0, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 19.8);
+          tl.to("#fx1", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 23.85);
+          tl.fromTo("#fx2", { opacity: 0, x: 140, rotationY: -35, filter: "blur(10px)" }, { opacity: 1, x: 0, rotationY: 0, filter: "blur(0px)", duration: 0.5, ease: "expo.out" }, 25.1);
+          tl.fromTo("#fx2b", { scaleX: 0 }, { scaleX: 1, duration: 7.2833, ease: "power1.inOut" }, 25.4);
+          tl.fromTo("#fx2v", { scale: 1.25 }, { scale: 1, duration: 0.4, ease: "back.out(3)", immediateRender: false }, 25.3);
+          tl.to("#fx2", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 32.7667);
+          tl.fromTo("#fx3p", { opacity: 0, x: -60, filter: "blur(10px)" }, { opacity: 1, x: 0, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 36.9667);
+          tl.to("#fx3", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 39.6667);
+          tl.fromTo("#fx4p", { opacity: 0, x: -60, filter: "blur(10px)" }, { opacity: 1, x: 0, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 40.75);
+          tl.to("#fx4", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 45.5);
+          tl.fromTo("#fx5p", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 4.0833, ease: "power2.inOut" }, 47.8833);
+          tl.fromTo("#fx5c0", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 47.8833);
+          tl.fromTo("#fx5c1", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 49.2333);
+          tl.fromTo("#fx5c2", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 50.0833);
+          tl.to("#fx5", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 54.4667);
+          tl.fromTo("#fx6p", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 2.0833, ease: "power2.inOut" }, 56.5);
+          tl.fromTo("#fx6c0", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 56.5);
+          tl.fromTo("#fx6c1", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 58.3667);
+          tl.to("#fx6", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 59.7667);
+          tl.fromTo("#fx7p", { opacity: 0, x: -60, filter: "blur(10px)" }, { opacity: 1, x: 0, filter: "blur(0px)", duration: 0.4, ease: "expo.out" }, 65.7);
+          tl.to("#fx7", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 69.7667);
+          tl.fromTo("#fx8p", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 2.95, ease: "power2.inOut" }, 84.0667);
+          tl.fromTo("#fx8c0", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 84.0667);
+          tl.fromTo("#fx8c1", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 86.25);
+          tl.to("#fx8", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 88.7667);
+          tl.fromTo("#fx9p", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 1.5167, ease: "power2.inOut" }, 88.9833);
+          tl.fromTo("#fx9c0", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 89.3667);
+          tl.fromTo("#fx9c1", { opacity: 0, y: 24, scale: 0.7, filter: "blur(8px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.32, ease: "back.out(2.2)" }, 90.5333);
+          tl.to("#fx9", { opacity: 0, filter: "blur(10px)", duration: 0.22, ease: "power2.in" }, 91.2833);
+          tl.fromTo("#fx10c", { opacity: 0, y: -80, scale: 0.85, filter: "blur(12px)" }, { opacity: 1, y: 0, scale: 1, filter: "blur(0px)", duration: 0.5, ease: "back.out(1.8)" }, 99.2667);
+          tl.fromTo("#fx10p", { strokeDashoffset: 1 }, { strokeDashoffset: 0, duration: 0.8, ease: "power2.inOut" }, 99.4667);
+          tl.fromTo("#fx10c", { scale: 1 }, { scale: 1.04, duration: 5.5167, ease: "sine.inOut", immediateRender: false }, 99.7667);
           window.__timelines["graphics"] = tl;
         })();
       </script>

@@ -1,0 +1,558 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 40%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 12 Nov: motion text + caption from the Jus Gout 'video contoh'; visual overlays; talking kept.",
+ "_note": "Tepung Wafel Rangup #1 — assets/a.mp4 built by tools/prep.py from VID_20261113_084758 (talking) and VID_20261113_092656 (voiced cooking clip; picture synced). B-roll (assets/b.mp4): 091202, 091251, 091338 (mixing), 092709 (waffle on plate), 095912 0-100 s (eating). Clip -> video: 084758, 092656, 091202, 091251, 091338, 092709, 095912 (0-100 s) -> this video; 090052, 092819, 092000, 092406, 093613, 095047, 095121, 095912 (100-203 s) -> elevtrova-waffle-maker-1. Dropped: 084758: 'ok aku dah' (2-3.5), the drawn-out 'masuk, masuk' before the restock line, the first 'anak-anak' (stutter), 'sambutan apa tu' (repeat), 'ok' fillers, the unclear 'anak-anak pun dah ...' tail (85.7-87.6), 'ha?' / 'memang' / 'ok?' between lines, and the 'no gluten / free gluten, kita nak cari yang sihat, baik untuk badan' passage (101.8-117.7: health claim not shown on the pack — CLAUDE.md 5 Nov TikTok-risk rule); 092656: 'ok' fillers, the long 'guys' (22-24.6) and the second CTA 'dapatkan di beg kuning, supaya harga masih dalam promosi' (30-34.2, repeats T12). No price; voucher / promo are the owner's words.",
+ "segments": [
+  {
+   "id": "T1",
+   "in": 0.0,
+   "out": 7.26,
+   "text": "Anak-anak aku, termasuk aku sekali, dah berebut-rebut bila dah buat waffle pakai tepung ni je.",
+   "note": "HOOK — 084758 28-36.6 (first 'anak-anak' stutter dropped)",
+   "zoom": 1.0
+  },
+  {
+   "id": "T2",
+   "in": 7.26,
+   "out": 10.47,
+   "text": "Korang tahu tak, ni tepung waffle.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "T3",
+   "in": 10.47,
+   "out": 19.91,
+   "text": "Ni masuk kali kedua aku dah restock tepung untuk buat waffle. Memang sedap sangat.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "T4",
+   "in": 19.91,
+   "out": 25.39,
+   "text": "Sekarang ni packaging dah makin cantik tau. Dulu nampak stiker je satu.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "T5",
+   "in": 25.39,
+   "out": 34.71,
+   "text": "Inilah tengok, menunjukkan betapa high demand, ramai sambutan yang sangat memberangsangkan orang beli tepung ni.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "T6",
+   "in": 34.71,
+   "out": 41.61,
+   "text": "Memang sedap, memang tak tipu korang. Ni orang tu beli tu, beli dua tu. Sebab memang sedap.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "T7",
+   "in": 41.61,
+   "out": 56.61,
+   "text": "Korang belilah. Cara ni mudah sahaja. Korang campur tepung ni, dekat sini pun dah ada tulis lah. Korang campur je tepung ni dengan air, minyak dan telur sahaja. Lepas tu korang kacau-kacau-kacau, dah boleh, dah boleh masak.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "T8",
+   "in": 56.61,
+   "out": 61.91,
+   "text": "Dah boleh letak dekat tempat acuan waffle ataupun dalam kuali pun tak masalah.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "H1",
+   "in": 61.91,
+   "out": 71.91,
+   "text": "Guys, hasil tepung dia guys, korang tengok eh. Bismillah. Masya Allah, masya Allah. Kalau korang nak garing lagi, korang boleh biar lama lah.",
+   "note": "VID_20261113_092656 — opens the waffle maker",
+   "zoom": 1.0
+  },
+  {
+   "id": "H2",
+   "in": 71.91,
+   "out": 80.34,
+   "text": "Ni hasil guna tepung waffle yang tadi tu guys, korang tengok. Oh masya Allah, cantik guys.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "T9",
+   "in": 80.34,
+   "out": 84.2,
+   "text": "Tu korang belilah, memang anak-anak insya Allah memang suka.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "T10",
+   "in": 84.2,
+   "out": 91.1,
+   "text": "Siap boleh, anak-anak aku buat sarapan, buat bekal pergi sekolah pun boleh juga.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "T11",
+   "in": 91.1,
+   "out": 93.62,
+   "text": "Dengan coklat boleh, dengan kaya pun boleh.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "H3",
+   "in": 93.62,
+   "out": 98.13,
+   "text": "So jangan tunggu lagi, anak-anak sedang menunggu tu, untuk korang buat untuk dia orang.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "T12",
+   "in": 98.13,
+   "out": 107.39,
+   "text": "Guys, tengok dekat beg kuning, kalau ada voucher boleh claim. Kalau harga tengah murah tu, korang belilah awal-awal, sebelum harga ni naik balik.",
+   "note": "CTA",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "TEPUNG WAFEL RANGUP",
+   "hi": [
+    "RANGUP"
+   ],
+   "from": [
+    "T1",
+    "start"
+   ],
+   "to": [
+    "T1",
+    "bila"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 112
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "T3",
+    "memang"
+   ],
+   "to": [
+    "T3",
+    "end"
+   ],
+   "src": 208.3,
+   "note": "owner eating the waffle",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "T6",
+    "start"
+   ],
+   "to": [
+    "T6",
+    "ni"
+   ],
+   "src": 178.3,
+   "note": "holding up a piece of waffle",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 55%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "T7",
+    "campur#2"
+   ],
+   "to": [
+    "T7",
+    "lepas"
+   ],
+   "src": 2.0,
+   "note": "batter in the bowl, top view",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "T7",
+    "lepas"
+   ],
+   "to": [
+    "T7",
+    "end"
+   ],
+   "src": 40.2,
+   "note": "stirring the batter",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "T8",
+    "start"
+   ],
+   "to": [
+    "T8",
+    "end"
+   ],
+   "src": 81.6,
+   "note": "batter ready",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "T9",
+    "memang"
+   ],
+   "to": [
+    "T9",
+    "end"
+   ],
+   "src": 190.3,
+   "note": "the waffle in hand",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C7",
+   "from": [
+    "T10",
+    "buat"
+   ],
+   "to": [
+    "T10",
+    "end"
+   ],
+   "src": 121.1,
+   "note": "round waffle on the plate",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C8",
+   "from": [
+    "T11",
+    "start"
+   ],
+   "to": [
+    "T11",
+    "end"
+   ],
+   "src": 146.3,
+   "note": "cutting the waffle on the plate",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 55%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#F5A623",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "rangup",
+  "wafel"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "dial",
+   "from": [
+    "T3",
+    "kedua,"
+   ],
+   "to": [
+    "T3",
+    "memang"
+   ],
+   "n": 2,
+   "label": "KALI RESTOCK",
+   "x": 300,
+   "y": 330
+  },
+  {
+   "type": "pill",
+   "from": [
+    "T4",
+    "packaging"
+   ],
+   "to": [
+    "T4",
+    "end"
+   ],
+   "text": "PACKAGING BARU",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "T5",
+    "menunjukkan"
+   ],
+   "to": [
+    "T5",
+    "end"
+   ],
+   "title": "SAMBUTAN",
+   "value": "HIGH DEMAND",
+   "sub": "RAMAI ORANG BELI",
+   "x": 380,
+   "y": 170
+  },
+  {
+   "type": "pill",
+   "from": [
+    "T6",
+    "beli"
+   ],
+   "to": [
+    "T6",
+    "end"
+   ],
+   "text": "ORANG BELI DUA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "T7",
+    "cara"
+   ],
+   "to": [
+    "T7",
+    "campur#2"
+   ],
+   "text": "CARA MUDAH",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "T7",
+    "air,"
+   ],
+   "to": [
+    "T7",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "AIR",
+     "at": [
+      "T7",
+      "air,"
+     ]
+    },
+    {
+     "text": "MINYAK",
+     "at": [
+      "T7",
+      "minyak"
+     ]
+    },
+    {
+     "text": "TELUR",
+     "at": [
+      "T7",
+      "telur"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tags",
+   "from": [
+    "T8",
+    "acuan"
+   ],
+   "to": [
+    "T8",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "ACUAN WAFFLE",
+     "at": [
+      "T8",
+      "acuan"
+     ]
+    },
+    {
+     "text": "KUALI",
+     "at": [
+      "T8",
+      "kuali"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "H1",
+    "kalau"
+   ],
+   "to": [
+    "H1",
+    "end"
+   ],
+   "text": "NAK GARING? BIAR LAMA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "T10",
+    "sarapan,"
+   ],
+   "to": [
+    "T10",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "SARAPAN",
+     "at": [
+      "T10",
+      "sarapan,"
+     ]
+    },
+    {
+     "text": "BEKAL SEKOLAH",
+     "at": [
+      "T10",
+      "bekal,"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tags",
+   "from": [
+    "T11",
+    "start"
+   ],
+   "to": [
+    "T11",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "COKLAT",
+     "at": [
+      "T11",
+      "coklat"
+     ]
+    },
+    {
+     "text": "KAYA",
+     "at": [
+      "T11",
+      "kaya"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "promo",
+   "from": [
+    "T12",
+    "voucher"
+   ],
+   "to": [
+    "T12",
+    "end"
+   ],
+   "tag": "VOUCHER",
+   "title": "CLAIM DI BEG KUNING",
+   "sub": "SEBELUM HARGA NAIK",
+   "y": 230
+  }
+ ]
+}

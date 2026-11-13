@@ -1,0 +1,26 @@
+TOTAL 105.28s  (15 A-roll segments, 8 B-roll shots, 0 photos, 22 audio fx, 234 caption cards)
+
+  0.00-  7.27  T1  src   0.00-  7.26  (1 pc)  Anak-anak aku, termasuk aku sekali, dah berebut-rebut bila dah buat waffle pakai tepung ni je.
+  7.27- 10.48  T2  src   7.26- 10.47  (1 pc)  Korang tahu tak, ni tepung waffle.
+ 10.48- 18.73  T3  src  10.47- 19.91  (4 pc)  Ni masuk kali kedua aku dah restock tepung untuk buat waffle. Memang sedap sangat.
+ 18.73- 24.07  T4  src  19.91- 25.39  (2 pc)  Sekarang ni packaging dah makin cantik tau. Dulu nampak stiker je satu.
+ 24.07- 32.98  T5  src  25.39- 34.71  (3 pc)  Inilah tengok, menunjukkan betapa high demand, ramai sambutan yang sangat memberangsangkan orang beli tepung ni.
+ 32.98- 39.88  T6  src  34.71- 41.61  (1 pc)  Memang sedap, memang tak tipu korang. Ni orang tu beli tu, beli dua tu. Sebab memang sedap.
+ 39.88- 54.68  T7  src  41.61- 56.61  (2 pc)  Korang belilah. Cara ni mudah sahaja. Korang campur tepung ni, dekat sini pun dah ada tulis lah. Korang campur je tepung ni dengan air, minyak dan telur sahaja. Lepas tu korang kacau-kacau-kacau, dah boleh, dah boleh masak.
+ 54.68- 59.98  T8  src  56.61- 61.91  (1 pc)  Dah boleh letak dekat tempat acuan waffle ataupun dalam kuali pun tak masalah.
+ 59.98- 69.98  H1  src  61.91- 71.91  (1 pc)  Guys, hasil tepung dia guys, korang tengok eh. Bismillah. Masya Allah, masya Allah. Kalau korang nak garing lagi, korang boleh biar lama lah.
+ 69.98- 78.42  H2  src  71.91- 80.34  (1 pc)  Ni hasil guna tepung waffle yang tadi tu guys, korang tengok. Oh masya Allah, cantik guys.
+ 78.42- 82.08  T9  src  80.34- 84.20  (2 pc)  Tu korang belilah, memang anak-anak insya Allah memang suka.
+ 82.08- 88.98  T10  src  84.20- 91.10  (1 pc)  Siap boleh, anak-anak aku buat sarapan, buat bekal pergi sekolah pun boleh juga.
+ 88.98- 91.50  T11  src  91.10- 93.62  (1 pc)  Dengan coklat boleh, dengan kaya pun boleh.
+ 91.50- 96.02  H3  src  93.62- 98.13  (1 pc)  So jangan tunggu lagi, anak-anak sedang menunggu tu, untuk korang buat untuk dia orang.
+ 96.02-105.28  T12  src  98.13-107.39  (1 pc)  Guys, tengok dekat beg kuning, kalau ada voucher boleh claim. Kalau harga tengah murah tu, korang belilah awal-awal, sebelum harga ni naik balik.
+
+  cutaway  16.60- 18.73
+  cutaway  32.98- 35.77
+  cutaway  45.72- 51.37
+  cutaway  51.37- 54.68
+  cutaway  54.68- 59.98
+  cutaway  80.03- 82.08
+  cutaway  83.73- 88.98
+  cutaway  88.98- 91.50

@@ -1,0 +1,252 @@
+{
+ "lines": {
+  "T1": {
+   "src": "t",
+   "pieces": [
+    [
+     29.7,
+     36.96
+    ]
+   ],
+   "e0": 0.0,
+   "e1": 7.26,
+   "text": "Anak-anak aku, termasuk aku sekali, dah berebut-rebut bila dah buat waffle pakai tepung ni je."
+  },
+  "T2": {
+   "src": "t",
+   "pieces": [
+    [
+     6.1,
+     9.31
+    ]
+   ],
+   "e0": 7.26,
+   "e1": 10.47,
+   "text": "Korang tahu tak, ni tepung waffle."
+  },
+  "T3": {
+   "src": "t",
+   "pieces": [
+    [
+     19.2,
+     28.64
+    ]
+   ],
+   "e0": 10.47,
+   "e1": 19.91,
+   "text": "Ni masuk kali kedua aku dah restock tepung untuk buat waffle. Memang sedap sangat."
+  },
+  "T4": {
+   "src": "t",
+   "pieces": [
+    [
+     37.12,
+     42.6
+    ]
+   ],
+   "e0": 19.91,
+   "e1": 25.39,
+   "text": "Sekarang ni packaging dah makin cantik tau. Dulu nampak stiker je satu."
+  },
+  "T5": {
+   "src": "t",
+   "pieces": [
+    [
+     42.28,
+     50.02
+    ],
+    [
+     51.94,
+     53.52
+    ]
+   ],
+   "e0": 25.39,
+   "e1": 34.71,
+   "text": "Inilah tengok, menunjukkan betapa high demand, ramai sambutan yang sangat memberangsangkan orang beli tepung ni."
+  },
+  "T6": {
+   "src": "t",
+   "pieces": [
+    [
+     53.1,
+     60.0
+    ]
+   ],
+   "e0": 34.71,
+   "e1": 41.61,
+   "text": "Memang sedap, memang tak tipu korang. Ni orang tu beli tu, beli dua tu. Sebab memang sedap."
+  },
+  "T7": {
+   "src": "t",
+   "pieces": [
+    [
+     60.66,
+     62.7
+    ],
+    [
+     62.8,
+     66.22
+    ],
+    [
+     66.36,
+     72.3
+    ],
+    [
+     72.54,
+     76.14
+    ]
+   ],
+   "e0": 41.61,
+   "e1": 56.61,
+   "text": "Korang belilah. Cara ni mudah sahaja. Korang campur tepung ni, dekat sini pun dah ada tulis lah. Korang campur je tepung ni dengan air, minyak dan telur sahaja. Lepas tu korang kacau-kacau-kacau, dah boleh, dah boleh masak."
+  },
+  "T8": {
+   "src": "t",
+   "pieces": [
+    [
+     75.94,
+     81.24
+    ]
+   ],
+   "e0": 56.61,
+   "e1": 61.91,
+   "text": "Dah boleh letak dekat tempat acuan waffle ataupun dalam kuali pun tak masalah."
+  },
+  "H1": {
+   "src": "h",
+   "pieces": [
+    [
+     1.76,
+     6.14
+    ],
+    [
+     6.7,
+     12.32
+    ]
+   ],
+   "e0": 61.91,
+   "e1": 71.91,
+   "text": "Guys, hasil tepung dia guys, korang tengok eh. Bismillah. Masya Allah, masya Allah. Kalau korang nak garing lagi, korang boleh biar lama lah."
+  },
+  "H2": {
+   "src": "h",
+   "pieces": [
+    [
+     13.22,
+     16.09
+    ],
+    [
+     16.52,
+     22.08
+    ]
+   ],
+   "e0": 71.91,
+   "e1": 80.34,
+   "text": "Ni hasil guna tepung waffle yang tadi tu guys, korang tengok. Oh masya Allah, cantik guys."
+  },
+  "T9": {
+   "src": "t",
+   "pieces": [
+    [
+     81.92,
+     85.78
+    ]
+   ],
+   "e0": 80.34,
+   "e1": 84.2,
+   "text": "Tu korang belilah, memang anak-anak insya Allah memang suka."
+  },
+  "T10": {
+   "src": "t",
+   "pieces": [
+    [
+     90.46,
+     97.36
+    ]
+   ],
+   "e0": 84.2,
+   "e1": 91.1,
+   "text": "Siap boleh, anak-anak aku buat sarapan, buat bekal pergi sekolah pun boleh juga."
+  },
+  "T11": {
+   "src": "t",
+   "pieces": [
+    [
+     98.26,
+     99.46
+    ],
+    [
+     99.5,
+     100.82
+    ]
+   ],
+   "e0": 91.1,
+   "e1": 93.62,
+   "text": "Dengan coklat boleh, dengan kaya pun boleh."
+  },
+  "H3": {
+   "src": "h",
+   "pieces": [
+    [
+     25.6,
+     28.47
+    ],
+    [
+     28.54,
+     30.18
+    ]
+   ],
+   "e0": 93.62,
+   "e1": 98.13,
+   "text": "So jangan tunggu lagi, anak-anak sedang menunggu tu, untuk korang buat untuk dia orang."
+  },
+  "T12": {
+   "src": "t",
+   "pieces": [
+    [
+     118.7,
+     122.98
+    ],
+    [
+     122.92,
+     124.98
+    ],
+    [
+     125.44,
+     126.64
+    ],
+    [
+     126.96,
+     128.68
+    ]
+   ],
+   "e0": 98.13,
+   "e1": 107.39,
+   "text": "Guys, tengok dekat beg kuning, kalau ada voucher boleh claim. Kalau harga tengah murah tu, korang belilah awal-awal, sebelum harga ni naik balik."
+  }
+ },
+ "total": 107.39,
+ "dropped": "084758: 'ok aku dah' (2-3.5), the drawn-out 'masuk, masuk' before the restock line, the first 'anak-anak' (stutter), 'sambutan apa tu' (repeat), 'ok' fillers, the unclear 'anak-anak pun dah ...' tail (85.7-87.6), 'ha?' / 'memang' / 'ok?' between lines, and the 'no gluten / free gluten, kita nak cari yang sihat, baik untuk badan' passage (101.8-117.7: health claim not shown on the pack — CLAUDE.md 5 Nov TikTok-risk rule); 092656: 'ok' fillers, the long 'guys' (22-24.6) and the second CTA 'dapatkan di beg kuning, supaya harga masih dalam promosi' (30-34.2, repeats T12)",
+ "broll": {
+  "091202": {
+   "offset": 0.0,
+   "in": 0.0
+  },
+  "091251": {
+   "offset": 28.2,
+   "in": 0.0
+  },
+  "091338": {
+   "offset": 75.6,
+   "in": 0.0
+  },
+  "092709": {
+   "offset": 121.1,
+   "in": 0.0
+  },
+  "095912": {
+   "offset": 126.3,
+   "in": 0.0
+  }
+ }
+}
