@@ -1,4 +1,4 @@
-"""EDL for elevtrova-waffle-maker-1 (13 Nov). Run tools/prep.py first. Same look as jus-gout-14 / kurma-ajwa-quba-6:
+"""EDL for electrova-waffle-maker-1 (13 Nov). Run tools/prep.py first. Same look as jus-gout-14 / kurma-ajwa-quba-6:
 talking clip kept, motion text (EDL "fx") + plain one-word caption from the Jus Gout 'video contoh', visual overlays
 (the owner's own B-roll: pouring, the timer knob, the lid opening, the finished waffle, eating it)."""
 import json, pathlib, re, sys
@@ -17,7 +17,7 @@ def bt(clip, t):
 
 # whisper spellings -> what the owner says (he pronounces 'waffle' as 'wafer')
 FIX = {"wafer": "waffle", "waifu": "waffle", "kala": "kaler", "kesuai": "kesesuaian", "teman": "tema", "buni": "bunyi",
-       "bag": "beg", "biasakan": "biasa", "li": "tengok"}
+       "bag": "beg", "biasakan": "biasa", "li": "tengok", "elevtrova": "Electrova", "eletrova": "Electrova"}
 DROPW = {"aa", "ha", "hmm", "eh"}
 
 
@@ -56,7 +56,7 @@ write(P, 1, "VID_20261113_090052 + VID_20261113_092819 (tools/prep.py)", segs, z
              cu("C6", ["M12", "start"], ["M12", "end"], bt("095047", 0.2), "50% 50%", (1.0, 1.06), "lid opens on the golden waffle"),
              cu("C7", ["M14", "start"], ["M14", "seller"], bt("095912", 106.0), "50% 45%", (1.0, 1.05), "owner eating the waffle"),
              cu("C8", ["M14", "seller"], ["M14", "end"], bt("093613", 15.0), "50% 55%", (1.0, 1.06), "waffle lifted out with a fork")],
-      kps=[kp("WAFFLE MAKER ELEVTROVA", ["ELEVTROVA"], ["M1", "start"], ["M1", "tepung"], "zoom", 200, 108)],
+      kps=[kp("WAFFLE MAKER ELECTROVA", ["ELECTROVA"], ["M1", "start"], ["M1", "tepung"], "zoom", 200, 108)],
       note_extra=" 12 Nov: motion text + caption from the Jus Gout 'video contoh'; visual overlays; talking kept.")
 (P / 'data/transcript-a.json').write_text(TR)
 e = json.loads((P / 'data/edl.json').read_text())
@@ -78,7 +78,7 @@ e["fx"] = [
     {"type": "pill", "from": ["M13", "lock"], "to": ["M13", "end"], "text": "LOCK KUAT", "x": 60, "y": 250},
     {"type": "promo", "from": ["M14", "seller"], "to": ["M14", "end"], "tag": "PROMO", "title": "SEMENTARA ADA DISKAUN", "sub": "DI BEG KUNING", "y": 230},
 ]
-e["_note"] = ("Elevtrova Waffle Maker #1 — assets/a.mp4 built by tools/prep.py from VID_20261113_090052 (talking, unboxing) and "
+e["_note"] = ("Electrova Waffle Maker #1 — assets/a.mp4 built by tools/prep.py from VID_20261113_090052 (talking, unboxing) and "
               "VID_20261113_092819 (voiced cooking clip; picture synced). B-roll (assets/b.mp4): 092000 (pouring, closing), "
               "092406 (timer knob), 093613 (waffle in the plate), 095047 (lid opens), 095121 (lifting the waffle), 095912 "
               "100-203 s (eating). Clip -> video: 090052, 092819, 092000, 092406, 093613, 095047, 095121, 095912 (100-203 s) -> "
@@ -87,5 +87,5 @@ e["_note"] = ("Elevtrova Waffle Maker #1 — assets/a.mp4 built by tools/prep.py
 e["theme"] = {"key": "#E3A94B", "brand": "#FFFFFF"}
 e["fs_style"] = "cut"
 e["mirror"] = False   # rear camera: the box reads correctly
-e["brand_words"] = ["elevtrova"]
+e["brand_words"] = ["electrova"]
 (P / 'data/edl.json').write_text(json.dumps(e, indent=1, ensure_ascii=False))

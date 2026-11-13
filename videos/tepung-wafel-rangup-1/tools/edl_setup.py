@@ -80,7 +80,7 @@ e["_note"] = ("Tepung Wafel Rangup #1 — assets/a.mp4 built by tools/prep.py fr
               "VID_20261113_092656 (voiced cooking clip; picture synced). B-roll (assets/b.mp4): 091202, 091251, 091338 "
               "(mixing), 092709 (waffle on plate), 095912 0-100 s (eating). Clip -> video: 084758, 092656, 091202, 091251, "
               "091338, 092709, 095912 (0-100 s) -> this video; 090052, 092819, 092000, 092406, 093613, 095047, 095121, 095912 "
-              "(100-203 s) -> elevtrova-waffle-maker-1. Dropped: " + T["dropped"] + ". No price; voucher / promo are the owner's words.")
+              "(100-203 s) -> electrova-waffle-maker-1. Dropped: " + T["dropped"] + ". No price; voucher / promo are the owner's words.")
 e["theme"] = {"key": "#F5A623", "brand": "#FFFFFF"}
 e["fs_style"] = "cut"
 e["mirror"] = False   # rear camera: the pack reads correctly

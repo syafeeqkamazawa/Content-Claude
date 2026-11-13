@@ -1,4 +1,4 @@
-"""Elevtrova Waffle Maker #1 (13 Nov, folder "Elevtrova waffle maker dan Tepung waffle") — builds assets/a.mp4
+"""Electrova Waffle Maker #1 (13 Nov, folder "Elevtrova [sic] waffle maker dan Tepung waffle") — builds assets/a.mp4
 from the owner's unboxing clip VID_20261113_090052 (src/090052.mp4: colours, weight, manual, the four plates, how
 to swap them, timer, value, CTA) and the voiced cooking clip VID_20261113_092819 (src/092819.mp4: 'the moment of
 truth', opens the maker on the square waffle), complete sentences ~0.5 s apart. assets/b.mp4 = the B-roll for the
@@ -12,7 +12,7 @@ SRC = {"m": "src/090052.mp4", "r": "src/092819.mp4"}
 CLIP = {"m": "090052", "r": "092819"}
 # id, source, [(start, end) speech ranges], text
 LINES = [
-    ("M1", "m", [(5.02, 25.09)], "Pagi-pagi sarapan dengan anak-anak masak waffle sedap. Tepung dah beli, tapi mestilah ada tempat untuk masak dia. Yang ni aku boleh recommend untuk korang dapatkan dekat beg kuning, waffle maker daripada Elevtrova ni, memang mantap, memang padu."),
+    ("M1", "m", [(5.02, 25.09)], "Pagi-pagi sarapan dengan anak-anak masak waffle sedap. Tepung dah beli, tapi mestilah ada tempat untuk masak dia. Yang ni aku boleh recommend untuk korang dapatkan dekat beg kuning, waffle maker daripada Electrova ni, memang mantap, memang padu."),
     ("M2", "m", [(31.36, 33.38)], "Ok, warna pun warna estetik guys."),
     ("M3", "m", [(70.14, 75.97), (76.29, 82.88)], "Dekat beg kuning guys, korang boleh pilih lah, ada dua kaler, satu kaler yang macam ni lah, satu lagi kaler merah. Ok, ikut kesesuaian tema rumah korang lah. Memang sangat lawa guys, serius, tak tipu korang."),
     ("M4", "m", [(83.71, 91.07)], "Oh lawa guys. Dia punya berat pun solid tau. Maknanya dia punya metal ni memang solid lah, berat."),

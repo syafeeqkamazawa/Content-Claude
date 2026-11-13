@@ -1,0 +1,544 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 40%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 12 Nov: motion text + caption from the Jus Gout 'video contoh'; visual overlays; talking kept.",
+ "_note": "Electrova Waffle Maker #1 — assets/a.mp4 built by tools/prep.py from VID_20261113_090052 (talking, unboxing) and VID_20261113_092819 (voiced cooking clip; picture synced). B-roll (assets/b.mp4): 092000 (pouring, closing), 092406 (timer knob), 093613 (waffle in the plate), 095047 (lid opens), 095121 (lifting the waffle), 095912 100-203 s (eating). Clip -> video: 090052, 092819, 092000, 092406, 093613, 095047, 095121, 095912 (100-203 s) -> this video; 084758, 092656, 091202, 091251, 091338, 092709, 095912 (0-100 s) -> tepung-wafel-rangup-1. Dropped: 090052: the repeated 'memang padap, memang padu' (28-30.6), 'jom buat ... sama-sama', the silent unboxing (36-70, 100-114, 121-128), 'ok' / 'ha' fillers, the long plate-counting stretch (147-252: 'satu, dua, tiga, kedua...'), the unclear 'ini memang dah pada ... sendiri' (254-259), the donut-plate fiddling and repeated plate names (263-284, 294-301, 308-327), the 'korang cungkih je, sekejap' tries (348-380), the repeated 'tarik ke belakang' and second swap demo (393-402, 413-425, 459-469), the unclear 'tak mahal ... hal virus' (452-454.6), 'terima kasih' at the end; 092819: the pause before the lid opens (8.4-11.8). No price; colours, weight, four plates, timer, lock and promo are the owner's own words.",
+ "segments": [
+  {
+   "id": "M1",
+   "in": 0.0,
+   "out": 20.61,
+   "text": "Pagi-pagi sarapan dengan anak-anak masak waffle sedap. Tepung dah beli, tapi mestilah ada tempat untuk masak dia. Yang ni aku boleh recommend untuk korang dapatkan dekat beg kuning, waffle maker daripada Electrova ni, memang mantap, memang padu.",
+   "note": "HOOK — 090052 5-25",
+   "zoom": 1.0
+  },
+  {
+   "id": "M2",
+   "in": 20.61,
+   "out": 23.17,
+   "text": "Ok, warna pun warna estetik guys.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "M3",
+   "in": 23.17,
+   "out": 36.37,
+   "text": "Dekat beg kuning guys, korang boleh pilih lah, ada dua kaler, satu kaler yang macam ni lah, satu lagi kaler merah. Ok, ikut kesesuaian tema rumah korang lah. Memang sangat lawa guys, serius, tak tipu korang.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "M4",
+   "in": 36.37,
+   "out": 44.27,
+   "text": "Oh lawa guys. Dia punya berat pun solid tau. Maknanya dia punya metal ni memang solid lah, berat.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "M5",
+   "in": 44.27,
+   "out": 52.52,
+   "text": "Buku manual ada, jangan risau. Korang boleh baca. Kalau korang malas baca takpe, aku cuba explain kat video ni.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "M6",
+   "in": 52.52,
+   "out": 59.07,
+   "text": "First kali guys, korang akan dapat tempat untuk masak waffle. Mantap guys.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "M7",
+   "in": 59.07,
+   "out": 74.13,
+   "text": "So bekas waffle ada, ada juga pattern ni, ni pattern bulat-bulat ya. Kalau korang nak buat bulat-bulat, korang boleh guna yang ni, acuan ni. Korang boleh juga guna ni. Banyak-banyak pattern guys, mantap. Ada empat pattern semua.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "M8",
+   "in": 74.13,
+   "out": 94.66,
+   "text": "Ini acuan yang pertama. Acuan kedua, ada jenis donat macam ni. Ok, seterusnya bentuk waffle ni guys. Bukan sahaja korang boleh buat waffle tau, korang boleh buat macam-macam bentuk sebenarnya. Lepas tu ni yang keempat, betul-betul bulat ni kan, biasa korang tengok kat gerai-gerai kan.",
+   "note": "the four plates (counting stretch 147-252 dropped)",
+   "zoom": 1.06
+  },
+  {
+   "id": "M9",
+   "in": 94.66,
+   "out": 105.11,
+   "text": "Acuan ketiga dan acuan keempat guys, memang sangat lawa, banyak pilihan, sangat function.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "M10",
+   "in": 105.11,
+   "out": 133.59,
+   "text": "Tu macam mana cara nak ganti tempat acuan tu guys, aku tunjuk terus ke korang. Korang nak tukar acuan ni senang sahaja, korang tak ada button kat sini, korang tarik ke atas ataupun ke belakang, dah tercabut. So korang boleh tukar, contoh korang nak buat waffle kan, so korang hanya perlu masukkan sahaja dekat sini, dan tolak masuk ke dalam sampai bunyi. Pastikan dua ni masuk ke dalam. Nampak, so dah siap, cantik.",
+   "note": "swapping a plate",
+   "zoom": 1.06
+  },
+  {
+   "id": "M11",
+   "in": 133.59,
+   "out": 145.83,
+   "text": "Bila korang nak masak, korang boleh tutup sahaja, memang sangat lawa. Lepas tu ada timer kat sini, korang boleh set nak garing, nak crispy, nak garing, boleh set lama sikit lah.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "R1",
+   "in": 145.83,
+   "out": 154.69,
+   "text": "Okay guys, the moment of truth. Bismillah. Masya Allah, nampak sedap. Masya Allah.",
+   "note": "VID_20261113_092819 — the moment of truth",
+   "zoom": 1.06
+  },
+  {
+   "id": "M12",
+   "in": 154.69,
+   "out": 162.03,
+   "text": "Harga ni pun mampu milik guys. Korang kata berbaloi lah dengan apa yang korang dapat ni, sangat berbaloi.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "M13",
+   "in": 162.03,
+   "out": 168.09,
+   "text": "Sampai dia melekat, dia lock kat sini. So guys, memang sangat kuat.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "M14",
+   "in": 168.09,
+   "out": 184.85,
+   "text": "Ok, berbaloi dengan barang dia, orang kata barang sampai dengan barang order tu sama kan, jangan risau insya Allah. Seller tengah buat harga promosi tu, sementara tengah ada diskaun, harga tengah murah tu, korang boleh beli awal-awal di beg kuning, insya Allah.",
+   "note": "CTA",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "WAFFLE MAKER ELECTROVA",
+   "hi": [
+    "ELECTROVA"
+   ],
+   "from": [
+    "M1",
+    "start"
+   ],
+   "to": [
+    "M1",
+    "tepung"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 108
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "M1",
+    "start"
+   ],
+   "to": [
+    "M1",
+    "tepung"
+   ],
+   "src": 209.4,
+   "note": "lifting a golden waffle off the plate",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "M1",
+    "tepung"
+   ],
+   "to": [
+    "M1",
+    "yang"
+   ],
+   "src": 8.0,
+   "note": "pouring batter into the open waffle maker",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "M8",
+    "seterusnya"
+   ],
+   "to": [
+    "M8",
+    "lepas"
+   ],
+   "src": 156.0,
+   "note": "square waffle in the waffle plate",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 55%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "M11",
+    "start"
+   ],
+   "to": [
+    "M11",
+    "lepas"
+   ],
+   "src": 44.0,
+   "note": "maker closed on the batter",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "M11",
+    "lepas"
+   ],
+   "to": [
+    "M11",
+    "end"
+   ],
+   "src": 86.3,
+   "note": "timer knob close-up",
+   "push": [
+    1.0,
+    1.1
+   ],
+   "origin": "50% 60%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "M12",
+    "start"
+   ],
+   "to": [
+    "M12",
+    "end"
+   ],
+   "src": 197.7,
+   "note": "lid opens on the golden waffle",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C7",
+   "from": [
+    "M14",
+    "start"
+   ],
+   "to": [
+    "M14",
+    "seller"
+   ],
+   "src": 226.3,
+   "note": "owner eating the waffle",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C8",
+   "from": [
+    "M14",
+    "seller"
+   ],
+   "to": [
+    "M14",
+    "end"
+   ],
+   "src": 169.0,
+   "note": "waffle lifted out with a fork",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 55%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#E3A94B",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "electrova"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "M2",
+    "warna"
+   ],
+   "to": [
+    "M2",
+    "end"
+   ],
+   "text": "WARNA ESTETIK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "M3",
+    "dua"
+   ],
+   "to": [
+    "M3",
+    "ok,"
+   ],
+   "n": 2,
+   "label": "PILIHAN WARNA",
+   "x": 300,
+   "y": 330
+  },
+  {
+   "type": "hud",
+   "from": [
+    "M4",
+    "berat"
+   ],
+   "to": [
+    "M4",
+    "end"
+   ],
+   "title": "BERAT",
+   "value": "SOLID",
+   "sub": "BADAN METAL",
+   "x": 380,
+   "y": 170
+  },
+  {
+   "type": "pill",
+   "from": [
+    "M5",
+    "start"
+   ],
+   "to": [
+    "M5",
+    "end"
+   ],
+   "text": "BUKU MANUAL ADA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "M7",
+    "empat"
+   ],
+   "to": [
+    "M7",
+    "end"
+   ],
+   "n": 4,
+   "label": "PATTERN",
+   "x": 300,
+   "y": 330
+  },
+  {
+   "type": "tags",
+   "from": [
+    "M8",
+    "start"
+   ],
+   "to": [
+    "M8",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "1. ACUAN PERTAMA",
+     "at": [
+      "M8",
+      "start"
+     ]
+    },
+    {
+     "text": "2. DONAT",
+     "at": [
+      "M8",
+      "donat"
+     ]
+    },
+    {
+     "text": "3. WAFFLE",
+     "at": [
+      "M8",
+      "seterusnya"
+     ]
+    },
+    {
+     "text": "4. BULAT",
+     "at": [
+      "M8",
+      "keempat,"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "M9",
+    "banyak"
+   ],
+   "to": [
+    "M9",
+    "end"
+   ],
+   "text": "BANYAK PILIHAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "M10",
+    "senang"
+   ],
+   "to": [
+    "M10",
+    "tolak"
+   ],
+   "text": "TUKAR ACUAN SENANG",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "M10",
+    "tolak"
+   ],
+   "to": [
+    "M10",
+    "end"
+   ],
+   "text": "TOLAK SAMPAI BUNYI",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "M11",
+    "timer"
+   ],
+   "to": [
+    "M11",
+    "end"
+   ],
+   "title": "TIMER",
+   "value": "SET IKUT SUKA",
+   "sub": "NAK GARING, NAK CRISPY",
+   "x": 380,
+   "y": 170
+  },
+  {
+   "type": "pill",
+   "from": [
+    "M12",
+    "berbaloi"
+   ],
+   "to": [
+    "M12",
+    "end"
+   ],
+   "text": "BERBALOI",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "M13",
+    "lock"
+   ],
+   "to": [
+    "M13",
+    "end"
+   ],
+   "text": "LOCK KUAT",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "M14",
+    "seller"
+   ],
+   "to": [
+    "M14",
+    "end"
+   ],
+   "tag": "PROMO",
+   "title": "SEMENTARA ADA DISKAUN",
+   "sub": "DI BEG KUNING",
+   "y": 230
+  }
+ ]
+}
