@@ -1,0 +1,21 @@
+TOTAL 63.60s  (13 A-roll segments, 3 B-roll shots, 2 photos, 21 audio fx, 150 caption cards)
+
+  0.00-  6.80  V1  src   0.00-  6.80  (1 pc)  Korang tahu tak, prebiotik, probiotik dengan postbiotik ni sebenarnya tiga benda yang berbeza tau.
+  6.80-  8.83  V2  src   6.80-  8.84  (1 pc)  Ok, senang cerita macam ni.
+  8.83- 12.55  V3  src   8.84- 12.55  (1 pc)  Prebiotik ni makanan untuk bakteria baik dalam usus kita.
+ 12.55- 15.48  V4  src  12.55- 15.49  (1 pc)  Probiotik pula, bakteria baik tu sendiri.
+ 15.48- 22.85  V5  src  15.49- 22.85  (1 pc)  Postbiotik pula, komponen daripada mikroorganisma yang dah tak hidup, tapi masih boleh beri manfaat tertentu.
+ 22.85- 27.48  V6  src  22.85- 27.49  (1 pc)  Sebab tu kalau nak pilih produk penjagaan usus, jangan tengok nombor bilion je.
+ 27.48- 33.77  V7  src  27.49- 33.77  (1 pc)  Contohnya Triple Biotix ni. Dia gabungkan ketiga-tiga komponen tadi dalam satu sachet tau.
+ 33.77- 39.98  V8  src  33.77- 39.98  (1 pc)  Ada 30 bilion CFU probiotik, tujuh jenis bakteria, siap dengan L-carnitine tau.
+ 39.98- 44.78  V9  src  39.98- 44.78  (1 pc)  Perisa dia mixed berry, satu sachet 20 gram dan satu kotak ada 10 sachet.
+ 44.78- 48.10  V10  src  44.78- 48.10  (1 pc)  Senang sangat nak jadikan sebahagian daripada rutin harian ni.
+ 48.10- 52.87  V11  src  48.10- 52.87  (1 pc)  Senang sangat nak makan. Rasanya pun sedap tau.
+ 52.87- 58.80  V12  src  52.87- 58.81  (1 pc)  Kalau korang tengah cari produk untuk bantu kesihatan usus, boleh consider yang ni. Aku sangat recommend.
+ 58.80- 63.60  C1  src  58.81- 63.61  (1 pc)  Link aku dah letak dekat beg kuning, sementara harga tengah murah tu korang check out sekarang.
+
+  cutaway  25.42- 27.48
+  cutaway  29.98- 33.77
+  cutaway  33.77- 39.98
+  cutaway  44.78- 48.10
+  cutaway  57.63- 58.80

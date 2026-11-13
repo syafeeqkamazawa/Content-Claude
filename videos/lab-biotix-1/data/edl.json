@@ -1,0 +1,470 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 45%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 12 Nov: motion text + caption from the Jus Gout 'video contoh'; visual overlays. 13 Nov Lab Biotix: voiceover over the car clip.",
+ "_note": "Lab Biotix Triple Biotix #1 — voiceover video. Sound: Recorder 20261113-1904.m4a (script) and Recorder 20261113-1907.m4a (clean CTA take), cleaned with the tools/voice.sh chain. Picture: VID_20261113_185850 (car clip, no speech) cut to follow the words; close-up cutaways from the same clip (assets/b.mp4) and the owner's two photos (assets/photos/P1.jpg sachet front, P2.jpg box back — real photos, no AI tag). Clip -> video: every file in the folder -> this video. Dropped: rec1904: the first 'ada 30 bilion CFU, ada 30' (37.3-41.8, repeated), the first 'kalau korang tengah cari ... sokongan kesihatan usus korang, boleh' take (67.9-72.1), the repeated CTA takes 'aku dah letak dekat beg kuning ni / link aku dah letak ... / sementara seller buat harga promo ...' (78.8-114.5; the clean take is rec1907); 185850: its own audio (car noise, no speech), the idle driving stretch (17-27). No price; 30 billion CFU, seven strains, L-carnitine, mixed berry, 20 g, 10 sachets are printed on the pack.",
+ "segments": [
+  {
+   "id": "V1",
+   "in": 0.0,
+   "out": 6.8,
+   "text": "Korang tahu tak, prebiotik, probiotik dengan postbiotik ni sebenarnya tiga benda yang berbeza tau.",
+   "note": "HOOK — rec1904 2-8",
+   "zoom": 1.0
+  },
+  {
+   "id": "V2",
+   "in": 6.8,
+   "out": 8.84,
+   "text": "Ok, senang cerita macam ni.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "V3",
+   "in": 8.84,
+   "out": 12.55,
+   "text": "Prebiotik ni makanan untuk bakteria baik dalam usus kita.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "V4",
+   "in": 12.55,
+   "out": 15.49,
+   "text": "Probiotik pula, bakteria baik tu sendiri.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "V5",
+   "in": 15.49,
+   "out": 22.85,
+   "text": "Postbiotik pula, komponen daripada mikroorganisma yang dah tak hidup, tapi masih boleh beri manfaat tertentu.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "V6",
+   "in": 22.85,
+   "out": 27.49,
+   "text": "Sebab tu kalau nak pilih produk penjagaan usus, jangan tengok nombor bilion je.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "V7",
+   "in": 27.49,
+   "out": 33.77,
+   "text": "Contohnya Triple Biotix ni. Dia gabungkan ketiga-tiga komponen tadi dalam satu sachet tau.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "V8",
+   "in": 33.77,
+   "out": 39.98,
+   "text": "Ada 30 bilion CFU probiotik, tujuh jenis bakteria, siap dengan L-carnitine tau.",
+   "note": "first 'ada 30 bilion CFU, ada 30' take dropped",
+   "zoom": 1.06
+  },
+  {
+   "id": "V9",
+   "in": 39.98,
+   "out": 44.78,
+   "text": "Perisa dia mixed berry, satu sachet 20 gram dan satu kotak ada 10 sachet.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "V10",
+   "in": 44.78,
+   "out": 48.1,
+   "text": "Senang sangat nak jadikan sebahagian daripada rutin harian ni.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "V11",
+   "in": 48.1,
+   "out": 52.87,
+   "text": "Senang sangat nak makan. Rasanya pun sedap tau.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "V12",
+   "in": 52.87,
+   "out": 58.81,
+   "text": "Kalau korang tengah cari produk untuk bantu kesihatan usus, boleh consider yang ni. Aku sangat recommend.",
+   "note": "second, cleaner take",
+   "zoom": 1.06
+  },
+  {
+   "id": "C1",
+   "in": 58.81,
+   "out": 63.61,
+   "text": "Link aku dah letak dekat beg kuning, sementara harga tengah murah tu korang check out sekarang.",
+   "note": "CTA — rec1907 (clean take)",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "APA BEZA 3 BIOTIK?",
+   "hi": [
+    "3"
+   ],
+   "from": [
+    "V1",
+    "start"
+   ],
+   "to": [
+    "V1",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 104
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "V6",
+    "jangan"
+   ],
+   "to": [
+    "V6",
+    "end"
+   ],
+   "src": 11.0,
+   "note": "the box front close to camera — '30 Billion CFU'",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "V10",
+    "start"
+   ],
+   "to": [
+    "V10",
+    "end"
+   ],
+   "src": 102.0,
+   "note": "tearing the sachet close to camera",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "V12",
+    "aku"
+   ],
+   "to": [
+    "V12",
+    "end"
+   ],
+   "src": 149.9,
+   "note": "thumbs up after tasting",
+   "push": [
+    1.0,
+    1.04
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "P1",
+   "from": [
+    "V7",
+    "gabungkan"
+   ],
+   "to": [
+    "V7",
+    "end"
+   ],
+   "ai": false,
+   "note": "owner's own photo of the sachet: PREBIOTIC / PROBIOTIC / POSTBIOTIC with L-Carnitine (image-1794567567790.jpg)"
+  },
+  {
+   "id": "P2",
+   "from": [
+    "V8",
+    "start"
+   ],
+   "to": [
+    "V8",
+    "end"
+   ],
+   "ai": false,
+   "note": "owner's own photo of the box back: 30 Billion CFU, the seven strains, L-Carnitine (image-1794567584303.jpg)"
+  }
+ ],
+ "theme": {
+  "key": "#3EC6BD",
+  "brand": "#C08BF0"
+ },
+ "brand_words": [
+  "triple",
+  "biotix"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "hud",
+   "from": [
+    "V3",
+    "start"
+   ],
+   "to": [
+    "V3",
+    "end"
+   ],
+   "title": "PREBIOTIK",
+   "value": "MAKANAN",
+   "sub": "UNTUK BAKTERIA BAIK",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "hud",
+   "from": [
+    "V4",
+    "start"
+   ],
+   "to": [
+    "V4",
+    "end"
+   ],
+   "title": "PROBIOTIK",
+   "value": "BAKTERIA",
+   "sub": "BAIK ITU SENDIRI",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "hud",
+   "from": [
+    "V5",
+    "start"
+   ],
+   "to": [
+    "V5",
+    "end"
+   ],
+   "title": "POSTBIOTIK",
+   "value": "KOMPONEN",
+   "sub": "MIKROORGANISMA TAK HIDUP",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V6",
+    "jangan"
+   ],
+   "to": [
+    "V6",
+    "end"
+   ],
+   "text": "JANGAN TENGOK BILION JE",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "V7",
+    "ketiga-tiga"
+   ],
+   "to": [
+    "V7",
+    "end"
+   ],
+   "n": 3,
+   "label": "DALAM 1 SACHET",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "tags",
+   "from": [
+    "V8",
+    "start"
+   ],
+   "to": [
+    "V8",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "30 BILION CFU",
+     "at": [
+      "V8",
+      "start"
+     ]
+    },
+    {
+     "text": "7 JENIS BAKTERIA",
+     "at": [
+      "V8",
+      "tujuh"
+     ]
+    },
+    {
+     "text": "L-CARNITINE",
+     "at": [
+      "V8",
+      "siap"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tags",
+   "from": [
+    "V9",
+    "start"
+   ],
+   "to": [
+    "V9",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "MIXED BERRY",
+     "at": [
+      "V9",
+      "mixed"
+     ]
+    },
+    {
+     "text": "20 G SATU SACHET",
+     "at": [
+      "V9",
+      "satu"
+     ]
+    },
+    {
+     "text": "10 SACHET SEKOTAK",
+     "at": [
+      "V9",
+      "kotak"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V10",
+    "rutin"
+   ],
+   "to": [
+    "V10",
+    "end"
+   ],
+   "text": "RUTIN HARIAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V11",
+    "start"
+   ],
+   "to": [
+    "V11",
+    "rasanya"
+   ],
+   "text": "SENANG MAKAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V11",
+    "rasanya"
+   ],
+   "to": [
+    "V11",
+    "end"
+   ],
+   "text": "RASA SEDAP",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V12",
+    "aku"
+   ],
+   "to": [
+    "V12",
+    "end"
+   ],
+   "text": "SANGAT RECOMMEND",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "C1",
+    "start"
+   ],
+   "to": [
+    "C1",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA TENGAH MURAH",
+   "sub": "CHECK OUT SEKARANG",
+   "y": 200
+  }
+ ]
+}

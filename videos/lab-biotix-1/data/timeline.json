@@ -1,0 +1,180 @@
+{
+ "lines": {
+  "V1": {
+   "src": "v",
+   "pieces": [
+    [
+     1.78,
+     8.58
+    ]
+   ],
+   "e0": 0.0,
+   "e1": 6.8,
+   "text": "Korang tahu tak, prebiotik, probiotik dengan postbiotik ni sebenarnya tiga benda yang berbeza tau."
+  },
+  "V2": {
+   "src": "v",
+   "pieces": [
+    [
+     8.9,
+     10.94
+    ]
+   ],
+   "e0": 6.8,
+   "e1": 8.84,
+   "text": "Ok, senang cerita macam ni."
+  },
+  "V3": {
+   "src": "v",
+   "pieces": [
+    [
+     11.04,
+     14.75
+    ]
+   ],
+   "e0": 8.84,
+   "e1": 12.55,
+   "text": "Prebiotik ni makanan untuk bakteria baik dalam usus kita."
+  },
+  "V4": {
+   "src": "v",
+   "pieces": [
+    [
+     14.98,
+     17.92
+    ]
+   ],
+   "e0": 12.55,
+   "e1": 15.49,
+   "text": "Probiotik pula, bakteria baik tu sendiri."
+  },
+  "V5": {
+   "src": "v",
+   "pieces": [
+    [
+     18.24,
+     19.74
+    ],
+    [
+     19.82,
+     23.0
+    ],
+    [
+     23.08,
+     25.76
+    ]
+   ],
+   "e0": 15.49,
+   "e1": 22.85,
+   "text": "Postbiotik pula, komponen daripada mikroorganisma yang dah tak hidup, tapi masih boleh beri manfaat tertentu."
+  },
+  "V6": {
+   "src": "v",
+   "pieces": [
+    [
+     25.92,
+     30.56
+    ]
+   ],
+   "e0": 22.85,
+   "e1": 27.49,
+   "text": "Sebab tu kalau nak pilih produk penjagaan usus, jangan tengok nombor bilion je."
+  },
+  "V7": {
+   "src": "v",
+   "pieces": [
+    [
+     30.5,
+     32.42
+    ],
+    [
+     32.7,
+     37.06
+    ]
+   ],
+   "e0": 27.49,
+   "e1": 33.77,
+   "text": "Contohnya Triple Biotix ni. Dia gabungkan ketiga-tiga komponen tadi dalam satu sachet tau."
+  },
+  "V8": {
+   "src": "v",
+   "pieces": [
+    [
+     42.56,
+     48.77
+    ]
+   ],
+   "e0": 33.77,
+   "e1": 39.98,
+   "text": "Ada 30 bilion CFU probiotik, tujuh jenis bakteria, siap dengan L-carnitine tau."
+  },
+  "V9": {
+   "src": "v",
+   "pieces": [
+    [
+     50.02,
+     54.82
+    ]
+   ],
+   "e0": 39.98,
+   "e1": 44.78,
+   "text": "Perisa dia mixed berry, satu sachet 20 gram dan satu kotak ada 10 sachet."
+  },
+  "V10": {
+   "src": "v",
+   "pieces": [
+    [
+     54.82,
+     58.14
+    ]
+   ],
+   "e0": 44.78,
+   "e1": 48.1,
+   "text": "Senang sangat nak jadikan sebahagian daripada rutin harian ni."
+  },
+  "V11": {
+   "src": "v",
+   "pieces": [
+    [
+     62.46,
+     67.23
+    ]
+   ],
+   "e0": 48.1,
+   "e1": 52.87,
+   "text": "Senang sangat nak makan. Rasanya pun sedap tau."
+  },
+  "V12": {
+   "src": "v",
+   "pieces": [
+    [
+     72.84,
+     78.78
+    ]
+   ],
+   "e0": 52.87,
+   "e1": 58.81,
+   "text": "Kalau korang tengah cari produk untuk bantu kesihatan usus, boleh consider yang ni. Aku sangat recommend."
+  },
+  "C1": {
+   "src": "c",
+   "pieces": [
+    [
+     0.7,
+     5.5
+    ]
+   ],
+   "e0": 58.81,
+   "e1": 63.61,
+   "text": "Link aku dah letak dekat beg kuning, sementara harga tengah murah tu korang check out sekarang."
+  }
+ },
+ "total": 63.61,
+ "dropped": "rec1904: the first 'ada 30 bilion CFU, ada 30' (37.3-41.8, repeated), the first 'kalau korang tengah cari ... sokongan kesihatan usus korang, boleh' take (67.9-72.1), the repeated CTA takes 'aku dah letak dekat beg kuning ni / link aku dah letak ... / sementara seller buat harga promo ...' (78.8-114.5; the clean take is rec1907); 185850: its own audio (car noise, no speech), the idle driving stretch (17-27)",
+ "broll": {
+  "185850": {
+   "offset": 0.0,
+   "in": 0.0
+  }
+ }
+}
