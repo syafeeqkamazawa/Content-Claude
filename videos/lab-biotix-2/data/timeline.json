@@ -1,0 +1,148 @@
+{
+ "lines": {
+  "H1": {
+   "src": "v",
+   "pieces": [
+    [
+     2.05,
+     9.63
+    ]
+   ],
+   "e0": 0.0,
+   "e1": 7.58,
+   "text": "Siapa dekat sini yang selalu perut kembung tu, banyak angin, rasa penuh lepas makan, kadang-kadang nak membuang pun susah?"
+  },
+  "H2": {
+   "src": "v",
+   "pieces": [
+    [
+     21.41,
+     25.43
+    ],
+    [
+     25.51,
+     27.46
+    ]
+   ],
+   "e0": 7.58,
+   "e1": 13.55,
+   "text": "Kalau korang ada masalah macam ni, boleh cuba consider ambil Triple Biotix ni."
+  },
+  "B1": {
+   "src": "v",
+   "pieces": [
+    [
+     30.53,
+     36.93
+    ]
+   ],
+   "e0": 13.55,
+   "e1": 19.95,
+   "text": "Dia punya base dalam satu sachet ni dah ada prebiotik, probiotik dengan postbiotik sekali tau."
+  },
+  "B2": {
+   "src": "v",
+   "pieces": [
+    [
+     37.19,
+     43.36
+    ]
+   ],
+   "e0": 19.95,
+   "e1": 26.12,
+   "text": "Probiotik dia pula 30 bilion CFU, ada tujuh jenis bakteria baik untuk sokongan kesihatan usus kita."
+  },
+  "B3": {
+   "src": "v",
+   "pieces": [
+    [
+     43.72,
+     47.39
+    ]
+   ],
+   "e0": 26.12,
+   "e1": 29.79,
+   "text": "Yang aku suka, dia bukan jenis kapsul atau serbuk yang kena bancuh tau."
+  },
+  "B4": {
+   "src": "v",
+   "pieces": [
+    [
+     47.17,
+     49.05
+    ],
+    [
+     49.22,
+     52.42
+    ]
+   ],
+   "e0": 29.79,
+   "e1": 34.87,
+   "text": "Dia datang dalam bentuk jelly tau, koyak je terus makan, tak payah bancuh dengan air."
+  },
+  "B5": {
+   "src": "v",
+   "pieces": [
+    [
+     52.29,
+     57.76
+    ]
+   ],
+   "e0": 34.87,
+   "e1": 40.34,
+   "text": "Lagi satu, rasa mixed berry dia memang sedap weh, macam makan jelly buah je."
+  },
+  "B6": {
+   "src": "v",
+   "pieces": [
+    [
+     57.83,
+     60.03
+    ]
+   ],
+   "e0": 40.34,
+   "e1": 42.54,
+   "text": "Tak rasa macam tengah ambil supplement pun."
+  },
+  "B7": {
+   "src": "v",
+   "pieces": [
+    [
+     60.39,
+     61.5
+    ],
+    [
+     61.7,
+     67.12
+    ]
+   ],
+   "e0": 42.54,
+   "e1": 49.07,
+   "text": "Dalam satu kotak ni korang dapat 10 sachet, nak bawa pergi kerja ke, travel ke, memang senang."
+  },
+  "C1": {
+   "src": "v",
+   "pieces": [
+    [
+     67.24,
+     74.02
+    ]
+   ],
+   "e0": 49.07,
+   "e1": 55.85,
+   "text": "Sekarang ni saya tengah buat harga promo tau. Better korang beli sekarang sebelum harga dia naik balik. Boleh check out dia beg kuning sekarang."
+  }
+ },
+ "total": 55.85,
+ "dropped": "rec1105: the false starts 'dia punya base tu' (28.5-30.0), 'kalau korang' (9.9-10.5) and 'siapa dekat sini yang selalu ...' (11.7-13.2), the second take of the hook (14.1-20.9; the first take is kept), whisper's 'terima kasih kerana menonton' at the end (silence); 100411 / 110857: their own audio (room / outdoor noise, no speech)",
+ "broll": {
+  "100411": {
+   "offset": 0.0,
+   "in": 0.0
+  },
+  "110857": {
+   "offset": 134.429,
+   "in": 0.0
+  }
+ }
+}

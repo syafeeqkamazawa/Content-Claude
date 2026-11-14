@@ -20,6 +20,7 @@ FIX = {"sacek": "sachet", "sacet": "sachet", "bay": "beg", "bag": "beg", "naikka
        "triple": "Triple", "biotix": "Biotix", "bes": "base", "best": "base"}
 DROPW = {"aa", "ha", "hmm", "eh"}
 REDO = [(21.2, 27.6), (30.5, 37.0)]   # whisper got these word times wrong; .media/wl-fix.txt re-times them
+HALLU = [(73.6, 80.0)]                 # whisper's "terima kasih kerana menonton" over the silence at the end
 
 
 def words(path, skip=()):
@@ -43,7 +44,7 @@ def words(path, skip=()):
     return out
 
 
-SW = {"v": sorted(words(".media/wl-rec1105.txt", REDO) + words(".media/wl-fix.txt"), key=lambda x: x[1])}
+SW = {"v": sorted(words(".media/wl-rec1105.txt", REDO + HALLU) + words(".media/wl-fix.txt"), key=lambda x: x[1])}
 tr, used = [], set()
 for lid, d in L.items():
     acc = d["e0"]

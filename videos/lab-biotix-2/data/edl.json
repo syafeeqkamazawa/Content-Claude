@@ -1,0 +1,456 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 45%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 12 Nov: motion text + caption from the Jus Gout 'video contoh'; visual overlays. 14 Nov Lab Biotix #2: voiceover over the table and grass clips.",
+ "_note": "Lab Biotix Triple Biotix #2 — voiceover video. Sound: Recorder 20261114-1105.m4a, cleaned with the tools/voice.sh chain. Picture: VID_20261114_100411 (table: box, sachet, tearing it, squeezing the jelly into his mouth) and VID_20261114_110857 (box and sachets on the grass), cut to follow the words; overlays = three listing photos from the owner's TikTok screenshots (assets/photos/P1-P3; no AI tag) and five realistic AI photos for the situations he describes (assets/photos/A1-A5, tools/gen.sh, 'ILUSTRASI AI' tag, split for parallax by tools/plx.sh; owner 14 Nov: 'Ada juga overlay visual'). Not used: screenshot 105233 (photo with a named doctor's 'recommended by' badge — a third-party endorsement) and the two description screenshots (reference only: jelly in a sachet, mixed berry, 20 g, 10 sachets, prebiotic + probiotic + postbiotic, L-carnitine). Clip -> video: the 14 Nov files -> this video; the 13 Nov files -> lab-biotix-1. Dropped: rec1105: the false starts 'dia punya base tu' (28.5-30.0), 'kalau korang' (9.9-10.5) and 'siapa dekat sini yang selalu ...' (11.7-13.2), the second take of the hook (14.1-20.9; the first take is kept), whisper's 'terima kasih kerana menonton' at the end (silence); 100411 / 110857: their own audio (room / outdoor noise, no speech). No price (the listing shows one but the owner does not say it); promo in his own words.",
+ "segments": [
+  {
+   "id": "H1",
+   "in": 0.0,
+   "out": 7.58,
+   "text": "Siapa dekat sini yang selalu perut kembung tu, banyak angin, rasa penuh lepas makan, kadang-kadang nak membuang pun susah?",
+   "note": "HOOK — rec1105 2.3-9.3 (first take)",
+   "zoom": 1.0
+  },
+  {
+   "id": "H2",
+   "in": 7.58,
+   "out": 13.55,
+   "text": "Kalau korang ada masalah macam ni, boleh cuba consider ambil Triple Biotix ni.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "B1",
+   "in": 13.55,
+   "out": 19.95,
+   "text": "Dia punya base dalam satu sachet ni dah ada prebiotik, probiotik dengan postbiotik sekali tau.",
+   "note": "retake after the 'dia punya base tu' false start",
+   "zoom": 1.0
+  },
+  {
+   "id": "B2",
+   "in": 19.95,
+   "out": 26.12,
+   "text": "Probiotik dia pula 30 bilion CFU, ada tujuh jenis bakteria baik untuk sokongan kesihatan usus kita.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "B3",
+   "in": 26.12,
+   "out": 29.79,
+   "text": "Yang aku suka, dia bukan jenis kapsul atau serbuk yang kena bancuh tau.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "B4",
+   "in": 29.79,
+   "out": 34.87,
+   "text": "Dia datang dalam bentuk jelly tau, koyak je terus makan, tak payah bancuh dengan air.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "B5",
+   "in": 34.87,
+   "out": 40.34,
+   "text": "Lagi satu, rasa mixed berry dia memang sedap weh, macam makan jelly buah je.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "B6",
+   "in": 40.34,
+   "out": 42.54,
+   "text": "Tak rasa macam tengah ambil supplement pun.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "B7",
+   "in": 42.54,
+   "out": 49.07,
+   "text": "Dalam satu kotak ni korang dapat 10 sachet, nak bawa pergi kerja ke, travel ke, memang senang.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "C1",
+   "in": 49.07,
+   "out": 55.85,
+   "text": "Sekarang ni saya tengah buat harga promo tau. Better korang beli sekarang sebelum harga dia naik balik. Boleh check out dia beg kuning sekarang.",
+   "note": "CTA",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "PERUT SELALU KEMBUNG?",
+   "hi": [
+    "KEMBUNG?"
+   ],
+   "from": [
+    "H1",
+    "start"
+   ],
+   "to": [
+    "H1",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "H1",
+    "banyak"
+   ],
+   "to": [
+    "H1",
+    "kadang-kadang"
+   ],
+   "note": "AI: man at the dining table, full and uncomfortable after a meal (aurat-safe)"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "B3",
+    "kapsul"
+   ],
+   "to": [
+    "B3",
+    "end"
+   ],
+   "note": "AI: capsules and powder being stirred into water (no people)"
+  },
+  {
+   "id": "A3",
+   "from": [
+    "B5",
+    "macam"
+   ],
+   "to": [
+    "B5",
+    "end"
+   ],
+   "note": "AI: mixed berries and fruit jelly cubes (no people)"
+  },
+  {
+   "id": "A4",
+   "from": [
+    "B7",
+    "nak"
+   ],
+   "to": [
+    "B7",
+    "travel"
+   ],
+   "note": "AI: man at the office slipping a sachet into his work bag (aurat-safe)"
+  },
+  {
+   "id": "A5",
+   "from": [
+    "B7",
+    "travel"
+   ],
+   "to": [
+    "B7",
+    "end"
+   ],
+   "note": "AI: man pulling a carry-on through an airport (aurat-safe)"
+  },
+  {
+   "id": "P1",
+   "from": [
+    "H2",
+    "ambil"
+   ],
+   "to": [
+    "H2",
+    "end"
+   ],
+   "ai": false,
+   "note": "listing photo of the box and sachet (owner's TikTok screenshot 105226, image 1/4)"
+  },
+  {
+   "id": "P2",
+   "from": [
+    "B2",
+    "start"
+   ],
+   "to": [
+    "B2",
+    "end"
+   ],
+   "ai": false,
+   "note": "listing photo, two boxes with berries (screenshot 105231, image 3/4)"
+  },
+  {
+   "id": "P3",
+   "from": [
+    "C1",
+    "better"
+   ],
+   "to": [
+    "C1",
+    "boleh"
+   ],
+   "ai": false,
+   "note": "listing photo, boxes packed with parcels (screenshot 105228, image 2/4)"
+  }
+ ],
+ "theme": {
+  "key": "#3EC6BD",
+  "brand": "#C08BF0"
+ },
+ "brand_words": [
+  "triple",
+  "biotix"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "H2",
+    "triple"
+   ],
+   "to": [
+    "H2",
+    "end"
+   ],
+   "text": "TRIPLE BIOTIX",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "B1",
+    "dalam"
+   ],
+   "to": [
+    "B1",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "PREBIOTIK",
+     "at": [
+      "B1",
+      "prebiotik"
+     ]
+    },
+    {
+     "text": "PROBIOTIK",
+     "at": [
+      "B1",
+      "probiotik"
+     ]
+    },
+    {
+     "text": "POSTBIOTIK",
+     "at": [
+      "B1",
+      "postbiotik"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tags",
+   "from": [
+    "B2",
+    "start"
+   ],
+   "to": [
+    "B2",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "30 BILION CFU",
+     "at": [
+      "B2",
+      "30"
+     ]
+    },
+    {
+     "text": "7 JENIS BAKTERIA BAIK",
+     "at": [
+      "B2",
+      "tujuh"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "B3",
+    "bukan"
+   ],
+   "to": [
+    "B3",
+    "end"
+   ],
+   "text": "BUKAN KAPSUL / SERBUK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "B4",
+    "jelly"
+   ],
+   "to": [
+    "B4",
+    "end"
+   ],
+   "title": "BENTUK",
+   "value": "JELLY",
+   "sub": "KOYAK, TERUS MAKAN",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "pill",
+   "from": [
+    "B5",
+    "mixed"
+   ],
+   "to": [
+    "B5",
+    "macam"
+   ],
+   "text": "RASA MIXED BERRY",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "B5",
+    "macam"
+   ],
+   "to": [
+    "B5",
+    "end"
+   ],
+   "text": "MACAM JELLY BUAH",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "B6",
+    "start"
+   ],
+   "to": [
+    "B6",
+    "end"
+   ],
+   "text": "TAK RASA MACAM SUPPLEMENT",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "B7",
+    "10"
+   ],
+   "to": [
+    "B7",
+    "nak"
+   ],
+   "n": 10,
+   "label": "SACHET SEKOTAK",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "tags",
+   "from": [
+    "B7",
+    "nak"
+   ],
+   "to": [
+    "B7",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "BAWA PERGI KERJA",
+     "at": [
+      "B7",
+      "kerja"
+     ]
+    },
+    {
+     "text": "TRAVEL",
+     "at": [
+      "B7",
+      "travel"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "promo",
+   "from": [
+    "C1",
+    "start"
+   ],
+   "to": [
+    "C1",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO SEKARANG",
+   "sub": "SEBELUM HARGA NAIK BALIK",
+   "y": 200
+  }
+ ]
+}
