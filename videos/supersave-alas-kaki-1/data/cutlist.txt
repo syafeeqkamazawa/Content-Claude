@@ -1,0 +1,27 @@
+TOTAL 123.40s  (16 A-roll segments, 8 B-roll shots, 0 photos, 28 audio fx, 320 caption cards)
+
+  0.00-  3.73  S1  src   0.00-  3.74  (1 pc)  Jangan tunggu dekat raya baru nak cari alas kaki kat dapur tau.
+  3.73- 12.00  S2  src   3.74- 12.01  (1 pc)  Benda ni nampak kecil je, tapi time-time raya tu dah tetamu ramai datang, mesti kita nak nampak dapur kita, ruang dalam rumah tu kemas kan?
+ 12.00- 22.35  S3  src  12.01- 22.36  (1 pc)  Cuba korang bayangkan, langsir dah tukar, rumah dah cantik, tapi alas kaki kat dapur tak ada. Ataupun alas kaki kat dapur tu dah lama, kusam, basah pula tu.
+ 22.35- 29.67  S4  src  22.36- 29.67  (1 pc)  Korang jangan risau, korang boleh dapatkan alas kaki terbaru ni, yang ada pada aku ni, dengan teknologi terkini.
+ 29.67- 30.92  S5  src  29.67- 30.92  (1 pc)  Korang tengok ni.
+ 30.92- 39.72  S6  src  30.92- 39.72  (1 pc)  Masya Allah, cantik korang. Ok, teknologi terkini, dia punya design dia mudah serap air dan cepat kering tau.
+ 39.72- 51.63  S7  src  39.72- 51.64  (1 pc)  Dan atas dia lembut tau. Atas dia lembut. Bawah dia, apa tu, dilengkapkan dengan permukaan getah, jadi dia anti-slip, dia tak mudah bergerak atas lantai tau.
+ 51.63- 54.83  S8  src  51.64- 54.84  (1 pc)  Tak mudah bergerak je. Aku tolak, tak bergerak tau.
+ 54.83- 59.73  S9  src  54.84- 59.74  (1 pc)  Tak mudah bergerak. Jadi bila korang nak jalan, korang tak risau dah, dia memang firm je.
+ 59.73- 69.90  S10  src  59.74- 69.91  (1 pc)  Memang sangat cantik. Ada pelbagai design tau dekat beg kuning. Ni salah satulah yang aku sangat recommend. Kalau korang suka yang jenis design estetik macam ni, yang ni aku sangat recommend.
+ 69.90- 76.77  S11  src  69.91- 76.98  (2 pc)  Ketebalan dia 3mm tau. Tak mudah bergerak dan dia agak tebal tau, 3mm.
+ 76.77- 84.48  S12  src  76.98- 84.69  (1 pc)  So yang bestnya dekat beg kuning tu ada pelbagai design dan corak tau, so korang boleh sesuaikan dengan tema rumah korang.
+ 84.48- 95.85  S13  src  84.69- 96.05  (1 pc)  Dan yang paling best lagi apa tau, harga dia murah weh. Korang tengok dekat beg kuning, tak sampai 20. Mungkin silap-silap 10 pun tak sampai tau. Tengok dekat beg kuning.
+ 95.85-107.40  S14  src  96.05-107.60  (1 pc)  Saya buat promo habis-habisan ni guys. Jangan tunggu dekat raya ataupun dekat puasa, takut-takut dah habis lah guys. Korang tengok dekat beg kuning, pilih yang korang berminat.
+107.40-114.18  S15  src 107.60-114.38  (1 pc)  Tambah-tambah yang mana nak make over dapur sebelum raya tu, korang beli siap-siap mana korang berkenan dekat beg kuning tu.
+114.18-123.40  S16  src 114.38-123.59  (1 pc)  So guys, boleh tengok dekat beg kuning, pilih design korang berkenan, saiz yang sesuai, dan beli sekarang sementara harga promo ni masih ada.
+
+  cutaway  24.05- 29.67
+  cutaway  36.68- 39.72
+  cutaway  39.72- 42.80
+  cutaway  42.80- 51.63
+  cutaway  69.90- 72.90
+  cutaway  79.33- 84.48
+  cutaway 107.40-110.80
+  cutaway 116.92-119.33

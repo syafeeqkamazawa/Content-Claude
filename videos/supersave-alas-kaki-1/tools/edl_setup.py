@@ -16,9 +16,9 @@ def bt(clip, t):
 
 
 FIX = {"bagi": "beg", "bag": "beg", "udah": "dah", "tamu": "tetamu", "berkenaan": "berkenan", "-slip.": "-slip."}
-DROPW = {"aa", "ha", "hmm", "eh", "oi."}
-REDO = []
-SKIP = [(196.5, 196.7)]   # "lebih" — unclear word before "buat promo"
+DROPW = {"aa", "ha", "hmm", "eh", "oi"}
+REDO = [(55.5, 63.0), (76.0, 90.2)]   # .media/wl-fix.txt re-times these
+SKIP = [(196.5, 196.7), (59.25, 59.6), (118.1, 118.4), (153.1, 153.3), (155.2, 156.9)]   # "lebih" (unclear) and words of dropped false starts
 
 
 def words(path, offset=0.0):
@@ -38,7 +38,7 @@ def words(path, offset=0.0):
     return out
 
 
-SW = {"m": [w for w in words(".media/wl-172736.txt") if not any(a <= w[1] < b for a, b in SKIP)]}
+SW = {"m": sorted([w for w in words(".media/wl-172736.txt") if not any(a <= w[1] < b for a, b in SKIP + REDO)] + [w for w in words(".media/wl-fix.txt") if not any(a <= w[1] < b for a, b in SKIP)], key=lambda x: x[1])}
 tr, used = [], set()
 for lid, d in L.items():
     acc = d["e0"]
@@ -95,7 +95,7 @@ e["fx"] = [
     {"type": "pill", "from": ["S14", "start"], "to": ["S14", "jangan"], "text": "PROMO HABIS-HABISAN", "x": 60, "y": 250},
     {"type": "pill", "from": ["S14", "jangan"], "to": ["S14", "korang"], "text": "TAKUT-TAKUT HABIS", "x": 60, "y": 250},
     {"type": "pill", "from": ["S15", "start"], "to": ["S15", "end"], "text": "MAKE OVER DAPUR SEBELUM RAYA", "x": 60, "y": 250},
-    {"type": "promo", "from": ["S16", "start"], "to": ["S16", "end"], "tag": "BEG KUNING", "title": "HARGA PROMO", "sub": "PILIH DESIGN & SAIZ", "y": 200},
+    {"type": "promo", "from": ["S16", "start"], "to": ["S16", "end"], "tag": "BEG KUNING", "title": "HARGA PROMO", "sub": "PILIH DESIGN & SAIZ", "y": 760},
 ]
 e["_note"] = ("SuperSave Alas Kaki Dapur #1 — assets/a.mp4 built by tools/prep.py from VID_20261114_172736 (talking, picture synced, "
               "zoomed toward the owner). Cutaways: VID_20261114_172847 (mat B-roll) and realistic AI photos when tools/gen.sh "

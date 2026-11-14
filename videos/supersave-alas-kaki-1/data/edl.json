@@ -1,0 +1,625 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "68% 50%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 14 Nov: caption style kept; motion text themed after the product (black-and-white tile mat); AI visuals where needed.",
+ "_note": "SuperSave Alas Kaki Dapur #1 — assets/a.mp4 built by tools/prep.py from VID_20261114_172736 (talking, picture synced, zoomed toward the owner). Cutaways: VID_20261114_172847 (mat B-roll) and realistic AI photos when tools/gen.sh could run (assets/photos/A1-A4, 'ILUSTRASI AI'). Clip -> video: both clips -> this video. Dropped: 172736: the first hook takes 'jangan tunggu raya baru nak cari alas...' (11-28), the stumble 'tapi alas dapur' (59.3-61.0), the first 'korang jangan risau, korang boleh dapatkan alas' (77-80), 'bila korang letak ni, ok, dia' (118-120, unfinished), the false starts 'ketebalan' (147.7) and 'so orang kata dia tak mudah' (153-157), the repeated 'tambah-tambah yang mana nak / plan nak make over sebelum' (221-226), the silent demo stretches and 'ok' fillers. Price only as the owner says it ('tak sampai 20 ... silap-silap 10 pun tak sampai'); promo in his words.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 3.74,
+   "text": "Jangan tunggu dekat raya baru nak cari alas kaki kat dapur tau.",
+   "note": "HOOK — final take (172736 29-32)",
+   "zoom": 1.25
+  },
+  {
+   "id": "S2",
+   "in": 3.74,
+   "out": 12.01,
+   "text": "Benda ni nampak kecil je, tapi time-time raya tu dah tetamu ramai datang, mesti kita nak nampak dapur kita, ruang dalam rumah tu kemas kan?",
+   "note": "",
+   "zoom": 1.325
+  },
+  {
+   "id": "S3",
+   "in": 12.01,
+   "out": 22.36,
+   "text": "Cuba korang bayangkan, langsir dah tukar, rumah dah cantik, tapi alas kaki kat dapur tak ada. Ataupun alas kaki kat dapur tu dah lama, kusam, basah pula tu.",
+   "note": "",
+   "zoom": 1.25
+  },
+  {
+   "id": "S4",
+   "in": 22.36,
+   "out": 29.67,
+   "text": "Korang jangan risau, korang boleh dapatkan alas kaki terbaru ni, yang ada pada aku ni, dengan teknologi terkini.",
+   "note": "retake after the first 'korang jangan risau'",
+   "zoom": 1.325
+  },
+  {
+   "id": "S5",
+   "in": 29.67,
+   "out": 30.92,
+   "text": "Korang tengok ni.",
+   "note": "",
+   "zoom": 1.25
+  },
+  {
+   "id": "S6",
+   "in": 30.92,
+   "out": 39.72,
+   "text": "Masya Allah, cantik korang. Ok, teknologi terkini, dia punya design dia mudah serap air dan cepat kering tau.",
+   "note": "",
+   "zoom": 1.325
+  },
+  {
+   "id": "S7",
+   "in": 39.72,
+   "out": 51.64,
+   "text": "Dan atas dia lembut tau. Atas dia lembut. Bawah dia, apa tu, dilengkapkan dengan permukaan getah, jadi dia anti-slip, dia tak mudah bergerak atas lantai tau.",
+   "note": "",
+   "zoom": 1.25
+  },
+  {
+   "id": "S8",
+   "in": 51.64,
+   "out": 54.84,
+   "text": "Tak mudah bergerak je. Aku tolak, tak bergerak tau.",
+   "note": "",
+   "zoom": 1.325
+  },
+  {
+   "id": "S9",
+   "in": 54.84,
+   "out": 59.74,
+   "text": "Tak mudah bergerak. Jadi bila korang nak jalan, korang tak risau dah, dia memang firm je.",
+   "note": "",
+   "zoom": 1.25
+  },
+  {
+   "id": "S10",
+   "in": 59.74,
+   "out": 69.91,
+   "text": "Memang sangat cantik. Ada pelbagai design tau dekat beg kuning. Ni salah satulah yang aku sangat recommend. Kalau korang suka yang jenis design estetik macam ni, yang ni aku sangat recommend.",
+   "note": "",
+   "zoom": 1.325
+  },
+  {
+   "id": "S11",
+   "in": 69.91,
+   "out": 76.98,
+   "text": "Ketebalan dia 3mm tau. Tak mudah bergerak dan dia agak tebal tau, 3mm.",
+   "note": "",
+   "zoom": 1.25
+  },
+  {
+   "id": "S12",
+   "in": 76.98,
+   "out": 84.69,
+   "text": "So yang bestnya dekat beg kuning tu ada pelbagai design dan corak tau, so korang boleh sesuaikan dengan tema rumah korang.",
+   "note": "",
+   "zoom": 1.325
+  },
+  {
+   "id": "S13",
+   "in": 84.69,
+   "out": 96.05,
+   "text": "Dan yang paling best lagi apa tau, harga dia murah weh. Korang tengok dekat beg kuning, tak sampai 20. Mungkin silap-silap 10 pun tak sampai tau. Tengok dekat beg kuning.",
+   "note": "price in the owner's words",
+   "zoom": 1.25
+  },
+  {
+   "id": "S14",
+   "in": 96.05,
+   "out": 107.6,
+   "text": "Saya buat promo habis-habisan ni guys. Jangan tunggu dekat raya ataupun dekat puasa, takut-takut dah habis lah guys. Korang tengok dekat beg kuning, pilih yang korang berminat.",
+   "note": "",
+   "zoom": 1.325
+  },
+  {
+   "id": "S15",
+   "in": 107.6,
+   "out": 114.38,
+   "text": "Tambah-tambah yang mana nak make over dapur sebelum raya tu, korang beli siap-siap mana korang berkenan dekat beg kuning tu.",
+   "note": "",
+   "zoom": 1.25
+  },
+  {
+   "id": "S16",
+   "in": 114.38,
+   "out": 123.59,
+   "text": "So guys, boleh tengok dekat beg kuning, pilih design korang berkenan, saiz yang sesuai, dan beli sekarang sementara harga promo ni masih ada.",
+   "note": "CTA",
+   "zoom": 1.325
+  }
+ ],
+ "kp": [
+  {
+   "text": "JANGAN TUNGGU RAYA!",
+   "hi": [
+    "RAYA!"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "S1",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 120,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S4",
+    "alas"
+   ],
+   "to": [
+    "S4",
+    "end"
+   ],
+   "src": 0.5,
+   "note": "the mat on the kitchen floor",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "S6",
+    "dia#2"
+   ],
+   "to": [
+    "S6",
+    "end"
+   ],
+   "src": 24.5,
+   "note": "the tile pattern close up",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "S7",
+    "start"
+   ],
+   "to": [
+    "S7",
+    "bawah"
+   ],
+   "src": 20.3,
+   "note": "a hand on the soft top",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "S7",
+    "bawah"
+   ],
+   "to": [
+    "S7",
+    "end"
+   ],
+   "src": 10.3,
+   "note": "flipping the mat: the black rubber base",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "S11",
+    "start"
+   ],
+   "to": [
+    "S11",
+    "tak"
+   ],
+   "src": 18.0,
+   "note": "the mat edge lifted — its thickness",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "S12",
+    "pelbagai"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "src": 38.5,
+   "note": "the mat on the floor",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C7",
+   "from": [
+    "S16",
+    "pilih"
+   ],
+   "to": [
+    "S16",
+    "dan"
+   ],
+   "src": 46.0,
+   "note": "the mat on the floor",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C8",
+   "from": [
+    "S15",
+    "start"
+   ],
+   "to": [
+    "S15",
+    "korang"
+   ],
+   "src": 2.0,
+   "note": "the mat in the kitchen",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#111111",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "supersave"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "S2",
+    "time-time"
+   ],
+   "to": [
+    "S2",
+    "mesti"
+   ],
+   "text": "TETAMU RAMAI DATANG",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S2",
+    "mesti"
+   ],
+   "to": [
+    "S2",
+    "end"
+   ],
+   "text": "DAPUR NAMPAK KEMAS",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "S3",
+    "langsir"
+   ],
+   "to": [
+    "S3",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "LANGSIR DAH TUKAR",
+     "at": [
+      "S3",
+      "langsir"
+     ]
+    },
+    {
+     "text": "RUMAH DAH CANTIK",
+     "at": [
+      "S3",
+      "rumah"
+     ]
+    },
+    {
+     "text": "ALAS KAKI KUSAM?",
+     "at": [
+      "S3",
+      "ataupun"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S4",
+    "teknologi"
+   ],
+   "to": [
+    "S4",
+    "end"
+   ],
+   "text": "TEKNOLOGI TERKINI",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "S6",
+    "mudah"
+   ],
+   "to": [
+    "S6",
+    "end"
+   ],
+   "title": "DESIGN",
+   "value": "SERAP AIR",
+   "sub": "CEPAT KERING",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "tags",
+   "from": [
+    "S7",
+    "start"
+   ],
+   "to": [
+    "S7",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "ATAS LEMBUT",
+     "at": [
+      "S7",
+      "start"
+     ]
+    },
+    {
+     "text": "BAWAH GETAH",
+     "at": [
+      "S7",
+      "bawah"
+     ]
+    },
+    {
+     "text": "ANTI-SLIP",
+     "at": [
+      "S7",
+      "anti-slip."
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S8",
+    "start"
+   ],
+   "to": [
+    "S8",
+    "end"
+   ],
+   "text": "TOLAK PUN TAK BERGERAK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S9",
+    "jadi"
+   ],
+   "to": [
+    "S9",
+    "end"
+   ],
+   "text": "FIRM BILA JALAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S10",
+    "ada"
+   ],
+   "to": [
+    "S10",
+    "kalau"
+   ],
+   "text": "PELBAGAI DESIGN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S10",
+    "kalau"
+   ],
+   "to": [
+    "S10",
+    "end"
+   ],
+   "text": "DESIGN ESTETIK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "S11",
+    "3mm"
+   ],
+   "to": [
+    "S11",
+    "end"
+   ],
+   "n": 3,
+   "label": "MM TEBAL",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S12",
+    "so#2"
+   ],
+   "to": [
+    "S12",
+    "end"
+   ],
+   "text": "IKUT TEMA RUMAH",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "S13",
+    "harga"
+   ],
+   "to": [
+    "S13",
+    "end"
+   ],
+   "title": "HARGA",
+   "value": "MURAH",
+   "sub": "TAK SAMPAI RM20",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S14",
+    "start"
+   ],
+   "to": [
+    "S14",
+    "jangan"
+   ],
+   "text": "PROMO HABIS-HABISAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S14",
+    "jangan"
+   ],
+   "to": [
+    "S14",
+    "korang"
+   ],
+   "text": "TAKUT-TAKUT HABIS",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "S15",
+    "start"
+   ],
+   "to": [
+    "S15",
+    "end"
+   ],
+   "text": "MAKE OVER DAPUR SEBELUM RAYA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "S16",
+    "start"
+   ],
+   "to": [
+    "S16",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "PILIH DESIGN & SAIZ",
+   "y": 760
+  }
+ ],
+ "fx_theme": "tile"
+}

@@ -15,7 +15,7 @@ CLIP = {"m": "172736"}
 LINES = [
     ("S1", "m", [(29.18, 32.38)], "Jangan tunggu dekat raya baru nak cari alas kaki kat dapur tau."),
     ("S2", "m", [(39.94, 42.02), (42.43, 47.84)], "Benda ni nampak kecil je, tapi time-time raya tu dah tetamu ramai datang, mesti kita nak nampak dapur kita, ruang dalam rumah tu kemas kan?"),
-    ("S3", "m", [(55.75, 60.86), (61.82, 63.23), (63.94, 65.28), (65.95, 67.42), (67.81, 68.99)],
+    ("S3", "m", [(55.75, 59.20), (61.82, 63.23), (63.94, 65.28), (65.95, 67.42), (67.81, 68.99)],
      "Cuba korang bayangkan, langsir dah tukar, rumah dah cantik, tapi alas kaki kat dapur tak ada. Ataupun alas kaki kat dapur tu dah lama, kusam, basah pula tu."),
     ("S4", "m", [(82.85, 86.05), (86.59, 89.92)], "Korang jangan risau, korang boleh dapatkan alas kaki terbaru ni, yang ada pada aku ni, dengan teknologi terkini."),
     ("S5", "m", [(90.46, 91.17)], "Korang tengok ni."),
@@ -35,7 +35,7 @@ LINES = [
     ("S15", "m", [(226.80, 229.92), (230.43, 233.31)], "Tambah-tambah yang mana nak make over dapur sebelum raya tu, korang beli siap-siap mana korang berkenan dekat beg kuning tu."),
     ("S16", "m", [(235.94, 236.32), (236.77, 241.25), (241.73, 245.06)], "So guys, boleh tengok dekat beg kuning, pilih design korang berkenan, saiz yang sesuai, dan beli sekarang sementara harga promo ni masih ada."),
 ]
-DROPPED = ("172736: the first hook takes 'jangan tunggu raya baru nak cari alas...' (11-28), the first 'korang jangan risau, korang "
+DROPPED = ("172736: the first hook takes 'jangan tunggu raya baru nak cari alas...' (11-28), the stumble 'tapi alas dapur' (59.3-61.0), the first 'korang jangan risau, korang "
            "boleh dapatkan alas' (77-80), 'bila korang letak ni, ok, dia' (118-120, unfinished), the false starts 'ketebalan' "
            "(147.7) and 'so orang kata dia tak mudah' (153-157), the repeated 'tambah-tambah yang mana nak / plan nak make over "
            "sebelum' (221-226), the silent demo stretches and 'ok' fillers")
