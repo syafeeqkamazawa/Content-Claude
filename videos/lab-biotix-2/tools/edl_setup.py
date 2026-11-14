@@ -62,7 +62,12 @@ NOTES = {"H1": "HOOK — rec1105 2.3-9.3 (first take)", "B1": "retake after the 
 segs = [seg(lid, d["e0"], d["e1"], d["text"], NOTES.get(lid, "")) for lid, d in L.items()]
 write(P, 2, "voiceover rec1105 over VID_20261114_100411 + VID_20261114_110857 (tools/prep.py)", segs, zoom=1.0, origin="50% 45%",
       broll=[],
-      photos=[{"id": "P1", "from": ["H2", "ambil"], "to": ["H2", "end"], "ai": False,
+      photos=[{"id": "A1", "from": ["H1", "banyak"], "to": ["H1", "kadang-kadang"], "note": "AI: man at the dining table, full and uncomfortable after a meal (aurat-safe)"},
+              {"id": "A2", "from": ["B3", "kapsul"], "to": ["B3", "end"], "note": "AI: capsules and powder being stirred into water (no people)"},
+              {"id": "A3", "from": ["B5", "macam"], "to": ["B5", "end"], "note": "AI: mixed berries and fruit jelly cubes (no people)"},
+              {"id": "A4", "from": ["B7", "nak"], "to": ["B7", "travel"], "note": "AI: man at the office slipping a sachet into his work bag (aurat-safe)"},
+              {"id": "A5", "from": ["B7", "travel"], "to": ["B7", "end"], "note": "AI: man pulling a carry-on through an airport (aurat-safe)"},
+              {"id": "P1", "from": ["H2", "ambil"], "to": ["H2", "end"], "ai": False,
                "note": "listing photo of the box and sachet (owner's TikTok screenshot 105226, image 1/4)"},
               {"id": "P2", "from": ["B2", "start"], "to": ["B2", "end"], "ai": False,
                "note": "listing photo, two boxes with berries (screenshot 105231, image 3/4)"},
@@ -93,7 +98,8 @@ e["fx"] = [
 e["_note"] = ("Lab Biotix Triple Biotix #2 — voiceover video. Sound: Recorder 20261114-1105.m4a, cleaned with the tools/voice.sh "
               "chain. Picture: VID_20261114_100411 (table: box, sachet, tearing it, squeezing the jelly into his mouth) and "
               "VID_20261114_110857 (box and sachets on the grass), cut to follow the words; overlays = three listing photos from "
-              "the owner's TikTok screenshots (assets/photos/P1-P3; no AI tag). Not used: screenshot 105233 (photo with a named "
+              "the owner's TikTok screenshots (assets/photos/P1-P3; no AI tag) and five realistic AI photos for the situations he describes "
+              "(assets/photos/A1-A5, tools/gen.sh, 'ILUSTRASI AI' tag, split for parallax by tools/plx.sh; owner 14 Nov: 'Ada juga overlay visual'). Not used: screenshot 105233 (photo with a named "
               "doctor's 'recommended by' badge — a third-party endorsement) and the two description screenshots (reference only: "
               "jelly in a sachet, mixed berry, 20 g, 10 sachets, prebiotic + probiotic + postbiotic, L-carnitine). Clip -> video: "
               "the 14 Nov files -> this video; the 13 Nov files -> lab-biotix-1. Dropped: " + T["dropped"] + ". No price "
