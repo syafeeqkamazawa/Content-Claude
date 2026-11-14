@@ -18,8 +18,9 @@ def bt(clip, t):
 # whisper spellings -> what the owner says (he pronounces 'waffle' as 'wafer')
 FIX = {"wafer": "waffle", "waifu": "waffle", "bekunin": "beg kuning", "bagun": "beg kuning", "temanas": "pemanas",
        "krispil.": "crispy.", "krispil": "crispy", "marjirin": "marjerin", "kalor": "kaler", "elevtrova": "Electrova",
-       "eletrova": "Electrova", "eritrova": "Electrova", "bag": "beg", "jadu": "jadi", "sekat": "cepat"}
-DROPW = {"aa", "ha", "hmm", "eh", "nabuk", "buk"}
+       "eletrova": "Electrova", "eritrova": "Electrova", "bag": "beg", "jadu": "jadi", "sekat": "cepat", "besambangkan": "best, kat", "kali": "kaler"}
+DROPW = {"aa", "ha", "hmm", "eh", "nabuk", "buk", "amillahi", "wabarakat"}
+SKIP = [(43.75, 44.6), (192.0, 192.5)]   # whisper words that belong to dropped speech
 REDO = [(55.3, 60.5)]   # .media/wl-fix.txt
 
 
@@ -30,19 +31,27 @@ def words(path, offset=0.0):
             core = w.rstrip('.,?!')
             if core.lower() in FIX:
                 w = FIX[core.lower()] + w[len(core):]
-            if core.lower() not in DROPW:
-                out.append((w, float(s) + offset, float(e) + offset))
+            if core.lower() in DROPW:
+                continue
+            s, e = float(s) + offset, float(e) + offset
+            if out and w.startswith('-'):   # whisper splits 'biasa-biasa', 'siap-siap', 'pagi-pagi' at the hyphen
+                pw, ps, _ = out.pop()
+                w, s = pw + w, ps
+            out.append((w, s, e))
     return out
 
 
-SW = {"m": sorted([w for w in words(".media/wl-130306.txt") if not any(a <= w[1] < b for a, b in REDO)] + words(".media/wl-fix.txt"), key=lambda x: x[1])}
-tr = []
+SW = {"m": sorted([w for w in words(".media/wl-130306.txt") if not any(a <= w[1] < b for a, b in REDO + SKIP)] + words(".media/wl-fix.txt"), key=lambda x: x[1])}
+tr, used = [], set()
 for lid, d in L.items():
     acc = d["e0"]
     for a, b in d["pieces"]:
         for w, s, e in SW[d["src"]]:
-            if a <= s < b and e - s < 1.6:
-                tr.append({"w": w, "s": round(acc + s - a, 3), "e": round(acc + min(e, b) - a, 3)})
+            # whisper often starts a piece's first word early (silence before it): allow 0.8 s, clamp to the cut
+            if a - 0.8 <= s < b and e - s < 1.8 and s not in used:
+                used.add(s)
+                s = max(s, a)
+                tr.append({"w": w, "s": round(acc + s - a, 3), "e": round(acc + min(max(e, s + 0.05), b) - a, 3)})
         acc += b - a
 TR = json.dumps(tr, ensure_ascii=False)
 

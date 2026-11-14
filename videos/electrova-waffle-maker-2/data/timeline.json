@@ -1,0 +1,408 @@
+{
+ "lines": {
+  "E1": {
+   "src": "m",
+   "pieces": [
+    [
+     3.27,
+     10.26
+    ],
+    [
+     10.41,
+     11.99
+    ],
+    [
+     12.17,
+     15.54
+    ],
+    [
+     15.69,
+     17.98
+    ],
+    [
+     18.34,
+     21.91
+    ],
+    [
+     22.15,
+     25.46
+    ],
+    [
+     25.64,
+     28.22
+    ]
+   ],
+   "e0": 0.0,
+   "e1": 23.69,
+   "text": "Abang kakak yang mana selalu sarapan tu kan, contoh sarapan yang biasa dengan nasi lemak ke ataupun roti canai, tapi nak tukar dengan roti bakar ke ataupun waffle, boleh gunakan ni daripada Electrova. Dia ada, boleh buat roti bakar juga, boleh juga buat waffle dan pelbagai acuan tau. Dia bukan acuan yang biasa-biasa, korang tengok."
+  },
+  "E2": {
+   "src": "m",
+   "pieces": [
+    [
+     30.92,
+     33.34
+    ],
+    [
+     33.51,
+     37.18
+    ]
+   ],
+   "e0": 23.69,
+   "e1": 29.78,
+   "text": "Ha, ni roti bakar tau. Dia punya tempat acuan dia, acuan untuk roti bakar."
+  },
+  "E3": {
+   "src": "m",
+   "pieces": [
+    [
+     38.95,
+     40.41
+    ],
+    [
+     42.47,
+     44.51
+    ]
+   ],
+   "e0": 29.78,
+   "e1": 33.28,
+   "text": "Memang best, memang sedap. Boleh potong siap-siap."
+  },
+  "E4": {
+   "src": "m",
+   "pieces": [
+    [
+     55.24,
+     59.03
+    ],
+    [
+     59.3,
+     60.74
+    ]
+   ],
+   "e0": 33.28,
+   "e1": 38.51,
+   "text": "Letak marjerin, letak ..., letak gula, jadi."
+  },
+  "E5": {
+   "src": "m",
+   "pieces": [
+    [
+     60.61,
+     66.42
+    ],
+    [
+     66.63,
+     69.5
+    ],
+    [
+     69.67,
+     70.74
+    ],
+    [
+     70.98,
+     72.48
+    ]
+   ],
+   "e0": 38.51,
+   "e1": 49.76,
+   "text": "Dan juga korang bukan boleh buat roti bakar je tau, kat sini korang boleh tukar tau, kat ni kan korang just tukar je. Ada empat jenis. Satu jenis, dua jenis."
+  },
+  "E6": {
+   "src": "m",
+   "pieces": [
+    [
+     72.84,
+     74.94
+    ],
+    [
+     75.08,
+     76.47
+    ],
+    [
+     76.68,
+     78.17
+    ],
+    [
+     78.54,
+     80.63
+    ],
+    [
+     81.35,
+     85.75
+    ],
+    [
+     86.09,
+     87.03
+    ],
+    [
+     89.0,
+     94.05
+    ]
+   ],
+   "e0": 49.76,
+   "e1": 67.22,
+   "text": "Nak buat donat pun boleh tau. Ha, tadi anak saya buat donat, tepung dia ada lagi, bekas-bekas ni. Ni donat tau. Donat, dan juga ni macam berbola kecil lah. Berbola, ha ni berbola kecil, macam ni. Itu memang sangat best lah, sangat best."
+  },
+  "E7": {
+   "src": "m",
+   "pieces": [
+    [
+     94.98,
+     97.95
+    ]
+   ],
+   "e0": 67.22,
+   "e1": 70.19,
+   "text": "Ha, ni pagi-pagi boleh sarapan dengan roti bakar. Bismillahirrahmanirrahim."
+  },
+  "E8": {
+   "src": "m",
+   "pieces": [
+    [
+     109.06,
+     110.87
+    ],
+    [
+     112.39,
+     113.92
+    ]
+   ],
+   "e0": 70.19,
+   "e1": 73.53,
+   "text": "Ni cantik, memang sangat cantik, sangat lawa. Lawa tau."
+  },
+  "E10": {
+   "src": "m",
+   "pieces": [
+    [
+     119.88,
+     122.74
+    ],
+    [
+     123.82,
+     125.56
+    ],
+    [
+     126.02,
+     126.68
+    ],
+    [
+     128.01,
+     128.76
+    ],
+    [
+     129.48,
+     130.07
+    ],
+    [
+     130.34,
+     132.15
+    ],
+    [
+     132.39,
+     133.76
+    ]
+   ],
+   "e0": 73.53,
+   "e1": 83.31,
+   "text": "Ok, lepas tu nak tukar dia, kat sini ada tempat dia, tarik ke atas. Tengok yang ni, ha yang ni juga, bawah ni tarik ke bawah, ni tarik ke belakang. Ok, cabut, cabut."
+  },
+  "E12": {
+   "src": "m",
+   "pieces": [
+    [
+     155.33,
+     156.18
+    ],
+    [
+     156.97,
+     158.2
+    ],
+    [
+     158.57,
+     160.41
+    ],
+    [
+     161.0,
+     161.59
+    ],
+    [
+     161.86,
+     163.77
+    ],
+    [
+     164.52,
+     165.94
+    ],
+    [
+     166.54,
+     167.22
+    ],
+    [
+     167.66,
+     168.6
+    ],
+    [
+     168.84,
+     170.2
+    ],
+    [
+     170.44,
+     171.13
+    ],
+    [
+     172.14,
+     173.6
+    ]
+   ],
+   "e0": 83.31,
+   "e1": 96.28,
+   "text": "Ok, cabut ni kan, ni cabut kan. Ok, contoh dah buat waffle tu, nampak tak, ada macam ni, masuk je tempat tu, tempat letak tu dah ada dah, masuk macam tu, tekan sampai dia bunyi. Ni pun sama, ni pun boleh."
+  },
+  "E13": {
+   "src": "m",
+   "pieces": [
+    [
+     173.86,
+     176.98
+    ],
+    [
+     177.16,
+     178.23
+    ],
+    [
+     178.79,
+     180.06
+    ]
+   ],
+   "e0": 96.28,
+   "e1": 101.74,
+   "text": "Ok, kalau nak cabut ni, kalau nak mudah tekan sikit ke dalam baru cabut, baru dia mudah. Ok, cabut."
+  },
+  "E14": {
+   "src": "m",
+   "pieces": [
+    [
+     180.71,
+     182.58
+    ],
+    [
+     182.73,
+     187.8
+    ],
+    [
+     187.98,
+     189.59
+    ],
+    [
+     189.77,
+     192.42
+    ]
+   ],
+   "e0": 101.74,
+   "e1": 112.94,
+   "text": "Dan yang best ni, dua-dua pemanas ada tau, atas bawah dia panaskan, bukan bawah sahaja. So lagi cepat lah pembakaran dia."
+  },
+  "E15": {
+   "src": "m",
+   "pieces": [
+    [
+     224.58,
+     225.82
+    ],
+    [
+     226.28,
+     227.0
+    ],
+    [
+     227.3,
+     229.43
+    ],
+    [
+     230.09,
+     231.61
+    ],
+    [
+     231.94,
+     232.63
+    ],
+    [
+     233.35,
+     234.36
+    ],
+    [
+     234.63,
+     237.41
+    ]
+   ],
+   "e0": 112.94,
+   "e1": 123.03,
+   "text": "Yang lagi best, kat sini boleh setting timer, contohnya nak garing, nak lebih garing, nak lebih crispy, boleh lama kan, pusing tu lebih lama lah."
+  },
+  "E16": {
+   "src": "m",
+   "pieces": [
+    [
+     253.22,
+     255.51
+    ],
+    [
+     255.69,
+     257.15
+    ]
+   ],
+   "e0": 123.03,
+   "e1": 126.78,
+   "text": "Dengan ada timer kat sini, so memang sangat function."
+  },
+  "E17": {
+   "src": "m",
+   "pieces": [
+    [
+     261.73,
+     264.22
+    ],
+    [
+     264.52,
+     267.64
+    ],
+    [
+     267.94,
+     271.22
+    ],
+    [
+     271.56,
+     273.79
+    ]
+   ],
+   "e0": 126.78,
+   "e1": 137.9,
+   "text": "So ada dua kaler abang kak, warna krim macam ni dengan warna merah, saya letak kat beg kuning ni. Macam saya, saya suka garing-garing, so saya lamakan timer dia, so dapatlah garing macam ni."
+  },
+  "E18": {
+   "src": "m",
+   "pieces": [
+    [
+     274.02,
+     274.9
+    ],
+    [
+     275.24,
+     282.27
+    ]
+   ],
+   "e0": 137.9,
+   "e1": 145.81,
+   "text": "Jadi abang kak, saya tengah buat harga promo, harga tengah diskaun ni, sementara harga masih murah tu, abang kak boleh dapatkan di beg kuning ni sekarang."
+  }
+ },
+ "total": 145.81,
+ "dropped": "130306: the repeated 'potong siap-siap ok' (45-47), the unclear toast-eating murmurs (98-108: 'tengok sikit ... sekejap'), the first 'warna ada dua jenis' (116-118; said again in full at 262), the unclear plate-heating aside (134-154: 'letak ni panas sekejap, tepung masak ni ... saya tunjuk'), the silent closing / 'ok ok' / 'tutup' stretch (192-224), the repeated timer lines (237-253: 'nak lebih garing ataupun cukup-cukup je'), fillers",
+ "broll": {
+  "130306": {
+   "offset": 0.0,
+   "in": 0.0
+  }
+ }
+}

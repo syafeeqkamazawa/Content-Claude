@@ -23,7 +23,7 @@ LINES = [
     ("E8", "m", [(109.28, 110.75), (112.51, 113.60)], "Ni cantik, memang sangat cantik, sangat lawa. Lawa tau."),
     ("E10", "m", [(120.10, 122.62), (123.94, 125.44), (126.14, 126.56), (128.13, 128.64), (129.60, 129.95), (130.46, 132.03), (132.51, 133.44)],
      "Ok, lepas tu nak tukar dia, kat sini ada tempat dia, tarik ke atas. Tengok yang ni, ha yang ni juga, bawah ni tarik ke bawah, ni tarik ke belakang. Ok, cabut, cabut."),
-    ("E12", "m", [(155.55, 156.06), (157.09, 158.08), (158.69, 160.29), (161.12, 161.47), (161.98, 163.65), (164.64, 165.82), (166.66, 167.10), (168.96, 170.08), (170.56, 171.01), (172.26, 173.28)],
+    ("E12", "m", [(155.55, 156.06), (157.09, 158.08), (158.69, 160.29), (161.12, 161.47), (161.98, 163.65), (164.64, 165.82), (166.66, 167.10), (167.78, 168.48), (168.96, 170.08), (170.56, 171.01), (172.26, 173.28)],
      "Ok, cabut ni kan, ni cabut kan. Ok, contoh dah buat waffle tu, nampak tak, ada macam ni, masuk je tempat tu, tempat letak tu dah ada dah, masuk macam tu, tekan sampai dia bunyi. Ni pun sama, ni pun boleh."),
     ("E13", "m", [(174.08, 176.86), (177.28, 178.11), (178.91, 179.74)], "Ok, kalau nak cabut ni, kalau nak mudah tekan sikit ke dalam baru cabut, baru dia mudah. Ok, cabut."),
     ("E14", "m", [(180.93, 182.46), (182.85, 187.68), (188.10, 189.47), (189.89, 192.10)], "Dan yang best ni, dua-dua pemanas ada tau, atas bawah dia panaskan, bukan bawah sahaja. So lagi cepat lah pembakaran dia."),
@@ -130,8 +130,9 @@ def main():
         bidx[clip] = {"offset": round(off, 3), "in": a}
         off += b - a
     fl.append("".join(f"[v{k}]" for k in range(len(BROLL))) + f"concat=n={len(BROLL)}:v=1:a=0[v]")
-    run("ffmpeg", "-v", "error", "-y", *inp, "-filter_complex", ";".join(fl), "-map", "[v]", "-c:v", "libx264", "-preset", "fast",
-        "-crf", "17", "-pix_fmt", "yuv420p", "-g", "30", str(P / "assets/b.mp4"))
+    if not (P / "assets/b.mp4").exists():
+        run("ffmpeg", "-v", "error", "-y", *inp, "-filter_complex", ";".join(fl), "-map", "[v]", "-c:v", "libx264", "-preset", "fast",
+            "-crf", "17", "-pix_fmt", "yuv420p", "-g", "30", str(P / "assets/b.mp4"))
     (P / "data/timeline.json").write_text(json.dumps({"lines": L, "total": TOTAL, "dropped": DROPPED, "broll": bidx}, indent=1, ensure_ascii=False))
     print("TOTAL", TOTAL)
 

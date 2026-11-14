@@ -1,0 +1,534 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 40%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 12 Nov: motion text + caption from the Jus Gout 'video contoh'; visual overlays; talking kept.",
+ "_note": "Electrova Waffle Maker #2 — assets/a.mp4 built by tools/prep.py from VID_20261114_130306 (talking + demo, picture synced). Cutaways (assets/b.mp4) = close-ups from the same clip. Clip -> video: 130306 -> this video (folder 'Footage hari ni' holds only this clip). Dropped: 130306: the repeated 'potong siap-siap ok' (45-47), the unclear toast-eating murmurs (98-108: 'tengok sikit ... sekejap'), the first 'warna ada dua jenis' (116-118; said again in full at 262), the unclear plate-heating aside (134-154: 'letak ni panas sekejap, tepung masak ni ... saya tunjuk'), the silent closing / 'ok ok' / 'tutup' stretch (192-224), the repeated timer lines (237-253: 'nak lebih garing ataupun cukup-cukup je'), fillers. No price; plates, heating, timer, colours and promo are the owner's own words. One topping word in E4 is unclear and left out of the caption (the audio is kept).",
+ "segments": [
+  {
+   "id": "E1",
+   "in": 0.0,
+   "out": 23.69,
+   "text": "Abang kakak yang mana selalu sarapan tu kan, contoh sarapan yang biasa dengan nasi lemak ke ataupun roti canai, tapi nak tukar dengan roti bakar ke ataupun waffle, boleh gunakan ni daripada Electrova. Dia ada, boleh buat roti bakar juga, boleh juga buat waffle dan pelbagai acuan tau. Dia bukan acuan yang biasa-biasa, korang tengok.",
+   "note": "HOOK — 130306 3.5-28",
+   "zoom": 1.0
+  },
+  {
+   "id": "E2",
+   "in": 23.69,
+   "out": 29.78,
+   "text": "Ha, ni roti bakar tau. Dia punya tempat acuan dia, acuan untuk roti bakar.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "E3",
+   "in": 29.78,
+   "out": 33.28,
+   "text": "Memang best, memang sedap. Boleh potong siap-siap.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "E4",
+   "in": 33.28,
+   "out": 38.51,
+   "text": "Letak marjerin, letak ..., letak gula, jadi.",
+   "note": "toppings; one word unclear (not captioned)",
+   "zoom": 1.06
+  },
+  {
+   "id": "E5",
+   "in": 38.51,
+   "out": 49.76,
+   "text": "Dan juga korang bukan boleh buat roti bakar je tau, kat sini korang boleh tukar tau, kat ni kan korang just tukar je. Ada empat jenis. Satu jenis, dua jenis.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "E6",
+   "in": 49.76,
+   "out": 67.22,
+   "text": "Nak buat donat pun boleh tau. Ha, tadi anak saya buat donat, tepung dia ada lagi, bekas-bekas ni. Ni donat tau. Donat, dan juga ni macam berbola kecil lah. Berbola, ha ni berbola kecil, macam ni. Itu memang sangat best lah, sangat best.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "E7",
+   "in": 67.22,
+   "out": 70.19,
+   "text": "Ha, ni pagi-pagi boleh sarapan dengan roti bakar. Bismillahirrahmanirrahim.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "E8",
+   "in": 70.19,
+   "out": 73.53,
+   "text": "Ni cantik, memang sangat cantik, sangat lawa. Lawa tau.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "E10",
+   "in": 73.53,
+   "out": 83.31,
+   "text": "Ok, lepas tu nak tukar dia, kat sini ada tempat dia, tarik ke atas. Tengok yang ni, ha yang ni juga, bawah ni tarik ke bawah, ni tarik ke belakang. Ok, cabut, cabut.",
+   "note": "swapping a plate",
+   "zoom": 1.0
+  },
+  {
+   "id": "E12",
+   "in": 83.31,
+   "out": 96.28,
+   "text": "Ok, cabut ni kan, ni cabut kan. Ok, contoh dah buat waffle tu, nampak tak, ada macam ni, masuk je tempat tu, tempat letak tu dah ada dah, masuk macam tu, tekan sampai dia bunyi. Ni pun sama, ni pun boleh.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "E13",
+   "in": 96.28,
+   "out": 101.74,
+   "text": "Ok, kalau nak cabut ni, kalau nak mudah tekan sikit ke dalam baru cabut, baru dia mudah. Ok, cabut.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "E14",
+   "in": 101.74,
+   "out": 112.94,
+   "text": "Dan yang best ni, dua-dua pemanas ada tau, atas bawah dia panaskan, bukan bawah sahaja. So lagi cepat lah pembakaran dia.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "E15",
+   "in": 112.94,
+   "out": 123.03,
+   "text": "Yang lagi best, kat sini boleh setting timer, contohnya nak garing, nak lebih garing, nak lebih crispy, boleh lama kan, pusing tu lebih lama lah.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "E16",
+   "in": 123.03,
+   "out": 126.78,
+   "text": "Dengan ada timer kat sini, so memang sangat function.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "E17",
+   "in": 126.78,
+   "out": 137.9,
+   "text": "So ada dua kaler abang kak, warna krim macam ni dengan warna merah, saya letak kat beg kuning ni. Macam saya, saya suka garing-garing, so saya lamakan timer dia, so dapatlah garing macam ni.",
+   "note": "colours + crispy result",
+   "zoom": 1.0
+  },
+  {
+   "id": "E18",
+   "in": 137.9,
+   "out": 145.81,
+   "text": "Jadi abang kak, saya tengah buat harga promo, harga tengah diskaun ni, sementara harga masih murah tu, abang kak boleh dapatkan di beg kuning ni sekarang.",
+   "note": "CTA",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "ROTI BAKAR + WAFFLE",
+   "hi": [
+    "WAFFLE"
+   ],
+   "from": [
+    "E1",
+    "start"
+   ],
+   "to": [
+    "E1",
+    "roti#2"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 104
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "E1",
+    "roti#2"
+   ],
+   "to": [
+    "E1",
+    "boleh"
+   ],
+   "src": 36.5,
+   "note": "cutting the toast on the board",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "E1",
+    "boleh"
+   ],
+   "to": [
+    "E1",
+    "dia"
+   ],
+   "src": 126.5,
+   "note": "the open machine on the toast plate",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "E1",
+    "waffle#2"
+   ],
+   "to": [
+    "E1",
+    "dia#2"
+   ],
+   "src": 81.5,
+   "note": "the plates spread on the table",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "E8",
+    "start"
+   ],
+   "to": [
+    "E8",
+    "end"
+   ],
+   "src": 234.5,
+   "note": "the cream machine close up",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "E16",
+    "timer"
+   ],
+   "to": [
+    "E16",
+    "end"
+   ],
+   "src": 228.0,
+   "note": "the timer knob close up",
+   "push": [
+    1.0,
+    1.08
+   ],
+   "origin": "50% 55%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "E17",
+    "warna"
+   ],
+   "to": [
+    "E17",
+    "macam#2"
+   ],
+   "src": 233.0,
+   "note": "the cream machine",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C7",
+   "from": [
+    "E17",
+    "suka"
+   ],
+   "to": [
+    "E17",
+    "end"
+   ],
+   "src": 54.0,
+   "note": "the crispy toast lifted up",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#E3A94B",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "electrova"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "E1",
+    "pelbagai"
+   ],
+   "to": [
+    "E1",
+    "end"
+   ],
+   "text": "PELBAGAI ACUAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "E2",
+    "acuan"
+   ],
+   "to": [
+    "E2",
+    "end"
+   ],
+   "text": "ACUAN ROTI BAKAR",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "E3",
+    "boleh"
+   ],
+   "to": [
+    "E3",
+    "end"
+   ],
+   "text": "BOLEH POTONG SIAP-SIAP",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "E5",
+    "empat"
+   ],
+   "to": [
+    "E5",
+    "end"
+   ],
+   "n": 4,
+   "label": "JENIS ACUAN",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "tags",
+   "from": [
+    "E6",
+    "start"
+   ],
+   "to": [
+    "E6",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "DONAT",
+     "at": [
+      "E6",
+      "donat"
+     ]
+    },
+    {
+     "text": "BEBOLA KECIL",
+     "at": [
+      "E6",
+      "berbola"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "E10",
+    "tarik"
+   ],
+   "to": [
+    "E10",
+    "end"
+   ],
+   "text": "TARIK & CABUT",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "E12",
+    "tekan"
+   ],
+   "to": [
+    "E12",
+    "end"
+   ],
+   "text": "TEKAN SAMPAI BUNYI",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "E13",
+    "tekan"
+   ],
+   "to": [
+    "E13",
+    "end"
+   ],
+   "text": "TEKAN SIKIT, BARU CABUT",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "E14",
+    "pemanas"
+   ],
+   "to": [
+    "E14",
+    "end"
+   ],
+   "title": "PEMANAS",
+   "value": "ATAS & BAWAH",
+   "sub": "BUKAN BAWAH SAHAJA",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "hud",
+   "from": [
+    "E15",
+    "timer"
+   ],
+   "to": [
+    "E15",
+    "end"
+   ],
+   "title": "TIMER",
+   "value": "SET IKUT SUKA",
+   "sub": "NAK LEBIH GARING, CRISPY",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "pill",
+   "from": [
+    "E16",
+    "function."
+   ],
+   "to": [
+    "E16",
+    "end"
+   ],
+   "text": "SANGAT FUNCTION",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "E17",
+    "dua"
+   ],
+   "to": [
+    "E17",
+    "saya"
+   ],
+   "n": 2,
+   "label": "KRIM & MERAH",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "pill",
+   "from": [
+    "E17",
+    "suka"
+   ],
+   "to": [
+    "E17",
+    "end"
+   ],
+   "text": "SUKA GARING? LAMAKAN TIMER",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "E18",
+    "start"
+   ],
+   "to": [
+    "E18",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA TENGAH DISKAUN",
+   "sub": "SEMENTARA HARGA MASIH MURAH",
+   "y": 200
+  }
+ ]
+}
