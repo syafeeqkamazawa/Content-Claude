@@ -1,0 +1,2 @@
+#RANGE 55.3 60.5 — times spread over the VAD speech range by syllable (whisper's were unreliable here); the topping word after the second 'letak' is unclear and left out
+Letak[55.46-55.99] marjerin,[55.99-56.79] letak[56.79-57.32] letak[57.85-58.38] gula,[58.38-58.91] jadi.[59.42-60.00]
