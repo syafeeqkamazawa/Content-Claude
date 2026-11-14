@@ -124,22 +124,9 @@
   }
  ],
  "punch": [],
- "broll": [],
- "photos": [
+ "broll": [
   {
-   "id": "A1",
-   "from": [
-    "H1",
-    "banyak"
-   ],
-   "to": [
-    "H1",
-    "kadang-kadang"
-   ],
-   "note": "AI: man at the dining table, full and uncomfortable after a meal (aurat-safe)"
-  },
-  {
-   "id": "A2",
+   "id": "C1",
    "from": [
     "B3",
     "kapsul"
@@ -148,10 +135,16 @@
     "B3",
     "end"
    ],
-   "note": "AI: capsules and powder being stirred into water (no people)"
+   "src": 53.5,
+   "note": "the torn sachet brought close to camera",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 45%"
   },
   {
-   "id": "A3",
+   "id": "C2",
    "from": [
     "B5",
     "macam"
@@ -160,32 +153,34 @@
     "B5",
     "end"
    ],
-   "note": "AI: mixed berries and fruit jelly cubes (no people)"
+   "src": 159.429,
+   "note": "a handful of sachets on the grass",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
   },
   {
-   "id": "A4",
+   "id": "C3",
    "from": [
     "B7",
     "nak"
    ],
    "to": [
     "B7",
-    "travel"
-   ],
-   "note": "AI: man at the office slipping a sachet into his work bag (aurat-safe)"
-  },
-  {
-   "id": "A5",
-   "from": [
-    "B7",
-    "travel"
-   ],
-   "to": [
-    "B7",
     "end"
    ],
-   "note": "AI: man pulling a carry-on through an airport (aurat-safe)"
-  },
+   "src": 170.429,
+   "note": "sachets spread on the grass with the box",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 55%"
+  }
+ ],
+ "photos": [
   {
    "id": "P1",
    "from": [

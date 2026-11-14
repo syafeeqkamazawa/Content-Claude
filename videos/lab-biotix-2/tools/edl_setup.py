@@ -62,8 +62,11 @@ NOTES = {"H1": "HOOK — rec1105 2.3-9.3 (first take)", "B1": "retake after the 
          "C1": "CTA"}
 segs = [seg(lid, d["e0"], d["e1"], d["text"], NOTES.get(lid, "")) for lid, d in L.items()]
 write(P, 2, "voiceover rec1105 over VID_20261114_100411 + VID_20261114_110857 (tools/prep.py)", segs, zoom=1.0, origin="50% 45%",
-      broll=[],
-      photos=[{"id": "A1", "from": ["H1", "banyak"], "to": ["H1", "kadang-kadang"], "note": "AI: man at the dining table, full and uncomfortable after a meal (aurat-safe)"},
+      broll=[] if (P / "assets/photos/A1.jpg").exists() else [
+             cu("C1", ["B3", "kapsul"], ["B3", "end"], bt("100411", 53.5), "50% 45%", (1.0, 1.06), "the torn sachet brought close to camera"),
+             cu("C2", ["B5", "macam"], ["B5", "end"], bt("110857", 25.0), "50% 50%", (1.0, 1.06), "a handful of sachets on the grass"),
+             cu("C3", ["B7", "nak"], ["B7", "end"], bt("110857", 36.0), "50% 55%", (1.0, 1.05), "sachets spread on the grass with the box")],
+      photos=[ph for ph in [{"id": "A1", "from": ["H1", "banyak"], "to": ["H1", "kadang-kadang"], "note": "AI: man at the dining table, full and uncomfortable after a meal (aurat-safe)"},
               {"id": "A2", "from": ["B3", "kapsul"], "to": ["B3", "end"], "note": "AI: capsules and powder being stirred into water (no people)"},
               {"id": "A3", "from": ["B5", "macam"], "to": ["B5", "end"], "note": "AI: mixed berries and fruit jelly cubes (no people)"},
               {"id": "A4", "from": ["B7", "nak"], "to": ["B7", "travel"], "note": "AI: man at the office slipping a sachet into his work bag (aurat-safe)"},
@@ -73,7 +76,9 @@ write(P, 2, "voiceover rec1105 over VID_20261114_100411 + VID_20261114_110857 (t
               {"id": "P2", "from": ["B2", "start"], "to": ["B2", "end"], "ai": False,
                "note": "listing photo, two boxes with berries (screenshot 105231, image 3/4)"},
               {"id": "P3", "from": ["C1", "better"], "to": ["C1", "boleh"], "ai": False,
-               "note": "listing photo, boxes packed with parcels (screenshot 105228, image 2/4)"}],
+               "note": "listing photo, boxes packed with parcels (screenshot 105228, image 2/4)"}]
+              # AI photos only once tools/gen.sh has made them (needs the owner's Codex login)
+              if not ph["id"].startswith("A") or (P / f"assets/photos/{ph['id']}.jpg").exists()],
       kps=[kp("PERUT SELALU KEMBUNG?", ["KEMBUNG?"], ["H1", "start"], ["H1", "end"], "zoom", 200, 100)],
       note_extra=" 12 Nov: motion text + caption from the Jus Gout 'video contoh'; visual overlays. 14 Nov Lab Biotix #2: voiceover over the table and grass clips.")
 (P / 'data/transcript-a.json').write_text(TR)
