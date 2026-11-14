@@ -18,9 +18,9 @@ def bt(clip, t):
 # whisper spellings -> what the owner says (he pronounces 'waffle' as 'wafer')
 FIX = {"wafer": "waffle", "waifu": "waffle", "bekunin": "beg kuning", "bagun": "beg kuning", "temanas": "pemanas",
        "krispil.": "crispy.", "krispil": "crispy", "marjirin": "marjerin", "kalor": "kaler", "elevtrova": "Electrova",
-       "eletrova": "Electrova", "eritrova": "Electrova", "bag": "beg", "jadu": "jadi", "sekat": "cepat", "besambangkan": "best, kat", "kali": "kaler"}
+       "eletrova": "Electrova", "eritrova": "Electrova", "bag": "beg", "jadu": "jadi", "sekat": "cepat", "besambangkan": "best,", "kali": "kaler"}
 DROPW = {"aa", "ha", "hmm", "eh", "nabuk", "buk", "amillahi", "wabarakat"}
-SKIP = [(43.75, 44.6), (192.0, 192.5)]   # whisper words that belong to dropped speech
+SKIP = [(43.75, 44.6), (192.0, 192.5), (54.4, 55.3)]   # whisper words that belong to dropped speech
 REDO = [(55.3, 60.5)]   # .media/wl-fix.txt
 
 
@@ -66,7 +66,7 @@ write(P, 2, "VID_20261114_130306 (tools/prep.py)", segs, zoom=1.0, origin="50% 4
              cu("C5", ["E16", "timer"], ["E16", "end"], bt("130306", 228.0), "50% 55%", (1.0, 1.08), "the timer knob close up"),
              cu("C6", ["E17", "warna"], ["E17", "macam#2"], bt("130306", 233.0), "50% 50%", (1.0, 1.05), "the cream machine"),
              cu("C7", ["E17", "suka"], ["E17", "end"], bt("130306", 54.0), "50% 50%", (1.0, 1.06), "the crispy toast lifted up")],
-      kps=[kp("ROTI BAKAR + WAFFLE", ["WAFFLE"], ["E1", "start"], ["E1", "roti#2"], "zoom", 200, 104)],
+      kps=[kp("ROTI BAKAR + WAFFLE", ["WAFFLE"], ["E1", "start"], ["E1", "roti#2"], "zoom", 60, 84)],
       note_extra=" 12 Nov: motion text + caption from the Jus Gout 'video contoh'; visual overlays; talking kept.")
 (P / 'data/transcript-a.json').write_text(TR)
 e = json.loads((P / 'data/edl.json').read_text())
@@ -84,9 +84,9 @@ e["fx"] = [
     {"type": "hud", "from": ["E14", "pemanas"], "to": ["E14", "end"], "title": "PEMANAS", "value": "ATAS & BAWAH", "sub": "BUKAN BAWAH SAHAJA", "x": 60, "y": 150},
     {"type": "hud", "from": ["E15", "timer"], "to": ["E15", "end"], "title": "TIMER", "value": "SET IKUT SUKA", "sub": "NAK LEBIH GARING, CRISPY", "x": 60, "y": 150},
     {"type": "pill", "from": ["E16", "function."], "to": ["E16", "end"], "text": "SANGAT FUNCTION", "x": 60, "y": 250},
-    {"type": "dial", "from": ["E17", "dua"], "to": ["E17", "saya"], "n": 2, "label": "KRIM & MERAH", "x": 540, "y": 330},
+    {"type": "pill", "from": ["E17", "dua"], "to": ["E17", "saya"], "text": "2 WARNA: KRIM & MERAH", "x": 60, "y": 1060},
     {"type": "pill", "from": ["E17", "suka"], "to": ["E17", "end"], "text": "SUKA GARING? LAMAKAN TIMER", "x": 60, "y": 250},
-    {"type": "promo", "from": ["E18", "start"], "to": ["E18", "end"], "tag": "BEG KUNING", "title": "HARGA TENGAH DISKAUN", "sub": "SEMENTARA HARGA MASIH MURAH", "y": 200},
+    {"type": "promo", "from": ["E18", "start"], "to": ["E18", "end"], "tag": "BEG KUNING", "title": "HARGA TENGAH DISKAUN", "sub": "SEMENTARA HARGA MASIH MURAH", "y": 720},
 ]
 e["_note"] = ("Electrova Waffle Maker #2 — assets/a.mp4 built by tools/prep.py from VID_20261114_130306 (talking + demo, picture "
               "synced). Cutaways (assets/b.mp4) = close-ups from the same clip. Clip -> video: 130306 -> this video (folder 'Footage "

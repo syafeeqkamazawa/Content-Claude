@@ -167,8 +167,8 @@
     "roti#2"
    ],
    "anim": "zoom",
-   "top": 200,
-   "size": 104
+   "top": 60,
+   "size": 84
   }
  ],
  "punch": [],
@@ -487,7 +487,7 @@
    "y": 250
   },
   {
-   "type": "dial",
+   "type": "pill",
    "from": [
     "E17",
     "dua"
@@ -496,10 +496,9 @@
     "E17",
     "saya"
    ],
-   "n": 2,
-   "label": "KRIM & MERAH",
-   "x": 540,
-   "y": 330
+   "text": "2 WARNA: KRIM & MERAH",
+   "x": 60,
+   "y": 1060
   },
   {
    "type": "pill",
@@ -528,7 +527,7 @@
    "tag": "BEG KUNING",
    "title": "HARGA TENGAH DISKAUN",
    "sub": "SEMENTARA HARGA MASIH MURAH",
-   "y": 200
+   "y": 720
   }
  ]
 }
