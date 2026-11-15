@@ -1,0 +1,156 @@
+{
+ "lines": {
+  "V1": {
+   "src": "v",
+   "pieces": [
+    [
+     0.77,
+     4.13
+    ]
+   ],
+   "e0": 0.0,
+   "e1": 3.36,
+   "text": "Tak payah beli mahal-mahal, beli murah macam ni je."
+  },
+  "V2": {
+   "src": "v",
+   "pieces": [
+    [
+     3.94,
+     10.98
+    ]
+   ],
+   "e0": 3.36,
+   "e1": 10.4,
+   "text": "Anti-slip, serap air, dia ada tiga saiz tau, saiz L, saiz M dan saiz S. Corak ni cantik-cantik tau."
+  },
+  "V3": {
+   "src": "v",
+   "pieces": [
+    [
+     11.01,
+     13.47
+    ]
+   ],
+   "e0": 10.4,
+   "e1": 12.86,
+   "text": "Yang saya punya ni code Moroccan Mix."
+  },
+  "V4": {
+   "src": "v",
+   "pieces": [
+    [
+     42.6,
+     43.8
+    ],
+    [
+     44.65,
+     50.94
+    ]
+   ],
+   "e0": 12.86,
+   "e1": 20.35,
+   "text": "Bila korang jalan je atas alas ni, memang selesa weh, sebab tak licin, and anti-slip juga tau. Tengok ni."
+  },
+  "V5": {
+   "src": "v",
+   "pieces": [
+    [
+     50.95,
+     53.54
+    ]
+   ],
+   "e0": 20.35,
+   "e1": 22.94,
+   "text": "Saya gerak-gerakkan pun memang tak bergerak terus."
+  },
+  "V6": {
+   "src": "v",
+   "pieces": [
+    [
+     57.06,
+     59.71
+    ]
+   ],
+   "e0": 22.94,
+   "e1": 25.59,
+   "text": "Ada yang ni, terus lawa ruang dapur weh."
+  },
+  "V7": {
+   "src": "v",
+   "pieces": [
+    [
+     59.46,
+     62.49
+    ],
+    [
+     62.54,
+     66.14
+    ]
+   ],
+   "e0": 25.59,
+   "e1": 32.22,
+   "text": "Penyerapan dia pun pantas tau, kalau kena air, terus serap air macam ni. Bahagian belakang pun tak tembus tau."
+  },
+  "V8": {
+   "src": "v",
+   "pieces": [
+    [
+     84.68,
+     88.72
+    ]
+   ],
+   "e0": 32.22,
+   "e1": 36.26,
+   "text": "So korang, harga tengah murah tau, macam-macam corak ada, semua cantik-cantik."
+  },
+  "V9": {
+   "src": "v",
+   "pieces": [
+    [
+     109.86,
+     113.22
+    ]
+   ],
+   "e0": 36.26,
+   "e1": 39.62,
+   "text": "Tekan beg kuning kat bawah ni sekarang, sementara harga tu masih murah."
+  }
+ },
+ "total": 39.62,
+ "dropped": "rec1513: the first 'bila pakai tu memang selesa sebab tak licin and anti-slip, tengok ni' (13.4-18.9) and its retakes 'bila pakai tu memang selesa weh' / 'bila (korang) jalan atas alas ni' (21-42; the complete take at 42.8 is kept), the false start 'lawa' (54.4), the CTA retakes 'so korang harga tengah murah tau, corak cantik-cantik ...' (67-84) and 'tekan beg kuning (kat bawah ni) sekarang, sementara harga masih murah' (88.5-110; the last take is kept); the eight clips: their own audio (no speech)",
+ "broll": {
+  "113747": {
+   "offset": 0.0,
+   "in": 0.0
+  },
+  "113948": {
+   "offset": 14.472,
+   "in": 0.0
+  },
+  "114541": {
+   "offset": 32.974,
+   "in": 0.0
+  },
+  "114641": {
+   "offset": 40.088,
+   "in": 0.0
+  },
+  "114747": {
+   "offset": 71.88,
+   "in": 0.0
+  },
+  "114834": {
+   "offset": 83.683,
+   "in": 0.0
+  },
+  "114930": {
+   "offset": 96.233,
+   "in": 0.0
+  },
+  "114959": {
+   "offset": 112.841,
+   "in": 0.0
+  }
+ }
+}

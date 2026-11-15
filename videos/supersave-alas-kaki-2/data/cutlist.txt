@@ -1,0 +1,17 @@
+TOTAL 39.62s  (9 A-roll segments, 5 B-roll shots, 0 photos, 20 audio fx, 111 caption cards)
+
+  0.00-  3.37  V1  src   0.00-  3.36  (1 pc)  Tak payah beli mahal-mahal, beli murah macam ni je.
+  3.37- 10.40  V2  src   3.36- 10.40  (1 pc)  Anti-slip, serap air, dia ada tiga saiz tau, saiz L, saiz M dan saiz S. Corak ni cantik-cantik tau.
+ 10.40- 12.87  V3  src  10.40- 12.86  (1 pc)  Yang saya punya ni code Moroccan Mix.
+ 12.87- 20.35  V4  src  12.86- 20.35  (1 pc)  Bila korang jalan je atas alas ni, memang selesa weh, sebab tak licin, and anti-slip juga tau. Tengok ni.
+ 20.35- 22.93  V5  src  20.35- 22.94  (1 pc)  Saya gerak-gerakkan pun memang tak bergerak terus.
+ 22.93- 25.58  V6  src  22.94- 25.59  (1 pc)  Ada yang ni, terus lawa ruang dapur weh.
+ 25.58- 32.22  V7  src  25.59- 32.22  (1 pc)  Penyerapan dia pun pantas tau, kalau kena air, terus serap air macam ni. Bahagian belakang pun tak tembus tau.
+ 32.22- 36.25  V8  src  32.22- 36.26  (1 pc)  So korang, harga tengah murah tau, macam-macam corak ada, semua cantik-cantik.
+ 36.25- 39.62  V9  src  36.26- 39.62  (1 pc)  Tekan beg kuning kat bawah ni sekarang, sementara harga tu masih murah.
+
+  cutaway   3.37-  4.73
+  cutaway   8.45- 10.40
+  cutaway  18.57- 20.35
+  cutaway  29.63- 32.22
+  cutaway  37.62- 39.62

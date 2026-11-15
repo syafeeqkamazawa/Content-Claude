@@ -1,0 +1,423 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 50%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 15 Nov: voiceover video shaped like the owner's 'Video contoh'; caption kept; motion text in the product's tile theme.",
+ "_note": "SuperSave Alas Kaki Dapur #2 — voiceover video. Sound: Recorder 20261115-1513.m4a (best take of each point). Picture: VID_20261115_113747, 113948, 114541, 114641, 114747, 114834, 114930, 114959 (every clip used) cut to the words, plus cutaways from the same clips. 'Video contoh.mp4' = the owner's reference for the shape (not used as footage); the screenshot is reference only. Dropped: rec1513: the first 'bila pakai tu memang selesa sebab tak licin and anti-slip, tengok ni' (13.4-18.9) and its retakes 'bila pakai tu memang selesa weh' / 'bila (korang) jalan atas alas ni' (21-42; the complete take at 42.8 is kept), the false start 'lawa' (54.4), the CTA retakes 'so korang harga tengah murah tau, corak cantik-cantik ...' (67-84) and 'tekan beg kuning (kat bawah ni) sekarang, sementara harga masih murah' (88.5-110; the last take is kept); the eight clips: their own audio (no speech). No price; promo in his words.",
+ "segments": [
+  {
+   "id": "V1",
+   "in": 0.0,
+   "out": 3.36,
+   "text": "Tak payah beli mahal-mahal, beli murah macam ni je.",
+   "note": "HOOK",
+   "zoom": 1.0
+  },
+  {
+   "id": "V2",
+   "in": 3.36,
+   "out": 10.4,
+   "text": "Anti-slip, serap air, dia ada tiga saiz tau, saiz L, saiz M dan saiz S. Corak ni cantik-cantik tau.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "V3",
+   "in": 10.4,
+   "out": 12.86,
+   "text": "Yang saya punya ni code Moroccan Mix.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "V4",
+   "in": 12.86,
+   "out": 20.35,
+   "text": "Bila korang jalan je atas alas ni, memang selesa weh, sebab tak licin, and anti-slip juga tau. Tengok ni.",
+   "note": "complete take after the retakes",
+   "zoom": 1.06
+  },
+  {
+   "id": "V5",
+   "in": 20.35,
+   "out": 22.94,
+   "text": "Saya gerak-gerakkan pun memang tak bergerak terus.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "V6",
+   "in": 22.94,
+   "out": 25.59,
+   "text": "Ada yang ni, terus lawa ruang dapur weh.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "V7",
+   "in": 25.59,
+   "out": 32.22,
+   "text": "Penyerapan dia pun pantas tau, kalau kena air, terus serap air macam ni. Bahagian belakang pun tak tembus tau.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "V8",
+   "in": 32.22,
+   "out": 36.26,
+   "text": "So korang, harga tengah murah tau, macam-macam corak ada, semua cantik-cantik.",
+   "note": "CTA take 6",
+   "zoom": 1.06
+  },
+  {
+   "id": "V9",
+   "in": 36.26,
+   "out": 39.62,
+   "text": "Tekan beg kuning kat bawah ni sekarang, sementara harga tu masih murah.",
+   "note": "CTA — last take",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "TAK PAYAH BELI MAHAL-MAHAL",
+   "hi": [
+    "MAHAL-MAHAL"
+   ],
+   "from": [
+    "V1",
+    "start"
+   ],
+   "to": [
+    "V1",
+    "end"
+   ],
+   "anim": "zoom",
+   "top": 640,
+   "size": 96
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "V2",
+    "start"
+   ],
+   "to": [
+    "V2",
+    "dia"
+   ],
+   "src": 34.574,
+   "note": "flipping the mat: the rubber base",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "V2",
+    "corak"
+   ],
+   "to": [
+    "V2",
+    "end"
+   ],
+   "src": 96.533,
+   "note": "the tile pattern close up",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "V4",
+    "anti-slip"
+   ],
+   "to": [
+    "V4",
+    "end"
+   ],
+   "src": 35.574,
+   "note": "a hand on the rubber base",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "V7",
+    "bahagian"
+   ],
+   "to": [
+    "V7",
+    "end"
+   ],
+   "src": 121.441,
+   "note": "the base after the water: dry",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "V9",
+    "sementara"
+   ],
+   "to": [
+    "V9",
+    "end"
+   ],
+   "src": 26.972,
+   "note": "the mat laid down in the kitchen",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#111111",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "supersave"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "tags",
+   "from": [
+    "V2",
+    "start"
+   ],
+   "to": [
+    "V2",
+    "corak"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "ANTI-SLIP",
+     "at": [
+      "V2",
+      "start"
+     ]
+    },
+    {
+     "text": "SERAP AIR",
+     "at": [
+      "V2",
+      "serap"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tags",
+   "from": [
+    "V2",
+    "saiz#2"
+   ],
+   "to": [
+    "V2",
+    "corak"
+   ],
+   "y": 420,
+   "cols": 3,
+   "x0": 60,
+   "dx": 330,
+   "items": [
+    {
+     "text": "SAIZ L",
+     "at": [
+      "V2",
+      "saiz#2"
+     ]
+    },
+    {
+     "text": "SAIZ M",
+     "at": [
+      "V2",
+      "saiz#3"
+     ]
+    },
+    {
+     "text": "SAIZ S",
+     "at": [
+      "V2",
+      "saiz#4"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V2",
+    "corak"
+   ],
+   "to": [
+    "V2",
+    "end"
+   ],
+   "text": "CORAK CANTIK-CANTIK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "V3",
+    "start"
+   ],
+   "to": [
+    "V3",
+    "end"
+   ],
+   "title": "CODE CORAK",
+   "value": "MOROCCAN MIX",
+   "sub": "YANG SAYA PUNYA",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V4",
+    "memang"
+   ],
+   "to": [
+    "V4",
+    "anti-slip"
+   ],
+   "text": "SELESA, TAK LICIN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V4",
+    "anti-slip"
+   ],
+   "to": [
+    "V4",
+    "end"
+   ],
+   "text": "ANTI-SLIP",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V5",
+    "start"
+   ],
+   "to": [
+    "V5",
+    "end"
+   ],
+   "text": "TAK BERGERAK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V6",
+    "terus"
+   ],
+   "to": [
+    "V6",
+    "end"
+   ],
+   "text": "TERUS LAWA RUANG DAPUR",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "V7",
+    "start"
+   ],
+   "to": [
+    "V7",
+    "bahagian"
+   ],
+   "title": "PENYERAPAN",
+   "value": "PANTAS",
+   "sub": "KENA AIR, TERUS SERAP",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "pill",
+   "from": [
+    "V7",
+    "bahagian"
+   ],
+   "to": [
+    "V7",
+    "end"
+   ],
+   "text": "BELAKANG TAK TEMBUS",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "V8",
+    "start"
+   ],
+   "to": [
+    "V9",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA TENGAH MURAH",
+   "sub": "MACAM-MACAM CORAK ADA",
+   "y": 760
+  }
+ ],
+ "fx_theme": "tile"
+}
