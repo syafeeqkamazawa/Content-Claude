@@ -15,10 +15,10 @@ def bt(clip, t):
     return round(BI[clip]["offset"] + t - BI[clip]["in"], 3)
 
 
-FIX = {"bag": "beg", "bagi": "beg", "baik": "beg", "nampakkan": "dapatkan", "halu": "hala", "jeli": "jelly", "biotix": "Biotix", "triple": "Triple", "diharung,": "harung,", "for": "FOMO"}
-DROPW = {"aa", "ha", "hmm", "eh"}
-REDO = []
-SKIP = []
+FIX = {"bag": "beg", "bagi": "beg", "baik": "beg", "nampakkan": "dapatkan", "halu": "hala", "jeli": "jelly", "biotix": "Biotix", "triple": "Triple", "diharung": "harung", "for": "FOMO"}
+DROPW = {"aa", "ha", "hmm", "eh", "more"}
+REDO = [(7.0, 17.0)]   # .media/wl-fix.txt re-times the hook (whisper missed it)
+SKIP = [(87.2, 88.1), (80.9, 81.3), (165.3, 165.7), (194.7, 195.0), (141.8, 142.3), (145.4, 145.8)]   # words of dropped speech
 
 
 def words(path, offset=0.0):
@@ -34,11 +34,14 @@ def words(path, offset=0.0):
             if out and w.startswith('-'):   # whisper splits 'biasa-biasa', 'siap-siap', 'pagi-pagi' at the hyphen
                 pw, ps, _ = out.pop()
                 w, s = pw + w, ps
+            elif out and core.lower() == "biotix" and out[-1][0].lower() in ("pro", "pre", "post"):   # 'Pro Biotix' -> 'probiotik'
+                pw, ps, _ = out.pop()
+                w, s = pw.lower() + "biotik" + w[len(core):], ps
             out.append((w, s, e))
     return out
 
 
-SW = {"m": words(".media/wl-113459.txt")}
+SW = {"m": sorted([w for w in words(".media/wl-113459.txt") if not any(a <= w[1] < b for a, b in REDO + SKIP)] + words(".media/wl-fix.txt"), key=lambda x: x[1])}
 tr, used = [], set()
 for lid, d in L.items():
     acc = d["e0"]
@@ -54,12 +57,12 @@ TR = json.dumps(tr, ensure_ascii=False)
 
 NOTES = {"L1": "HOOK — 113459 8-17", "L5": "his own use (3rd-4th box)", "L8": "eats one (kept through the bite)", "L11": "CTA (143 + 196)"}
 segs = [seg(lid, d["e0"], d["e1"], d["text"], NOTES.get(lid, "")) for lid, d in L.items()]
-AI = {"A1": (["L1", "eloklah"], ["L1", "usus"], "AI: a Malaysian man in his forties jogging in a park (aurat-safe)"),
+AI = {"A1": (["L1", "usus"], ["L1", "end"], "AI: a Malaysian man in his forties jogging in a park (aurat-safe)"),
       "A2": (["L2", "makanan"], ["L2", "end"], "AI: night-market stall with trendy street food, a man holding a viral snack (aurat-safe)"),
       "A3": (["L3", "pemakanan"], ["L3", "end"], "AI: a late-night table of fast food (no people)"),
       "A4": (["L7", "rasa#2"], ["L7", "end"], "AI: mixed berries and fruit jelly cubes (no people)")}
 photos = [{"id": k, "from": f, "to": t, "note": n} for k, (f, t, n) in AI.items() if (P / f"assets/photos/{k}.jpg").exists()]
-photos += [{"id": "P1", "from": ["L6", "dia#3"], "to": ["L6", "probiotik"], "ai": False, "note": "listing photo: box and sachet (from lab-biotix-2)"},
+photos += [{"id": "P1", "from": ["L6", "triple"], "to": ["L6", "probiotik"], "ai": False, "note": "listing photo: box and sachet (from lab-biotix-2)"},
            {"id": "P2", "from": ["L6", "probiotik"], "to": ["L6", "end"], "ai": False, "note": "listing photo: two boxes with berries (from lab-biotix-2)"}]
 write(P, 3, "VID_20261118_113459 (tools/prep.py)", segs, zoom=1.0, origin="50% 40%",
       broll=[cu("C1", ["L4", "local"], ["L4", "end"], bt("110857", 4.5), "50% 50%", (1.0, 1.06), "the box front on the grass"),
@@ -68,7 +71,7 @@ write(P, 3, "VID_20261118_113459 (tools/prep.py)", segs, zoom=1.0, origin="50% 4
              cu("C4", ["L11", "start"], ["L11", "so"], bt("110857", 50.0), "50% 50%", (1.0, 1.05), "the box with the sachets on the grass")]
             + ([] if (P / "assets/photos/A4.jpg").exists() else [cu("C5", ["L7", "rasa#2"], ["L7", "end"], bt("110857", 29.0), "50% 50%", (1.0, 1.05), "sachets on the grass")]),
       photos=photos,
-      kps=[kp("DAH MASUK 40-AN?", ["40-AN?"], ["L1", "start"], ["L1", "eloklah"], "zoom", 150, 100)],
+      kps=[kp("DAH MASUK 40-AN?", ["40-AN?"], ["L1", "start"], ["L1", "usus"], "zoom", 150, 100)],
       note_extra=" 18 Nov: talking kept; caption kept; motion text in the Lab Biotix theme; realistic AI visuals where needed.")
 (P / 'data/transcript-a.json').write_text(TR)
 e = json.loads((P / 'data/edl.json').read_text())
@@ -84,10 +87,10 @@ e["fx"] = [
     {"type": "tags", "from": ["L6", "probiotik"], "to": ["L6", "end"], "y": 140, "cols": 1, "x0": 60, "dx": 0, "items": [
         {"text": "PROBIOTIK", "at": ["L6", "probiotik"]}, {"text": "PREBIOTIK", "at": ["L6", "prebiotik"]},
         {"text": "POSTBIOTIK", "at": ["L6", "postbiotik"]}]},
-    {"type": "pill", "from": ["L7", "start"], "to": ["L7", "end"], "text": "RASA JELLY, SENANG MAKAN", "x": 60, "y": 250},
-    {"type": "pill", "from": ["L9", "ambil#2"], "to": ["L9", "end"], "text": "AMBIL IKUT DOS", "x": 60, "y": 1040},
+    {"type": "pill", "from": ["L7", "start"], "to": ["L7", "end"], "text": "RASA JELLY, SENANG MAKAN", "x": 60, "y": 1040},
+    {"type": "pill", "from": ["L9", "ambil"], "to": ["L9", "end"], "text": "AMBIL IKUT DOS", "x": 60, "y": 1040},
     {"type": "dial", "from": ["L10", "10"], "to": ["L10", "end"], "n": 10, "label": "SACHET SEKOTAK", "x": 540, "y": 330},
-    {"type": "promo", "from": ["L11", "start"], "to": ["L11", "end"], "tag": "BEG KUNING", "title": "HARGA TAK MAHAL", "sub": "BELI SEKARANG", "y": 760},
+    {"type": "promo", "from": ["L11", "start"], "to": ["L11", "end"], "tag": "BEG KUNING", "title": "HARGA TAK MAHAL", "sub": "BELI SEKARANG", "y": 900},
 ]
 e["_note"] = ("Lab Biotix Triple Biotix #3 — assets/a.mp4 built by tools/prep.py from VID_20261118_113459 (talking, picture synced). "
               "Cutaways: VID_20261114_110857 (grass B-roll; the owner put it in this folder too), the listing photos P1-P2 and realistic "

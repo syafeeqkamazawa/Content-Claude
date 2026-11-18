@@ -1,0 +1,489 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 40%",
+ "tighten": {
+  "max_pause": 0.6,
+  "keep": 0.25,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 18 Nov: talking kept; caption kept; motion text in the Lab Biotix theme; realistic AI visuals where needed.",
+ "_note": "Lab Biotix Triple Biotix #3 — assets/a.mp4 built by tools/prep.py from VID_20261118_113459 (talking, picture synced). Cutaways: VID_20261114_110857 (grass B-roll; the owner put it in this folder too), the listing photos P1-P2 and realistic AI photos A1-A4 ('ILUSTRASI AI'). Clip -> video: 113459, 110857 -> this video. Dropped: 113459 — TikTok-risk health / medical claims (owner's 5 Nov rule): 'kebanyakan masalah penyakit yang keluar daripada badan kita ni dari usus' (17-29), the symptom list 'kulit kusam, perut kembung, muka bloated / sembab, nafas berbau' (30-54), 'certified', the doctor and the ambassadors who 'mengesahkan triple biotix ni selamat dan efektif' (90-119), 'mencegah, prevention is better than cure' (132.9-137.8), 'kita ikhtiar' (140.6-142.3); unclear: 'tambahkan lagi cluster' (83-88), the dose words 'ambil ... sebelum ...' (184-189); fillers 'insyaAllah, okay' and 'terima kasih'. No price; 'harga pun tak mahal' is his own wording.",
+ "segments": [
+  {
+   "id": "L1",
+   "in": 0.0,
+   "out": 8.19,
+   "text": "Umur dah masuk 40-an ni, eloklah jaga apa yang patut. Usus tu memang kena banyak jaga tau, usus-usus ni.",
+   "note": "HOOK — 113459 8-17",
+   "zoom": 1.0
+  },
+  {
+   "id": "L2",
+   "in": 8.19,
+   "out": 22.89,
+   "text": "Benda ni macam sebagai basic lah, sebab kita pun sedia maklum hari ni, makanan pun banyak dah, orang kata inovasi makanan. Kita pula FOMO, pantang ada makanan pelik-pelik, kita lah yang dulu.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "L3",
+   "in": 22.89,
+   "out": 32.71,
+   "text": "So bila macam tu dah berlaku dalam kita ni, kenalah ada juga benda yang kita kena seimbangkan dengan pemakanan kita yang tak tentu hala tu.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "L4",
+   "in": 32.71,
+   "out": 37.0,
+   "text": "So ni antara salah satu. Ni local brand eh, local brand.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "L5",
+   "in": 37.0,
+   "out": 46.95,
+   "text": "Saya sendiri pun dah, masa ni dia dah kali ketiga sampai keempat saya dah consume, Alhamdulillah. Orang kata memang macam kita punya maintenance lah ni.",
+   "note": "his own use (3rd-4th box)",
+   "zoom": 1.0
+  },
+  {
+   "id": "L6",
+   "in": 46.95,
+   "out": 56.82,
+   "text": "Dengan khasiat dia, dengan kelebihan dia. Tengoklah, dia ada apa? Dia ada triple tau. Probiotik, prebiotik, postbiotik, tiga. Triple Biotix.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "L7",
+   "in": 56.82,
+   "out": 65.11,
+   "text": "Dan rasa dia senang nak makan. Rasa dia jelly-jelly macam tu, macam kita punya jelly je.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "L8",
+   "in": 65.11,
+   "out": 73.05,
+   "text": "Saya tunjukkan sikit, ada bentuk dia. Okay je, sedap. Bismillah.",
+   "note": "eats one (kept through the bite)",
+   "zoom": 1.06
+  },
+  {
+   "id": "L9",
+   "in": 73.05,
+   "out": 77.64,
+   "text": "Kalau ikutkan nak ambil sekali harung, tak boleh. Ambil ikut dos lah.",
+   "note": "",
+   "zoom": 1.0
+  },
+  {
+   "id": "L10",
+   "in": 77.64,
+   "out": 81.66,
+   "text": "Dalam ni ada 10 sachet. 10 sachet, insyaAllah.",
+   "note": "",
+   "zoom": 1.06
+  },
+  {
+   "id": "L11",
+   "in": 81.66,
+   "out": 88.65,
+   "text": "Dapatkan di beg kuning, insyaAllah harga pun tak mahal lah. So boleh, beli dia beg kuning sekarang.",
+   "note": "CTA (143 + 196)",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "DAH MASUK 40-AN?",
+   "hi": [
+    "40-AN?"
+   ],
+   "from": [
+    "L1",
+    "start"
+   ],
+   "to": [
+    "L1",
+    "usus"
+   ],
+   "anim": "zoom",
+   "top": 150,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "L4",
+    "local"
+   ],
+   "to": [
+    "L4",
+    "end"
+   ],
+   "src": 4.5,
+   "note": "the box front on the grass",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "L5",
+    "kali"
+   ],
+   "to": [
+    "L5",
+    "orang"
+   ],
+   "src": 25.0,
+   "note": "a handful of sachets",
+   "push": [
+    1.0,
+    1.06
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "L10",
+    "start"
+   ],
+   "to": [
+    "L10",
+    "end"
+   ],
+   "src": 18.0,
+   "note": "the open box full of sachets",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "L11",
+    "start"
+   ],
+   "to": [
+    "L11",
+    "so"
+   ],
+   "src": 50.0,
+   "note": "the box with the sachets on the grass",
+   "push": [
+    1.0,
+    1.05
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "L1",
+    "usus"
+   ],
+   "to": [
+    "L1",
+    "end"
+   ],
+   "note": "AI: a Malaysian man in his forties jogging in a park (aurat-safe)"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "L2",
+    "makanan"
+   ],
+   "to": [
+    "L2",
+    "end"
+   ],
+   "note": "AI: night-market stall with trendy street food, a man holding a viral snack (aurat-safe)"
+  },
+  {
+   "id": "A3",
+   "from": [
+    "L3",
+    "pemakanan"
+   ],
+   "to": [
+    "L3",
+    "end"
+   ],
+   "note": "AI: a late-night table of fast food (no people)"
+  },
+  {
+   "id": "A4",
+   "from": [
+    "L7",
+    "rasa#2"
+   ],
+   "to": [
+    "L7",
+    "end"
+   ],
+   "note": "AI: mixed berries and fruit jelly cubes (no people)"
+  },
+  {
+   "id": "P1",
+   "from": [
+    "L6",
+    "triple"
+   ],
+   "to": [
+    "L6",
+    "probiotik"
+   ],
+   "ai": false,
+   "note": "listing photo: box and sachet (from lab-biotix-2)"
+  },
+  {
+   "id": "P2",
+   "from": [
+    "L6",
+    "probiotik"
+   ],
+   "to": [
+    "L6",
+    "end"
+   ],
+   "ai": false,
+   "note": "listing photo: two boxes with berries (from lab-biotix-2)"
+  }
+ ],
+ "theme": {
+  "key": "#3DD3C8",
+  "brand": "#C08BF0"
+ },
+ "brand_words": [
+  "triple",
+  "biotix"
+ ],
+ "keywords": [],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "L1",
+    "usus"
+   ],
+   "to": [
+    "L1",
+    "end"
+   ],
+   "text": "USUS KENA JAGA",
+   "x": 60,
+   "y": 1040
+  },
+  {
+   "type": "tags",
+   "from": [
+    "L2",
+    "inovasi"
+   ],
+   "to": [
+    "L2",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "INOVASI MAKANAN",
+     "at": [
+      "L2",
+      "inovasi"
+     ]
+    },
+    {
+     "text": "FOMO",
+     "at": [
+      "L2",
+      "fomo"
+     ]
+    },
+    {
+     "text": "MAKANAN PELIK-PELIK",
+     "at": [
+      "L2",
+      "pelik-pelik"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "L3",
+    "seimbangkan"
+   ],
+   "to": [
+    "L3",
+    "end"
+   ],
+   "text": "SEIMBANGKAN PEMAKANAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "L4",
+    "local"
+   ],
+   "to": [
+    "L4",
+    "end"
+   ],
+   "title": "LOCAL BRAND",
+   "value": "TRIPLE BIOTIX",
+   "sub": "JENAMA TEMPATAN",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "pill",
+   "from": [
+    "L5",
+    "kali"
+   ],
+   "to": [
+    "L5",
+    "end"
+   ],
+   "text": "DAH KALI KE-4 CONSUME",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "L6",
+    "probiotik"
+   ],
+   "to": [
+    "L6",
+    "end"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "PROBIOTIK",
+     "at": [
+      "L6",
+      "probiotik"
+     ]
+    },
+    {
+     "text": "PREBIOTIK",
+     "at": [
+      "L6",
+      "prebiotik"
+     ]
+    },
+    {
+     "text": "POSTBIOTIK",
+     "at": [
+      "L6",
+      "postbiotik"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "L7",
+    "start"
+   ],
+   "to": [
+    "L7",
+    "end"
+   ],
+   "text": "RASA JELLY, SENANG MAKAN",
+   "x": 60,
+   "y": 1040
+  },
+  {
+   "type": "pill",
+   "from": [
+    "L9",
+    "ambil"
+   ],
+   "to": [
+    "L9",
+    "end"
+   ],
+   "text": "AMBIL IKUT DOS",
+   "x": 60,
+   "y": 1040
+  },
+  {
+   "type": "dial",
+   "from": [
+    "L10",
+    "10"
+   ],
+   "to": [
+    "L10",
+    "end"
+   ],
+   "n": 10,
+   "label": "SACHET SEKOTAK",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "promo",
+   "from": [
+    "L11",
+    "start"
+   ],
+   "to": [
+    "L11",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA TAK MAHAL",
+   "sub": "BELI SEKARANG",
+   "y": 900
+  }
+ ],
+ "fx_theme": "biotix"
+}
