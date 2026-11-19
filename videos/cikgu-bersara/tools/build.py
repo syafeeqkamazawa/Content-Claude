@@ -11,7 +11,8 @@ SEQ = json.loads((P / "data/sequence.json").read_text())
 N = sum(1 for x in SEQ if x["type"] == "photo")
 NC = len(SEQ) - N
 DUR = [PHOTO if x["type"] == "photo" else CARD for x in SEQ]
-TOTAL = round(TITLE + sum(DUR) + END, 3)
+VID = 17.95   # assets/end.mp4 (owner 19 Nov: the extra clip at the very end)
+TOTAL = round(TITLE + sum(DUR) + END + VID, 3)
 
 
 def q(t): return round(round(t * FPS) / FPS, 4)
@@ -70,7 +71,8 @@ for i, s in enumerate(SEQ):
 
 # closing card
 c0 = q(t_cur)
-dom.append(f'<div id="end" class="clip card" data-start="{c0}" data-duration="{q(TOTAL - c0)}" data-track-index="6">'
+V0 = q(c0 + END)
+dom.append(f'<div id="end" class="clip card" data-start="{c0}" data-duration="{q(V0 + XF - c0)}" data-track-index="6">'
            '<div class="card-in" id="end-in"><div class="script big" id="e-s">Selamat Bersara</div><div class="rule" id="e-r"></div>'
            '<div class="sub" id="e-1">Terima kasih atas ilmu, kasih sayang dan pengorbanan, Cikgu.</div>'
            '<div class="sub2" id="e-2">SMK Perempuan Pudu &nbsp;·&nbsp; SMK Abdul Jalil &nbsp;·&nbsp; SMK Bandar Tun Hussein Onn 2 &nbsp;·&nbsp; SMK Taman Jasmin 2</div>'
@@ -81,8 +83,11 @@ js += [f'tl.fromTo("#end", {{ opacity: 0 }}, {{ opacity: 1, duration: 1.0, ease:
        f'tl.fromTo("#e-1", {{ opacity: 0, y: 16 }}, {{ opacity: 1, y: 0, duration: 1.0, ease: "power2.out" }}, {q(c0 + 2.1)});',
        f'tl.fromTo("#e-2", {{ opacity: 0, y: 16 }}, {{ opacity: 1, y: 0, duration: 1.0, ease: "power2.out" }}, {q(c0 + 2.7)});',
        f'tl.fromTo("#e-3", {{ opacity: 0, y: 16 }}, {{ opacity: 1, y: 0, duration: 1.0, ease: "power2.out" }}, {q(c0 + 3.2)});',
-       f'tl.fromTo("#end-in", {{ scale: 1 }}, {{ scale: 1.04, duration: {q(TOTAL - c0)}, ease: "none", immediateRender: false }}, {c0});',
-       f'tl.to("#end-in", {{ opacity: 0, duration: 1.6, ease: "sine.in" }}, {q(TOTAL - 1.7)});']
+       f'tl.fromTo("#end-in", {{ scale: 1 }}, {{ scale: 1.04, duration: {q(V0 + XF - c0)}, ease: "none", immediateRender: false }}, {c0});']
+dom.append(f'<video id="endvid" class="clip" src="assets/end.mp4" playsinline data-has-audio="true" data-start="{V0}" data-duration="{q(TOTAL - V0)}" data-media-start="0" data-track-index="8" data-volume="1" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover"></video>')
+dom.append(f'<div id="vfade" class="clip" data-start="{V0}" data-duration="{q(TOTAL - V0)}" data-track-index="9" style="position:absolute;inset:0;background:#000;opacity:0"></div>')
+js += [f'tl.fromTo("#endvid", {{ opacity: 0 }}, {{ opacity: 1, duration: {XF}, ease: "sine.inOut" }}, {V0});',
+       f'tl.to("#vfade", {{ opacity: 1, duration: 1.2, ease: "sine.in" }}, {q(TOTAL - 1.3)});']
 
 dom.append(f'<audio id="music" class="clip" src="assets/music.m4a" data-start="0" data-duration="{TOTAL}" data-track-index="10" data-volume="1"></audio>')
 
@@ -142,5 +147,5 @@ page = f"""<!doctype html>
 </html>
 """
 (P / "index.html").write_text(page)
-(P / "data/timeline.json").write_text(json.dumps({"total": TOTAL, "photos": N, "title": TITLE, "photo": PHOTO, "end": END}, indent=1))
+(P / "data/timeline.json").write_text(json.dumps({"total": TOTAL, "video_start": V0, "photos": N, "title": TITLE, "photo": PHOTO, "end": END}, indent=1))
 print("TOTAL", TOTAL, "photos", N)

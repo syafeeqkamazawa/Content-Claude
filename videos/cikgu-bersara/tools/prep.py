@@ -53,6 +53,14 @@ SEQ = [
     ("06.jpg", "", "Syawal di SMK Taman Jasmin 2"),
     ("07.jpg", "", "Rakan sekerja, rakan seperjuangan"),
     ("08.jpg", "", "Senyum yang dirindui"),
+    ("n08.jpg", "", "Taman Puteri Jasmin"),
+    ("n02.jpg", "", "Teman sejiwa di SMK Taman Jasmin 2"),
+    ("n01.jpg", "", "Duduk bersama, berkongsi cerita"),
+    ("n03.jpg", "", "We love TJ2"),
+    ("n05.jpg", "", "Keluarga besar warga guru"),
+    ("n06.jpg", "", "Jamuan bersama rakan-rakan"),
+    ("n07.jpg", "", "Kenangan di meja makan"),
+    ("n04.jpg", "", "Tanda kasih seorang sahabat"),
     ("04.jpg", "", "Kenangan bersama"),
     ("02.jpg", "", "Gelak tawa di sekolah"),
     ("03.jpg", "", "Sahabat sepanjang jalan"),
@@ -143,15 +151,28 @@ def main():
             seq.append({"type": "photo", "file": f"assets/photos/{n:02d}.jpg", "src": src, "chapter": a, "caption": b})
             n += 1
     (P / "data/sequence.json").write_text(json.dumps(seq, indent=1, ensure_ascii=False))
+    # owner 19 Nov: the extra clip VID_20261119_123949 goes at the very end; its own sound kept (lifted), music ducked
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(P / "src/end.mp4"), "-filter_complex",
+                    "[0:v]split[a][b];[a]scale=1920:1080:force_original_aspect_ratio=increase,crop=1920:1080,gblur=sigma=30,eq=brightness=-0.12[bg];"
+                    "[b]scale=-2:1080[fg];[bg][fg]overlay=(W-w)/2:0,fps=60,format=yuv420p[v];"
+                    "[0:a]highpass=f=80,volume=12dB,alimiter=limit=0.8,afade=t=in:d=0.4,afade=t=out:st=17.2:d=0.7[au]",
+                    "-map", "[v]", "-map", "[au]", "-c:v", "libx264", "-preset", "fast", "-crf", "16", "-g", "30",
+                    "-c:a", "aac", "-b:a", "192k", str(P / "assets/end.mp4")], check=True)
     # music: the song (0-73.3 s) three times with 2.5 s crossfades, cut to the video length, faded out
     T = json.loads((P / "data/timeline.json").read_text()) if (P / "data/timeline.json").exists() else None
     total = T["total"] if T else 180.0
+    vs = T.get("video_start", total - 18) if T else total - 18
     m = str(P / "src/music.mp4")
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", m, "-i", m, "-i", m, "-filter_complex",
-                    "[0:a]atrim=0:73.3,asetpts=PTS-STARTPTS[a];[1:a]atrim=0:73.3,asetpts=PTS-STARTPTS[b];[2:a]atrim=0:73.3,asetpts=PTS-STARTPTS[c];"
-                    "[a][b]acrossfade=d=2.5:c1=tri:c2=tri[ab];[ab][c]acrossfade=d=2.5:c1=tri:c2=tri,"
-                    f"apad,atrim=0:{total},afade=t=in:d=0.6,afade=t=out:st={total - 7.5}:d=5,"
-                    "volume=-3dB,alimiter=limit=0.9[m]", "-map", "[m]", "-c:a", "aac", "-b:a", "256k", str(P / "assets/music.m4a")], check=True)
+    loops = 4   # the song is 73.3 s; enough copies for the whole video
+    fc = ";".join(f"[{k}:a]atrim=0:73.3,asetpts=PTS-STARTPTS[s{k}]" for k in range(loops))
+    prev = "s0"
+    for k in range(1, loops):
+        fc += f";[{prev}][s{k}]acrossfade=d=2.5:c1=tri:c2=tri[x{k}]"; prev = f"x{k}"
+    fc += (f";[{prev}]atrim=0:{total},afade=t=in:d=0.6,"
+           f"volume='if(lt(t,{vs}),1,if(lt(t,{vs}+1.5),1-0.78*(t-{vs})/1.5,0.22))':eval=frame,afade=t=out:st={total - 3.5}:d=3,"
+           "volume=-3dB,alimiter=limit=0.9[m]")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", *sum((["-i", m] for _ in range(loops)), []), "-filter_complex", fc,
+                    "-map", "[m]", "-c:a", "aac", "-b:a", "256k", str(P / "assets/music.m4a")], check=True)
     print(n, "photos,", len(seq) - n, "info cards")
 
 

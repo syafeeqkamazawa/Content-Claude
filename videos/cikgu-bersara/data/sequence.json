@@ -304,69 +304,125 @@
  {
   "type": "photo",
   "file": "assets/photos/32.jpg",
+  "src": "n08.jpg",
+  "chapter": "",
+  "caption": "Taman Puteri Jasmin"
+ },
+ {
+  "type": "photo",
+  "file": "assets/photos/33.jpg",
+  "src": "n02.jpg",
+  "chapter": "",
+  "caption": "Teman sejiwa di SMK Taman Jasmin 2"
+ },
+ {
+  "type": "photo",
+  "file": "assets/photos/34.jpg",
+  "src": "n01.jpg",
+  "chapter": "",
+  "caption": "Duduk bersama, berkongsi cerita"
+ },
+ {
+  "type": "photo",
+  "file": "assets/photos/35.jpg",
+  "src": "n03.jpg",
+  "chapter": "",
+  "caption": "We love TJ2"
+ },
+ {
+  "type": "photo",
+  "file": "assets/photos/36.jpg",
+  "src": "n05.jpg",
+  "chapter": "",
+  "caption": "Keluarga besar warga guru"
+ },
+ {
+  "type": "photo",
+  "file": "assets/photos/37.jpg",
+  "src": "n06.jpg",
+  "chapter": "",
+  "caption": "Jamuan bersama rakan-rakan"
+ },
+ {
+  "type": "photo",
+  "file": "assets/photos/38.jpg",
+  "src": "n07.jpg",
+  "chapter": "",
+  "caption": "Kenangan di meja makan"
+ },
+ {
+  "type": "photo",
+  "file": "assets/photos/39.jpg",
+  "src": "n04.jpg",
+  "chapter": "",
+  "caption": "Tanda kasih seorang sahabat"
+ },
+ {
+  "type": "photo",
+  "file": "assets/photos/40.jpg",
   "src": "04.jpg",
   "chapter": "",
   "caption": "Kenangan bersama"
  },
  {
   "type": "photo",
-  "file": "assets/photos/33.jpg",
+  "file": "assets/photos/41.jpg",
   "src": "02.jpg",
   "chapter": "",
   "caption": "Gelak tawa di sekolah"
  },
  {
   "type": "photo",
-  "file": "assets/photos/34.jpg",
+  "file": "assets/photos/42.jpg",
   "src": "03.jpg",
   "chapter": "",
   "caption": "Sahabat sepanjang jalan"
  },
  {
   "type": "photo",
-  "file": "assets/photos/35.jpg",
+  "file": "assets/photos/43.jpg",
   "src": "05.jpg",
   "chapter": "",
   "caption": "Detik-detik terakhir di sekolah"
  },
  {
   "type": "photo",
-  "file": "assets/photos/36.jpg",
+  "file": "assets/photos/44.jpg",
   "src": "09.jpg",
   "chapter": "",
   "caption": "Kasih yang ditinggalkan"
  },
  {
   "type": "photo",
-  "file": "assets/photos/37.jpg",
+  "file": "assets/photos/45.jpg",
   "src": "11.jpg",
   "chapter": "",
   "caption": "Majlis Persaraan"
  },
  {
   "type": "photo",
-  "file": "assets/photos/38.jpg",
+  "file": "assets/photos/46.jpg",
   "src": "IMG_0014.jpg",
   "chapter": "31 Oktober 2026",
   "caption": "Meraikan kejayaan anak"
  },
  {
   "type": "photo",
-  "file": "assets/photos/39.jpg",
+  "file": "assets/photos/47.jpg",
   "src": "13.jpg",
   "chapter": "5 November 2026",
   "caption": "Punch card terakhir — 29 tahun 3 bulan 4 hari berkhidmat"
  },
  {
   "type": "photo",
-  "file": "assets/photos/40.jpg",
+  "file": "assets/photos/48.jpg",
   "src": "14.jpg",
   "chapter": "",
   "caption": "Terima kasih, Cikgu Zaiton"
  },
  {
   "type": "photo",
-  "file": "assets/photos/41.jpg",
+  "file": "assets/photos/49.jpg",
   "src": "01.jpg",
   "chapter": "",
   "caption": "Kini masa untuk keluarga tercinta"
