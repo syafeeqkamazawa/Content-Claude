@@ -15,6 +15,8 @@ W, H = 1920, 1080
 
 # (source file, chapter shown above the caption or "", caption) — chronological
 SEQ = [
+    ("CARD", "biodata", ""),
+    ("CARD", "didik", ""),
     ("IMG_0001.jpg", "1990 – 1991", "Kolej Islam Sultan Alam Shah — rakan sekelas yang kelak menjadi teman hidup"),
     ("IMG_0002.jpg", "", "Kenangan zaman belajar"),
     ("IMG_0006.jpg", "1992 – 1995", "Ijazah Sarjana Muda Sastera (Pengajian Islam & Sejarah)"),
@@ -26,8 +28,10 @@ SEQ = [
     ("IMG_0004.jpg", "", "Universiti Malaya, 1996"),
     ("IMG_0011.jpg", "", "Kejayaan yang dikongsi bersama keluarga"),
     ("IMG_0026.jpg", "", "Restu keluarga"),
+    ("CARD", "nikah", ""),
     ("scan.jpg", "24 November 1996", "Hari bahagia bersama Mohamad Rizal bin Long"),
     ("IMG_0005.jpg", "", "Memulakan hidup berdua"),
+    ("CARD", "khidmat", ""),
     ("IMG_0017.jpg", "1997 – 2001", "SMK Perempuan Pudu, Kuala Lumpur — permulaan kerjaya sejak 1 Ogos 1997"),
     ("IMG_0021.jpg", "", "Anak-anak murid pertama"),
     ("IMG_0010.jpg", "", "Ibu kepada anak-anak tercinta"),
@@ -43,7 +47,9 @@ SEQ = [
     ("15.jpg", "2018 – 2026", "SMK Taman Jasmin 2"),
     ("16.jpg", "", "Semangat yang tidak pernah pudar"),
     ("12.jpg", "", "Bersama anak-anak murid"),
+    ("CARD", "sumbang", ""),
     ("IMG_0027.jpg", "2022", "Anugerah Perkhidmatan Cemerlang sekali lagi"),
+    ("CARD", "anugerah", ""),
     ("06.jpg", "", "Syawal di SMK Taman Jasmin 2"),
     ("07.jpg", "", "Rakan sekerja, rakan seperjuangan"),
     ("08.jpg", "", "Senyum yang dirindui"),
@@ -58,6 +64,25 @@ SEQ = [
     ("14.jpg", "", "Terima kasih, Cikgu Zaiton"),
     ("01.jpg", "", "Kini masa untuk keluarga tercinta"),
 ]
+
+
+# Info cards — text from the owner's biodata (5_6337059159590053365.docx), owner 19 Nov: "Gunakan info dari Microsoft word
+# sebagai text overlay". (marker, kicker, title, lines, source photo blurred behind the card)
+CARDS = {
+    "biodata": ("Biodata", "Zaiton binti Mat Isa", ["Lahir 5 November 1971", "Kg Belat, Pendang, Kedah", "Anak ke-5 daripada 6 adik-beradik"], "IMG_0009.jpg"),
+    "didik": ("Latar Belakang Pendidikan", "Perjalanan Ilmu", ["SK Pokok Asam, Kubur Panjang  ·  1978 – 1983", "SMA Raudhatul Ulum, Langgar  ·  1984 – 1985",
+              "Maktab Mahmud, Alor Setar  ·  1986 – 1989", "Kolej Islam Sultan Alam Shah (KISAS)  ·  1990 – 1991",
+              "Ijazah Sarjana Muda Sastera (Pengajian Islam & Sejarah)  ·  1992 – 1995", "Diploma Pendidikan  ·  1996"], "IMG_0001.jpg"),
+    "nikah": ("Keluarga", "24 November 1996", ["Bernikah dengan Mohamad Rizal bin Long", "rakan sekelas di KISAS", "Dikurniakan 6 orang cahaya mata"], "scan.jpg"),
+    "khidmat": ("Sejarah Perkhidmatan", "Mula Berkhidmat 1 Ogos 1997", ["SMK Perempuan Pudu, Kuala Lumpur  ·  1997 – 2001", "SMK Abdul Jalil, Hulu Langat  ·  2002 – 2009",
+                "SMK Bandar Tun Hussein Onn 2  ·  2010 – Mac 2018", "SMK Taman Jasmin 2  ·  Mac 2018 – November 2026"], "IMG_0021.jpg"),
+    "sumbang": ("Sumbangan", "Jurulatih & Hakim", ["Jurulatih Bahas Bahasa Melayu Ala Parlimen, Zon Cheras  ·  2005",
+                "Hakim Bahas Ala Parlimen, Zon Cheras  ·  2005 & 2008", "Hakim Pesta Pantun, Zon Cheras  ·  2004",
+                "Hakim Bahas Maal Hijrah Peringkat Negeri Selangor  ·  2010",
+                "Hakim Tadarus & Mahrajan Al-Quran, Hulu Langat  ·  2012, 2013, 2019 & 2020"], "IMG_0023.jpg"),
+    "anugerah": ("Pencapaian", "Anugerah", ["Anugerah Perkhidmatan Cemerlang  ·  2009 & 2022", "Anugerah Kehadiran Terbaik (tanpa MC)  ·  2011, 2016 & 2024",
+                 "Anugerah RPH Terbaik  ·  2022"], "IMG_0027.jpg"),
+}
 
 TRIM = {"IMG_0024.jpg": 0.0, "IMG_0028.jpg": 0.0}   # scans with white margins: trim them
 
@@ -92,20 +117,42 @@ def frame(src, out):
     bg.save(out, quality=92)
 
 
+def card_bg(src, out):
+    im = Image.open(src).convert("RGB")
+    if src.name in TRIM:
+        im = trim_white(im)
+    s = max(W / im.width, H / im.height)
+    bg = im.resize((round(im.width * s), round(im.height * s)), Image.LANCZOS)
+    bg = bg.crop(((bg.width - W) // 2, (bg.height - H) // 2, (bg.width - W) // 2 + W, (bg.height - H) // 2 + H))
+    bg = ImageEnhance.Brightness(ImageEnhance.Color(bg.filter(ImageFilter.GaussianBlur(26))).enhance(0.6)).enhance(0.38)
+    bg.save(out, quality=90)
+
+
 def main():
     out = P / "assets/photos"; out.mkdir(parents=True, exist_ok=True)
-    for i, (src, *_rest) in enumerate(SEQ):
-        frame(P / "src" / src, out / f"{i:02d}.jpg")
-    # music: the song (0-73.3 s) twice with a 2.5 s crossfade, then a fade-out — length set by data/timeline.json
+    for f in out.glob("*.jpg"):
+        f.unlink()
+    seq, n = [], 0
+    for src, a, b in SEQ:
+        if src == "CARD":
+            kick, title, lines, bgsrc = CARDS[a]
+            card_bg(P / "src" / bgsrc, out / f"card-{a}.jpg")
+            seq.append({"type": "card", "id": a, "file": f"assets/photos/card-{a}.jpg", "kicker": kick, "title": title, "lines": lines})
+        else:
+            frame(P / "src" / src, out / f"{n:02d}.jpg")
+            seq.append({"type": "photo", "file": f"assets/photos/{n:02d}.jpg", "src": src, "chapter": a, "caption": b})
+            n += 1
+    (P / "data/sequence.json").write_text(json.dumps(seq, indent=1, ensure_ascii=False))
+    # music: the song (0-73.3 s) three times with 2.5 s crossfades, cut to the video length, faded out
     T = json.loads((P / "data/timeline.json").read_text()) if (P / "data/timeline.json").exists() else None
-    total = T["total"] if T else 146.0
-    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", str(P / "src/music.mp4"), "-i", str(P / "src/music.mp4"), "-filter_complex",
-                    "[0:a]atrim=0:73.3,asetpts=PTS-STARTPTS[a];[1:a]atrim=0:73.3,asetpts=PTS-STARTPTS[b];"
-                    f"[a][b]acrossfade=d=2.5:c1=tri:c2=tri,apad,atrim=0:{total},afade=t=in:d=0.6,afade=t=out:st={total - 7.5}:d=5,"
+    total = T["total"] if T else 180.0
+    m = str(P / "src/music.mp4")
+    subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", m, "-i", m, "-i", m, "-filter_complex",
+                    "[0:a]atrim=0:73.3,asetpts=PTS-STARTPTS[a];[1:a]atrim=0:73.3,asetpts=PTS-STARTPTS[b];[2:a]atrim=0:73.3,asetpts=PTS-STARTPTS[c];"
+                    "[a][b]acrossfade=d=2.5:c1=tri:c2=tri[ab];[ab][c]acrossfade=d=2.5:c1=tri:c2=tri,"
+                    f"apad,atrim=0:{total},afade=t=in:d=0.6,afade=t=out:st={total - 7.5}:d=5,"
                     "volume=-3dB,alimiter=limit=0.9[m]", "-map", "[m]", "-c:a", "aac", "-b:a", "256k", str(P / "assets/music.m4a")], check=True)
-    (P / "data/sequence.json").write_text(json.dumps([{"file": f"assets/photos/{i:02d}.jpg", "src": s, "chapter": c, "caption": t}
-                                                     for i, (s, c, t) in enumerate(SEQ)], indent=1, ensure_ascii=False))
-    print(len(SEQ), "photos")
+    print(n, "photos,", len(seq) - n, "info cards")
 
 
 if __name__ == "__main__":

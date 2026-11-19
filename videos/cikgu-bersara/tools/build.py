@@ -6,10 +6,12 @@ import json, pathlib, html
 
 P = pathlib.Path(__file__).resolve().parents[1]
 FPS, W, H = 60, 1920, 1080
-TITLE, PHOTO, XF, END = 6.0, 3.15, 0.8, 8.6
+TITLE, PHOTO, XF, END, CARD = 6.0, 3.15, 0.8, 8.6, 6.0
 SEQ = json.loads((P / "data/sequence.json").read_text())
-N = len(SEQ)
-TOTAL = round(TITLE + N * PHOTO + END, 3)
+N = sum(1 for x in SEQ if x["type"] == "photo")
+NC = len(SEQ) - N
+DUR = [PHOTO if x["type"] == "photo" else CARD for x in SEQ]
+TOTAL = round(TITLE + sum(DUR) + END, 3)
 
 
 def q(t): return round(round(t * FPS) / FPS, 4)
@@ -30,11 +32,31 @@ js += ['tl.fromTo("#t-k", { opacity: 0, scale: 1.12 }, { opacity: 1, scale: 1, d
        f'tl.fromTo("#title-in", {{ scale: 1 }}, {{ scale: 1.04, duration: {TITLE + XF}, ease: "none", immediateRender: false }}, 0);',
        f'tl.to("#title", {{ opacity: 0, duration: {XF}, ease: "sine.inOut" }}, {q(TITLE)});']
 
+t_cur = TITLE
 for i, s in enumerate(SEQ):
-    t0 = q(TITLE + i * PHOTO)
-    d = q(PHOTO + XF)
-    pid = f"p{i:02d}"
+    t0 = q(t_cur)
+    dur = DUR[i]
+    t_cur += dur
+    d = q(dur + XF)
     side = 1 if i % 2 == 0 else -1
+    if s["type"] == "card":
+        cid = f"c{i:02d}"
+        lines = "".join(f'<div class="ln" id="{cid}-l{k}"><span class="dia"></span>{html.escape(t)}</div>' for k, t in enumerate(s["lines"]))
+        small = " small" if len(s["lines"]) > 4 else ""
+        dom.append(f'<div id="{cid}" class="clip photo" data-start="{t0}" data-duration="{d}" data-track-index="{1 + i % 2}">'
+                   f'<div class="ph" id="{cid}-i" style="background-image:url({s["file"]})"></div>'
+                   f'<div class="info{small}"><div class="kicker" id="{cid}-k">{html.escape(s["kicker"])}</div>'
+                   f'<div class="ititle" id="{cid}-t">{html.escape(s["title"])}</div><div class="rule" id="{cid}-r"></div>{lines}</div></div>')
+        js.append(f'tl.fromTo("#{cid}", {{ opacity: 0 }}, {{ opacity: 1, duration: {XF}, ease: "sine.inOut" }}, {t0});')
+        js.append(f'tl.fromTo("#{cid}-i", {{ scale: 1.0 }}, {{ scale: 1.06, duration: {d}, ease: "none", immediateRender: false }}, {t0});')
+        js.append(f'tl.fromTo("#{cid}-k", {{ opacity: 0, scale: 1.08 }}, {{ opacity: 1, scale: 1, duration: 0.9, ease: "power2.out" }}, {q(t0 + 0.3)});')
+        js.append(f'tl.fromTo("#{cid}-t", {{ opacity: 0, y: 24, filter: "blur(8px)" }}, {{ opacity: 1, y: 0, filter: "blur(0px)", duration: 1.0, ease: "power3.out" }}, {q(t0 + 0.6)});')
+        js.append(f'tl.fromTo("#{cid}-r", {{ scaleX: 0 }}, {{ scaleX: 1, duration: 0.9, ease: "power2.inOut" }}, {q(t0 + 1.0)});')
+        step = min(0.45, 2.6 / max(1, len(s["lines"])))
+        for k in range(len(s["lines"])):
+            js.append(f'tl.fromTo("#{cid}-l{k}", {{ opacity: 0, x: -24 }}, {{ opacity: 1, x: 0, duration: 0.6, ease: "power2.out" }}, {q(t0 + 1.3 + k * step)});')
+        continue
+    pid = f"p{i:02d}"
     chap = f'<div class="chap" id="{pid}-c">{html.escape(s["chapter"])}</div>' if s["chapter"] else ""
     dom.append(f'<div id="{pid}" class="clip photo" data-start="{t0}" data-duration="{d}" data-track-index="{1 + i % 2}">'
                f'<div class="ph" id="{pid}-i" style="background-image:url({s["file"]})"></div>'
@@ -44,10 +66,10 @@ for i, s in enumerate(SEQ):
     if s["chapter"]:
         js.append(f'tl.fromTo("#{pid}-c", {{ opacity: 0, scale: 1.08 }}, {{ opacity: 1, scale: 1, duration: 1.0, ease: "power2.out" }}, {q(t0 + 0.35)});')
     js.append(f'tl.fromTo("#{pid}-t", {{ opacity: 0, y: 14 }}, {{ opacity: 1, y: 0, duration: 0.8, ease: "power2.out" }}, {q(t0 + 0.55)});')
-    js.append(f'tl.to("#{pid}-t", {{ opacity: 0, duration: 0.4, ease: "power1.in" }}, {q(t0 + PHOTO - 0.1)});')
+    js.append(f'tl.to("#{pid}-t", {{ opacity: 0, duration: 0.4, ease: "power1.in" }}, {q(t0 + dur - 0.1)});')
 
 # closing card
-c0 = q(TITLE + N * PHOTO)
+c0 = q(t_cur)
 dom.append(f'<div id="end" class="clip card" data-start="{c0}" data-duration="{q(TOTAL - c0)}" data-track-index="6">'
            '<div class="card-in" id="end-in"><div class="script big" id="e-s">Selamat Bersara</div><div class="rule" id="e-r"></div>'
            '<div class="sub" id="e-1">Terima kasih atas ilmu, kasih sayang dan pengorbanan, Cikgu.</div>'
@@ -87,6 +109,12 @@ html, body {{ width: {W}px; height: {H}px; overflow: hidden; background: #120d09
 .script.big {{ font-size: 190px; }}
 .rule {{ width: 520px; height: 3px; margin: 26px 0 30px; background: linear-gradient(90deg, rgba(231,194,122,0), #E7C27A, rgba(231,194,122,0)); transform-origin: 50% 50%; }}
 .sub {{ font-family: "Playfair Display"; font-size: 44px; color: #FBF6EC; }}
+.info {{ position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; }}
+.ititle {{ font-family: "Great Vibes"; font-size: 120px; line-height: 1.15; color: #F6E7C8; margin-top: 8px; text-shadow: 0 6px 30px rgba(0,0,0,.6); }}
+.ln {{ font-family: "Playfair Display"; font-size: 46px; line-height: 1.35; color: #FBF6EC; margin: 6px 0; text-shadow: 0 2px 14px rgba(0,0,0,.7); display: flex; align-items: center; gap: 22px; }}
+.info.small .ln {{ font-size: 36px; margin: 4px 0; }}
+.info.small .ititle {{ font-size: 104px; }}
+.dia {{ width: 12px; height: 12px; background: #E7C27A; transform: rotate(45deg); flex: none; }}
 .sub2 {{ font-family: "Cormorant Garamond"; font-weight: 600; font-size: 34px; letter-spacing: 2px; color: #D9C29A; margin-top: 16px; }}
 """
 

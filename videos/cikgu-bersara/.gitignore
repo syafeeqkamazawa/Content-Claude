@@ -5,3 +5,4 @@ snapshots/
 node_modules/
 .media/
 assets/music.m4a
+ids.txt
