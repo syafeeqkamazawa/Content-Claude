@@ -1,0 +1,7 @@
+src/
+renders/
+snapshots/
+.hyperframes/
+node_modules/
+.media/
+assets/music.m4a
