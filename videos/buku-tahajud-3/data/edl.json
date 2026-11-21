@@ -1,0 +1,222 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#28144E",
+  "hot": "#C9A0FF"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Buku Hidup Dengan Tahajud #3 — from VID_20261121_120947 1805.3-1850.4 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 2, total 44.58 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 5.85,
+   "text": "buku daripada Idin Ramli, iaitu Hidup Dengan Tahajud, MashaAllah.",
+   "note": "src 1805.30-1811.15",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 5.85,
+   "out": 44.58,
+   "text": "Kadang-kadang kita yang belum biasa kan, bolehlah untuk dah tahu apa itu tahajud, kelebihan dan doa-doa, kaisiat, insyaAllah. Semua ada dalam ini, kan sekelua doa-doa, semua ada tutorial dan info, semua ada MashaAllah. Okey, mana siapa yang belum kata nak belajar-belajar dengan kumpul tahajud boleh dapatkan buku ini by Idina Mli, insyaAllah. Okey, dan juga ada komen daripada Mufriulai Ketuaan juga. So, insyaAllah yang berminat boleh dapatkan di-backuning harga tengah murah ini. Okey, ada pelbagai promosi. Sementara harga masih murah. Okey, boleh dapatkan sekarang.",
+   "note": "src 1811.84-1850.57",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "HIDUP DENGAN TAHAJUD",
+   "hi": [
+    "TAHAJUD"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "kadang-kadang"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "semua"
+   ],
+   "to": [
+    "*",
+    "okey,"
+   ],
+   "src": 19.7,
+   "note": "the book open",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "okey,#3"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 39.7,
+   "note": "the book cover",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "kadang-kadang"
+   ],
+   "to": [
+    "*",
+    "semua"
+   ],
+   "note": "AI: A Malaysian man performing tahajud prayer alone at night on a prayer mat in a dim quiet ro"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "doa-doa,"
+   ],
+   "to": [
+    "*",
+    "okey,"
+   ],
+   "note": "AI: A Malaysian woman in a white telekung making doa with raised hands at night, calm and move"
+  }
+ ],
+ "theme": {
+  "key": "#C9A0FF",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "tahajud"
+ ],
+ "keywords": [
+  "doa-doa",
+  "kelebihan",
+  "tutorial",
+  "info",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "tahajud,"
+   ],
+   "to": [
+    "*",
+    "semua"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "APA ITU TAHAJUD",
+     "at": [
+      "*",
+      "tahajud,"
+     ]
+    },
+    {
+     "text": "KELEBIHAN",
+     "at": [
+      "*",
+      "kelebihan"
+     ]
+    },
+    {
+     "text": "DOA-DOA",
+     "at": [
+      "*",
+      "doa-doa,"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "semua"
+   ],
+   "to": [
+    "*",
+    "okey,"
+   ],
+   "text": "TUTORIAL & INFO LENGKAP",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA MURAH",
+   "sub": "PELBAGAI PROMOSI",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#C9A0FF",
+  "bg": "rgba(40,20,80,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#28144E",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

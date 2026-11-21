@@ -1,0 +1,77 @@
+{
+ "pieces": [
+  [
+   1963.51,
+   1964.4
+  ],
+  [
+   1964.63,
+   1992.43
+  ],
+  [
+   1992.5,
+   1998.6
+  ],
+  [
+   1998.78,
+   2009.07
+  ],
+  [
+   2009.3,
+   2029.58
+  ]
+ ],
+ "total": 65.36,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    1963.51,
+    1964.4
+   ],
+   "e0": 0.0,
+   "e1": 0.89,
+   "text": "masalah,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    1964.63,
+    1992.43
+   ],
+   "e0": 0.89,
+   "e1": 28.69,
+   "text": "perut, kembung tak nak membuang, kulit kusam bloated, muka bloated dan macam-macam masalah lagi berkaitan dengan badan kita, kebanyakannya berkunci daripada usus, untuk masalah-masalah tu boleh dapatkan probiotik plus ni insyaAllah daripada Embora ni dia punya 5 probiotik plus daripada Embora, jangan risau Ada nombor KKM semua, ada halal, semua ada. So, jangan risau, okay? InsyaAllah."
+  },
+  {
+   "id": "S3",
+   "src": [
+    1992.5,
+    1998.6
+   ],
+   "e0": 28.69,
+   "e1": 34.79,
+   "text": "So, dia punya satu botol ni ada kapsul macam ni lah. Dia punya kapsul ni."
+  },
+  {
+   "id": "S4",
+   "src": [
+    1998.78,
+    2009.07
+   ],
+   "e0": 34.79,
+   "e1": 45.08,
+   "text": "Macam tu kan? So, dalam ni ada 30 botol, 30 kapsul. Okay, satu hari satu sahaja. Okay."
+  },
+  {
+   "id": "S5",
+   "src": [
+    2009.3,
+    2029.58
+   ],
+   "e0": 45.08,
+   "e1": 65.36,
+   "text": "sebaik-baiknya ambil bersama makanan. InsyaAllah. So, yang berminat boleh dapatkan sekarang untuk supaya kita punya senang nak membuang dan tambahbaikan kesehatan badan kita. InsyaAllah. Dapatkan segera di beg kuning, sementara harga masih murah."
+  }
+ ]
+}
