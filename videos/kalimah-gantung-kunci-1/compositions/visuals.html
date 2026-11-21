@@ -30,15 +30,15 @@
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
         <div id="fs-A1" class="clip fs" data-start="20.3" data-duration="2.416" data-track-index="4"><div class="fs-in" id="fs-A1-in"><div class="fs-layer" id="fs-A1-bg" style="background-image:url(assets/photos/A1.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-A2" class="clip fs" data-start="36.2" data-duration="2.049" data-track-index="4"><div class="fs-in" id="fs-A2-in"><div class="fs-layer" id="fs-A2-bg" style="background-image:url(assets/photos/A2.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-A2" class="clip fs" data-start="36.2667" data-duration="2.033" data-track-index="4"><div class="fs-in" id="fs-A2-in"><div class="fs-layer" id="fs-A2-bg" style="background-image:url(assets/photos/A2.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
           tl.fromTo("#fs-A1-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 20.3);
           tl.fromTo("#fs-A1-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 2.4167, ease: "sine.inOut", immediateRender: false }, 20.3);
-          tl.fromTo("#fs-A2-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 36.2);
-          tl.fromTo("#fs-A2-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.05, ease: "sine.inOut", immediateRender: false }, 36.2);
+          tl.fromTo("#fs-A2-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 36.2667);
+          tl.fromTo("#fs-A2-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 2.0333, ease: "sine.inOut", immediateRender: false }, 36.2667);
           window.__timelines["visuals"] = tl;
         })();
       </script>

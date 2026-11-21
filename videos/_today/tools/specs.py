@@ -277,7 +277,7 @@ SPECS.update({
             "kp": ("TEMPAT GANTUNG KUNCI", ["KUNCI"], S1, W("okey,"), 200, 100),
             "cut": [(W("ada#2"), W("so,"), 1924.0, "50% 45%", "the hooks and nails"),
                     (W("abang#2"), ["LAST", "end"], 1946.5, "50% 45%", "the key holder held up")],
-            "fx": [pill(W("pecangkuk,"), W("so,"), "SIAP PENYANGKUT & PAKU"),
+            "fx": [pill(W("Penyangkut,"), W("so,"), "SIAP PENYANGKUT & PAKU"),
                    pill(W("tulisan"), W("allah#2"), "TULISAN TIMBUL"),
                    pill(W("tambahkan"), W("dapatkan"), "TAMBAH SERI RUMAH"),
                    promo(None, "HARGA MURAH", "BELI SEKARANG")]},

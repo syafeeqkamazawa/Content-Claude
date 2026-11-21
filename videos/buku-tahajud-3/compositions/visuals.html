@@ -29,16 +29,16 @@
 .inset .fs-tag { left: 10px; bottom: 10px; font-size: 13px; }
 </style>
       <div id="vis-root" data-composition-id="visuals" data-width="1080" data-height="1920">
-        <div id="fs-A1" class="clip fs" data-start="6.0167" data-duration="8.966" data-track-index="4"><div class="fs-in" id="fs-A1-in"><div class="fs-layer" id="fs-A1-bg" style="background-image:url(assets/photos/A1.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
-        <div id="fs-A2" class="clip fs" data-start="12.9167" data-duration="10.149" data-track-index="4"><div class="fs-in" id="fs-A2-in"><div class="fs-layer" id="fs-A2-bg" style="background-image:url(assets/photos/A2.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-A1" class="clip fs" data-start="5.8333" data-duration="8.533" data-track-index="4"><div class="fs-in" id="fs-A1-in"><div class="fs-layer" id="fs-A1-bg" style="background-image:url(assets/photos/A1.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
+        <div id="fs-A2" class="clip fs" data-start="13.2333" data-duration="7.916" data-track-index="4"><div class="fs-in" id="fs-A2-in"><div class="fs-layer" id="fs-A2-bg" style="background-image:url(assets/photos/A2.jpg)"></div></div><div class="fs-tag">ILUSTRASI AI</div></div>
       </div>
       <script>
         (function () {
           const tl = gsap.timeline({ paused: true });
-          tl.fromTo("#fs-A1-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 6.0167);
-          tl.fromTo("#fs-A1-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 8.9667, ease: "sine.inOut", immediateRender: false }, 6.0167);
-          tl.fromTo("#fs-A2-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 12.9167);
-          tl.fromTo("#fs-A2-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 10.15, ease: "sine.inOut", immediateRender: false }, 12.9167);
+          tl.fromTo("#fs-A1-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 5.8333);
+          tl.fromTo("#fs-A1-bg", { scale: 1.1, x: 36, y: 10 }, { scale: 1.2, x: -36, y: -10, duration: 8.5333, ease: "sine.inOut", immediateRender: false }, 5.8333);
+          tl.fromTo("#fs-A2-in", { scale: 1.14, opacity: 0.6 }, { scale: 1.0, opacity: 1, duration: 0.35, ease: "power3.out" }, 13.2333);
+          tl.fromTo("#fs-A2-bg", { scale: 1.1, x: -36, y: 10 }, { scale: 1.2, x: 36, y: -10, duration: 7.9167, ease: "sine.inOut", immediateRender: false }, 13.2333);
           window.__timelines["visuals"] = tl;
         })();
       </script>
