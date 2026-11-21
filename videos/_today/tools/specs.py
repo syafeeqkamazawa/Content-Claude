@@ -374,7 +374,7 @@ AI = {
             ("A2", W("senang"), W("dapatkan#2"), f"A Malaysian woman stretching happily by a sunny window in the morning, light and comfortable. {F}")],
     "p21": [("A1", W("stres"), W("boleh"), f"A stressed Malaysian woman at her work desk late at night holding her head, papers piled up. {F}"),
             ("A2", W("tidur"), W("insyaallah.#2"), f"A Malaysian woman sleeping peacefully under a blanket with a calm face, soft night light. {F}")],
-    "p22": [("A1", W("kusam."), W("buka"), f"A Malaysian woman frowning at her dull tired skin and puffy face in a mirror. {F}"),
+    "p22": [("A1", W("kusam."), W("muka"), f"A Malaysian woman frowning at her dull tired skin and puffy face in a mirror. {F}"),
             ("A2", W("sihat"), W("ok,#3"), f"A healthy happy Malaysian couple laughing together in a park in the morning. {M} {F}")],
 }
 for _k, _v in AI.items():

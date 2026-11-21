@@ -1,0 +1,298 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#062428",
+  "hot": "#2FC1B5"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Infinity Magnesium #1 — from VID_20261121_120947 2047.9-2105.3 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 4, total 57.14 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 19.64,
+   "text": "tengah stres tu, badan stres biasanya disebabkan kortisol tinggi. Badan stres, fikiran pun banyak serabutkan. Boleh bantu dengan gunakan magnesium magnesium ni insyaAllah boleh kurangkan, boleh rendahkan kortisol yang tinggi tu. Boleh bantu badan relax. Nak tidur pun lebih mudah.",
+   "note": "src 2047.99-2067.63",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 19.64,
+   "out": 45.13,
+   "text": "InsyaAllah. So jangan risau semua ada halal pun ada kat sini. Semua ada. Ini daripada Infiniti. Nombor KKM pun ada. So jangan risau. Very-very trusted brand insyaAllah. Yang mana masalah-masalah tu boleh dapat mini-back kuning sekarang. Tengok tablet dia. Yang ni ambil dalam ni ada 60 lah semua ni. 60 tablet ni",
+   "note": "src 2067.67-2093.16",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 45.13,
+   "out": 49.63,
+   "text": "ambil 1 ke 2 tablet lah sehari selepas makan.",
+   "note": "src 2093.24-2097.74",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 49.63,
+   "out": 57.14,
+   "text": "So boleh dapatkan segera di beg kuning dengan harga masih murah boleh check out sekarang.",
+   "note": "src 2097.85-2105.36",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "BADAN STRES?",
+   "hi": [
+    "STRES?"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "boleh"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 104
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "ini"
+   ],
+   "to": [
+    "*",
+    "yang#2"
+   ],
+   "src": 22.6,
+   "note": "the bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "tablet"
+   ],
+   "to": [
+    "*",
+    "60"
+   ],
+   "src": 35.1,
+   "note": "tablets in his palm",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 55%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "so#2"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 52.6,
+   "note": "the bottle held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "stres"
+   ],
+   "to": [
+    "*",
+    "boleh"
+   ],
+   "note": "AI: A stressed Malaysian woman at her work desk late at night holding her head, papers piled u"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "tidur"
+   ],
+   "to": [
+    "*",
+    "insyaallah.#2"
+   ],
+   "note": "AI: A Malaysian woman sleeping peacefully under a blanket with a calm face, soft night light. "
+  }
+ ],
+ "theme": {
+  "key": "#2FC1B5",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "infiniti",
+  "infinity",
+  "magnesium"
+ ],
+ "keywords": [
+  "stres",
+  "kortisol",
+  "relax",
+  "tidur",
+  "kkm",
+  "halal",
+  "60",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "kortisol"
+   ],
+   "to": [
+    "*",
+    "badan#2"
+   ],
+   "text": "KORTISOL TINGGI",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "rendahkan"
+   ],
+   "to": [
+    "*",
+    "boleh#3"
+   ],
+   "text": "RENDAHKAN KORTISOL",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "badan#3"
+   ],
+   "to": [
+    "*",
+    "insyaallah.#2"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "BADAN RELAX",
+     "at": [
+      "*",
+      "relax."
+     ]
+    },
+    {
+     "text": "MUDAH TIDUR",
+     "at": [
+      "*",
+      "tidur"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "kkm"
+   ],
+   "to": [
+    "*",
+    "so#2"
+   ],
+   "text": "NO. KKM & HALAL",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "*",
+    "60"
+   ],
+   "to": [
+    "*",
+    "so#3"
+   ],
+   "title": "SATU BOTOL",
+   "value": "60 TABLET",
+   "sub": "1 - 2 SEHARI SELEPAS MAKAN",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA MURAH",
+   "sub": "CHECK OUT SEKARANG",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#2FC1B5",
+  "bg": "rgba(6,36,40,.88)",
+  "ink": "#FFFFFF",
+  "dark": "#062428",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
