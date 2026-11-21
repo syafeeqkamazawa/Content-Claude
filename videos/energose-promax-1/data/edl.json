@@ -30,7 +30,7 @@
    "id": "S1",
    "in": 0.0,
    "out": 3.48,
-   "text": "yang nak minum air",
+   "text": "Yang nak minum air,",
    "note": "src 1625.14-1628.62",
    "zoom": 1.0
   },
@@ -38,7 +38,7 @@
    "id": "S2",
    "in": 3.48,
    "out": 12.1,
-   "text": "ada extra energy tapi ada flavour, korang boleh ambil Energose daripada Pro Max series ni",
+   "text": "ada extra energy, tapi ada flavor, korang boleh ambil energose daripada Pro Max series ni,",
    "note": "src 1628.70-1637.32",
    "zoom": 1.06
   },
@@ -46,7 +46,7 @@
    "id": "S3",
    "in": 12.1,
    "out": 15.61,
-   "text": "dia orang kata boleh boost energy lah",
+   "text": "dia orang kata boleh boost energy lah,",
    "note": "src 1637.46-1640.97",
    "zoom": 1.0
   },
@@ -54,7 +54,7 @@
    "id": "S4",
    "in": 15.61,
    "out": 22.64,
-   "text": "korang titik je berapa titik lah 1, 2, 3, 4, 5 5 Terima kasih kerana",
+   "text": "korang titik je, berapa titik lah, 1, 2, 3, 4, 5, 5,",
    "note": "src 1641.30-1648.33",
    "zoom": 1.06
   },
@@ -62,7 +62,7 @@
    "id": "S5",
    "in": 22.64,
    "out": 24.77,
-   "text": "Tuhan kacau lah. Tuhan kacau.",
+   "text": "tu korang kacau lah, korang kacau,",
    "note": "src 1648.44-1650.57",
    "zoom": 1.0
   },
@@ -70,7 +70,7 @@
    "id": "S6",
    "in": 24.77,
    "out": 26.9,
-   "text": "Sampai jumpa di video selanjutnya.",
+   "text": "kacau dia,",
    "note": "src 1651.45-1653.58",
    "zoom": 1.06
   },
@@ -78,7 +78,7 @@
    "id": "S7",
    "in": 26.9,
    "out": 27.54,
-   "text": "Terima kasih kerana",
+   "text": "bau",
    "note": "src 1655.38-1656.02",
    "zoom": 1.0
   },
@@ -86,7 +86,7 @@
    "id": "S8",
    "in": 27.54,
    "out": 28.12,
-   "text": "Terima kasih kerana",
+   "text": ".",
    "note": "src 1656.76-1657.34",
    "zoom": 1.06
   },
@@ -94,7 +94,7 @@
    "id": "S9",
    "in": 28.12,
    "out": 30.1,
-   "text": "bawah boleh sekejap.",
+   "text": "dia sedap.",
    "note": "src 1665.94-1667.92",
    "zoom": 1.0
   },
@@ -102,7 +102,7 @@
    "id": "S10",
    "in": 30.1,
    "out": 31.42,
-   "text": "Yang aku",
+   "text": "Ok.",
    "note": "src 1669.38-1670.70",
    "zoom": 1.06
   },
@@ -110,7 +110,7 @@
    "id": "S11",
    "in": 31.42,
    "out": 35.18,
-   "text": "ambil ni, ni ada flavor dia dah.",
+   "text": "Yang aku ambil ni, ni ada flavor dia",
    "note": "src 1671.10-1674.86",
    "zoom": 1.0
   },
@@ -118,7 +118,7 @@
    "id": "S12",
    "in": 35.18,
    "out": 36.77,
-   "text": ".",
+   "text": "dah. Flavor.",
    "note": "src 1675.29-1676.88",
    "zoom": 1.06
   },
@@ -126,7 +126,7 @@
    "id": "S13",
    "in": 36.77,
    "out": 44.92,
-   "text": "Tengok flavor apalah ini, ini Energose pine tropic, ini pineapple punya flavor, bau dia memang.",
+   "text": "Tengok flavor apalah ni. Ini Energose pine tropic. Haa, pineapple. Ok, ni pineapple punya flavor. Bau dia memang.",
    "note": "src 1678.04-1686.19",
    "zoom": 1.0
   },
@@ -134,7 +134,7 @@
    "id": "S14",
    "in": 44.92,
    "out": 45.99,
-   "text": "Oh, boleh.",
+   "text": "bau",
    "note": "src 1686.97-1688.04",
    "zoom": 1.06
   },
@@ -142,7 +142,7 @@
    "id": "S15",
    "in": 45.99,
    "out": 46.94,
-   "text": "Terima kasih kerana",
+   "text": "dia.",
    "note": "src 1689.56-1690.51",
    "zoom": 1.0
   },
@@ -150,7 +150,7 @@
    "id": "S16",
    "in": 46.94,
    "out": 47.82,
-   "text": "Terima kasih kerana",
+   "text": ".",
    "note": "src 1696.28-1697.16",
    "zoom": 1.06
   },
@@ -158,7 +158,7 @@
    "id": "S17",
    "in": 47.82,
    "out": 48.74,
-   "text": "Terima kasih kerana",
+   "text": ".",
    "note": "src 1700.34-1701.26",
    "zoom": 1.0
   },
@@ -166,7 +166,7 @@
    "id": "S18",
    "in": 48.74,
    "out": 49.59,
-   "text": "Terima kasih kerana",
+   "text": ".",
    "note": "src 1702.78-1703.63",
    "zoom": 1.06
   },
@@ -174,7 +174,7 @@
    "id": "S19",
    "in": 49.59,
    "out": 50.25,
-   "text": "Terima kasih kerana",
+   "text": ".",
    "note": "src 1708.79-1709.45",
    "zoom": 1.0
   },
@@ -182,7 +182,7 @@
    "id": "S20",
    "in": 50.25,
    "out": 50.79,
-   "text": "Terima kasih kerana",
+   "text": ".",
    "note": "src 1710.94-1711.48",
    "zoom": 1.06
   },
@@ -190,7 +190,7 @@
    "id": "S21",
    "in": 50.79,
    "out": 51.74,
-   "text": "Terima kasih kerana",
+   "text": ".",
    "note": "src 1713.62-1714.57",
    "zoom": 1.0
   },
@@ -198,7 +198,7 @@
    "id": "S22",
    "in": 51.74,
    "out": 54.86,
-   "text": "Rasa nenas guys, ok? Memang sangat sedap.",
+   "text": "Rasa nenas guys. Ok. Memang sangat sedap.",
    "note": "src 1717.08-1720.20",
    "zoom": 1.06
   },
@@ -206,7 +206,7 @@
    "id": "S23",
    "in": 54.86,
    "out": 55.81,
-   "text": "Terima kasih kerana",
+   "text": ".",
    "note": "src 1722.01-1722.96",
    "zoom": 1.0
   },
@@ -214,7 +214,7 @@
    "id": "S24",
    "in": 55.81,
    "out": 60.98,
-   "text": "rasa nenas guys memang sangat best",
+   "text": "Rasa nenas guys Memang sangat best",
    "note": "src 1726.68-1731.85",
    "zoom": 1.06
   },
@@ -222,7 +222,7 @@
    "id": "S25",
    "in": 60.98,
    "out": 66.36,
-   "text": "boleh dapatkan beg kuning saya datang buat harga promo boleh check out sekarang",
+   "text": "Boleh dapatkan di beg kuning Saya tengah Buat harga promo Boleh check out sekarang",
    "note": "src 1732.33-1737.71",
    "zoom": 1.0
   }
@@ -274,7 +274,7 @@
    ],
    "to": [
     "*",
-    "tuhan"
+    "tu"
    ],
    "src": 38.0,
    "note": "drops into the water",
@@ -370,7 +370,7 @@
    ],
    "to": [
     "*",
-    "tuhan"
+    "tu"
    ],
    "text": "TITIK DALAM AIR",
    "x": 60,
