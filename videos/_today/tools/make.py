@@ -105,7 +105,8 @@ def main(key, media=True):
     P = T.parent / spec["slug"]
     if not P.exists():
         shutil.copytree(T / "tpl", P)
-    shutil.copy(T / "tpl/tools/build.py", P / "tools/build.py")   # keep every project on the latest template
+    for f in ("build.py", "plx.sh", "plx_plate.py"):
+        shutil.copy(T / "tpl/tools" / f, P / "tools" / f)   # keep every project on the latest template
     for d in ("data", ".media", "assets"):
         (P / d).mkdir(exist_ok=True)
     (P / "meta.json").write_text(json.dumps({"id": spec["slug"], "name": spec["slug"], "createdAt": "2026-11-21T05:00:00.000Z"}, indent=2))
@@ -161,7 +162,8 @@ def main(key, media=True):
              for k, (f, to, src, origin, note) in enumerate(spec.get("cut", []))]
     k0 = spec["kp"]
     write(P, 1, f"VID_20261121_120947 {a0}-{spec['range'][1]} s (videos/_today/tools/make.py)", segs, zoom=1.0, origin="50% 42%",
-          broll=broll, kps=[kp(k0[0], k0[1], k0[2], k0[3], "zoom", k0[4] if len(k0) > 4 else 200, k0[5] if len(k0) > 5 else 100)],
+          broll=broll, photos=[{"id": pid, "from": f, "to": to, "note": "AI: " + pr[:90]} for pid, f, to, pr in spec.get("ai", [])
+                               if (P / f"assets/photos/{pid}.jpg").exists()], kps=[kp(k0[0], k0[1], k0[2], k0[3], "zoom", k0[4] if len(k0) > 4 else 200, k0[5] if len(k0) > 5 else 100)],
           note_extra=" 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.")
     (P / "data/transcript-a.json").write_text(json.dumps(tr, ensure_ascii=False))
     e = json.loads((P / "data/edl.json").read_text())
