@@ -1,147 +1,49 @@
 {
  "pieces": [
   [
-   352.95,
-   359.6
-  ],
-  [
-   359.61,
-   368.4
-  ],
-  [
-   368.41,
+   352.76,
    379.31
   ],
   [
-   379.51,
-   380.33
-  ],
-  [
-   380.41,
-   390.38
-  ],
-  [
-   390.46,
-   391.53
-  ],
-  [
-   392.15,
-   401.39
-  ],
-  [
-   401.4,
+   379.46,
    409.29
   ],
   [
-   410.04,
-   414.8
-  ],
-  [
-   414.87,
+   409.56,
    429.04
   ]
  ],
- "total": 74.26,
+ "total": 75.86,
  "lines": [
   {
    "id": "S1",
    "src": [
-    352.95,
-    359.6
+    352.76,
+    379.31
    ],
    "e0": 0.0,
-   "e1": 6.65,
-   "text": "Lelaki wanita, dua-dua boleh, yang mana nak tambah extra energy, nak lebih bertenaga, dapatkan philips, shilajit"
+   "e1": 26.55,
+   "text": "Lelaki wanita, dua-dua boleh, yang mana nak tambah extra energy, nak lebih bertenaga, dapatkan philips, shilajit complex tablet daripada Aurapab ni, insyaAllah. Memang orang kata, dah banyak dah orang dah amalkan, ok, dia betul macam ni lah, dia betul macam ni. So, kena minum dengan air lah, kena telan lah, ok. Dalam ni ada 60 tablet, setiap tablet 800 mg, ok."
   },
   {
    "id": "S2",
    "src": [
-    359.61,
-    368.4
+    379.46,
+    409.29
    ],
-   "e0": 6.65,
-   "e1": 15.44,
-   "text": "complex tablet daripada Aurapab ni, insyaAllah. Memang orang kata, dah banyak dah orang dah amalkan, ok, dia betul macam ni lah,"
+   "e0": 26.55,
+   "e1": 56.38,
+   "text": "So, shilajit ni memang kita sedia maklum, kalau yang apa tu, bentuk cair pekat tu, dia ada bau yang tak senang, kan. Tapi yang ni, memang sangat selesa bau dia, tak rasa pun susah nak amalkan, ok. Memang sangat, insyaAllah sangat, orang kata, berkhasiat, banyak kelebihan dia, ok. Ada 100 mg shilajit, 30 mg magnesium, bukan shilajit ni tau, dia dah tambah"
   },
   {
    "id": "S3",
    "src": [
-    368.41,
-    379.31
-   ],
-   "e0": 15.44,
-   "e1": 26.34,
-   "text": "dia betul macam ni. So, kena minum dengan air lah, kena telan lah, ok. Dalam ni ada 60 tablet, setiap tablet 800 mg, ok."
-  },
-  {
-   "id": "S4",
-   "src": [
-    379.51,
-    380.33
-   ],
-   "e0": 26.34,
-   "e1": 27.16,
-   "text": "So,"
-  },
-  {
-   "id": "S5",
-   "src": [
-    380.41,
-    390.38
-   ],
-   "e0": 27.16,
-   "e1": 37.13,
-   "text": "shilajit ni memang kita sedia maklum, kalau yang apa tu, bentuk cair pekat tu, dia ada bau yang tak senang, kan. Tapi yang ni, memang"
-  },
-  {
-   "id": "S6",
-   "src": [
-    390.46,
-    391.53
-   ],
-   "e0": 37.13,
-   "e1": 38.2,
-   "text": "sangat"
-  },
-  {
-   "id": "S7",
-   "src": [
-    392.15,
-    401.39
-   ],
-   "e0": 38.2,
-   "e1": 47.44,
-   "text": "selesa bau dia, tak rasa pun susah nak amalkan, ok. Memang sangat, insyaAllah sangat, orang kata, berkhasiat,"
-  },
-  {
-   "id": "S8",
-   "src": [
-    401.4,
-    409.29
-   ],
-   "e0": 47.44,
-   "e1": 55.33,
-   "text": "banyak kelebihan dia, ok. Ada 100 mg shilajit, 30 mg magnesium, bukan shilajit ni tau, dia dah tambah"
-  },
-  {
-   "id": "S9",
-   "src": [
-    410.04,
-    414.8
-   ],
-   "e0": 55.33,
-   "e1": 60.09,
-   "text": "lagi, khasiat dia, ada magnesium, ada zinc, ada ganoderma."
-  },
-  {
-   "id": "S10",
-   "src": [
-    414.87,
+    409.56,
     429.04
    ],
-   "e0": 60.09,
-   "e1": 74.26,
-   "text": "So, memang sangat-sangat, insyaAllah, terbaik, ok. Ok, seller tengah buat harga promo guys, tengok check harga dia, tengah ada discount tu, sementara harga masih murah, ok. Korang belilah 2-3 botol terus, buat stock, ok. Check out the backcreening, sekaran."
+   "e0": 56.38,
+   "e1": 75.86,
+   "text": "lagi, khasiat dia, ada magnesium, ada zinc, ada ganoderma. So, memang sangat-sangat, insyaAllah, terbaik, ok. Ok, seller tengah buat harga promo guys, tengok check harga dia, tengah ada discount tu, sementara harga masih murah, ok. Korang belilah 2-3 botol terus, buat stock, ok. Check out the backcreening, sekaran."
   }
  ]
 }

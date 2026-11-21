@@ -24,87 +24,31 @@
  },
  "titles": [],
  "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
- "_note": "Aurapep Shilajit Complex #11 — from VID_20261121_120947 352.7-430.5 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 10, total 74.26 s.",
+ "_note": "Aurapep Shilajit Complex #11 — from VID_20261121_120947 352.7-430.5 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 3, total 75.86 s.",
  "segments": [
   {
    "id": "S1",
    "in": 0.0,
-   "out": 6.65,
-   "text": "Lelaki wanita, dua-dua boleh, yang mana nak tambah extra energy, nak lebih bertenaga, dapatkan philips, shilajit",
-   "note": "src 352.95-359.60",
+   "out": 26.55,
+   "text": "Lelaki wanita, dua-dua boleh, yang mana nak tambah extra energy, nak lebih bertenaga, dapatkan philips, shilajit complex tablet daripada Aurapab ni, insyaAllah. Memang orang kata, dah banyak dah orang dah amalkan, ok, dia betul macam ni lah, dia betul macam ni. So, kena minum dengan air lah, kena telan lah, ok. Dalam ni ada 60 tablet, setiap tablet 800 mg, ok.",
+   "note": "src 352.76-379.31",
    "zoom": 1.0
   },
   {
    "id": "S2",
-   "in": 6.65,
-   "out": 15.44,
-   "text": "complex tablet daripada Aurapab ni, insyaAllah. Memang orang kata, dah banyak dah orang dah amalkan, ok, dia betul macam ni lah,",
-   "note": "src 359.61-368.40",
+   "in": 26.55,
+   "out": 56.38,
+   "text": "So, shilajit ni memang kita sedia maklum, kalau yang apa tu, bentuk cair pekat tu, dia ada bau yang tak senang, kan. Tapi yang ni, memang sangat selesa bau dia, tak rasa pun susah nak amalkan, ok. Memang sangat, insyaAllah sangat, orang kata, berkhasiat, banyak kelebihan dia, ok. Ada 100 mg shilajit, 30 mg magnesium, bukan shilajit ni tau, dia dah tambah",
+   "note": "src 379.46-409.29",
    "zoom": 1.06
   },
   {
    "id": "S3",
-   "in": 15.44,
-   "out": 26.34,
-   "text": "dia betul macam ni. So, kena minum dengan air lah, kena telan lah, ok. Dalam ni ada 60 tablet, setiap tablet 800 mg, ok.",
-   "note": "src 368.41-379.31",
+   "in": 56.38,
+   "out": 75.86,
+   "text": "lagi, khasiat dia, ada magnesium, ada zinc, ada ganoderma. So, memang sangat-sangat, insyaAllah, terbaik, ok. Ok, seller tengah buat harga promo guys, tengok check harga dia, tengah ada discount tu, sementara harga masih murah, ok. Korang belilah 2-3 botol terus, buat stock, ok. Check out the backcreening, sekaran.",
+   "note": "src 409.56-429.04",
    "zoom": 1.0
-  },
-  {
-   "id": "S4",
-   "in": 26.34,
-   "out": 27.16,
-   "text": "So,",
-   "note": "src 379.51-380.33",
-   "zoom": 1.06
-  },
-  {
-   "id": "S5",
-   "in": 27.16,
-   "out": 37.13,
-   "text": "shilajit ni memang kita sedia maklum, kalau yang apa tu, bentuk cair pekat tu, dia ada bau yang tak senang, kan. Tapi yang ni, memang",
-   "note": "src 380.41-390.38",
-   "zoom": 1.0
-  },
-  {
-   "id": "S6",
-   "in": 37.13,
-   "out": 38.2,
-   "text": "sangat",
-   "note": "src 390.46-391.53",
-   "zoom": 1.06
-  },
-  {
-   "id": "S7",
-   "in": 38.2,
-   "out": 47.44,
-   "text": "selesa bau dia, tak rasa pun susah nak amalkan, ok. Memang sangat, insyaAllah sangat, orang kata, berkhasiat,",
-   "note": "src 392.15-401.39",
-   "zoom": 1.0
-  },
-  {
-   "id": "S8",
-   "in": 47.44,
-   "out": 55.33,
-   "text": "banyak kelebihan dia, ok. Ada 100 mg shilajit, 30 mg magnesium, bukan shilajit ni tau, dia dah tambah",
-   "note": "src 401.40-409.29",
-   "zoom": 1.06
-  },
-  {
-   "id": "S9",
-   "in": 55.33,
-   "out": 60.09,
-   "text": "lagi, khasiat dia, ada magnesium, ada zinc, ada ganoderma.",
-   "note": "src 410.04-414.80",
-   "zoom": 1.0
-  },
-  {
-   "id": "S10",
-   "in": 60.09,
-   "out": 74.26,
-   "text": "So, memang sangat-sangat, insyaAllah, terbaik, ok. Ok, seller tengah buat harga promo guys, tengok check harga dia, tengah ada discount tu, sementara harga masih murah, ok. Korang belilah 2-3 botol terus, buat stock, ok. Check out the backcreening, sekaran.",
-   "note": "src 414.87-429.04",
-   "zoom": 1.06
   }
  ],
  "kp": [
@@ -183,7 +127,32 @@
    "origin": "50% 45%"
   }
  ],
- "photos": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "lelaki"
+   ],
+   "to": [
+    "*",
+    "shilajit"
+   ],
+   "note": "AI: An exhausted Malaysian man slumped on a sofa after a long workday, rubbing his eyes, dim e"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "khasiat"
+   ],
+   "to": [
+    "*",
+    "so,#3"
+   ],
+   "note": "AI: A fit energetic Malaysian couple hiking up a forest trail together, smiling, morning light"
+  }
+ ],
  "theme": {
   "key": "#D4A64A",
   "brand": "#FFFFFF"
@@ -297,8 +266,8 @@
   {
    "type": "promo",
    "from": [
-    "*",
-    "seller"
+    "-",
+    6.5
    ],
    "to": [
     "LAST",
@@ -307,7 +276,7 @@
    "tag": "BEG KUNING",
    "title": "HARGA PROMO",
    "sub": "BELI 2 - 3 BOTOL",
-   "y": 760
+   "y": 110
   }
  ],
  "pal": {
