@@ -1,0 +1,314 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#052828",
+  "hot": "#1FB3A6"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Nature's Key Magnesium Capsule #1 — from VID_20261121_120947 1248.5-1325.6 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the first dosage take ('ambil dua kali maksimum sehari ... bukan', 1283-1301) — corrected straight after to 'satu hari satu kali'. Pieces: 8, total 57.89 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 19.3,
+   "text": "yang susah nak tidur malam kan berat ni badan otak penat. Okay. Dapatkan InsyaAllah magnesium capsule ni. Daripada nature ski. InsyaAllah boleh bantu relaxkan badan kita. Tambahkan fokus tengah bekerja. Kan. Ni magnesium sangat-sangat",
+   "note": "src 1248.52-1267.82",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 19.3,
+   "out": 22.41,
+   "text": "baguslah. Okay. Untuk supplement untuk badan kita.",
+   "note": "src 1268.04-1271.15",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 22.41,
+   "out": 23.79,
+   "text": "Untuk. Okay.",
+   "note": "src 1271.22-1272.60",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 23.79,
+   "out": 33.87,
+   "text": "Bantu relaxkan badan waktu nak tidur tu dengan tambah fokus ketika bekerja. InsyaAllah. Okay. Nature ski, jangan risau. Semua ada. Halal, semua dah ada. Okay.",
+   "note": "src 1273.26-1283.34",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 33.87,
+   "out": 36.11,
+   "text": "Okay. ni untuk orang dewasa lah.",
+   "note": "src 1292.30-1294.54",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 36.11,
+   "out": 44.59,
+   "text": "Okay. Satu botol ni ada 30 biji. Okay. Ambil satu hari satu kali sahaja. Okay. Lepas harapan tu ambil satu kali InsyaAllah.",
+   "note": "src 1304.04-1312.52",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 44.59,
+   "out": 49.35,
+   "text": "So, satu botol ni ada 30 so jadi sebulan. Okay.",
+   "note": "src 1312.56-1317.32",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 49.35,
+   "out": 57.89,
+   "text": "So, sementara harga masih tengah murah saya tengah buat promo kau-kau punya. tu boleh dapatkan di beg sementara harga masih murah.",
+   "note": "src 1317.36-1325.90",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "SUSAH NAK TIDUR?",
+   "hi": [
+    "TIDUR?"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "okay."
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "magnesium"
+   ],
+   "to": [
+    "*",
+    "tambahkan"
+   ],
+   "src": 9.25,
+   "note": "the bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "halal,"
+   ],
+   "to": [
+    "*",
+    "okay.#5"
+   ],
+   "src": 32.0,
+   "note": "the bottle held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "so,#3"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 71.0,
+   "note": "the bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "susah"
+   ],
+   "to": [
+    "*",
+    "okay."
+   ],
+   "note": "AI: A Malaysian man lying on his side in bed at night with his eyes open, restless, looking at"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "relaxkan"
+   ],
+   "to": [
+    "*",
+    "kan."
+   ],
+   "note": "AI: A Malaysian man sleeping peacefully in bed with a calm face, soft morning light. The man i"
+  }
+ ],
+ "theme": {
+  "key": "#1FB3A6",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "magnesium",
+  "nature"
+ ],
+ "keywords": [
+  "tidur",
+  "relax",
+  "fokus",
+  "30",
+  "halal",
+  "sebulan",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "magnesium"
+   ],
+   "to": [
+    "*",
+    "insyaallah#2"
+   ],
+   "text": "MAGNESIUM CAPSULE",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "relaxkan"
+   ],
+   "to": [
+    "*",
+    "kan."
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "BADAN RELAX",
+     "at": [
+      "*",
+      "relaxkan"
+     ]
+    },
+    {
+     "text": "TAMBAH FOKUS",
+     "at": [
+      "*",
+      "fokus"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "halal,"
+   ],
+   "to": [
+    "*",
+    "okay.#5"
+   ],
+   "text": "HALAL",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "*",
+    "satu#2"
+   ],
+   "to": [
+    "*",
+    "so,#3"
+   ],
+   "title": "SATU BOTOL",
+   "value": "30 BIJI",
+   "sub": "SATU KALI SEHARI · SEBULAN",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#1FB3A6",
+  "bg": "rgba(5,40,40,.88)",
+  "ink": "#FFFFFF",
+  "dark": "#052828",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

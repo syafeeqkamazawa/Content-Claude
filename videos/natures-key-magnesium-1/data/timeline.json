@@ -1,0 +1,119 @@
+{
+ "pieces": [
+  [
+   1248.52,
+   1267.82
+  ],
+  [
+   1268.04,
+   1271.15
+  ],
+  [
+   1271.22,
+   1272.6
+  ],
+  [
+   1273.26,
+   1283.34
+  ],
+  [
+   1292.3,
+   1294.54
+  ],
+  [
+   1304.04,
+   1312.52
+  ],
+  [
+   1312.56,
+   1317.32
+  ],
+  [
+   1317.36,
+   1325.9
+  ]
+ ],
+ "total": 57.89,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    1248.52,
+    1267.82
+   ],
+   "e0": 0.0,
+   "e1": 19.3,
+   "text": "yang susah nak tidur malam kan berat ni badan otak penat. Okay. Dapatkan InsyaAllah magnesium capsule ni. Daripada nature ski. InsyaAllah boleh bantu relaxkan badan kita. Tambahkan fokus tengah bekerja. Kan. Ni magnesium sangat-sangat"
+  },
+  {
+   "id": "S2",
+   "src": [
+    1268.04,
+    1271.15
+   ],
+   "e0": 19.3,
+   "e1": 22.41,
+   "text": "baguslah. Okay. Untuk supplement untuk badan kita."
+  },
+  {
+   "id": "S3",
+   "src": [
+    1271.22,
+    1272.6
+   ],
+   "e0": 22.41,
+   "e1": 23.79,
+   "text": "Untuk. Okay."
+  },
+  {
+   "id": "S4",
+   "src": [
+    1273.26,
+    1283.34
+   ],
+   "e0": 23.79,
+   "e1": 33.87,
+   "text": "Bantu relaxkan badan waktu nak tidur tu dengan tambah fokus ketika bekerja. InsyaAllah. Okay. Nature ski, jangan risau. Semua ada. Halal, semua dah ada. Okay."
+  },
+  {
+   "id": "S5",
+   "src": [
+    1292.3,
+    1294.54
+   ],
+   "e0": 33.87,
+   "e1": 36.11,
+   "text": "Okay. ni untuk orang dewasa lah."
+  },
+  {
+   "id": "S6",
+   "src": [
+    1304.04,
+    1312.52
+   ],
+   "e0": 36.11,
+   "e1": 44.59,
+   "text": "Okay. Satu botol ni ada 30 biji. Okay. Ambil satu hari satu kali sahaja. Okay. Lepas harapan tu ambil satu kali InsyaAllah."
+  },
+  {
+   "id": "S7",
+   "src": [
+    1312.56,
+    1317.32
+   ],
+   "e0": 44.59,
+   "e1": 49.35,
+   "text": "So, satu botol ni ada 30 so jadi sebulan. Okay."
+  },
+  {
+   "id": "S8",
+   "src": [
+    1317.36,
+    1325.9
+   ],
+   "e0": 49.35,
+   "e1": 57.89,
+   "text": "So, sementara harga masih tengah murah saya tengah buat promo kau-kau punya. tu boleh dapatkan di beg sementara harga masih murah."
+  }
+ ]
+}
