@@ -1,0 +1,24 @@
+TOTAL 102.98s  (13 A-roll segments, 5 B-roll shots, 3 photos, 16 audio fx, 267 caption cards)
+
+  0.00- 12.30  S1  src   0.00- 12.30  (1 pc)  Perfume kereta yang warna merah ni, yang ramai sekali orang tengah beli tau. Perfume ni, bukannya bau buah tau, tapi dia bau woody. Bau yang ada pada kereta kita mewah tu. Ha ni,
+ 12.30- 14.65  S2  src  12.30- 14.65  (1 pc)  kalau kau tengok kat dalam tunjuk kat korang.
+ 14.65- 18.73  S3  src  14.65- 18.73  (1 pc)  Dia bukan cecair air tau, dia bentuk gel macam ni.
+ 18.73- 22.77  S4  src  18.73- 22.76  (1 pc)  Oh, serius, bau dia memang, bau mewah gila.
+ 22.77- 35.75  S5  src  22.76- 35.74  (1 pc)  Yang ni warna merah. Tapi kalau korang suka jenis bau fresh, bau macam kereta baru tu kan korang boleh ambil ni. Ocean Polar Ice Cover. Ini bau fresh, macam bau kereta baru tu. Ha,
+ 35.75- 39.77  S6  src  35.74- 39.76  (1 pc)  sedap, sedap. Betul dia macam ni. Ha,
+ 39.77- 40.43  S7  src  39.76- 40.42  (1 pc)  ok.
+ 40.43- 53.07  S8  src  40.42- 53.05  (1 pc)  Ini bau-bau fresh lah, ok. Tapi ada satu lagi pilihan yang korang boleh pertimbangkan juga. Ok, ni. Ini, bau dia macam bau citrus, macam bau campuran kayu hutan macam tu. Ha, pun sedap.
+ 53.07- 61.57  S9  src  53.05- 61.55  (1 pc)  Memang, bau tiga-tiga ni, bau yang korang macam tu susah nak cari dekat luar. Ha, macam bau kereta mewah. Ha,
+ 61.57- 69.50  S10  src  61.55- 69.49  (1 pc)  sedap bau dia. Bau dia, dia tak kuat sangat. Ha, dia dan dia orang kata selesa je, lega je bau dia. Ok. Yang ni,
+ 69.50- 71.83  S11  src  69.49- 71.82  (1 pc)  bau citrus, bau campuran kayu hutan.
+ 71.83- 87.85  S12  src  71.82- 87.84  (1 pc)  tapi kalau korang tanya aku, aku sangat recommend, korang ambillah yang warna merah ni. Sebab, bau dia memang macam korang jumpa dekat kereta-kereta mewah. Ha, kereta-kereta konti. Ha, ni bau dia. Ok, insyaAllah korang tak menyesal. Ok, so, kalau korang ambil satu,
+ 87.85-102.98  S13  src  87.84-102.97  (1 pc)  harga dia memang tengah murah. Tapi kalau korang ambil tiga terus kan, ok. Korang ambil tiga macam ni, ok, harga dia lagi murah. Ok, korang tengok dekat beg kuning, sementara harga tengah murah tu, korang boleh, ok, check out terus di beg kuning.
+
+  cutaway   9.00- 13.68
+  cutaway  13.68- 18.90
+  cutaway  26.50- 29.05
+  cutaway  29.05- 35.00
+  cutaway  46.52- 53.23
+  cutaway  69.68- 72.13
+  cutaway  75.70- 82.98
+  cutaway  92.60- 95.63

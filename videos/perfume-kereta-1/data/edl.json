@@ -243,7 +243,44 @@
    "origin": "50% 45%"
   }
  ],
- "photos": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Bau#3"
+   ],
+   "to": [
+    "*",
+    "tunjuk#1"
+   ],
+   "note": "AI: A Malaysian man relaxing in the driver's seat of a clean luxury car, eyes closed, smiling "
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "bau#7"
+   ],
+   "to": [
+    "*",
+    "Ocean#1"
+   ],
+   "note": "AI: The spotless interior of a brand new car, fresh clean seats and dashboard, bright daylight"
+  },
+  {
+   "id": "A3",
+   "from": [
+    "*",
+    "bau#19"
+   ],
+   "to": [
+    "*",
+    "tapi#4"
+   ],
+   "note": "AI: Fresh sliced oranges and lemons beside pieces of pine forest wood and green leaves on a wo"
+  }
+ ],
  "theme": {
   "key": "#FF3B3B",
   "brand": "#FFFFFF"
