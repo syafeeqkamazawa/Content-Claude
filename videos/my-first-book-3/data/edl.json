@@ -248,7 +248,32 @@
  ],
  "punch": [],
  "broll": [],
- "photos": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Kalau#1"
+   ],
+   "to": [
+    "*",
+    "Manafahan#1"
+   ],
+   "note": "AI: A Malaysian family with three children of different ages, from a baby to a five-year-old, "
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "Kenali#1"
+   ],
+   "to": [
+    "*",
+    "Oh,#1"
+   ],
+   "note": "AI: A Malaysian father teaching his young son and daughter to pray, standing on prayer mats in"
+  }
+ ],
  "theme": {
   "key": "#FF5FB0",
   "brand": "#FFFFFF"
