@@ -1,0 +1,5 @@
+# .media · 2 assets
+
+id         type   dur   dims   path                         description
+image_001  image  —     —      .media/images/image_001.png  A tidy modern Malaysian home entrance with a neat wall and a small console table, keys hanging neatly, warm light. No people, no text. Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
+image_002  image  —     —      .media/images/image_002.png  A happy Malaysian family coming home through a beautiful neat front door, warm evening light. The man is a Malay Muslim in a loose long-sleeved shirt and long trousers to the ankle, fully covered, no shorts. The woman is a Malay Muslim wearing a hijab covering her hair, neck and chest and loose long clothing covering her whole body except face and hands. Children are fully covered: boys in long trousers and long sleeves, girls in a hijab and loose long clothes. Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.

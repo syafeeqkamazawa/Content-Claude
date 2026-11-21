@@ -358,7 +358,7 @@ AI = {
             ("A2", W("membesar"), W("insyaallah.#2"), f"Two healthy Malaysian kids running and playing happily in a park in the afternoon. {K}")],
     "p13": [("A1", W("berfikir"), W("mudah"), f"A Malaysian schoolgirl in her school uniform with a white hijab looking confused over her homework at a desk. {K}"),
             ("A2", W("boleh#2"), W("okay.#2"), f"A bright Malaysian schoolboy in long trousers raising his hand confidently in a classroom, smiling. {K}")],
-    "p14": [("A1", W("susah"), W("okay."), f"A Malaysian man lying awake in bed at night staring at the ceiling, unable to sleep, dim blue light. {M}"),
+    "p14": [("A1", W("susah"), W("okay."), f"A Malaysian man lying on his side in bed at night with his eyes open, restless, looking at a glowing bedside clock showing 3 am, tired face, under a blanket, dim blue light. {M}"),
             ("A2", W("relaxkan"), W("kan."), f"A Malaysian man sleeping peacefully in bed with a calm face, soft morning light. {M}")],
     "p15": [("A1", W("tumbasaran"), W("okay.#2"), f"A tall healthy Malaysian teenage boy in a school uniform with long trousers playing basketball at school, energetic. {K}"),
             ("A2", W("kecerdasan"), W("insyaallah."), f"A focused Malaysian teenage girl in a school uniform with a hijab studying happily at a desk. {K}")],
