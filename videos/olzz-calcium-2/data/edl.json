@@ -1,0 +1,271 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#3C1900",
+  "hot": "#F58A1F"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Olzz Liquid Calcium + Magnesium #2 — from VID_20261121_120947 1041.5-1131.0 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the first two 'ini bentuk sachet dia' (1085-1089; said again). Pieces: 3, total 85.81 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 12.41,
+   "text": "anak-anak ada masalah, tak suka makan sayur, ataupun nak beg anak, orang kata lebih banyak, vitamin, extra, okay, dalam badan dia, boleh, beg insyaAllah,",
+   "note": "src 1041.52-1053.93",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 12.41,
+   "out": 43.31,
+   "text": "daripada Olzz ni, liquid calcium with magnesium. Okay, calcium ni penting tau. Anak-anak kita ni, tumbuh saran dia, sampai 18 je. So, daripada sekarang, okay, kalau dah umur, sekolah rendah tu, daripada sekarang, kena beg kepada orang. Okay, kita nak, supaya insyaAllah, kita ikhtiar biar, ketinggian dia tu, orang kata, average-average lah, supaya, okay, membesar dengan beg, insyaAllah. dan juga, magnesium beg untuk tulang. Okay, dan rasa dia, serious lah. Kalau saya, bau ni pun, Allah sedap ni bau dia ni. Ini",
+   "note": "src 1054.10-1085.00",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 43.31,
+   "out": 85.81,
+   "text": "Ini bentuk sachet dia, memang sangat bagus lah. Okay. Tengok sachet dia. Oh, ada, satu ni, satu kotak ni ada, 10 sachet. Satu sachet tu ada 10 ml. InsyaAllah. Tak perlu bancong, tak perlu apa. Okay. Koyak boleh beg tu, setelah anak. Nak sarapan pun, dah buat-buat-buat sarapan insyaAllah. Okay. Lepas makan sarapan tu, tambah dengan, okay, supplement daripada Olzz ni, untuk anak-anak-anak, untuk anak-anak kita. InsyaAllah. Okay. Ada, dia punya flavor dia, ada apple juice. Dia punya rasa dia, apple-apple macam tu. Okay. Kalsium dengan magnesium. Saya dia tengah buat harga promo ni. Okay. Jangan tunggu lagi, beli untuk anak-anak kita. Okay. Sementara harga tengah murah, beli dia beg kuning",
+   "note": "src 1088.80-1131.30",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "ANAK TAK SUKA SAYUR?",
+   "hi": [
+    "SAYUR,"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "daripada"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 96
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "liquid"
+   ],
+   "to": [
+    "*",
+    "okay,#2"
+   ],
+   "src": 10.75,
+   "note": "the box",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "ini"
+   ],
+   "to": [
+    "*",
+    "oh,"
+   ],
+   "src": 44.5,
+   "note": "the sachets",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "kalsium"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 82.0,
+   "note": "the box held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "tumbuh"
+   ],
+   "to": [
+    "*",
+    "so,"
+   ],
+   "note": "AI: A Malaysian mother measuring her young son's height against a growth chart on the wall at "
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "membesar"
+   ],
+   "to": [
+    "*",
+    "insyaallah.#2"
+   ],
+   "note": "AI: Two healthy Malaysian kids running and playing happily in a park in the afternoon. Childre"
+  }
+ ],
+ "theme": {
+  "key": "#F58A1F",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "olzz",
+  "calcium"
+ ],
+ "keywords": [
+  "magnesium",
+  "tulang",
+  "18",
+  "10",
+  "sachet",
+  "apple",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "liquid"
+   ],
+   "to": [
+    "*",
+    "okay,#2"
+   ],
+   "text": "LIQUID CALCIUM + MAGNESIUM",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "tumbuh"
+   ],
+   "to": [
+    "*",
+    "so,"
+   ],
+   "text": "TUMBESARAN SAMPAI 18",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "magnesium#2"
+   ],
+   "to": [
+    "*",
+    "okay,#4"
+   ],
+   "text": "MAGNESIUM UNTUK TULANG",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "*",
+    "10"
+   ],
+   "to": [
+    "*",
+    "insyaallah.#3"
+   ],
+   "title": "SATU KOTAK",
+   "value": "10 SACHET",
+   "sub": "10 ML SETIAP SACHET",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "apple"
+   ],
+   "to": [
+    "*",
+    "kalsium"
+   ],
+   "text": "PERISA APPLE JUICE",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "BELI UNTUK ANAK-ANAK",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#F58A1F",
+  "bg": "rgba(60,25,0,.88)",
+  "ink": "#FFFFFF",
+  "dark": "#3C1900",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
