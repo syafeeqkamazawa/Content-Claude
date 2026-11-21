@@ -1,0 +1,34 @@
+TOTAL 99.83s  (24 A-roll segments, 5 B-roll shots, 2 photos, 15 audio fx, 204 caption cards)
+
+  0.00-  1.67  S1  src   0.00-  1.67  (1 pc)  Masya Allah Ibu Ayah.
+  1.67-  9.35  S2  src   1.67-  9.36  (1 pc)  Masya Allah Ibu Ayah, buku untuk anak-anak kita yang berumur 3 tahun dan ke atas boleh belikan
+  9.35- 11.87  S3  src   9.36- 11.88  (1 pc)  untuk anak-anak kita.
+ 11.87- 21.82  S4  src  11.88- 21.83  (1 pc)  3 tahun ke atas. Okey, Dia boleh belajar huruf, belajar perkataan, belajar ayat. Sangat-sangat menarik.
+ 21.82- 24.65  S5  src  21.83- 24.67  (1 pc)  Jom kita tengok macam mana bentuk dia.
+ 24.65- 25.82  S6  src  24.67- 25.84  (1 pc)  Okey.
+ 25.82- 27.48  S7  src  25.84- 27.51  (1 pc)  So ni buku dia.
+ 27.48- 30.95  S8  src  27.51- 30.98  (1 pc)  Masya Allah buku dia. Oh, ni pun ada ni lah.
+ 30.95- 34.63  S9  src  30.98- 34.67  (1 pc)  Ada ni, Masya Allah. Ada dia punya.
+ 34.63- 46.28  S10  src  34.67- 46.32  (1 pc)  Masya Allah. Memang sangat menarik. Saya sendiri pun first time ni, Masya Allah. Haa. So ada lagu, ya ada lagu Press Go tu. Okey, apa-apa Press Go tu.
+ 46.28- 47.22  S11  src  46.32- 47.26  (1 pc)  Okey.
+ 47.22- 49.18  S12  src  47.26- 49.23  (1 pc)  alfabet.
+ 49.18- 51.53  S13  src  49.23- 51.58  (1 pc)  Ada Apple, lagu Apple.
+ 51.53- 52.93  S14  src  51.58- 52.98  (1 pc)  Masya Allah.
+ 52.93- 60.67  S15  src  52.98- 60.71  (1 pc)  Jadi anak-anak kita boleh belajar mengenal benda dalam bahasa Melayu, dalam bahasa Inggeris. Okey.
+ 60.67- 62.60  S16  src  60.71- 62.65  (1 pc)  Pasal ni lah bahasa Inggeris ni.
+ 62.60- 63.82  S17  src  62.65- 63.86  (1 pc)  Dalam bahasa Melayu.
+ 63.82- 71.08  S18  src  63.86- 71.12  (1 pc)  So, okey boleh develop English anak-anak kita. Okey. So, ada pelbagai
+ 71.08- 78.98  S19  src  71.12- 79.02  (1 pc)  apa tu, perkataan benda, ya. Haa, ada ada macam
+ 78.98- 80.35  S20  src  79.02- 80.39  (1 pc)  Masya Allah.
+ 80.35- 84.60  S21  src  80.39- 84.64  (1 pc)  Memang menarik lah. Masya Allah. Ibu ayah. Sangat-sangat best buku ni.
+ 84.60- 85.72  S22  src  84.64- 85.75  (1 pc)  Tak tipu.
+ 85.72- 88.35  S23  src  85.75- 88.39  (1 pc)  Okey. Ibu ayah belilah untuk anak-anak. Insya Allah.
+ 88.35- 99.83  S24  src  88.39- 99.87  (1 pc)  Okey. Harga pun tak mahal. Okey. Seller pun banyak buat harga promosi. Okey. Sementara harga masih murah, boleh. Ibu ayah belikan untuk anak-anak. Sangat berbaloi, insya Allah. Okey. Dapatkan di beg kuning. Insya Allah.
+
+  cutaway  14.90- 22.15
+  cutaway  22.15- 27.65
+  cutaway  43.22- 48.18
+  cutaway  53.10- 59.97
+  cutaway  60.83- 63.98
+  cutaway  65.00- 67.22
+  cutaway  86.17- 88.52

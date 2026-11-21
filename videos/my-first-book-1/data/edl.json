@@ -30,7 +30,7 @@
    "id": "S1",
    "in": 0.0,
    "out": 44.04,
-   "text": "Ini Ibu ayah yang belum lagi beli, boleh belikanlah untuk anak-anak kita daripada satu tahun, seawal tahun hingga enam tahun. Anak saya yang keempat, umur setahun empat bulan, saya nak belikan. Ini lah, saya belikan untuk dia lah. Memang Masya Allah, memang sangat-sangat. Apa tu, recommended sangat. Apa tu, buku ni pun, ni Lofa. masalah yang ni lah yang kita celebrity yang dah gunakan untuk anak dia kan Masya Allah memang kita nampak lah memang dia punya kesan yang sangat beg untuk anak-anak ok so boleh dapatkan di beg kuning tengok ni Masya Allah cantik je memang sangat cantik proper sangat ni",
+   "text": "Ini Ibu ayah yang belum lagi beli, boleh belikanlah untuk anak-anak kita daripada satu tahun, seawal tahun hingga enam tahun. Anak saya yang keempat, umur setahun empat bulan, saya nak belikan. Ini lah, saya belikan untuk dia lah. Memang Masya Allah, memang sangat-sangat. Apa tu, recommended sangat. Apa tu, buku ni pun, ni Nilofa. MasyaAllah, yang ni lah yang kita celebrity yang dah gunakan untuk anak dia kan Masya Allah memang kita nampak lah memang dia punya kesan yang sangat baik untuk anak-anak ok so boleh dapatkan di beg kuning tengok ni Masya Allah cantik je memang sangat cantik proper sangat ni",
    "note": "src 2.44-46.48",
    "zoom": 1.0
   },
@@ -350,7 +350,7 @@
    "id": "S41",
    "in": 231.96,
    "out": 238.13,
-   "text": "Memang sangat sesuai. So, kita boleh dapatkan di bagi kuning. Insya Allah. Berbaloi.",
+   "text": "Memang sangat sesuai. So, kita boleh dapatkan di beg kuning. Insya Allah. Berbaloi.",
    "note": "src 332.02-338.19",
    "zoom": 1.0
   },
@@ -373,17 +373,17 @@
  ],
  "kp": [
   {
-   "text": "MY FIRST BOOK",
+   "text": "BUKU BERCAKAP 1 - 6 TAHUN",
    "hi": [
-    "FIRST"
+    "1"
    ],
    "from": [
     "S1",
     "start"
    ],
    "to": [
-    "@",
-    3.5
+    "*",
+    "tahun,#1"
    ],
    "anim": "zoom",
    "top": 200,
@@ -391,8 +391,124 @@
   }
  ],
  "punch": [],
- "broll": [],
- "photos": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "celebrity#1"
+   ],
+   "to": [
+    "*",
+    "ok#1"
+   ],
+   "src": 62.0,
+   "note": "the My First Book box to camera",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "Ekspresi#1"
+   ],
+   "to": [
+    "*",
+    "So,#10"
+   ],
+   "src": 415.5,
+   "note": "his daughter on the face-expression sheet (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "Walaupun#1"
+   ],
+   "to": [
+    "*",
+    "memori#1"
+   ],
+   "src": 360.0,
+   "note": "his daughter matching animals (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "*",
+    "So,#12"
+   ],
+   "to": [
+    "*",
+    "Ibu#2"
+   ],
+   "src": 430.0,
+   "note": "his daughter writing with the marker (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "*",
+    "Satu#6"
+   ],
+   "to": [
+    "*",
+    "So,#14"
+   ],
+   "src": 480.0,
+   "note": "his daughter on the activity sheet (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Anak#1"
+   ],
+   "to": [
+    "*",
+    "Memang#1"
+   ],
+   "note": "AI: A Malaysian mother smiling at her one-year-old baby girl sitting on her lap in a bright li"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "memori#1"
+   ],
+   "to": [
+    "*",
+    "So,#12"
+   ],
+   "note": "AI: A Malaysian toddler listening attentively as her father reads a colourful picture book to "
+  }
+ ],
  "theme": {
   "key": "#FF5FB0",
   "brand": "#FFFFFF"
@@ -412,7 +528,218 @@
   "memori",
   "padamkan"
  ],
- "fx": [],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Anak#1"
+   ],
+   "to": [
+    "*",
+    "Ini#2"
+   ],
+   "text": "ANAK KEEMPAT, 1 TAHUN 4 BULAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "celebrity#1"
+   ],
+   "to": [
+    "*",
+    "ok#1"
+   ],
+   "text": "SELEBRITI GUNA UNTUK ANAK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "my#1"
+   ],
+   "to": [
+    "*",
+    "so,#3"
+   ],
+   "text": "MY FIRST BOOK, BILAL & NILOFA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "siap#1"
+   ],
+   "to": [
+    "*",
+    "lepas#1"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "IMPORTER NOTICE",
+     "at": [
+      "*",
+      "importer#1"
+     ]
+    },
+    {
+     "text": "WARANTI 1 BULAN",
+     "at": [
+      "*",
+      "waranti#1"
+     ]
+    },
+    {
+     "text": "PEN BERBUNYI",
+     "at": [
+      "*",
+      "pen#1"
+     ]
+    },
+    {
+     "text": "MARKER",
+     "at": [
+      "*",
+      "marker#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "packaging#1"
+   ],
+   "to": [
+    "*",
+    "ok#16"
+   ],
+   "text": "PACKAGING KEMAS",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "sticker#1"
+   ],
+   "to": [
+    "*",
+    "Buku#5"
+   ],
+   "text": "ADA STICKER NAMA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "Mari#1"
+   ],
+   "to": [
+    "*",
+    "So,#10"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "HURUF HIJAIYAH",
+     "at": [
+      "*",
+      "Mari#1"
+     ]
+    },
+    {
+     "text": "WARNA",
+     "at": [
+      "*",
+      "warna.#1"
+     ]
+    },
+    {
+     "text": "BUNYI HAIWAN",
+     "at": [
+      "*",
+      "Haiwan#1"
+     ]
+    },
+    {
+     "text": "EKSPRESI MUKA",
+     "at": [
+      "*",
+      "Ekspresi#1"
+     ]
+    },
+    {
+     "text": "UCAPAN ISLAMI",
+     "at": [
+      "*",
+      "ucapan#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "memori#1"
+   ],
+   "to": [
+    "*",
+    "So,#13"
+   ],
+   "text": "MEMORI MULA SIMPAN SEJAK BABY",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "padamkan#1"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "text": "BOLEH PADAM, GUNA BANYAK KALI",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "1 - 6 TAHUN",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 110
+  }
+ ],
  "pal": {
   "key": "#FF5FB0",
   "bg": "rgba(62,15,107,.9)",

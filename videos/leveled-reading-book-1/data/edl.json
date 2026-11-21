@@ -214,7 +214,7 @@
    "id": "S24",
    "in": 88.39,
    "out": 99.87,
-   "text": "Okey. Harga pun tak mahal. Okey. Seller pun banyak buat harga promosi. Okey. Sementara harga masih murah, boleh. Ibu ayah belikan untuk anak-anak. Sangat baru, insya Allah. Okey. Dapatkan di beg kuning. Insya Allah.",
+   "text": "Okey. Harga pun tak mahal. Okey. Seller pun banyak buat harga promosi. Okey. Sementara harga masih murah, boleh. Ibu ayah belikan untuk anak-anak. Sangat berbaloi, insya Allah. Okey. Dapatkan di beg kuning. Insya Allah.",
    "note": "src 161.28-172.76",
    "zoom": 1.06
   }
@@ -230,8 +230,8 @@
     "start"
    ],
    "to": [
-    "@",
-    3.5
+    "*",
+    "Ayah,#2"
    ],
    "anim": "zoom",
    "top": 200,
@@ -239,8 +239,124 @@
   }
  ],
  "punch": [],
- "broll": [],
- "photos": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "Jom#1"
+   ],
+   "to": [
+    "*",
+    "Masya#3"
+   ],
+   "src": 13.0,
+   "note": "the book cover",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "Press#1"
+   ],
+   "to": [
+    "*",
+    "alfabet.#1"
+   ],
+   "src": 76.0,
+   "note": "the song page",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "Jadi#1"
+   ],
+   "to": [
+    "*",
+    "Okey.#5"
+   ],
+   "src": 95.0,
+   "note": "the word pages",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "*",
+    "Pasal#1"
+   ],
+   "to": [
+    "*",
+    "So,#3"
+   ],
+   "src": 125.0,
+   "note": "the English / Malay pages",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "*",
+    "Ibu#4"
+   ],
+   "to": [
+    "*",
+    "Okey.#9"
+   ],
+   "src": 160.0,
+   "note": "both books held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Dia#1"
+   ],
+   "to": [
+    "*",
+    "Jom#1"
+   ],
+   "note": "AI: A Malaysian girl about four reading a picture book aloud and pointing at the words, her mo"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "develop#1"
+   ],
+   "to": [
+    "*",
+    "So,#4"
+   ],
+   "note": "AI: A Malaysian boy about five confidently speaking English in front of his kindergarten class"
+  }
+ ],
  "theme": {
   "key": "#FF8A1F",
   "brand": "#FFFFFF"
@@ -260,7 +376,117 @@
   "murah",
   "promosi"
  ],
- "fx": [],
+ "fx": [
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "Dia#1"
+   ],
+   "to": [
+    "*",
+    "Jom#1"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "HURUF",
+     "at": [
+      "*",
+      "huruf,#1"
+     ]
+    },
+    {
+     "text": "PERKATAAN",
+     "at": [
+      "*",
+      "perkataan,#1"
+     ]
+    },
+    {
+     "text": "AYAT",
+     "at": [
+      "*",
+      "ayat.#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Press#1"
+   ],
+   "to": [
+    "*",
+    "Okey.#4"
+   ],
+   "text": "ADA LAGU",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Jadi#1"
+   ],
+   "to": [
+    "*",
+    "Pasal#1"
+   ],
+   "text": "BAHASA MELAYU & INGGERIS",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "develop#1"
+   ],
+   "to": [
+    "*",
+    "So,#4"
+   ],
+   "text": "DEVELOP ENGLISH ANAK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Harga#1"
+   ],
+   "to": [
+    "*",
+    "Sementara#1"
+   ],
+   "text": "HARGA TAK MAHAL",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA MASIH MURAH",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 110
+  }
+ ],
  "pal": {
   "key": "#FF8A1F",
   "bg": "rgba(15,60,140,.9)",
