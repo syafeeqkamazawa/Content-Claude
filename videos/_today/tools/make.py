@@ -105,8 +105,8 @@ def run(*a): subprocess.run(a, check=True)
 def main(key, media=True):
     spec = SPECS[key]
     P = T.parent / spec["slug"]
-    if not P.exists():
-        shutil.copytree(T / "tpl", P)
+    if not (P / "tools/kb2.py").exists():   # gen_ai.py may have created the folder (photos only) first
+        shutil.copytree(T / "tpl", P, dirs_exist_ok=True)
     for f in ("build.py", "plx.sh", "plx_plate.py"):
         shutil.copy(T / "tpl/tools" / f, P / "tools" / f)   # keep every project on the latest template
     for d in ("data", ".media", "assets"):
