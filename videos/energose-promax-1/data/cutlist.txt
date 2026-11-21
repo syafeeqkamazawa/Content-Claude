@@ -1,0 +1,33 @@
+TOTAL 66.37s  (25 A-roll segments, 3 B-roll shots, 2 photos, 10 audio fx, 128 caption cards)
+
+  0.00-  3.48  S1  src   0.00-  3.48  (1 pc)  yang nak minum air
+  3.48- 12.10  S2  src   3.48- 12.10  (1 pc)  ada extra energy tapi ada flavour, korang boleh ambil Energose daripada Pro Max series ni
+ 12.10- 15.62  S3  src  12.10- 15.61  (1 pc)  dia orang kata boleh boost energy lah
+ 15.62- 22.65  S4  src  15.61- 22.64  (1 pc)  korang titik je berapa titik lah 1, 2, 3, 4, 5 5 Terima kasih kerana
+ 22.65- 24.78  S5  src  22.64- 24.77  (1 pc)  Tuhan kacau lah. Tuhan kacau.
+ 24.78- 26.92  S6  src  24.77- 26.90  (1 pc)  Sampai jumpa di video selanjutnya.
+ 26.92- 27.55  S7  src  26.90- 27.54  (1 pc)  Terima kasih kerana
+ 27.55- 28.13  S8  src  27.54- 28.12  (1 pc)  Terima kasih kerana
+ 28.13- 30.12  S9  src  28.12- 30.10  (1 pc)  bawah boleh sekejap.
+ 30.12- 31.43  S10  src  30.10- 31.42  (1 pc)  Yang aku
+ 31.43- 35.20  S11  src  31.42- 35.18  (1 pc)  ambil ni, ni ada flavor dia dah.
+ 35.20- 36.78  S12  src  35.18- 36.77  (1 pc)  .
+ 36.78- 44.93  S13  src  36.77- 44.92  (1 pc)  Tengok flavor apalah ini, ini Energose pine tropic, ini pineapple punya flavor, bau dia memang.
+ 44.93- 46.00  S14  src  44.92- 45.99  (1 pc)  Oh, boleh.
+ 46.00- 46.95  S15  src  45.99- 46.94  (1 pc)  Terima kasih kerana
+ 46.95- 47.83  S16  src  46.94- 47.82  (1 pc)  Terima kasih kerana
+ 47.83- 48.75  S17  src  47.82- 48.74  (1 pc)  Terima kasih kerana
+ 48.75- 49.60  S18  src  48.74- 49.59  (1 pc)  Terima kasih kerana
+ 49.60- 50.27  S19  src  49.59- 50.25  (1 pc)  Terima kasih kerana
+ 50.27- 50.80  S20  src  50.25- 50.79  (1 pc)  Terima kasih kerana
+ 50.80- 51.75  S21  src  50.79- 51.74  (1 pc)  Terima kasih kerana
+ 51.75- 54.87  S22  src  51.74- 54.86  (1 pc)  Rasa nenas guys, ok? Memang sangat sedap.
+ 54.87- 55.82  S23  src  54.86- 55.81  (1 pc)  Terima kasih kerana
+ 55.82- 60.98  S24  src  55.81- 60.98  (1 pc)  rasa nenas guys memang sangat best
+ 60.98- 66.37  S25  src  60.98- 66.36  (1 pc)  boleh dapatkan beg kuning saya datang buat harga promo boleh check out sekarang
+
+  cutaway   0.25-  8.70
+  cutaway  16.55- 18.50
+  cutaway  18.50- 22.82
+  cutaway  52.15- 53.52
+  cutaway  58.40- 66.37

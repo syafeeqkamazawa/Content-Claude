@@ -1,0 +1,432 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#1A3208",
+  "hot": "#FFC20E"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Energose Pro Max #1 — from VID_20261121_120947 1623.0-1737.6 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 25, total 66.36 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 3.48,
+   "text": "yang nak minum air",
+   "note": "src 1625.14-1628.62",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 3.48,
+   "out": 12.1,
+   "text": "ada extra energy tapi ada flavour, korang boleh ambil Energose daripada Pro Max series ni",
+   "note": "src 1628.70-1637.32",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 12.1,
+   "out": 15.61,
+   "text": "dia orang kata boleh boost energy lah",
+   "note": "src 1637.46-1640.97",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 15.61,
+   "out": 22.64,
+   "text": "korang titik je berapa titik lah 1, 2, 3, 4, 5 5 Terima kasih kerana",
+   "note": "src 1641.30-1648.33",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 22.64,
+   "out": 24.77,
+   "text": "Tuhan kacau lah. Tuhan kacau.",
+   "note": "src 1648.44-1650.57",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 24.77,
+   "out": 26.9,
+   "text": "Sampai jumpa di video selanjutnya.",
+   "note": "src 1651.45-1653.58",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 26.9,
+   "out": 27.54,
+   "text": "Terima kasih kerana",
+   "note": "src 1655.38-1656.02",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 27.54,
+   "out": 28.12,
+   "text": "Terima kasih kerana",
+   "note": "src 1656.76-1657.34",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 28.12,
+   "out": 30.1,
+   "text": "bawah boleh sekejap.",
+   "note": "src 1665.94-1667.92",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 30.1,
+   "out": 31.42,
+   "text": "Yang aku",
+   "note": "src 1669.38-1670.70",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 31.42,
+   "out": 35.18,
+   "text": "ambil ni, ni ada flavor dia dah.",
+   "note": "src 1671.10-1674.86",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 35.18,
+   "out": 36.77,
+   "text": ".",
+   "note": "src 1675.29-1676.88",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 36.77,
+   "out": 44.92,
+   "text": "Tengok flavor apalah ini, ini Energose pine tropic, ini pineapple punya flavor, bau dia memang.",
+   "note": "src 1678.04-1686.19",
+   "zoom": 1.0
+  },
+  {
+   "id": "S14",
+   "in": 44.92,
+   "out": 45.99,
+   "text": "Oh, boleh.",
+   "note": "src 1686.97-1688.04",
+   "zoom": 1.06
+  },
+  {
+   "id": "S15",
+   "in": 45.99,
+   "out": 46.94,
+   "text": "Terima kasih kerana",
+   "note": "src 1689.56-1690.51",
+   "zoom": 1.0
+  },
+  {
+   "id": "S16",
+   "in": 46.94,
+   "out": 47.82,
+   "text": "Terima kasih kerana",
+   "note": "src 1696.28-1697.16",
+   "zoom": 1.06
+  },
+  {
+   "id": "S17",
+   "in": 47.82,
+   "out": 48.74,
+   "text": "Terima kasih kerana",
+   "note": "src 1700.34-1701.26",
+   "zoom": 1.0
+  },
+  {
+   "id": "S18",
+   "in": 48.74,
+   "out": 49.59,
+   "text": "Terima kasih kerana",
+   "note": "src 1702.78-1703.63",
+   "zoom": 1.06
+  },
+  {
+   "id": "S19",
+   "in": 49.59,
+   "out": 50.25,
+   "text": "Terima kasih kerana",
+   "note": "src 1708.79-1709.45",
+   "zoom": 1.0
+  },
+  {
+   "id": "S20",
+   "in": 50.25,
+   "out": 50.79,
+   "text": "Terima kasih kerana",
+   "note": "src 1710.94-1711.48",
+   "zoom": 1.06
+  },
+  {
+   "id": "S21",
+   "in": 50.79,
+   "out": 51.74,
+   "text": "Terima kasih kerana",
+   "note": "src 1713.62-1714.57",
+   "zoom": 1.0
+  },
+  {
+   "id": "S22",
+   "in": 51.74,
+   "out": 54.86,
+   "text": "Rasa nenas guys, ok? Memang sangat sedap.",
+   "note": "src 1717.08-1720.20",
+   "zoom": 1.06
+  },
+  {
+   "id": "S23",
+   "in": 54.86,
+   "out": 55.81,
+   "text": "Terima kasih kerana",
+   "note": "src 1722.01-1722.96",
+   "zoom": 1.0
+  },
+  {
+   "id": "S24",
+   "in": 55.81,
+   "out": 60.98,
+   "text": "rasa nenas guys memang sangat best",
+   "note": "src 1726.68-1731.85",
+   "zoom": 1.06
+  },
+  {
+   "id": "S25",
+   "in": 60.98,
+   "out": 66.36,
+   "text": "boleh dapatkan beg kuning saya datang buat harga promo boleh check out sekarang",
+   "note": "src 1732.33-1737.71",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "EXTRA ENERGY",
+   "hi": [
+    "ENERGY"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "korang"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 104
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "titik"
+   ],
+   "to": [
+    "*",
+    "1,"
+   ],
+   "src": 19.0,
+   "note": "the bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "1,"
+   ],
+   "to": [
+    "*",
+    "tuhan"
+   ],
+   "src": 38.0,
+   "note": "drops into the water",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "rasa#2"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 90.0,
+   "note": "the drink in the glass",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "yang"
+   ],
+   "to": [
+    "*",
+    "energose"
+   ],
+   "note": "AI: A tired Malaysian man in the afternoon heat wiping his forehead, low energy, holding a pla"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "nenas"
+   ],
+   "to": [
+    "*",
+    "memang#2"
+   ],
+   "note": "AI: A refreshing tall glass of bright yellow pineapple drink with ice and pineapple slices, co"
+  }
+ ],
+ "theme": {
+  "key": "#FFC20E",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "energose",
+  "pro",
+  "max"
+ ],
+ "keywords": [
+  "energy",
+  "flavour",
+  "flavor",
+  "nenas",
+  "pineapple",
+  "titik",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "energose"
+   ],
+   "to": [
+    "*",
+    "dia"
+   ],
+   "text": "ENERGOSE PRO MAX",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "titik"
+   ],
+   "to": [
+    "*",
+    "tuhan"
+   ],
+   "text": "TITIK DALAM AIR",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "pine"
+   ],
+   "to": [
+    "*",
+    "bau"
+   ],
+   "text": "PINE TROPIC (NENAS)",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "rasa"
+   ],
+   "to": [
+    "*",
+    "rasa#2"
+   ],
+   "text": "RASA NENAS, SEDAP",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "CHECK OUT DI BEG KUNING",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#FFC20E",
+  "bg": "rgba(25,50,10,.88)",
+  "ink": "#FFFFFF",
+  "dark": "#1A3208",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
