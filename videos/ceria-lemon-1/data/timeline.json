@@ -1,0 +1,63 @@
+{
+ "pieces": [
+  [
+   275.26,
+   279.76
+  ],
+  [
+   280.15,
+   293.55
+  ],
+  [
+   293.59,
+   306.89
+  ],
+  [
+   306.97,
+   342.57
+  ]
+ ],
+ "total": 66.8,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    275.26,
+    279.76
+   ],
+   "e0": 0.0,
+   "e1": 4.5,
+   "text": "mana nak tambahkan vitamin, mineral dalam badan, boleh cuba"
+  },
+  {
+   "id": "S2",
+   "src": [
+    280.15,
+    293.55
+   ],
+   "e0": 4.5,
+   "e1": 17.9,
+   "text": "ni, lemon flavored drink daripada Milk Gen. Ok, ada 7 vitamin dan mineral lemon flavor, ok, memang sangat mudah untuk di amalkan. Kau orang tengok, dalam ni ada 10 semuanya,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    293.59,
+    306.89
+   ],
+   "e0": 17.9,
+   "e1": 31.2,
+   "text": "MasyaAllah, MasyaAllah tengok, dia punya packaging pun macam ni lah. Korang koyak je, koyak dan terus minum, ok, dan terus, aku kata terus ready to drink, ready to use, haa, nampak, ok. Ok,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    306.97,
+    342.57
+   ],
+   "e0": 31.2,
+   "e1": 66.8,
+   "text": "so jangan risau, dah ada, halal pun dah ada, trusted insyaAllah. Ok, Milk Gen ni memang dah ramai yang dah gunakan, memang insyaAllah boleh bantu untuk kita punya badan kita lebih bertenaga, kan. Sebab kita sekali pun makanan macam-macam, kita makan kat luar, kita tak tahu apa kan handungan makanan-makanan yang kita makan tu kita pun tak tahu. So, kita nak beg balance balik, dapatkan, ok, boleh amalkan ceria lemon, ok, lemon flavoring daripada Merger ni. Harga tengah murah guys, saya tengah buat harga promo, ok, sementara harga masih murah dapatkan di beg cooling sekarang."
+  }
+ ]
+}

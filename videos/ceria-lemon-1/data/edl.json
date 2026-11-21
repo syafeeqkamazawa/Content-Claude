@@ -1,0 +1,254 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#4A3200",
+  "hot": "#FFC20E"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Ceria Lemon (vitamin drink) #1 — from VID_20261121_120947 273.7-345.0 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 4, total 66.8 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 4.5,
+   "text": "mana nak tambahkan vitamin, mineral dalam badan, boleh cuba",
+   "note": "src 275.26-279.76",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 4.5,
+   "out": 17.9,
+   "text": "ni, lemon flavored drink daripada Milk Gen. Ok, ada 7 vitamin dan mineral lemon flavor, ok, memang sangat mudah untuk di amalkan. Kau orang tengok, dalam ni ada 10 semuanya,",
+   "note": "src 280.15-293.55",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 17.9,
+   "out": 31.2,
+   "text": "MasyaAllah, MasyaAllah tengok, dia punya packaging pun macam ni lah. Korang koyak je, koyak dan terus minum, ok, dan terus, aku kata terus ready to drink, ready to use, haa, nampak, ok. Ok,",
+   "note": "src 293.59-306.89",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 31.2,
+   "out": 66.8,
+   "text": "so jangan risau, dah ada, halal pun dah ada, trusted insyaAllah. Ok, Milk Gen ni memang dah ramai yang dah gunakan, memang insyaAllah boleh bantu untuk kita punya badan kita lebih bertenaga, kan. Sebab kita sekali pun makanan macam-macam, kita makan kat luar, kita tak tahu apa kan handungan makanan-makanan yang kita makan tu kita pun tak tahu. So, kita nak beg balance balik, dapatkan, ok, boleh amalkan ceria lemon, ok, lemon flavoring daripada Merger ni. Harga tengah murah guys, saya tengah buat harga promo, ok, sementara harga masih murah dapatkan di beg cooling sekarang.",
+   "note": "src 306.97-342.57",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "TAMBAH VITAMIN & MINERAL",
+   "hi": [
+    "VITAMIN"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "ok"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 96
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "7"
+   ],
+   "to": [
+    "*",
+    "kau"
+   ],
+   "src": 9.2,
+   "note": "the yellow box",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "korang#2"
+   ],
+   "to": [
+    "*",
+    "ok#3"
+   ],
+   "src": 26.9,
+   "note": "the sachets fanned out",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "harga"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 59.3,
+   "note": "the box to camera",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#FFC20E",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "lemon",
+  "ceria"
+ ],
+ "keywords": [
+  "vitamin",
+  "mineral",
+  "7",
+  "10",
+  "halal",
+  "bertenaga",
+  "murah",
+  "promo"
+ ],
+ "fx": [
+  {
+   "type": "dial",
+   "from": [
+    "*",
+    "7"
+   ],
+   "to": [
+    "*",
+    "kau"
+   ],
+   "n": 7,
+   "label": "VITAMIN & MINERAL",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "10"
+   ],
+   "to": [
+    "*",
+    "korang#2"
+   ],
+   "text": "10 SACHET SEKOTAK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "ready"
+   ],
+   "to": [
+    "*",
+    "ok#3"
+   ],
+   "text": "READY TO DRINK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "halal"
+   ],
+   "to": [
+    "*",
+    "ok#4"
+   ],
+   "text": "HALAL, TRUSTED",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "bertenaga,"
+   ],
+   "to": [
+    "*",
+    "sebab"
+   ],
+   "text": "BADAN LEBIH BERTENAGA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "*",
+    "harga"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 760
+  }
+ ],
+ "pal": {
+  "key": "#FFC20E",
+  "bg": "rgba(60,40,0,.86)",
+  "ink": "#FFFFFF",
+  "dark": "#4A3200",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

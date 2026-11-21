@@ -1,0 +1,203 @@
+{
+ "pieces": [
+  [
+   109.08,
+   110.8
+  ],
+  [
+   111.7,
+   112.72
+  ],
+  [
+   113.43,
+   119.12
+  ],
+  [
+   119.26,
+   120.49
+  ],
+  [
+   120.5,
+   126.99
+  ],
+  [
+   127.03,
+   135.15
+  ],
+  [
+   135.16,
+   151.92
+  ],
+  [
+   151.93,
+   153.16
+  ],
+  [
+   153.66,
+   156.46
+  ],
+  [
+   156.73,
+   159.76
+  ],
+  [
+   159.8,
+   160.75
+  ],
+  [
+   160.98,
+   162.51
+  ],
+  [
+   162.71,
+   172.52
+  ],
+  [
+   172.7,
+   186.35
+  ]
+ ],
+ "total": 74.03,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    109.08,
+    110.8
+   ],
+   "e0": 0.0,
+   "e1": 1.72,
+   "text": "nak jaga khusus,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    111.7,
+    112.72
+   ],
+   "e0": 1.72,
+   "e1": 2.74,
+   "text": ""
+  },
+  {
+   "id": "S3",
+   "src": [
+    113.43,
+    119.12
+   ],
+   "e0": 2.74,
+   "e1": 8.43,
+   "text": "yang ada masalah kulit kusam, ada masalah turut, kembung, muka blotet, muka macam"
+  },
+  {
+   "id": "S4",
+   "src": [
+    119.26,
+    120.49
+   ],
+   "e0": 8.43,
+   "e1": 9.66,
+   "text": "apa,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    120.5,
+    126.99
+   ],
+   "e0": 9.66,
+   "e1": 16.15,
+   "text": "muka berisi ataupun muka sembab, atau muka yang apa, macam"
+  },
+  {
+   "id": "S6",
+   "src": [
+    127.03,
+    135.15
+   ],
+   "e0": 16.15,
+   "e1": 24.27,
+   "text": "nampak bengkak macam tu, kan, ataupun ada masalah, apa tu, nak membuang,"
+  },
+  {
+   "id": "S7",
+   "src": [
+    135.16,
+    151.92
+   ],
+   "e0": 24.27,
+   "e1": 41.03,
+   "text": "banyak lah, ok. Yang mana semua tu adalah, lucunya daripada usus, ok. So ni, NatureSkill dia keluarkan probiotik dan dalam bentuk gummies, mudah untuk dimakan. Tak biar telan-telan, bawa je masuk dalam poket, ok, macam makan candy tu, kunyah-kunyah je,"
+  },
+  {
+   "id": "S8",
+   "src": [
+    151.93,
+    153.16
+   ],
+   "e0": 41.03,
+   "e1": 42.26,
+   "text": "haa, ni korang tengok ni."
+  },
+  {
+   "id": "S9",
+   "src": [
+    153.66,
+    156.46
+   ],
+   "e0": 42.26,
+   "e1": 45.06,
+   "text": "Haa, bentuk ni memang cantik guys, nampak?"
+  },
+  {
+   "id": "S10",
+   "src": [
+    156.73,
+    159.76
+   ],
+   "e0": 45.06,
+   "e1": 48.09,
+   "text": "Korang kunyah-kunyah je, haa, kunyah-kunyah je, insyaAllah,"
+  },
+  {
+   "id": "S11",
+   "src": [
+    159.8,
+    160.75
+   ],
+   "e0": 48.09,
+   "e1": 49.04,
+   "text": "ok,"
+  },
+  {
+   "id": "S12",
+   "src": [
+    160.98,
+    162.51
+   ],
+   "e0": 49.04,
+   "e1": 50.57,
+   "text": "membantu untuk, haa,"
+  },
+  {
+   "id": "S13",
+   "src": [
+    162.71,
+    172.52
+   ],
+   "e0": 50.57,
+   "e1": 60.38,
+   "text": "keseimbangan usus kita, haa, ok. Ok, so, haa, dia punya satu kotak ni ada 30 gummies, jangan risau, nampak? Haa, dah ada,"
+  },
+  {
+   "id": "S14",
+   "src": [
+    172.7,
+    186.35
+   ],
+   "e0": 60.38,
+   "e1": 74.03,
+   "text": "halal pun ada, jangan risau, semua ada, insyaAllah, by NatureSkill Trusted Brand, insyaAllah. Ok, saya boleh tengah harga, buat harga promo guys, jangan tunggu lagi, harga tengah murah, sementara harga tengah murah, boleh beli di beg kuning sekarang."
+  }
+ ]
+}

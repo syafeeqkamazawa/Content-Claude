@@ -1,0 +1,345 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#5A0A30",
+  "hot": "#FF4F9A"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Pink Colla (collagen) #1 — from VID_20261121_120947 201.9-262.0 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 13, total 51.81 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 4.43,
+   "text": "Yang nak kulit lagi cantik, lagi berseri, lagi gemu-gebas ni, insyaAllah, boleh,",
+   "note": "src 202.30-206.73",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 4.43,
+   "out": 5.25,
+   "text": ".",
+   "note": "src 206.87-207.69",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 5.25,
+   "out": 14.39,
+   "text": "haa, cuba. Ok, daripada Milk Gen, ok, Pink Collar, Milk Collar Gen ni, dengan Apple dan Mulberry, so rasa ye, sedap, ok.",
+   "note": "src 207.83-216.97",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 14.39,
+   "out": 17.83,
+   "text": "Ok, dalam ni ada 10 paket, haa, macam ni.",
+   "note": "src 217.05-220.49",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 17.83,
+   "out": 20.47,
+   "text": "Lawa, packaging Mulawa, haa,",
+   "note": "src 220.60-223.24",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 20.47,
+   "out": 24.08,
+   "text": "macam ni, bentuk dia, ok, ada 10 semua,",
+   "note": "src 223.35-226.96",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 24.08,
+   "out": 28.58,
+   "text": "ok, korang koyak je dan boleh terus minum, haa, tak payah betul-betul bancuk dah memang,",
+   "note": "src 227.10-231.60",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 28.58,
+   "out": 30.55,
+   "text": "sangat mudah guys. Ok,",
+   "note": "src 231.64-233.61",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 30.55,
+   "out": 31.53,
+   "text": "haa,",
+   "note": "src 234.14-235.12",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 31.53,
+   "out": 33.06,
+   "text": "orang kata, raya",
+   "note": "src 235.54-237.07",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 33.06,
+   "out": 36.89,
+   "text": "pun dah tak lama, haa, boleh buat persediaan dari sekarang beg, orang",
+   "note": "src 238.26-242.09",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 36.89,
+   "out": 46.8,
+   "text": "kata penampilan lebih, lebih beg lah kan. Haa, so boleh, insyaAllah. Ok, Collagen, Apple dan Mulberry sekali ye, so rasa dia sedap tau, ok.",
+   "note": "src 242.20-252.11",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 46.8,
+   "out": 51.81,
+   "text": "Saya dia tengah buat harga promo, sementara harga tengah murah ni, dapatkan di beg kuning sekarang.",
+   "note": "src 252.12-257.13",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "KULIT LEBIH BERSERI",
+   "hi": [
+    "BERSERI"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "ok"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "10"
+   ],
+   "to": [
+    "*",
+    "lawa,"
+   ],
+   "src": 10.1,
+   "note": "the two boxes",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "koyak"
+   ],
+   "to": [
+    "*",
+    "ok#5"
+   ],
+   "src": 27.6,
+   "note": "the sachets fanned out",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "collagen"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 47.6,
+   "note": "the boxes to camera",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#FF4F9A",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "collagen",
+  "collar",
+  "gen"
+ ],
+ "keywords": [
+  "cantik",
+  "berseri",
+  "apple",
+  "mulberry",
+  "10",
+  "paket",
+  "raya",
+  "murah",
+  "promo"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "milk"
+   ],
+   "to": [
+    "*",
+    "ok#2"
+   ],
+   "text": "PINK COLLA COLLAGEN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "apple"
+   ],
+   "to": [
+    "*",
+    "ok#2"
+   ],
+   "y": 420,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "APPLE",
+     "at": [
+      "*",
+      "apple"
+     ]
+    },
+    {
+     "text": "MULBERRY",
+     "at": [
+      "*",
+      "mulberry,"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "dial",
+   "from": [
+    "*",
+    "10"
+   ],
+   "to": [
+    "*",
+    "lawa,"
+   ],
+   "n": 10,
+   "label": "PAKET SEKOTAK",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "koyak"
+   ],
+   "to": [
+    "*",
+    "ok#5"
+   ],
+   "text": "KOYAK, TERUS MINUM",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "raya"
+   ],
+   "to": [
+    "*",
+    "haa#3"
+   ],
+   "text": "PERSEDIAAN RAYA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "*",
+    "saya"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 760
+  }
+ ],
+ "pal": {
+  "key": "#FF4F9A",
+  "bg": "rgba(70,10,40,.86)",
+  "ink": "#FFFFFF",
+  "dark": "#5A0A30",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

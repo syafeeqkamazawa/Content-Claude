@@ -1,0 +1,376 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#0B2A5C",
+  "hot": "#3FA9F5"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Nature's Key Probiotic Gummies #1 — from VID_20261121_120947 108.3-189.6 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: 'tak boleh?' after the CTA (190.6). Pieces: 14, total 74.03 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.72,
+   "text": "nak jaga khusus,",
+   "note": "src 109.08-110.80",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 1.72,
+   "out": 2.74,
+   "text": ".",
+   "note": "src 111.70-112.72",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 2.74,
+   "out": 8.43,
+   "text": "yang ada masalah kulit kusam, ada masalah turut, kembung, muka blotet, muka macam",
+   "note": "src 113.43-119.12",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 8.43,
+   "out": 9.66,
+   "text": "apa,",
+   "note": "src 119.26-120.49",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 9.66,
+   "out": 16.15,
+   "text": "muka berisi ataupun muka sembab, atau muka yang apa, macam",
+   "note": "src 120.50-126.99",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 16.15,
+   "out": 24.27,
+   "text": "nampak bengkak macam tu, kan, ataupun ada masalah, apa tu, nak membuang,",
+   "note": "src 127.03-135.15",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 24.27,
+   "out": 41.03,
+   "text": "banyak lah, ok. Yang mana semua tu adalah, lucunya daripada usus, ok. So ni, NatureSkill dia keluarkan probiotik dan dalam bentuk gummies, mudah untuk dimakan. Tak biar telan-telan, bawa je masuk dalam poket, ok, macam makan candy tu, kunyah-kunyah je,",
+   "note": "src 135.16-151.92",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 41.03,
+   "out": 42.26,
+   "text": "haa, ni korang tengok ni.",
+   "note": "src 151.93-153.16",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 42.26,
+   "out": 45.06,
+   "text": "Haa, bentuk ni memang cantik guys, nampak?",
+   "note": "src 153.66-156.46",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 45.06,
+   "out": 48.09,
+   "text": "Korang kunyah-kunyah je, haa, kunyah-kunyah je, insyaAllah,",
+   "note": "src 156.73-159.76",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 48.09,
+   "out": 49.04,
+   "text": "ok,",
+   "note": "src 159.80-160.75",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 49.04,
+   "out": 50.57,
+   "text": "membantu untuk, haa,",
+   "note": "src 160.98-162.51",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 50.57,
+   "out": 60.38,
+   "text": "keseimbangan usus kita, haa, ok. Ok, so, haa, dia punya satu kotak ni ada 30 gummies, jangan risau, nampak? Haa, dah ada,",
+   "note": "src 162.71-172.52",
+   "zoom": 1.0
+  },
+  {
+   "id": "S14",
+   "in": 60.38,
+   "out": 74.03,
+   "text": "halal pun ada, jangan risau, semua ada, insyaAllah, by NatureSkill Trusted Brand, insyaAllah. Ok, saya boleh tengah harga, buat harga promo guys, jangan tunggu lagi, harga tengah murah, sementara harga tengah murah, boleh beli di beg kuning sekarang.",
+   "note": "src 172.70-186.35",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "MASALAH USUS?",
+   "hi": [
+    "USUS?"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "so"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "bentuk"
+   ],
+   "to": [
+    "*",
+    "korang#3"
+   ],
+   "src": 43.7,
+   "note": "a gummy close to camera",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "kunyah-kunyah#3"
+   ],
+   "to": [
+    "*",
+    "ok#5"
+   ],
+   "src": 47.5,
+   "note": "the gummy",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "satu"
+   ],
+   "to": [
+    "*",
+    "haa#5"
+   ],
+   "src": 61.2,
+   "note": "the box to camera",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "*",
+    "saya"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 74.7,
+   "note": "the box held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#3FA9F5",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "natureskill",
+  "probiotik"
+ ],
+ "keywords": [
+  "gummies",
+  "usus",
+  "kunyah-kunyah",
+  "30",
+  "halal",
+  "candy",
+  "murah",
+  "promo"
+ ],
+ "fx": [
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "kulit"
+   ],
+   "to": [
+    "*",
+    "so"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "KULIT KUSAM",
+     "at": [
+      "*",
+      "kulit"
+     ]
+    },
+    {
+     "text": "KEMBUNG",
+     "at": [
+      "*",
+      "kembung,"
+     ]
+    },
+    {
+     "text": "MUKA SEMBAB",
+     "at": [
+      "*",
+      "sembab,"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "probiotik"
+   ],
+   "to": [
+    "*",
+    "tak"
+   ],
+   "text": "PROBIOTIK GUMMIES",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "tak"
+   ],
+   "to": [
+    "*",
+    "haa#2"
+   ],
+   "text": "MACAM MAKAN CANDY",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "*",
+    "30"
+   ],
+   "to": [
+    "*",
+    "halal"
+   ],
+   "n": 30,
+   "label": "GUMMIES SEKOTAK",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "halal"
+   ],
+   "to": [
+    "*",
+    "saya"
+   ],
+   "text": "HALAL, TRUSTED BRAND",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "*",
+    "saya"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "BELI DI BEG KUNING",
+   "y": 760
+  }
+ ],
+ "pal": {
+  "key": "#3FA9F5",
+  "bg": "rgba(10,40,90,.86)",
+  "ink": "#FFFFFF",
+  "dark": "#0B2A5C",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

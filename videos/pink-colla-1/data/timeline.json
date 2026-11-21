@@ -1,0 +1,189 @@
+{
+ "pieces": [
+  [
+   202.3,
+   206.73
+  ],
+  [
+   206.87,
+   207.69
+  ],
+  [
+   207.83,
+   216.97
+  ],
+  [
+   217.05,
+   220.49
+  ],
+  [
+   220.6,
+   223.24
+  ],
+  [
+   223.35,
+   226.96
+  ],
+  [
+   227.1,
+   231.6
+  ],
+  [
+   231.64,
+   233.61
+  ],
+  [
+   234.14,
+   235.12
+  ],
+  [
+   235.54,
+   237.07
+  ],
+  [
+   238.26,
+   242.09
+  ],
+  [
+   242.2,
+   252.11
+  ],
+  [
+   252.12,
+   257.13
+  ]
+ ],
+ "total": 51.81,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    202.3,
+    206.73
+   ],
+   "e0": 0.0,
+   "e1": 4.43,
+   "text": "Yang nak kulit lagi cantik, lagi berseri, lagi gemu-gebas ni, insyaAllah, boleh,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    206.87,
+    207.69
+   ],
+   "e0": 4.43,
+   "e1": 5.25,
+   "text": ""
+  },
+  {
+   "id": "S3",
+   "src": [
+    207.83,
+    216.97
+   ],
+   "e0": 5.25,
+   "e1": 14.39,
+   "text": "haa, cuba. Ok, daripada Milk Gen, ok, Pink Collar, Milk Collar Gen ni, dengan Apple dan Mulberry, so rasa ye, sedap, ok."
+  },
+  {
+   "id": "S4",
+   "src": [
+    217.05,
+    220.49
+   ],
+   "e0": 14.39,
+   "e1": 17.83,
+   "text": "Ok, dalam ni ada 10 paket, haa, macam ni."
+  },
+  {
+   "id": "S5",
+   "src": [
+    220.6,
+    223.24
+   ],
+   "e0": 17.83,
+   "e1": 20.47,
+   "text": "Lawa, packaging Mulawa, haa,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    223.35,
+    226.96
+   ],
+   "e0": 20.47,
+   "e1": 24.08,
+   "text": "macam ni, bentuk dia, ok, ada 10 semua,"
+  },
+  {
+   "id": "S7",
+   "src": [
+    227.1,
+    231.6
+   ],
+   "e0": 24.08,
+   "e1": 28.58,
+   "text": "ok, korang koyak je dan boleh terus minum, haa, tak payah betul-betul bancuk dah memang,"
+  },
+  {
+   "id": "S8",
+   "src": [
+    231.64,
+    233.61
+   ],
+   "e0": 28.58,
+   "e1": 30.55,
+   "text": "sangat mudah guys. Ok,"
+  },
+  {
+   "id": "S9",
+   "src": [
+    234.14,
+    235.12
+   ],
+   "e0": 30.55,
+   "e1": 31.53,
+   "text": "haa,"
+  },
+  {
+   "id": "S10",
+   "src": [
+    235.54,
+    237.07
+   ],
+   "e0": 31.53,
+   "e1": 33.06,
+   "text": "orang kata, raya"
+  },
+  {
+   "id": "S11",
+   "src": [
+    238.26,
+    242.09
+   ],
+   "e0": 33.06,
+   "e1": 36.89,
+   "text": "pun dah tak lama, haa, boleh buat persediaan dari sekarang beg, orang"
+  },
+  {
+   "id": "S12",
+   "src": [
+    242.2,
+    252.11
+   ],
+   "e0": 36.89,
+   "e1": 46.8,
+   "text": "kata penampilan lebih, lebih beg lah kan. Haa, so boleh, insyaAllah. Ok, Collagen, Apple dan Mulberry sekali ye, so rasa dia sedap tau, ok."
+  },
+  {
+   "id": "S13",
+   "src": [
+    252.12,
+    257.13
+   ],
+   "e0": 46.8,
+   "e1": 51.81,
+   "text": "Saya dia tengah buat harga promo, sementara harga tengah murah ni, dapatkan di beg kuning sekarang."
+  }
+ ]
+}
