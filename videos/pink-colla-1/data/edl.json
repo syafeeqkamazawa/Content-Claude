@@ -24,110 +24,46 @@
  },
  "titles": [],
  "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
- "_note": "Pink Colla (collagen) #1 — from VID_20261121_120947 201.9-262.0 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 13, total 51.81 s.",
+ "_note": "Pink Colla (collagen) #1 — from VID_20261121_120947 201.9-262.0 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 5, total 53.63 s.",
  "segments": [
   {
    "id": "S1",
    "in": 0.0,
-   "out": 4.43,
-   "text": "Yang nak kulit lagi cantik, lagi berseri, lagi gemu-gebas ni, insyaAllah, boleh,",
-   "note": "src 202.30-206.73",
+   "out": 24.98,
+   "text": "Yang nak kulit lagi cantik, lagi berseri, lagi gemu-gebas ni, insyaAllah, boleh, haa, cuba. Ok, daripada Milk Gen, ok, Pink Collar, Milk Collar Gen ni, dengan Apple dan Mulberry, so rasa ye, sedap, ok. Ok, dalam ni ada 10 paket, haa, macam ni. Lawa, packaging Mulawa, haa, macam ni, bentuk dia, ok, ada 10 semua,",
+   "note": "src 201.98-226.96",
    "zoom": 1.0
   },
   {
    "id": "S2",
-   "in": 4.43,
-   "out": 5.25,
-   "text": ".",
-   "note": "src 206.87-207.69",
+   "in": 24.98,
+   "out": 31.53,
+   "text": "ok, korang koyak je dan boleh terus minum, haa, tak payah betul-betul bancuk dah memang, sangat mudah guys. Ok,",
+   "note": "src 227.06-233.61",
    "zoom": 1.06
   },
   {
    "id": "S3",
-   "in": 5.25,
-   "out": 14.39,
-   "text": "haa, cuba. Ok, daripada Milk Gen, ok, Pink Collar, Milk Collar Gen ni, dengan Apple dan Mulberry, so rasa ye, sedap, ok.",
-   "note": "src 207.83-216.97",
+   "in": 31.53,
+   "out": 32.53,
+   "text": "haa,",
+   "note": "src 234.12-235.12",
    "zoom": 1.0
   },
   {
    "id": "S4",
-   "in": 14.39,
-   "out": 17.83,
-   "text": "Ok, dalam ni ada 10 paket, haa, macam ni.",
-   "note": "src 217.05-220.49",
+   "in": 32.53,
+   "out": 34.18,
+   "text": "orang kata, raya",
+   "note": "src 235.42-237.07",
    "zoom": 1.06
   },
   {
    "id": "S5",
-   "in": 17.83,
-   "out": 20.47,
-   "text": "Lawa, packaging Mulawa, haa,",
-   "note": "src 220.60-223.24",
-   "zoom": 1.0
-  },
-  {
-   "id": "S6",
-   "in": 20.47,
-   "out": 24.08,
-   "text": "macam ni, bentuk dia, ok, ada 10 semua,",
-   "note": "src 223.35-226.96",
-   "zoom": 1.06
-  },
-  {
-   "id": "S7",
-   "in": 24.08,
-   "out": 28.58,
-   "text": "ok, korang koyak je dan boleh terus minum, haa, tak payah betul-betul bancuk dah memang,",
-   "note": "src 227.10-231.60",
-   "zoom": 1.0
-  },
-  {
-   "id": "S8",
-   "in": 28.58,
-   "out": 30.55,
-   "text": "sangat mudah guys. Ok,",
-   "note": "src 231.64-233.61",
-   "zoom": 1.06
-  },
-  {
-   "id": "S9",
-   "in": 30.55,
-   "out": 31.53,
-   "text": "haa,",
-   "note": "src 234.14-235.12",
-   "zoom": 1.0
-  },
-  {
-   "id": "S10",
-   "in": 31.53,
-   "out": 33.06,
-   "text": "orang kata, raya",
-   "note": "src 235.54-237.07",
-   "zoom": 1.06
-  },
-  {
-   "id": "S11",
-   "in": 33.06,
-   "out": 36.89,
-   "text": "pun dah tak lama, haa, boleh buat persediaan dari sekarang beg, orang",
-   "note": "src 238.26-242.09",
-   "zoom": 1.0
-  },
-  {
-   "id": "S12",
-   "in": 36.89,
-   "out": 46.8,
-   "text": "kata penampilan lebih, lebih beg lah kan. Haa, so boleh, insyaAllah. Ok, Collagen, Apple dan Mulberry sekali ye, so rasa dia sedap tau, ok.",
-   "note": "src 242.20-252.11",
-   "zoom": 1.06
-  },
-  {
-   "id": "S13",
-   "in": 46.8,
-   "out": 51.81,
-   "text": "Saya dia tengah buat harga promo, sementara harga tengah murah ni, dapatkan di beg kuning sekarang.",
-   "note": "src 252.12-257.13",
+   "in": 34.18,
+   "out": 53.63,
+   "text": "pun dah tak lama, haa, boleh buat persediaan dari sekarang beg, orang kata penampilan lebih, lebih beg lah kan. Haa, so boleh, insyaAllah. Ok, Collagen, Apple dan Mulberry sekali ye, so rasa dia sedap tau, ok. Saya dia tengah buat harga promo, sementara harga tengah murah ni, dapatkan di beg kuning sekarang.",
+   "note": "src 237.68-257.13",
    "zoom": 1.0
   }
  ],
@@ -207,7 +143,32 @@
    "origin": "50% 45%"
   }
  ],
- "photos": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "cantik"
+   ],
+   "to": [
+    "*",
+    "ok"
+   ],
+   "note": "AI: A Malaysian woman in a pastel hijab smiling at a mirror, her face glowing with soft radian"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "raya"
+   ],
+   "to": [
+    "*",
+    "haa#3"
+   ],
+   "note": "AI: A confident Malaysian woman in an elegant baju kurung and hijab at a Hari Raya gathering, "
+  }
+ ],
  "theme": {
   "key": "#FF4F9A",
   "brand": "#FFFFFF"
@@ -320,8 +281,8 @@
   {
    "type": "promo",
    "from": [
-    "*",
-    "saya"
+    "-",
+    6.5
    ],
    "to": [
     "LAST",
@@ -330,7 +291,7 @@
    "tag": "BEG KUNING",
    "title": "HARGA PROMO",
    "sub": "DAPATKAN DI BEG KUNING",
-   "y": 760
+   "y": 110
   }
  ],
  "pal": {

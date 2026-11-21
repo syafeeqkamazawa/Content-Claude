@@ -127,7 +127,32 @@
    "origin": "50% 45%"
   }
  ],
- "photos": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "sakit"
+   ],
+   "to": [
+    "*",
+    "ok,"
+   ],
+   "note": "AI: A Malaysian man in his fifties sitting on a sofa at home, holding his swollen painful ankl"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "so#2"
+   ],
+   "to": [
+    "*",
+    "boleh#2"
+   ],
+   "note": "AI: The same kind of Malaysian man in his fifties walking comfortably and smiling in a green p"
+  }
+ ],
  "theme": {
   "key": "#F7A823",
   "brand": "#FFFFFF"

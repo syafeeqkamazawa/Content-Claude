@@ -24,119 +24,63 @@
  },
  "titles": [],
  "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
- "_note": "Nature's Key Probiotic Gummies #1 — from VID_20261121_120947 108.3-189.6 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: 'tak boleh?' after the CTA (190.6). Pieces: 14, total 74.03 s.",
+ "_note": "Nature's Key Probiotic Gummies #1 — from VID_20261121_120947 108.3-189.6 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: 'tak boleh?' after the CTA (190.6). Pieces: 7, total 76.1 s.",
  "segments": [
   {
    "id": "S1",
    "in": 0.0,
-   "out": 1.72,
-   "text": "nak jaga khusus,",
-   "note": "src 109.08-110.80",
+   "out": 2.38,
+   "text": "Yang nak jaga khusus,",
+   "note": "src 108.42-110.80",
    "zoom": 1.0
   },
   {
    "id": "S2",
-   "in": 1.72,
-   "out": 2.74,
-   "text": ".",
-   "note": "src 111.70-112.72",
+   "in": 2.38,
+   "out": 3.66,
+   "text": "ok,",
+   "note": "src 111.30-112.58",
    "zoom": 1.06
   },
   {
    "id": "S3",
-   "in": 2.74,
-   "out": 8.43,
-   "text": "yang ada masalah kulit kusam, ada masalah turut, kembung, muka blotet, muka macam",
-   "note": "src 113.43-119.12",
+   "in": 3.66,
+   "out": 10.99,
+   "text": "yang ada masalah kulit kusam, ada masalah turut, kembung, muka blotet, muka macam apa,",
+   "note": "src 113.16-120.49",
    "zoom": 1.0
   },
   {
    "id": "S4",
-   "in": 8.43,
-   "out": 9.66,
-   "text": "apa,",
-   "note": "src 119.26-120.49",
+   "in": 10.99,
+   "out": 43.65,
+   "text": "muka berisi ataupun muka sembab, atau muka yang apa, macam nampak bengkak macam tu, kan, ataupun ada masalah, apa tu, nak membuang, banyak lah, ok. Yang mana semua tu adalah, lucunya daripada usus, ok. So ni, NatureSkill dia keluarkan probiotik dan dalam bentuk gummies, mudah untuk dimakan. Tak biar telan-telan, bawa je masuk dalam poket, ok, macam makan candy tu, kunyah-kunyah je, haa, ni korang tengok ni.",
+   "note": "src 120.50-153.16",
    "zoom": 1.06
   },
   {
    "id": "S5",
-   "in": 9.66,
-   "out": 16.15,
-   "text": "muka berisi ataupun muka sembab, atau muka yang apa, macam",
-   "note": "src 120.50-126.99",
-   "zoom": 1.0
-  },
-  {
-   "id": "S6",
-   "in": 16.15,
-   "out": 24.27,
-   "text": "nampak bengkak macam tu, kan, ataupun ada masalah, apa tu, nak membuang,",
-   "note": "src 127.03-135.15",
-   "zoom": 1.06
-  },
-  {
-   "id": "S7",
-   "in": 24.27,
-   "out": 41.03,
-   "text": "banyak lah, ok. Yang mana semua tu adalah, lucunya daripada usus, ok. So ni, NatureSkill dia keluarkan probiotik dan dalam bentuk gummies, mudah untuk dimakan. Tak biar telan-telan, bawa je masuk dalam poket, ok, macam makan candy tu, kunyah-kunyah je,",
-   "note": "src 135.16-151.92",
-   "zoom": 1.0
-  },
-  {
-   "id": "S8",
-   "in": 41.03,
-   "out": 42.26,
-   "text": "haa, ni korang tengok ni.",
-   "note": "src 151.93-153.16",
-   "zoom": 1.06
-  },
-  {
-   "id": "S9",
-   "in": 42.26,
-   "out": 45.06,
+   "in": 43.65,
+   "out": 46.45,
    "text": "Haa, bentuk ni memang cantik guys, nampak?",
    "note": "src 153.66-156.46",
    "zoom": 1.0
   },
   {
-   "id": "S10",
-   "in": 45.06,
-   "out": 48.09,
-   "text": "Korang kunyah-kunyah je, haa, kunyah-kunyah je, insyaAllah,",
-   "note": "src 156.73-159.76",
+   "id": "S6",
+   "in": 46.45,
+   "out": 62.41,
+   "text": "Korang kunyah-kunyah je, haa, kunyah-kunyah je, insyaAllah, ok, membantu untuk, haa, keseimbangan usus kita, haa, ok. Ok, so, haa, dia punya satu kotak ni ada 30 gummies, jangan risau, nampak? Haa, dah ada,",
+   "note": "src 156.56-172.52",
    "zoom": 1.06
   },
   {
-   "id": "S11",
-   "in": 48.09,
-   "out": 49.04,
-   "text": "ok,",
-   "note": "src 159.80-160.75",
-   "zoom": 1.0
-  },
-  {
-   "id": "S12",
-   "in": 49.04,
-   "out": 50.57,
-   "text": "membantu untuk, haa,",
-   "note": "src 160.98-162.51",
-   "zoom": 1.06
-  },
-  {
-   "id": "S13",
-   "in": 50.57,
-   "out": 60.38,
-   "text": "keseimbangan usus kita, haa, ok. Ok, so, haa, dia punya satu kotak ni ada 30 gummies, jangan risau, nampak? Haa, dah ada,",
-   "note": "src 162.71-172.52",
-   "zoom": 1.0
-  },
-  {
-   "id": "S14",
-   "in": 60.38,
-   "out": 74.03,
+   "id": "S7",
+   "in": 62.41,
+   "out": 76.1,
    "text": "halal pun ada, jangan risau, semua ada, insyaAllah, by NatureSkill Trusted Brand, insyaAllah. Ok, saya boleh tengah harga, buat harga promo guys, jangan tunggu lagi, harga tengah murah, sementara harga tengah murah, boleh beli di beg kuning sekarang.",
-   "note": "src 172.70-186.35",
-   "zoom": 1.06
+   "note": "src 172.66-186.35",
+   "zoom": 1.0
   }
  ],
  "kp": [
@@ -168,7 +112,7 @@
    ],
    "to": [
     "*",
-    "korang#3"
+    "korang#2"
    ],
    "src": 43.7,
    "note": "a gummy close to camera",
@@ -233,7 +177,32 @@
    "origin": "50% 45%"
   }
  ],
- "photos": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "kulit"
+   ],
+   "to": [
+    "*",
+    "so"
+   ],
+   "note": "AI: A Malaysian woman looking at her tired dull puffy face in a bathroom mirror, one hand on h"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "membantu"
+   ],
+   "to": [
+    "*",
+    "ok,#4"
+   ],
+   "note": "AI: A happy Malaysian woman laughing with friends at a cafe, light and comfortable, bright day"
+  }
+ ],
  "theme": {
   "key": "#3FA9F5",
   "brand": "#FFFFFF"
@@ -351,8 +320,8 @@
   {
    "type": "promo",
    "from": [
-    "*",
-    "saya"
+    "-",
+    6.5
    ],
    "to": [
     "LAST",
@@ -361,7 +330,7 @@
    "tag": "BEG KUNING",
    "title": "HARGA PROMO",
    "sub": "BELI DI BEG KUNING",
-   "y": 760
+   "y": 110
   }
  ],
  "pal": {

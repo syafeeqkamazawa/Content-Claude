@@ -1,0 +1,5 @@
+# .media · 2 assets
+
+id         type   dur   dims   path                         description
+image_001  image  —     —      .media/images/image_001.png  A Malaysian man lying awake in bed at night staring at the ceiling, unable to sleep, dim blue light. The man is a Malay Muslim in a loose long-sleeved shirt and long trousers to the ankle, fully covered, no shorts. Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
+image_002  image  —     —      .media/images/image_002.png  A Malaysian man sleeping peacefully in bed with a calm face, soft morning light. The man is a Malay Muslim in a loose long-sleeved shirt and long trousers to the ankle, fully covered, no shorts. Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.

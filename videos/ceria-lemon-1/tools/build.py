@@ -193,6 +193,8 @@ def anchor(a):
     seg_id, what = a
     if seg_id == "@":
         return float(what)
+    if seg_id == "-":   # seconds before the end of the video
+        return max(0.0, segs[-1]["end"] - float(what))
     if seg_id == "LAST":
         seg_id = segs[-1]["id"]
     if seg_id == "*":
@@ -662,11 +664,16 @@ for k, (fa, fc) in enumerate(EDL.get("flash", [])):
 # pill tag with a dotted ring around the product, a glass HUD card with a filling bar and a
 # promo card on a glowing arc. EDL "fx": [{"type", "from", "to", ...}] (anchors as for kp).
 FX_KEY = EDL.get("theme", {}).get("key", "#FFC21A")
+PROMO_T0 = next((anchor(f["from"]) for f in EDL.get("fx", []) if f["type"] == "promo"), None)
 for k, fx in enumerate(EDL.get("fx", [])):
     fid = f"fx{k}"
     typ = fx["type"]
     t0 = q(anchor(fx["from"]))
     t1 = q(min(anchor(fx["to"]), TOTAL))
+    if typ != "promo" and PROMO_T0 is not None and t0 < PROMO_T0:   # nothing runs under the closing CTA card
+        t1 = q(min(t1, PROMO_T0 - 0.05))
+    if t1 - t0 < 0.4:
+        continue
     d = q(t1 - t0)
     x, y = fx.get("x", 540), fx.get("y", 300)
     if typ == "dial":
@@ -900,6 +907,7 @@ if EDL.get("fx_theme") == "tile":
 .kpbar {{ height: 26px; background: url("{TILE_SVG}") 0 0 / 26px 26px repeat-x; border: 3px solid #111; border-radius: 4px; }}
 """
 
+HOTW = {norm(k) for k in EDL.get("keywords", []) + EDL.get("brand_words", [])}
 # ── 5. Captions ────────────────────────────────────────────────────────────
 # Owner (21 Oct): split-flap "departure board" captions like the reference video —
 # uppercase tiles that scramble left to right before settling, one colour per
@@ -1384,7 +1392,6 @@ if WORD_CAP:
 .wc-halo { fill: none; stroke: url(#wc-dots); stroke-width: 26px; stroke-linejoin: round; }
 .wc-ink { fill: #FFFFFF; stroke: #111111; stroke-width: 6px; stroke-linejoin: round; paint-order: stroke; }
 """
-HOTW = {norm(k) for k in EDL.get("keywords", []) + EDL.get("brand_words", [])}
 WS = EDL.get("word", {})  # 6 Nov default caption (docs/caption-style-6nov.jpg): {"font": "Rubik Mono One", ...}
 if WORD_CAP and not WORD2 and not WORD3 and WS.get("font") == "Rubik Mono One":
     CSS_CAP = """@font-face { font-family: "Rubik Mono One"; src: url("assets/fonts/RubikMonoOne-latin.woff2") format("woff2");

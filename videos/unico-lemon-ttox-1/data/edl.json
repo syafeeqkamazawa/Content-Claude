@@ -135,7 +135,32 @@
    "origin": "45% 45%"
   }
  ],
- "photos": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "perut"
+   ],
+   "to": [
+    "*",
+    "lemon"
+   ],
+   "note": "AI: A Malaysian man standing in front of a mirror at home, frowning at his round belly pushing"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "raya"
+   ],
+   "to": [
+    "*",
+    "dapatkan"
+   ],
+   "note": "AI: A cheerful Malay family in matching baju raya at a Hari Raya open house, smiling and greet"
+  }
+ ],
  "theme": {
   "key": "#FFD43B",
   "brand": "#FFFFFF"

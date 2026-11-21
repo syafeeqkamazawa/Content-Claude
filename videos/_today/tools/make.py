@@ -44,6 +44,8 @@ def words(extra=None):
                     w = fx[core] + w[len(core):]
                 if out and w.startswith("-"):
                     pw, ps, _ = out.pop(); w, s = pw + w, ps
+                elif out and core == "orang" and out[-1][0].lower() == "kau":   # whisper splits 'korang' as 'Kau orang'
+                    _, ps, _ = out.pop(); w, s = "Korang" + w[len(core):], ps
                 out.append((w, s, e))
     return out
 

@@ -1,0 +1,5 @@
+# .media · 2 assets
+
+id         type   dur   dims   path                         description
+image_001  image  —     —      .media/images/image_001.png  A Malaysian woman in a pastel hijab smiling at a mirror, her face glowing with soft radiant healthy skin, morning window light. The woman is a Malay Muslim wearing a hijab covering her hair, neck and chest and loose long clothing covering her whole body except face and hands. Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
+image_002  image  —     —      .media/images/image_002.png  A confident Malaysian woman in an elegant baju kurung and hijab at a Hari Raya gathering, glowing skin, warm smile. The woman is a Malay Muslim wearing a hijab covering her hair, neck and chest and loose long clothing covering her whole body except face and hands. Photorealistic, cinematic, natural light, Malaysia, no text, no logos, no readable brand names. Vertical 9:16 portrait composition.
