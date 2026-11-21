@@ -109,7 +109,7 @@ AI2 = {
             ("A2", W("mana-mana#1"), W("usah#1"), f"A Malaysian man browsing clothing racks in a shopping mall store, looking unimpressed and empty-handed. {M}"),
             ("A3", W("raya#1"), W("benda#1"), f"Nearly empty clothing racks in a Malaysian menswear shop just before Hari Raya, only a few hoodies left, shoppers in the background. {M} {F}")],
     "n02": [("A1", W("Bau#3"), W("tunjuk#1"), f"A Malaysian man relaxing in the driver's seat of a clean luxury car, eyes closed, smiling as he enjoys a pleasant scent, warm evening light. {M}"),
-            ("A2", W("bau#7"), W("Ocean#1"), "The spotless interior of a brand new car, fresh clean seats and dashboard, bright daylight. No people."),
+            ("A2", W("bau#7"), W("Ocean#1"), "The spotless interior of a brand new car, fresh clean seats and dashboard, bright daylight, a plain green tree-lined road outside, no flags, no signs. No people."),
             ("A3", W("bau#19"), W("tapi#4"), "Fresh sliced oranges and lemons beside pieces of pine forest wood and green leaves on a wooden table, soft natural light. No people.")],
     "n03": [("A1", W("Bantu#2"), W("Sekarang#2"), f"A Malaysian girl about six years old on a sofa staring at a smartphone, the screen glow on her face, her mother watching worried in the background. {K} {F}"),
             ("A2", W("Ada#4"), W("Jadi#3"), f"A Malaysian boy about five crying in a tantrum on the living-room floor after his tablet was taken away, his mother kneeling calmly beside him. {K} {F}")],
