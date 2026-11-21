@@ -133,7 +133,32 @@
    "origin": "50% 55%"
   }
  ],
- "photos": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Yang#2"
+   ],
+   "to": [
+    "*",
+    "Ok.#2"
+   ],
+   "note": "AI: A Malaysian girl about six lying on a sofa at night staring at a tablet, the screen glow o"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "So,#2"
+   ],
+   "to": [
+    "*",
+    "Ok,#3"
+   ],
+   "note": "AI: A Malaysian mother and her young daughter laughing together while solving a maze puzzle bo"
+  }
+ ],
  "theme": {
   "key": "#FFC400",
   "brand": "#FFFFFF"

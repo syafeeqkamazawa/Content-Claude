@@ -177,7 +177,32 @@
    "origin": "50% 50%"
   }
  ],
- "photos": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Bantu#2"
+   ],
+   "to": [
+    "*",
+    "Sekarang#2"
+   ],
+   "note": "AI: A Malaysian girl about six years old on a sofa staring at a smartphone, the screen glow on"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "Ada#4"
+   ],
+   "to": [
+    "*",
+    "Jadi#3"
+   ],
+   "note": "AI: A Malaysian boy about five crying in a tantrum on the living-room floor after his tablet w"
+  }
+ ],
  "theme": {
   "key": "#FFC400",
   "brand": "#FFFFFF"
