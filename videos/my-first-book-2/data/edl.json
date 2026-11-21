@@ -24,7 +24,7 @@
  },
  "titles": [],
  "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
- "_note": "My First Book #2 — from VID_20261121 150449 0-166 0.0-166.017 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the 'ok, ok' before he starts; the first 'dia sediakan pen dengan marker' (he repeats it after fetching the marker) and the aside while fetching it; 'Kadi Ma, yang tu' / 'tutup TV' (to the children); the unclear 'tepang keling' repeats; 'haa haa' while his daughter presses the page. Pieces: 17, total 91.16 s.",
+ "_note": "My First Book #2 — from VID_20261121 150449 0-166 0.0-166.017 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the 'ok, ok' before he starts; the first 'dia sediakan pen dengan marker' (he repeats it after fetching the marker) and the aside while fetching it; 'Kadi Ma, yang tu' / 'tutup TV' (to the children); the unclear 'tepang keling' repeats; 'haa haa' while his daughter presses the page. Pieces: 17, total 90.96 s.",
  "segments": [
   {
    "id": "S1",
@@ -53,112 +53,112 @@
   {
    "id": "S4",
    "in": 37.64,
-   "out": 43.02,
-   "text": "Assalamualaikum. Nama saya Mami Hana. Saya Umi Bilal. Tutup",
-   "note": "src 60.92-66.30",
+   "out": 42.82,
+   "text": "Assalamualaikum. Nama saya Mami Hana. Saya Umi Bilal.",
+   "note": "src 60.92-66.10",
    "zoom": 1.06
   },
   {
    "id": "S5",
-   "in": 43.02,
-   "out": 48.09,
-   "text": "So, ok guys. Ok, kita tengok cara nak guna ni mudah sahaja. Ok, tekan keling.",
+   "in": 42.82,
+   "out": 47.89,
+   "text": "So, ok guys. Ok, kita tengok cara nak guna ni mudah sahaja. Ok, tekan klik.",
    "note": "src 93.82-98.89",
    "zoom": 1.0
   },
   {
    "id": "S6",
-   "in": 48.09,
-   "out": 56.5,
+   "in": 47.89,
+   "out": 56.3,
    "text": "Ok, guys. Buku ni sangat senang untuk anak-anak kita guna. Ok, so saya akan tunjukkan kepada ibu ayah. Ok, cara guna ni senang sahaja. Tekan button power.",
    "note": "src 103.28-111.69",
    "zoom": 1.06
   },
   {
    "id": "S7",
-   "in": 56.5,
-   "out": 63.04,
-   "text": "Assalamualaikum. Nama saya Mami Hana. Saya Umi Bilal. Saya Umi Bilal. Apa?",
+   "in": 56.3,
+   "out": 62.84,
+   "text": "Assalamualaikum. Nama saya Mami Hana. Saya Umi Bilal. Saya Umi Bilal.",
    "note": "src 111.96-118.50",
    "zoom": 1.0
   },
   {
    "id": "S8",
-   "in": 63.04,
-   "out": 67.87,
-   "text": "Tepang. Ok, tekan. Dekat tempat button, ada power button tu. Tepang tu.",
+   "in": 62.84,
+   "out": 67.67,
+   "text": "Ok, tekan. Dekat tempat button, ada power button tu.",
    "note": "src 128.56-133.39",
    "zoom": 1.06
   },
   {
    "id": "S9",
-   "in": 67.87,
-   "out": 70.97,
+   "in": 67.67,
+   "out": 70.77,
    "text": "Mari mengenal A, B, C. Haa.",
    "note": "src 133.66-136.76",
    "zoom": 1.0
   },
   {
    "id": "S10",
-   "in": 70.97,
-   "out": 71.59,
+   "in": 70.77,
+   "out": 71.39,
    "text": "Ok.",
    "note": "src 137.06-137.68",
    "zoom": 1.06
   },
   {
    "id": "S11",
-   "in": 71.59,
-   "out": 72.71,
+   "in": 71.39,
+   "out": 72.51,
    "text": "Ok.",
    "note": "src 138.00-139.12",
    "zoom": 1.0
   },
   {
    "id": "S12",
-   "in": 72.71,
-   "out": 73.83,
+   "in": 72.51,
+   "out": 73.63,
    "text": "Ok.",
    "note": "src 142.78-143.90",
    "zoom": 1.06
   },
   {
    "id": "S13",
-   "in": 73.83,
-   "out": 74.81,
+   "in": 73.63,
+   "out": 74.61,
    "text": "Ok, seterusnya.",
    "note": "src 143.94-144.92",
    "zoom": 1.0
   },
   {
    "id": "S14",
-   "in": 74.81,
-   "out": 75.93,
+   "in": 74.61,
+   "out": 75.73,
    "text": "B.",
    "note": "src 146.50-147.62",
    "zoom": 1.06
   },
   {
    "id": "S15",
-   "in": 75.93,
-   "out": 77.05,
+   "in": 75.73,
+   "out": 76.85,
    "text": "Ok.",
    "note": "src 148.30-149.42",
    "zoom": 1.0
   },
   {
    "id": "S16",
-   "in": 77.05,
-   "out": 84.75,
-   "text": "Ok, macam nak saya sekarang ni lima tahun, dia dah boleh kuasai lah. Fatima dah tahu kan. Ok, sampai Z kan.",
+   "in": 76.85,
+   "out": 84.55,
+   "text": "Ok, macam anak saya sekarang ni lima tahun, dia dah boleh kuasai lah. Fatima dah tahu kan. Ok, sampai Z kan.",
    "note": "src 149.66-157.36",
    "zoom": 1.06
   },
   {
    "id": "S17",
-   "in": 84.75,
-   "out": 91.16,
-   "text": "Tak rasa kan? Ok. So boleh, Fatima. Fatima explore dulu, ok.",
+   "in": 84.55,
+   "out": 90.96,
+   "text": "Tak tahu kan? Ok. So boleh, Fatima. Fatima explore dulu, ok.",
    "note": "src 158.82-165.23",
    "zoom": 1.0
   }
@@ -174,8 +174,8 @@
     "start"
    ],
    "to": [
-    "@",
-    3.5
+    "*",
+    "6#1"
    ],
    "anim": "zoom",
    "top": 200,
@@ -183,8 +183,52 @@
   }
  ],
  "punch": [],
- "broll": [],
- "photos": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "Ini#1"
+   ],
+   "to": [
+    "*",
+    "Sangat#1"
+   ],
+   "src": 17.0,
+   "note": "the My First Book box held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 40%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Yang#2"
+   ],
+   "to": [
+    "*",
+    "Ini#1"
+   ],
+   "note": "AI: A Malaysian mother holding her baby on her lap while turning the pages of a colourful pict"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "Jadi#1"
+   ],
+   "to": [
+    "*",
+    "Ok,#2"
+   ],
+   "note": "AI: A Malaysian toddler girl smiling as she taps a colourful picture book with a pen on a livi"
+  }
+ ],
  "theme": {
   "key": "#FF5FB0",
   "brand": "#FFFFFF"
@@ -203,7 +247,131 @@
   "senang",
   "ABC"
  ],
- "fx": [],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Mami#1"
+   ],
+   "to": [
+    "*",
+    "Jadi#1"
+   ],
+   "text": "COLLAB MAMI HANA, NILOFA & BILAL",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "dia#3"
+   ],
+   "to": [
+    "*",
+    "Ok,#4"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "MARKER",
+     "at": [
+      "*",
+      "marker#1"
+     ]
+    },
+    {
+     "text": "PEN BERCAKAP",
+     "at": [
+      "*",
+      "pen#1"
+     ]
+    },
+    {
+     "text": "ADA PEMADAM",
+     "at": [
+      "*",
+      "pemadam#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Assalamualaikum.#2"
+   ],
+   "to": [
+    "*",
+    "So,#5"
+   ],
+   "text": "BUKU BERSUARA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Tekan#2"
+   ],
+   "to": [
+    "*",
+    "Assalamualaikum.#3"
+   ],
+   "text": "TEKAN BUTTON POWER",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Mari#1"
+   ],
+   "to": [
+    "*",
+    "Ok,#16"
+   ],
+   "text": "MENGENAL A, B, C",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "lima#1"
+   ],
+   "to": [
+    "*",
+    "Tak#1"
+   ],
+   "text": "5 TAHUN, DAH KUASAI A - Z",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "MY FIRST BOOK",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 110
+  }
+ ],
  "pal": {
   "key": "#FF5FB0",
   "bg": "rgba(62,15,107,.9)",

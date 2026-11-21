@@ -46,7 +46,7 @@
    "id": "S3",
    "in": 13.01,
    "out": 32.59,
-   "text": "So, boleh Orang kata tambahkan kualiti masa Tengah keluarga insyaAllah Okay, so Dapatkan di beg ni insyaAllah Sangat bagus untuk anak-anak kita Dan juga Untuk sesi Untuk keluarga tu sendiri Sangat bagus insyaAllah Okay Boleh bina di beg ni sementara harga masih ada promosi",
+   "text": "So, boleh Orang kata tambahkan kualiti masa Tengah keluarga insyaAllah Okay, so Dapatkan di beg kuning insyaAllah Sangat bagus untuk anak-anak kita Dan juga Untuk sesi Untuk keluarga tu sendiri Sangat bagus insyaAllah Okay Boleh dapatkan di beg kuning sementara harga masih ada promosi",
    "note": "src 20.66-40.24",
    "zoom": 1.0
   }
@@ -62,8 +62,8 @@
     "start"
    ],
    "to": [
-    "@",
-    3.5
+    "*",
+    "best#1"
    ],
    "anim": "zoom",
    "top": 200,
@@ -71,8 +71,76 @@
   }
  ],
  "punch": [],
- "broll": [],
- "photos": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "Juga#1"
+   ],
+   "to": [
+    "*",
+    "Kadang-kadang#1"
+   ],
+   "src": 84.7,
+   "note": "father and daughter on the maze page (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "Kadang-kadang#1"
+   ],
+   "to": [
+    "*",
+    "So,#2"
+   ],
+   "src": 164.7,
+   "note": "both thinking over the maze (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "Dan#1"
+   ],
+   "to": [
+    "*",
+    "Okay#3"
+   ],
+   "src": 224.7,
+   "note": "tracing the path together (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "tambahkan#1"
+   ],
+   "to": [
+    "*",
+    "Okay,#2"
+   ],
+   "note": "AI: A Malaysian father, mother and young daughter laughing together at a dining table while so"
+  }
+ ],
  "theme": {
   "key": "#FFC400",
   "brand": "#FFFFFF"
@@ -89,7 +157,65 @@
   "promosi",
   "best"
  ],
- "fx": [],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "bina#1"
+   ],
+   "to": [
+    "*",
+    "Okay,#1"
+   ],
+   "text": "BINA BONDING",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "sama-sama#1"
+   ],
+   "to": [
+    "*",
+    "So,#2"
+   ],
+   "text": "FIKIR SAMA-SAMA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "tambahkan#1"
+   ],
+   "to": [
+    "*",
+    "so#3"
+   ],
+   "text": "MASA BERKUALITI KELUARGA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "MASIH ADA PROMOSI",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 110
+  }
+ ],
  "pal": {
   "key": "#FFC400",
   "bg": "rgba(18,18,28,.9)",
