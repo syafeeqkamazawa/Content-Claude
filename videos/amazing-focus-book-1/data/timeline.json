@@ -1,0 +1,105 @@
+{
+ "pieces": [
+  [
+   0.78,
+   10.88
+  ],
+  [
+   11.62,
+   20.42
+  ],
+  [
+   20.78,
+   30.21
+  ],
+  [
+   30.34,
+   44.99
+  ],
+  [
+   45.0,
+   51.39
+  ],
+  [
+   51.4,
+   65.06
+  ],
+  [
+   65.08,
+   76.22
+  ]
+ ],
+ "total": 74.17,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.78,
+    10.88
+   ],
+   "e0": 0.0,
+   "e1": 10.1,
+   "text": "Ibu ayah, Masya Allah. Amazing Focus Training Book. Ada 300 game dalam ni. Untuk anak yang daripada 2 hingga 10 tahun sesuai. Masya Allah."
+  },
+  {
+   "id": "S2",
+   "src": [
+    11.62,
+    20.42
+   ],
+   "e0": 10.1,
+   "e1": 18.9,
+   "text": "Saya pun tengok buku ni excited sekali. Memang sangat-sangat nampak. Sangat menarik. Ada 2 buku. Satu,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    20.78,
+    30.21
+   ],
+   "e0": 18.9,
+   "e1": 28.33,
+   "text": "Amazing Focus Training Book. Maze Challenge. Satu lagi, Comprehensive Challenge. Memang sangat lawa. Sangat cantik. Dalam dia macam ni."
+  },
+  {
+   "id": "S4",
+   "src": [
+    30.34,
+    44.99
+   ],
+   "e0": 28.33,
+   "e1": 42.98,
+   "text": "Dalam dia. Memang senang lah. Anak-anak kita memang senang. 2 tahun hingga 10 tahun. Masya Allah. Untuk fokus training game. Jadi dia bantu untuk tingkatkan fokus anak-anak kita."
+  },
+  {
+   "id": "S5",
+   "src": [
+    45.0,
+    51.39
+   ],
+   "e0": 42.98,
+   "e1": 49.37,
+   "text": "Memang selalu anak-anak kita memang. Orang kata bolehlah. Bantu kurangkan masa dia orang ada dengan telefon."
+  },
+  {
+   "id": "S6",
+   "src": [
+    51.4,
+    65.06
+   ],
+   "e0": 49.37,
+   "e1": 63.03,
+   "text": "Ni kan. Sekarang ni musim. Bukan musim. Sekarang ni dah zaman. Ok. Ada penyakit. Kalau tak boleh telefon. Jadi marahkan terus. Jadi ini antara. Benda yang boleh bantu. Selesaikan masalah. Insya Allah. Ok."
+  },
+  {
+   "id": "S7",
+   "src": [
+    65.08,
+    76.22
+   ],
+   "e0": 63.03,
+   "e1": 74.17,
+   "text": "So Ibu ayah dapatkan di beg kuning sekarang. Insya Allah berbaloi. Ok. Yang ada anak 2 hingga 10 tahun. Boleh dapatkan di beg kuning. Harga tengah murah. Sementara harga masih murah. Ok. Beli sekarang."
+  }
+ ]
+}

@@ -48,6 +48,8 @@ def words(extra=None):
                     continue
                 if core in fx:
                     w = fx[core] + w[len(core):]
+                if not w.rstrip(".,?!"):
+                    continue
                 if out and w.startswith("-"):
                     pw, ps, _ = out.pop(); w, s = pw + w, ps
                 elif out and core == "orang" and out[-1][0].lower() == "kau":   # whisper splits 'korang' as 'Kau orang'

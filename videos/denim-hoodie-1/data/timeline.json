@@ -1,0 +1,595 @@
+{
+ "pieces": [
+  [
+   0.8,
+   13.58
+  ],
+  [
+   78.06,
+   80.84
+  ],
+  [
+   82.62,
+   84.46
+  ],
+  [
+   85.3,
+   94.46
+  ],
+  [
+   94.7,
+   98.6
+  ],
+  [
+   98.64,
+   103.63
+  ],
+  [
+   104.63,
+   108.84
+  ],
+  [
+   108.92,
+   114.7
+  ],
+  [
+   122.88,
+   124.34
+  ],
+  [
+   125.66,
+   129.7
+  ],
+  [
+   130.08,
+   134.48
+  ],
+  [
+   134.74,
+   138.03
+  ],
+  [
+   138.98,
+   140.2
+  ],
+  [
+   140.46,
+   141.68
+  ],
+  [
+   142.24,
+   156.4
+  ],
+  [
+   156.94,
+   158.16
+  ],
+  [
+   191.24,
+   192.84
+  ],
+  [
+   192.9,
+   195.47
+  ],
+  [
+   206.28,
+   208.04
+  ],
+  [
+   209.14,
+   216.84
+  ],
+  [
+   216.96,
+   218.26
+  ],
+  [
+   218.46,
+   225.07
+  ],
+  [
+   225.34,
+   229.12
+  ],
+  [
+   229.66,
+   237.62
+  ],
+  [
+   237.96,
+   242.99
+  ],
+  [
+   243.32,
+   248.52
+  ],
+  [
+   248.74,
+   250.6
+  ],
+  [
+   250.78,
+   259.37
+  ],
+  [
+   259.76,
+   269.14
+  ],
+  [
+   269.24,
+   272.86
+  ],
+  [
+   272.9,
+   273.92
+  ],
+  [
+   274.02,
+   289.23
+  ],
+  [
+   289.92,
+   296.2
+  ],
+  [
+   296.64,
+   300.2
+  ],
+  [
+   302.4,
+   308.2
+  ],
+  [
+   310.52,
+   312.92
+  ],
+  [
+   317.28,
+   324.24
+  ],
+  [
+   324.44,
+   327.28
+  ],
+  [
+   329.14,
+   330.16
+  ],
+  [
+   330.28,
+   331.6
+  ],
+  [
+   332.74,
+   351.54
+  ],
+  [
+   351.64,
+   367.6
+  ]
+ ],
+ "total": 224.58,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.8,
+    13.58
+   ],
+   "e0": 0.0,
+   "e1": 12.78,
+   "text": "Baju lelaki, 2026, nak buat untuk gaya pun style. Baju casual guys, untuk lelaki, ni baru sampai. Jom kita tengok macam mana dia punya bentuk dia guys."
+  },
+  {
+   "id": "S2",
+   "src": [
+    78.06,
+    80.84
+   ],
+   "e0": 12.78,
+   "e1": 15.56,
+   "text": "lawa guys mashaAllah"
+  },
+  {
+   "id": "S3",
+   "src": [
+    82.62,
+    84.46
+   ],
+   "e0": 15.56,
+   "e1": 17.4,
+   "text": "oh mashaAllah"
+  },
+  {
+   "id": "S4",
+   "src": [
+    85.3,
+    94.46
+   ],
+   "e0": 17.4,
+   "e1": 26.56,
+   "text": "quality dia bukan main-main guys oh dia memory apa macam boleh tarik-tarik macam tu guys mashaAllah"
+  },
+  {
+   "id": "S5",
+   "src": [
+    94.7,
+    98.6
+   ],
+   "e0": 26.56,
+   "e1": 30.46,
+   "text": "macam tinggi aku 165cm berat 76kg"
+  },
+  {
+   "id": "S6",
+   "src": [
+    98.64,
+    103.63
+   ],
+   "e0": 30.46,
+   "e1": 35.45,
+   "text": "aku ambil ikut dia punya ni lah panduan dia aku ambil XL"
+  },
+  {
+   "id": "S7",
+   "src": [
+    104.63,
+    108.84
+   ],
+   "e0": 35.45,
+   "e1": 39.66,
+   "text": "black passion lawa guys bismillah"
+  },
+  {
+   "id": "S8",
+   "src": [
+    108.92,
+    114.7
+   ],
+   "e0": 39.66,
+   "e1": 45.44,
+   "text": "ok kita ni dulu kita cabut dulu dia punya ni"
+  },
+  {
+   "id": "S9",
+   "src": [
+    122.88,
+    124.34
+   ],
+   "e0": 45.44,
+   "e1": 46.9,
+   "text": "ok"
+  },
+  {
+   "id": "S10",
+   "src": [
+    125.66,
+    129.7
+   ],
+   "e0": 46.9,
+   "e1": 50.94,
+   "text": "guys memang lawa serious lawa lawa"
+  },
+  {
+   "id": "S11",
+   "src": [
+    130.08,
+    134.48
+   ],
+   "e0": 50.94,
+   "e1": 55.34,
+   "text": "guys mashaAllah ok jom kita sarung guys guys"
+  },
+  {
+   "id": "S12",
+   "src": [
+    134.74,
+    138.03
+   ],
+   "e0": 55.34,
+   "e1": 58.63,
+   "text": "jom sarung sama-sama guys"
+  },
+  {
+   "id": "S13",
+   "src": [
+    138.98,
+    140.2
+   ],
+   "e0": 58.63,
+   "e1": 59.85,
+   "text": "ok"
+  },
+  {
+   "id": "S14",
+   "src": [
+    140.46,
+    141.68
+   ],
+   "e0": 59.85,
+   "e1": 61.07,
+   "text": "bismillah"
+  },
+  {
+   "id": "S15",
+   "src": [
+    142.24,
+    156.4
+   ],
+   "e0": 61.07,
+   "e1": 75.23,
+   "text": "oh tengok dia punya kemasan dia dekat tangan dekat lengan korang tengok dekat lengan so korang punya apa kalau kata besar sikit pun steel dia akan apa lock dekat lengan kau"
+  },
+  {
+   "id": "S16",
+   "src": [
+    156.94,
+    158.16
+   ],
+   "e0": 75.23,
+   "e1": 76.45,
+   "text": "inilah"
+  },
+  {
+   "id": "S17",
+   "src": [
+    191.24,
+    192.84
+   ],
+   "e0": 76.45,
+   "e1": 78.05,
+   "text": "oh memang XL"
+  },
+  {
+   "id": "S18",
+   "src": [
+    192.9,
+    195.47
+   ],
+   "e0": 78.05,
+   "e1": 80.62,
+   "text": "just naik lah betul"
+  },
+  {
+   "id": "S19",
+   "src": [
+    206.28,
+    208.04
+   ],
+   "e0": 80.62,
+   "e1": 82.38,
+   "text": "ok ok guys"
+  },
+  {
+   "id": "S20",
+   "src": [
+    209.14,
+    216.84
+   ],
+   "e0": 82.38,
+   "e1": 90.08,
+   "text": "yang giloh oh giloh kira ok tak dia ni henteng tak ok"
+  },
+  {
+   "id": "S21",
+   "src": [
+    216.96,
+    218.26
+   ],
+   "e0": 90.08,
+   "e1": 91.38,
+   "text": "guys"
+  },
+  {
+   "id": "S22",
+   "src": [
+    218.46,
+    225.07
+   ],
+   "e0": 91.38,
+   "e1": 97.99,
+   "text": "ni kat sini ada ni tak risau dia ada dia punya apa"
+  },
+  {
+   "id": "S23",
+   "src": [
+    225.34,
+    229.12
+   ],
+   "e0": 97.99,
+   "e1": 101.77,
+   "text": "pelekat dia so dia lebih kemas guys ok"
+  },
+  {
+   "id": "S24",
+   "src": [
+    229.66,
+    237.62
+   ],
+   "e0": 101.77,
+   "e1": 109.73,
+   "text": "dia kata ni dia tak dapat ok lah tapi sebab korang tengok harga dia harga dia tu korang memang tak sangka ok"
+  },
+  {
+   "id": "S25",
+   "src": [
+    237.96,
+    242.99
+   ],
+   "e0": 109.73,
+   "e1": 114.76,
+   "text": "aku pun mula-mula aku takut juga dia ketak dia ketak kan dengan harga yang macam tu"
+  },
+  {
+   "id": "S26",
+   "src": [
+    243.32,
+    248.52
+   ],
+   "e0": 114.76,
+   "e1": 119.96,
+   "text": "bukan 100 80 bukan 60 bukan"
+  },
+  {
+   "id": "S27",
+   "src": [
+    248.74,
+    250.6
+   ],
+   "e0": 119.96,
+   "e1": 121.82,
+   "text": "50 pun bukan"
+  },
+  {
+   "id": "S28",
+   "src": [
+    250.78,
+    259.37
+   ],
+   "e0": 121.82,
+   "e1": 130.41,
+   "text": "40 pun belum tentu tengok guys dekat beg aku ni memang sangat puas hati korang belilah 2-3 line aku kalau aku tahu macam ni memang"
+  },
+  {
+   "id": "S29",
+   "src": [
+    259.76,
+    269.14
+   ],
+   "e0": 130.41,
+   "e1": 139.79,
+   "text": "memang korang boleh belilah boleh approve korang boleh beli lebih daripada 2 ke 3 line memang sangat berbaloi ok beli line-line warna ha"
+  },
+  {
+   "id": "S30",
+   "src": [
+    269.24,
+    272.86
+   ],
+   "e0": 139.79,
+   "e1": 143.41,
+   "text": "tak guys memang lawa guys serious ok"
+  },
+  {
+   "id": "S31",
+   "src": [
+    272.9,
+    273.92
+   ],
+   "e0": 143.41,
+   "e1": 144.43,
+   "text": "so"
+  },
+  {
+   "id": "S32",
+   "src": [
+    274.02,
+    289.23
+   ],
+   "e0": 144.43,
+   "e1": 159.64,
+   "text": "sementara harga masing-masing murah guys korang boleh beli awal-awal yang mana aku rasa kan yang mana nak berniaga pun aku rasa boleh borong lepas tu boleh markup lagi sebab memang sangat lawa memang sangat lawa aku tak jumpa lagi"
+  },
+  {
+   "id": "S33",
+   "src": [
+    289.92,
+    296.2
+   ],
+   "e0": 159.64,
+   "e1": 165.92,
+   "text": "mana-mana tempat kalau pergi kan mana-mana tempat offline"
+  },
+  {
+   "id": "S34",
+   "src": [
+    296.64,
+    300.2
+   ],
+   "e0": 165.92,
+   "e1": 169.48,
+   "text": "usah lah nak jumpa macam ni memang lawa"
+  },
+  {
+   "id": "S35",
+   "src": [
+    302.4,
+    308.2
+   ],
+   "e0": 169.48,
+   "e1": 175.28,
+   "text": "yang komen ni size XL buat aku 76 kg tinggi 165 cm"
+  },
+  {
+   "id": "S36",
+   "src": [
+    310.52,
+    312.92
+   ],
+   "e0": 175.28,
+   "e1": 177.68,
+   "text": "kat sini ok"
+  },
+  {
+   "id": "S37",
+   "src": [
+    317.28,
+    324.24
+   ],
+   "e0": 177.68,
+   "e1": 184.64,
+   "text": "ok lah dia tak dia tak terlalu labuh sangat dia tak terlalu singkat sangat ok lah setiap kiri kalau kau nak solat kan"
+  },
+  {
+   "id": "S38",
+   "src": [
+    324.44,
+    327.28
+   ],
+   "e0": 184.64,
+   "e1": 187.48,
+   "text": "kalau tak tak akan terselak"
+  },
+  {
+   "id": "S39",
+   "src": [
+    329.14,
+    330.16
+   ],
+   "e0": 187.48,
+   "e1": 188.5,
+   "text": "ok"
+  },
+  {
+   "id": "S40",
+   "src": [
+    330.28,
+    331.6
+   ],
+   "e0": 188.5,
+   "e1": 189.82,
+   "text": "nice ni"
+  },
+  {
+   "id": "S41",
+   "src": [
+    332.74,
+    351.54
+   ],
+   "e0": 189.82,
+   "e1": 208.62,
+   "text": "nice ni masya Allah ok so guys jangan tunggu lagi beli di beg kuning sekarang ok buat persiapan awal-awal takut nanti dah dekat-dekat nak raya takut dah habis takut belum masuk raya belum dah masuk puasa baru masuk puasa takut dah habis pergi guys ok benda ni memang kualiti dia kau tengok"
+  },
+  {
+   "id": "S42",
+   "src": [
+    351.64,
+    367.6
+   ],
+   "e0": 208.62,
+   "e1": 224.58,
+   "text": "ok dia macam spring kan boleh tarik-tarik memang selesa kan dia ok sini dia buat apa cekik kat sini so dia lebih kemas lebih smart ok cekau dia beg kuning sekarang memang sangat puas hati approve ok"
+  }
+ ]
+}

@@ -1,0 +1,189 @@
+{
+ "pieces": [
+  [
+   0.52,
+   12.82
+  ],
+  [
+   12.94,
+   15.29
+  ],
+  [
+   15.3,
+   19.38
+  ],
+  [
+   22.68,
+   26.71
+  ],
+  [
+   26.72,
+   39.7
+  ],
+  [
+   40.58,
+   44.6
+  ],
+  [
+   44.62,
+   45.28
+  ],
+  [
+   45.7,
+   58.33
+  ],
+  [
+   58.72,
+   67.22
+  ],
+  [
+   68.76,
+   76.7
+  ],
+  [
+   76.77,
+   79.1
+  ],
+  [
+   79.14,
+   95.16
+  ],
+  [
+   95.36,
+   110.49
+  ]
+ ],
+ "total": 102.97,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.52,
+    12.82
+   ],
+   "e0": 0.0,
+   "e1": 12.3,
+   "text": "Perfume kereta yang warna merah ni, yang ramai sekali orang tengah beli tau. Perfume ni, bukannya bau buah tau, tapi dia bau woody. Bau yang ada pada kereta kita mewah tu. Ha ni,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    12.94,
+    15.29
+   ],
+   "e0": 12.3,
+   "e1": 14.65,
+   "text": "kalau kau tengok kat dalam tunjuk kat korang."
+  },
+  {
+   "id": "S3",
+   "src": [
+    15.3,
+    19.38
+   ],
+   "e0": 14.65,
+   "e1": 18.73,
+   "text": "Dia bukan cecair air tau, dia bentuk gel macam ni."
+  },
+  {
+   "id": "S4",
+   "src": [
+    22.68,
+    26.71
+   ],
+   "e0": 18.73,
+   "e1": 22.76,
+   "text": "Oh, serius, bau dia memang, bau mewah gila."
+  },
+  {
+   "id": "S5",
+   "src": [
+    26.72,
+    39.7
+   ],
+   "e0": 22.76,
+   "e1": 35.74,
+   "text": "Yang ni warna merah. Tapi kalau korang suka jenis bau fresh, bau macam kereta baru tu kan korang boleh ambil ni. Ocean Polar Ice Cover. Ini bau fresh, macam bau kereta baru tu. Ha,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    40.58,
+    44.6
+   ],
+   "e0": 35.74,
+   "e1": 39.76,
+   "text": "sedap, sedap. Betul dia macam ni. Ha,"
+  },
+  {
+   "id": "S7",
+   "src": [
+    44.62,
+    45.28
+   ],
+   "e0": 39.76,
+   "e1": 40.42,
+   "text": "ok."
+  },
+  {
+   "id": "S8",
+   "src": [
+    45.7,
+    58.33
+   ],
+   "e0": 40.42,
+   "e1": 53.05,
+   "text": "Ini bau-bau fresh lah, ok. Tapi ada satu lagi pilihan yang korang boleh pertimbangkan juga. Ok, ni. Ini, bau dia macam bau citrus, macam bau campuran kayu hutan macam tu. Ha, pun sedap."
+  },
+  {
+   "id": "S9",
+   "src": [
+    58.72,
+    67.22
+   ],
+   "e0": 53.05,
+   "e1": 61.55,
+   "text": "Memang, bau tiga-tiga ni, bau yang korang macam tu susah nak cari dekat luar. Ha, macam bau kereta mewah. Ha,"
+  },
+  {
+   "id": "S10",
+   "src": [
+    68.76,
+    76.7
+   ],
+   "e0": 61.55,
+   "e1": 69.49,
+   "text": "sedap bau dia. Bau dia, dia tak kuat sangat. Ha, dia dan dia orang kata selesa je, lega je bau dia. Ok. Yang ni,"
+  },
+  {
+   "id": "S11",
+   "src": [
+    76.77,
+    79.1
+   ],
+   "e0": 69.49,
+   "e1": 71.82,
+   "text": "bau citrus, bau campuran kayu hutan."
+  },
+  {
+   "id": "S12",
+   "src": [
+    79.14,
+    95.16
+   ],
+   "e0": 71.82,
+   "e1": 87.84,
+   "text": "tapi kalau korang tanya aku, aku sangat recommend, korang ambillah yang warna merah ni. Sebab, bau dia memang macam korang jumpa dekat kereta-kereta mewah. Ha, kereta-kereta konti. Ha, ni bau dia. Ok, insyaAllah korang tak menyesal. Ok, so, kalau korang ambil satu,"
+  },
+  {
+   "id": "S13",
+   "src": [
+    95.36,
+    110.49
+   ],
+   "e0": 87.84,
+   "e1": 102.97,
+   "text": "harga dia memang tengah murah. Tapi kalau korang ambil tiga terus kan, ok. Korang ambil tiga macam ni, ok, harga dia lagi murah. Ok, korang tengok dekat beg kuning, sementara harga tengah murah tu, korang boleh, ok, check out terus di beg kuning."
+  }
+ ]
+}

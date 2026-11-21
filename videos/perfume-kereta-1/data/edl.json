@@ -1,0 +1,399 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#2A0808",
+  "hot": "#FF3B3B"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Perfume Kereta Gel #1 — from VID_20261121 145027 8.5-119.5 0.0-111.017 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 13, total 102.97 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 12.3,
+   "text": "Perfume kereta yang warna merah ni, yang ramai sekali orang tengah beli tau. Perfume ni, bukannya bau buah tau, tapi dia bau woody. Bau yang ada pada kereta kita mewah tu. Ha ni,",
+   "note": "src 0.52-12.82",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 12.3,
+   "out": 14.65,
+   "text": "kalau kau tengok kat dalam tunjuk kat korang.",
+   "note": "src 12.94-15.29",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 14.65,
+   "out": 18.73,
+   "text": "Dia bukan cecair air tau, dia bentuk gel macam ni.",
+   "note": "src 15.30-19.38",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 18.73,
+   "out": 22.76,
+   "text": "Oh, serius, bau dia memang, bau mewah gila.",
+   "note": "src 22.68-26.71",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 22.76,
+   "out": 35.74,
+   "text": "Yang ni warna merah. Tapi kalau korang suka jenis bau fresh, bau macam kereta baru tu kan korang boleh ambil ni. Ocean Polar Ice Cover. Ini bau fresh, macam bau kereta baru tu. Ha,",
+   "note": "src 26.72-39.70",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 35.74,
+   "out": 39.76,
+   "text": "sedap, sedap. Betul dia macam ni. Ha,",
+   "note": "src 40.58-44.60",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 39.76,
+   "out": 40.42,
+   "text": "ok.",
+   "note": "src 44.62-45.28",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 40.42,
+   "out": 53.05,
+   "text": "Ini bau-bau fresh lah, ok. Tapi ada satu lagi pilihan yang korang boleh pertimbangkan juga. Ok, ni. Ini, bau dia macam bau citrus, macam bau campuran kayu hutan macam tu. Ha, pun sedap.",
+   "note": "src 45.70-58.33",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 53.05,
+   "out": 61.55,
+   "text": "Memang, bau tiga-tiga ni, bau yang korang macam tu susah nak cari dekat luar. Ha, macam bau kereta mewah. Ha,",
+   "note": "src 58.72-67.22",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 61.55,
+   "out": 69.49,
+   "text": "sedap bau dia. Bau dia, dia tak kuat sangat. Ha, dia dan dia orang kata selesa je, lega je bau dia. Ok. Yang ni,",
+   "note": "src 68.76-76.70",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 69.49,
+   "out": 71.82,
+   "text": "bau citrus, bau campuran kayu hutan.",
+   "note": "src 76.77-79.10",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 71.82,
+   "out": 87.84,
+   "text": "tapi kalau korang tanya aku, aku sangat recommend, korang ambillah yang warna merah ni. Sebab, bau dia memang macam korang jumpa dekat kereta-kereta mewah. Ha, kereta-kereta konti. Ha, ni bau dia. Ok, insyaAllah korang tak menyesal. Ok, so, kalau korang ambil satu,",
+   "note": "src 79.14-95.16",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 87.84,
+   "out": 102.97,
+   "text": "harga dia memang tengah murah. Tapi kalau korang ambil tiga terus kan, ok. Korang ambil tiga macam ni, ok, harga dia lagi murah. Ok, korang tengok dekat beg kuning, sementara harga tengah murah tu, korang boleh, ok, check out terus di beg kuning.",
+   "note": "src 95.36-110.49",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "BAU KERETA MEWAH",
+   "hi": [
+    "MEWAH"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "tau.#1"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "tunjuk#1"
+   ],
+   "to": [
+    "*",
+    "Oh,#1"
+   ],
+   "src": 16.5,
+   "note": "the lid off, the gel inside",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "Ocean#1"
+   ],
+   "to": [
+    "*",
+    "Ha,#2"
+   ],
+   "src": 32.0,
+   "note": "the blue fresh variant",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "Ini,#3"
+   ],
+   "to": [
+    "*",
+    "Memang,#2"
+   ],
+   "src": 48.0,
+   "note": "the yellow citrus variant",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "*",
+    "Sebab,#1"
+   ],
+   "to": [
+    "*",
+    "Ok,#5"
+   ],
+   "src": 84.0,
+   "note": "the red can with its box",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "*",
+    "Korang#12"
+   ],
+   "to": [
+    "*",
+    "Ok,#9"
+   ],
+   "src": 98.9,
+   "note": "all three together",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#FF3B3B",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "perfume"
+ ],
+ "keywords": [
+  "woody",
+  "mewah",
+  "gel",
+  "fresh",
+  "citrus",
+  "kayu",
+  "murah",
+  "tiga"
+ ],
+ "fx": [
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "Perfume#2"
+   ],
+   "to": [
+    "*",
+    "Ha#1"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "BUKAN BAU BUAH",
+     "at": [
+      "*",
+      "bukannya#1"
+     ]
+    },
+    {
+     "text": "BAU WOODY",
+     "at": [
+      "*",
+      "woody.#1"
+     ]
+    },
+    {
+     "text": "MACAM KERETA MEWAH",
+     "at": [
+      "*",
+      "mewah#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Dia#2"
+   ],
+   "to": [
+    "*",
+    "Oh,#1"
+   ],
+   "text": "BENTUK GEL",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Ocean#1"
+   ],
+   "to": [
+    "*",
+    "Ha,#3"
+   ],
+   "text": "FRESH  BAU KERETA BARU",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "bau#10"
+   ],
+   "to": [
+    "*",
+    "Memang,#2"
+   ],
+   "text": "CITRUS + KAYU HUTAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "tak#1"
+   ],
+   "to": [
+    "*",
+    "Ok.#4"
+   ],
+   "text": "TAK KUAT, SELESA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "*",
+    "tiga#1"
+   ],
+   "to": [
+    "*",
+    "Ok,#9"
+   ],
+   "n": 3,
+   "label": "AMBIL 3, LAGI MURAH",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA TENGAH MURAH",
+   "sub": "CHECK OUT DI BEG KUNING",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#FF3B3B",
+  "bg": "rgba(30,8,8,.88)",
+  "ink": "#FFFFFF",
+  "dark": "#2A0808",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

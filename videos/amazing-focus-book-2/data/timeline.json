@@ -1,0 +1,91 @@
+{
+ "pieces": [
+  [
+   2.32,
+   7.37
+  ],
+  [
+   7.42,
+   14.73
+  ],
+  [
+   15.06,
+   16.01
+  ],
+  [
+   16.46,
+   51.08
+  ],
+  [
+   58.46,
+   62.83
+  ],
+  [
+   62.96,
+   69.82
+  ]
+ ],
+ "total": 59.16,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    2.32,
+    7.37
+   ],
+   "e0": 0.0,
+   "e1": 5.05,
+   "text": "so buku ni dia suruh buat apa saja? Dia suruh"
+  },
+  {
+   "id": "S2",
+   "src": [
+    7.42,
+    14.73
+   ],
+   "e0": 5.05,
+   "e1": 12.36,
+   "text": "cari tujuh buah orang ni. Oh,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    15.06,
+    16.01
+   ],
+   "e0": 12.36,
+   "e1": 13.31,
+   "text": "lepas tu?"
+  },
+  {
+   "id": "S4",
+   "src": [
+    16.46,
+    51.08
+   ],
+   "e0": 13.31,
+   "e1": 47.93,
+   "text": "Lepas tu dia. Kena lalu, kena buat laluan lah? Haa. Oh, menarik, menarik insyaAllah. Ada dah jumpa dah tujuh. Good job. Dan ada buku ni tau. Buku ni, buku dia macam game untuk anak-anak kita. Untuk anak yang berumur 2 hingga 10 tahun, kita boleh guna buku ni. Ok, dia boleh bantu tambahkan fokus anak-anak kita. Yang paling penting, dia boleh bantu kurangkan masa diorang dengan telefon ataupun TV. Ok. So, ibu ayah, belikan untuk anak-anak insyaAllah."
+  },
+  {
+   "id": "S5",
+   "src": [
+    58.46,
+    62.83
+   ],
+   "e0": 47.93,
+   "e1": 52.3,
+   "text": "Ok, dengar harga dia yang sangat mampu milik. Ok, sangat berpatutan."
+  },
+  {
+   "id": "S6",
+   "src": [
+    62.96,
+    69.82
+   ],
+   "e0": 52.3,
+   "e1": 59.16,
+   "text": "Tambah seller pun ada buat potongan tu. Sementara harga masih murah. Dapatkan di beg kuning ni, insyaAllah. Baru-baru lagi."
+  }
+ ]
+}

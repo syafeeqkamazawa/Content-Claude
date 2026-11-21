@@ -1,0 +1,672 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#0E1E3C",
+  "hot": "#8EC5FF"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Hoodie Denim Lelaki #1 — from VID_20261121 141927 12-380 0.0-368.017 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: whisper noise while he unpacks (source 26-90 s, no speech) and the aside while changing ('wah, henti, sayang ... sorry tau', 172-203 s). Pieces: 42, total 224.58 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 12.78,
+   "text": "Baju lelaki, 2026, nak buat untuk gaya pun style. Baju casual guys, untuk lelaki, ni baru sampai. Jom kita tengok macam mana dia punya bentuk dia guys.",
+   "note": "src 0.80-13.58",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 12.78,
+   "out": 15.56,
+   "text": "lawa guys mashaAllah",
+   "note": "src 78.06-80.84",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 15.56,
+   "out": 17.4,
+   "text": "oh mashaAllah",
+   "note": "src 82.62-84.46",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 17.4,
+   "out": 26.56,
+   "text": "quality dia bukan main-main guys oh dia memory apa macam boleh tarik-tarik macam tu guys mashaAllah",
+   "note": "src 85.30-94.46",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 26.56,
+   "out": 30.46,
+   "text": "macam tinggi aku 165cm berat 76kg",
+   "note": "src 94.70-98.60",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 30.46,
+   "out": 35.45,
+   "text": "aku ambil ikut dia punya ni lah panduan dia aku ambil XL",
+   "note": "src 98.64-103.63",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 35.45,
+   "out": 39.66,
+   "text": "black passion lawa guys bismillah",
+   "note": "src 104.63-108.84",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 39.66,
+   "out": 45.44,
+   "text": "ok kita ni dulu kita cabut dulu dia punya ni",
+   "note": "src 108.92-114.70",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 45.44,
+   "out": 46.9,
+   "text": "ok",
+   "note": "src 122.88-124.34",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 46.9,
+   "out": 50.94,
+   "text": "guys memang lawa serious lawa lawa",
+   "note": "src 125.66-129.70",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 50.94,
+   "out": 55.34,
+   "text": "guys mashaAllah ok jom kita sarung guys guys",
+   "note": "src 130.08-134.48",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 55.34,
+   "out": 58.63,
+   "text": "jom sarung sama-sama guys",
+   "note": "src 134.74-138.03",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 58.63,
+   "out": 59.85,
+   "text": "ok",
+   "note": "src 138.98-140.20",
+   "zoom": 1.0
+  },
+  {
+   "id": "S14",
+   "in": 59.85,
+   "out": 61.07,
+   "text": "bismillah",
+   "note": "src 140.46-141.68",
+   "zoom": 1.06
+  },
+  {
+   "id": "S15",
+   "in": 61.07,
+   "out": 75.23,
+   "text": "oh tengok dia punya kemasan dia dekat tangan dekat lengan korang tengok dekat lengan so korang punya apa kalau kata besar sikit pun steel dia akan apa lock dekat lengan kau",
+   "note": "src 142.24-156.40",
+   "zoom": 1.0
+  },
+  {
+   "id": "S16",
+   "in": 75.23,
+   "out": 76.45,
+   "text": "inilah",
+   "note": "src 156.94-158.16",
+   "zoom": 1.06
+  },
+  {
+   "id": "S17",
+   "in": 76.45,
+   "out": 78.05,
+   "text": "oh memang XL",
+   "note": "src 191.24-192.84",
+   "zoom": 1.0
+  },
+  {
+   "id": "S18",
+   "in": 78.05,
+   "out": 80.62,
+   "text": "just naik lah betul",
+   "note": "src 192.90-195.47",
+   "zoom": 1.06
+  },
+  {
+   "id": "S19",
+   "in": 80.62,
+   "out": 82.38,
+   "text": "ok ok guys",
+   "note": "src 206.28-208.04",
+   "zoom": 1.0
+  },
+  {
+   "id": "S20",
+   "in": 82.38,
+   "out": 90.08,
+   "text": "yang giloh oh giloh kira ok tak dia ni henteng tak ok",
+   "note": "src 209.14-216.84",
+   "zoom": 1.06
+  },
+  {
+   "id": "S21",
+   "in": 90.08,
+   "out": 91.38,
+   "text": "guys",
+   "note": "src 216.96-218.26",
+   "zoom": 1.0
+  },
+  {
+   "id": "S22",
+   "in": 91.38,
+   "out": 97.99,
+   "text": "ni kat sini ada ni tak risau dia ada dia punya apa",
+   "note": "src 218.46-225.07",
+   "zoom": 1.06
+  },
+  {
+   "id": "S23",
+   "in": 97.99,
+   "out": 101.77,
+   "text": "pelekat dia so dia lebih kemas guys ok",
+   "note": "src 225.34-229.12",
+   "zoom": 1.0
+  },
+  {
+   "id": "S24",
+   "in": 101.77,
+   "out": 109.73,
+   "text": "dia kata ni dia tak dapat ok lah tapi sebab korang tengok harga dia harga dia tu korang memang tak sangka ok",
+   "note": "src 229.66-237.62",
+   "zoom": 1.06
+  },
+  {
+   "id": "S25",
+   "in": 109.73,
+   "out": 114.76,
+   "text": "aku pun mula-mula aku takut juga dia ketak dia ketak kan dengan harga yang macam tu",
+   "note": "src 237.96-242.99",
+   "zoom": 1.0
+  },
+  {
+   "id": "S26",
+   "in": 114.76,
+   "out": 119.96,
+   "text": "bukan 100 80 bukan 60 bukan",
+   "note": "src 243.32-248.52",
+   "zoom": 1.06
+  },
+  {
+   "id": "S27",
+   "in": 119.96,
+   "out": 121.82,
+   "text": "50 pun bukan",
+   "note": "src 248.74-250.60",
+   "zoom": 1.0
+  },
+  {
+   "id": "S28",
+   "in": 121.82,
+   "out": 130.41,
+   "text": "40 pun belum tentu tengok guys dekat beg aku ni memang sangat puas hati korang belilah 2-3 line aku kalau aku tahu macam ni memang",
+   "note": "src 250.78-259.37",
+   "zoom": 1.06
+  },
+  {
+   "id": "S29",
+   "in": 130.41,
+   "out": 139.79,
+   "text": "memang korang boleh belilah boleh approve korang boleh beli lebih daripada 2 ke 3 line memang sangat berbaloi ok beli line-line warna ha",
+   "note": "src 259.76-269.14",
+   "zoom": 1.0
+  },
+  {
+   "id": "S30",
+   "in": 139.79,
+   "out": 143.41,
+   "text": "tak guys memang lawa guys serious ok",
+   "note": "src 269.24-272.86",
+   "zoom": 1.06
+  },
+  {
+   "id": "S31",
+   "in": 143.41,
+   "out": 144.43,
+   "text": "so",
+   "note": "src 272.90-273.92",
+   "zoom": 1.0
+  },
+  {
+   "id": "S32",
+   "in": 144.43,
+   "out": 159.64,
+   "text": "sementara harga masing-masing murah guys korang boleh beli awal-awal yang mana aku rasa kan yang mana nak berniaga pun aku rasa boleh borong lepas tu boleh markup lagi sebab memang sangat lawa memang sangat lawa aku tak jumpa lagi",
+   "note": "src 274.02-289.23",
+   "zoom": 1.06
+  },
+  {
+   "id": "S33",
+   "in": 159.64,
+   "out": 165.92,
+   "text": "mana-mana tempat kalau pergi kan mana-mana tempat offline",
+   "note": "src 289.92-296.20",
+   "zoom": 1.0
+  },
+  {
+   "id": "S34",
+   "in": 165.92,
+   "out": 169.48,
+   "text": "usah lah nak jumpa macam ni memang lawa",
+   "note": "src 296.64-300.20",
+   "zoom": 1.06
+  },
+  {
+   "id": "S35",
+   "in": 169.48,
+   "out": 175.28,
+   "text": "yang komen ni size XL buat aku 76 kg tinggi 165 cm",
+   "note": "src 302.40-308.20",
+   "zoom": 1.0
+  },
+  {
+   "id": "S36",
+   "in": 175.28,
+   "out": 177.68,
+   "text": "kat sini ok",
+   "note": "src 310.52-312.92",
+   "zoom": 1.06
+  },
+  {
+   "id": "S37",
+   "in": 177.68,
+   "out": 184.64,
+   "text": "ok lah dia tak dia tak terlalu labuh sangat dia tak terlalu singkat sangat ok lah setiap kiri kalau kau nak solat kan",
+   "note": "src 317.28-324.24",
+   "zoom": 1.0
+  },
+  {
+   "id": "S38",
+   "in": 184.64,
+   "out": 187.48,
+   "text": "kalau tak tak akan terselak",
+   "note": "src 324.44-327.28",
+   "zoom": 1.06
+  },
+  {
+   "id": "S39",
+   "in": 187.48,
+   "out": 188.5,
+   "text": "ok",
+   "note": "src 329.14-330.16",
+   "zoom": 1.0
+  },
+  {
+   "id": "S40",
+   "in": 188.5,
+   "out": 189.82,
+   "text": "nice ni",
+   "note": "src 330.28-331.60",
+   "zoom": 1.06
+  },
+  {
+   "id": "S41",
+   "in": 189.82,
+   "out": 208.62,
+   "text": "nice ni masya Allah ok so guys jangan tunggu lagi beli di beg kuning sekarang ok buat persiapan awal-awal takut nanti dah dekat-dekat nak raya takut dah habis takut belum masuk raya belum dah masuk puasa baru masuk puasa takut dah habis pergi guys ok benda ni memang kualiti dia kau tengok",
+   "note": "src 332.74-351.54",
+   "zoom": 1.0
+  },
+  {
+   "id": "S42",
+   "in": 208.62,
+   "out": 224.58,
+   "text": "ok dia macam spring kan boleh tarik-tarik memang selesa kan dia ok sini dia buat apa cekik kat sini so dia lebih kemas lebih smart ok cekau dia beg kuning sekarang memang sangat puas hati approve ok",
+   "note": "src 351.64-367.60",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "HOODIE DENIM LELAKI",
+   "hi": [
+    "DENIM"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "style.#1"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "quality#1"
+   ],
+   "to": [
+    "*",
+    "macam#4"
+   ],
+   "src": 46.0,
+   "note": "unfolding the hoodie, fabric close",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "tengok#4"
+   ],
+   "to": [
+    "*",
+    "aku#4"
+   ],
+   "src": 45.0,
+   "note": "the hoodie held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "korang#6"
+   ],
+   "to": [
+    "*",
+    "ha#1"
+   ],
+   "src": 62.0,
+   "note": "the hoodie, front",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#8EC5FF",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "denim",
+  "hoodie"
+ ],
+ "keywords": [
+  "lawa",
+  "quality",
+  "XL",
+  "lengan",
+  "kemas",
+  "harga",
+  "berbaloi",
+  "raya",
+  "solat",
+  "selesa"
+ ],
+ "fx": [
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "quality#1"
+   ],
+   "to": [
+    "*",
+    "macam#4"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "QUALITY PADU",
+     "at": [
+      "*",
+      "quality#1"
+     ]
+    },
+    {
+     "text": "BOLEH TARIK, SELESA",
+     "at": [
+      "*",
+      "tarik-tarik#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "hud",
+   "from": [
+    "*",
+    "tinggi#1"
+   ],
+   "to": [
+    "*",
+    "black#1"
+   ],
+   "title": "SAIZ AKU",
+   "value": "XL",
+   "sub": "165 CM  76 KG",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "kemasan#1"
+   ],
+   "to": [
+    "*",
+    "inilah#1"
+   ],
+   "text": "KEMASAN LENGAN KEMAS",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "pelekat#1"
+   ],
+   "to": [
+    "*",
+    "ok#9"
+   ],
+   "text": "ADA PELEKAT, LEBIH KEMAS",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "bukan#2"
+   ],
+   "to": [
+    "*",
+    "tengok#5"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "RM100? BUKAN",
+     "at": [
+      "*",
+      "100#1"
+     ]
+    },
+    {
+     "text": "RM80? BUKAN",
+     "at": [
+      "*",
+      "80#1"
+     ]
+    },
+    {
+     "text": "RM60? BUKAN",
+     "at": [
+      "*",
+      "60#1"
+     ]
+    },
+    {
+     "text": "RM50? BUKAN",
+     "at": [
+      "*",
+      "50#1"
+     ]
+    },
+    {
+     "text": "RM40? BELUM TENTU",
+     "at": [
+      "*",
+      "40#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "korang#6"
+   ],
+   "to": [
+    "*",
+    "ok#12"
+   ],
+   "text": "SANGAT BERBALOI",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "labuh#1"
+   ],
+   "to": [
+    "*",
+    "solat#1"
+   ],
+   "text": "TAK LABUH, TAK SINGKAT",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "solat#1"
+   ],
+   "to": [
+    "*",
+    "ok#17"
+   ],
+   "text": "SOLAT TAK TERSELAK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "spring#1"
+   ],
+   "to": [
+    "*",
+    "ok#22"
+   ],
+   "text": "SELESA, BOLEH TARIK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "BELI SEBELUM RAYA",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#8EC5FF",
+  "bg": "rgba(14,30,60,.88)",
+  "ink": "#FFFFFF",
+  "dark": "#0E1E3C",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
