@@ -1,0 +1,217 @@
+{
+ "pieces": [
+  [
+   436.1,
+   439.66
+  ],
+  [
+   439.94,
+   441.93
+  ],
+  [
+   442.06,
+   446.96
+  ],
+  [
+   447.26,
+   449.42
+  ],
+  [
+   449.56,
+   459.69
+  ],
+  [
+   459.8,
+   477.26
+  ],
+  [
+   477.52,
+   491.15
+  ],
+  [
+   491.34,
+   522.96
+  ],
+  [
+   527.36,
+   530.51
+  ],
+  [
+   530.6,
+   537.55
+  ],
+  [
+   537.58,
+   547.37
+  ],
+  [
+   547.46,
+   560.3
+  ],
+  [
+   560.38,
+   569.2
+  ],
+  [
+   569.3,
+   575.31
+  ],
+  [
+   575.48,
+   582.44
+  ]
+ ],
+ "total": 139.97,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    436.1,
+    439.66
+   ],
+   "e0": 0.0,
+   "e1": 3.56,
+   "text": "Korang tahu tak, kalau nak beg kita punya,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    439.94,
+    441.93
+   ],
+   "e0": 3.56,
+   "e1": 5.55,
+   "text": "korang tahu tak,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    442.06,
+    446.96
+   ],
+   "e0": 5.55,
+   "e1": 10.45,
+   "text": "saluan darah nak ke jantung ni, kalau dia dah kena block tu,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    447.26,
+    449.42
+   ],
+   "e0": 10.45,
+   "e1": 12.61,
+   "text": "jadi, pelan-pelan dah,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    449.56,
+    459.69
+   ],
+   "e0": 12.61,
+   "e1": 22.74,
+   "text": "saluan darah tu, kalau dalam, apa, dah dekat nak kena block, total block tu, tak ada signal guys. Kalau agak nak total block tu, dia tak beg tahu. Saluan darah kau dah nak ditumbat ni,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    459.8,
+    477.26
+   ],
+   "e0": 22.74,
+   "e1": 40.2,
+   "text": "haa, hati-hati, tak ada signal tu. Dia tak ada signal tu yang, korang tengok, ada macam-macam kes, tiba-tiba jatuh, tiba-tiba jatuh, itu yang risau, ok. Orang kata, mencegah level daripada, mengubati, ni, insyaAllah, dapatkan Aurapep krill oil. Tahu tak apa krill oil? Krill oil ni, dia level"
+  },
+  {
+   "id": "S7",
+   "src": [
+    477.52,
+    491.15
+   ],
+   "e0": 40.2,
+   "e1": 53.83,
+   "text": "up daripada fish oil. Biasanya, orang ambil fish oil kan, omega-3 je kan, tapi ni, dia dah ada kandungan omega-3, dan dia ada sekali dengan EPA dan DHA. Haa, ini yang menariknya, ni."
+  },
+  {
+   "id": "S8",
+   "src": [
+    491.34,
+    522.96
+   ],
+   "e0": 53.83,
+   "e1": 85.45,
+   "text": "Ok, kenapa, apa benda tu? EPA, DHA. EPA ni untuk kita punya, haa, saluran darah tu lah. Untuk beg saluran darah tu, smooth ke jantung. Haa, dan DHA apa? DHA untuk kita punya mata dan otak kita. Haa, so, dapat pelbagai, three in one. Ok, untuk kita punya jantung, untuk kita punya mata dan otak sekali. ni, ok, ni barang dia. Ok, tengoklah dekat beg tu ni, ramai dah guna ni, memang puas hati. Ok, saya, wife,"
+  },
+  {
+   "id": "S9",
+   "src": [
+    527.36,
+    530.51
+   ],
+   "e0": 85.45,
+   "e1": 88.6,
+   "text": "mak saya pun dah mula amalkan, apa tu,"
+  },
+  {
+   "id": "S10",
+   "src": [
+    530.6,
+    537.55
+   ],
+   "e0": 88.6,
+   "e1": 95.55,
+   "text": "krill oil ni. Memang sangat penting, tak kira lapisan umur, sebab sekarang ni, kan, tak sentuh dah,"
+  },
+  {
+   "id": "S11",
+   "src": [
+    537.58,
+    547.37
+   ],
+   "e0": 95.55,
+   "e1": 105.34,
+   "text": "umur 30-an, ada risiko 40-an, 50-an, sebab apa? Sebab makan tak ikut, makan ikut dan, makanan dah, macam-macam inovasi sekarang."
+  },
+  {
+   "id": "S12",
+   "src": [
+    547.46,
+    560.3
+   ],
+   "e0": 105.34,
+   "e1": 118.18,
+   "text": "Haa, kalau tak makan, orang kata, tak ikut trend. Haa, dah, orang kata, dah ramai trend for more pula, kan. So, ni, dapatkan di beg tu ni, guys. Awurapap, krill oil daripada,"
+  },
+  {
+   "id": "S13",
+   "src": [
+    560.38,
+    569.2
+   ],
+   "e0": 118.18,
+   "e1": 127.0,
+   "text": "Awurapap. Jangan risau, dah ada semua. Ok, dah ada halal, ZMP, semua ada. So, insyaAllah trusted. Ok, amalkan,"
+  },
+  {
+   "id": "S14",
+   "src": [
+    569.3,
+    575.31
+   ],
+   "e0": 127.0,
+   "e1": 133.01,
+   "text": "satu hari, dua kali. Ok, satu botol ni, ada, empat puluh."
+  },
+  {
+   "id": "S15",
+   "src": [
+    575.48,
+    582.44
+   ],
+   "e0": 133.01,
+   "e1": 139.97,
+   "text": "Empat puluh softgel, so dalam dua puluh hari dah habis. Ok, beli dua, tiga botol terus, sementara harga masih muka. Ok, check out the beg kuning, sekarang."
+  }
+ ]
+}

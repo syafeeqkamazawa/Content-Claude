@@ -1,0 +1,434 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#0A1430",
+  "hot": "#FF5A36"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Aurapep Krill Oil #15 — from VID_20261121_120947 435.8-582.4 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the first of two 'mak saya pun dah mula amalkan' (523-527). Pieces: 15, total 139.97 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 3.56,
+   "text": "Korang tahu tak, kalau nak beg kita punya,",
+   "note": "src 436.10-439.66",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 3.56,
+   "out": 5.55,
+   "text": "korang tahu tak,",
+   "note": "src 439.94-441.93",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 5.55,
+   "out": 10.45,
+   "text": "saluan darah nak ke jantung ni, kalau dia dah kena block tu,",
+   "note": "src 442.06-446.96",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 10.45,
+   "out": 12.61,
+   "text": "jadi, pelan-pelan dah,",
+   "note": "src 447.26-449.42",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 12.61,
+   "out": 22.74,
+   "text": "saluan darah tu, kalau dalam, apa, dah dekat nak kena block, total block tu, tak ada signal guys. Kalau agak nak total block tu, dia tak beg tahu. Saluan darah kau dah nak ditumbat ni,",
+   "note": "src 449.56-459.69",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 22.74,
+   "out": 40.2,
+   "text": "haa, hati-hati, tak ada signal tu. Dia tak ada signal tu yang, korang tengok, ada macam-macam kes, tiba-tiba jatuh, tiba-tiba jatuh, itu yang risau, ok. Orang kata, mencegah level daripada, mengubati, ni, insyaAllah, dapatkan Aurapep krill oil. Tahu tak apa krill oil? Krill oil ni, dia level",
+   "note": "src 459.80-477.26",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 40.2,
+   "out": 53.83,
+   "text": "up daripada fish oil. Biasanya, orang ambil fish oil kan, omega-3 je kan, tapi ni, dia dah ada kandungan omega-3, dan dia ada sekali dengan EPA dan DHA. Haa, ini yang menariknya, ni.",
+   "note": "src 477.52-491.15",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 53.83,
+   "out": 85.45,
+   "text": "Ok, kenapa, apa benda tu? EPA, DHA. EPA ni untuk kita punya, haa, saluran darah tu lah. Untuk beg saluran darah tu, smooth ke jantung. Haa, dan DHA apa? DHA untuk kita punya mata dan otak kita. Haa, so, dapat pelbagai, three in one. Ok, untuk kita punya jantung, untuk kita punya mata dan otak sekali. ni, ok, ni barang dia. Ok, tengoklah dekat beg tu ni, ramai dah guna ni, memang puas hati. Ok, saya, wife,",
+   "note": "src 491.34-522.96",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 85.45,
+   "out": 88.6,
+   "text": "mak saya pun dah mula amalkan, apa tu,",
+   "note": "src 527.36-530.51",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 88.6,
+   "out": 95.55,
+   "text": "krill oil ni. Memang sangat penting, tak kira lapisan umur, sebab sekarang ni, kan, tak sentuh dah,",
+   "note": "src 530.60-537.55",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 95.55,
+   "out": 105.34,
+   "text": "umur 30-an, ada risiko 40-an, 50-an, sebab apa? Sebab makan tak ikut, makan ikut dan, makanan dah, macam-macam inovasi sekarang.",
+   "note": "src 537.58-547.37",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 105.34,
+   "out": 118.18,
+   "text": "Haa, kalau tak makan, orang kata, tak ikut trend. Haa, dah, orang kata, dah ramai trend for more pula, kan. So, ni, dapatkan di beg tu ni, guys. Awurapap, krill oil daripada,",
+   "note": "src 547.46-560.30",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 118.18,
+   "out": 127.0,
+   "text": "Awurapap. Jangan risau, dah ada semua. Ok, dah ada halal, ZMP, semua ada. So, insyaAllah trusted. Ok, amalkan,",
+   "note": "src 560.38-569.20",
+   "zoom": 1.0
+  },
+  {
+   "id": "S14",
+   "in": 127.0,
+   "out": 133.01,
+   "text": "satu hari, dua kali. Ok, satu botol ni, ada, empat puluh.",
+   "note": "src 569.30-575.31",
+   "zoom": 1.06
+  },
+  {
+   "id": "S15",
+   "in": 133.01,
+   "out": 139.97,
+   "text": "Empat puluh softgel, so dalam dua puluh hari dah habis. Ok, beli dua, tiga botol terus, sementara harga masih muka. Ok, check out the beg kuning, sekarang.",
+   "note": "src 575.48-582.44",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "SALURAN DARAH TERSUMBAT?",
+   "hi": [
+    "TERSUMBAT?"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "jadi"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 92
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "barang"
+   ],
+   "to": [
+    "*",
+    "mak"
+   ],
+   "src": 86.0,
+   "note": "the bottle to camera",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "satu#2"
+   ],
+   "to": [
+    "*",
+    "ok#10"
+   ],
+   "src": 128.8,
+   "note": "the bottle held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "ok#10"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 141.1,
+   "note": "the bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "saluan"
+   ],
+   "to": [
+    "*",
+    "tak"
+   ],
+   "note": "AI: A Malaysian man in his forties suddenly clutching his chest in pain at his office, worried"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "makan"
+   ],
+   "to": [
+    "*",
+    "so,#2"
+   ],
+   "note": "AI: A table crowded with trendy viral street food: cheese-pull snacks, fried chicken, bubble t"
+  },
+  {
+   "id": "A3",
+   "from": [
+    "*",
+    "wife"
+   ],
+   "to": [
+    "*",
+    "memang#2"
+   ],
+   "note": "AI: A Malaysian man with his wife and his elderly mother having breakfast together at home, ha"
+  }
+ ],
+ "theme": {
+  "key": "#FF5A36",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "krill",
+  "aurapep"
+ ],
+ "keywords": [
+  "epa",
+  "dha",
+  "omega",
+  "jantung",
+  "otak",
+  "mata",
+  "40",
+  "halal",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "signal"
+   ],
+   "to": [
+    "*",
+    "tiba-tiba"
+   ],
+   "text": "TAK ADA SIGNAL",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "krill"
+   ],
+   "to": [
+    "*",
+    "tahu#3"
+   ],
+   "text": "AURAPEP KRILL OIL",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "*",
+    "level"
+   ],
+   "to": [
+    "*",
+    "biasanya"
+   ],
+   "title": "KRILL OIL",
+   "value": "LEVEL UP",
+   "sub": "DARIPADA FISH OIL",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "omega-3#2"
+   ],
+   "to": [
+    "*",
+    "haa#2"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "OMEGA-3",
+     "at": [
+      "*",
+      "omega-3#2"
+     ]
+    },
+    {
+     "text": "EPA",
+     "at": [
+      "*",
+      "epa"
+     ]
+    },
+    {
+     "text": "DHA",
+     "at": [
+      "*",
+      "dha"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "epa#3"
+   ],
+   "to": [
+    "*",
+    "haa#3"
+   ],
+   "text": "EPA: SALURAN DARAH",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "dha#4"
+   ],
+   "to": [
+    "*",
+    "haa#5"
+   ],
+   "text": "DHA: MATA & OTAK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "*",
+    "empat"
+   ],
+   "to": [
+    "*",
+    "ok#10"
+   ],
+   "n": 40,
+   "label": "SOFTGEL SEBOTOL",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "BELI 2 - 3 BOTOL",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#FF5A36",
+  "bg": "rgba(10,20,50,.88)",
+  "ink": "#FFFFFF",
+  "dark": "#0A1430",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
