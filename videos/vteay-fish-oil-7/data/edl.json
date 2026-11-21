@@ -1,0 +1,298 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#062040",
+  "hot": "#26B0E8"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Vteay Fish Oil #7 — from VID_20261121_120947 767.8-841.8 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 5, total 73.61 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 4.32,
+   "text": "yang mana ada masalah, lengor-lengor, kebas-kebas,",
+   "note": "src 767.98-772.30",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 4.32,
+   "out": 6.42,
+   "text": "mudah, cepat penat.",
+   "note": "src 772.60-774.70",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 6.42,
+   "out": 51.94,
+   "text": "Ha, kan, mata rasa, susah nak fokus, otak pun rasa macam tak bergerak sangat ni. Dapatkan daripada Vteay ni. Omega 3 fish oil, bukan sekadar fish oil Ada 2 ,500 mg tau, fish oil. Dengan 483 mg, EPA. Dan juga 644 mg, DHA. Ha, tengok. Apa EPA, DHA? EPA ni untuk bantu jantung. Untuk saluran tu. Saluran darah kita tu. Ha, smooth. Tak ada blockage. Dan juga, DHA. DHA ni untuk kita punya mata, okay, beg lebih fokus dengan otak kita. Ha, lebih cerdas insyaAllah. Okay, otak, mata, jantung. Ha, insyaAllah dapat hasilnya dengan,",
+   "note": "src 774.81-820.33",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 51.94,
+   "out": 65.11,
+   "text": "ha, apa tu, fish oil daripada Vteay ni. Okay, sementara harga tengah murah. Harga dia memang, korang mungkin terkejut. Sebab memang murah. Okay, jangan risau, ada halal, semua ada, insyaAllah, okay,",
+   "note": "src 820.38-833.55",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 65.11,
+   "out": 73.61,
+   "text": "ha, daripada Vteay, dapatkan di beg ni, beli 2-3 botol terus. Okay, boleh beli untuk mak ayah sekali. Okay, sementara harga tengah murah. Beli sekarang.",
+   "note": "src 833.60-842.10",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "LENGOH, KEBAS, CEPAT PENAT?",
+   "hi": [
+    "PENAT?"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "dapatkan"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 88
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "omega"
+   ],
+   "to": [
+    "*",
+    "ada"
+   ],
+   "src": 15.6,
+   "note": "the bottle to camera",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "okay#2"
+   ],
+   "to": [
+    "*",
+    "harga#2"
+   ],
+   "src": 49.5,
+   "note": "the bottle held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "daripada#3"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 64.95,
+   "note": "the bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "lengor-lengor,"
+   ],
+   "to": [
+    "*",
+    "mudah,"
+   ],
+   "note": "AI: A Malaysian man sitting on the edge of his bed rubbing his numb aching shoulder and arm, t"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "mata"
+   ],
+   "to": [
+    "*",
+    "dapatkan"
+   ],
+   "note": "AI: A Malaysian man at his work desk rubbing his tired eyes, struggling to focus on his laptop"
+  }
+ ],
+ "theme": {
+  "key": "#26B0E8",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "vteay",
+  "fish"
+ ],
+ "keywords": [
+  "omega",
+  "epa",
+  "dha",
+  "jantung",
+  "otak",
+  "mata",
+  "halal",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "hud",
+   "from": [
+    "*",
+    "2"
+   ],
+   "to": [
+    "*",
+    "ha#2"
+   ],
+   "title": "FISH OIL",
+   "value": "2,500 MG",
+   "sub": "EPA 483 MG  ·  DHA 644 MG",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "epa#3"
+   ],
+   "to": [
+    "*",
+    "dan#2"
+   ],
+   "text": "EPA: JANTUNG",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "dha#3"
+   ],
+   "to": [
+    "*",
+    "okay#1"
+   ],
+   "text": "DHA: MATA & OTAK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "otak#3"
+   ],
+   "to": [
+    "*",
+    "hasilnya"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "OTAK",
+     "at": [
+      "*",
+      "otak#3"
+     ]
+    },
+    {
+     "text": "MATA",
+     "at": [
+      "*",
+      "mata#3"
+     ]
+    },
+    {
+     "text": "JANTUNG",
+     "at": [
+      "*",
+      "jantung"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA MURAH",
+   "sub": "BELI UNTUK MAK AYAH SEKALI",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#26B0E8",
+  "bg": "rgba(6,30,60,.88)",
+  "ink": "#FFFFFF",
+  "dark": "#062040",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

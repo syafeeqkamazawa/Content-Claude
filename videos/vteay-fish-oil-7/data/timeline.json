@@ -1,0 +1,77 @@
+{
+ "pieces": [
+  [
+   767.98,
+   772.3
+  ],
+  [
+   772.6,
+   774.7
+  ],
+  [
+   774.81,
+   820.33
+  ],
+  [
+   820.38,
+   833.55
+  ],
+  [
+   833.6,
+   842.1
+  ]
+ ],
+ "total": 73.61,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    767.98,
+    772.3
+   ],
+   "e0": 0.0,
+   "e1": 4.32,
+   "text": "yang mana ada masalah, lengor-lengor, kebas-kebas,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    772.6,
+    774.7
+   ],
+   "e0": 4.32,
+   "e1": 6.42,
+   "text": "mudah, cepat penat."
+  },
+  {
+   "id": "S3",
+   "src": [
+    774.81,
+    820.33
+   ],
+   "e0": 6.42,
+   "e1": 51.94,
+   "text": "Ha, kan, mata rasa, susah nak fokus, otak pun rasa macam tak bergerak sangat ni. Dapatkan daripada Vteay ni. Omega 3 fish oil, bukan sekadar fish oil Ada 2 ,500 mg tau, fish oil. Dengan 483 mg, EPA. Dan juga 644 mg, DHA. Ha, tengok. Apa EPA, DHA? EPA ni untuk bantu jantung. Untuk saluran tu. Saluran darah kita tu. Ha, smooth. Tak ada blockage. Dan juga, DHA. DHA ni untuk kita punya mata, okay, beg lebih fokus dengan otak kita. Ha, lebih cerdas insyaAllah. Okay, otak, mata, jantung. Ha, insyaAllah dapat hasilnya dengan,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    820.38,
+    833.55
+   ],
+   "e0": 51.94,
+   "e1": 65.11,
+   "text": "ha, apa tu, fish oil daripada Vteay ni. Okay, sementara harga tengah murah. Harga dia memang, korang mungkin terkejut. Sebab memang murah. Okay, jangan risau, ada halal, semua ada, insyaAllah, okay,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    833.6,
+    842.1
+   ],
+   "e0": 65.11,
+   "e1": 73.61,
+   "text": "ha, daripada Vteay, dapatkan di beg ni, beli 2-3 botol terus. Okay, boleh beli untuk mak ayah sekali. Okay, sementara harga tengah murah. Beli sekarang."
+  }
+ ]
+}
