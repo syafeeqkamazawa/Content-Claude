@@ -1,0 +1,91 @@
+{
+ "pieces": [
+  [
+   943.22,
+   951.6
+  ],
+  [
+   959.1,
+   993.02
+  ],
+  [
+   993.1,
+   996.75
+  ],
+  [
+   996.76,
+   999.24
+  ],
+  [
+   999.38,
+   1012.01
+  ],
+  [
+   1012.25,
+   1025.9
+  ]
+ ],
+ "total": 74.71,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    943.22,
+    951.6
+   ],
+   "e0": 0.0,
+   "e1": 8.38,
+   "text": "anak-anak yang ada masalah, susah nak makan, nak makan, susahnya makan apa? Makan sayur. Nak makan sayur, memang tak nak kan? Kalau"
+  },
+  {
+   "id": "S2",
+   "src": [
+    959.1,
+    993.02
+   ],
+   "e0": 8.38,
+   "e1": 42.3,
+   "text": "Okay, kalau anak susah sangat, nak makan sayur tu, boleh beg ni, vitamin ni, insyaAllah beg balen. Okay, tapi kena ingat, memang real food, is the best. Priority, real food. Cuma tambahkan lagi, okay, mungkin makan tu, tak banyak. Makan sikit dah tak nak. So, tambahkan dengan, vitamin kit 180 daripada Titanz ni, memang sangat-sangat, membantu insyaAllah. Okay, dia punya, rasa dia sangat sedap. Anak-anak saya, memang, tak payah turun dah. Dah rasa tu, memang akan, follow up kita. Boleh makan, Abah, boleh makan, ni."
+  },
+  {
+   "id": "S3",
+   "src": [
+    993.1,
+    996.75
+   ],
+   "e0": 42.3,
+   "e1": 45.95,
+   "text": "Sebab rasa dia sedap, rasa dia very-very macam tu. Okay,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    996.76,
+    999.24
+   ],
+   "e0": 45.95,
+   "e1": 48.43,
+   "text": "memang sangat sedap. Okay, satu,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    999.38,
+    1012.01
+   ],
+   "e0": 48.43,
+   "e1": 61.06,
+   "text": "botol ni ada 60, ada 60. Satu hari ambil dua kali lah, pagi sekali ke malam sekali. Okay, memang sangat-sangat, dia suka, ya, anak-anak kita lah, memang insyaAllah,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    1012.25,
+    1025.9
+   ],
+   "e0": 61.06,
+   "e1": 74.71,
+   "text": "berkhasiat dan, anak-anak kita, pasti suka insyaAllah. Jangan tunggu lagi, buah ya. Okay, harga tengah murah beli, dua, tiga botol tu, buat stock. Tapi, stok dah habis. Okay, harga pun tengah murah ni. Boleh beli di beg pun ni, sekarang."
+  }
+ ]
+}

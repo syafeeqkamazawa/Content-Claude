@@ -1,0 +1,282 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#123012",
+  "hot": "#FF8A00"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Titanz Kid180 #11 — from VID_20261121_120947 943.0-1025.6 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the false start 'kalau susah sangat, boleh' (951-959; said again in full). Pieces: 6, total 74.71 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 8.38,
+   "text": "anak-anak yang ada masalah, susah nak makan, nak makan, susahnya makan apa? Makan sayur. Nak makan sayur, memang tak nak kan? Kalau",
+   "note": "src 943.22-951.60",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 8.38,
+   "out": 42.3,
+   "text": "Okay, kalau anak susah sangat, nak makan sayur tu, boleh beg ni, vitamin ni, insyaAllah beg balen. Okay, tapi kena ingat, memang real food, is the best. Priority, real food. Cuma tambahkan lagi, okay, mungkin makan tu, tak banyak. Makan sikit dah tak nak. So, tambahkan dengan, vitamin kit 180 daripada Titanz ni, memang sangat-sangat, membantu insyaAllah. Okay, dia punya, rasa dia sangat sedap. Anak-anak saya, memang, tak payah turun dah. Dah rasa tu, memang akan, follow up kita. Boleh makan, Abah, boleh makan, ni.",
+   "note": "src 959.10-993.02",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 42.3,
+   "out": 45.95,
+   "text": "Sebab rasa dia sedap, rasa dia very-very macam tu. Okay,",
+   "note": "src 993.10-996.75",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 45.95,
+   "out": 48.43,
+   "text": "memang sangat sedap. Okay, satu,",
+   "note": "src 996.76-999.24",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 48.43,
+   "out": 61.06,
+   "text": "botol ni ada 60, ada 60. Satu hari ambil dua kali lah, pagi sekali ke malam sekali. Okay, memang sangat-sangat, dia suka, ya, anak-anak kita lah, memang insyaAllah,",
+   "note": "src 999.38-1012.01",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 61.06,
+   "out": 74.71,
+   "text": "berkhasiat dan, anak-anak kita, pasti suka insyaAllah. Jangan tunggu lagi, buah ya. Okay, harga tengah murah beli, dua, tiga botol tu, buat stock. Tapi, stok dah habis. Okay, harga pun tengah murah ni. Boleh beli di beg pun ni, sekarang.",
+   "note": "src 1012.25-1025.90",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "ANAK SUSAH MAKAN SAYUR?",
+   "hi": [
+    "SAYUR?"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "okay,"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 92
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "okay,#2"
+   ],
+   "to": [
+    "*",
+    "okay,#3"
+   ],
+   "src": 17.3,
+   "note": "the box and bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "okay,#4"
+   ],
+   "to": [
+    "*",
+    "sebab"
+   ],
+   "src": 44.9,
+   "note": "a gummy in his palm",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "jangan"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 79.5,
+   "note": "the box and bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "anak-anak"
+   ],
+   "to": [
+    "*",
+    "okay,"
+   ],
+   "note": "AI: A Malaysian boy at the dinner table pushing away his plate of vegetables with a frown whil"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "anak-anak#2"
+   ],
+   "to": [
+    "*",
+    "dah"
+   ],
+   "note": "AI: A happy Malaysian boy and girl smiling at the dining table, eating together with their par"
+  }
+ ],
+ "theme": {
+  "key": "#FF8A00",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "kid",
+  "180",
+  "titanz"
+ ],
+ "keywords": [
+  "sayur",
+  "vitamin",
+  "sedap",
+  "60",
+  "real",
+  "food",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "real"
+   ],
+   "to": [
+    "*",
+    "cuma"
+   ],
+   "text": "REAL FOOD IS THE BEST",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "vitamin#2"
+   ],
+   "to": [
+    "*",
+    "memang#2"
+   ],
+   "text": "VITAMIN KID180",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "rasa"
+   ],
+   "to": [
+    "*",
+    "okay,#5"
+   ],
+   "text": "RASA SANGAT SEDAP",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "hud",
+   "from": [
+    "*",
+    "60,"
+   ],
+   "to": [
+    "*",
+    "okay,#6"
+   ],
+   "title": "SATU BOTOL",
+   "value": "60 BIJI",
+   "sub": "PAGI SEKALI, MALAM SEKALI",
+   "x": 60,
+   "y": 150
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA MURAH",
+   "sub": "BELI 2 - 3 BOTOL, BUAT STOCK",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#FF8A00",
+  "bg": "rgba(20,50,20,.88)",
+  "ink": "#FFFFFF",
+  "dark": "#123012",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
