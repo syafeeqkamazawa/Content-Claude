@@ -1,0 +1,425 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#3E0F6B",
+  "hot": "#FF5FB0"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "My First Book #1 — from VID_20261121 143318 0-340.5 + 151316 1.3-10.6 + 151016 0-51 (B-roll) + 151316 10.6-154.5 (B-roll) 0.0-544.983 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: 'sini kot' while finding the opening tab; looking for the pen ('okay, tengok sini, apa? mana pen dia tadi?'); the book's own voice reading A-B-C ('A, B, mula, cawan, dadu' — unclear in the recording). Pieces: 43, total 246.46 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 44.04,
+   "text": "Ini Ibu ayah yang belum lagi beli, boleh belikanlah untuk anak-anak kita daripada satu tahun, seawal tahun hingga enam tahun. Anak saya yang keempat, umur setahun empat bulan, saya nak belikan. Ini lah, saya belikan untuk dia lah. Memang Masya Allah, memang sangat-sangat. Apa tu, recommended sangat. Apa tu, buku ni pun, ni Lofa. masalah yang ni lah yang kita celebrity yang dah gunakan untuk anak dia kan Masya Allah memang kita nampak lah memang dia punya kesan yang sangat beg untuk anak-anak ok so boleh dapatkan di beg kuning tengok ni Masya Allah cantik je memang sangat cantik proper sangat ni",
+   "note": "src 2.44-46.48",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 44.04,
+   "out": 45.14,
+   "text": "ok",
+   "note": "src 47.78-48.88",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 45.14,
+   "out": 46.38,
+   "text": "Bismillah",
+   "note": "src 51.80-53.04",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 46.38,
+   "out": 48.33,
+   "text": "ok so",
+   "note": "src 53.93-55.88",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 48.33,
+   "out": 50.85,
+   "text": "tengok Masya Allah",
+   "note": "src 56.37-58.89",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 50.85,
+   "out": 55.16,
+   "text": "sangat lawa ok, my first book Bilal Nilofa",
+   "note": "src 59.29-63.60",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 55.16,
+   "out": 58.73,
+   "text": "so, anak saya pun saya belikan jugalah, masya Allah",
+   "note": "src 64.73-68.30",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 58.73,
+   "out": 59.67,
+   "text": "ok",
+   "note": "src 68.83-69.77",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 59.67,
+   "out": 64.71,
+   "text": "cantik memang cantik, jom tengok kat dalam dia macam mana buku dia ok, kita ok",
+   "note": "src 70.27-75.31",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 64.71,
+   "out": 67.39,
+   "text": "ok, tengok, ok, ok, ni buku kemas tengok,",
+   "note": "src 75.89-78.57",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 67.39,
+   "out": 70.01,
+   "text": "ok, dia dia sangat kemas, insya Allah",
+   "note": "src 78.83-81.45",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 70.01,
+   "out": 70.95,
+   "text": "ok,",
+   "note": "src 84.51-85.45",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 70.95,
+   "out": 74.12,
+   "text": "so macam mana nak buka dia, ok, tengok",
+   "note": "src 91.40-94.57",
+   "zoom": 1.0
+  },
+  {
+   "id": "S14",
+   "in": 74.12,
+   "out": 77.4,
+   "text": "tengok dia punya tu. Kat sini",
+   "note": "src 94.98-98.26",
+   "zoom": 1.06
+  },
+  {
+   "id": "S15",
+   "in": 77.4,
+   "out": 79.86,
+   "text": "Bismillah",
+   "note": "src 104.94-107.40",
+   "zoom": 1.0
+  },
+  {
+   "id": "S16",
+   "in": 79.86,
+   "out": 88.03,
+   "text": "InsyaAllah dia siap bagi sekali dengan importer notice satu bulan ada waranti so",
+   "note": "src 108.74-116.91",
+   "zoom": 1.06
+  },
+  {
+   "id": "S17",
+   "in": 88.03,
+   "out": 98.01,
+   "text": "seller yang bagus lah ada siap waranti kad. Kena login dekat sini untuk apply waranti dia MasyaAllah. Okay",
+   "note": "src 117.30-127.28",
+   "zoom": 1.0
+  },
+  {
+   "id": "S18",
+   "in": 98.01,
+   "out": 106.09,
+   "text": "dia bagi sekali dengan pen dia untuk bunyi tu dengan ada dia punya marker dia ok",
+   "note": "src 127.45-135.53",
+   "zoom": 1.06
+  },
+  {
+   "id": "S19",
+   "in": 106.09,
+   "out": 116.67,
+   "text": "lepas tu tengok ni kan ada bateri lah ok buku dia masya Allah packaging dia sangat kemas sangat lawa packaging dia insyaAllah",
+   "note": "src 135.86-146.44",
+   "zoom": 1.0
+  },
+  {
+   "id": "S20",
+   "in": 116.67,
+   "out": 118.61,
+   "text": "ok lepas tu",
+   "note": "src 146.68-148.62",
+   "zoom": 1.06
+  },
+  {
+   "id": "S21",
+   "in": 118.61,
+   "out": 124.69,
+   "text": "bukunya dia bunyi lah je dia bunyi insyaAllah ni pun ada sticker dia dia bagi sticker tengok",
+   "note": "src 148.98-155.06",
+   "zoom": 1.0
+  },
+  {
+   "id": "S22",
+   "in": 124.69,
+   "out": 131.17,
+   "text": "Nilofa dan Bilal kan lah pelekat dia insyaAllah",
+   "note": "src 155.32-161.80",
+   "zoom": 1.06
+  },
+  {
+   "id": "S23",
+   "in": 131.17,
+   "out": 134.8,
+   "text": "Buku ni milik siapa Bujuk-bujuk kat sini",
+   "note": "src 163.36-166.99",
+   "zoom": 1.0
+  },
+  {
+   "id": "S24",
+   "in": 134.8,
+   "out": 136.0,
+   "text": "Okay",
+   "note": "src 167.48-168.68",
+   "zoom": 1.06
+  },
+  {
+   "id": "S25",
+   "in": 136.0,
+   "out": 144.72,
+   "text": "So kat sini kita kena letak bateri lah Rasanya bateri dah siap ni Kalau tengok gaya tarik tu Gaya tarik baru bateri terpasang lah Okay bismillah",
+   "note": "src 169.44-178.16",
+   "zoom": 1.0
+  },
+  {
+   "id": "S26",
+   "in": 144.72,
+   "out": 148.4,
+   "text": "Okay so Jom kita cuba",
+   "note": "src 178.32-182.00",
+   "zoom": 1.06
+  },
+  {
+   "id": "S27",
+   "in": 148.4,
+   "out": 149.6,
+   "text": "Okay",
+   "note": "src 182.80-184.00",
+   "zoom": 1.0
+  },
+  {
+   "id": "S28",
+   "in": 149.6,
+   "out": 154.86,
+   "text": "Assalamualaikum Saya Mami Hana Saya Umi Bilal",
+   "note": "src 184.56-189.82",
+   "zoom": 1.06
+  },
+  {
+   "id": "S29",
+   "in": 154.86,
+   "out": 156.59,
+   "text": "Okay, Masya Allah.",
+   "note": "src 197.07-198.80",
+   "zoom": 1.0
+  },
+  {
+   "id": "S30",
+   "in": 156.59,
+   "out": 163.53,
+   "text": "So, kita tengok. Tekan sini dulu. Tekan sini. Faham tak? Tekan sini untuk mula. Okay.",
+   "note": "src 229.23-236.17",
+   "zoom": 1.06
+  },
+  {
+   "id": "S31",
+   "in": 163.53,
+   "out": 164.61,
+   "text": "Ha, tekan.",
+   "note": "src 237.33-238.41",
+   "zoom": 1.0
+  },
+  {
+   "id": "S32",
+   "in": 164.61,
+   "out": 173.97,
+   "text": "So, Masya Allah. Adik kena main mengenal-kenalan belajar menulis. Okey. Masya Allah. Adik. Ya, batal pun ada. Haa. Huruf hija 'iyah.",
+   "note": "src 257.10-266.46",
+   "zoom": 1.06
+  },
+  {
+   "id": "S33",
+   "in": 173.97,
+   "out": 174.89,
+   "text": "Tunggu kan?",
+   "note": "src 266.90-267.82",
+   "zoom": 1.0
+  },
+  {
+   "id": "S34",
+   "in": 174.89,
+   "out": 181.39,
+   "text": "Haa. Lepas sikit. Mari belajar huruf hija 'iyah. Haa. Alif Arnab.",
+   "note": "src 268.78-275.28",
+   "zoom": 1.06
+  },
+  {
+   "id": "S35",
+   "in": 181.39,
+   "out": 187.01,
+   "text": "Ba. Peti. Haa. Televisyen. Haa.",
+   "note": "src 276.54-282.16",
+   "zoom": 1.0
+  },
+  {
+   "id": "S36",
+   "in": 187.01,
+   "out": 190.88,
+   "text": "Okey, Masya Allah. Mari mengenal warna.",
+   "note": "src 282.86-286.73",
+   "zoom": 1.06
+  },
+  {
+   "id": "S37",
+   "in": 190.88,
+   "out": 194.0,
+   "text": "Oh, bunyi. Haiwan bunyi, Masya Allah.",
+   "note": "src 287.10-290.22",
+   "zoom": 1.0
+  },
+  {
+   "id": "S38",
+   "in": 194.0,
+   "out": 200.02,
+   "text": "Ekspresi muka, anggota badan, ucapan islami, Masya Allah.",
+   "note": "src 290.50-296.52",
+   "zoom": 1.06
+  },
+  {
+   "id": "S39",
+   "in": 200.02,
+   "out": 207.37,
+   "text": "So, memang satu tahun dah sesuai. Haa. So, apa tu. Walaupun orang kata satu tahun tu, respon dia.",
+   "note": "src 297.40-304.75",
+   "zoom": 1.0
+  },
+  {
+   "id": "S40",
+   "in": 207.37,
+   "out": 231.96,
+   "text": "Yelah semacam baby, tapi dia punya apa, memori tu dah mula simpan. Haa. Tu. Itu penting daripada awal. So, nanti bila dah masuk dua atau tiga tahun, dia mulakan keluarkan apa yang dah tersimpan dekat memori dia. So, memang sangat sesuai. Okey. Ibu ayah boleh belikan untuk anak-anak. Yang mana belum lagi, belilah satu. Insya Allah. Untuk anak-anak. Okey. Satu tahun hingga enam tahun. Insya Allah. Sesuai. Okey.",
+   "note": "src 305.02-329.61",
+   "zoom": 1.06
+  },
+  {
+   "id": "S41",
+   "in": 231.96,
+   "out": 238.13,
+   "text": "Memang sangat sesuai. So, kita boleh dapatkan di bagi kuning. Insya Allah. Berbaloi.",
+   "note": "src 332.02-338.19",
+   "zoom": 1.0
+  },
+  {
+   "id": "S42",
+   "in": 238.13,
+   "out": 244.06,
+   "text": "Dan juga korang boleh padamkan balik tau bila dah korang kan matchkan macam ni korang boleh padamkan balik tau",
+   "note": "src 340.82-346.75",
+   "zoom": 1.06
+  },
+  {
+   "id": "S43",
+   "in": 244.06,
+   "out": 246.46,
+   "text": "boleh guna banyak kalilah",
+   "note": "src 347.52-349.92",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "MY FIRST BOOK",
+   "hi": [
+    "FIRST"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "@",
+    3.5
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [],
+ "theme": {
+  "key": "#FF5FB0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "my",
+  "first",
+  "book"
+ ],
+ "keywords": [
+  "tahun",
+  "waranti",
+  "pen",
+  "marker",
+  "hijaiyah",
+  "warna",
+  "memori",
+  "padamkan"
+ ],
+ "fx": [],
+ "pal": {
+  "key": "#FF5FB0",
+  "bg": "rgba(62,15,107,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#3E0F6B",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

@@ -1,0 +1,609 @@
+{
+ "pieces": [
+  [
+   2.44,
+   46.48
+  ],
+  [
+   47.78,
+   48.88
+  ],
+  [
+   51.8,
+   53.04
+  ],
+  [
+   53.93,
+   55.88
+  ],
+  [
+   56.37,
+   58.89
+  ],
+  [
+   59.29,
+   63.6
+  ],
+  [
+   64.73,
+   68.3
+  ],
+  [
+   68.83,
+   69.77
+  ],
+  [
+   70.27,
+   75.31
+  ],
+  [
+   75.89,
+   78.57
+  ],
+  [
+   78.83,
+   81.45
+  ],
+  [
+   84.51,
+   85.45
+  ],
+  [
+   91.4,
+   94.57
+  ],
+  [
+   94.98,
+   98.26
+  ],
+  [
+   104.94,
+   107.4
+  ],
+  [
+   108.74,
+   116.91
+  ],
+  [
+   117.3,
+   127.28
+  ],
+  [
+   127.45,
+   135.53
+  ],
+  [
+   135.86,
+   146.44
+  ],
+  [
+   146.68,
+   148.62
+  ],
+  [
+   148.98,
+   155.06
+  ],
+  [
+   155.32,
+   161.8
+  ],
+  [
+   163.36,
+   166.99
+  ],
+  [
+   167.48,
+   168.68
+  ],
+  [
+   169.44,
+   178.16
+  ],
+  [
+   178.32,
+   182.0
+  ],
+  [
+   182.8,
+   184.0
+  ],
+  [
+   184.56,
+   189.82
+  ],
+  [
+   197.07,
+   198.8
+  ],
+  [
+   229.23,
+   236.17
+  ],
+  [
+   237.33,
+   238.41
+  ],
+  [
+   257.1,
+   266.46
+  ],
+  [
+   266.9,
+   267.82
+  ],
+  [
+   268.78,
+   275.28
+  ],
+  [
+   276.54,
+   282.16
+  ],
+  [
+   282.86,
+   286.73
+  ],
+  [
+   287.1,
+   290.22
+  ],
+  [
+   290.5,
+   296.52
+  ],
+  [
+   297.4,
+   304.75
+  ],
+  [
+   305.02,
+   329.61
+  ],
+  [
+   332.02,
+   338.19
+  ],
+  [
+   340.82,
+   346.75
+  ],
+  [
+   347.52,
+   349.92
+  ]
+ ],
+ "total": 246.46,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    2.44,
+    46.48
+   ],
+   "e0": 0.0,
+   "e1": 44.04,
+   "text": "Ini Ibu ayah yang belum lagi beli, boleh belikanlah untuk anak-anak kita daripada satu tahun, seawal tahun hingga enam tahun. Anak saya yang keempat, umur setahun empat bulan, saya nak belikan. Ini lah, saya belikan untuk dia lah. Memang Masya Allah, memang sangat-sangat. Apa tu, recommended sangat. Apa tu, buku ni pun, ni Lofa. masalah yang ni lah yang kita celebrity yang dah gunakan untuk anak dia kan Masya Allah memang kita nampak lah memang dia punya kesan yang sangat beg untuk anak-anak ok so boleh dapatkan di beg kuning tengok ni Masya Allah cantik je memang sangat cantik proper sangat ni"
+  },
+  {
+   "id": "S2",
+   "src": [
+    47.78,
+    48.88
+   ],
+   "e0": 44.04,
+   "e1": 45.14,
+   "text": "ok"
+  },
+  {
+   "id": "S3",
+   "src": [
+    51.8,
+    53.04
+   ],
+   "e0": 45.14,
+   "e1": 46.38,
+   "text": "Bismillah"
+  },
+  {
+   "id": "S4",
+   "src": [
+    53.93,
+    55.88
+   ],
+   "e0": 46.38,
+   "e1": 48.33,
+   "text": "ok so"
+  },
+  {
+   "id": "S5",
+   "src": [
+    56.37,
+    58.89
+   ],
+   "e0": 48.33,
+   "e1": 50.85,
+   "text": "tengok Masya Allah"
+  },
+  {
+   "id": "S6",
+   "src": [
+    59.29,
+    63.6
+   ],
+   "e0": 50.85,
+   "e1": 55.16,
+   "text": "sangat lawa ok, my first book Bilal Nilofa"
+  },
+  {
+   "id": "S7",
+   "src": [
+    64.73,
+    68.3
+   ],
+   "e0": 55.16,
+   "e1": 58.73,
+   "text": "so, anak saya pun saya belikan jugalah, masya Allah"
+  },
+  {
+   "id": "S8",
+   "src": [
+    68.83,
+    69.77
+   ],
+   "e0": 58.73,
+   "e1": 59.67,
+   "text": "ok"
+  },
+  {
+   "id": "S9",
+   "src": [
+    70.27,
+    75.31
+   ],
+   "e0": 59.67,
+   "e1": 64.71,
+   "text": "cantik memang cantik, jom tengok kat dalam dia macam mana buku dia ok, kita ok"
+  },
+  {
+   "id": "S10",
+   "src": [
+    75.89,
+    78.57
+   ],
+   "e0": 64.71,
+   "e1": 67.39,
+   "text": "ok, tengok, ok, ok, ni buku kemas tengok,"
+  },
+  {
+   "id": "S11",
+   "src": [
+    78.83,
+    81.45
+   ],
+   "e0": 67.39,
+   "e1": 70.01,
+   "text": "ok, dia dia sangat kemas, insya Allah"
+  },
+  {
+   "id": "S12",
+   "src": [
+    84.51,
+    85.45
+   ],
+   "e0": 70.01,
+   "e1": 70.95,
+   "text": "ok,"
+  },
+  {
+   "id": "S13",
+   "src": [
+    91.4,
+    94.57
+   ],
+   "e0": 70.95,
+   "e1": 74.12,
+   "text": "so macam mana nak buka dia, ok, tengok"
+  },
+  {
+   "id": "S14",
+   "src": [
+    94.98,
+    98.26
+   ],
+   "e0": 74.12,
+   "e1": 77.4,
+   "text": "tengok dia punya tu. Kat sini"
+  },
+  {
+   "id": "S15",
+   "src": [
+    104.94,
+    107.4
+   ],
+   "e0": 77.4,
+   "e1": 79.86,
+   "text": "Bismillah"
+  },
+  {
+   "id": "S16",
+   "src": [
+    108.74,
+    116.91
+   ],
+   "e0": 79.86,
+   "e1": 88.03,
+   "text": "InsyaAllah dia siap bagi sekali dengan importer notice satu bulan ada waranti so"
+  },
+  {
+   "id": "S17",
+   "src": [
+    117.3,
+    127.28
+   ],
+   "e0": 88.03,
+   "e1": 98.01,
+   "text": "seller yang bagus lah ada siap waranti kad. Kena login dekat sini untuk apply waranti dia MasyaAllah. Okay"
+  },
+  {
+   "id": "S18",
+   "src": [
+    127.45,
+    135.53
+   ],
+   "e0": 98.01,
+   "e1": 106.09,
+   "text": "dia bagi sekali dengan pen dia untuk bunyi tu dengan ada dia punya marker dia ok"
+  },
+  {
+   "id": "S19",
+   "src": [
+    135.86,
+    146.44
+   ],
+   "e0": 106.09,
+   "e1": 116.67,
+   "text": "lepas tu tengok ni kan ada bateri lah ok buku dia masya Allah packaging dia sangat kemas sangat lawa packaging dia insyaAllah"
+  },
+  {
+   "id": "S20",
+   "src": [
+    146.68,
+    148.62
+   ],
+   "e0": 116.67,
+   "e1": 118.61,
+   "text": "ok lepas tu"
+  },
+  {
+   "id": "S21",
+   "src": [
+    148.98,
+    155.06
+   ],
+   "e0": 118.61,
+   "e1": 124.69,
+   "text": "bukunya dia bunyi lah je dia bunyi insyaAllah ni pun ada sticker dia dia bagi sticker tengok"
+  },
+  {
+   "id": "S22",
+   "src": [
+    155.32,
+    161.8
+   ],
+   "e0": 124.69,
+   "e1": 131.17,
+   "text": "Nilofa dan Bilal kan lah pelekat dia insyaAllah"
+  },
+  {
+   "id": "S23",
+   "src": [
+    163.36,
+    166.99
+   ],
+   "e0": 131.17,
+   "e1": 134.8,
+   "text": "Buku ni milik siapa Bujuk-bujuk kat sini"
+  },
+  {
+   "id": "S24",
+   "src": [
+    167.48,
+    168.68
+   ],
+   "e0": 134.8,
+   "e1": 136.0,
+   "text": "Okay"
+  },
+  {
+   "id": "S25",
+   "src": [
+    169.44,
+    178.16
+   ],
+   "e0": 136.0,
+   "e1": 144.72,
+   "text": "So kat sini kita kena letak bateri lah Rasanya bateri dah siap ni Kalau tengok gaya tarik tu Gaya tarik baru bateri terpasang lah Okay bismillah"
+  },
+  {
+   "id": "S26",
+   "src": [
+    178.32,
+    182.0
+   ],
+   "e0": 144.72,
+   "e1": 148.4,
+   "text": "Okay so Jom kita cuba"
+  },
+  {
+   "id": "S27",
+   "src": [
+    182.8,
+    184.0
+   ],
+   "e0": 148.4,
+   "e1": 149.6,
+   "text": "Okay"
+  },
+  {
+   "id": "S28",
+   "src": [
+    184.56,
+    189.82
+   ],
+   "e0": 149.6,
+   "e1": 154.86,
+   "text": "Assalamualaikum Saya Mami Hana Saya Umi Bilal"
+  },
+  {
+   "id": "S29",
+   "src": [
+    197.07,
+    198.8
+   ],
+   "e0": 154.86,
+   "e1": 156.59,
+   "text": "Okay, Masya Allah."
+  },
+  {
+   "id": "S30",
+   "src": [
+    229.23,
+    236.17
+   ],
+   "e0": 156.59,
+   "e1": 163.53,
+   "text": "So, kita tengok. Tekan sini dulu. Tekan sini. Faham tak? Tekan sini untuk mula. Okay."
+  },
+  {
+   "id": "S31",
+   "src": [
+    237.33,
+    238.41
+   ],
+   "e0": 163.53,
+   "e1": 164.61,
+   "text": "Ha, tekan."
+  },
+  {
+   "id": "S32",
+   "src": [
+    257.1,
+    266.46
+   ],
+   "e0": 164.61,
+   "e1": 173.97,
+   "text": "So, Masya Allah. Adik kena main mengenal-kenalan belajar menulis. Okey. Masya Allah. Adik. Ya, batal pun ada. Haa. Huruf hija 'iyah."
+  },
+  {
+   "id": "S33",
+   "src": [
+    266.9,
+    267.82
+   ],
+   "e0": 173.97,
+   "e1": 174.89,
+   "text": "Tunggu kan?"
+  },
+  {
+   "id": "S34",
+   "src": [
+    268.78,
+    275.28
+   ],
+   "e0": 174.89,
+   "e1": 181.39,
+   "text": "Haa. Lepas sikit. Mari belajar huruf hija 'iyah. Haa. Alif Arnab."
+  },
+  {
+   "id": "S35",
+   "src": [
+    276.54,
+    282.16
+   ],
+   "e0": 181.39,
+   "e1": 187.01,
+   "text": "Ba. Peti. Haa. Televisyen. Haa."
+  },
+  {
+   "id": "S36",
+   "src": [
+    282.86,
+    286.73
+   ],
+   "e0": 187.01,
+   "e1": 190.88,
+   "text": "Okey, Masya Allah. Mari mengenal warna."
+  },
+  {
+   "id": "S37",
+   "src": [
+    287.1,
+    290.22
+   ],
+   "e0": 190.88,
+   "e1": 194.0,
+   "text": "Oh, bunyi. Haiwan bunyi, Masya Allah."
+  },
+  {
+   "id": "S38",
+   "src": [
+    290.5,
+    296.52
+   ],
+   "e0": 194.0,
+   "e1": 200.02,
+   "text": "Ekspresi muka, anggota badan, ucapan islami, Masya Allah."
+  },
+  {
+   "id": "S39",
+   "src": [
+    297.4,
+    304.75
+   ],
+   "e0": 200.02,
+   "e1": 207.37,
+   "text": "So, memang satu tahun dah sesuai. Haa. So, apa tu. Walaupun orang kata satu tahun tu, respon dia."
+  },
+  {
+   "id": "S40",
+   "src": [
+    305.02,
+    329.61
+   ],
+   "e0": 207.37,
+   "e1": 231.96,
+   "text": "Yelah semacam baby, tapi dia punya apa, memori tu dah mula simpan. Haa. Tu. Itu penting daripada awal. So, nanti bila dah masuk dua atau tiga tahun, dia mulakan keluarkan apa yang dah tersimpan dekat memori dia. So, memang sangat sesuai. Okey. Ibu ayah boleh belikan untuk anak-anak. Yang mana belum lagi, belilah satu. Insya Allah. Untuk anak-anak. Okey. Satu tahun hingga enam tahun. Insya Allah. Sesuai. Okey."
+  },
+  {
+   "id": "S41",
+   "src": [
+    332.02,
+    338.19
+   ],
+   "e0": 231.96,
+   "e1": 238.13,
+   "text": "Memang sangat sesuai. So, kita boleh dapatkan di bagi kuning. Insya Allah. Berbaloi."
+  },
+  {
+   "id": "S42",
+   "src": [
+    340.82,
+    346.75
+   ],
+   "e0": 238.13,
+   "e1": 244.06,
+   "text": "Dan juga korang boleh padamkan balik tau bila dah korang kan matchkan macam ni korang boleh padamkan balik tau"
+  },
+  {
+   "id": "S43",
+   "src": [
+    347.52,
+    349.92
+   ],
+   "e0": 244.06,
+   "e1": 246.46,
+   "text": "boleh guna banyak kalilah"
+  }
+ ]
+}

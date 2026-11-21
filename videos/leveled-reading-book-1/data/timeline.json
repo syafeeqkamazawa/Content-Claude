@@ -1,0 +1,343 @@
+{
+ "pieces": [
+  [
+   0.76,
+   2.43
+  ],
+  [
+   6.77,
+   14.46
+  ],
+  [
+   14.63,
+   17.15
+  ],
+  [
+   20.93,
+   30.88
+  ],
+  [
+   30.98,
+   33.82
+  ],
+  [
+   34.6,
+   35.77
+  ],
+  [
+   36.02,
+   37.69
+  ],
+  [
+   38.16,
+   41.63
+  ],
+  [
+   42.0,
+   45.69
+  ],
+  [
+   57.02,
+   68.67
+  ],
+  [
+   74.58,
+   75.52
+  ],
+  [
+   87.66,
+   89.63
+  ],
+  [
+   92.24,
+   94.59
+  ],
+  [
+   99.68,
+   101.08
+  ],
+  [
+   101.1,
+   108.83
+  ],
+  [
+   110.76,
+   112.7
+  ],
+  [
+   113.06,
+   114.27
+  ],
+  [
+   114.6,
+   121.86
+  ],
+  [
+   122.3,
+   130.2
+  ],
+  [
+   141.51,
+   142.88
+  ],
+  [
+   153.06,
+   157.31
+  ],
+  [
+   157.32,
+   158.43
+  ],
+  [
+   158.6,
+   161.24
+  ],
+  [
+   161.28,
+   172.76
+  ]
+ ],
+ "total": 99.87,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.76,
+    2.43
+   ],
+   "e0": 0.0,
+   "e1": 1.67,
+   "text": "Masya Allah Ibu Ayah."
+  },
+  {
+   "id": "S2",
+   "src": [
+    6.77,
+    14.46
+   ],
+   "e0": 1.67,
+   "e1": 9.36,
+   "text": "Masya Allah Ibu Ayah, buku untuk anak-anak kita yang berumur 3 tahun dan ke atas boleh belikan"
+  },
+  {
+   "id": "S3",
+   "src": [
+    14.63,
+    17.15
+   ],
+   "e0": 9.36,
+   "e1": 11.88,
+   "text": "untuk anak-anak kita."
+  },
+  {
+   "id": "S4",
+   "src": [
+    20.93,
+    30.88
+   ],
+   "e0": 11.88,
+   "e1": 21.83,
+   "text": "3 tahun ke atas. Okey, Dia boleh belajar huruf, belajar perkataan, belajar ayat. Sangat-sangat menarik."
+  },
+  {
+   "id": "S5",
+   "src": [
+    30.98,
+    33.82
+   ],
+   "e0": 21.83,
+   "e1": 24.67,
+   "text": "Jom kita tengok macam mana bentuk dia."
+  },
+  {
+   "id": "S6",
+   "src": [
+    34.6,
+    35.77
+   ],
+   "e0": 24.67,
+   "e1": 25.84,
+   "text": "Okey."
+  },
+  {
+   "id": "S7",
+   "src": [
+    36.02,
+    37.69
+   ],
+   "e0": 25.84,
+   "e1": 27.51,
+   "text": "So ni buku dia."
+  },
+  {
+   "id": "S8",
+   "src": [
+    38.16,
+    41.63
+   ],
+   "e0": 27.51,
+   "e1": 30.98,
+   "text": "Masya Allah buku dia. Oh, ni pun ada ni lah."
+  },
+  {
+   "id": "S9",
+   "src": [
+    42.0,
+    45.69
+   ],
+   "e0": 30.98,
+   "e1": 34.67,
+   "text": "Ada ni, Masya Allah. Ada dia punya."
+  },
+  {
+   "id": "S10",
+   "src": [
+    57.02,
+    68.67
+   ],
+   "e0": 34.67,
+   "e1": 46.32,
+   "text": "Masya Allah. Memang sangat menarik. Saya sendiri pun first time ni, Masya Allah. Haa. So ada lagu, ya ada lagu Press Go tu. Okey, apa-apa Press Go tu."
+  },
+  {
+   "id": "S11",
+   "src": [
+    74.58,
+    75.52
+   ],
+   "e0": 46.32,
+   "e1": 47.26,
+   "text": "Okey."
+  },
+  {
+   "id": "S12",
+   "src": [
+    87.66,
+    89.63
+   ],
+   "e0": 47.26,
+   "e1": 49.23,
+   "text": "alfabet."
+  },
+  {
+   "id": "S13",
+   "src": [
+    92.24,
+    94.59
+   ],
+   "e0": 49.23,
+   "e1": 51.58,
+   "text": "Ada Apple, lagu Apple."
+  },
+  {
+   "id": "S14",
+   "src": [
+    99.68,
+    101.08
+   ],
+   "e0": 51.58,
+   "e1": 52.98,
+   "text": "Masya Allah."
+  },
+  {
+   "id": "S15",
+   "src": [
+    101.1,
+    108.83
+   ],
+   "e0": 52.98,
+   "e1": 60.71,
+   "text": "Jadi anak-anak kita boleh belajar mengenal benda dalam bahasa Melayu, dalam bahasa Inggeris. Okey."
+  },
+  {
+   "id": "S16",
+   "src": [
+    110.76,
+    112.7
+   ],
+   "e0": 60.71,
+   "e1": 62.65,
+   "text": "Pasal ni lah bahasa Inggeris ni."
+  },
+  {
+   "id": "S17",
+   "src": [
+    113.06,
+    114.27
+   ],
+   "e0": 62.65,
+   "e1": 63.86,
+   "text": "Dalam bahasa Melayu."
+  },
+  {
+   "id": "S18",
+   "src": [
+    114.6,
+    121.86
+   ],
+   "e0": 63.86,
+   "e1": 71.12,
+   "text": "So, okey boleh develop English anak-anak kita. Okey. So, ada pelbagai"
+  },
+  {
+   "id": "S19",
+   "src": [
+    122.3,
+    130.2
+   ],
+   "e0": 71.12,
+   "e1": 79.02,
+   "text": "apa tu, perkataan benda, ya. Haa, ada ada macam"
+  },
+  {
+   "id": "S20",
+   "src": [
+    141.51,
+    142.88
+   ],
+   "e0": 79.02,
+   "e1": 80.39,
+   "text": "Masya Allah."
+  },
+  {
+   "id": "S21",
+   "src": [
+    153.06,
+    157.31
+   ],
+   "e0": 80.39,
+   "e1": 84.64,
+   "text": "Memang menarik lah. Masya Allah. Ibu ayah. Sangat-sangat best buku ni."
+  },
+  {
+   "id": "S22",
+   "src": [
+    157.32,
+    158.43
+   ],
+   "e0": 84.64,
+   "e1": 85.75,
+   "text": "Tak tipu."
+  },
+  {
+   "id": "S23",
+   "src": [
+    158.6,
+    161.24
+   ],
+   "e0": 85.75,
+   "e1": 88.39,
+   "text": "Okey. Ibu ayah belilah untuk anak-anak. Insya Allah."
+  },
+  {
+   "id": "S24",
+   "src": [
+    161.28,
+    172.76
+   ],
+   "e0": 88.39,
+   "e1": 99.87,
+   "text": "Okey. Harga pun tak mahal. Okey. Seller pun banyak buat harga promosi. Okey. Sementara harga masih murah, boleh. Ibu ayah belikan untuk anak-anak. Sangat baru, insya Allah. Okey. Dapatkan di beg kuning. Insya Allah."
+  }
+ ]
+}

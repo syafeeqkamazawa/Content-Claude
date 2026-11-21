@@ -439,7 +439,44 @@
    "origin": "50% 45%"
   }
  ],
- "photos": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "berniaga#1"
+   ],
+   "to": [
+    "*",
+    "sebab#2"
+   ],
+   "note": "AI: A young Malaysian man at home packing neatly folded dark denim hoodies into parcels for hi"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "mana-mana#1"
+   ],
+   "to": [
+    "*",
+    "usah#1"
+   ],
+   "note": "AI: A Malaysian man browsing clothing racks in a shopping mall store, looking unimpressed and "
+  },
+  {
+   "id": "A3",
+   "from": [
+    "*",
+    "raya#1"
+   ],
+   "to": [
+    "*",
+    "benda#1"
+   ],
+   "note": "AI: Nearly empty clothing racks in a Malaysian menswear shop just before Hari Raya, only a few"
+  }
+ ],
  "theme": {
   "key": "#8EC5FF",
   "brand": "#FFFFFF"

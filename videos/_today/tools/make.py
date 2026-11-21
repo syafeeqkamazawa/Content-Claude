@@ -16,7 +16,7 @@ from specs import SPECS
 T = pathlib.Path(__file__).resolve().parents[1]           # videos/_today
 SRC = T / "src/120947.mp4"
 PRE, POST, JOIN = 0.2, 0.3, 0.5
-FIX = {"bag": "beg", "back": "beg", "bagi": "beg", "baik": "beg", "backcone": "beg", "backcoding": "beg", "bagun": "beg",
+FIX = {"bag": "beg", "back": "beg", "backcone": "beg", "backcoding": "beg", "bagun": "beg",
        "debit": "beg", "debat": "beg", "kuning,": "kuning,", "sacek": "sachet", "sacet": "sachet", "gamis": "gummies",
        "rekomen": "recommend", "korang.": "korang."}
 DROPW = {"aa", "eh", "hmm", "err"}
