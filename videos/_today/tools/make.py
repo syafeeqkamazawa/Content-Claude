@@ -173,7 +173,8 @@ def main(key, media=True):
     broll = [cu(f"C{k + 1}", f, to, round(src - a0, 3), origin, (1.0, 1.07), note)
              for k, (f, to, src, origin, note) in enumerate(spec.get("cut", []))]
     k0 = spec["kp"]
-    write(P, 1, f"VID_20261121_120947 {a0}-{spec['range'][1]} s (videos/_today/tools/make.py)", segs, zoom=1.0, origin="50% 42%",
+    srcn = spec.get("srcnote", "VID_20261121_120947")
+    write(P, 1, f"{srcn} {a0}-{spec['range'][1]} s (videos/_today/tools/make.py)", segs, zoom=1.0, origin="50% 42%",
           broll=broll, photos=[{"id": pid, "from": f, "to": to, "note": "AI: " + pr[:90]} for pid, f, to, pr in spec.get("ai", [])
                                if (P / f"assets/photos/{pid}.jpg").exists()], kps=[kp(k0[0], k0[1], k0[2], k0[3], "zoom", k0[4] if len(k0) > 4 else 200, k0[5] if len(k0) > 5 else 100)],
           note_extra=" 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.")
@@ -190,7 +191,7 @@ def main(key, media=True):
     e["tighten"] = {"max_pause": 2.0, "keep": 0.5, "threshold_db": -45, "blip": 0.03}
     e["keywords"] = spec.get("keywords", [])
     e["brand_words"] = spec.get("brand", [])
-    e["_note"] = (f"{spec['name']} — from VID_20261121_120947 {a0}-{spec['range'][1]} s (folder 'Video today'). Kept every VAD speech "
+    e["_note"] = (f"{spec['name']} — from {srcn} {a0}-{spec['range'][1]} s (folder 'Video today'). Kept every VAD speech "
                   f"stretch; dropped only: {spec.get('dropnote', 'nothing')}. Pieces: {len(pcs)}, total {TOTAL} s.")
     (P / "data/edl.json").write_text(json.dumps(e, indent=1, ensure_ascii=False))
     (P / "data/timeline.json").write_text(json.dumps({"pieces": pcs, "total": TOTAL, "lines": L}, indent=1, ensure_ascii=False))
