@@ -44,5 +44,13 @@ SPECS2 = {
                   pal=pal("#FF5FB0", bg="rgba(62,15,107,.9)", dark="#3E0F6B"), brand=["my", "first", "book"],
                   keywords=["kenderaan", "hijaiyah", "warna", "nombor", "haiwan", "lagu", "malaikat", "solat", "promosi"],
                   kp=("BELAJAR SAMBIL MAIN", ["MAIN"], S1, ["@", 3.5], 200, 100), drop=[], cut=[], fx=[]),
+    "n06": _combo("mfb1", ["143318 0-340.5", "151316 1.3-10.6", "151016 0-51 (B-roll)", "151316 10.6-154.5 (B-roll)"],
+                  slug="my-first-book-1", name="My First Book #1", pal=pal("#FF5FB0", bg="rgba(62,15,107,.9)", dark="#3E0F6B"),
+                  brand=["my", "first", "book"], keywords=["tahun", "waranti", "pen", "marker", "hijaiyah", "warna", "memori", "padamkan"],
+                  kp=("MY FIRST BOOK", ["FIRST"], S1, ["@", 3.5], 200, 100), drop=[], cut=[], fx=[]),
+    "n09": _combo("leveled", ["152300 6-192.5"], slug="leveled-reading-book-1", name="Leveled Reading Book #1",
+                  pal=pal("#FF8A1F", bg="rgba(15,60,140,.9)", dark="#0F3C8C"), brand=["leveled", "reading"],
+                  keywords=["huruf", "perkataan", "ayat", "lagu", "alfabet", "Inggeris", "Melayu", "murah", "promosi"],
+                  kp=("ANAK 3 TAHUN KE ATAS", ["3"], S1, ["@", 3.5], 200, 100), drop=[], cut=[], fx=[]),
 }
 SPECS.update(SPECS2)
