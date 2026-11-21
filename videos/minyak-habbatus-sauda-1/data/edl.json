@@ -1,0 +1,421 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#1A1408",
+  "hot": "#E0B040"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Minyak Habbatus Sauda #1 — from VID_20261121_120947 633.5-754.5 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the opening walk-in with 'Bismillah' x3 (591-633, no talk) and the repeated '500 ml lah' (717.6). Pieces: 16, total 111.38 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 2.36,
+   "text": "Allah, MasyaAllah. Tuan-tuan,",
+   "note": "src 633.72-636.08",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 2.36,
+   "out": 13.24,
+   "text": "puan-puan, ibu-ibu, ayah-ayah, minyak habbatus sauda. Minyak habbatus sauda ni, untuk kita amalkan satu pump pagi sebelum sarapan, satu pump sebelum tidur.",
+   "note": "src 637.00-647.88",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 13.24,
+   "out": 14.18,
+   "text": "Ok,",
+   "note": "src 647.90-648.84",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 14.18,
+   "out": 19.18,
+   "text": "buat macam ni je. Buat macam ni, ok, separuh lebih kurang separuh lah. Ok, daripada",
+   "note": "src 648.90-653.90",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 19.18,
+   "out": 24.41,
+   "text": "penyedut ni, separuh tu, dia kira satu pump lah, dalam 14 titik. Masukkan dalam mulut,",
+   "note": "src 655.26-660.49",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 24.41,
+   "out": 25.31,
+   "text": "ok,",
+   "note": "src 660.52-661.42",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 25.31,
+   "out": 39.96,
+   "text": "dan bilas dengan air, kekurang-kurangnya 2 liter, supaya tekak kita rasa selesa. Mungkin dia akan rasa sedikit macam tak selesa sebab minyak habbatus sauda ni, dia sedikit, dia panas lah. Tapi, bilas dengan air, insyaAllah. Ok,",
+   "note": "src 662.26-676.91",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 39.96,
+   "out": 54.71,
+   "text": "tuan-tuan boleh cek lah. MasyaAllah. Kauan cek je. Kali biar, apa tu sauda kau. Apa tu, tuan-tuan, perempuan, apa tu, tahulah. MasyaAllah. Barakullah. Sangat-sangat berkasiat. Sunnah Nabi Muhammad SAW. Ok.",
+   "note": "src 677.04-691.79",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 54.71,
+   "out": 67.65,
+   "text": "Apa tu, kalau sebelum tidur tu, kau kerja 2 jam sebelum. Jangan ambil, dekat-dekat nak tidur, ambil, jangan sebab dia takut bilas tu tak sempat nak bilas dengan air. Ok, 2 jam sebelum tidur dan",
+   "note": "src 693.02-705.96",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 67.65,
+   "out": 70.2,
+   "text": "apa tu, sambung dengan air.",
+   "note": "src 706.04-708.59",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 70.2,
+   "out": 77.46,
+   "text": "Kalau boleh, 2 liter, maksimum. Ataupun, sekurang-kurangnya, 500 ml ke atas lah.",
+   "note": "src 708.76-716.02",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 77.46,
+   "out": 78.53,
+   "text": "Ok, so,",
+   "note": "src 718.88-719.95",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 78.53,
+   "out": 90.91,
+   "text": "tengok dekat beg kuning, pastikan ambil yang original, jangan ambil yang fake, dah banyak masalah lah ni. issue fake dah mula dah, sebab dah mintaan dah ramai, mulalah, gang-gang scammer buat kerja, kan, ni.",
+   "note": "src 721.68-734.06",
+   "zoom": 1.0
+  },
+  {
+   "id": "S14",
+   "in": 90.91,
+   "out": 96.55,
+   "text": "InsyaAllah. Ok, tengok pastikan warna macam ni. Ok, kalau yang fake tu, warna dia cerah sangat.",
+   "note": "src 734.12-739.76",
+   "zoom": 1.06
+  },
+  {
+   "id": "S15",
+   "in": 96.55,
+   "out": 104.92,
+   "text": "Kan, yelah, nak duit je kerja je kan. Ha, kualiti dah, mana, tak kira dah, apa ke mana, tak apa diisi dalam air tu, wallah-wallah. So, ni.",
+   "note": "src 739.80-748.17",
+   "zoom": 1.0
+  },
+  {
+   "id": "S16",
+   "in": 104.92,
+   "out": 111.38,
+   "text": "Ok, warna macam ni. Dapatkan dekat kuning guys, harga tengah murah. Ok, semoga harga saya lewat promo. Check out sekarang.",
+   "note": "src 748.34-754.80",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "MINYAK HABBATUS SAUDA",
+   "hi": [
+    "SAUDA"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "untuk"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 96
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "satu"
+   ],
+   "to": [
+    "*",
+    "ok,#2"
+   ],
+   "src": 5.0,
+   "note": "the pump bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "separuh"
+   ],
+   "to": [
+    "*",
+    "masukkan"
+   ],
+   "src": 18.6,
+   "note": "the dropper close up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 40%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "pastikan"
+   ],
+   "to": [
+    "*",
+    "kan,"
+   ],
+   "src": 86.5,
+   "note": "the bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "*",
+    "warna#3"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 100.1,
+   "note": "the dropper, colour",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 40%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "sunnah"
+   ],
+   "to": [
+    "*",
+    "ok.#2"
+   ],
+   "note": "AI: Still life: a small glass bottle of golden black-seed oil beside a bowl of black seeds on "
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "bilas"
+   ],
+   "to": [
+    "*",
+    "mungkin"
+   ],
+   "note": "AI: A Malaysian man drinking a glass of water in a bright kitchen in the morning. The man is a"
+  }
+ ],
+ "theme": {
+  "key": "#E0B040",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "habbatus",
+  "sauda"
+ ],
+ "keywords": [
+  "pump",
+  "sunnah",
+  "original",
+  "fake",
+  "air",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "satu"
+   ],
+   "to": [
+    "*",
+    "ok,"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "1 PUMP PAGI",
+     "at": [
+      "*",
+      "pagi"
+     ]
+    },
+    {
+     "text": "1 PUMP SEBELUM TIDUR",
+     "at": [
+      "*",
+      "sebelum"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "14"
+   ],
+   "to": [
+    "*",
+    "masukkan"
+   ],
+   "text": "± 14 TITIK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "bilas"
+   ],
+   "to": [
+    "*",
+    "mungkin"
+   ],
+   "text": "BILAS DENGAN AIR",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "sunnah"
+   ],
+   "to": [
+    "*",
+    "ok.#2"
+   ],
+   "text": "SUNNAH NABI SAW",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "2#2"
+   ],
+   "to": [
+    "*",
+    "kalau#2"
+   ],
+   "text": "2 JAM SEBELUM TIDUR",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "pastikan"
+   ],
+   "to": [
+    "*",
+    "warna#2"
+   ],
+   "text": "PASTIKAN ORIGINAL",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "PASTIKAN WARNA MACAM NI",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#E0B040",
+  "bg": "rgba(12,10,6,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#1A1408",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
