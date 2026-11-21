@@ -111,6 +111,13 @@ otherwise for a specific video.
 
 ## Workflow
 
+- **Keep everything said, 0.5 s gaps (owner, 21 Nov — overrides the 5 Nov "no TikTok-risk lines" rule):**
+  "Jangan skip mana mana part saya cakap walaupun awak rasa ada risiko violation ke, hanya potong bahagian yang
+  berulang ulang, yang ada bunyi err, atau bahagian yang tak sesuai contoh tablet terjatuh ke ... biar ada gap 0.5 saat
+  untuk setiap klip supaya percakapan saya tu jelas ... jangan potong dekat sangat. Caption dan text motion sesuaikan
+  ikut tema produk." Keep every spoken line (VAD + whisper word spans), cut only retakes / err / mishaps, 0.2 s before
+  + 0.3 s after each clip; caption colours and motion-text cards follow each product's colours. B-roll of the same
+  product from other folders may be used. Batch pipeline: `videos/_today/tools/make.py` (+ `specs.py`, `queue.sh`).
 - **Every video gets fitting overlays** (owner, 6 Nov: "Semua video ada overlay yang sesuai
   supaya viewer senang faham dan lebih mudah nak tengok video sampai habis"): each
   explanation gets a matching overlay — close-ups of the owner's own product footage

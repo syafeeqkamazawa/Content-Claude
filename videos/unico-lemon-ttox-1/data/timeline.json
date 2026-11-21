@@ -1,0 +1,63 @@
+{
+ "pieces": [
+  [
+   67.0,
+   70.28
+  ],
+  [
+   70.52,
+   92.81
+  ],
+  [
+   92.98,
+   95.56
+  ],
+  [
+   95.61,
+   99.79
+  ]
+ ],
+ "total": 32.33,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    67.0,
+    70.28
+   ],
+   "e0": 0.0,
+   "e1": 3.28,
+   "text": "Yang mana perut ke depan tu boleh,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    70.52,
+    92.81
+   ],
+   "e0": 3.28,
+   "e1": 25.57,
+   "text": "dengan lemon fresh, lemon TikTok guys, insyaAllah bila korang start pakai ni, korang akan start membuang, ok, insyaAllah raya pun dah tak lama guys, boleh, ok, prepare beg perut tu, masuk ke dalam sikit, haa, ok, boleh. Dapatkan di beg kuning, harga tengah murah guys, seller tengah buat harga promo beg punya, ok,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    92.98,
+    95.56
+   ],
+   "e0": 25.57,
+   "e1": 28.15,
+   "text": "jangan ambil satu, ambil dua, tiga, insyaAllah,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    95.61,
+    99.79
+   ],
+   "e0": 28.15,
+   "e1": 32.33,
+   "text": "ok, selamat mencuba, ok, dapatkan di beg kuning."
+  }
+ ]
+}

@@ -1,0 +1,256 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#3A1F05",
+  "hot": "#F7A823"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Jus Gout Pro Max #15 — from VID_20261121_120947 12.9-60.2 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the off-topic aside after the CTA ('nak all out ni lah, rasa nak begok', 60.5-63). Pieces: 3, total 43.94 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 2.81,
+   "text": "Yang ada masalah sakit sendi,",
+   "note": "src 13.36-16.17",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 2.81,
+   "out": 4.41,
+   "text": "berdenyuk-denyuk tu,",
+   "note": "src 16.52-18.12",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 4.41,
+   "out": 43.94,
+   "text": "ok, ada masalah gout ke, ni, jus gout daripada Promax Series, tengah murah guys, tengah murah, saya dia tengah buat harga promo ni, ok, ok, sekarang kan tengah musim gaji kan, memang saya dia tengah buat promo guys, ok, boleh, dapatkan di beg kuning, ok, dia jus gout ni, dia ada enam campuran ekstrak herba tau, ok, antaranya ekstrak nenas, ada miltisir kat sini, ada lemon halia, so bila korang minum tu, dia ada bau-bau halia, ada rasa-rasa nas, so mudah untuk diminum, ok, boleh dapatkan di beg kuning, sementara harga masih murah.",
+   "note": "src 18.18-57.71",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "JUS GOUT PRO MAX",
+   "hi": [
+    "GOUT"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "jus"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "jus"
+   ],
+   "to": [
+    "*",
+    "tengah"
+   ],
+   "src": 5.1,
+   "note": "the tub to camera",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "antaranya"
+   ],
+   "to": [
+    "*",
+    "so#2"
+   ],
+   "src": 20.1,
+   "note": "the tub, label side",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "boleh#2"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 42.6,
+   "note": "the tub held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#F7A823",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "gout",
+  "promax"
+ ],
+ "keywords": [
+  "sendi",
+  "enam",
+  "herba",
+  "nenas",
+  "halia",
+  "lemon",
+  "murah",
+  "promo"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "sakit"
+   ],
+   "to": [
+    "*",
+    "jus"
+   ],
+   "text": "SENDI BERDENYUT?",
+   "x": 60,
+   "y": 1040
+  },
+  {
+   "type": "dial",
+   "from": [
+    "*",
+    "enam"
+   ],
+   "to": [
+    "*",
+    "antaranya"
+   ],
+   "n": 6,
+   "label": "EKSTRAK HERBA",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "antaranya"
+   ],
+   "to": [
+    "*",
+    "so#2"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "EKSTRAK NENAS",
+     "at": [
+      "*",
+      "nenas"
+     ]
+    },
+    {
+     "text": "LEMON",
+     "at": [
+      "*",
+      "lemon"
+     ]
+    },
+    {
+     "text": "HALIA",
+     "at": [
+      "*",
+      "halia"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "so#2"
+   ],
+   "to": [
+    "*",
+    "boleh#2"
+   ],
+   "text": "MUDAH DIMINUM",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "MUSIM GAJI, HARGA PROMO",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#F7A823",
+  "bg": "rgba(14,14,14,.82)",
+  "ink": "#FFFFFF",
+  "dark": "#3A1F05",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

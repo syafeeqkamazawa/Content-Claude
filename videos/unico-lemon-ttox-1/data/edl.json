@@ -1,0 +1,222 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#14286E",
+  "hot": "#FFD43B"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Unico Lemon T-Tox #1 — from VID_20261121_120947 66.8-107.2 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 4, total 32.33 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 3.28,
+   "text": "Yang mana perut ke depan tu boleh,",
+   "note": "src 67.00-70.28",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 3.28,
+   "out": 25.57,
+   "text": "dengan lemon fresh, lemon TikTok guys, insyaAllah bila korang start pakai ni, korang akan start membuang, ok, insyaAllah raya pun dah tak lama guys, boleh, ok, prepare beg perut tu, masuk ke dalam sikit, haa, ok, boleh. Dapatkan di beg kuning, harga tengah murah guys, seller tengah buat harga promo beg punya, ok,",
+   "note": "src 70.52-92.81",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 25.57,
+   "out": 28.15,
+   "text": "jangan ambil satu, ambil dua, tiga, insyaAllah,",
+   "note": "src 92.98-95.56",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 28.15,
+   "out": 32.33,
+   "text": "ok, selamat mencuba, ok, dapatkan di beg kuning.",
+   "note": "src 95.61-99.79",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "PERUT KE DEPAN?",
+   "hi": [
+    "PERUT"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "lemon"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "lemon"
+   ],
+   "to": [
+    "*",
+    "insyaallah"
+   ],
+   "src": 7.7,
+   "note": "the Lemon T-Tox box",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "prepare"
+   ],
+   "to": [
+    "*",
+    "dapatkan"
+   ],
+   "src": 20.2,
+   "note": "the box to camera",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "jangan"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 30.2,
+   "note": "the box held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "45% 45%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#FFD43B",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "lemon",
+  "tiktok"
+ ],
+ "keywords": [
+  "membuang",
+  "raya",
+  "perut",
+  "murah",
+  "promo"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "lemon"
+   ],
+   "to": [
+    "*",
+    "insyaallah"
+   ],
+   "text": "UNICO LEMON T-TOX",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "start#2"
+   ],
+   "to": [
+    "*",
+    "raya"
+   ],
+   "text": "START MEMBUANG",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "raya"
+   ],
+   "to": [
+    "*",
+    "dapatkan"
+   ],
+   "text": "PREPARE SEBELUM RAYA",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "AMBIL 2 - 3 KOTAK",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#FFD43B",
+  "bg": "rgba(20,40,110,.86)",
+  "ink": "#FFFFFF",
+  "dark": "#14286E",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
