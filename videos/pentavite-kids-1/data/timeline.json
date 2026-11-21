@@ -1,0 +1,105 @@
+{
+ "pieces": [
+  [
+   1538.78,
+   1561.39
+  ],
+  [
+   1562.42,
+   1566.48
+  ],
+  [
+   1566.54,
+   1576.43
+  ],
+  [
+   1576.63,
+   1582.24
+  ],
+  [
+   1582.33,
+   1584.82
+  ],
+  [
+   1584.95,
+   1589.13
+  ],
+  [
+   1589.59,
+   1597.07
+  ]
+ ],
+ "total": 56.32,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    1538.78,
+    1561.39
+   ],
+   "e0": 0.0,
+   "e1": 22.61,
+   "text": "mixed fish with multivitamin untuk anak-anak umur 3 tahun ke atas insyaAllah ok multivitamin perisa fish anak-anak kita nak makan pun seronok ok macam makan candy lah dia punya bentuk dia macam ni bentuk-bentuk je nampak tak insyaAllah memang sangat-sangat cantik bentuk dia pun dah orang kata"
+  },
+  {
+   "id": "S2",
+   "src": [
+    1562.42,
+    1566.48
+   ],
+   "e0": 22.61,
+   "e1": 26.67,
+   "text": "bentuk ni pun dah menarik dah, bentuk-bentuk bare macam tu kan,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    1566.54,
+    1576.43
+   ],
+   "e0": 26.67,
+   "e1": 36.56,
+   "text": "ok, rasa dia rasa fish lah, rasa fish dan jangan risau, Pentavite semua dah ada, halal pun semua dah ada insya Allah. Ok, untuk support anak-anak"
+  },
+  {
+   "id": "S4",
+   "src": [
+    1576.63,
+    1582.24
+   ],
+   "e0": 36.56,
+   "e1": 42.17,
+   "text": "kita, ada 12 essential vitamin dalam ni, ok,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    1582.33,
+    1584.82
+   ],
+   "e0": 42.17,
+   "e1": 44.66,
+   "text": "boleh chewable tablet dah ni, ok."
+  },
+  {
+   "id": "S6",
+   "src": [
+    1584.95,
+    1589.13
+   ],
+   "e0": 44.66,
+   "e1": 48.84,
+   "text": "ada perisa pitch. So, man, iboyah, seller,"
+  },
+  {
+   "id": "S7",
+   "src": [
+    1589.59,
+    1597.07
+   ],
+   "e0": 48.84,
+   "e1": 56.32,
+   "text": "tengah buat harga promo. Sementara harga masih murah tu, bolehlah borong tiga botol terus. Check out di beg kuning."
+  }
+ ]
+}

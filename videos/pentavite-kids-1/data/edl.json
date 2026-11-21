@@ -1,0 +1,288 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#14300A",
+  "hot": "#7BC943"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Pentavite Kids Multivitamin #1 — from VID_20261121_120947 1538.5-1597.0 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing — note the recording's own audio drops out at 24:22-25:34, so the intro before 'mixed fish with multivitamin' has no sound. Pieces: 7, total 56.32 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 22.61,
+   "text": "mixed fish with multivitamin untuk anak-anak umur 3 tahun ke atas insyaAllah ok multivitamin perisa fish anak-anak kita nak makan pun seronok ok macam makan candy lah dia punya bentuk dia macam ni bentuk-bentuk je nampak tak insyaAllah memang sangat-sangat cantik bentuk dia pun dah orang kata",
+   "note": "src 1538.78-1561.39",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 22.61,
+   "out": 26.67,
+   "text": "bentuk ni pun dah menarik dah, bentuk-bentuk bare macam tu kan,",
+   "note": "src 1562.42-1566.48",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 26.67,
+   "out": 36.56,
+   "text": "ok, rasa dia rasa fish lah, rasa fish dan jangan risau, Pentavite semua dah ada, halal pun semua dah ada insya Allah. Ok, untuk support anak-anak",
+   "note": "src 1566.54-1576.43",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 36.56,
+   "out": 42.17,
+   "text": "kita, ada 12 essential vitamin dalam ni, ok,",
+   "note": "src 1576.63-1582.24",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 42.17,
+   "out": 44.66,
+   "text": "boleh chewable tablet dah ni, ok.",
+   "note": "src 1582.33-1584.82",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 44.66,
+   "out": 48.84,
+   "text": "ada perisa pitch. So, man, iboyah, seller,",
+   "note": "src 1584.95-1589.13",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 48.84,
+   "out": 56.32,
+   "text": "tengah buat harga promo. Sementara harga masih murah tu, bolehlah borong tiga botol terus. Check out di beg kuning.",
+   "note": "src 1589.59-1597.07",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "MULTIVITAMIN ANAK",
+   "hi": [
+    "ANAK"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "insyaallah"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 104
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "bentuk"
+   ],
+   "to": [
+    "*",
+    "insyaallah#2"
+   ],
+   "src": 15.5,
+   "note": "chewables in his palm",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 55%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "12"
+   ],
+   "to": [
+    "*",
+    "ada"
+   ],
+   "src": 33.0,
+   "note": "the bottle to camera",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "check"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 55.5,
+   "note": "the bottle held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "anak-anak#2"
+   ],
+   "to": [
+    "*",
+    "nak"
+   ],
+   "note": "AI: A small Malaysian girl smiling and holding a colourful fish-shaped chewable vitamin, sitti"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "support"
+   ],
+   "to": [
+    "*",
+    "ada"
+   ],
+   "note": "AI: Happy Malaysian kids playing outdoors in the sun, healthy and active. Children are fully c"
+  }
+ ],
+ "theme": {
+  "key": "#7BC943",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "pentavite",
+  "multivitamin"
+ ],
+ "keywords": [
+  "3",
+  "12",
+  "vitamin",
+  "chewable",
+  "halal",
+  "candy",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "umur"
+   ],
+   "to": [
+    "*",
+    "ok"
+   ],
+   "text": "UMUR 3 TAHUN KE ATAS",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "macam"
+   ],
+   "to": [
+    "*",
+    "dia"
+   ],
+   "text": "MACAM MAKAN CANDY",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "halal"
+   ],
+   "to": [
+    "*",
+    "ok,#3"
+   ],
+   "text": "HALAL",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "dial",
+   "from": [
+    "*",
+    "12"
+   ],
+   "to": [
+    "*",
+    "ok.#2"
+   ],
+   "n": 12,
+   "label": "ESSENTIAL VITAMIN",
+   "x": 540,
+   "y": 330
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA PROMO",
+   "sub": "BORONG 3 BOTOL",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#7BC943",
+  "bg": "rgba(20,45,10,.88)",
+  "ink": "#FFFFFF",
+  "dark": "#14300A",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
