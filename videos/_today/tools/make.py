@@ -22,15 +22,21 @@ FIX = {"bag": "beg", "back": "beg", "bagi": "beg", "baik": "beg", "backcone": "b
 DROPW = {"aa", "eh", "hmm", "err"}
 
 
+CUR = {}   # per-spec source override: {"src", "wl", "vad"} (paths relative to videos/)
+
+
 def vad():
-    return [tuple(map(float, l.strip().split("-"))) for l in (T / ".media/vad.txt").read_text().splitlines() if l.strip()]
+    f = (T.parent / CUR["vad"]) if CUR.get("vad") else (T / ".media/vad.txt")
+    return [tuple(map(float, l.strip().split("-"))) for l in f.read_text().splitlines() if l.strip()]
 
 
 def words(extra=None):
     fx = dict(FIX, **(extra or {}))
     out = []
-    for name, lo, hi in ((".media/wl-120947.txt", 0, 1430), (".media/wl-late.txt", 1430, 1e9)):
-        for line in (T / name).read_text().splitlines():
+    files = [(T.parent / f, lo, hi) for f, lo, hi in CUR["wl"]] if CUR.get("wl") else \
+            [(T / ".media/wl-120947.txt", 0, 1430), (T / ".media/wl-late.txt", 1430, 1e9)]
+    for name, lo, hi in files:
+        for line in name.read_text().splitlines():
             if line.startswith("#"):
                 continue
             for w, s, e in re.findall(r'(\S+?)\[([\d.]+)-([\d.]+)\]', line):
@@ -103,7 +109,11 @@ def run(*a): subprocess.run(a, check=True)
 
 
 def main(key, media=True):
+    global SRC
     spec = SPECS[key]
+    CUR.clear(); CUR.update({k: spec[k] for k in ("src", "wl", "vad") if k in spec})
+    if spec.get("src"):
+        SRC = T.parent / spec["src"]
     P = T.parent / spec["slug"]
     if not (P / "tools/kb2.py").exists():   # gen_ai.py may have created the folder (photos only) first
         shutil.copytree(T / "tpl", P, dirs_exist_ok=True)
