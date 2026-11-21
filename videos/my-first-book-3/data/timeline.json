@@ -1,0 +1,357 @@
+{
+ "pieces": [
+  [
+   13.24,
+   27.1
+  ],
+  [
+   27.84,
+   29.53
+  ],
+  [
+   29.54,
+   30.16
+  ],
+  [
+   54.9,
+   63.07
+  ],
+  [
+   65.14,
+   73.69
+  ],
+  [
+   73.9,
+   74.7
+  ],
+  [
+   76.32,
+   77.34
+  ],
+  [
+   77.38,
+   83.96
+  ],
+  [
+   84.84,
+   87.26
+  ],
+  [
+   87.74,
+   92.16
+  ],
+  [
+   110.55,
+   115.07
+  ],
+  [
+   115.12,
+   123.84
+  ],
+  [
+   124.0,
+   129.02
+  ],
+  [
+   129.04,
+   131.36
+  ],
+  [
+   132.58,
+   141.92
+  ],
+  [
+   142.12,
+   144.38
+  ],
+  [
+   144.56,
+   149.36
+  ],
+  [
+   149.84,
+   150.9
+  ],
+  [
+   165.32,
+   170.01
+  ],
+  [
+   189.77,
+   200.57
+  ],
+  [
+   201.22,
+   202.24
+  ],
+  [
+   202.5,
+   205.12
+  ],
+  [
+   205.28,
+   206.3
+  ],
+  [
+   240.48,
+   250.01
+  ],
+  [
+   250.02,
+   263.2
+  ]
+ ],
+ "total": 129.03,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    13.24,
+    27.1
+   ],
+   "e0": 0.0,
+   "e1": 13.86,
+   "text": "Ok. Mari kita explore lagi. Kita tunjuk dulu dekat, dekat ni. Dekat, apa? Ibu ayah ada kat luar sana. Apa lagi ada? Ok, mari mengenal kenderaan. Ok, try. Tekan button power dulu. Apa, power button. Power button tu."
+  },
+  {
+   "id": "S2",
+   "src": [
+    27.84,
+    29.53
+   ],
+   "e0": 13.86,
+   "e1": 15.55,
+   "text": "Haa, kenderaan. Ok."
+  },
+  {
+   "id": "S3",
+   "src": [
+    29.54,
+    30.16
+   ],
+   "e0": 15.55,
+   "e1": 16.17,
+   "text": "Ok."
+  },
+  {
+   "id": "S4",
+   "src": [
+    54.9,
+    63.07
+   ],
+   "e0": 16.17,
+   "e1": 24.34,
+   "text": "Kalau ada anak. Haa, apa. Ada umur lima. Satu tahun. Haa, so boleh gunalah. Haa. Orang kata."
+  },
+  {
+   "id": "S5",
+   "src": [
+    65.14,
+    73.69
+   ],
+   "e0": 24.34,
+   "e1": 32.89,
+   "text": "Manafahan tu bukan untuk. Untuk. Haa, seorang saja. Haa, boleh. Kan, sebab aku suka aku daripada Newborn sampai enam tahun sesuai. InsyaAllah."
+  },
+  {
+   "id": "S6",
+   "src": [
+    73.9,
+    74.7
+   ],
+   "e0": 32.89,
+   "e1": 33.69,
+   "text": "Ok."
+  },
+  {
+   "id": "S7",
+   "src": [
+    76.32,
+    77.34
+   ],
+   "e0": 33.69,
+   "e1": 34.71,
+   "text": "Haa."
+  },
+  {
+   "id": "S8",
+   "src": [
+    77.38,
+    83.96
+   ],
+   "e0": 34.71,
+   "e1": 41.29,
+   "text": "Dan juga ada alif-ba-ta tau. alif-ba-ta pun ada. Nak kenal huruf alif-ba-ta. Ada je, Fatima? Lai. Ok."
+  },
+  {
+   "id": "S9",
+   "src": [
+    84.84,
+    87.26
+   ],
+   "e0": 41.29,
+   "e1": 43.71,
+   "text": "kenal ni dulu. Kenal ni dulu."
+  },
+  {
+   "id": "S10",
+   "src": [
+    87.74,
+    92.16
+   ],
+   "e0": 43.71,
+   "e1": 48.13,
+   "text": "Mari belajar. Haa. Haa, ok. Haa, pilih."
+  },
+  {
+   "id": "S11",
+   "src": [
+    110.55,
+    115.07
+   ],
+   "e0": 48.13,
+   "e1": 52.65,
+   "text": "Ok. So, alif ba-ta ada. Mengenal warna ada. Ok, ni warna."
+  },
+  {
+   "id": "S12",
+   "src": [
+    115.12,
+    123.84
+   ],
+   "e0": 52.65,
+   "e1": 61.37,
+   "text": "Ok. Lepas tu ada. Mau, kiri tambah. Kira tambah tolak pada Fatima. Haa, nombor. Ok. Fatima dah kenal nombor belum?"
+  },
+  {
+   "id": "S13",
+   "src": [
+    124.0,
+    129.02
+   ],
+   "e0": 61.37,
+   "e1": 66.39,
+   "text": "1, 2, 3. Kan? Haa. So, nanti Fatima belajar tambah."
+  },
+  {
+   "id": "S14",
+   "src": [
+    129.04,
+    131.36
+   ],
+   "e0": 66.39,
+   "e1": 68.71,
+   "text": "Haa, boleh juga ni. Tambah kat sini. Ok."
+  },
+  {
+   "id": "S15",
+   "src": [
+    132.58,
+    141.92
+   ],
+   "e0": 68.71,
+   "e1": 78.05,
+   "text": "30, wow. Ok. Animal ada, ada haiwan. Ok. Nak kenal haiwan boleh, apa, ada kuis padankan haiwan tu."
+  },
+  {
+   "id": "S16",
+   "src": [
+    142.12,
+    144.38
+   ],
+   "e0": 78.05,
+   "e1": 80.31,
+   "text": "Haa, ada haiwan dengan anak dia."
+  },
+  {
+   "id": "S17",
+   "src": [
+    144.56,
+    149.36
+   ],
+   "e0": 80.31,
+   "e1": 85.11,
+   "text": "Haa, lagu pun ada. Ok, jom kita dengar lagu. Ok. Ok."
+  },
+  {
+   "id": "S18",
+   "src": [
+    149.84,
+    150.9
+   ],
+   "e0": 85.11,
+   "e1": 86.17,
+   "text": "Ok."
+  },
+  {
+   "id": "S19",
+   "src": [
+    165.32,
+    170.01
+   ],
+   "e0": 86.17,
+   "e1": 90.86,
+   "text": "ada juga ucapan Islamik kat sini. Subhanallah, Alhamdulillah."
+  },
+  {
+   "id": "S20",
+   "src": [
+    189.77,
+    200.57
+   ],
+   "e0": 90.86,
+   "e1": 101.66,
+   "text": "Haa, dah. Cikgu? Bila nak start balik dah dengan tekan music ni kan. Bila nak stop dia, boleh tekan mana-mana button kat sini. Belajar sifat Allah pun ada."
+  },
+  {
+   "id": "S21",
+   "src": [
+    201.22,
+    202.24
+   ],
+   "e0": 101.66,
+   "e1": 102.68,
+   "text": "Haa."
+  },
+  {
+   "id": "S22",
+   "src": [
+    202.5,
+    205.12
+   ],
+   "e0": 102.68,
+   "e1": 105.3,
+   "text": "Kenal 10 malaikat. Ok, tu kan? 10 malaikat."
+  },
+  {
+   "id": "S23",
+   "src": [
+    205.28,
+    206.3
+   ],
+   "e0": 105.3,
+   "e1": 106.32,
+   "text": "Haa."
+  },
+  {
+   "id": "S24",
+   "src": [
+    240.48,
+    250.01
+   ],
+   "e0": 106.32,
+   "e1": 115.85,
+   "text": "Haa. Haa. Haa, insyaAllah. Lagi, ada jodatan Nabi Muhammad SAW. MasyaAllah. Haa. Kenali 10 mukjizat. Haa."
+  },
+  {
+   "id": "S25",
+   "src": [
+    250.02,
+    263.2
+   ],
+   "e0": 115.85,
+   "e1": 129.03,
+   "text": "belajar rukun solat. Oh, MasyaAllah memang sangat terbaik buku ni. boy lah. Jangan risau. Beli dekat beg kuning ni. InsyaAllah, harga pun berbaloi. Sementara saya tengah buat promosi, boleh. Okey, belikan sekarang untuk anak-anak yang tersayang."
+  }
+ ]
+}

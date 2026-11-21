@@ -1,0 +1,492 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#3E0F6B",
+  "hot": "#FF5FB0"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "My First Book #3 — from VID_20261121 150449 166-436.6 0.0-270.617 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: his daughter / the book's voice repeating letters and words (unclear in the recording: 'A A J', 'van, you play', the hijaiyah drill, 'mari mengenal malaikat'); 'abang sejak lagi' (to his son); 'kau takkan pakai jari', 'jangan tengok rumah, topan sikit sayang', 'hati-hati, explore' (to the children); fumbling for the power button. Pieces: 25, total 129.03 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 13.86,
+   "text": "Ok. Mari kita explore lagi. Kita tunjuk dulu dekat, dekat ni. Dekat, apa? Ibu ayah ada kat luar sana. Apa lagi ada? Ok, mari mengenal kenderaan. Ok, try. Tekan button power dulu. Apa, power button. Power button tu.",
+   "note": "src 13.24-27.10",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 13.86,
+   "out": 15.55,
+   "text": "Haa, kenderaan. Ok.",
+   "note": "src 27.84-29.53",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 15.55,
+   "out": 16.17,
+   "text": "Ok.",
+   "note": "src 29.54-30.16",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 16.17,
+   "out": 24.34,
+   "text": "Kalau ada anak. Haa, apa. Ada umur lima. Satu tahun. Haa, so boleh gunalah. Haa. Orang kata.",
+   "note": "src 54.90-63.07",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 24.34,
+   "out": 32.89,
+   "text": "Manafahan tu bukan untuk. Untuk. Haa, seorang saja. Haa, boleh. Kan, sebab aku suka aku daripada Newborn sampai enam tahun sesuai. InsyaAllah.",
+   "note": "src 65.14-73.69",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 32.89,
+   "out": 33.69,
+   "text": "Ok.",
+   "note": "src 73.90-74.70",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 33.69,
+   "out": 34.71,
+   "text": "Haa.",
+   "note": "src 76.32-77.34",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 34.71,
+   "out": 41.29,
+   "text": "Dan juga ada alif-ba-ta tau. alif-ba-ta pun ada. Nak kenal huruf alif-ba-ta. Ada je, Fatima? Lai. Ok.",
+   "note": "src 77.38-83.96",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 41.29,
+   "out": 43.71,
+   "text": "kenal ni dulu. Kenal ni dulu.",
+   "note": "src 84.84-87.26",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 43.71,
+   "out": 48.13,
+   "text": "Mari belajar. Haa. Haa, ok. Haa, pilih.",
+   "note": "src 87.74-92.16",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 48.13,
+   "out": 52.65,
+   "text": "Ok. So, alif ba-ta ada. Mengenal warna ada. Ok, ni warna.",
+   "note": "src 110.55-115.07",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 52.65,
+   "out": 61.37,
+   "text": "Ok. Lepas tu ada. Mau, kiri tambah. Kira tambah tolak pada Fatima. Haa, nombor. Ok. Fatima dah kenal nombor belum?",
+   "note": "src 115.12-123.84",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 61.37,
+   "out": 66.39,
+   "text": "1, 2, 3. Kan? Haa. So, nanti Fatima belajar tambah.",
+   "note": "src 124.00-129.02",
+   "zoom": 1.0
+  },
+  {
+   "id": "S14",
+   "in": 66.39,
+   "out": 68.71,
+   "text": "Haa, boleh juga ni. Tambah kat sini. Ok.",
+   "note": "src 129.04-131.36",
+   "zoom": 1.06
+  },
+  {
+   "id": "S15",
+   "in": 68.71,
+   "out": 78.05,
+   "text": "30, wow. Ok. Animal ada, ada haiwan. Ok. Nak kenal haiwan boleh, apa, ada kuis padankan haiwan tu.",
+   "note": "src 132.58-141.92",
+   "zoom": 1.0
+  },
+  {
+   "id": "S16",
+   "in": 78.05,
+   "out": 80.31,
+   "text": "Haa, ada haiwan dengan anak dia.",
+   "note": "src 142.12-144.38",
+   "zoom": 1.06
+  },
+  {
+   "id": "S17",
+   "in": 80.31,
+   "out": 85.11,
+   "text": "Haa, lagu pun ada. Ok, jom kita dengar lagu. Ok. Ok.",
+   "note": "src 144.56-149.36",
+   "zoom": 1.0
+  },
+  {
+   "id": "S18",
+   "in": 85.11,
+   "out": 86.17,
+   "text": "Ok.",
+   "note": "src 149.84-150.90",
+   "zoom": 1.06
+  },
+  {
+   "id": "S19",
+   "in": 86.17,
+   "out": 90.86,
+   "text": "ada juga ucapan Islamik kat sini. Subhanallah, Alhamdulillah.",
+   "note": "src 165.32-170.01",
+   "zoom": 1.0
+  },
+  {
+   "id": "S20",
+   "in": 90.86,
+   "out": 101.66,
+   "text": "Haa, dah. Cikgu? Bila nak start balik dah dengan tekan music ni kan. Bila nak stop dia, boleh tekan mana-mana button kat sini. Belajar sifat Allah pun ada.",
+   "note": "src 189.77-200.57",
+   "zoom": 1.06
+  },
+  {
+   "id": "S21",
+   "in": 101.66,
+   "out": 102.68,
+   "text": "Haa.",
+   "note": "src 201.22-202.24",
+   "zoom": 1.0
+  },
+  {
+   "id": "S22",
+   "in": 102.68,
+   "out": 105.3,
+   "text": "Kenal 10 malaikat. Ok, tu kan? 10 malaikat.",
+   "note": "src 202.50-205.12",
+   "zoom": 1.06
+  },
+  {
+   "id": "S23",
+   "in": 105.3,
+   "out": 106.32,
+   "text": "Haa.",
+   "note": "src 205.28-206.30",
+   "zoom": 1.0
+  },
+  {
+   "id": "S24",
+   "in": 106.32,
+   "out": 115.85,
+   "text": "Haa. Haa. Haa, insyaAllah. Lagi, ada jodatan Nabi Muhammad SAW. MasyaAllah. Haa. Kenali 10 mukjizat. Haa.",
+   "note": "src 240.48-250.01",
+   "zoom": 1.06
+  },
+  {
+   "id": "S25",
+   "in": 115.85,
+   "out": 129.03,
+   "text": "belajar rukun solat. Oh, MasyaAllah memang sangat terbaik buku ni. boy lah. Jangan risau. Beli dekat beg kuning ni. InsyaAllah, harga pun berbaloi. Sementara saya tengah buat promosi, boleh. Okey, belikan sekarang untuk anak-anak yang tersayang.",
+   "note": "src 250.02-263.20",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "BELAJAR SAMBIL MAIN",
+   "hi": [
+    "MAIN"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "ni.#1"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [],
+ "theme": {
+  "key": "#FF5FB0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "my",
+  "first",
+  "book"
+ ],
+ "keywords": [
+  "kenderaan",
+  "hijaiyah",
+  "warna",
+  "nombor",
+  "haiwan",
+  "lagu",
+  "malaikat",
+  "solat",
+  "promosi"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "mari#2"
+   ],
+   "to": [
+    "*",
+    "Haa,#1"
+   ],
+   "text": "MENGENAL KENDERAAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Newborn#1"
+   ],
+   "to": [
+    "*",
+    "Ok.#6"
+   ],
+   "text": "NEWBORN - 6 TAHUN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "Dan#1"
+   ],
+   "to": [
+    "*",
+    "Lepas#1"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "ALIF BA TA",
+     "at": [
+      "*",
+      "alif-ba-ta#1"
+     ]
+    },
+    {
+     "text": "MENGENAL WARNA",
+     "at": [
+      "*",
+      "Mengenal#2"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "Kira#1"
+   ],
+   "to": [
+    "*",
+    "Animal#1"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "TAMBAH & TOLAK",
+     "at": [
+      "*",
+      "Kira#1"
+     ]
+    },
+    {
+     "text": "NOMBOR",
+     "at": [
+      "*",
+      "nombor.#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "Animal#1"
+   ],
+   "to": [
+    "*",
+    "ada#16"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "HAIWAN",
+     "at": [
+      "*",
+      "Animal#1"
+     ]
+    },
+    {
+     "text": "KUIS PADANKAN",
+     "at": [
+      "*",
+      "padankan#1"
+     ]
+    },
+    {
+     "text": "LAGU",
+     "at": [
+      "*",
+      "lagu#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "ucapan#1"
+   ],
+   "to": [
+    "*",
+    "Bila#1"
+   ],
+   "text": "UCAPAN ISLAMIK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "Belajar#3"
+   ],
+   "to": [
+    "*",
+    "Oh,#1"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "SIFAT ALLAH",
+     "at": [
+      "*",
+      "sifat#1"
+     ]
+    },
+    {
+     "text": "10 MALAIKAT",
+     "at": [
+      "*",
+      "Kenal#6"
+     ]
+    },
+    {
+     "text": "NABI MUHAMMAD SAW",
+     "at": [
+      "*",
+      "Nabi#1"
+     ]
+    },
+    {
+     "text": "10 MUKJIZAT",
+     "at": [
+      "*",
+      "Kenali#1"
+     ]
+    },
+    {
+     "text": "RUKUN SOLAT",
+     "at": [
+      "*",
+      "rukun#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA BERBALOI",
+   "sub": "BELI DI BEG KUNING",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#FF5FB0",
+  "bg": "rgba(62,15,107,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#3E0F6B",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

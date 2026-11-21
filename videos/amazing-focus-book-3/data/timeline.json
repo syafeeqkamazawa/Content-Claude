@@ -1,0 +1,49 @@
+{
+ "pieces": [
+  [
+   6.12,
+   9.13
+  ],
+  [
+   10.01,
+   20.01
+  ],
+  [
+   20.66,
+   40.24
+  ]
+ ],
+ "total": 32.59,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    6.12,
+    9.13
+   ],
+   "e0": 0.0,
+   "e1": 3.01,
+   "text": "So guys, buku ni memang sangat best"
+  },
+  {
+   "id": "S2",
+   "src": [
+    10.01,
+    20.01
+   ],
+   "e0": 3.01,
+   "e1": 13.01,
+   "text": "Juga bina bonding Ibu ayah dengan anak-anak Okay, sama-sama Fikir pun best juga Kadang-kadang bukan anak je pening Bapak dia pun pening juga"
+  },
+  {
+   "id": "S3",
+   "src": [
+    20.66,
+    40.24
+   ],
+   "e0": 13.01,
+   "e1": 32.59,
+   "text": "So, boleh Orang kata tambahkan kualiti masa Tengah keluarga insyaAllah Okay, so Dapatkan di beg ni insyaAllah Sangat bagus untuk anak-anak kita Dan juga Untuk sesi Untuk keluarga tu sendiri Sangat bagus insyaAllah Okay Boleh bina di beg ni sementara harga masih ada promosi"
+  }
+ ]
+}

@@ -1,0 +1,216 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#3E0F6B",
+  "hot": "#FF5FB0"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "My First Book #2 — from VID_20261121 150449 0-166 0.0-166.017 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the 'ok, ok' before he starts; the first 'dia sediakan pen dengan marker' (he repeats it after fetching the marker) and the aside while fetching it; 'Kadi Ma, yang tu' / 'tutup TV' (to the children); the unclear 'tepang keling' repeats; 'haa haa' while his daughter presses the page. Pieces: 17, total 91.16 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 6.99,
+   "text": "Assalamualaikum, Ibu Ayah. Yang ada anak kosong, kosong. Yang ada anak daripada newborn sampai 6",
+   "note": "src 4.96-11.95",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 6.99,
+   "out": 27.8,
+   "text": "tahun. Ini buku ni, MasyaAllah. Yang belum beli, belilah untuk anak-anak. Kosong hingga 6 tahun. Sangat recommended lah. Ok, apa tu collab antara Mami Hana dengan Nilofa dan Bilal. Anak dia, MasyaAllah. Jadi kosong hingga 6 tahun, kita boleh bagi dia orang guna buku ni. Ok,",
+   "note": "src 11.99-32.80",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 27.8,
+   "out": 37.64,
+   "text": "Ok, so dia sediakan sekali marker dengan pen macam ni. So ada pemadam sekali lah. Ok, so anak-anak kita boleh gunakan buku ni. Ok, so boleh",
+   "note": "src 47.98-57.82",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 37.64,
+   "out": 43.02,
+   "text": "Assalamualaikum. Nama saya Mami Hana. Saya Umi Bilal. Tutup",
+   "note": "src 60.92-66.30",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 43.02,
+   "out": 48.09,
+   "text": "So, ok guys. Ok, kita tengok cara nak guna ni mudah sahaja. Ok, tekan keling.",
+   "note": "src 93.82-98.89",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 48.09,
+   "out": 56.5,
+   "text": "Ok, guys. Buku ni sangat senang untuk anak-anak kita guna. Ok, so saya akan tunjukkan kepada ibu ayah. Ok, cara guna ni senang sahaja. Tekan button power.",
+   "note": "src 103.28-111.69",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 56.5,
+   "out": 63.04,
+   "text": "Assalamualaikum. Nama saya Mami Hana. Saya Umi Bilal. Saya Umi Bilal. Apa?",
+   "note": "src 111.96-118.50",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 63.04,
+   "out": 67.87,
+   "text": "Tepang. Ok, tekan. Dekat tempat button, ada power button tu. Tepang tu.",
+   "note": "src 128.56-133.39",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 67.87,
+   "out": 70.97,
+   "text": "Mari mengenal A, B, C. Haa.",
+   "note": "src 133.66-136.76",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 70.97,
+   "out": 71.59,
+   "text": "Ok.",
+   "note": "src 137.06-137.68",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 71.59,
+   "out": 72.71,
+   "text": "Ok.",
+   "note": "src 138.00-139.12",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 72.71,
+   "out": 73.83,
+   "text": "Ok.",
+   "note": "src 142.78-143.90",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 73.83,
+   "out": 74.81,
+   "text": "Ok, seterusnya.",
+   "note": "src 143.94-144.92",
+   "zoom": 1.0
+  },
+  {
+   "id": "S14",
+   "in": 74.81,
+   "out": 75.93,
+   "text": "B.",
+   "note": "src 146.50-147.62",
+   "zoom": 1.06
+  },
+  {
+   "id": "S15",
+   "in": 75.93,
+   "out": 77.05,
+   "text": "Ok.",
+   "note": "src 148.30-149.42",
+   "zoom": 1.0
+  },
+  {
+   "id": "S16",
+   "in": 77.05,
+   "out": 84.75,
+   "text": "Ok, macam nak saya sekarang ni lima tahun, dia dah boleh kuasai lah. Fatima dah tahu kan. Ok, sampai Z kan.",
+   "note": "src 149.66-157.36",
+   "zoom": 1.06
+  },
+  {
+   "id": "S17",
+   "in": 84.75,
+   "out": 91.16,
+   "text": "Tak rasa kan? Ok. So boleh, Fatima. Fatima explore dulu, ok.",
+   "note": "src 158.82-165.23",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "BUKU BERCAKAP 0-6 TAHUN",
+   "hi": [
+    "0-6"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "@",
+    3.5
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [],
+ "theme": {
+  "key": "#FF5FB0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "my",
+  "first",
+  "book"
+ ],
+ "keywords": [
+  "newborn",
+  "6",
+  "tahun",
+  "pen",
+  "pemadam",
+  "senang",
+  "ABC"
+ ],
+ "fx": [],
+ "pal": {
+  "key": "#FF5FB0",
+  "bg": "rgba(62,15,107,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#3E0F6B",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

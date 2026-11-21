@@ -1,0 +1,245 @@
+{
+ "pieces": [
+  [
+   4.96,
+   11.95
+  ],
+  [
+   11.99,
+   32.8
+  ],
+  [
+   47.98,
+   57.82
+  ],
+  [
+   60.92,
+   66.3
+  ],
+  [
+   93.82,
+   98.89
+  ],
+  [
+   103.28,
+   111.69
+  ],
+  [
+   111.96,
+   118.5
+  ],
+  [
+   128.56,
+   133.39
+  ],
+  [
+   133.66,
+   136.76
+  ],
+  [
+   137.06,
+   137.68
+  ],
+  [
+   138.0,
+   139.12
+  ],
+  [
+   142.78,
+   143.9
+  ],
+  [
+   143.94,
+   144.92
+  ],
+  [
+   146.5,
+   147.62
+  ],
+  [
+   148.3,
+   149.42
+  ],
+  [
+   149.66,
+   157.36
+  ],
+  [
+   158.82,
+   165.23
+  ]
+ ],
+ "total": 91.16,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    4.96,
+    11.95
+   ],
+   "e0": 0.0,
+   "e1": 6.99,
+   "text": "Assalamualaikum, Ibu Ayah. Yang ada anak kosong, kosong. Yang ada anak daripada newborn sampai 6"
+  },
+  {
+   "id": "S2",
+   "src": [
+    11.99,
+    32.8
+   ],
+   "e0": 6.99,
+   "e1": 27.8,
+   "text": "tahun. Ini buku ni, MasyaAllah. Yang belum beli, belilah untuk anak-anak. Kosong hingga 6 tahun. Sangat recommended lah. Ok, apa tu collab antara Mami Hana dengan Nilofa dan Bilal. Anak dia, MasyaAllah. Jadi kosong hingga 6 tahun, kita boleh bagi dia orang guna buku ni. Ok,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    47.98,
+    57.82
+   ],
+   "e0": 27.8,
+   "e1": 37.64,
+   "text": "Ok, so dia sediakan sekali marker dengan pen macam ni. So ada pemadam sekali lah. Ok, so anak-anak kita boleh gunakan buku ni. Ok, so boleh"
+  },
+  {
+   "id": "S4",
+   "src": [
+    60.92,
+    66.3
+   ],
+   "e0": 37.64,
+   "e1": 43.02,
+   "text": "Assalamualaikum. Nama saya Mami Hana. Saya Umi Bilal. Tutup"
+  },
+  {
+   "id": "S5",
+   "src": [
+    93.82,
+    98.89
+   ],
+   "e0": 43.02,
+   "e1": 48.09,
+   "text": "So, ok guys. Ok, kita tengok cara nak guna ni mudah sahaja. Ok, tekan keling."
+  },
+  {
+   "id": "S6",
+   "src": [
+    103.28,
+    111.69
+   ],
+   "e0": 48.09,
+   "e1": 56.5,
+   "text": "Ok, guys. Buku ni sangat senang untuk anak-anak kita guna. Ok, so saya akan tunjukkan kepada ibu ayah. Ok, cara guna ni senang sahaja. Tekan button power."
+  },
+  {
+   "id": "S7",
+   "src": [
+    111.96,
+    118.5
+   ],
+   "e0": 56.5,
+   "e1": 63.04,
+   "text": "Assalamualaikum. Nama saya Mami Hana. Saya Umi Bilal. Saya Umi Bilal. Apa?"
+  },
+  {
+   "id": "S8",
+   "src": [
+    128.56,
+    133.39
+   ],
+   "e0": 63.04,
+   "e1": 67.87,
+   "text": "Tepang. Ok, tekan. Dekat tempat button, ada power button tu. Tepang tu."
+  },
+  {
+   "id": "S9",
+   "src": [
+    133.66,
+    136.76
+   ],
+   "e0": 67.87,
+   "e1": 70.97,
+   "text": "Mari mengenal A, B, C. Haa."
+  },
+  {
+   "id": "S10",
+   "src": [
+    137.06,
+    137.68
+   ],
+   "e0": 70.97,
+   "e1": 71.59,
+   "text": "Ok."
+  },
+  {
+   "id": "S11",
+   "src": [
+    138.0,
+    139.12
+   ],
+   "e0": 71.59,
+   "e1": 72.71,
+   "text": "Ok."
+  },
+  {
+   "id": "S12",
+   "src": [
+    142.78,
+    143.9
+   ],
+   "e0": 72.71,
+   "e1": 73.83,
+   "text": "Ok."
+  },
+  {
+   "id": "S13",
+   "src": [
+    143.94,
+    144.92
+   ],
+   "e0": 73.83,
+   "e1": 74.81,
+   "text": "Ok, seterusnya."
+  },
+  {
+   "id": "S14",
+   "src": [
+    146.5,
+    147.62
+   ],
+   "e0": 74.81,
+   "e1": 75.93,
+   "text": "B."
+  },
+  {
+   "id": "S15",
+   "src": [
+    148.3,
+    149.42
+   ],
+   "e0": 75.93,
+   "e1": 77.05,
+   "text": "Ok."
+  },
+  {
+   "id": "S16",
+   "src": [
+    149.66,
+    157.36
+   ],
+   "e0": 77.05,
+   "e1": 84.75,
+   "text": "Ok, macam nak saya sekarang ni lima tahun, dia dah boleh kuasai lah. Fatima dah tahu kan. Ok, sampai Z kan."
+  },
+  {
+   "id": "S17",
+   "src": [
+    158.82,
+    165.23
+   ],
+   "e0": 84.75,
+   "e1": 91.16,
+   "text": "Tak rasa kan? Ok. So boleh, Fatima. Fatima explore dulu, ok."
+  }
+ ]
+}
