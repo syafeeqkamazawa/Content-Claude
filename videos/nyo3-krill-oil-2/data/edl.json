@@ -1,0 +1,327 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#081846",
+  "hot": "#E8302A"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "NYO3 Krill Oil #2 — from VID_20261121_120947 872.9-933.0 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the two false starts 'yang ada masalah, okay' and 'krill oil daripada NYO3 ni bukan sekadar, okay' (853-873). Pieces: 7, total 58.17 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 2.48,
+   "text": "Krill Oil daripada, Antarctic,",
+   "note": "src 872.76-875.24",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 2.48,
+   "out": 6.25,
+   "text": "Antarctic, Krill Oil daripada NYO3 ni, bukan,",
+   "note": "src 875.54-879.31",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 6.25,
+   "out": 9.05,
+   "text": "minyak biasa-biasa tau. Dia adalah,",
+   "note": "src 879.36-882.16",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 9.05,
+   "out": 16.97,
+   "text": "minyak yang, ada omega 3, ada EPA, ada DHA sekali dalam ni, ya, memang sangat-sangat,",
+   "note": "src 882.24-890.16",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 16.97,
+   "out": 27.2,
+   "text": "berfasiat. Okay, apa? EPA, DHA, omega 3 ni. ni, ni EPA untuk kita punya jantung kita. Yang mana ada rasa kemas-kemas, lengur-lengur, cepat penat,",
+   "note": "src 890.36-900.59",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 27.2,
+   "out": 34.75,
+   "text": "EPA insyaAllah. DHA, bantu mata dengan, kita punya otak kita, supaya, lebih cerdas, lebih fokus insyaAllah. Okay,",
+   "note": "src 900.94-908.49",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 34.75,
+   "out": 58.17,
+   "text": "tak perlu dilagukan lagi lah, NYO3 ni, tengok je lah, beg tu memang feedback, memang ribu-ribu dah. Okay, ada semua, HACCP, GMP, semua ada insyaAllah. Okay, dan jangan risau, memang trusted brand insyaAllah. Okay, seller tengah buat harga murah tu, jangan tunggu tunggu lagi. Okay, sementara, harga tengah murah dekat beg tu, boleh beli 2-3 botol terus. Okay, check out sekarang.",
+   "note": "src 909.88-933.30",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "NYO3 ANTARCTIC KRILL OIL",
+   "hi": [
+    "KRILL"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "dia"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 92
+  }
+ ],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "dia"
+   ],
+   "to": [
+    "*",
+    "okay,"
+   ],
+   "src": 3.4,
+   "note": "the bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "haccp,"
+   ],
+   "to": [
+    "*",
+    "okay,#4"
+   ],
+   "src": 43.4,
+   "note": "the bottle held up",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "boleh"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 56.8,
+   "note": "the bottle",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "antarctic,"
+   ],
+   "to": [
+    "*",
+    "bukan"
+   ],
+   "note": "AI: The icy blue Antarctic ocean with floating icebergs and swarms of tiny red krill in clear "
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "lengur-lengur,"
+   ],
+   "to": [
+    "*",
+    "dha,#2"
+   ],
+   "note": "AI: A tired Malaysian man holding his stiff aching neck while working late at a desk. The man "
+  }
+ ],
+ "theme": {
+  "key": "#E8302A",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "krill",
+  "nyo3",
+  "antarctic"
+ ],
+ "keywords": [
+  "omega",
+  "epa",
+  "dha",
+  "jantung",
+  "otak",
+  "haccp",
+  "gmp",
+  "murah"
+ ],
+ "fx": [
+  {
+   "type": "tags",
+   "from": [
+    "*",
+    "omega"
+   ],
+   "to": [
+    "*",
+    "ya,"
+   ],
+   "y": 140,
+   "cols": 1,
+   "x0": 60,
+   "dx": 0,
+   "items": [
+    {
+     "text": "OMEGA-3",
+     "at": [
+      "*",
+      "omega"
+     ]
+    },
+    {
+     "text": "EPA",
+     "at": [
+      "*",
+      "epa,"
+     ]
+    },
+    {
+     "text": "DHA",
+     "at": [
+      "*",
+      "dha"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "epa#3"
+   ],
+   "to": [
+    "*",
+    "dha,#2"
+   ],
+   "text": "EPA: JANTUNG",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "dha,#2"
+   ],
+   "to": [
+    "*",
+    "okay,#2"
+   ],
+   "text": "DHA: MATA & OTAK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "feedback,"
+   ],
+   "to": [
+    "*",
+    "okay,#3"
+   ],
+   "text": "RIBU-RIBU FEEDBACK",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "haccp,"
+   ],
+   "to": [
+    "*",
+    "okay,#4"
+   ],
+   "text": "HACCP & GMP",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "HARGA MURAH",
+   "sub": "BELI 2 - 3 BOTOL",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#E8302A",
+  "bg": "rgba(8,24,70,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#081846",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
