@@ -1,0 +1,174 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#3E0F6B",
+  "hot": "#FF5FB0"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "My First Book Short #19 — from VID_20261121 150449 357.7-372.1, 404.3-412.7 (sound) over 143318 290-300, 196-208, 230-240 0.0-22.8 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 5, total 21.71 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 8.95,
+   "text": "Bila nak start balik dah dengan tekan music ni kan. Bila nak stop dia, boleh tekan mana-mana button kat sini. Belajar sifat Allah pun ada.",
+   "note": "src -0.08-8.87",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 8.95,
+   "out": 9.97,
+   "text": "Haa.",
+   "note": "src 9.52-10.54",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 9.97,
+   "out": 12.59,
+   "text": "Kenal 10 malaikat. Ok, tu kan? 10 malaikat.",
+   "note": "src 10.80-13.42",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 12.59,
+   "out": 15.19,
+   "text": "Haa. Malaikat Mikail",
+   "note": "src 13.58-16.18",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 15.19,
+   "out": 21.71,
+   "text": "Haa. Haa. Haa, insyaAllah. Lagi, ada biodata Nabi Muhammad SAW. MasyaAllah.",
+   "note": "src 16.58-23.10",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "SIFAT ALLAH & 10 MALAIKAT",
+   "hi": [
+    "MALAIKAT"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "Kenal#1"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Belajar#1"
+   ],
+   "to": [
+    "*",
+    "Kenal#1"
+   ],
+   "note": "AI: A Malaysian father in a baju melayu and songkok praying on a prayer mat with his young son"
+  }
+ ],
+ "theme": {
+  "key": "#FF5FB0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "my",
+  "first",
+  "book"
+ ],
+ "keywords": [
+  "sifat",
+  "malaikat",
+  "nabi",
+  "biodata"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Kenal#1"
+   ],
+   "to": [
+    "*",
+    "Lagi,#1"
+   ],
+   "text": "KENAL 10 MALAIKAT",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Lagi,#1"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "text": "BIODATA NABI MUHAMMAD SAW",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "MY FIRST BOOK",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#FF5FB0",
+  "bg": "rgba(62,15,107,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#3E0F6B",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

@@ -1,0 +1,63 @@
+{
+ "pieces": [
+  [
+   -0.02,
+   9.86
+  ],
+  [
+   10.12,
+   12.02
+  ],
+  [
+   13.36,
+   20.47
+  ],
+  [
+   20.52,
+   21.5
+  ]
+ ],
+ "total": 19.87,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.02,
+    9.86
+   ],
+   "e0": 0.0,
+   "e1": 9.88,
+   "text": "Dan juga ada alif-ba-ta tau. alif-ba-ta pun ada. Nak kenal huruf alif-ba-ta. Ada je, Fatima? Mari belajar. Haa. Haa, ok. Haa, pilih."
+  },
+  {
+   "id": "S2",
+   "src": [
+    10.12,
+    12.02
+   ],
+   "e0": 9.88,
+   "e1": 11.78,
+   "text": "Alif Arnab."
+  },
+  {
+   "id": "S3",
+   "src": [
+    13.36,
+    20.47
+   ],
+   "e0": 11.78,
+   "e1": 18.89,
+   "text": "Ba, peti. peti. Ok. So, alif ba-ta ada. Mengenal warna ada. Ok, ni warna."
+  },
+  {
+   "id": "S4",
+   "src": [
+    20.52,
+    21.5
+   ],
+   "e0": 18.89,
+   "e1": 19.87,
+   "text": "Ok."
+  }
+ ]
+}

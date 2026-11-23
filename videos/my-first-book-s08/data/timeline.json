@@ -1,0 +1,77 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   1.48
+  ],
+  [
+   1.8,
+   11.16
+  ],
+  [
+   11.6,
+   12.52
+  ],
+  [
+   13.48,
+   19.98
+  ],
+  [
+   21.24,
+   26.86
+  ]
+ ],
+ "total": 24.08,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    1.48
+   ],
+   "e0": 0.0,
+   "e1": 1.68,
+   "text": "Haa. Lepas."
+  },
+  {
+   "id": "S2",
+   "src": [
+    1.8,
+    11.16
+   ],
+   "e0": 1.68,
+   "e1": 11.04,
+   "text": "So, Masya Allah. Adik kena main mengenal-kenalan belajar menulis. Okey. Masya Allah. Adik. Ya, pun ada. Haa. Huruf hijaiyah"
+  },
+  {
+   "id": "S3",
+   "src": [
+    11.6,
+    12.52
+   ],
+   "e0": 11.04,
+   "e1": 11.96,
+   "text": "Tunggu kan?"
+  },
+  {
+   "id": "S4",
+   "src": [
+    13.48,
+    19.98
+   ],
+   "e0": 11.96,
+   "e1": 18.46,
+   "text": "Haa. Lepas sikit. Mari belajar huruf hijaiyah Haa. Alif Arnab."
+  },
+  {
+   "id": "S5",
+   "src": [
+    21.24,
+    26.86
+   ],
+   "e0": 18.46,
+   "e1": 24.08,
+   "text": "Ba. Peti. Haa. Televisyen. Haa."
+  }
+ ]
+}

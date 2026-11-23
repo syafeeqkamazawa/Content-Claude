@@ -1,0 +1,35 @@
+{
+ "pieces": [
+  [
+   0.04,
+   7.73
+  ],
+  [
+   8.06,
+   18.64
+  ]
+ ],
+ "total": 18.27,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.04,
+    7.73
+   ],
+   "e0": 0.0,
+   "e1": 7.69,
+   "text": "dia bagi sekali dengan pen dia untuk bunyi tu dengan ada dia punya marker dia ok"
+  },
+  {
+   "id": "S2",
+   "src": [
+    8.06,
+    18.64
+   ],
+   "e0": 7.69,
+   "e1": 18.27,
+   "text": "lepas tu tengok ni kan ada bateri lah ok buku dia masya Allah packaging dia sangat kemas sangat lawa packaging dia insyaAllah"
+  }
+ ]
+}

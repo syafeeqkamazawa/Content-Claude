@@ -1,0 +1,49 @@
+{
+ "pieces": [
+  [
+   0.13,
+   8.54
+  ],
+  [
+   8.81,
+   18.59
+  ],
+  [
+   18.86,
+   28.96
+  ]
+ ],
+ "total": 28.29,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.13,
+    8.54
+   ],
+   "e0": 0.0,
+   "e1": 8.41,
+   "text": "Ok, guys. Buku ni sangat senang untuk anak-anak kita guna. Ok, so saya akan tunjukkan kepada ibu ayah. Ok, cara guna ni senang sahaja. Tekan button power."
+  },
+  {
+   "id": "S2",
+   "src": [
+    8.81,
+    18.59
+   ],
+   "e0": 8.41,
+   "e1": 18.19,
+   "text": "Assalamualaikum. Nama saya Mami Hana. Saya Umi Bilal. Ok, tekan. Dekat tempat button, ada power button tu. tu."
+  },
+  {
+   "id": "S3",
+   "src": [
+    18.86,
+    28.96
+   ],
+   "e0": 18.19,
+   "e1": 28.29,
+   "text": "Mari mengenal A, B, C. Ok, macam nak saya sekarang ni lima tahun, dia dah boleh kuasai lah. Fatima dah tahu kan. Ok, sampai Z kan."
+  }
+ ]
+}

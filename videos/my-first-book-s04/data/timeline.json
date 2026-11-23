@@ -1,0 +1,49 @@
+{
+ "pieces": [
+  [
+   0.14,
+   2.6
+  ],
+  [
+   3.94,
+   12.11
+  ],
+  [
+   12.5,
+   22.48
+  ]
+ ],
+ "total": 20.61,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.14,
+    2.6
+   ],
+   "e0": 0.0,
+   "e1": 2.46,
+   "text": "Bismillah"
+  },
+  {
+   "id": "S2",
+   "src": [
+    3.94,
+    12.11
+   ],
+   "e0": 2.46,
+   "e1": 10.63,
+   "text": "InsyaAllah dia siap bagi sekali dengan importer notice satu bulan ada waranti so"
+  },
+  {
+   "id": "S3",
+   "src": [
+    12.5,
+    22.48
+   ],
+   "e0": 10.63,
+   "e1": 20.61,
+   "text": "seller yang bagus lah ada siap waranti kad. Kena login dekat sini untuk apply waranti dia MasyaAllah. Okay"
+  }
+ ]
+}

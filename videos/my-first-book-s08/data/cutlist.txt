@@ -1,0 +1,9 @@
+TOTAL 24.08s  (5 A-roll segments, 0 B-roll shots, 1 photos, 5 audio fx, 38 caption cards)
+
+  0.00-  1.68  S1  src   0.00-  1.68  (1 pc)  Haa. Lepas.
+  1.68- 11.05  S2  src   1.68- 11.04  (1 pc)  So, Masya Allah. Adik kena main mengenal-kenalan belajar menulis. Okey. Masya Allah. Adik. Ya, pun ada. Haa. Huruf hijaiyah
+ 11.05- 11.97  S3  src  11.04- 11.96  (1 pc)  Tunggu kan?
+ 11.97- 18.47  S4  src  11.96- 18.46  (1 pc)  Haa. Lepas sikit. Mari belajar huruf hijaiyah Haa. Alif Arnab.
+ 18.47- 24.08  S5  src  18.46- 24.08  (1 pc)  Ba. Peti. Haa. Televisyen. Haa.
+
+  cutaway   4.55-  7.45

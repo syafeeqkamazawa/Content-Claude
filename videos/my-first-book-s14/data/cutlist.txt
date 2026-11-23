@@ -1,0 +1,7 @@
+TOTAL 28.30s  (3 A-roll segments, 0 B-roll shots, 1 photos, 7 audio fx, 68 caption cards)
+
+  0.00-  8.42  S1  src   0.00-  8.41  (1 pc)  Ok, guys. Buku ni sangat senang untuk anak-anak kita guna. Ok, so saya akan tunjukkan kepada ibu ayah. Ok, cara guna ni senang sahaja. Tekan button power.
+  8.42- 18.20  S2  src   8.41- 18.19  (1 pc)  Assalamualaikum. Nama saya Mami Hana. Saya Umi Bilal. Ok, tekan. Dekat tempat button, ada power button tu.
+ 18.20- 28.30  S3  src  18.19- 28.29  (1 pc)  Mari mengenal A, B, C. Ok, macam anak saya sekarang ni lima tahun, dia dah boleh kuasai lah. Fatima dah tahu kan. Ok, sampai Z kan.
+
+  cutaway   3.23-  7.20

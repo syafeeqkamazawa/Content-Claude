@@ -1,0 +1,8 @@
+TOTAL 16.20s  (4 A-roll segments, 0 B-roll shots, 1 photos, 8 audio fx, 26 caption cards)
+
+  0.00-  3.87  S1  src   0.00-  3.87  (1 pc)  Okey, Masya Allah. Mari mengenal warna.
+  3.87-  6.98  S2  src   3.87-  6.99  (1 pc)  Oh, bunyi. Haiwan bunyi, Masya Allah.
+  6.98- 13.00  S3  src   6.99- 13.01  (1 pc)  Ekspresi muka, anggota badan, ucapan islami, Masya Allah.
+ 13.00- 16.20  S4  src  13.01- 16.21  (1 pc)  So, memang satu tahun dah sesuai.
+
+  cutaway  13.17- 16.20

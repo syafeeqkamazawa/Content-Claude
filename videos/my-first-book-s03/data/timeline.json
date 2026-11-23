@@ -1,0 +1,133 @@
+{
+ "pieces": [
+  [
+   0.3,
+   1.54
+  ],
+  [
+   2.43,
+   4.38
+  ],
+  [
+   4.87,
+   7.39
+  ],
+  [
+   7.79,
+   12.1
+  ],
+  [
+   13.23,
+   16.8
+  ],
+  [
+   17.33,
+   18.27
+  ],
+  [
+   18.77,
+   23.81
+  ],
+  [
+   24.39,
+   27.07
+  ],
+  [
+   27.33,
+   29.95
+  ]
+ ],
+ "total": 24.87,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.3,
+    1.54
+   ],
+   "e0": 0.0,
+   "e1": 1.24,
+   "text": "Bismillah"
+  },
+  {
+   "id": "S2",
+   "src": [
+    2.43,
+    4.38
+   ],
+   "e0": 1.24,
+   "e1": 3.19,
+   "text": "ok so"
+  },
+  {
+   "id": "S3",
+   "src": [
+    4.87,
+    7.39
+   ],
+   "e0": 3.19,
+   "e1": 5.71,
+   "text": "tengok Masya Allah"
+  },
+  {
+   "id": "S4",
+   "src": [
+    7.79,
+    12.1
+   ],
+   "e0": 5.71,
+   "e1": 10.02,
+   "text": "sangat lawa ok, my first book Bilal Nilofa"
+  },
+  {
+   "id": "S5",
+   "src": [
+    13.23,
+    16.8
+   ],
+   "e0": 10.02,
+   "e1": 13.59,
+   "text": "so, anak saya pun saya belikan jugalah, masya Allah"
+  },
+  {
+   "id": "S6",
+   "src": [
+    17.33,
+    18.27
+   ],
+   "e0": 13.59,
+   "e1": 14.53,
+   "text": "ok"
+  },
+  {
+   "id": "S7",
+   "src": [
+    18.77,
+    23.81
+   ],
+   "e0": 14.53,
+   "e1": 19.57,
+   "text": "cantik memang cantik, jom tengok kat dalam dia macam mana buku dia ok, kita ok"
+  },
+  {
+   "id": "S8",
+   "src": [
+    24.39,
+    27.07
+   ],
+   "e0": 19.57,
+   "e1": 22.25,
+   "text": "ok, tengok, ok, ok, ni buku kemas tengok,"
+  },
+  {
+   "id": "S9",
+   "src": [
+    27.33,
+    29.95
+   ],
+   "e0": 22.25,
+   "e1": 24.87,
+   "text": "ok, dia dia sangat kemas, insya Allah"
+  }
+ ]
+}

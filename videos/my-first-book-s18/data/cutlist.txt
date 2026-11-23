@@ -1,0 +1,9 @@
+TOTAL 17.97s  (5 A-roll segments, 0 B-roll shots, 1 photos, 6 audio fx, 38 caption cards)
+
+  0.00-  7.12  S1  src   0.00-  7.12  (1 pc)  Animal ada, ada haiwan. Ok. Nak kenal haiwan boleh, apa, ada kuis padankan haiwan tu.
+  7.12-  9.38  S2  src   7.12-  9.38  (1 pc)  Haa, ada haiwan dengan anak dia.
+  9.38- 12.22  S3  src   9.38- 12.21  (1 pc)  Haa, lagu pun ada. Ok, jom kita dengar lagu.
+ 12.22- 13.28  S4  src  12.21- 13.27  (1 pc)  Haa,
+ 13.28- 17.97  S5  src  13.27- 17.96  (1 pc)  ada juga ucapan Islamik kat sini. Subhanallah, Alhamdulillah.
+
+  cutaway   9.78- 14.22

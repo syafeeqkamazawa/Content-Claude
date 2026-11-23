@@ -1,0 +1,156 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#3E0F6B",
+  "hot": "#FF5FB0"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "My First Book Short #1 — from VID_20261121 143318 2-23 + 38.2-42 0.0-24.85 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the trailing 'tengok ni' (next sentence). Pieces: 1, total 24.01 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 24.01,
+   "text": "Ini Ibu ayah yang belum lagi beli, boleh belikanlah untuk anak-anak kita daripada satu tahun, seawal tahun hingga enam tahun. Anak saya yang keempat, umur setahun empat bulan, saya nak belikan. Ini lah, saya belikan untuk dia lah. Memang Masya Allah, memang sangat-sangat. Apa tu, recommended sangat. so boleh dapatkan di beg kuning",
+   "note": "src 0.44-24.45",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [
+  {
+   "text": "ANAK KEEMPAT SAYA PUN GUNA",
+   "hi": [
+    "KEEMPAT"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "Anak#1"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Anak#1"
+   ],
+   "to": [
+    "*",
+    "Memang#1"
+   ],
+   "note": "AI: A Malaysian mother holding her one-year-old toddler on her lap in a bright living room, th"
+  }
+ ],
+ "theme": {
+  "key": "#FF5FB0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "my",
+  "first",
+  "book"
+ ],
+ "keywords": [
+  "tahun",
+  "keempat",
+  "recommended",
+  "kuning"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "daripada#1"
+   ],
+   "to": [
+    "*",
+    "Anak#1"
+   ],
+   "text": "1 - 6 TAHUN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Anak#1"
+   ],
+   "to": [
+    "*",
+    "Memang#1"
+   ],
+   "text": "ANAK KEEMPAT, 1 TAHUN 4 BULAN",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Memang#1"
+   ],
+   "to": [
+    "*",
+    "so#1"
+   ],
+   "text": "MEMANG RECOMMENDED",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "MY FIRST BOOK",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#FF5FB0",
+  "bg": "rgba(62,15,107,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#3E0F6B",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

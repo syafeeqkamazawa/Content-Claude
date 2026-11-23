@@ -1,0 +1,152 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#3E0F6B",
+  "hot": "#FF5FB0"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "My First Book Short #6 — from VID_20261121 143318 146.8-167.2 0.0-20.417 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 4, total 18.13 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.94,
+   "text": "ok lepas tu",
+   "note": "src -0.12-1.82",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 1.94,
+   "out": 8.02,
+   "text": "bukunya dia bunyi lah je dia bunyi insyaAllah ni pun ada sticker dia dia bagi sticker tengok",
+   "note": "src 2.18-8.26",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 8.02,
+   "out": 14.5,
+   "text": "Nilofa dan Bilal kan lah pelekat dia insyaAllah",
+   "note": "src 8.52-15.00",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 14.5,
+   "out": 18.13,
+   "text": "Buku ni milik siapa kat sini",
+   "note": "src 16.56-20.19",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [
+  {
+   "text": "ADA STICKER NAMA SEKALI",
+   "hi": [
+    "STICKER"
+   ],
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "ni#1"
+   ],
+   "anim": "zoom",
+   "top": 200,
+   "size": 100
+  }
+ ],
+ "punch": [],
+ "broll": [],
+ "photos": [],
+ "theme": {
+  "key": "#FF5FB0",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "my",
+  "first",
+  "book"
+ ],
+ "keywords": [
+  "bunyi",
+  "sticker",
+  "pelekat"
+ ],
+ "fx": [
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "ni#1"
+   ],
+   "to": [
+    "*",
+    "Nilofa#1"
+   ],
+   "text": "SIAP DENGAN STICKER",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "pill",
+   "from": [
+    "*",
+    "Buku#1"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "text": "BUKU NI MILIK SIAPA?",
+   "x": 60,
+   "y": 250
+  },
+  {
+   "type": "promo",
+   "from": [
+    "-",
+    6.5
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "title": "MY FIRST BOOK",
+   "sub": "DAPATKAN DI BEG KUNING",
+   "y": 110
+  }
+ ],
+ "pal": {
+  "key": "#FF5FB0",
+  "bg": "rgba(62,15,107,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#3E0F6B",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

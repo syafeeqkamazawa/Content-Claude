@@ -1,0 +1,77 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   6.92
+  ],
+  [
+   7.12,
+   9.38
+  ],
+  [
+   9.56,
+   12.39
+  ],
+  [
+   15.68,
+   16.74
+  ],
+  [
+   19.72,
+   24.41
+  ]
+ ],
+ "total": 17.96,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    6.92
+   ],
+   "e0": 0.0,
+   "e1": 7.12,
+   "text": "Animal ada, ada haiwan. Ok. Nak kenal haiwan boleh, apa, ada kuis padankan haiwan tu."
+  },
+  {
+   "id": "S2",
+   "src": [
+    7.12,
+    9.38
+   ],
+   "e0": 7.12,
+   "e1": 9.38,
+   "text": "Haa, ada haiwan dengan anak dia."
+  },
+  {
+   "id": "S3",
+   "src": [
+    9.56,
+    12.39
+   ],
+   "e0": 9.38,
+   "e1": 12.21,
+   "text": "Haa, lagu pun ada. Ok, jom kita dengar lagu."
+  },
+  {
+   "id": "S4",
+   "src": [
+    15.68,
+    16.74
+   ],
+   "e0": 12.21,
+   "e1": 13.27,
+   "text": "Haa,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    19.72,
+    24.41
+   ],
+   "e0": 13.27,
+   "e1": 17.96,
+   "text": "ada juga ucapan Islamik kat sini. Subhanallah, Alhamdulillah."
+  }
+ ]
+}

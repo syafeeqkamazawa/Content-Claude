@@ -1,0 +1,35 @@
+{
+ "pieces": [
+  [
+   0.04,
+   4.25
+  ],
+  [
+   4.52,
+   19.1
+  ]
+ ],
+ "total": 18.79,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.04,
+    4.25
+   ],
+   "e0": 0.0,
+   "e1": 4.21,
+   "text": "Haa. So, apa tu. Walaupun orang kata satu tahun tu, respon dia."
+  },
+  {
+   "id": "S2",
+   "src": [
+    4.52,
+    19.1
+   ],
+   "e0": 4.21,
+   "e1": 18.79,
+   "text": "Yelah semacam baby, tapi dia punya apa, memori tu dah mula simpan. Haa. Tu. Itu penting daripada awal. So, nanti bila dah masuk dua atau tiga tahun, dia mulakan keluarkan apa yang dah tersimpan dekat memori dia. So, memang sangat sesuai. Okey."
+  }
+ ]
+}

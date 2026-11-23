@@ -1,0 +1,49 @@
+{
+ "pieces": [
+  [
+   0.38,
+   10.22
+  ],
+  [
+   10.32,
+   16.25
+  ],
+  [
+   17.02,
+   19.42
+  ]
+ ],
+ "total": 18.17,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.38,
+    10.22
+   ],
+   "e0": 0.0,
+   "e1": 9.84,
+   "text": "Ok, so dia sediakan sekali marker dengan pen macam ni. So ada pemadam sekali lah. Ok, so anak-anak kita boleh gunakan buku ni. Ok, so"
+  },
+  {
+   "id": "S2",
+   "src": [
+    10.32,
+    16.25
+   ],
+   "e0": 9.84,
+   "e1": 15.77,
+   "text": "Dan juga korang boleh padamkan balik tau bila dah korang kan matchkan macam ni korang boleh padamkan balik tau"
+  },
+  {
+   "id": "S3",
+   "src": [
+    17.02,
+    19.42
+   ],
+   "e0": 15.77,
+   "e1": 18.17,
+   "text": "boleh guna banyak kalilah"
+  }
+ ]
+}

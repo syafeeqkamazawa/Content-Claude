@@ -1,0 +1,35 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   10.31
+  ],
+  [
+   12.72,
+   18.89
+  ]
+ ],
+ "total": 16.68,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    10.31
+   ],
+   "e0": 0.0,
+   "e1": 10.51,
+   "text": "Ibu ayah boleh belikan untuk anak-anak. Yang mana belum lagi, belilah satu. Insya Allah. Untuk anak-anak. Okey. Satu tahun hingga enam tahun. Insya Allah. Sesuai. Okey."
+  },
+  {
+   "id": "S2",
+   "src": [
+    12.72,
+    18.89
+   ],
+   "e0": 10.51,
+   "e1": 16.68,
+   "text": "Memang sangat sesuai. So, kita boleh dapatkan di beg kuning. Insya Allah. Berbaloi."
+  }
+ ]
+}

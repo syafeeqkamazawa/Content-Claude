@@ -1,0 +1,63 @@
+{
+ "pieces": [
+  [
+   -0.14,
+   3.73
+  ],
+  [
+   4.1,
+   7.22
+  ],
+  [
+   7.5,
+   13.52
+  ],
+  [
+   14.4,
+   17.6
+  ]
+ ],
+ "total": 16.21,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.14,
+    3.73
+   ],
+   "e0": 0.0,
+   "e1": 3.87,
+   "text": "Okey, Masya Allah. Mari mengenal warna."
+  },
+  {
+   "id": "S2",
+   "src": [
+    4.1,
+    7.22
+   ],
+   "e0": 3.87,
+   "e1": 6.99,
+   "text": "Oh, bunyi. Haiwan bunyi, Masya Allah."
+  },
+  {
+   "id": "S3",
+   "src": [
+    7.5,
+    13.52
+   ],
+   "e0": 6.99,
+   "e1": 13.01,
+   "text": "Ekspresi muka, anggota badan, ucapan islami, Masya Allah."
+  },
+  {
+   "id": "S4",
+   "src": [
+    14.4,
+    17.6
+   ],
+   "e0": 13.01,
+   "e1": 16.21,
+   "text": "So, memang satu tahun dah sesuai."
+  }
+ ]
+}

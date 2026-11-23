@@ -1,0 +1,63 @@
+{
+ "pieces": [
+  [
+   -0.12,
+   1.82
+  ],
+  [
+   2.18,
+   8.26
+  ],
+  [
+   8.52,
+   15.0
+  ],
+  [
+   16.56,
+   20.19
+  ]
+ ],
+ "total": 18.13,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.12,
+    1.82
+   ],
+   "e0": 0.0,
+   "e1": 1.94,
+   "text": "ok lepas tu"
+  },
+  {
+   "id": "S2",
+   "src": [
+    2.18,
+    8.26
+   ],
+   "e0": 1.94,
+   "e1": 8.02,
+   "text": "bukunya dia bunyi lah je dia bunyi insyaAllah ni pun ada sticker dia dia bagi sticker tengok"
+  },
+  {
+   "id": "S3",
+   "src": [
+    8.52,
+    15.0
+   ],
+   "e0": 8.02,
+   "e1": 14.5,
+   "text": "Nilofa dan Bilal kan lah pelekat dia insyaAllah"
+  },
+  {
+   "id": "S4",
+   "src": [
+    16.56,
+    20.19
+   ],
+   "e0": 14.5,
+   "e1": 18.13,
+   "text": "Buku ni milik siapa Bujuk-bujuk kat sini"
+  }
+ ]
+}

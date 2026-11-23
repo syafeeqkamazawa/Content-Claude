@@ -1,0 +1,63 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   7.99
+  ],
+  [
+   8.15,
+   13.17
+  ],
+  [
+   13.19,
+   15.51
+  ],
+  [
+   16.73,
+   18.74
+  ]
+ ],
+ "total": 17.54,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    7.99
+   ],
+   "e0": 0.0,
+   "e1": 8.19,
+   "text": "Lepas tu ada. Kira tambah. Kira tambah tolak pada Fatima. Haa, nombor. Ok. Fatima dah kenal nombor belum?"
+  },
+  {
+   "id": "S2",
+   "src": [
+    8.15,
+    13.17
+   ],
+   "e0": 8.19,
+   "e1": 13.21,
+   "text": "1, 2, 3. Kan? Haa. So, nanti Fatima belajar tambah."
+  },
+  {
+   "id": "S3",
+   "src": [
+    13.19,
+    15.51
+   ],
+   "e0": 13.21,
+   "e1": 15.53,
+   "text": "Haa, boleh juga ni. Tambah kat sini. Ok."
+  },
+  {
+   "id": "S4",
+   "src": [
+    16.73,
+    18.74
+   ],
+   "e0": 15.53,
+   "e1": 17.54,
+   "text": "30, wow. Ok."
+  }
+ ]
+}

@@ -1,0 +1,35 @@
+{
+ "pieces": [
+  [
+   3.46,
+   10.45
+  ],
+  [
+   10.49,
+   31.2
+  ]
+ ],
+ "total": 27.7,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    3.46,
+    10.45
+   ],
+   "e0": 0.0,
+   "e1": 6.99,
+   "text": "Assalamualaikum, Ibu Ayah. Yang ada anak kosong, kosong. Yang ada anak daripada newborn sampai 6"
+  },
+  {
+   "id": "S2",
+   "src": [
+    10.49,
+    31.2
+   ],
+   "e0": 6.99,
+   "e1": 27.7,
+   "text": "tahun. Ini buku ni, MasyaAllah. Yang belum beli, belilah untuk anak-anak. Kosong hingga 6 tahun. Sangat recommended lah. Ok, apa tu collab antara Mami Hana dengan Nilofa dan Bilal. Anak dia, MasyaAllah. Jadi kosong hingga 6 tahun, kita boleh bagi dia orang guna buku ni."
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+TOTAL 24.85s  (9 A-roll segments, 0 B-roll shots, 0 photos, 4 audio fx, 53 caption cards)
+
+  0.00-  1.23  S1  src   0.00-  1.24  (1 pc)  Bismillah
+  1.23-  3.18  S2  src   1.24-  3.19  (1 pc)  ok so
+  3.18-  5.70  S3  src   3.19-  5.71  (1 pc)  tengok Masya Allah
+  5.70- 10.02  S4  src   5.71- 10.02  (1 pc)  sangat lawa ok, my first book Bilal Nilofa
+ 10.02- 13.58  S5  src  10.02- 13.59  (1 pc)  so, anak saya pun saya belikan jugalah, masya Allah
+ 13.58- 14.52  S6  src  13.59- 14.53  (1 pc)  ok
+ 14.52- 19.55  S7  src  14.53- 19.57  (1 pc)  cantik memang cantik, jom tengok kat dalam dia macam mana buku dia ok, kita ok
+ 19.55- 22.23  S8  src  19.57- 22.25  (1 pc)  ok, tengok, ok, ok, ni buku kemas tengok,
+ 22.23- 24.85  S9  src  22.25- 24.87  (1 pc)  ok, dia dia sangat kemas, insya Allah
+

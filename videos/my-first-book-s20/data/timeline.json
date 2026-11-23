@@ -1,0 +1,35 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   2.41
+  ],
+  [
+   2.42,
+   15.6
+  ]
+ ],
+ "total": 15.79,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    2.41
+   ],
+   "e0": 0.0,
+   "e1": 2.61,
+   "text": "Kenali 10 mukjizat. Haa."
+  },
+  {
+   "id": "S2",
+   "src": [
+    2.42,
+    15.6
+   ],
+   "e0": 2.61,
+   "e1": 15.79,
+   "text": "belajar rukun solat. Oh, MasyaAllah memang sangat terbaik buku ni. Ibu ayah. Jangan risau. Beli dekat beg kuning ni. InsyaAllah, harga pun berbaloi. Sementara saya tengah buat promosi, boleh. Okey, belikan sekarang untuk anak-anak yang tersayang."
+  }
+ ]
+}

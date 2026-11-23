@@ -1,0 +1,91 @@
+{
+ "pieces": [
+  [
+   0.14,
+   8.86
+  ],
+  [
+   9.02,
+   12.7
+  ],
+  [
+   13.5,
+   14.7
+  ],
+  [
+   15.26,
+   20.52
+  ],
+  [
+   21.25,
+   28.19
+  ],
+  [
+   29.35,
+   30.43
+  ]
+ ],
+ "total": 26.88,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.14,
+    8.86
+   ],
+   "e0": 0.0,
+   "e1": 8.72,
+   "text": "So kat sini kita kena letak bateri lah Rasanya bateri dah siap ni Kalau tengok gaya tarik tu Gaya tarik baru bateri terpasang lah Okay bismillah"
+  },
+  {
+   "id": "S2",
+   "src": [
+    9.02,
+    12.7
+   ],
+   "e0": 8.72,
+   "e1": 12.4,
+   "text": "Okay so Jom kita cuba"
+  },
+  {
+   "id": "S3",
+   "src": [
+    13.5,
+    14.7
+   ],
+   "e0": 12.4,
+   "e1": 13.6,
+   "text": "Okay"
+  },
+  {
+   "id": "S4",
+   "src": [
+    15.26,
+    20.52
+   ],
+   "e0": 13.6,
+   "e1": 18.86,
+   "text": "Assalamualaikum Saya Mami Hana Saya Umi Bilal"
+  },
+  {
+   "id": "S5",
+   "src": [
+    21.25,
+    28.19
+   ],
+   "e0": 18.86,
+   "e1": 25.8,
+   "text": "So, kita tengok. Tekan sini dulu. Tekan sini. Faham tak? Tekan sini untuk mula. Okay."
+  },
+  {
+   "id": "S6",
+   "src": [
+    29.35,
+    30.43
+   ],
+   "e0": 25.8,
+   "e1": 26.88,
+   "text": "Ha, tekan."
+  }
+ ]
+}

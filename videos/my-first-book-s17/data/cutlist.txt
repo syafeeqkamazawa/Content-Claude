@@ -1,0 +1,8 @@
+TOTAL 17.53s  (4 A-roll segments, 0 B-roll shots, 1 photos, 5 audio fx, 39 caption cards)
+
+  0.00-  8.18  S1  src   0.00-  8.19  (1 pc)  Lepas tu ada. Kira tambah. Kira tambah tolak pada Fatima. Haa, nombor. Ok. Fatima dah kenal nombor belum?
+  8.18- 13.20  S2  src   8.19- 13.21  (1 pc)  1, 2, 3. Kan? Haa. So, nanti Fatima belajar tambah.
+ 13.20- 15.52  S3  src  13.21- 15.53  (1 pc)  Haa, boleh juga ni. Tambah kat sini. Ok.
+ 15.52- 17.53  S4  src  15.53- 17.54  (1 pc)  30, wow. Ok.
+
+  cutaway   6.63- 11.08

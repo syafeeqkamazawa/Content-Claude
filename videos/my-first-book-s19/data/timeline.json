@@ -1,0 +1,77 @@
+{
+ "pieces": [
+  [
+   -0.08,
+   8.87
+  ],
+  [
+   9.52,
+   10.54
+  ],
+  [
+   10.8,
+   13.42
+  ],
+  [
+   13.58,
+   16.18
+  ],
+  [
+   16.58,
+   23.1
+  ]
+ ],
+ "total": 21.71,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.08,
+    8.87
+   ],
+   "e0": 0.0,
+   "e1": 8.95,
+   "text": "Bila nak start balik dah dengan tekan music ni kan. Bila nak stop dia, boleh tekan mana-mana button kat sini. Belajar sifat Allah pun ada."
+  },
+  {
+   "id": "S2",
+   "src": [
+    9.52,
+    10.54
+   ],
+   "e0": 8.95,
+   "e1": 9.97,
+   "text": "Haa."
+  },
+  {
+   "id": "S3",
+   "src": [
+    10.8,
+    13.42
+   ],
+   "e0": 9.97,
+   "e1": 12.59,
+   "text": "Kenal 10 malaikat. Ok, tu kan? 10 malaikat."
+  },
+  {
+   "id": "S4",
+   "src": [
+    13.58,
+    16.18
+   ],
+   "e0": 12.59,
+   "e1": 15.19,
+   "text": "Haa. Malaikat Mikail"
+  },
+  {
+   "id": "S5",
+   "src": [
+    16.58,
+    23.1
+   ],
+   "e0": 15.19,
+   "e1": 21.71,
+   "text": "Haa. Haa. Haa, insyaAllah. Lagi, ada biodata Nabi Muhammad SAW. MasyaAllah."
+  }
+ ]
+}
