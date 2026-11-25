@@ -62,3 +62,25 @@ SPECS["jam1"] = {
     ],
     "ai": [("A1", W("naik#1"), W("So,#1"), f"A peaceful Malaysian Muslim home living room at night in warm lamp light, a man in baju melayu and songkok sitting on a prayer mat reading the Quran, calm atmosphere. {M}")],
 }
+
+# Buku Leveled Reading #2 (folder "Buku Leveled Reading", 25 Nov): VID_20261125_212521 (talking + demo, 245 s) + 212738
+# (B-roll of the book's pages, 66 s). Same brief -> "storybook" motion (EDL "sb"): letter blocks that flip in, speech
+# bubbles that pop, a CTA that opens like a book. Combo: videos/_lvl/tools/combo.py lvl1 212521:0:245.2 212738:0:65.77:b
+SPECS["lvl1"] = {
+    "src": "_lvl/.media/combo-lvl1.mp4",
+    "wl": [("_lvl/.media/wl-212521.txt", 0, 58), ("_lvl/.media/wl2-212521.txt", 58, 144), ("_lvl/.media/wl-212521.txt", 144, 245.2)],
+    "vad": "_lvl/.media/vad-combo-lvl1.txt",
+    "range": (0.0, 310.97), "srcnote": "VID_20261125 212521 + 212738 (B-roll)",
+    "slug": "leveled-reading-book-2", "name": "Buku Leveled Reading #2",
+    "pal": pal("#FFC531", bg="rgba(29,58,138,.92)", dark="#1D3A8A", cap="#FFFFFF"), "brand": ["leveled", "reading"],
+    "keywords": ["telefon", "phone", "bahaya", "mengamuk", "aktiviti", "bunyi", "cerita", "perkataan", "lagu", "kualiti", "keluarga", "promo", "murah", "kuning"],
+    "kp": ("LEVELED READING", ["READING"], S1, W("Kadang#1"), 200, 100),
+    "drop": [(91.3, 144.0), (164.5, 179.8), (199.0, 212.7), (240.8, 246.0)],
+    "dropnote": "the book reading its pages on its own (91-144 s, no speech of his), the song running on and 'shoulder ni' (164.5-180), "
+                "two false starts of 'tapi bukanlah maksudnya terus...' (202-212.7; the third take is kept) and the trailing noise after the CTA",
+    "fix": {"level": "Leveled", "gu": "Go", "backcuni": "beg kuning", "terasal": ""},
+    "cut": [],
+    "fx": [],
+    "sb": [{"type": "hook", "from": S1, "to": W("Kadang#1"), "blocks": "TELEFON", "line": "Anak susah nak lepas?", "y": 150}],
+    "ai": [],
+}

@@ -1170,6 +1170,106 @@ if JM:
   background: repeating-linear-gradient(90deg, {JM_GOLD} 0 12px, rgba(0,0,0,0) 12px 24px); }}
 """
 
+# Owner (25 Nov, Buku Leveled Reading — same brief, a new motion style for the product's vibe): "storybook" motion,
+# playful like the children's book. Hook words sit on colourful letter blocks that flip in one by one with a little
+# bounce and a crayon squiggle draws under them; points pop up as speech bubbles (springy scale, tail wiggle, a star
+# sticker that spins in); the CTA opens like a book from its spine with a tilted sticker tag. Colours from the cover:
+# sky blue, candy pink, sunshine yellow, apple red, leaf green. EDL "sb": [{type: hook|bubble|cta, ...}].
+SB = EDL.get("sb", [])
+SB_COLS = ["#2E9BF0", "#FF5D8F", "#FFC531", "#F2483C", "#3DBE5A", "#8C6CF0"]
+SQUIG = "M 10 30 C 60 0, 110 60, 160 30 S 260 0, 310 30 S 410 60, 460 30 S 560 0, 610 30"
+STAR5 = "M50 4 L62 38 L98 38 L69 59 L80 94 L50 73 L20 94 L31 59 L2 38 L38 38 Z"
+for k, m in enumerate(SB):
+    sid = f"sb{k}"
+    t0, t1 = q(anchor(m["from"])), q(min(anchor(m["to"]), TOTAL))
+    if t1 - t0 < 0.5:
+        continue
+    d = q(t1 - t0)
+    typ = m["type"]
+    if typ == "hook":
+        blocks, n = [], 0
+        for wi, w in enumerate(m["blocks"].split()):
+            cs = "".join(f'<span class="sbblk" id="{sid}b{n + i}" style="background:{SB_COLS[(n + i) % len(SB_COLS)]}">{html.escape(ch)}</span>'
+                         for i, ch in enumerate(w))
+            n += len(w)
+            blocks.append(f'<span class="sbbw">{cs}</span>')
+        inner = (f'<div class="sbhook" id="{sid}" style="top:{m.get("y", 150)}px"><div class="sbblks">{"".join(blocks)}</div>'
+                 f'<div class="sbline" id="{sid}l">{html.escape(m.get("line", ""))}</div>'
+                 f'<svg class="sbsq" viewBox="0 0 620 60" preserveAspectRatio="none"><path id="{sid}q" d="{SQUIG}" pathLength="1"/></svg></div>')
+        card(f"ov-{sid}", t0, t1, inner)
+        for i in range(n):
+            gfx_js.append(f'tl.fromTo("#{sid}b{i}", {{ opacity: 0, rotationX: -100, y: -40 }}, {{ opacity: 1, rotationX: 0, y: 0, duration: 0.5, ease: "back.out(2.4)" }}, {q(t0 + 0.07 * i)});')
+            gfx_js.append(f'tl.fromTo("#{sid}b{i}", {{ rotation: 0 }}, {{ rotation: {(-4, 3, -2, 4, -3)[i % 5]}, duration: 0.6, ease: "sine.inOut", yoyo: true, repeat: {max(1, int((d - 1) / 0.6))}, immediateRender: false }}, {q(t0 + 0.5 + 0.07 * i)});')
+        gfx_js.append(f'tl.fromTo("#{sid}l", {{ opacity: 0, scale: 0.4, y: 30 }}, {{ opacity: 1, scale: 1, y: 0, duration: 0.5, ease: "back.out(2.6)" }}, {q(t0 + 0.1 + 0.07 * n)});')
+        gfx_js.append(f'tl.fromTo("#{sid}q", {{ strokeDashoffset: 1 }}, {{ strokeDashoffset: 0, duration: 0.7, ease: "power2.out" }}, {q(t0 + 0.35 + 0.07 * n)});')
+        add_sfx("pop", t0, 0.25)
+        add_sfx("sparkle", t0 + 0.07 * n, 0.15)
+    elif typ == "bubble":
+        col = m.get("color", SB_COLS[k % len(SB_COLS)])
+        side = m.get("side", "right")
+        pos = f'right:{m.get("x", 60)}px' if side == "right" else f'left:{m.get("x", 60)}px'
+        inner = (f'<div class="sbbub sb{side}" id="{sid}" style="{pos};top:{m.get("y", 260)}px;--c:{col}">'
+                 f'<svg class="sbstar" id="{sid}s" viewBox="0 0 100 100"><path d="{STAR5}"/></svg>'
+                 f'<span class="sbtxt">{html.escape(m["text"])}</span><span class="sbtail" id="{sid}t"></span></div>')
+        card(f"ov-{sid}", t0, t1, inner)
+        gfx_js.append(f'tl.fromTo("#{sid}", {{ opacity: 0, scale: 0.2, rotation: {-8 if side == "right" else 8} }}, {{ opacity: 1, scale: 1, rotation: 0, duration: 0.6, ease: "elastic.out(1, 0.5)" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{sid}s", {{ scale: 0, rotation: -180 }}, {{ scale: 1, rotation: 0, duration: 0.6, ease: "back.out(2.5)" }}, {q(t0 + 0.2)});')
+        gfx_js.append(f'tl.fromTo("#{sid}s", {{ rotation: 0 }}, {{ rotation: 20, duration: 0.5, ease: "sine.inOut", yoyo: true, repeat: {max(1, int((d - 0.9) / 0.5))}, immediateRender: false }}, {q(t0 + 0.8)});')
+        gfx_js.append(f'tl.fromTo("#{sid}", {{ y: 0 }}, {{ y: -10, duration: 0.8, ease: "sine.inOut", yoyo: true, repeat: {max(1, int((d - 0.6) / 0.8))}, immediateRender: false }}, {q(t0 + 0.6)});')
+        add_sfx("pop", t0, 0.28)
+    elif typ == "cta":
+        inner = (f'<div class="sbcta" id="{sid}" style="top:{m.get("y", 150)}px">'
+                 f'<div class="sbpg sbpgl" id="{sid}a"></div><div class="sbpg sbpgr" id="{sid}b"></div>'
+                 f'<div class="sbct" id="{sid}c"><div class="sbtag" id="{sid}g">{html.escape(m.get("tag", "BEG KUNING"))}</div>'
+                 + "".join(f'<div class="sbcl" id="{sid}l{i}" style="color:{("#1D3A8A", "#FF5D8F", "#2E9BF0")[i % 3]}">{html.escape(ln)}</div>' for i, ln in enumerate(m["lines"]))
+                 + f'<div class="sbcs" id="{sid}u">{html.escape(m.get("sub", ""))}</div></div>'
+                 f'<svg class="sbstar sbcstar" id="{sid}s" viewBox="0 0 100 100"><path d="{STAR5}"/></svg></div>')
+        card(f"ov-{sid}", t0, t1, inner)
+        gfx_js.append(f'tl.fromTo("#{sid}a", {{ rotationY: 90 }}, {{ rotationY: 0, duration: 0.55, ease: "power3.out" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{sid}b", {{ rotationY: -90 }}, {{ rotationY: 0, duration: 0.55, ease: "power3.out" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{sid}g", {{ opacity: 0, scale: 2, rotation: -20 }}, {{ opacity: 1, scale: 1, rotation: -6, duration: 0.45, ease: "back.out(2.6)" }}, {q(t0 + 0.4)});')
+        for i in range(len(m["lines"])):
+            gfx_js.append(f'tl.fromTo("#{sid}l{i}", {{ opacity: 0, y: 30, scale: 0.8 }}, {{ opacity: 1, y: 0, scale: 1, duration: 0.45, ease: "back.out(2)" }}, {q(t0 + 0.55 + 0.12 * i)});')
+        gfx_js.append(f'tl.fromTo("#{sid}u", {{ opacity: 0 }}, {{ opacity: 1, duration: 0.4, ease: "power2.out" }}, {q(t0 + 0.9)});')
+        gfx_js.append(f'tl.fromTo("#{sid}s", {{ scale: 0, rotation: -180 }}, {{ scale: 1, rotation: 0, duration: 0.6, ease: "back.out(2.5)" }}, {q(t0 + 0.7)});')
+        gfx_js.append(f'tl.fromTo("#{sid}g", {{ scale: 1 }}, {{ scale: 1.08, duration: 0.45, ease: "sine.inOut", yoyo: true, repeat: {max(1, int((d - 1.2) / 0.45))}, immediateRender: false }}, {q(t0 + 1.0)});')
+        add_sfx("pop", t0, 0.25)
+        add_sfx("ping", t0 + 0.4, 0.2)
+    if t1 < TOTAL - 0.05:
+        gfx_js.append(f'tl.to("#{sid}", {{ opacity: 0, scale: 0.6, duration: 0.25, ease: "back.in(2)" }}, {q(t1 - 0.25)});')
+if SB:
+    FX_CSS += """
+@font-face { font-family: "Fredoka"; src: url("assets/fonts/Fredoka-latin.woff2") format("woff2"); font-weight: 700; font-display: block; }
+.sbhook { position: absolute; left: 30px; right: 30px; text-align: center; perspective: 900px; }
+.sbblks { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 26px; }
+.sbbw { display: inline-flex; gap: 8px; }
+.sbblk { display: inline-block; width: 92px; height: 104px; line-height: 104px; border-radius: 20px; font-family: "Fredoka"; font-weight: 700;
+  font-size: 84px; color: #fff; text-align: center; box-shadow: inset 0 -10px 0 rgba(0,0,0,.18), 0 10px 22px rgba(0,0,0,.28);
+  text-shadow: 0 4px 0 rgba(0,0,0,.18); transform-origin: 50% 0%; }
+.sbline { display: inline-block; margin-top: 22px; padding: 12px 34px; border-radius: 999px; background: #fff; color: #1D3A8A;
+  font-family: "Fredoka"; font-weight: 700; font-size: 58px; box-shadow: 0 10px 24px rgba(0,0,0,.25); }
+.sbsq { display: block; width: 72%; height: 44px; margin: 10px auto 0; overflow: visible; }
+.sbsq path { fill: none; stroke: #FFC531; stroke-width: 10; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1;
+  filter: drop-shadow(0 3px 0 rgba(0,0,0,.2)); }
+.sbbub { position: absolute; display: flex; align-items: center; gap: 16px; padding: 20px 40px 22px 24px; border-radius: 40px; background: #fff;
+  border: 6px solid var(--c); box-shadow: 0 10px 0 var(--c), 0 18px 30px rgba(0,0,0,.25); }
+.sbtxt { font-family: "Fredoka"; font-weight: 700; font-size: 56px; color: #1D2A55; white-space: nowrap; }
+.sbtail { position: absolute; bottom: -34px; width: 40px; height: 40px; background: #fff; border-right: 6px solid var(--c); border-bottom: 6px solid var(--c); transform: rotate(45deg); }
+.sbright .sbtail { right: 70px; } .sbleft .sbtail { left: 70px; }
+.sbstar { width: 62px; height: 62px; flex: none; overflow: visible; }
+.sbstar path { fill: #FFC531; stroke: #fff; stroke-width: 6; stroke-linejoin: round; filter: drop-shadow(0 3px 0 rgba(0,0,0,.2)); }
+.sbcta { position: absolute; left: 90px; right: 90px; height: 470px; perspective: 1200px; }
+.sbpg { position: absolute; top: 0; bottom: 0; width: 50%; background: #FFFDF6; box-shadow: 0 18px 40px rgba(0,0,0,.3); }
+.sbpgl { left: 0; border-radius: 36px 6px 6px 36px; transform-origin: 100% 50%; border: 6px solid #2E9BF0; border-right: 3px solid #D9D2C0; }
+.sbpgr { right: 0; border-radius: 6px 36px 36px 6px; transform-origin: 0% 50%; border: 6px solid #2E9BF0; border-left: 3px solid #D9D2C0; }
+.sbct { position: absolute; inset: 0; padding: 70px 40px 0; text-align: center; }
+.sbtag { display: inline-block; padding: 10px 34px; border-radius: 14px; background: #FFC531; color: #1D2A55; font-family: "Fredoka"; font-weight: 700;
+  font-size: 46px; letter-spacing: 2px; box-shadow: 0 6px 0 #D99A00; }
+.sbcl { margin-top: 14px; font-family: "Fredoka"; font-weight: 700; font-size: 74px; line-height: 1.05; color: #1D3A8A; }
+.sbcs { margin-top: 16px; font-family: "Fredoka"; font-weight: 700; font-size: 40px; color: #3DBE5A; }
+.sbcstar { position: absolute; right: -24px; top: -30px; width: 110px; height: 110px; }
+"""
+
 HOTW = {norm(k) for k in EDL.get("keywords", []) + EDL.get("brand_words", [])}
 # ── 5. Captions ────────────────────────────────────────────────────────────
 # Owner (21 Oct): split-flap "departure board" captions like the reference video —
