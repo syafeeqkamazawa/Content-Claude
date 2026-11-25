@@ -1,0 +1,2 @@
+file '/home/user/Content-Claude/videos/_myna/.media/cpart-myna1-0.mp4'
+file '/home/user/Content-Claude/videos/_myna/.media/cpart-myna1-1.mp4'

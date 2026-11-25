@@ -8,3 +8,5 @@
 
 # raw Drive downloads for a batch in progress (originals stay on Drive)
 videos/_batch-*/
+videos/_myna/src/
+videos/_myna/.media/*.mp4

@@ -383,3 +383,4 @@ for _k, _v in AI.items():
 # second upload of 21 Nov (10 clips, VID_20261121_141927 ... 152300): videos/_today/tools/specs2.py
 exec(open(__file__.replace("specs.py", "specs2.py")).read())
 exec(open(__file__.replace("specs.py", "specs3.py")).read())
+exec(open(__file__.replace("specs.py", "specs4.py")).read())

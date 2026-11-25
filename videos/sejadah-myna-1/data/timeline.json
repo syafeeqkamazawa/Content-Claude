@@ -1,0 +1,77 @@
+{
+ "pieces": [
+  [
+   5.22,
+   19.6
+  ],
+  [
+   20.04,
+   41.8
+  ],
+  [
+   42.42,
+   47.82
+  ],
+  [
+   47.96,
+   50.73
+  ],
+  [
+   50.94,
+   58.28
+  ]
+ ],
+ "total": 51.65,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    5.22,
+    19.6
+   ],
+   "e0": 0.0,
+   "e1": 14.38,
+   "text": "Bila nak solat je sejadah ni bergerak-gerak kan saya cukup faham. Bila nak solat ni kalau sejadah bergerak-gerak memang tak selesa. Jangan risau sejadah yang daripada saya ni memang sangat selesa. Dengan desain yang macam tersendiri macam ni kan sedap"
+  },
+  {
+   "id": "S2",
+   "src": [
+    20.04,
+    41.8
+   ],
+   "e0": 14.38,
+   "e1": 36.14,
+   "text": "mata memandang. Dan paling penting belakang ni anti grip. So anti grip ataupun kita panggil anti slip. So anti slip dia macam ada sedikit lah lapisan getah macam tu. So bila letak je dekat atas lantai ataupun dekat mana-mana permukaan insyaAllah dia tak mudah bergerak."
+  },
+  {
+   "id": "S3",
+   "src": [
+    42.42,
+    47.82
+   ],
+   "e0": 36.14,
+   "e1": 41.54,
+   "text": "Jadi sangat cantik dan pelbagai desain juga ada dekat beg kuning."
+  },
+  {
+   "id": "S4",
+   "src": [
+    47.96,
+    50.73
+   ],
+   "e0": 41.54,
+   "e1": 44.31,
+   "text": "Harga pun saya tengah buat promosi ni."
+  },
+  {
+   "id": "S5",
+   "src": [
+    50.94,
+    58.28
+   ],
+   "e0": 44.31,
+   "e1": 51.65,
+   "text": "InsyaAllah yang mana berminat boleh dapatkan di beg kuning. Ok sementara harga masih murah boleh beli sekarang."
+  }
+ ]
+}

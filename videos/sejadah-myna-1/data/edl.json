@@ -1,0 +1,328 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FBF6EA",
+  "stroke": "#0B3B36",
+  "hot": "#D8B46A"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Sejadah Myna #1 — from VID_20261125 173047 + 173825 (B-roll) 0.0-94.319 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing (clean single take). Pieces: 5, total 51.65 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 14.38,
+   "text": "Bila nak solat je sejadah ni bergerak-gerak kan saya cukup faham. Bila nak solat ni kalau sejadah bergerak-gerak memang tak selesa. Jangan risau sejadah yang daripada saya ni memang sangat selesa. Dengan desain yang macam tersendiri macam ni kan sedap",
+   "note": "src 5.22-19.60",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 14.38,
+   "out": 36.14,
+   "text": "mata memandang. Dan paling penting belakang ni anti grip. So anti grip ataupun kita panggil anti slip. So anti slip dia macam ada sedikit lah lapisan getah macam tu. So bila letak je dekat atas lantai ataupun dekat mana-mana permukaan insyaAllah dia tak mudah bergerak.",
+   "note": "src 20.04-41.80",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 36.14,
+   "out": 41.54,
+   "text": "Jadi sangat cantik dan pelbagai desain juga ada dekat beg kuning.",
+   "note": "src 42.42-47.82",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 41.54,
+   "out": 44.31,
+   "text": "Harga pun saya tengah buat promosi ni.",
+   "note": "src 47.96-50.73",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 44.31,
+   "out": 51.65,
+   "text": "InsyaAllah yang mana berminat boleh dapatkan di beg kuning. Ok sementara harga masih murah boleh beli sekarang.",
+   "note": "src 50.94-58.28",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "Jangan#1"
+   ],
+   "to": [
+    "*",
+    "Dengan#1"
+   ],
+   "src": 66.4,
+   "note": "the mat from above (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "Dengan#1"
+   ],
+   "to": [
+    "*",
+    "Dan#1"
+   ],
+   "src": 70.4,
+   "note": "the mihrab design close up (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "Jadi#1"
+   ],
+   "to": [
+    "*",
+    "Harga#1"
+   ],
+   "src": 76.4,
+   "note": "the mat on the floor, pan (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "*",
+    "Harga#1"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 82.4,
+   "note": "the mat, full view (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Bila#2"
+   ],
+   "to": [
+    "*",
+    "Jangan#1"
+   ],
+   "note": "AI: A Malaysian man about to pray at home, frowning as his thin prayer mat slides and bunches "
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "So#3"
+   ],
+   "to": [
+    "*",
+    "Jadi#1"
+   ],
+   "note": "AI: A Malaysian man praying calmly in sujud on a flat emerald prayer mat lying firmly on a pol"
+  }
+ ],
+ "theme": {
+  "key": "#D8B46A",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "myna"
+ ],
+ "keywords": [
+  "selesa",
+  "desain",
+  "anti",
+  "slip",
+  "grip",
+  "getah",
+  "lantai",
+  "cantik",
+  "promosi",
+  "murah",
+  "kuning"
+ ],
+ "fx": [],
+ "mh": [
+  {
+   "type": "hook",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "Bila#2"
+   ],
+   "kicker": "Solat lebih selesa",
+   "lines": [
+    "Sejadah",
+    "tak bergerak"
+   ],
+   "hi": [
+    "tak",
+    "bergerak"
+   ],
+   "y": 110
+  },
+  {
+   "type": "list",
+   "from": [
+    "*",
+    "sangat#1"
+   ],
+   "to": [
+    "*",
+    "Dan#1"
+   ],
+   "y": 170,
+   "items": [
+    {
+     "text": "Sangat selesa",
+     "at": [
+      "*",
+      "sangat#1"
+     ]
+    },
+    {
+     "text": "Desain sedap mata",
+     "at": [
+      "*",
+      "desain#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "list",
+   "from": [
+    "*",
+    "anti#1"
+   ],
+   "to": [
+    "*",
+    "So#3"
+   ],
+   "y": 100,
+   "items": [
+    {
+     "text": "Anti slip",
+     "at": [
+      "*",
+      "anti#1"
+     ]
+    },
+    {
+     "text": "Lapisan getah",
+     "at": [
+      "*",
+      "lapisan#1"
+     ]
+    }
+   ]
+  },
+  {
+   "type": "point",
+   "from": [
+    "*",
+    "letak#1"
+   ],
+   "to": [
+    "*",
+    "Jadi#1"
+   ],
+   "text": "Tak mudah bergerak",
+   "y": 170
+  },
+  {
+   "type": "point",
+   "from": [
+    "*",
+    "pelbagai#1"
+   ],
+   "to": [
+    "*",
+    "Harga#1"
+   ],
+   "text": "Pelbagai desain",
+   "y": 170
+  },
+  {
+   "type": "cta",
+   "from": [
+    "*",
+    "Harga#1"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "lines": [
+    "Harga promosi,",
+    "beli sekarang"
+   ],
+   "hi": [
+    "promosi,"
+   ],
+   "sub": "Sementara harga masih murah",
+   "y": 120
+  }
+ ],
+ "pal": {
+  "key": "#D8B46A",
+  "bg": "rgba(9,52,47,.92)",
+  "ink": "#FFFFFF",
+  "dark": "#0B3B36",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FBF6EA"
+ }
+}

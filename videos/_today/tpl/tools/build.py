@@ -907,6 +907,136 @@ if EDL.get("fx_theme") == "tile":
 .kpbar {{ height: 26px; background: url("{TILE_SVG}") 0 0 / 26px 26px repeat-x; border: 3px solid #111; border-radius: 4px; }}
 """
 
+# Owner (25 Nov, Sejadah Myna: "Tak nak motion style lama, buat motion style baru sesuai dengan vibe content produk"):
+# "mihrab" motion — calm and devotional like the prayer mat itself. A thin gold mihrab arch draws itself, an
+# eight-point star turns in at its apex, serif lines rise out of a mask one by one, gold dividers open from the centre
+# and a soft light sweep crosses each plaque; nothing pops or bounces. EDL "mh": [{type: hook|point|list|cta, ...}]
+# (anchors as for fx). Palette from the mat: emerald / deep teal, warm gold, ivory.
+MH = EDL.get("mh", [])
+MH_GOLD, MH_GOLD2, MH_IVORY = "#D8B46A", "#F4E2AE", "#FBF6EA"
+STAR8 = ("M50 2 L61 25 L86 14 L75 39 L98 50 L75 61 L86 86 L61 75 L50 98 L39 75 L14 86 L25 61 L2 50 L25 39 L14 14 L39 25 Z")
+ARCH = "M 40 520 L 40 250 C 40 120 150 60 210 30 Q 250 10 290 30 C 350 60 460 120 460 250 L 460 520"
+
+
+def mh_lines(mid, lines, hot):
+    out = []
+    for i, ln in enumerate(lines):
+        ws = " ".join(f'<span class="{"mhhot" if norm(w) in hot else ""}">{html.escape(w)}</span>' for w in ln.split())
+        out.append(f'<div class="mhmask"><div class="mhl" id="{mid}l{i}">{ws}</div></div>')
+    return "".join(out)
+
+
+for k, m in enumerate(MH):
+    mid = f"mh{k}"
+    t0, t1 = q(anchor(m["from"])), q(min(anchor(m["to"]), TOTAL))
+    if t1 - t0 < 0.5:
+        continue
+    d = q(t1 - t0)
+    hot = {norm(w) for w in m.get("hi", [])}
+    typ = m["type"]
+    if typ == "hook":
+        lines = m["lines"]
+        inner = (f'<div class="mhhook" id="{mid}" style="top:{m.get("y", 120)}px">'
+                 f'<svg class="mharch" viewBox="0 0 500 540" preserveAspectRatio="none"><path id="{mid}a" d="{ARCH}" pathLength="1"/></svg>'
+                 f'<svg class="mhstar" id="{mid}s" viewBox="0 0 100 100"><path d="{STAR8}"/></svg>'
+                 f'<div class="mhkick" id="{mid}k">{html.escape(m.get("kicker", ""))}</div>'
+                 f'{mh_lines(mid, lines, hot)}<div class="mhdiv" id="{mid}d"><i></i><b></b><i></i></div>'
+                 + (f'<div class="mhsub" id="{mid}u">{html.escape(m["sub"])}</div>' if m.get("sub") else "") + '</div>')
+        card(f"ov-{mid}", t0, t1, inner)
+        gfx_js.append(f'tl.fromTo("#{mid}a", {{ strokeDashoffset: 1 }}, {{ strokeDashoffset: 0, duration: 1.1, ease: "power2.inOut" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{mid}s", {{ opacity: 0, rotation: -90, scale: 0.3 }}, {{ opacity: 1, rotation: 0, scale: 1, duration: 0.9, ease: "power3.out" }}, {q(t0 + 0.2)});')
+        gfx_js.append(f'tl.to("#{mid}s", {{ rotation: 45, duration: {q(max(0.5, d - 1.1))}, ease: "none" }}, {q(t0 + 1.1)});')
+        gfx_js.append(f'tl.fromTo("#{mid}k", {{ opacity: 0, letterSpacing: "22px" }}, {{ opacity: 1, letterSpacing: "8px", duration: 0.8, ease: "power2.out" }}, {q(t0 + 0.25)});')
+        for i in range(len(lines)):
+            gfx_js.append(f'tl.fromTo("#{mid}l{i}", {{ yPercent: 110, opacity: 0 }}, {{ yPercent: 0, opacity: 1, duration: 0.75, ease: "power4.out" }}, {q(t0 + 0.4 + 0.18 * i)});')
+        gfx_js.append(f'tl.fromTo("#{mid}d", {{ scaleX: 0, opacity: 0 }}, {{ scaleX: 1, opacity: 1, duration: 0.7, ease: "power3.inOut" }}, {q(t0 + 0.6 + 0.18 * len(lines))});')
+        if m.get("sub"):
+            gfx_js.append(f'tl.fromTo("#{mid}u", {{ opacity: 0, y: 14, filter: "blur(6px)" }}, {{ opacity: 1, y: 0, filter: "blur(0px)", duration: 0.6, ease: "power2.out" }}, {q(t0 + 0.85 + 0.18 * len(lines))});')
+        gfx_js.append(f'tl.fromTo("#{mid}", {{ scale: 1 }}, {{ scale: 1.035, duration: {d}, ease: "none", immediateRender: false }}, {t0});')
+        add_sfx("chime", t0, 0.22)
+    elif typ in ("point", "list"):
+        items = m.get("items") or [{"text": m["text"], "at": m["from"]}]
+        rows = "".join(
+            f'<div class="mhrow" id="{mid}r{i}"><svg class="mhs" id="{mid}s{i}" viewBox="0 0 100 100"><path d="{STAR8}"/></svg>'
+            f'<span class="mht" id="{mid}t{i}">{html.escape(it["text"])}</span><span class="mhsweep" id="{mid}w{i}"></span></div>'
+            for i, it in enumerate(items))
+        side = m.get("side", "left")
+        inner = (f'<div class="mhlist mh{side}" id="{mid}" style="top:{m.get("y", 200)}px">'
+                 f'<div class="mhrail" id="{mid}g"></div>{rows}</div>')
+        card(f"ov-{mid}", t0, t1, inner)
+        gfx_js.append(f'tl.fromTo("#{mid}g", {{ scaleY: 0 }}, {{ scaleY: 1, duration: {q(min(0.9, 0.35 + 0.25 * len(items)))}, ease: "power2.inOut" }}, {t0});')
+        for i, it in enumerate(items):
+            ti = q(max(t0, anchor(it["at"])) if i else t0 + 0.1)
+            gfx_js.append(f'tl.fromTo("#{mid}r{i}", {{ clipPath: "inset(0 100% 0 0)", x: {-30 if side == "left" else 30} }}, {{ clipPath: "inset(0 0% 0 0)", x: 0, duration: 0.7, ease: "power3.out" }}, {ti});')
+            gfx_js.append(f'tl.fromTo("#{mid}s{i}", {{ rotation: -120, scale: 0.2, opacity: 0 }}, {{ rotation: 0, scale: 1, opacity: 1, duration: 0.7, ease: "power3.out" }}, {ti});')
+            gfx_js.append(f'tl.fromTo("#{mid}t{i}", {{ opacity: 0, y: 18, filter: "blur(6px)" }}, {{ opacity: 1, y: 0, filter: "blur(0px)", duration: 0.55, ease: "power2.out" }}, {q(ti + 0.15)});')
+            gfx_js.append(f'tl.fromTo("#{mid}w{i}", {{ xPercent: -120 }}, {{ xPercent: 520, duration: 1.1, ease: "power1.inOut" }}, {q(ti + 0.45)});')
+            add_sfx("sparkle", ti, 0.12)
+        gfx_js.append(f'tl.fromTo("#{mid}", {{ y: 0 }}, {{ y: -12, duration: {d}, ease: "sine.inOut", immediateRender: false }}, {t0});')
+    elif typ == "cta":
+        inner = (f'<div class="mhcta" id="{mid}" style="top:{m.get("y", 110)}px">'
+                 f'<svg class="mharch" viewBox="0 0 500 540" preserveAspectRatio="none"><path id="{mid}a" d="{ARCH}" pathLength="1"/></svg>'
+                 f'<svg class="mhstar" id="{mid}s" viewBox="0 0 100 100"><path d="{STAR8}"/></svg>'
+                 f'<div class="mhtag" id="{mid}g">{html.escape(m.get("tag", "BEG KUNING"))}</div>'
+                 f'{mh_lines(mid, m["lines"], hot)}<div class="mhdiv" id="{mid}d"><i></i><b></b><i></i></div>'
+                 f'<div class="mhsub" id="{mid}u">{html.escape(m.get("sub", ""))}</div></div>')
+        card(f"ov-{mid}", t0, t1, inner)
+        gfx_js.append(f'tl.fromTo("#{mid}", {{ opacity: 0, filter: "blur(14px)" }}, {{ opacity: 1, filter: "blur(0px)", duration: 0.6, ease: "power2.out" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{mid}a", {{ strokeDashoffset: 1 }}, {{ strokeDashoffset: 0, duration: 1.0, ease: "power2.inOut" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{mid}s", {{ opacity: 0, rotation: -90, scale: 0.3 }}, {{ opacity: 1, rotation: 0, scale: 1, duration: 0.8, ease: "power3.out" }}, {q(t0 + 0.2)});')
+        gfx_js.append(f'tl.to("#{mid}s", {{ rotation: 45, duration: {q(max(0.5, d - 1.0))}, ease: "none" }}, {q(t0 + 1.0)});')
+        gfx_js.append(f'tl.fromTo("#{mid}g", {{ opacity: 0, scale: 0.8 }}, {{ opacity: 1, scale: 1, duration: 0.5, ease: "power2.out" }}, {q(t0 + 0.3)});')
+        for i in range(len(m["lines"])):
+            gfx_js.append(f'tl.fromTo("#{mid}l{i}", {{ yPercent: 110, opacity: 0 }}, {{ yPercent: 0, opacity: 1, duration: 0.7, ease: "power4.out" }}, {q(t0 + 0.45 + 0.16 * i)});')
+        gfx_js.append(f'tl.fromTo("#{mid}d", {{ scaleX: 0 }}, {{ scaleX: 1, duration: 0.6, ease: "power3.inOut" }}, {q(t0 + 0.8)});')
+        gfx_js.append(f'tl.fromTo("#{mid}u", {{ opacity: 0, y: 12 }}, {{ opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }}, {q(t0 + 0.95)});')
+        gfx_js.append(f'tl.fromTo("#{mid}g", {{ boxShadow: "0 0 0px rgba(216,180,106,0)" }}, {{ boxShadow: "0 0 34px rgba(244,226,174,.9)", duration: 0.9, ease: "sine.inOut", yoyo: true, repeat: {max(1, int((d - 1.2) / 0.9))}, immediateRender: false }}, {q(t0 + 1.0)});')
+        add_sfx("chime", t0, 0.22)
+    if t1 < TOTAL - 0.05:
+        gfx_js.append(f'tl.to("#{mid}", {{ opacity: 0, y: -16, filter: "blur(8px)", duration: 0.35, ease: "power2.in" }}, {q(t1 - 0.35)});')
+if MH:
+    FX_CSS += f"""
+@font-face {{ font-family: "Playfair Display"; src: url("assets/fonts/PlayfairDisplay-700-latin.woff2") format("woff2"); font-weight: 700; font-display: block; }}
+@font-face {{ font-family: "Cormorant Garamond"; src: url("assets/fonts/CormorantGaramond-600-latin.woff2") format("woff2"); font-weight: 600; font-display: block; }}
+.mhhook, .mhcta {{ position: absolute; left: 90px; right: 90px; padding: 150px 40px 46px; text-align: center; }}
+.mhhook::before, .mhcta::before {{ content: ""; position: absolute; inset: 0; border-radius: 440px 440px 28px 28px;
+  background: radial-gradient(120% 90% at 50% 0%, rgba(16,92,80,.92) 0%, rgba(9,52,47,.94) 60%, rgba(6,34,31,.96) 100%);
+  box-shadow: 0 24px 60px rgba(0,0,0,.45), inset 0 0 0 2px rgba(216,180,106,.35); }}
+.mharch {{ position: absolute; inset: -14px; width: calc(100% + 28px); height: calc(100% + 28px); overflow: visible; }}
+.mharch path {{ fill: none; stroke: {MH_GOLD}; stroke-width: 3.2; stroke-dasharray: 1; stroke-dashoffset: 1;
+  filter: drop-shadow(0 0 6px rgba(244,226,174,.75)); }}
+.mhstar {{ position: absolute; left: 50%; top: 34px; width: 84px; height: 84px; margin-left: -42px; overflow: visible; }}
+.mhstar path, .mhs path {{ fill: none; stroke: {MH_GOLD}; stroke-width: 5; stroke-linejoin: round; filter: drop-shadow(0 0 6px rgba(244,226,174,.8)); }}
+.mhkick {{ position: relative; font-family: "Cormorant Garamond"; font-weight: 600; font-size: 40px; letter-spacing: 8px; color: {MH_GOLD2};
+  text-transform: uppercase; margin-bottom: 10px; }}
+.mhmask {{ position: relative; overflow: hidden; padding: 0 0 6px; }}
+.mhl {{ font-family: "Playfair Display"; font-weight: 700; font-size: 84px; line-height: 1.08; color: {MH_IVORY};
+  text-shadow: 0 4px 18px rgba(0,0,0,.35); }}
+.mhl .mhhot {{ background: linear-gradient(180deg, {MH_GOLD2} 0%, {MH_GOLD} 60%, #B98E44 100%); -webkit-background-clip: text; background-clip: text;
+  color: transparent; text-shadow: none; filter: drop-shadow(0 3px 10px rgba(0,0,0,.35)); }}
+.mhdiv {{ position: relative; display: flex; align-items: center; justify-content: center; gap: 16px; margin: 22px auto 0; width: 70%; }}
+.mhdiv i {{ flex: 1; height: 3px; background: linear-gradient(90deg, rgba(216,180,106,0), {MH_GOLD}); }}
+.mhdiv i:last-child {{ background: linear-gradient(90deg, {MH_GOLD}, rgba(216,180,106,0)); }}
+.mhdiv b {{ width: 18px; height: 18px; background: {MH_GOLD}; transform: rotate(45deg); box-shadow: 0 0 12px rgba(244,226,174,.9); }}
+.mhsub {{ position: relative; margin-top: 18px; font-family: "Cormorant Garamond"; font-weight: 600; font-size: 46px; color: {MH_GOLD2}; letter-spacing: 1px; }}
+.mhtag {{ position: relative; display: inline-block; padding: 10px 36px; margin-bottom: 18px; border-radius: 999px; background: linear-gradient(180deg, {MH_GOLD2}, {MH_GOLD});
+  color: #10332E; font-family: "Montserrat"; font-weight: 800; font-size: 38px; letter-spacing: 4px; }}
+.mhlist {{ position: absolute; display: flex; flex-direction: column; gap: 20px; }}
+.mhlist.mhleft {{ left: 56px; padding-left: 30px; align-items: flex-start; }}
+.mhlist.mhright {{ right: 56px; padding-right: 30px; align-items: flex-end; }}
+.mhrail {{ position: absolute; top: 0; bottom: 0; width: 3px; transform-origin: 50% 0%;
+  background: linear-gradient(180deg, {MH_GOLD2}, {MH_GOLD} 70%, rgba(216,180,106,0)); }}
+.mhleft .mhrail {{ left: 0; }} .mhright .mhrail {{ right: 0; }}
+.mhrow {{ position: relative; display: flex; align-items: center; gap: 20px; padding: 18px 40px 18px 22px; overflow: hidden; border-radius: 16px 60px 60px 16px;
+  background: linear-gradient(100deg, rgba(14,86,75,.94), rgba(7,44,40,.94)); border: 2px solid rgba(216,180,106,.75);
+  box-shadow: 0 14px 34px rgba(0,0,0,.4); }}
+.mhright .mhrow {{ border-radius: 60px 16px 16px 60px; }}
+.mhs {{ width: 50px; height: 50px; flex: none; overflow: visible; }}
+.mht {{ font-family: "Playfair Display"; font-weight: 700; font-size: 58px; color: {MH_IVORY}; white-space: nowrap; letter-spacing: .5px; }}
+.mhsweep {{ position: absolute; top: 0; bottom: 0; left: 0; width: 22%; pointer-events: none;
+  background: linear-gradient(100deg, rgba(255,255,255,0), rgba(255,244,214,.45), rgba(255,255,255,0)); transform: skewX(-18deg); }}
+"""
+
 HOTW = {norm(k) for k in EDL.get("keywords", []) + EDL.get("brand_words", [])}
 # ── 5. Captions ────────────────────────────────────────────────────────────
 # Owner (21 Oct): split-flap "departure board" captions like the reference video —

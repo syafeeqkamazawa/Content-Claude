@@ -178,7 +178,8 @@ def main(key, media=True):
     srcn = spec.get("srcnote", "VID_20261121_120947")
     write(P, 1, f"{srcn} {a0}-{spec['range'][1]} s (videos/_today/tools/make.py)", segs, zoom=1.0, origin="50% 42%",
           broll=broll, photos=[{"id": pid, "from": f, "to": to, "note": "AI: " + pr[:90]} for pid, f, to, pr in spec.get("ai", [])
-                               if (P / f"assets/photos/{pid}.jpg").exists()], kps=[kp(k0[0], k0[1], k0[2], k0[3], "zoom", k0[4] if len(k0) > 4 else 200, k0[5] if len(k0) > 5 else 100)],
+                               if (P / f"assets/photos/{pid}.jpg").exists()],
+          kps=[] if spec.get("mh") else [kp(k0[0], k0[1], k0[2], k0[3], "zoom", k0[4] if len(k0) > 4 else 200, k0[5] if len(k0) > 5 else 100)],
           note_extra=" 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.")
     (P / "data/transcript-a.json").write_text(json.dumps(tr, ensure_ascii=False))
     e = json.loads((P / "data/edl.json").read_text())
@@ -186,6 +187,7 @@ def main(key, media=True):
     e["word"] = {"font": "Rubik Mono One", "size": 50, "top": 1243, "halo": False, "fill": pal.get("cap", "#FFFFFF"),
                  "stroke": pal.get("dark", "#121212"), "hot": pal["key"]}
     e["fx"] = spec.get("fx", [])
+    e["mh"] = spec.get("mh", [])   # 25 Nov "mihrab" motion (Sejadah Myna), replaces kp/fx when set
     e["theme"] = {"key": pal["key"], "brand": "#FFFFFF"}
     e["pal"] = pal
     e["fs_style"] = "cut"
