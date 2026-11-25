@@ -1,0 +1,287 @@
+{
+ "pieces": [
+  [
+   3.74,
+   29.9
+  ],
+  [
+   30.01,
+   33.23
+  ],
+  [
+   33.48,
+   37.32
+  ],
+  [
+   37.53,
+   47.66
+  ],
+  [
+   47.72,
+   50.28
+  ],
+  [
+   50.36,
+   58.86
+  ],
+  [
+   62.69,
+   63.63
+  ],
+  [
+   71.96,
+   74.44
+  ],
+  [
+   74.49,
+   76.11
+  ],
+  [
+   77.1,
+   79.28
+  ],
+  [
+   79.64,
+   80.97
+  ],
+  [
+   82.78,
+   83.88
+  ],
+  [
+   89.26,
+   91.47
+  ],
+  [
+   143.94,
+   153.2
+  ],
+  [
+   153.76,
+   156.56
+  ],
+  [
+   156.98,
+   158.48
+  ],
+  [
+   179.84,
+   181.58
+  ],
+  [
+   181.68,
+   199.21
+  ],
+  [
+   212.54,
+   234.35
+  ],
+  [
+   234.64,
+   240.72
+  ]
+ ],
+ "total": 126.99,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    3.74,
+    29.9
+   ],
+   "e0": 0.0,
+   "e1": 26.16,
+   "text": "Anak korang pun sama ke? Kalau pegang telefon tu memang susah betul nak lepas kan? Kadang-kadang kita bagi je, kadang-kadang kita bagi telefon tu sebab apa? Sebab kita nak buat kerja lain. Jadi kita nak mudahkan kerja kita, kita bagi telefon. Tapi sebenarnya bahaya juga sebenarnya kan? Risau juga sebab bila anak asyik cari telefon dia setiap kali bosan."
+  },
+  {
+   "id": "S2",
+   "src": [
+    30.01,
+    33.23
+   ],
+   "e0": 26.16,
+   "e1": 29.38,
+   "text": "bila tak dapat phone, mengamuk."
+  },
+  {
+   "id": "S3",
+   "src": [
+    33.48,
+    37.32
+   ],
+   "e0": 29.38,
+   "e1": 33.22,
+   "text": "Itu untuk long term. Dia memang bahaya kan?"
+  },
+  {
+   "id": "S4",
+   "src": [
+    37.53,
+    47.66
+   ],
+   "e0": 33.22,
+   "e1": 43.35,
+   "text": "Sebab tu saya rasa kena ada aktiviti lain yang boleh tarik perhatian dia, yang boleh alihkan masa dia dengar telefon tu. Macam buku ni lah."
+  },
+  {
+   "id": "S5",
+   "src": [
+    47.72,
+    50.28
+   ],
+   "e0": 43.35,
+   "e1": 45.91,
+   "text": "Macam buku Leveled reading ni."
+  },
+  {
+   "id": "S6",
+   "src": [
+    50.36,
+    58.86
+   ],
+   "e0": 45.91,
+   "e1": 54.41,
+   "text": "Buku ni kan memang sangat best tau. Sebab apa? Sebab bila anak tekan dekat gambar atau perkataan dia boleh dengar bunyi bunyi tau."
+  },
+  {
+   "id": "S7",
+   "src": [
+    62.69,
+    63.63
+   ],
+   "e0": 54.41,
+   "e1": 55.35,
+   "text": "Tengok"
+  },
+  {
+   "id": "S8",
+   "src": [
+    71.96,
+    74.44
+   ],
+   "e0": 55.35,
+   "e1": 57.83,
+   "text": ""
+  },
+  {
+   "id": "S9",
+   "src": [
+    74.49,
+    76.11
+   ],
+   "e0": 57.83,
+   "e1": 59.45,
+   "text": ""
+  },
+  {
+   "id": "S10",
+   "src": [
+    77.1,
+    79.28
+   ],
+   "e0": 59.45,
+   "e1": 61.63,
+   "text": "Tengok macam ni macam ni kan."
+  },
+  {
+   "id": "S11",
+   "src": [
+    79.64,
+    80.97
+   ],
+   "e0": 61.63,
+   "e1": 62.96,
+   "text": "Contoh,"
+  },
+  {
+   "id": "S12",
+   "src": [
+    82.78,
+    83.88
+   ],
+   "e0": 62.96,
+   "e1": 64.06,
+   "text": "tekan Go,"
+  },
+  {
+   "id": "S13",
+   "src": [
+    89.26,
+    91.47
+   ],
+   "e0": 64.06,
+   "e1": 66.27,
+   "text": "Go, tekan ni."
+  },
+  {
+   "id": "S14",
+   "src": [
+    143.94,
+    153.2
+   ],
+   "e0": 66.27,
+   "e1": 75.53,
+   "text": "So, dalam ni Ada tujuh belas cerita Lebih dua ratus perkataan Dan bahasa Inggeris Siap ada lagu kanak-kanak lagi"
+  },
+  {
+   "id": "S15",
+   "src": [
+    153.76,
+    156.56
+   ],
+   "e0": 75.53,
+   "e1": 78.33,
+   "text": "Biar kita dengar lagu pulak Dengar lagu"
+  },
+  {
+   "id": "S16",
+   "src": [
+    156.98,
+    158.48
+   ],
+   "e0": 78.33,
+   "e1": 79.83,
+   "text": "Tekan go"
+  },
+  {
+   "id": "S17",
+   "src": [
+    179.84,
+    181.58
+   ],
+   "e0": 79.83,
+   "e1": 81.57,
+   "text": "So guys"
+  },
+  {
+   "id": "S18",
+   "src": [
+    181.68,
+    199.21
+   ],
+   "e0": 81.57,
+   "e1": 99.1,
+   "text": "Bila ada buku macam ni Bolehlah kita pun duduk sekali dengan anak-anak Ajar dia cara nak tekan Kan, buat tekan kat mana Dengar So macam Orang kata masa kualiti dengan keluarga tu pun Lebih banyak lah Kan Boleh ajak dia tekan sekali Dengar dan sebut sama-sama"
+  },
+  {
+   "id": "S19",
+   "src": [
+    212.54,
+    234.35
+   ],
+   "e0": 99.1,
+   "e1": 120.91,
+   "text": "Tapi bukanlah maksudnya terus Tak bagi anak Guna telefon Tapi sekurang-kurangnya Ada pilihan aktiviti lain Dan masa dia Tak Seratus peratus Dengan telefon kan So kalau Ibu ayah tengah cari buku Interaktif untuk anak-anak Boleh tengok dekat beg kuning sekarang Sebab seller pun Tengah buat harga promo tau Promo banyak"
+  },
+  {
+   "id": "S20",
+   "src": [
+    234.64,
+    240.72
+   ],
+   "e0": 120.91,
+   "e1": 126.99,
+   "text": "Macam-macam promo sekarang ni Okay Sementara harga tengah murah Ibu ayah boleh dapatkan terus Di beg kuning Okay"
+  }
+ ]
+}

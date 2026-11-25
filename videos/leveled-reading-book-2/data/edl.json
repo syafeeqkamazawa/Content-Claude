@@ -1,0 +1,585 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#1D3A8A",
+  "hot": "#FFC531"
+ },
+ "fs_style": "cut",
+ "mirror": true,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Buku Leveled Reading #2 — from VID_20261125 212521 + 212738 (B-roll) 0.0-310.97 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the book reading its pages on its own (91-144 s, no speech of his), the song running on and 'shoulder ni' (164.5-180), two false starts of 'tapi bukanlah maksudnya terus...' (202-212.7; the third take is kept) and the trailing noise after the CTA. Pieces: 20, total 126.99 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 26.16,
+   "text": "Anak korang pun sama ke? Kalau pegang telefon tu memang susah betul nak lepas kan? Kadang-kadang kita bagi je, kadang-kadang kita bagi telefon tu sebab apa? Sebab kita nak buat kerja lain. Jadi kita nak mudahkan kerja kita, kita bagi telefon. Tapi sebenarnya bahaya juga sebenarnya kan? Risau juga sebab bila anak asyik cari telefon dia setiap kali bosan.",
+   "note": "src 3.74-29.90",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 26.16,
+   "out": 29.38,
+   "text": "bila tak dapat phone, mengamuk.",
+   "note": "src 30.01-33.23",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 29.38,
+   "out": 33.22,
+   "text": "Itu untuk long term. Dia memang bahaya kan?",
+   "note": "src 33.48-37.32",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 33.22,
+   "out": 43.35,
+   "text": "Sebab tu saya rasa kena ada aktiviti lain yang boleh tarik perhatian dia, yang boleh alihkan masa dia dengan telefon tu. Macam buku ni lah.",
+   "note": "src 37.53-47.66",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 43.35,
+   "out": 45.91,
+   "text": "Macam buku Leveled reading ni.",
+   "note": "src 47.72-50.28",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 45.91,
+   "out": 54.41,
+   "text": "Buku ni kan memang sangat best tau. Sebab apa? Sebab bila anak tekan dekat gambar atau perkataan dia boleh dengar bunyi tau.",
+   "note": "src 50.36-58.86",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 54.41,
+   "out": 55.35,
+   "text": "Tengok",
+   "note": "src 62.69-63.63",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 55.35,
+   "out": 57.83,
+   "text": ".",
+   "note": "src 71.96-74.44",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 57.83,
+   "out": 59.45,
+   "text": ".",
+   "note": "src 74.49-76.11",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 59.45,
+   "out": 61.63,
+   "text": "Tengok macam ni macam ni kan.",
+   "note": "src 77.10-79.28",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 61.63,
+   "out": 62.96,
+   "text": "Contoh,",
+   "note": "src 79.64-80.97",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 62.96,
+   "out": 64.06,
+   "text": "tekan Go,",
+   "note": "src 82.78-83.88",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 64.06,
+   "out": 66.27,
+   "text": "Go, tekan ni.",
+   "note": "src 89.26-91.47",
+   "zoom": 1.0
+  },
+  {
+   "id": "S14",
+   "in": 66.27,
+   "out": 75.53,
+   "text": "So, dalam ni Ada tujuh belas cerita Lebih dua ratus perkataan Dan bahasa Inggeris Siap ada lagu kanak-kanak lagi",
+   "note": "src 143.94-153.20",
+   "zoom": 1.06
+  },
+  {
+   "id": "S15",
+   "in": 75.53,
+   "out": 78.33,
+   "text": "Biar kita dengar lagu pulak Dengar lagu",
+   "note": "src 153.76-156.56",
+   "zoom": 1.0
+  },
+  {
+   "id": "S16",
+   "in": 78.33,
+   "out": 79.83,
+   "text": "Tekan go",
+   "note": "src 156.98-158.48",
+   "zoom": 1.06
+  },
+  {
+   "id": "S17",
+   "in": 79.83,
+   "out": 81.57,
+   "text": "So guys",
+   "note": "src 179.84-181.58",
+   "zoom": 1.0
+  },
+  {
+   "id": "S18",
+   "in": 81.57,
+   "out": 99.1,
+   "text": "Bila ada buku macam ni Bolehlah kita pun duduk sekali dengan anak-anak Ajar dia cara nak tekan Kan, buat tekan kat mana Dengar So macam Orang kata masa kualiti dengan keluarga tu pun Lebih banyak lah Kan Boleh ajak dia tekan sekali Dengar dan sebut sama-sama",
+   "note": "src 181.68-199.21",
+   "zoom": 1.06
+  },
+  {
+   "id": "S19",
+   "in": 99.1,
+   "out": 120.91,
+   "text": "Tapi bukanlah maksudnya terus Tak bagi anak Guna telefon Tapi sekurang-kurangnya Ada pilihan aktiviti lain Dan masa dia Tak Seratus peratus Dengan telefon kan So kalau Ibu ayah tengah cari buku Interaktif untuk anak-anak Boleh tengok dekat beg kuning sekarang Sebab seller pun Tengah buat harga promo tau Promo banyak",
+   "note": "src 212.54-234.35",
+   "zoom": 1.0
+  },
+  {
+   "id": "S20",
+   "in": 120.91,
+   "out": 126.99,
+   "text": "Macam-macam promo sekarang ni Okay Sementara harga tengah murah Ibu ayah boleh dapatkan terus Di beg kuning Okay",
+   "note": "src 234.64-240.72",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "Macam#2"
+   ],
+   "to": [
+    "*",
+    "Sebab#6"
+   ],
+   "src": 245.7,
+   "note": "the book cover (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "Sebab#6"
+   ],
+   "to": [
+    "*",
+    "Tengok#1"
+   ],
+   "src": 271.2,
+   "note": "a finger pressing the pet / bat page (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "tujuh#1"
+   ],
+   "to": [
+    "*",
+    "Siap#1"
+   ],
+   "src": 279.2,
+   "note": "the story pages (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "*",
+    "Siap#1"
+   ],
+   "to": [
+    "*",
+    "Tekan#4"
+   ],
+   "src": 257.2,
+   "note": "the children's songs page (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "*",
+    "Boleh#4"
+   ],
+   "to": [
+    "*",
+    "Tapi#2"
+   ],
+   "src": 283.5,
+   "note": "pressing the 'A beautiful dream' page (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C6",
+   "from": [
+    "*",
+    "So#4"
+   ],
+   "to": [
+    "*",
+    "Sebab#7"
+   ],
+   "src": 251.7,
+   "note": "the cover and the ABC page (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C7",
+   "from": [
+    "*",
+    "Sementara#1"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 305.2,
+   "note": "the book cover (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Kalau#1"
+   ],
+   "to": [
+    "*",
+    "Kadang-kadang#1"
+   ],
+   "note": "AI: A Malaysian boy about five slumped on a sofa staring at a smartphone, the screen glow on h"
+  },
+  {
+   "id": "A2",
+   "from": [
+    "*",
+    "Sebab#2"
+   ],
+   "to": [
+    "*",
+    "Tapi#1"
+   ],
+   "note": "AI: A busy Malaysian mother working on her laptop at the dining table while her young daughter"
+  },
+  {
+   "id": "A3",
+   "from": [
+    "*",
+    "bila#2"
+   ],
+   "to": [
+    "*",
+    "Itu#1"
+   ],
+   "note": "AI: A Malaysian boy about four crying in a tantrum on the living-room floor after his phone wa"
+  },
+  {
+   "id": "A4",
+   "from": [
+    "*",
+    "Orang#1"
+   ],
+   "to": [
+    "*",
+    "Boleh#4"
+   ],
+   "note": "AI: A Malaysian mother and father sitting on the living-room rug with their young son and daug"
+  }
+ ],
+ "theme": {
+  "key": "#FFC531",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "leveled",
+  "reading"
+ ],
+ "keywords": [
+  "telefon",
+  "phone",
+  "bahaya",
+  "mengamuk",
+  "aktiviti",
+  "bunyi",
+  "cerita",
+  "perkataan",
+  "lagu",
+  "kualiti",
+  "keluarga",
+  "promo",
+  "murah",
+  "kuning"
+ ],
+ "fx": [],
+ "mh": [],
+ "jm": [],
+ "sb": [
+  {
+   "type": "hook",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "Kadang-kadang#1"
+   ],
+   "blocks": "TELEFON",
+   "line": "Anak susah nak lepas?",
+   "y": 150
+  },
+  {
+   "type": "bubble",
+   "from": [
+    "*",
+    "Itu#1"
+   ],
+   "to": [
+    "*",
+    "Sebab#4"
+   ],
+   "text": "Bahaya untuk long term",
+   "y": 260,
+   "color": "#F2483C"
+  },
+  {
+   "type": "bubble",
+   "from": [
+    "*",
+    "aktiviti#1"
+   ],
+   "to": [
+    "*",
+    "Macam#2"
+   ],
+   "text": "Perlu aktiviti lain!",
+   "y": 260,
+   "side": "left",
+   "color": "#3DBE5A"
+  },
+  {
+   "type": "bubble",
+   "from": [
+    "*",
+    "tekan#1"
+   ],
+   "to": [
+    "*",
+    "Tengok#1"
+   ],
+   "text": "Tekan & dengar bunyi",
+   "y": 260,
+   "color": "#2E9BF0"
+  },
+  {
+   "type": "bubble",
+   "from": [
+    "*",
+    "tujuh#1"
+   ],
+   "to": [
+    "*",
+    "Lebih#1"
+   ],
+   "text": "17 cerita",
+   "y": 260,
+   "side": "left",
+   "color": "#FF5D8F"
+  },
+  {
+   "type": "bubble",
+   "from": [
+    "*",
+    "Lebih#1"
+   ],
+   "to": [
+    "*",
+    "Siap#1"
+   ],
+   "text": "200+ perkataan",
+   "y": 260,
+   "color": "#8C6CF0"
+  },
+  {
+   "type": "bubble",
+   "from": [
+    "*",
+    "Siap#1"
+   ],
+   "to": [
+    "*",
+    "Tekan#4"
+   ],
+   "text": "Lagu kanak-kanak",
+   "y": 260,
+   "side": "left",
+   "color": "#FFC531"
+  },
+  {
+   "type": "bubble",
+   "from": [
+    "*",
+    "kualiti#1"
+   ],
+   "to": [
+    "*",
+    "Boleh#4"
+   ],
+   "text": "Masa berkualiti",
+   "y": 260,
+   "color": "#FF5D8F"
+  },
+  {
+   "type": "bubble",
+   "from": [
+    "*",
+    "Boleh#4"
+   ],
+   "to": [
+    "*",
+    "Tapi#2"
+   ],
+   "text": "Dengar & sebut sama-sama",
+   "y": 260,
+   "side": "left",
+   "color": "#2E9BF0"
+  },
+  {
+   "type": "bubble",
+   "from": [
+    "*",
+    "sekurang-kurangnya#1"
+   ],
+   "to": [
+    "*",
+    "So#4"
+   ],
+   "text": "Ada pilihan aktiviti lain",
+   "y": 260,
+   "color": "#3DBE5A"
+  },
+  {
+   "type": "bubble",
+   "from": [
+    "*",
+    "harga#1"
+   ],
+   "to": [
+    "*",
+    "Sementara#1"
+   ],
+   "text": "Harga promo!",
+   "y": 260,
+   "side": "left",
+   "color": "#F2483C"
+  },
+  {
+   "type": "cta",
+   "from": [
+    "*",
+    "Sementara#1"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "lines": [
+    "Harga promo,",
+    "beli sekarang!"
+   ],
+   "sub": "Sementara harga tengah murah",
+   "y": 200
+  }
+ ],
+ "pal": {
+  "key": "#FFC531",
+  "bg": "rgba(29,58,138,.92)",
+  "ink": "#FFFFFF",
+  "dark": "#1D3A8A",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

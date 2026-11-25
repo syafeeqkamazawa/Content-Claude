@@ -1243,17 +1243,17 @@ if SB:
 .sbhook { position: absolute; left: 30px; right: 30px; text-align: center; perspective: 900px; }
 .sbblks { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px 26px; }
 .sbbw { display: inline-flex; gap: 8px; }
-.sbblk { display: inline-block; width: 92px; height: 104px; line-height: 104px; border-radius: 20px; font-family: "Fredoka"; font-weight: 700;
-  font-size: 84px; color: #fff; text-align: center; box-shadow: inset 0 -10px 0 rgba(0,0,0,.18), 0 10px 22px rgba(0,0,0,.28);
+.sbblk { display: inline-block; width: 118px; height: 134px; line-height: 134px; border-radius: 24px; font-family: "Fredoka"; font-weight: 700;
+  font-size: 108px; color: #fff; text-align: center; box-shadow: inset 0 -10px 0 rgba(0,0,0,.18), 0 10px 22px rgba(0,0,0,.28);
   text-shadow: 0 4px 0 rgba(0,0,0,.18); transform-origin: 50% 0%; }
 .sbline { display: inline-block; margin-top: 22px; padding: 12px 34px; border-radius: 999px; background: #fff; color: #1D3A8A;
-  font-family: "Fredoka"; font-weight: 700; font-size: 58px; box-shadow: 0 10px 24px rgba(0,0,0,.25); }
+  font-family: "Fredoka"; font-weight: 700; font-size: 66px; box-shadow: 0 10px 24px rgba(0,0,0,.25); }
 .sbsq { display: block; width: 72%; height: 44px; margin: 10px auto 0; overflow: visible; }
 .sbsq path { fill: none; stroke: #FFC531; stroke-width: 10; stroke-linecap: round; stroke-dasharray: 1; stroke-dashoffset: 1;
   filter: drop-shadow(0 3px 0 rgba(0,0,0,.2)); }
 .sbbub { position: absolute; display: flex; align-items: center; gap: 16px; padding: 20px 40px 22px 24px; border-radius: 40px; background: #fff;
   border: 6px solid var(--c); box-shadow: 0 10px 0 var(--c), 0 18px 30px rgba(0,0,0,.25); }
-.sbtxt { font-family: "Fredoka"; font-weight: 700; font-size: 56px; color: #1D2A55; white-space: nowrap; }
+.sbtxt { font-family: "Fredoka"; font-weight: 700; font-size: 62px; color: #1D2A55; white-space: nowrap; }
 .sbtail { position: absolute; bottom: -34px; width: 40px; height: 40px; background: #fff; border-right: 6px solid var(--c); border-bottom: 6px solid var(--c); transform: rotate(45deg); }
 .sbright .sbtail { right: 70px; } .sbleft .sbtail { left: 70px; }
 .sbstar { width: 62px; height: 62px; flex: none; overflow: visible; }

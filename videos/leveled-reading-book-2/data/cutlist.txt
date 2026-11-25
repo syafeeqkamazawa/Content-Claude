@@ -1,0 +1,34 @@
+TOTAL 127.02s  (20 A-roll segments, 7 B-roll shots, 4 photos, 22 audio fx, 279 caption cards)
+
+  0.00- 26.17  S1  src   0.00- 26.16  (1 pc)  Anak korang pun sama ke? Kalau pegang telefon tu memang susah betul nak lepas kan? Kadang-kadang kita bagi je, kadang-kadang kita bagi telefon tu sebab apa? Sebab kita nak buat kerja lain. Jadi kita nak mudahkan kerja kita, kita bagi telefon. Tapi sebenarnya bahaya juga sebenarnya kan? Risau juga sebab bila anak asyik cari telefon dia setiap kali bosan.
+ 26.17- 29.38  S2  src  26.16- 29.38  (1 pc)  bila tak dapat phone, mengamuk.
+ 29.38- 33.22  S3  src  29.38- 33.22  (1 pc)  Itu untuk long term. Dia memang bahaya kan?
+ 33.22- 43.35  S4  src  33.22- 43.35  (1 pc)  Sebab tu saya rasa kena ada aktiviti lain yang boleh tarik perhatian dia, yang boleh alihkan masa dia dengan telefon tu. Macam buku ni lah.
+ 43.35- 45.92  S5  src  43.35- 45.91  (1 pc)  Macam buku Leveled reading ni.
+ 45.92- 54.42  S6  src  45.91- 54.41  (1 pc)  Buku ni kan memang sangat best tau. Sebab apa? Sebab bila anak tekan dekat gambar atau perkataan dia boleh dengar bunyi tau.
+ 54.42- 55.35  S7  src  54.41- 55.35  (1 pc)  Tengok
+ 55.35- 57.83  S8  src  55.35- 57.83  (1 pc)  .
+ 57.83- 59.45  S9  src  57.83- 59.45  (1 pc)  .
+ 59.45- 61.63  S10  src  59.45- 61.63  (1 pc)  Tengok macam ni macam ni kan.
+ 61.63- 62.97  S11  src  61.63- 62.96  (1 pc)  Contoh,
+ 62.97- 64.07  S12  src  62.96- 64.06  (1 pc)  tekan Go,
+ 64.07- 66.28  S13  src  64.06- 66.27  (1 pc)  Go, tekan ni.
+ 66.28- 75.55  S14  src  66.27- 75.53  (1 pc)  So, dalam ni Ada tujuh belas cerita Lebih dua ratus perkataan Dan bahasa Inggeris Siap ada lagu kanak-kanak lagi
+ 75.55- 78.35  S15  src  75.53- 78.33  (1 pc)  Biar kita dengar lagu pulak Dengar lagu
+ 78.35- 79.85  S16  src  78.33- 79.83  (1 pc)  Tekan go
+ 79.85- 81.58  S17  src  79.83- 81.57  (1 pc)  So guys
+ 81.58- 99.12  S18  src  81.57- 99.10  (1 pc)  Bila ada buku macam ni Bolehlah kita pun duduk sekali dengan anak-anak Ajar dia cara nak tekan Kan, buat tekan kat mana Dengar So macam Orang kata masa kualiti dengan keluarga tu pun Lebih banyak lah Kan Boleh ajak dia tekan sekali Dengar dan sebut sama-sama
+ 99.12-120.93  S19  src  99.10-120.91  (1 pc)  Tapi bukanlah maksudnya terus Tak bagi anak Guna telefon Tapi sekurang-kurangnya Ada pilihan aktiviti lain Dan masa dia Tak Seratus peratus Dengan telefon kan So kalau Ibu ayah tengah cari buku Interaktif untuk anak-anak Boleh tengok dekat beg kuning sekarang Sebab seller pun Tengah buat harga promo tau Promo banyak
+120.93-127.02  S20  src 120.91-126.99  (1 pc)  Macam-macam promo sekarang ni Okay Sementara harga tengah murah Ibu ayah boleh dapatkan terus Di beg kuning Okay
+
+  cutaway   4.07-  8.23
+  cutaway  13.37- 19.05
+  cutaway  26.75- 29.55
+  cutaway  43.52- 50.00
+  cutaway  50.00- 54.58
+  cutaway  68.43- 73.23
+  cutaway  73.23- 78.52
+  cutaway  91.07- 94.97
+  cutaway  94.97- 99.18
+  cutaway 109.97-117.67
+  cutaway 122.85-127.02
