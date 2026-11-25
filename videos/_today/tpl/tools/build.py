@@ -1037,6 +1037,139 @@ if MH:
   background: linear-gradient(100deg, rgba(255,255,255,0), rgba(255,244,214,.45), rgba(255,255,255,0)); transform: skewX(-18deg); }}
 """
 
+# Owner (25 Nov, Jam Kaabah — same brief: a new motion style for the product's vibe): "haramain night" clock motion.
+# Midnight navy and lamp gold like the clock face. A gold dial draws itself, its twelve hour marks light up one by one
+# like lamps, the hands sweep round to 10:10 and keep ticking; each point arrives on a small dial whose hand turns
+# once while the words fade in letter by letter; the CTA dial spins fast then settles with a ticking second hand.
+# EDL "jm": [{type: hook|tick|cta, ...}] (anchors as for fx).
+JM = EDL.get("jm", [])
+JM_GOLD, JM_LAMP = "#E3B85A", "#FFE3A3"
+
+
+def jm_dial(did, size, hands=True):
+    ticks = "".join(
+        f'<line id="{did}k{i}" class="jmtk{" jmtk3" if i % 3 == 0 else ""}" x1="{100 + 70 * math.sin(math.radians(i * 30)):.1f}" y1="{100 - 70 * math.cos(math.radians(i * 30)):.1f}" '
+        f'x2="{100 + (84 if i % 3 == 0 else 80) * math.sin(math.radians(i * 30)):.1f}" y2="{100 - (84 if i % 3 == 0 else 80) * math.cos(math.radians(i * 30)):.1f}"/>'
+        for i in range(12))
+    hd = (f'<line id="{did}h" class="jmhh" x1="100" y1="100" x2="100" y2="58"/><line id="{did}m" class="jmmh" x1="100" y1="100" x2="100" y2="32"/>'
+          f'<line id="{did}s" class="jmsh" x1="100" y1="112" x2="100" y2="26"/><circle cx="100" cy="100" r="6" class="jmcd"/>') if hands else ""
+    return (f'<svg class="jmdial" id="{did}" width="{size}" height="{size}" viewBox="0 0 200 200">'
+            f'<circle id="{did}r" class="jmring" cx="100" cy="100" r="92" pathLength="1"/>'
+            f'<circle class="jmface" cx="100" cy="100" r="88"/>{ticks}{hd}</svg>')
+
+
+def jm_chars(cid, text, hot):
+    out, n = [], 0
+    for wi, w in enumerate(text.split()):
+        cls = "jmw jmhot" if norm(w) in hot else "jmw"
+        cs = "".join(f'<span class="jmc" id="{cid}c{n + i}">{html.escape(ch)}</span>' for i, ch in enumerate(w))
+        n += len(w)
+        out.append(f'<span class="{cls}">{cs}</span>')
+    return " ".join(out), n
+
+
+for k, m in enumerate(JM):
+    jid = f"jm{k}"
+    t0, t1 = q(anchor(m["from"])), q(min(anchor(m["to"]), TOTAL))
+    if t1 - t0 < 0.5:
+        continue
+    d = q(t1 - t0)
+    hot = {norm(w) for w in m.get("hi", [])}
+    typ = m["type"]
+    if typ in ("hook", "cta"):
+        lines_html, counts = [], []
+        for i, ln in enumerate(m["lines"]):
+            h, n = jm_chars(f"{jid}l{i}", ln, hot)
+            lines_html.append(f'<div class="jml">{h}</div>')
+            counts.append(n)
+        tag = f'<div class="jmtag" id="{jid}g">{html.escape(m.get("tag", ""))}</div>' if m.get("tag") else ""
+        kick = f'<div class="jmkick" id="{jid}q">{html.escape(m.get("kicker", ""))}</div>' if m.get("kicker") else ""
+        sub = f'<div class="jmsub" id="{jid}u">{html.escape(m.get("sub", ""))}</div>' if m.get("sub") else ""
+        inner = (f'<div class="jmcard jm{typ}" id="{jid}" style="top:{m.get("y", 110)}px">'
+                 f'<div class="jmdialw">{jm_dial(jid + "d", 230)}</div>{tag}{kick}{"".join(lines_html)}'
+                 f'<div class="jmline" id="{jid}x"></div>{sub}</div>')
+        card(f"ov-{jid}", t0, t1, inner)
+        gfx_js.append(f'tl.fromTo("#{jid}", {{ opacity: 0, y: -30, filter: "blur(12px)" }}, {{ opacity: 1, y: 0, filter: "blur(0px)", duration: 0.55, ease: "power3.out" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{jid}dr", {{ strokeDashoffset: 1 }}, {{ strokeDashoffset: 0, duration: 0.9, ease: "power2.inOut" }}, {t0});')
+        for i in range(12):
+            gfx_js.append(f'tl.fromTo("#{jid}dk{i}", {{ opacity: 0.15 }}, {{ opacity: 1, duration: 0.12, ease: "none" }}, {q(t0 + 0.15 + 0.06 * i)});')
+        spin = 720 if typ == "cta" else 0
+        gfx_js.append(f'tl.fromTo("#{jid}dh", {{ rotation: 0, svgOrigin: "100 100" }}, {{ rotation: {spin + 300}, svgOrigin: "100 100", duration: 1.2, ease: "power3.inOut" }}, {q(t0 + 0.2)});')
+        gfx_js.append(f'tl.fromTo("#{jid}dm", {{ rotation: 0, svgOrigin: "100 100" }}, {{ rotation: {spin * 4 + 60}, svgOrigin: "100 100", duration: 1.2, ease: "power3.inOut" }}, {q(t0 + 0.2)});')
+        steps = max(1, int(d - 1.4))
+        gfx_js.append(f'tl.fromTo("#{jid}ds", {{ rotation: 0, svgOrigin: "100 100" }}, {{ rotation: {6 * steps}, svgOrigin: "100 100", duration: {steps}, ease: "steps({steps})" }}, {q(t0 + 1.0)});')
+        base = t0 + 0.55
+        if m.get("tag"):
+            gfx_js.append(f'tl.fromTo("#{jid}g", {{ opacity: 0, scale: 0.85 }}, {{ opacity: 1, scale: 1, duration: 0.4, ease: "power2.out" }}, {q(t0 + 0.4)});')
+            gfx_js.append(f'tl.fromTo("#{jid}g", {{ boxShadow: "0 0 0px rgba(255,227,163,0)" }}, {{ boxShadow: "0 0 30px rgba(255,227,163,.9)", duration: 0.5, ease: "sine.inOut", yoyo: true, repeat: {max(1, int((d - 1.5) / 0.5))}, immediateRender: false }}, {q(t0 + 1.0)});')
+        if m.get("kicker"):
+            gfx_js.append(f'tl.fromTo("#{jid}q", {{ opacity: 0, letterSpacing: "20px" }}, {{ opacity: 1, letterSpacing: "7px", duration: 0.7, ease: "power2.out" }}, {q(t0 + 0.35)});')
+        for i, n in enumerate(counts):
+            for c in range(n):
+                gfx_js.append(f'tl.fromTo("#{jid}l{i}c{c}", {{ opacity: 0, y: 26, filter: "blur(6px)" }}, {{ opacity: 1, y: 0, filter: "blur(0px)", duration: 0.35, ease: "power2.out" }}, {q(base + 0.03 * c)});')
+            base += 0.03 * n + 0.12
+        gfx_js.append(f'tl.fromTo("#{jid}x", {{ scaleX: 0 }}, {{ scaleX: 1, duration: 0.6, ease: "power3.inOut" }}, {q(base)});')
+        if m.get("sub"):
+            gfx_js.append(f'tl.fromTo("#{jid}u", {{ opacity: 0, y: 10 }}, {{ opacity: 1, y: 0, duration: 0.5, ease: "power2.out" }}, {q(base + 0.2)});')
+        add_sfx("chime" if typ == "hook" else "ping", t0, 0.2)
+    elif typ == "tick":
+        h, n = jm_chars(jid + "t", m["text"], hot)
+        side = m.get("side", "right")
+        pos = f'right:{m.get("x", 50)}px' if side == "right" else f'left:{m.get("x", 50)}px'
+        inner = (f'<div class="jmtick" id="{jid}" style="{pos};top:{m.get("y", 640)}px">'
+                 f'{jm_dial(jid + "d", 92)}<div class="jmtt">{h}<div class="jmdash" id="{jid}x"></div></div></div>')
+        card(f"ov-{jid}", t0, t1, inner)
+        sx = 60 if side == "right" else -60
+        gfx_js.append(f'tl.fromTo("#{jid}", {{ opacity: 0, x: {sx}, filter: "blur(10px)" }}, {{ opacity: 1, x: 0, filter: "blur(0px)", duration: 0.5, ease: "power3.out" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{jid}dr", {{ strokeDashoffset: 1 }}, {{ strokeDashoffset: 0, duration: 0.6, ease: "power2.out" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{jid}dm", {{ rotation: 0, svgOrigin: "100 100" }}, {{ rotation: 360, svgOrigin: "100 100", duration: 0.9, ease: "power2.inOut" }}, {q(t0 + 0.1)});')
+        gfx_js.append(f'tl.fromTo("#{jid}dh", {{ rotation: 0, svgOrigin: "100 100" }}, {{ rotation: 30, svgOrigin: "100 100", duration: 0.9, ease: "power2.inOut" }}, {q(t0 + 0.1)});')
+        steps = max(1, int(d - 1.0))
+        gfx_js.append(f'tl.fromTo("#{jid}ds", {{ rotation: 0, svgOrigin: "100 100" }}, {{ rotation: {6 * steps}, svgOrigin: "100 100", duration: {steps}, ease: "steps({steps})" }}, {q(t0 + 0.6)});')
+        for i in range(12):
+            gfx_js.append(f'tl.set("#{jid}dk{i}", {{ opacity: 1 }}, {q(t0 + 0.1 + 0.05 * i)});')
+        for c in range(n):
+            gfx_js.append(f'tl.fromTo("#{jid}tc{c}", {{ opacity: 0, y: 18 }}, {{ opacity: 1, y: 0, duration: 0.3, ease: "power2.out" }}, {q(t0 + 0.25 + 0.025 * c)});')
+        gfx_js.append(f'tl.fromTo("#{jid}x", {{ backgroundPositionX: "0px", scaleX: 0 }}, {{ backgroundPositionX: "0px", scaleX: 1, duration: 0.5, ease: "power2.out" }}, {q(t0 + 0.35 + 0.025 * n)});')
+        gfx_js.append(f'tl.to("#{jid}x", {{ backgroundPositionX: "{-24 * steps}px", duration: {steps}, ease: "steps({steps})" }}, {q(t0 + 0.9 + 0.025 * n)});')
+        add_sfx("click-soft", t0, 0.25)
+    if t1 < TOTAL - 0.05:
+        gfx_js.append(f'tl.to("#{jid}", {{ opacity: 0, filter: "blur(10px)", scale: 0.97, duration: 0.3, ease: "power2.in" }}, {q(t1 - 0.3)});')
+if JM:
+    FX_CSS += f"""
+@font-face {{ font-family: "Playfair Display"; src: url("assets/fonts/PlayfairDisplay-700-latin.woff2") format("woff2"); font-weight: 700; font-display: block; }}
+@font-face {{ font-family: "Cormorant Garamond"; src: url("assets/fonts/CormorantGaramond-600-latin.woff2") format("woff2"); font-weight: 600; font-display: block; }}
+.jmdial {{ overflow: visible; }}
+.jmring {{ fill: none; stroke: {JM_GOLD}; stroke-width: 5; stroke-dasharray: 1; stroke-dashoffset: 1; filter: drop-shadow(0 0 6px rgba(255,227,163,.8)); }}
+.jmface {{ fill: rgba(9,18,44,.92); }}
+.jmtk {{ stroke: {JM_LAMP}; stroke-width: 4; stroke-linecap: round; opacity: .15; filter: drop-shadow(0 0 5px {JM_LAMP}); }}
+.jmtk3 {{ stroke-width: 7; }}
+.jmhh {{ stroke: #FFFFFF; stroke-width: 8; stroke-linecap: round; }}
+.jmmh {{ stroke: #FFFFFF; stroke-width: 5; stroke-linecap: round; }}
+.jmsh {{ stroke: {JM_GOLD}; stroke-width: 2.5; stroke-linecap: round; }}
+.jmcd {{ fill: {JM_GOLD}; }}
+.jmcard {{ position: absolute; left: 110px; right: 110px; padding: 150px 40px 40px; text-align: center; border-radius: 42px;
+  background: linear-gradient(180deg, rgba(20,36,80,.94) 0%, rgba(9,18,44,.96) 100%); border: 2px solid rgba(227,184,90,.8);
+  box-shadow: 0 0 0 8px rgba(227,184,90,.10), 0 26px 60px rgba(0,0,0,.5); }}
+.jmdialw {{ position: absolute; left: 50%; top: -115px; margin-left: -115px; width: 230px; height: 230px; }}
+.jmkick {{ font-family: "Cormorant Garamond"; font-weight: 600; font-size: 40px; letter-spacing: 7px; color: {JM_LAMP}; text-transform: uppercase; margin-bottom: 6px; }}
+.jmtag {{ display: inline-block; padding: 8px 32px; margin-bottom: 14px; border-radius: 999px; background: linear-gradient(180deg, {JM_LAMP}, {JM_GOLD});
+  color: #0B1530; font-family: "Montserrat"; font-weight: 800; font-size: 36px; letter-spacing: 4px; }}
+.jml {{ font-family: "Playfair Display"; font-weight: 700; font-size: 82px; line-height: 1.1; color: #FFFFFF; }}
+.jmw {{ display: inline-block; white-space: nowrap; }}
+.jmc {{ display: inline-block; }}
+.jmhot .jmc {{ color: {JM_GOLD}; text-shadow: 0 0 18px rgba(255,227,163,.55); }}
+.jmline {{ height: 3px; width: 64%; margin: 20px auto 0; background: linear-gradient(90deg, rgba(227,184,90,0), {JM_GOLD}, rgba(227,184,90,0)); }}
+.jmsub {{ margin-top: 16px; font-family: "Cormorant Garamond"; font-weight: 600; font-size: 46px; color: {JM_LAMP}; }}
+.jmtick {{ position: absolute; display: flex; align-items: center; gap: 18px; padding: 14px 34px 14px 14px; border-radius: 999px;
+  background: linear-gradient(90deg, rgba(20,36,80,.95), rgba(9,18,44,.95)); border: 2px solid rgba(227,184,90,.85);
+  box-shadow: 0 14px 34px rgba(0,0,0,.45); }}
+.jmtick .jmdial {{ flex: none; }}
+.jmtt {{ position: relative; font-family: "Playfair Display"; font-weight: 700; font-size: 54px; color: #FFFFFF; white-space: nowrap; padding-bottom: 8px; }}
+.jmdash {{ position: absolute; left: 0; right: 0; bottom: 0; height: 4px; transform-origin: 0% 50%;
+  background: repeating-linear-gradient(90deg, {JM_GOLD} 0 12px, rgba(0,0,0,0) 12px 24px); }}
+"""
+
 HOTW = {norm(k) for k in EDL.get("keywords", []) + EDL.get("brand_words", [])}
 # ── 5. Captions ────────────────────────────────────────────────────────────
 # Owner (21 Oct): split-flap "departure board" captions like the reference video —

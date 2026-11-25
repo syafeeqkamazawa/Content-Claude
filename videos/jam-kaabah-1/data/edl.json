@@ -1,0 +1,314 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#0B1530",
+  "hot": "#E3B85A"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Jam Kaabah #1 — from VID_20261125 192511 + 192230 / 192306 (B-roll) 0.0-98.702 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: handling noise while he hangs the clock (0-21.6 s, no speech) and a breath between lines (29.5-31.35). Pieces: 5, total 36.72 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 7.2,
+   "text": "Masya Allah, korang tengok ni jam ni memang sangat-sangat cantik. Dia vibe-vibe tenang.",
+   "note": "src 22.20-29.40",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 7.2,
+   "out": 10.53,
+   "text": "Korang tengok, ni ada desain yang daripada",
+   "note": "src 31.40-34.73",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 10.53,
+   "out": 12.55,
+   "text": "saya yang ni lah.",
+   "note": "src 36.36-38.38",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 12.55,
+   "out": 17.44,
+   "text": "Ada Kaabah, boleh tengok dekat beg kuning. Ada pelbagai saiz dan desain.",
+   "note": "src 38.42-43.31",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 17.44,
+   "out": 36.72,
+   "text": "Yang ni memang saya sangat-sangat cantik, sangat lawa. Masya Allah, naik vibe-vibe islami tu. Vibe ketenangan, kan? So, yang berminat, boleh dapatkan ni beg kuning. Saya dia tengah buat harga promosi ni. ya, pelbagai promosi tengah ada sementara harga tengah murah tu boleh beli sekarang.",
+   "note": "src 43.32-62.60",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "Dia#1"
+   ],
+   "src": 93.0,
+   "note": "the room with the clock on the wall (B-roll 192306)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C2",
+   "from": [
+    "*",
+    "Dia#1"
+   ],
+   "to": [
+    "*",
+    "Korang#2"
+   ],
+   "src": 64.2,
+   "note": "the clock close up (B-roll 192230)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 45%"
+  },
+  {
+   "id": "C3",
+   "from": [
+    "*",
+    "Ada#3"
+   ],
+   "to": [
+    "*",
+    "Yang#3"
+   ],
+   "src": 69.9,
+   "note": "the clock on the wall (B-roll 192230)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C4",
+   "from": [
+    "*",
+    "Yang#3"
+   ],
+   "to": [
+    "*",
+    "naik#1"
+   ],
+   "src": 71.5,
+   "note": "the clock on the wall, slow pan (B-roll 192230)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  },
+  {
+   "id": "C5",
+   "from": [
+    "*",
+    "So,#1"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "src": 75.9,
+   "note": "the clock on the wall (B-roll 192230)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "naik#1"
+   ],
+   "to": [
+    "*",
+    "So,#1"
+   ],
+   "note": "AI: A peaceful Malaysian Muslim home living room at night in warm lamp light, a man in baju me"
+  }
+ ],
+ "theme": {
+  "key": "#E3B85A",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "kaabah"
+ ],
+ "keywords": [
+  "cantik",
+  "tenang",
+  "desain",
+  "kaabah",
+  "saiz",
+  "islami",
+  "ketenangan",
+  "promosi",
+  "murah",
+  "kuning"
+ ],
+ "fx": [],
+ "mh": [],
+ "jm": [
+  {
+   "type": "hook",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "*",
+    "Dia#1"
+   ],
+   "kicker": "Jam Kaabah",
+   "lines": [
+    "Sangat cantik,",
+    "vibe tenang"
+   ],
+   "hi": [
+    "cantik,",
+    "tenang"
+   ],
+   "y": 260
+  },
+  {
+   "type": "tick",
+   "from": [
+    "*",
+    "Dia#1"
+   ],
+   "to": [
+    "*",
+    "Korang#2"
+   ],
+   "text": "Vibe tenang",
+   "hi": [
+    "tenang"
+   ],
+   "y": 240
+  },
+  {
+   "type": "tick",
+   "from": [
+    "*",
+    "Ada#3"
+   ],
+   "to": [
+    "*",
+    "Yang#3"
+   ],
+   "text": "Pelbagai saiz & desain",
+   "y": 300
+  },
+  {
+   "type": "tick",
+   "from": [
+    "*",
+    "Yang#3"
+   ],
+   "to": [
+    "*",
+    "naik#1"
+   ],
+   "text": "Sangat cantik",
+   "hi": [
+    "cantik"
+   ],
+   "y": 300
+  },
+  {
+   "type": "tick",
+   "from": [
+    "*",
+    "naik#1"
+   ],
+   "to": [
+    "*",
+    "So,#1"
+   ],
+   "text": "Vibe islami, tenang",
+   "hi": [
+    "islami,"
+   ],
+   "y": 240,
+   "side": "left"
+  },
+  {
+   "type": "cta",
+   "from": [
+    "*",
+    "So,#1"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "lines": [
+    "Harga promosi,",
+    "beli sekarang"
+   ],
+   "hi": [
+    "promosi,"
+   ],
+   "sub": "Sementara harga masih murah",
+   "y": 250
+  }
+ ],
+ "pal": {
+  "key": "#E3B85A",
+  "bg": "rgba(11,21,48,.92)",
+  "ink": "#FFFFFF",
+  "dark": "#0B1530",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

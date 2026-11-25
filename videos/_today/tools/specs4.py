@@ -31,3 +31,34 @@ SPECS["myna1"] = {
     "ai": [("A1", W("Bila#2"), W("Jangan#1"), f"A Malaysian man about to pray at home, frowning as his thin prayer mat slides and bunches up on a shiny tiled floor under his feet. {M}"),
            ("A2", W("So#3"), W("Jadi#1"), f"A Malaysian man praying calmly in sujud on a flat emerald prayer mat lying firmly on a polished tiled floor, peaceful morning light. {M}")],
 }
+
+# Jam Kaabah #1 (folder "Jam Kaabah", 25 Nov): VID_20261125_192511 (talking, 64 s) + 192230 / 192306 (B-roll of the clock).
+# Same brief (new motion style for the product's vibe) -> "haramain night" clock motion (EDL "jm"): gold dial that draws
+# itself, hour marks lighting up like lamps, hands sweeping to 10:10 and ticking; small ticking dials on each point.
+# Combo: videos/_jam/tools/combo.py jam1 192511:0:63.85 192230:0:25.17:b 192306:0:9.68:b
+SPECS["jam1"] = {
+    "src": "_jam/.media/combo-jam1.mp4", "wl": [("_jam/.media/wl-combo-jam1.txt", 0, 1e9)], "vad": "_jam/.media/vad-combo-jam1.txt",
+    "range": (0.0, 98.702), "srcnote": "VID_20261125 192511 + 192230 / 192306 (B-roll)",
+    "slug": "jam-kaabah-1", "name": "Jam Kaabah #1",
+    "pal": pal("#E3B85A", bg="rgba(11,21,48,.92)", dark="#0B1530", cap="#FFFFFF"), "brand": ["kaabah"],
+    "keywords": ["cantik", "tenang", "desain", "kaabah", "saiz", "islami", "ketenangan", "promosi", "murah", "kuning"],
+    "kp": ("JAM KAABAH", ["KAABAH"], S1, W("Dia#1"), 200, 100),
+    "drop": [(-1, 21.6), (29.5, 31.35)], "dropnote": "handling noise while he hangs the clock (0-21.6 s, no speech) and a breath between lines (29.5-31.35)",
+    "fix": {"lawan": "lawa", "berinat": "berminat"},
+    "cut": [(S1, W("Dia#1"), 93.0, "50% 50%", "the room with the clock on the wall (B-roll 192306)"),
+            (W("Dia#1"), W("Korang#2"), 64.2, "50% 45%", "the clock close up (B-roll 192230)"),
+            (W("Ada#3"), W("Yang#3"), 69.9, "50% 50%", "the clock on the wall (B-roll 192230)"),
+            (W("Yang#3"), W("naik#1"), 71.5, "50% 50%", "the clock on the wall, slow pan (B-roll 192230)"),
+            (W("So,#1"), E4, 75.9, "50% 50%", "the clock on the wall (B-roll 192230)")],
+    "fx": [],
+    "jm": [
+        {"type": "hook", "from": S1, "to": W("Dia#1"), "kicker": "Jam Kaabah", "lines": ["Sangat cantik,", "vibe tenang"], "hi": ["cantik,", "tenang"], "y": 260},
+        {"type": "tick", "from": W("Dia#1"), "to": W("Korang#2"), "text": "Vibe tenang", "hi": ["tenang"], "y": 240},
+        {"type": "tick", "from": W("Ada#3"), "to": W("Yang#3"), "text": "Pelbagai saiz & desain", "y": 300},
+        {"type": "tick", "from": W("Yang#3"), "to": W("naik#1"), "text": "Sangat cantik", "hi": ["cantik"], "y": 300},
+        {"type": "tick", "from": W("naik#1"), "to": W("So,#1"), "text": "Vibe islami, tenang", "hi": ["islami,"], "y": 240, "side": "left"},
+        {"type": "cta", "from": W("So,#1"), "to": E4, "tag": "BEG KUNING", "lines": ["Harga promosi,", "beli sekarang"], "hi": ["promosi,"],
+         "sub": "Sementara harga masih murah", "y": 250},
+    ],
+    "ai": [("A1", W("naik#1"), W("So,#1"), f"A peaceful Malaysian Muslim home living room at night in warm lamp light, a man in baju melayu and songkok sitting on a prayer mat reading the Quran, calm atmosphere. {M}")],
+}
