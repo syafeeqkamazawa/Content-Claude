@@ -110,6 +110,29 @@ def pieces(spec):
 def run(*a): subprocess.run(a, check=True)
 
 
+# Phone-mic clean-up (after videos/aurapep-krill-oil-2/tools/voice.sh, owner 21 Oct / 26 Nov): adaptive denoise, cut the
+# room boxiness, warmth + presence for intelligibility on phone speakers, de-ess, compress, light expander between words,
+# then loudness to -14 LUFS (TikTok's playback level) under a -1.5 dBTP limiter. Video stream copied untouched.
+VOICE_CH = ("highpass=f=85:poles=2,afftdn=nr=18:nf=-58:tn=1:gs=8,equalizer=f=300:t=q:w=1.1:g=-3.5,"
+            "bass=g=1.5:f=120:w=0.7,equalizer=f=3200:t=q:w=1.2:g=3.5,equalizer=f=6000:t=q:w=1.5:g=1.5,treble=g=1.5:f=10000,"
+            "deesser=i=0.4:m=0.5:f=0.5,acompressor=threshold=-24dB:ratio=3.2:attack=5:release=130:makeup=3,"
+            "agate=threshold=0.01:ratio=2:range=0.3:attack=3:release=120")
+
+
+def enhance_voice(a_mp4, tmp):
+    raw, ch, enh = tmp / "v-raw.wav", tmp / "v-chain.wav", tmp / "v-enh.wav"
+    run("ffmpeg", "-v", "error", "-y", "-i", str(a_mp4), "-vn", "-ac", "1", "-ar", "48000", "-c:a", "pcm_s16le", str(raw))
+    run("ffmpeg", "-v", "error", "-y", "-i", str(raw), "-af", VOICE_CH, str(ch))
+    r = subprocess.run(["ffmpeg", "-nostats", "-i", str(ch), "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True).stderr
+    li = float(re.findall(r"^\s+I:\s+(-?[\d.]+)", r, re.M)[-1])
+    run("ffmpeg", "-v", "error", "-y", "-i", str(ch), "-af", f"volume={round(-14 - li, 1)}dB,alimiter=limit=0.84:level=false:attack=3:release=60", str(enh))
+    out = a_mp4.with_name("a-enh.mp4")
+    run("ffmpeg", "-v", "error", "-y", "-i", str(a_mp4), "-i", str(enh), "-map", "0:v", "-map", "1:a", "-c:v", "copy", "-c:a", "aac", "-b:a", "192k",
+        "-ac", "2", "-movflags", "+faststart", str(out))
+    out.replace(a_mp4)
+    print(f"voice: {li} LUFS -> {round(-14 - li, 1)} dB")
+
+
 def main(key, media=True):
     global SRC
     spec = SPECS[key]
@@ -164,6 +187,8 @@ def main(key, media=True):
         run("ffmpeg", "-v", "error", "-y", "-f", "concat", "-safe", "0", "-i", str(tmp / "list.txt"),
             "-af", "alimiter=limit=0.89:level=false", "-c:v", "libx264", "-preset", "fast", "-crf", "15", "-r", "60", "-g", "30",
             "-c:a", "aac", "-b:a", "192k", str(P / "assets/a.mp4"))
+        if spec.get("voice"):   # owner, 26 Nov (Ecovacs): phone-mic audio -> "betul betul jelas dalam TikTok"
+            enhance_voice(P / "assets/a.mp4", tmp)
         b0, b1 = spec["range"]
         run("ffmpeg", "-v", "error", "-y", "-ss", str(b0), "-t", str(b1 - b0), "-i", str(SRC), "-vf", "scale=1080:1920,setsar=1,fps=60",
             "-an", "-c:v", "libx264", "-preset", "fast", "-crf", "17", "-pix_fmt", "yuv420p", "-g", "30", str(P / "assets/b.mp4"))
@@ -179,7 +204,7 @@ def main(key, media=True):
     write(P, 1, f"{srcn} {a0}-{spec['range'][1]} s (videos/_today/tools/make.py)", segs, zoom=1.0, origin="50% 42%",
           broll=broll, photos=[{"id": pid, "from": f, "to": to, "note": "AI: " + pr[:90]} for pid, f, to, pr in spec.get("ai", [])
                                if (P / f"assets/photos/{pid}.jpg").exists()],
-          kps=[] if (spec.get("mh") or spec.get("jm") or spec.get("sb")) else [kp(k0[0], k0[1], k0[2], k0[3], "zoom", k0[4] if len(k0) > 4 else 200, k0[5] if len(k0) > 5 else 100)],
+          kps=[] if (spec.get("mh") or spec.get("jm") or spec.get("sb") or spec.get("ld")) else [kp(k0[0], k0[1], k0[2], k0[3], "zoom", k0[4] if len(k0) > 4 else 200, k0[5] if len(k0) > 5 else 100)],
           note_extra=" 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.")
     (P / "data/transcript-a.json").write_text(json.dumps(tr, ensure_ascii=False))
     e = json.loads((P / "data/edl.json").read_text())
@@ -190,6 +215,7 @@ def main(key, media=True):
     e["mh"] = spec.get("mh", [])   # 25 Nov "mihrab" motion (Sejadah Myna), replaces kp/fx when set
     e["jm"] = spec.get("jm", [])   # 25 Nov "haramain night" clock motion (Jam Kaabah)
     e["sb"] = spec.get("sb", [])   # 25 Nov "storybook" motion (Buku Leveled Reading)
+    e["ld"] = spec.get("ld", [])   # 26 Nov "lidar" smart-home motion (Robot Vacuum Ecovacs)
     e["theme"] = {"key": pal["key"], "brand": "#FFFFFF"}
     e["pal"] = pal
     e["fs_style"] = "cut"

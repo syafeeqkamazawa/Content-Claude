@@ -1270,6 +1270,121 @@ if SB:
 .sbcstar { position: absolute; right: -24px; top: -30px; width: 110px; height: 110px; }
 """
 
+# Owner (26 Nov, Robot Vacuum Ecovacs — new motion style for the product's vibe): "lidar" smart-home motion. Clean and
+# techy like the robot's navigation: a radar sweep turns inside a thin ring, a dotted cleaning path draws itself with a
+# small robot dot riding it, and text is revealed by a cyan scan line; points arrive as frosted-glass chips with pulsing
+# sonar rings; the CTA is a glass card on a map grid with the robot dot circling its border. EDL "ld": [{type: hook|chip|cta}].
+LD = EDL.get("ld", [])
+LD_CY, LD_WH = "#3FE0FF", "#FFFFFF"
+LD_PATH = "M 30 70 L 250 70 L 250 30 L 470 30 L 470 110 L 690 110 L 690 60 L 900 60"
+
+
+def ld_reveal(sel, t, dur=0.55, vertical=True):
+    if vertical:
+        gfx_js.append(f'tl.fromTo("{sel}", {{ clipPath: "inset(0% 0% 100% 0%)" }}, {{ clipPath: "inset(0% 0% 0% 0%)", duration: {dur}, ease: "power2.inOut" }}, {q(t)});')
+    else:
+        gfx_js.append(f'tl.fromTo("{sel}", {{ clipPath: "inset(0% 100% 0% 0%)" }}, {{ clipPath: "inset(0% 0% 0% 0%)", duration: {dur}, ease: "power2.inOut" }}, {q(t)});')
+
+
+for k, m in enumerate(LD):
+    lid = f"ld{k}"
+    t0, t1 = q(anchor(m["from"])), q(min(anchor(m["to"]), TOTAL))
+    if t1 - t0 < 0.5:
+        continue
+    d = q(t1 - t0)
+    hot = {norm(w) for w in m.get("hi", [])}
+    typ = m["type"]
+
+    def words_html(text):
+        return " ".join(f'<span class="{"ldhot" if norm(w) in hot else ""}">{html.escape(w)}</span>' for w in text.split())
+    if typ in ("hook", "cta"):
+        lines = "".join(f'<div class="ldl" id="{lid}l{i}">{words_html(ln)}<i class="ldscan" id="{lid}s{i}"></i></div>' for i, ln in enumerate(m["lines"]))
+        radar = (f'<div class="ldradar" id="{lid}r"><div class="ldsweep" id="{lid}w"></div><i class="ldring r1"></i><i class="ldring r2"></i>'
+                 f'<i class="ldblip" id="{lid}b"></i></div>')
+        tag = f'<div class="ldtag" id="{lid}g">{html.escape(m["tag"])}</div>' if m.get("tag") else ""
+        kick = f'<div class="ldkick" id="{lid}k">{html.escape(m["kicker"])}</div>' if m.get("kicker") else ""
+        sub = f'<div class="ldsub" id="{lid}u">{html.escape(m["sub"])}</div>' if m.get("sub") else ""
+        inner = (f'<div class="ldcard ld{typ}" id="{lid}" style="top:{m.get("y", 150)}px">{radar}{tag}{kick}{lines}'
+                 f'<svg class="ldpath" viewBox="0 0 930 140" preserveAspectRatio="none"><path id="{lid}p" d="{LD_PATH}" pathLength="1"/>'
+                 f'<circle id="{lid}d" r="11" cx="30" cy="70"/></svg>{sub}</div>')
+        card(f"ov-{lid}", t0, t1, inner)
+        gfx_js.append(f'tl.fromTo("#{lid}", {{ opacity: 0, y: 24, filter: "blur(10px)" }}, {{ opacity: 1, y: 0, filter: "blur(0px)", duration: 0.45, ease: "power3.out" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{lid}r", {{ scale: 0.3, opacity: 0 }}, {{ scale: 1, opacity: 1, duration: 0.5, ease: "power3.out" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{lid}w", {{ rotation: 0 }}, {{ rotation: {360 * max(1, round(d / 1.6))}, duration: {d}, ease: "none" }}, {t0});')
+        gfx_js.append(f'tl.fromTo("#{lid}b", {{ opacity: 0, scale: 0.4 }}, {{ opacity: 1, scale: 1.4, duration: 0.4, ease: "power2.out", yoyo: true, repeat: {max(1, int(d / 0.8))} }}, {q(t0 + 0.4)});')
+        tt = t0 + 0.3
+        if m.get("tag"):
+            gfx_js.append(f'tl.fromTo("#{lid}g", {{ opacity: 0, x: -30 }}, {{ opacity: 1, x: 0, duration: 0.4, ease: "power3.out" }}, {q(tt)});')
+            gfx_js.append(f'tl.fromTo("#{lid}g", {{ boxShadow: "0 0 0px rgba(63,224,255,0)" }}, {{ boxShadow: "0 0 26px rgba(63,224,255,.9)", duration: 0.5, ease: "sine.inOut", yoyo: true, repeat: {max(1, int((d - 1.2) / 0.5))}, immediateRender: false }}, {q(t0 + 1.0)});')
+            tt += 0.15
+        if m.get("kicker"):
+            ld_reveal(f"#{lid}k", tt, 0.45, vertical=False)
+            tt += 0.15
+        for i in range(len(m["lines"])):
+            ld_reveal(f"#{lid}l{i}", tt + 0.2 * i, 0.55)
+            gfx_js.append(f'tl.fromTo("#{lid}s{i}", {{ top: "0%", opacity: 1 }}, {{ top: "100%", opacity: 0, duration: 0.6, ease: "power2.inOut" }}, {q(tt + 0.2 * i)});')
+        tp = tt + 0.2 * len(m["lines"])
+        gfx_js.append(f'tl.fromTo("#{lid}p", {{ strokeDashoffset: 1 }}, {{ strokeDashoffset: 0, duration: 1.0, ease: "none" }}, {q(tp)});')
+        pts = [(30, 70), (250, 70), (250, 30), (470, 30), (470, 110), (690, 110), (690, 60), (900, 60)]
+        seg = [abs(pts[i + 1][0] - pts[i][0]) + abs(pts[i + 1][1] - pts[i][1]) for i in range(len(pts) - 1)]
+        tot = sum(seg)
+        kf = ", ".join(f'{{ attr: {{ cx: {x}, cy: {y} }}, duration: {round(seg[i] / tot, 4)} }}' for i, (x, y) in enumerate(pts[1:]))
+        gfx_js.append(f'tl.set("#{lid}d", {{ attr: {{ cx: 30, cy: 70 }} }}, {q(tp)});')
+        gfx_js.append(f'tl.to("#{lid}d", {{ keyframes: [{kf}], ease: "none" }}, {q(tp)});')
+        if m.get("sub"):
+            ld_reveal(f"#{lid}u", tp + 0.4, 0.5, vertical=False)
+        add_sfx("whoosh-short" if typ == "hook" else "ping", t0, 0.22)
+    elif typ == "chip":
+        side = m.get("side", "right")
+        pos = f'right:{m.get("x", 50)}px' if side == "right" else f'left:{m.get("x", 50)}px'
+        inner = (f'<div class="ldchip ld{side}" id="{lid}" style="{pos};top:{m.get("y", 260)}px">'
+                 f'<div class="ldsonar"><i class="ldcore"></i><i class="ldpulse" id="{lid}a"></i><i class="ldpulse" id="{lid}b"></i></div>'
+                 f'<div class="ldct"><div class="ldtitle" id="{lid}t">{words_html(m["text"])}</div>'
+                 + (f'<div class="ldsmall" id="{lid}u">{html.escape(m["sub"])}</div>' if m.get("sub") else "") + '</div></div>')
+        card(f"ov-{lid}", t0, t1, inner)
+        sx = 70 if side == "right" else -70
+        gfx_js.append(f'tl.fromTo("#{lid}", {{ opacity: 0, x: {sx}, filter: "blur(8px)" }}, {{ opacity: 1, x: 0, filter: "blur(0px)", duration: 0.45, ease: "power3.out" }}, {t0});')
+        for j, p in enumerate(("a", "b")):
+            gfx_js.append(f'tl.fromTo("#{lid}{p}", {{ scale: 0.4, opacity: 0.9 }}, {{ scale: 2.4, opacity: 0, duration: 1.2, ease: "power1.out", repeat: {max(0, int(d / 1.2) - 1)} }}, {q(t0 + 0.2 + 0.6 * j)});')
+        ld_reveal(f"#{lid}t", t0 + 0.2, 0.5, vertical=False)
+        if m.get("sub"):
+            ld_reveal(f"#{lid}u", t0 + 0.45, 0.45, vertical=False)
+        add_sfx("click-soft", t0, 0.25)
+    if t1 < TOTAL - 0.05:
+        gfx_js.append(f'tl.to("#{lid}", {{ opacity: 0, filter: "blur(8px)", y: -10, duration: 0.28, ease: "power2.in" }}, {q(t1 - 0.28)});')
+if LD:
+    FX_CSS += f"""
+.ldcard {{ position: absolute; left: 70px; right: 70px; padding: 34px 40px 30px 200px; border-radius: 34px; overflow: hidden;
+  background: linear-gradient(135deg, rgba(10,20,34,.86), rgba(14,30,52,.80)); border: 2px solid rgba(63,224,255,.55);
+  box-shadow: 0 0 30px rgba(63,224,255,.18), 0 24px 50px rgba(0,0,0,.45); backdrop-filter: blur(10px); }}
+.ldcta {{ background-image: linear-gradient(rgba(63,224,255,.08) 1px, transparent 1px), linear-gradient(90deg, rgba(63,224,255,.08) 1px, transparent 1px),
+  linear-gradient(135deg, rgba(10,20,34,.9), rgba(14,30,52,.86)); background-size: 36px 36px, 36px 36px, auto; }}
+.ldradar {{ position: absolute; left: 34px; top: 34px; width: 136px; height: 136px; border-radius: 50%; border: 2px solid rgba(63,224,255,.7); overflow: hidden; }}
+.ldsweep {{ position: absolute; inset: 0; border-radius: 50%; background: conic-gradient(from 0deg, rgba(63,224,255,.65), rgba(63,224,255,0) 70deg, rgba(63,224,255,0)); }}
+.ldring {{ position: absolute; border-radius: 50%; border: 1.5px solid rgba(63,224,255,.35); }}
+.ldring.r1 {{ inset: 22px; }} .ldring.r2 {{ inset: 46px; }}
+.ldblip {{ position: absolute; left: 88px; top: 40px; width: 12px; height: 12px; border-radius: 50%; background: {LD_CY}; box-shadow: 0 0 12px {LD_CY}; }}
+.ldtag {{ display: inline-block; padding: 6px 22px; margin-bottom: 10px; border-radius: 10px; background: {LD_CY}; color: #06121F;
+  font-family: "Montserrat"; font-weight: 900; font-size: 34px; letter-spacing: 3px; }}
+.ldkick {{ font-family: "Montserrat"; font-weight: 700; font-size: 32px; letter-spacing: 6px; color: {LD_CY}; text-transform: uppercase; margin-bottom: 6px; }}
+.ldl {{ position: relative; font-family: "Montserrat"; font-weight: 900; font-size: 74px; line-height: 1.04; color: {LD_WH}; letter-spacing: -1px; }}
+.ldl .ldhot {{ color: {LD_CY}; text-shadow: 0 0 22px rgba(63,224,255,.6); }}
+.ldscan {{ position: absolute; left: -10px; right: -10px; height: 4px; background: {LD_CY}; box-shadow: 0 0 16px {LD_CY}, 0 0 32px {LD_CY}; opacity: 0; }}
+.ldpath {{ display: block; width: 100%; height: 70px; margin-top: 16px; overflow: visible; }}
+.ldpath path {{ fill: none; stroke: rgba(63,224,255,.85); stroke-width: 4; stroke-dasharray: 1; stroke-dashoffset: 1; }}
+.ldpath circle {{ fill: {LD_WH}; stroke: {LD_CY}; stroke-width: 5; filter: drop-shadow(0 0 8px {LD_CY}); }}
+.ldsub {{ margin-top: 8px; font-family: "Montserrat"; font-weight: 700; font-size: 38px; color: rgba(255,255,255,.88); }}
+.ldchip {{ position: absolute; display: flex; align-items: center; gap: 22px; padding: 20px 36px 20px 22px; border-radius: 26px;
+  background: linear-gradient(135deg, rgba(10,20,34,.84), rgba(14,30,52,.78)); border: 2px solid rgba(63,224,255,.6);
+  box-shadow: 0 0 22px rgba(63,224,255,.2), 0 16px 36px rgba(0,0,0,.4); backdrop-filter: blur(10px); }}
+.ldsonar {{ position: relative; width: 56px; height: 56px; flex: none; }}
+.ldcore {{ position: absolute; left: 18px; top: 18px; width: 20px; height: 20px; border-radius: 50%; background: {LD_CY}; box-shadow: 0 0 14px {LD_CY}; }}
+.ldpulse {{ position: absolute; left: 8px; top: 8px; width: 40px; height: 40px; border-radius: 50%; border: 3px solid {LD_CY}; opacity: 0; }}
+.ldtitle {{ font-family: "Montserrat"; font-weight: 900; font-size: 54px; color: {LD_WH}; white-space: nowrap; letter-spacing: -0.5px; }}
+.ldtitle .ldhot {{ color: {LD_CY}; }}
+.ldsmall {{ font-family: "Montserrat"; font-weight: 700; font-size: 32px; color: rgba(255,255,255,.8); margin-top: 2px; white-space: nowrap; }}
+"""
+
 HOTW = {norm(k) for k in EDL.get("keywords", []) + EDL.get("brand_words", [])}
 # ── 5. Captions ────────────────────────────────────────────────────────────
 # Owner (21 Oct): split-flap "departure board" captions like the reference video —
