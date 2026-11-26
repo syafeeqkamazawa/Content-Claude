@@ -384,3 +384,4 @@ for _k, _v in AI.items():
 exec(open(__file__.replace("specs.py", "specs2.py")).read())
 exec(open(__file__.replace("specs.py", "specs3.py")).read())
 exec(open(__file__.replace("specs.py", "specs4.py")).read())
+exec(open(__file__.replace("specs.py", "specs5.py")).read())
