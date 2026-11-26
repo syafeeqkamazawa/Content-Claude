@@ -9,4 +9,4 @@ TOTAL 43.02s  (8 A-roll segments, 0 B-roll shots, 1 photos, 6 audio fx, 81 capti
  36.18- 40.32  S7  src  36.18- 40.32  (1 pc)  tempat yang mop mop mop buat semua ruang so
  40.32- 43.02  S8  src  40.32- 43.02  (1 pc)  memang sangat-sangat fungsi
 
-  cutaway  14.20-  4.05
+  cutaway  14.20- 18.40
