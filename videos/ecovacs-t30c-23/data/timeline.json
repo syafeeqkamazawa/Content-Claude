@@ -1,0 +1,35 @@
+{
+ "pieces": [
+  [
+   -0.19,
+   27.99
+  ],
+  [
+   28.1,
+   33.1
+  ]
+ ],
+ "total": 33.18,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.19,
+    27.99
+   ],
+   "e0": 0.0,
+   "e1": 28.18,
+   "text": "guys, kalau korang minat dapatkan di beg kuning, memang aku boleh guarantee dengan korang sangat berduk. Dengan quality dia, dengan function dia, memang sangat puh hati. Tak tiba kurang. Aku nak, ni aku baru kena satu hari. Tapi aku rasa macam, dia boleh bersihkan dengan mop tu. Bukan sekadar lalu tau. Dia betul-betul bilas ni. Memang bersih. Ok guys, tengok ni, ni meja makan"
+  },
+  {
+   "id": "S2",
+   "src": [
+    28.1,
+    33.1
+   ],
+   "e0": 28.18,
+   "e1": 33.18,
+   "text": "So, meja makan, MasyaAllah. Kau tengok rasdi, bersih guys."
+  }
+ ]
+}

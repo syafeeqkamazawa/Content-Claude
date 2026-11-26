@@ -1,0 +1,35 @@
+{
+ "pieces": [
+  [
+   0.1,
+   18.63
+  ],
+  [
+   18.64,
+   32.5
+  ]
+ ],
+ "total": 32.39,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.1,
+    18.63
+   ],
+   "e0": 0.0,
+   "e1": 18.53,
+   "text": "Ok guys, bila korang dah scan, korang akan dapat macam ni tau. So korang boleh set up lah. Contoh macam aku ni, aku dah letak dekat situ kan. Ok ada tempat yang aku letak tadi. So dekat sini ni adalah dia mengadap kepada pintu rumah masuk akulah. Pintu rumah aku ni betul-betul"
+  },
+  {
+   "id": "S2",
+   "src": [
+    18.64,
+    32.5
+   ],
+   "e0": 18.53,
+   "e1": 32.39,
+   "text": "sebelah kanan tu dia opposite dekat tempat rumah robot tu. So ni ruang tamu. Ok, so korang tekan je korang pilih area name."
+  }
+ ]
+}

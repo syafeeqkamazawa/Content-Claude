@@ -1,0 +1,63 @@
+{
+ "pieces": [
+  [
+   2.44,
+   3.88
+  ],
+  [
+   4.78,
+   18.06
+  ],
+  [
+   18.07,
+   33.49
+  ],
+  [
+   34.36,
+   42.51
+  ]
+ ],
+ "total": 38.29,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    2.44,
+    3.88
+   ],
+   "e0": 0.0,
+   "e1": 1.44,
+   "text": "dah dah, dah."
+  },
+  {
+   "id": "S2",
+   "src": [
+    4.78,
+    18.06
+   ],
+   "e0": 1.44,
+   "e1": 14.72,
+   "text": "So guys, antara yang tip penting juga untuk letak tempat, tempat letak vacuum robot ni, letak dekat tempat yang strong wifi. So macam rumah aku ni,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    18.07,
+    33.49
+   ],
+   "e0": 14.72,
+   "e1": 30.14,
+   "text": "wifi dekat depan kabinet TV tu, aku letak dekat berdekatan dengan wifi lah. Okay, itu antara tip supaya dia dapat strong connection wifi. So guys, air bersih kita dah isi."
+  },
+  {
+   "id": "S4",
+   "src": [
+    34.36,
+    42.51
+   ],
+   "e0": 30.14,
+   "e1": 38.29,
+   "text": "So guys, air bersih dah isi. Okay, jom kita letak balik tempat dia sebelah. Kalau kita tengok berhadapan dengan"
+  }
+ ]
+}

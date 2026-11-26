@@ -1,0 +1,49 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   9.4
+  ],
+  [
+   9.48,
+   22.91
+  ],
+  [
+   23.8,
+   37.9
+  ]
+ ],
+ "total": 37.13,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    9.4
+   ],
+   "e0": 0.0,
+   "e1": 9.6,
+   "text": "Sekarang ni aku tengah sediakan mop dan vacuum serentak, dia ada banyak option kalau korang boleh settingkan"
+  },
+  {
+   "id": "S2",
+   "src": [
+    9.48,
+    22.91
+   ],
+   "e0": 9.6,
+   "e1": 23.03,
+   "text": "dia, contoh korang nak vacuum dulu semua luang, lepas tu korang seluruh dia mop kemudian. Boleh juga, tapi ni aku ambil option, mop dan vacuum itu terletak kepada dia."
+  },
+  {
+   "id": "S3",
+   "src": [
+    23.8,
+    37.9
+   ],
+   "e0": 23.03,
+   "e1": 37.13,
+   "text": "Memang dia bukan ringan dan dia sangat beruat, dia sangat asum, Masya Allah. Jadi guys, yang mana berminat dapatkan di beg kuning. guys, jangan, jangan tunggu lagi. Saya dah tengah buat harga promo. Promosi, payday pun ada."
+  }
+ ]
+}

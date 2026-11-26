@@ -1,0 +1,19 @@
+TOTAL 41.05s  (16 A-roll segments, 0 B-roll shots, 0 photos, 5 audio fx, 50 caption cards)
+
+  0.00-  0.97  S1  src   0.00-  0.96  (1 pc)  ok,
+  0.97-  5.80  S2  src   0.96-  5.79  (1 pc)  scroll bawah, agree and continue,
+  5.80-  7.27  S3  src   5.79-  7.25  (1 pc)  ok,
+  7.27- 13.90  S4  src   7.25- 13.89  (1 pc)  agree and continue, ok, register, agree and continue,
+ 13.90- 16.17  S5  src  13.89- 16.15  (1 pc)  agree and continue,
+ 16.17- 18.12  S6  src  16.15- 18.10  (1 pc)  so,
+ 18.12- 21.45  S7  src  18.10- 21.44  (1 pc)  kita masuklah email, email, email
+ 21.45- 23.78  S8  src  21.44- 23.78  (1 pc)  dan masukkan password,
+ 23.78- 25.05  S9  src  23.78- 25.05  (1 pc)  apa tu,
+ 25.05- 29.48  S10  src  25.05- 29.49  (1 pc)  google je buat now, ok,
+ 29.48- 30.45  S11  src  29.49- 30.45  (1 pc)  register,
+ 30.45- 31.75  S12  src  30.45- 31.75  (1 pc)  .
+ 31.75- 34.13  S13  src  31.75- 34.14  (1 pc)  in my home, enter now,
+ 34.13- 35.87  S14  src  34.14- 35.87  (1 pc)  ok, scan to connect,
+ 35.87- 39.28  S15  src  35.87- 39.29  (1 pc)  ok, so, Okey so berjaya,
+ 39.28- 41.05  S16  src  39.29- 41.05  (1 pc)  done.
+

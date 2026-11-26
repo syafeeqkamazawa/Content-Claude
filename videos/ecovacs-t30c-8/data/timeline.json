@@ -1,0 +1,175 @@
+{
+ "pieces": [
+  [
+   0.28,
+   2.02
+  ],
+  [
+   6.36,
+   7.66
+  ],
+  [
+   8.58,
+   10.98
+  ],
+  [
+   15.1,
+   17.26
+  ],
+  [
+   25.34,
+   26.64
+  ],
+  [
+   26.98,
+   35.48
+  ],
+  [
+   35.51,
+   49.08
+  ],
+  [
+   49.09,
+   54.29
+  ],
+  [
+   54.47,
+   57.53
+  ],
+  [
+   57.67,
+   58.81
+  ],
+  [
+   60.47,
+   61.37
+  ],
+  [
+   61.77,
+   63.8
+  ]
+ ],
+ "total": 43.3,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.28,
+    2.02
+   ],
+   "e0": 0.0,
+   "e1": 1.74,
+   "text": "scan to connect, ok,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    6.36,
+    7.66
+   ],
+   "e0": 1.74,
+   "e1": 3.04,
+   "text": ""
+  },
+  {
+   "id": "S3",
+   "src": [
+    8.58,
+    10.98
+   ],
+   "e0": 3.04,
+   "e1": 5.44,
+   "text": "so, scan, scan"
+  },
+  {
+   "id": "S4",
+   "src": [
+    15.1,
+    17.26
+   ],
+   "e0": 5.44,
+   "e1": 7.6,
+   "text": "dia punya,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    25.34,
+    26.64
+   ],
+   "e0": 7.6,
+   "e1": 8.9,
+   "text": ""
+  },
+  {
+   "id": "S6",
+   "src": [
+    26.98,
+    35.48
+   ],
+   "e0": 8.9,
+   "e1": 17.4,
+   "text": "kita buka, sekejap, So, guys, bila korang dah open dia punya application, dah register semua,"
+  },
+  {
+   "id": "S7",
+   "src": [
+    35.51,
+    49.08
+   ],
+   "e0": 17.4,
+   "e1": 30.97,
+   "text": "dia akan kata scan to connect. So, dekat sini lah. Nampak tak ni? Korang buka je ni. Buka, scan kat sini. Bila scan, korang kena tekan button reset ni satu saat supaya dia"
+  },
+  {
+   "id": "S8",
+   "src": [
+    49.09,
+    54.29
+   ],
+   "e0": 30.97,
+   "e1": 36.17,
+   "text": "boleh connect dengan network baru. Macam tu, ok."
+  },
+  {
+   "id": "S9",
+   "src": [
+    54.47,
+    57.53
+   ],
+   "e0": 36.17,
+   "e1": 39.23,
+   "text": "So, bila korang dah tutup lah bila dah ni."
+  },
+  {
+   "id": "S10",
+   "src": [
+    57.67,
+    58.81
+   ],
+   "e0": 39.23,
+   "e1": 40.37,
+   "text": "Ok, so."
+  },
+  {
+   "id": "S11",
+   "src": [
+    60.47,
+    61.37
+   ],
+   "e0": 40.37,
+   "e1": 41.27,
+   "text": "Ok,"
+  },
+  {
+   "id": "S12",
+   "src": [
+    61.77,
+    63.8
+   ],
+   "e0": 41.27,
+   "e1": 43.3,
+   "text": "ni barang ni memang lawa, ok."
+  }
+ ]
+}

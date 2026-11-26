@@ -1,0 +1,91 @@
+{
+ "pieces": [
+  [
+   -0.18,
+   10.2
+  ],
+  [
+   10.24,
+   17.64
+  ],
+  [
+   18.78,
+   21.46
+  ],
+  [
+   22.86,
+   26.36
+  ],
+  [
+   26.38,
+   30.6
+  ],
+  [
+   30.7,
+   38.57
+  ]
+ ],
+ "total": 36.05,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.18,
+    10.2
+   ],
+   "e0": 0.0,
+   "e1": 10.38,
+   "text": "Ok guys, korang tengok ni aku suruh robot Ecovacs ni, aku tu vacuum dump up sekali, so korang tengok"
+  },
+  {
+   "id": "S2",
+   "src": [
+    10.24,
+    17.64
+   ],
+   "e0": 10.38,
+   "e1": 17.78,
+   "text": "tempat yang dia dah cover korang nampak tak, korang nampak tak macam dia punya apa,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    18.78,
+    21.46
+   ],
+   "e0": 17.78,
+   "e1": 20.46,
+   "text": "macam ni buat ni saja,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    22.86,
+    26.36
+   ],
+   "e0": 20.46,
+   "e1": 23.96,
+   "text": "ok macam ni kan, ok macam ni lah,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    26.38,
+    30.6
+   ],
+   "e0": 23.96,
+   "e1": 28.18,
+   "text": "so ok, harga tengah murah guys. Promo ada banyak ni."
+  },
+  {
+   "id": "S6",
+   "src": [
+    30.7,
+    38.57
+   ],
+   "e0": 28.18,
+   "e1": 36.05,
+   "text": "Promo pede lagi. Promo $12 pun ada lagi guys. Ok. Dapatkan dia baik-baik ni guys. Sementara harga masih murah."
+  }
+ ]
+}

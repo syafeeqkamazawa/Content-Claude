@@ -1,0 +1,12 @@
+TOTAL 32.55s  (8 A-roll segments, 0 B-roll shots, 1 photos, 5 audio fx, 51 caption cards)
+
+  0.00-  0.90  S1  src   0.00-  0.90  (1 pc)  Ok.
+  0.90-  2.80  S2  src   0.90-  2.80  (1 pc)  tengok tengok tengok.
+  2.80- 18.47  S3  src   2.80- 18.47  (1 pc)  Kita tiap hari penat nak layan dengan habuknya, makanannya yang berterabur. Kan anak-anak kita tu, terutama anak-anak yang kecil. Makan memang tidak ada nak elak. Mesti tumpah tu. Ok. So, jangan risau.
+ 18.47- 19.30  S4  src  18.47- 19.31  (1 pc)  Ok.
+ 19.30- 22.48  S5  src  19.31- 22.49  (1 pc)  Ni Ecovacs. InsyaAllah boleh bantu korang.
+ 22.48- 23.28  S6  src  22.49- 23.29  (1 pc)  Ok.
+ 23.28- 26.67  S7  src  23.29- 26.67  (1 pc)  sangat-sangat puas saya
+ 26.67- 32.55  S8  src  26.67- 32.56  (1 pc)  ada promo, promo payday
+
+  cutaway   3.98- 18.63

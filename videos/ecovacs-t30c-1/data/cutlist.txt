@@ -1,0 +1,12 @@
+TOTAL 40.22s  (8 A-roll segments, 1 B-roll shots, 0 photos, 5 audio fx, 84 caption cards)
+
+  0.00-  1.42  S1  src   0.00-  1.42  (1 pc)  Ok,
+  1.42-  6.33  S2  src   1.42-  6.33  (1 pc)  belum ada vacuum robot dekat rumah, tunggu sekejap,
+  6.33- 19.02  S3  src   6.33- 19.02  (1 pc)  izinkan saya nak bagitahu korang ni vacuum daripada Ecovacs, ok, Ecovacs robotik ni yang sangat-sangat function, bukan biasa-biasa punya robot ni tau, ok,
+ 19.02- 26.45  S4  src  19.02- 26.46  (1 pc)  robot Deebot T30C Max Omni, ni robot dia, ok, saya akan tunjuk dekat korang,
+ 26.45- 32.93  S5  src  26.46- 32.94  (1 pc)  Haa, Masya Allah, berat guys, ok, haa, tengok harga dia sesuai lah, berat macam ni, solid guys,
+ 32.93- 36.85  S6  src  32.94- 36.86  (1 pc)  haa, dan dia sangat bekerja dengan baik, insyaAllah, ok, saya akan tunjukkan juga,
+ 36.85- 38.08  S7  src  36.86- 38.09  (1 pc)  nampak apa tak,
+ 38.08- 40.22  S8  src  38.09- 40.23  (1 pc)  saya akan tunjukkan juga kepada
+
+  cutaway   6.52- 11.93

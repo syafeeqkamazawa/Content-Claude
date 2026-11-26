@@ -1,0 +1,12 @@
+TOTAL 43.02s  (8 A-roll segments, 0 B-roll shots, 1 photos, 6 audio fx, 81 caption cards)
+
+  0.00-  1.67  S1  src   0.00-  1.67  (1 pc)  Untuk
+  1.67-  5.43  S2  src   1.67-  5.43  (1 pc)  beli robot vacuum Yang pertama
+  5.43-  8.87  S3  src   5.43-  8.87  (1 pc)  Beli yang betul-betul boleh mop
+  8.87- 23.10  S4  src   8.87- 23.11  (1 pc)  Bukan sekadar nak melepaskan batuk di tangga Jangan Memang tak berbaloi Sebab kalau dia tak mop tu betul Korang kena mop kan Yang ni Korang tengok ni Dia mop Dia mop betul-betul Korang tengok ni
+ 23.10- 28.57  S5  src  23.11- 28.57  (1 pc)  Bekas dia mop tu Memang sangat terlihat tu lah kan dia
+ 28.57- 36.18  S6  src  28.57- 36.18  (1 pc)  mop mop dia boleh keluar sekali tak supaya tepi-tepi dinding tu betul betul-betul
+ 36.18- 40.32  S7  src  36.18- 40.32  (1 pc)  tempat yang mop mop mop buat semua ruang so
+ 40.32- 43.02  S8  src  40.32- 43.02  (1 pc)  memang sangat-sangat fungsi
+
+  cutaway  14.20-  4.05

@@ -1,0 +1,133 @@
+{
+ "pieces": [
+  [
+   1.84,
+   3.43
+  ],
+  [
+   3.6,
+   10.53
+  ],
+  [
+   10.7,
+   13.8
+  ],
+  [
+   14.05,
+   25.31
+  ],
+  [
+   25.63,
+   30.79
+  ],
+  [
+   31.32,
+   34.7
+  ],
+  [
+   40.49,
+   41.79
+  ],
+  [
+   42.55,
+   43.49
+  ],
+  [
+   50.37,
+   55.567
+  ]
+ ],
+ "total": 38.857,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    1.84,
+    3.43
+   ],
+   "e0": 0.0,
+   "e1": 1.59,
+   "text": ""
+  },
+  {
+   "id": "S2",
+   "src": [
+    3.6,
+    10.53
+   ],
+   "e0": 1.59,
+   "e1": 8.52,
+   "text": "Tempat robot ni, sebelah kanan lah. Okay, sebelah kanan. Tengok sini kan, sebelah kanan. Ni sebelah kiri."
+  },
+  {
+   "id": "S3",
+   "src": [
+    10.7,
+    13.8
+   ],
+   "e0": 8.52,
+   "e1": 11.62,
+   "text": "Okay, so kita dah siap bahagian air."
+  },
+  {
+   "id": "S4",
+   "src": [
+    14.05,
+    25.31
+   ],
+   "e0": 11.62,
+   "e1": 22.88,
+   "text": "guys, rumah pun dah ready. Air bersih pun kita dah isi. Okay, so Sekarang ni kita nak Set up Application pula dalam phone. Okay. Okay, jom."
+  },
+  {
+   "id": "S5",
+   "src": [
+    25.63,
+    30.79
+   ],
+   "e0": 22.88,
+   "e1": 28.04,
+   "text": "So guys, cara ini mudah saja, search Ecovacs home,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    31.32,
+    34.7
+   ],
+   "e0": 28.04,
+   "e1": 31.42,
+   "text": "ok, lepas tu, install, ok,"
+  },
+  {
+   "id": "S7",
+   "src": [
+    40.49,
+    41.79
+   ],
+   "e0": 31.42,
+   "e1": 32.72,
+   "text": ""
+  },
+  {
+   "id": "S8",
+   "src": [
+    42.55,
+    43.49
+   ],
+   "e0": 32.72,
+   "e1": 33.66,
+   "text": "open,"
+  },
+  {
+   "id": "S9",
+   "src": [
+    50.37,
+    55.567
+   ],
+   "e0": 33.66,
+   "e1": 38.857,
+   "text": "Ambil region Malaysia, language, English boleh,"
+  }
+ ]
+}

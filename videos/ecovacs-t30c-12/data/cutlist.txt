@@ -1,0 +1,20 @@
+TOTAL 43.85s  (17 A-roll segments, 0 B-roll shots, 0 photos, 4 audio fx, 84 caption cards)
+
+  0.00-  2.63  S1  src   0.00-  2.64  (1 pc)  Haa, macam tu.
+  2.63-  4.48  S2  src   2.64-  4.49  (1 pc)  So, ni adalah
+  4.48-  6.30  S3  src   4.49-  6.30  (1 pc)  Tempat makan.
+  6.30- 11.73  S4  src   6.30- 11.74  (1 pc)  Ok, so aku buat area name balik. Room 2 ni adalah Dining room. Ok.
+ 11.73- 14.83  S5  src  11.74- 14.84  (1 pc)  Room 1 ni living room. Ok.
+ 14.83- 16.50  S6  src  14.84- 16.51  (1 pc)  Much better.
+ 16.50- 19.27  S7  src  16.51- 19.28  (1 pc)  So.
+ 19.27- 20.83  S8  src  19.28- 20.84  (1 pc)  Ok, let's go.
+ 20.83- 23.02  S9  src  20.84- 23.03  (1 pc)  Kita buat dining room dulu lah.
+ 23.02- 24.85  S10  src  23.03- 24.87  (1 pc)  Kita start dengan living room. Ok,
+ 24.85- 27.68  S11  src  24.87- 27.70  (1 pc)  Ok, jom. So, kita start lah.
+ 27.68- 29.75  S12  src  27.70- 29.76  (1 pc)  Kita start. Kita ambil mod.
+ 29.75- 32.65  S13  src  29.76- 32.66  (1 pc)  Aku ambil yang terus ni lah.
+ 32.65- 34.40  S14  src  32.66- 34.41  (1 pc)  Mod terus sekali.
+ 34.40- 37.17  S15  src  34.41- 37.17  (1 pc)  Dan aku ambil
+ 37.17- 39.65  S16  src  37.17- 39.65  (1 pc)  Dry condition. Water flow rate.
+ 39.65- 43.85  S17  src  39.65- 43.85  (1 pc)  Ok, leceh. Kalau ambil banyak sangat, leceh. So, ok. Dah 35 je.
+

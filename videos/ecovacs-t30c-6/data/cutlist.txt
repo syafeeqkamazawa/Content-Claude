@@ -1,0 +1,12 @@
+TOTAL 38.87s  (9 A-roll segments, 0 B-roll shots, 0 photos, 4 audio fx, 71 caption cards)
+
+  0.00-  1.58  S1  src   0.00-  1.59  (1 pc)  .
+  1.58-  8.52  S2  src   1.59-  8.52  (1 pc)  Tempat robot ni, sebelah kanan lah. Okay, sebelah kanan. Tengok sini kan, sebelah kanan. Ni sebelah kiri.
+  8.52- 11.62  S3  src   8.52- 11.62  (1 pc)  Okay, so kita dah siap bahagian air.
+ 11.62- 22.88  S4  src  11.62- 22.88  (1 pc)  guys, rumah pun dah ready. Air bersih pun kita dah isi. Okay, so Sekarang ni kita nak Set up Application pula dalam phone. Okay. Okay, jom.
+ 22.88- 28.05  S5  src  22.88- 28.04  (1 pc)  So guys, cara ini mudah saja, search Ecovacs home,
+ 28.05- 31.43  S6  src  28.04- 31.42  (1 pc)  ok, lepas tu, install, ok,
+ 31.43- 32.73  S7  src  31.42- 32.72  (1 pc)  .
+ 32.73- 33.67  S8  src  32.72- 33.66  (1 pc)  open,
+ 33.67- 38.87  S9  src  33.66- 38.86  (1 pc)  Ambil region Malaysia, language, English boleh,
+

@@ -1,0 +1,255 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#06121F",
+  "hot": "#3FE0FF"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Ecovacs Deebot T30C #4 — from VID_20261126 173945 1.5-42.5 + 174023 20-35 0.0-56.067 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: two extra 'remove' (said three times). Pieces: 11, total 39.46 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.88,
+   "text": "Ok guys.",
+   "note": "src -0.04-1.84",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 1.88,
+   "out": 2.74,
+   "text": "Ok guys,",
+   "note": "src 4.98-5.84",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 2.74,
+   "out": 6.07,
+   "text": "so kita nak set up dia.",
+   "note": "src 11.50-14.83",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 6.07,
+   "out": 8.68,
+   "text": "Ok, so cara dia ialah, ok",
+   "note": "src 15.13-17.74",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 8.68,
+   "out": 15.23,
+   "text": "Satu ni, remove all protective material from the Deebot and the Omni Station.",
+   "note": "src 20.99-27.54",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 15.23,
+   "out": 17.04,
+   "text": "Ok, remove.",
+   "note": "src 27.90-29.71",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 17.04,
+   "out": 18.18,
+   "text": "Remove.",
+   "note": "src 30.44-31.58",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 18.18,
+   "out": 19.32,
+   "text": "Remove.",
+   "note": "src 32.52-33.66",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 19.32,
+   "out": 20.62,
+   "text": "Lepas tu,",
+   "note": "src 34.24-35.54",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 20.62,
+   "out": 29.31,
+   "text": "install the side brush and the base until you hear the click sound. So guys, dekat sini sebelah kanan tangki",
+   "note": "src 37.02-45.71",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 29.31,
+   "out": 39.46,
+   "text": "air bersih. Ok, kita isikan air ni. Dan sini tempat air kotor sebelah kiri dia. Ok, sebelah kanan tempat air bersih. So, jom kita isikan air dulu.",
+   "note": "src 45.77-55.92",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [],
+ "punch": [],
+ "broll": [],
+ "photos": [],
+ "theme": {
+  "key": "#3FE0FF",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "ecovacs",
+  "deebot"
+ ],
+ "keywords": [
+  "mop",
+  "vacuum",
+  "habuk",
+  "bersih",
+  "mantap",
+  "app",
+  "station",
+  "promo",
+  "murah",
+  "kuning",
+  "air"
+ ],
+ "fx": [],
+ "mh": [],
+ "jm": [],
+ "sb": [],
+ "ld": [
+  {
+   "type": "hook",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "@",
+    4.2
+   ],
+   "kicker": "ECOVACS DEEBOT T30C",
+   "lines": [
+    "Cara set up",
+    "senang je"
+   ],
+   "hi": [
+    "senang"
+   ],
+   "y": 860
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "Satu#1"
+   ],
+   "to": [
+    "*",
+    "Lepas#1"
+   ],
+   "text": "Buang semua pelindung",
+   "y": 150,
+   "side": "right"
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "install#1"
+   ],
+   "to": [
+    "@",
+    25.32
+   ],
+   "text": "Pasang side brush",
+   "y": 260,
+   "side": "right"
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "sebelah#1"
+   ],
+   "to": [
+    "*",
+    "Dan#1"
+   ],
+   "text": "Kanan: air bersih",
+   "y": 330,
+   "side": "right"
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "Dan#1"
+   ],
+   "to": [
+    "*",
+    "Dan#1"
+   ],
+   "text": "Kiri: air kotor",
+   "y": 260,
+   "side": "left"
+  },
+  {
+   "type": "cta",
+   "from": [
+    "-",
+    5.2
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "lines": [
+    "Dapatkan di",
+    "beg kuning"
+   ],
+   "hi": [
+    "kuning"
+   ],
+   "sub": "Harga promo, sementara masih murah",
+   "y": 800
+  }
+ ],
+ "pal": {
+  "key": "#3FE0FF",
+  "bg": "rgba(10,20,34,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#06121F",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

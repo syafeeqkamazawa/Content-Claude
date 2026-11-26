@@ -1,0 +1,147 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   2.33
+  ],
+  [
+   2.74,
+   5.82
+  ],
+  [
+   6.06,
+   8.8
+  ],
+  [
+   9.22,
+   13.08
+  ],
+  [
+   13.18,
+   14.27
+  ],
+  [
+   14.48,
+   16.83
+  ],
+  [
+   17.06,
+   21.24
+  ],
+  [
+   21.82,
+   29.92
+  ],
+  [
+   31.58,
+   34.43
+  ],
+  [
+   34.56,
+   43.2
+  ]
+ ],
+ "total": 39.42,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    2.33
+   ],
+   "e0": 0.0,
+   "e1": 2.53,
+   "text": "tu semua tempat yang dia dah pusing tau,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    2.74,
+    5.82
+   ],
+   "e0": 2.53,
+   "e1": 5.61,
+   "text": "ni dia tengah cas balik, dia pergi balik,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    6.06,
+    8.8
+   ],
+   "e0": 5.61,
+   "e1": 8.35,
+   "text": "dia dah pusing ni aku punya dining rumah,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    9.22,
+    13.08
+   ],
+   "e0": 8.35,
+   "e1": 12.21,
+   "text": "ok kitchen pun dia pusing macam ni, korang tengok dia punya pusing dia,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    13.18,
+    14.27
+   ],
+   "e0": 12.21,
+   "e1": 13.3,
+   "text": "ok kan,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    14.48,
+    16.83
+   ],
+   "e0": 13.3,
+   "e1": 15.65,
+   "text": "so dia akan cover semua tempat lah,"
+  },
+  {
+   "id": "S7",
+   "src": [
+    17.06,
+    21.24
+   ],
+   "e0": 15.65,
+   "e1": 19.83,
+   "text": "ok ni bilik belakang aku, bilik belakang,"
+  },
+  {
+   "id": "S8",
+   "src": [
+    21.82,
+    29.92
+   ],
+   "e0": 19.83,
+   "e1": 27.93,
+   "text": "dia cover, so ni yang dia tak cover tu sebab ada almari lah, ada almari, ada katil, kat bawah katil pun dia cover,"
+  },
+  {
+   "id": "S9",
+   "src": [
+    31.58,
+    34.43
+   ],
+   "e0": 27.93,
+   "e1": 30.78,
+   "text": "macam tu sikit lah kan, tapi still ok, lepas"
+  },
+  {
+   "id": "S10",
+   "src": [
+    34.56,
+    43.2
+   ],
+   "e0": 30.78,
+   "e1": 39.42,
+   "text": "tu overall memang terbaya guys, serius, korang beli, belilah satu, kat beg kuning, insyaAllah."
+  }
+ ]
+}

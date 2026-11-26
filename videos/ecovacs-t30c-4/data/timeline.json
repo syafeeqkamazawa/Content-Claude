@@ -1,0 +1,161 @@
+{
+ "pieces": [
+  [
+   -0.04,
+   1.84
+  ],
+  [
+   4.98,
+   5.84
+  ],
+  [
+   11.5,
+   14.83
+  ],
+  [
+   15.13,
+   17.74
+  ],
+  [
+   20.99,
+   27.54
+  ],
+  [
+   27.9,
+   29.71
+  ],
+  [
+   30.44,
+   31.58
+  ],
+  [
+   32.52,
+   33.66
+  ],
+  [
+   34.24,
+   35.54
+  ],
+  [
+   37.02,
+   45.71
+  ],
+  [
+   45.77,
+   55.92
+  ]
+ ],
+ "total": 39.46,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.04,
+    1.84
+   ],
+   "e0": 0.0,
+   "e1": 1.88,
+   "text": "Ok guys."
+  },
+  {
+   "id": "S2",
+   "src": [
+    4.98,
+    5.84
+   ],
+   "e0": 1.88,
+   "e1": 2.74,
+   "text": "Ok guys,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    11.5,
+    14.83
+   ],
+   "e0": 2.74,
+   "e1": 6.07,
+   "text": "so kita nak set up dia."
+  },
+  {
+   "id": "S4",
+   "src": [
+    15.13,
+    17.74
+   ],
+   "e0": 6.07,
+   "e1": 8.68,
+   "text": "Ok, so cara dia ialah, ok"
+  },
+  {
+   "id": "S5",
+   "src": [
+    20.99,
+    27.54
+   ],
+   "e0": 8.68,
+   "e1": 15.23,
+   "text": "Satu ni, remove all protective material from the D-Boat and the Omni Station."
+  },
+  {
+   "id": "S6",
+   "src": [
+    27.9,
+    29.71
+   ],
+   "e0": 15.23,
+   "e1": 17.04,
+   "text": "Ok, remove."
+  },
+  {
+   "id": "S7",
+   "src": [
+    30.44,
+    31.58
+   ],
+   "e0": 17.04,
+   "e1": 18.18,
+   "text": "Remove."
+  },
+  {
+   "id": "S8",
+   "src": [
+    32.52,
+    33.66
+   ],
+   "e0": 18.18,
+   "e1": 19.32,
+   "text": "Remove."
+  },
+  {
+   "id": "S9",
+   "src": [
+    34.24,
+    35.54
+   ],
+   "e0": 19.32,
+   "e1": 20.62,
+   "text": "Lepas tu,"
+  },
+  {
+   "id": "S10",
+   "src": [
+    37.02,
+    45.71
+   ],
+   "e0": 20.62,
+   "e1": 29.31,
+   "text": "install the side brush and the base until you hear the click sound. So guys, dekat sini sebelah kanan tangki"
+  },
+  {
+   "id": "S11",
+   "src": [
+    45.77,
+    55.92
+   ],
+   "e0": 29.31,
+   "e1": 39.46,
+   "text": "air bersih. Ok, kita isikan air ni. Dan sini tempat air kotor sebelah kiri dia. Ok, sebelah kanan tempat air bersih. So, jom kita isikan air dulu."
+  }
+ ]
+}

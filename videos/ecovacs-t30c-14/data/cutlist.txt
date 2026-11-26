@@ -1,0 +1,14 @@
+TOTAL 27.18s  (10 A-roll segments, 1 B-roll shots, 0 photos, 7 audio fx, 55 caption cards)
+
+  0.00-  2.80  S1  src   0.00-  2.80  (1 pc)  guys, so ni dia baru nak start, dia
+  2.80-  5.43  S2  src   2.80-  5.44  (1 pc)  baru nak start scan, dia
+  5.43-  7.10  S3  src   5.44-  7.11  (1 pc)  baru
+  7.10-  9.15  S4  src   7.11-  9.16  (1 pc)  nak start tu guys, apa
+  9.15- 10.45  S5  src   9.16- 10.46  (1 pc)  dia?
+ 10.45- 11.75  S6  src  10.46- 11.76  (1 pc)  .
+ 11.75- 14.88  S7  src  11.76- 14.90  (1 pc)  So dia akan bergerak, dia gambar kan?
+ 14.88- 16.07  S8  src  14.90- 16.08  (1 pc)  Ok,
+ 16.07- 19.20  S9  src  16.08- 19.22  (1 pc)  dia akan cari guys, sampah-sampah dan
+ 19.20- 27.18  S10  src  19.22- 27.20  (1 pc)  dia tak akan langgar, objek-objek pun tak langgar. Dia boleh pergi ke bawah-bawah ni guys, kat bawah-bawah ni pun dia boleh pergi.
+
+  cutaway   1.18- 15.05

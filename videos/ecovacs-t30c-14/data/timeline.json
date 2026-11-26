@@ -1,0 +1,147 @@
+{
+ "pieces": [
+  [
+   0.15,
+   2.95
+  ],
+  [
+   3.26,
+   5.9
+  ],
+  [
+   6.98,
+   8.65
+  ],
+  [
+   8.68,
+   10.73
+  ],
+  [
+   21.42,
+   22.72
+  ],
+  [
+   23.28,
+   24.58
+  ],
+  [
+   34.4,
+   37.54
+  ],
+  [
+   38.2,
+   39.38
+  ],
+  [
+   41.92,
+   45.06
+  ],
+  [
+   45.24,
+   53.22
+  ]
+ ],
+ "total": 27.2,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.15,
+    2.95
+   ],
+   "e0": 0.0,
+   "e1": 2.8,
+   "text": "guys, so ni dia baru nak start, dia"
+  },
+  {
+   "id": "S2",
+   "src": [
+    3.26,
+    5.9
+   ],
+   "e0": 2.8,
+   "e1": 5.44,
+   "text": "baru nak start scan, dia"
+  },
+  {
+   "id": "S3",
+   "src": [
+    6.98,
+    8.65
+   ],
+   "e0": 5.44,
+   "e1": 7.11,
+   "text": "baru"
+  },
+  {
+   "id": "S4",
+   "src": [
+    8.68,
+    10.73
+   ],
+   "e0": 7.11,
+   "e1": 9.16,
+   "text": "nak start tu guys, apa"
+  },
+  {
+   "id": "S5",
+   "src": [
+    21.42,
+    22.72
+   ],
+   "e0": 9.16,
+   "e1": 10.46,
+   "text": "dia?"
+  },
+  {
+   "id": "S6",
+   "src": [
+    23.28,
+    24.58
+   ],
+   "e0": 10.46,
+   "e1": 11.76,
+   "text": ""
+  },
+  {
+   "id": "S7",
+   "src": [
+    34.4,
+    37.54
+   ],
+   "e0": 11.76,
+   "e1": 14.9,
+   "text": "So dia akan bergerak, dia gambar kan?"
+  },
+  {
+   "id": "S8",
+   "src": [
+    38.2,
+    39.38
+   ],
+   "e0": 14.9,
+   "e1": 16.08,
+   "text": "Ok,"
+  },
+  {
+   "id": "S9",
+   "src": [
+    41.92,
+    45.06
+   ],
+   "e0": 16.08,
+   "e1": 19.22,
+   "text": "dia akan cari guys, sampah-sampah dan"
+  },
+  {
+   "id": "S10",
+   "src": [
+    45.24,
+    53.22
+   ],
+   "e0": 19.22,
+   "e1": 27.2,
+   "text": "dia tak akan langgar, objek-objek pun tak langgar. Dia boleh pergi ke bawah-bawah ni guys, kat bawah-bawah ni pun dia boleh pergi."
+  }
+ ]
+}

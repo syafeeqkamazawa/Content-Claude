@@ -1,0 +1,203 @@
+{
+ "pieces": [
+  [
+   -0.1,
+   1.63
+  ],
+  [
+   1.86,
+   4.22
+  ],
+  [
+   5.0,
+   6.72
+  ],
+  [
+   7.44,
+   8.6
+  ],
+  [
+   9.0,
+   10.94
+  ],
+  [
+   10.98,
+   13.31
+  ],
+  [
+   23.62,
+   26.52
+  ],
+  [
+   38.0,
+   41.04
+  ],
+  [
+   47.9,
+   58.14
+  ],
+  [
+   58.24,
+   59.1
+  ],
+  [
+   68.36,
+   74.97
+  ],
+  [
+   83.56,
+   86.11
+  ],
+  [
+   86.18,
+   89.18
+  ],
+  [
+   89.52,
+   91.9
+  ]
+ ],
+ "total": 42.82,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.1,
+    1.63
+   ],
+   "e0": 0.0,
+   "e1": 1.73,
+   "text": "So, deep cleaning."
+  },
+  {
+   "id": "S2",
+   "src": [
+    1.86,
+    4.22
+   ],
+   "e0": 1.73,
+   "e1": 4.09,
+   "text": "Ok. Cleaning passes."
+  },
+  {
+   "id": "S3",
+   "src": [
+    5.0,
+    6.72
+   ],
+   "e0": 4.09,
+   "e1": 5.81,
+   "text": "2 passes."
+  },
+  {
+   "id": "S4",
+   "src": [
+    7.44,
+    8.6
+   ],
+   "e0": 5.81,
+   "e1": 6.97,
+   "text": "Maksud dia?"
+  },
+  {
+   "id": "S5",
+   "src": [
+    9.0,
+    10.94
+   ],
+   "e0": 6.97,
+   "e1": 8.91,
+   "text": "Kalau 1 pass."
+  },
+  {
+   "id": "S6",
+   "src": [
+    10.98,
+    13.31
+   ],
+   "e0": 8.91,
+   "e1": 11.24,
+   "text": "Ambil lah 2 pass. Ok, so."
+  },
+  {
+   "id": "S7",
+   "src": [
+    23.62,
+    26.52
+   ],
+   "e0": 11.24,
+   "e1": 14.14,
+   "text": "Kita start dengan living room dulu."
+  },
+  {
+   "id": "S8",
+   "src": [
+    38.0,
+    41.04
+   ],
+   "e0": 14.14,
+   "e1": 17.18,
+   "text": "Jom, kita start. start vacuuming while walking."
+  },
+  {
+   "id": "S9",
+   "src": [
+    47.9,
+    58.14
+   ],
+   "e0": 17.18,
+   "e1": 27.42,
+   "text": "Ok. So, bila sebab aku suruh dia buat sekali. Serentak. Vacuum dan mop. So, bila aku suruh buat macam tu."
+  },
+  {
+   "id": "S10",
+   "src": [
+    58.24,
+    59.1
+   ],
+   "e0": 27.42,
+   "e1": 28.28,
+   "text": "Ok."
+  },
+  {
+   "id": "S11",
+   "src": [
+    68.36,
+    74.97
+   ],
+   "e0": 28.28,
+   "e1": 34.89,
+   "text": "dia akan isikan air dulu. Dia akan basahkan dulu mop. So, air bersih dekat sini tau."
+  },
+  {
+   "id": "S12",
+   "src": [
+    83.56,
+    86.11
+   ],
+   "e0": 34.89,
+   "e1": 37.44,
+   "text": "isi air dalam"
+  },
+  {
+   "id": "S13",
+   "src": [
+    86.18,
+    89.18
+   ],
+   "e0": 37.44,
+   "e1": 40.44,
+   "text": "robot ni untuk dia mop nanti."
+  },
+  {
+   "id": "S14",
+   "src": [
+    89.52,
+    91.9
+   ],
+   "e0": 40.44,
+   "e1": 42.82,
+   "text": "So, kita dapat tengok lah. Ok kan?"
+  }
+ ]
+}

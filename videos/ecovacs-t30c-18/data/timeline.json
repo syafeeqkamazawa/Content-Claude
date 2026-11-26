@@ -1,0 +1,175 @@
+{
+ "pieces": [
+  [
+   -0.18,
+   2.5
+  ],
+  [
+   3.54,
+   5.99
+  ],
+  [
+   6.14,
+   8.52
+  ],
+  [
+   8.76,
+   18.28
+  ],
+  [
+   18.42,
+   19.97
+  ],
+  [
+   20.24,
+   21.54
+  ],
+  [
+   23.36,
+   32.44
+  ],
+  [
+   33.59,
+   38.58
+  ],
+  [
+   39.47,
+   40.35
+  ],
+  [
+   41.89,
+   42.77
+  ],
+  [
+   42.99,
+   44.25
+  ],
+  [
+   44.65,
+   47.8
+  ]
+ ],
+ "total": 40.12,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.18,
+    2.5
+   ],
+   "e0": 0.0,
+   "e1": 2.68,
+   "text": "Ok guys,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    3.54,
+    5.99
+   ],
+   "e0": 2.68,
+   "e1": 5.13,
+   "text": "apa, Ecovacs per RC guys,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    6.14,
+    8.52
+   ],
+   "e0": 5.13,
+   "e1": 7.51,
+   "text": "korang tengok dia punya apa, dia"
+  },
+  {
+   "id": "S4",
+   "src": [
+    8.76,
+    18.28
+   ],
+   "e0": 7.51,
+   "e1": 17.03,
+   "text": "punya mod dia tu, dia akan keluar ke kiri lah, dia akan keluar supaya semua tepi-tepi tu akan kena lah,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    18.42,
+    19.97
+   ],
+   "e0": 17.03,
+   "e1": 18.58,
+   "text": "memang mantap,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    20.24,
+    21.54
+   ],
+   "e0": 18.58,
+   "e1": 19.88,
+   "text": ""
+  },
+  {
+   "id": "S7",
+   "src": [
+    23.36,
+    32.44
+   ],
+   "e0": 19.88,
+   "e1": 28.96,
+   "text": "padahal dengan harga dia guys, tengok, boleh keluar macam tu. Boleh tengok, kesem mod dia tu kan, memang kuatih, dia mod betul-betul kok."
+  },
+  {
+   "id": "S8",
+   "src": [
+    33.59,
+    38.58
+   ],
+   "e0": 28.96,
+   "e1": 33.95,
+   "text": "Tak, korang boleh setting lagi tau, nak mod tu lagi basah ke tak, dekat dalam app dia."
+  },
+  {
+   "id": "S9",
+   "src": [
+    39.47,
+    40.35
+   ],
+   "e0": 33.95,
+   "e1": 34.83,
+   "text": "Nampak?"
+  },
+  {
+   "id": "S10",
+   "src": [
+    41.89,
+    42.77
+   ],
+   "e0": 34.83,
+   "e1": 35.71,
+   "text": "Haa,"
+  },
+  {
+   "id": "S11",
+   "src": [
+    42.99,
+    44.25
+   ],
+   "e0": 35.71,
+   "e1": 36.97,
+   "text": "memang basah tau."
+  },
+  {
+   "id": "S12",
+   "src": [
+    44.65,
+    47.8
+   ],
+   "e0": 36.97,
+   "e1": 40.12,
+   "text": "Haa, bukan main-main tu punya basah, Memang basah. Memang basah betul."
+  }
+ ]
+}

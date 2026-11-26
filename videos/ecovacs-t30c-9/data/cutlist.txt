@@ -1,0 +1,10 @@
+TOTAL 33.57s  (7 A-roll segments, 0 B-roll shots, 0 photos, 4 audio fx, 72 caption cards)
+
+  0.00- 15.12  S1  src   0.00- 15.12  (1 pc)  So guys, sekarang ni dia tengah mapping rumah. Okay, bila korang dapat app tu, bila dah semua dah register, dah siap semua, dah connected. Okay, korang buat yang ni dulu. Start mapping. So dia, sekarang ni dia tengah mapping lah.
+ 15.12- 18.53  S2  src  15.12- 18.54  (1 pc)  Okay guys, so sekarang ni dia tengah mapping lah guys. Okay.
+ 18.53- 22.85  S3  src  18.54- 22.86  (1 pc)  Tengah mapping untuk, apa, untuk,
+ 22.85- 27.62  S4  src  22.86- 27.62  (1 pc)  ni lah, floor-floor yang bawah ni. Okay, floor,
+ 27.62- 29.48  S5  src  27.62- 29.49  (1 pc)  floor.
+ 29.48- 31.78  S6  src  29.49- 31.79  (1 pc)  Kita tengah mapping. Nak main
+ 31.78- 33.57  S7  src  31.79- 33.57  (1 pc)  pun boleh tu.
+

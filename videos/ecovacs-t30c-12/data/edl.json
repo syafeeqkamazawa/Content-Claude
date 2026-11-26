@@ -1,0 +1,289 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#06121F",
+  "hot": "#3FE0FF"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Ecovacs Deebot T30C #12 — from VID_20261126 s183350 97.6-170 0.0-72.417 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: the first 'room 2 ni adalah' (said again), 'so, ok' fillers, 'kita beli living room... start dengan David ni' and 'kita give back' slips, 'apa?'. Pieces: 17, total 43.85 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 2.64,
+   "text": "Haa, macam tu.",
+   "note": "src 5.50-8.14",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 2.64,
+   "out": 4.49,
+   "text": "So, ni adalah",
+   "note": "src 8.24-10.09",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 4.49,
+   "out": 6.3,
+   "text": "Tempat makan.",
+   "note": "src 11.13-12.94",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 6.3,
+   "out": 11.74,
+   "text": "Ok, so aku buat area name balik. Room 2 ni adalah Dining room. Ok.",
+   "note": "src 17.80-23.24",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 11.74,
+   "out": 14.84,
+   "text": "Room 1 ni living room. Ok.",
+   "note": "src 23.54-26.64",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 14.84,
+   "out": 16.51,
+   "text": "Much better.",
+   "note": "src 31.40-33.07",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 16.51,
+   "out": 19.28,
+   "text": "So.",
+   "note": "src 33.24-36.01",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 19.28,
+   "out": 20.84,
+   "text": "Ok, let's go.",
+   "note": "src 36.18-37.74",
+   "zoom": 1.06
+  },
+  {
+   "id": "S9",
+   "in": 20.84,
+   "out": 23.03,
+   "text": "Kita buat dining room dulu lah.",
+   "note": "src 39.68-41.87",
+   "zoom": 1.0
+  },
+  {
+   "id": "S10",
+   "in": 23.03,
+   "out": 24.87,
+   "text": "Kita start dengan living room. Ok,",
+   "note": "src 45.50-47.34",
+   "zoom": 1.06
+  },
+  {
+   "id": "S11",
+   "in": 24.87,
+   "out": 27.7,
+   "text": "Ok, jom. So, kita start lah.",
+   "note": "src 48.86-51.69",
+   "zoom": 1.0
+  },
+  {
+   "id": "S12",
+   "in": 27.7,
+   "out": 29.76,
+   "text": "Kita start. Kita ambil mod.",
+   "note": "src 52.00-54.06",
+   "zoom": 1.06
+  },
+  {
+   "id": "S13",
+   "in": 29.76,
+   "out": 32.66,
+   "text": "Aku ambil yang terus ni lah.",
+   "note": "src 54.30-57.20",
+   "zoom": 1.0
+  },
+  {
+   "id": "S14",
+   "in": 32.66,
+   "out": 34.41,
+   "text": "Mod terus sekali.",
+   "note": "src 59.00-60.75",
+   "zoom": 1.06
+  },
+  {
+   "id": "S15",
+   "in": 34.41,
+   "out": 37.17,
+   "text": "Dan aku ambil",
+   "note": "src 60.90-63.66",
+   "zoom": 1.0
+  },
+  {
+   "id": "S16",
+   "in": 37.17,
+   "out": 39.65,
+   "text": "Dry condition. Water flow rate.",
+   "note": "src 64.92-67.40",
+   "zoom": 1.06
+  },
+  {
+   "id": "S17",
+   "in": 39.65,
+   "out": 43.85,
+   "text": "Ok, leceh. Kalau ambil banyak sangat, leceh. So, ok. Dah 35 je.",
+   "note": "src 68.10-72.30",
+   "zoom": 1.0
+  }
+ ],
+ "kp": [],
+ "punch": [],
+ "broll": [],
+ "photos": [],
+ "theme": {
+  "key": "#3FE0FF",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "ecovacs",
+  "deebot"
+ ],
+ "keywords": [
+  "mop",
+  "vacuum",
+  "habuk",
+  "bersih",
+  "mantap",
+  "app",
+  "station",
+  "promo",
+  "murah",
+  "kuning",
+  "air"
+ ],
+ "fx": [],
+ "mh": [],
+ "jm": [],
+ "sb": [],
+ "ld": [
+  {
+   "type": "hook",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "@",
+    4.2
+   ],
+   "kicker": "ECOVACS DEEBOT T30C",
+   "lines": [
+    "Pilih mod",
+    "ikut ruang"
+   ],
+   "hi": [
+    "mod"
+   ],
+   "y": 150
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "Dining#1"
+   ],
+   "to": [
+    "@",
+    14.0
+   ],
+   "text": "Dining & living room",
+   "y": 330,
+   "side": "right"
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "Mod#1"
+   ],
+   "to": [
+    "*",
+    "Dan#1"
+   ],
+   "text": "Vacuum + mop serentak",
+   "y": 330,
+   "side": "right"
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "Water#1"
+   ],
+   "to": [
+    "*",
+    "Water#1"
+   ],
+   "text": "Atur aliran air",
+   "y": 760,
+   "side": "right"
+  },
+  {
+   "type": "cta",
+   "from": [
+    "-",
+    5.2
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "lines": [
+    "Dapatkan di",
+    "beg kuning"
+   ],
+   "hi": [
+    "kuning"
+   ],
+   "sub": "Harga promo, sementara masih murah",
+   "y": 170
+  }
+ ],
+ "pal": {
+  "key": "#3FE0FF",
+  "bg": "rgba(10,20,34,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#06121F",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

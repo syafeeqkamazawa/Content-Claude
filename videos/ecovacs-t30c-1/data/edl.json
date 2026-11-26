@@ -1,0 +1,223 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#06121F",
+  "hot": "#3FE0FF"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Ecovacs Deebot T30C #1 — from VID_20261126 172852 0-29.6 + 172320 (B-roll) + 172852 57-71.2 0.0-46.173 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 8, total 40.23 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.42,
+   "text": "Ok,",
+   "note": "src -0.20-1.22",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 1.42,
+   "out": 6.33,
+   "text": "belum ada vacuum robot dekat rumah, tunggu sekejap,",
+   "note": "src 4.70-9.61",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 6.33,
+   "out": 19.02,
+   "text": "izinkan saya nak bagitahu korang ni vacuum daripada Ecovacs, ok, Ecovacs robotik ni yang sangat-sangat function, bukan biasa-biasa punya robot ni tau, ok,",
+   "note": "src 9.72-22.41",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 19.02,
+   "out": 26.46,
+   "text": "robot Deebot T30C Max Omni, ni robot dia, ok, saya akan tunjuk dekat korang,",
+   "note": "src 22.46-29.90",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 26.46,
+   "out": 32.94,
+   "text": "Haa, Masya Allah, berat guys, ok, haa, tengok harga dia sesuai lah, berat macam ni, solid guys,",
+   "note": "src 32.14-38.62",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 32.94,
+   "out": 36.86,
+   "text": "haa, dan dia sangat bekerja dengan baik, insyaAllah, ok, saya akan tunjukkan juga,",
+   "note": "src 38.70-42.62",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 36.86,
+   "out": 38.09,
+   "text": "nampak apa tak,",
+   "note": "src 43.02-44.25",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 38.09,
+   "out": 40.23,
+   "text": "saya akan tunjukkan juga kepada",
+   "note": "src 44.32-46.46",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [],
+ "punch": [],
+ "broll": [
+  {
+   "id": "C1",
+   "from": [
+    "*",
+    "izinkan#1"
+   ],
+   "to": [
+    "*",
+    "ok,#2"
+   ],
+   "src": 29.8,
+   "note": "the T30C box (B-roll)",
+   "push": [
+    1.0,
+    1.07
+   ],
+   "origin": "50% 50%"
+  }
+ ],
+ "photos": [],
+ "theme": {
+  "key": "#3FE0FF",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "ecovacs",
+  "deebot"
+ ],
+ "keywords": [
+  "mop",
+  "vacuum",
+  "habuk",
+  "bersih",
+  "mantap",
+  "app",
+  "station",
+  "promo",
+  "murah",
+  "kuning",
+  "air"
+ ],
+ "fx": [],
+ "mh": [],
+ "jm": [],
+ "sb": [],
+ "ld": [
+  {
+   "type": "hook",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "@",
+    4.2
+   ],
+   "kicker": "ECOVACS DEEBOT T30C",
+   "lines": [
+    "Belum ada",
+    "robot vacuum?"
+   ],
+   "hi": [
+    "robot",
+    "vacuum?"
+   ],
+   "y": 860
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "robot#3"
+   ],
+   "to": [
+    "*",
+    "Haa,#1"
+   ],
+   "text": "Deebot T30C Max Omni",
+   "y": 760,
+   "side": "right"
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "berat#1"
+   ],
+   "to": [
+    "*",
+    "dan#1"
+   ],
+   "text": "Berat & solid",
+   "y": 600,
+   "side": "right"
+  },
+  {
+   "type": "cta",
+   "from": [
+    "-",
+    5.2
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "lines": [
+    "Dapatkan di",
+    "beg kuning"
+   ],
+   "hi": [
+    "kuning"
+   ],
+   "sub": "Harga promo, sementara masih murah",
+   "y": 700
+  }
+ ],
+ "pal": {
+  "key": "#3FE0FF",
+  "bg": "rgba(10,20,34,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#06121F",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

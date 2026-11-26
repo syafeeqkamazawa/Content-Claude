@@ -1,0 +1,11 @@
+TOTAL 37.10s  (7 A-roll segments, 1 B-roll shots, 0 photos, 6 audio fx, 70 caption cards)
+
+  0.00-  4.43  S1  src   0.00-  4.44  (1 pc)  Ok guys, ni dia balik semula ke rumah dia guys.
+  4.43- 11.17  S2  src   4.44- 11.18  (1 pc)  Ok. Baliklah ke rumah awak ya, berehat sekejap. Saya tengah pening ni. Ok
+ 11.17- 21.87  S3  src  11.18- 21.88  (1 pc)  guys, bila dia masuk je, dia akan hantar segala habuk tu ke tangki yang ada habuk.
+ 21.87- 23.58  S4  src  21.88- 23.60  (1 pc)  So,
+ 23.58- 28.35  S5  src  23.60- 28.37  (1 pc)  memang mantap guys. Ok guys, bila dah siap vacuum,
+ 28.35- 34.78  S6  src  28.37- 34.80  (1 pc)  dia akan buang segala habuk dekat rumah ni, tempat dia ni, station dia.
+ 34.78- 37.10  S7  src  34.80- 37.12  (1 pc)  Dia akan buang habuk dulu kat station dia.
+
+  cutaway  22.03- 12.13

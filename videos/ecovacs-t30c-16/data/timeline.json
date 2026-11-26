@@ -1,0 +1,105 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   4.24
+  ],
+  [
+   4.56,
+   11.3
+  ],
+  [
+   11.35,
+   22.05
+  ],
+  [
+   22.41,
+   24.13
+  ],
+  [
+   24.35,
+   29.12
+  ],
+  [
+   29.31,
+   35.74
+  ],
+  [
+   35.83,
+   38.15
+  ]
+ ],
+ "total": 37.12,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    4.24
+   ],
+   "e0": 0.0,
+   "e1": 4.44,
+   "text": "Ok guys, ni dia balik semula ke rumah dia guys."
+  },
+  {
+   "id": "S2",
+   "src": [
+    4.56,
+    11.3
+   ],
+   "e0": 4.44,
+   "e1": 11.18,
+   "text": "Ok. Baliklah ke rumah awak ya, berehat sekejap. Saya tengah pening ni. Ok"
+  },
+  {
+   "id": "S3",
+   "src": [
+    11.35,
+    22.05
+   ],
+   "e0": 11.18,
+   "e1": 21.88,
+   "text": "guys, bila dia masuk je, dia akan hantar segala habuk tu ke tangki yang ada habuk."
+  },
+  {
+   "id": "S4",
+   "src": [
+    22.41,
+    24.13
+   ],
+   "e0": 21.88,
+   "e1": 23.6,
+   "text": "So,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    24.35,
+    29.12
+   ],
+   "e0": 23.6,
+   "e1": 28.37,
+   "text": "memang mantap guys. Ok guys, bila dah siap vacuum,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    29.31,
+    35.74
+   ],
+   "e0": 28.37,
+   "e1": 34.8,
+   "text": "dia akan buang segala habuk dekat rumah ni, tempat dia ni, station dia."
+  },
+  {
+   "id": "S7",
+   "src": [
+    35.83,
+    38.15
+   ],
+   "e0": 34.8,
+   "e1": 37.12,
+   "text": "Dia akan buang habuk dulu kat station dia."
+  }
+ ]
+}

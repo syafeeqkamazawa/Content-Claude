@@ -1,0 +1,16 @@
+TOTAL 44.77s  (13 A-roll segments, 0 B-roll shots, 0 photos, 5 audio fx, 97 caption cards)
+
+  0.00- 11.57  S1  src   0.00- 11.56  (1 pc)  kira ni kawasan dining ni pun, dengan kawasan kitchen, kitchen dah sebut, kitchen dah kat sini. So, ni kira kawasan dining ni rumah.
+ 11.57- 16.98  S2  src  11.56- 16.97  (1 pc)  Sampailah, dia akan pergi kat meja makan. Haa, ni dia akan pergi kat meja makan ni.
+ 16.98- 18.98  S3  src  16.97- 18.97  (1 pc)  So, tengoklah macam mana.
+ 18.98- 19.85  S4  src  18.97- 19.83  (1 pc)  Ok.
+ 19.85- 22.27  S5  src  19.83- 22.25  (1 pc)  So, meja bahagian semua kat bawah ni, dia akan tolong
+ 22.27- 25.23  S6  src  22.25- 25.21  (1 pc)  bersihkan. InsyaAllah.
+ 25.23- 31.68  S7  src  25.21- 31.66  (1 pc)  best ni, dia keluar tau. Dia punya mop tu, tak sebelah, akan keluar. Sebab memang dia buat pattern ni, supaya
+ 31.68- 36.20  S8  src  31.66- 36.18  (1 pc)  kalau dekat-dekat dinding, memang dia akan sapu habis lah.
+ 36.20- 38.87  S9  src  36.18- 38.85  (1 pc)  Dinding ni memang mantap lah.
+ 38.87- 39.97  S10  src  38.85- 39.95  (1 pc)  Baik.
+ 39.97- 42.03  S11  src  39.95- 42.01  (1 pc)  Ecovacs. Memang padu.
+ 42.03- 43.13  S12  src  42.01- 43.11  (1 pc)  Nice.
+ 43.13- 44.77  S13  src  43.11- 44.75  (1 pc)  Jangan tunggu lagi.
+

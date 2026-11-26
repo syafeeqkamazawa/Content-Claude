@@ -127,7 +127,7 @@ SPECS5 = {
                     C("Bukan sekadar lalu", "Bukan#2", "Korang#2"), C("Mop sampai tepi dinding", "tepi-tepi#1", E5), CTA()],
                 ai=[("A1", W("Sebab#1"), W("Yang#1"), f"A tired Malaysian woman mopping the living-room floor by hand with a bucket and mop, wiping sweat from her forehead, afternoon light. {F}")]),
     "e22": _eco(22, "hn220921 0.3-45.3 + hn215609 113.9-122.6",
-                ld=[H(["Ada anak kecil", "di rumah?"], ["anak", "kecil"], kicker="IBU AYAH"), C("Bersihkan kawasan ditanda", "bersihkan#1", "Ok,#2"),
+                ld=[H(["Ada anak kecil", "di rumah?"], ["anak", "kecil"], kicker="IBU AYAH"), C("Bersihkan kawasan ditanda", "bersihkan#1", "Ok,#1"),
                     C("Kualiti padu", "kualiti#1", "dia#5"), C("Fungsi tak dinafikan", "fungsi#1", E5), CTA()],
                 ai=[("A1", W("yang#2"), W("Apa#1"), f"A happy Malaysian little boy at the dining table with rice and crumbs scattered around his plate and on the floor, his smiling mother beside him. {F} {K}")]),
     "e23": _eco(23, "hn215609 59.7-84 + 222642 0-8.5",

@@ -1,0 +1,119 @@
+{
+ "pieces": [
+  [
+   0.13,
+   1.03
+  ],
+  [
+   3.48,
+   5.38
+  ],
+  [
+   8.49,
+   24.16
+  ],
+  [
+   24.35,
+   25.19
+  ],
+  [
+   25.21,
+   28.39
+  ],
+  [
+   28.59,
+   29.39
+  ],
+  [
+   29.83,
+   33.21
+  ],
+  [
+   35.44,
+   41.33
+  ]
+ ],
+ "total": 32.56,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.13,
+    1.03
+   ],
+   "e0": 0.0,
+   "e1": 0.9,
+   "text": "Ok."
+  },
+  {
+   "id": "S2",
+   "src": [
+    3.48,
+    5.38
+   ],
+   "e0": 0.9,
+   "e1": 2.8,
+   "text": "Mestiknya, tengok tengok tengok."
+  },
+  {
+   "id": "S3",
+   "src": [
+    8.49,
+    24.16
+   ],
+   "e0": 2.8,
+   "e1": 18.47,
+   "text": "Kita tiap hari penat nak take you dengan habuknya, makanannya yang berterabung. Kan anak-anak kita tu, tetap tambah anak-anaknya kecil. Makan memang tidak ada nak elak. Mesti tumpah tu. Ok. So, jangan risau."
+  },
+  {
+   "id": "S4",
+   "src": [
+    24.35,
+    25.19
+   ],
+   "e0": 18.47,
+   "e1": 19.31,
+   "text": "Ok."
+  },
+  {
+   "id": "S5",
+   "src": [
+    25.21,
+    28.39
+   ],
+   "e0": 19.31,
+   "e1": 22.49,
+   "text": "Acum Ecovacs. InsyaAllah boleh bantu korang."
+  },
+  {
+   "id": "S6",
+   "src": [
+    28.59,
+    29.39
+   ],
+   "e0": 22.49,
+   "e1": 23.29,
+   "text": "Ok."
+  },
+  {
+   "id": "S7",
+   "src": [
+    29.83,
+    33.21
+   ],
+   "e0": 23.29,
+   "e1": 26.67,
+   "text": "sangat-sangat puas saya"
+  },
+  {
+   "id": "S8",
+   "src": [
+    35.44,
+    41.33
+   ],
+   "e0": 26.67,
+   "e1": 32.56,
+   "text": "bernama promo kau-kau lain kali promo logas-logas promo pd"
+  }
+ ]
+}

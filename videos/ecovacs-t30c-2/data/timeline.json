@@ -1,0 +1,133 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   3.13
+  ],
+  [
+   3.2,
+   5.08
+  ],
+  [
+   5.26,
+   6.43
+  ],
+  [
+   6.62,
+   14.43
+  ],
+  [
+   14.44,
+   22.46
+  ],
+  [
+   22.5,
+   35.57
+  ],
+  [
+   35.72,
+   37.9
+  ],
+  [
+   37.92,
+   39.95
+  ],
+  [
+   40.26,
+   41.12
+  ]
+ ],
+ "total": 40.35,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    3.13
+   ],
+   "e0": 0.0,
+   "e1": 3.33,
+   "text": "ok, kita unboxing sama-sama, stay tune guys,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    3.2,
+    5.08
+   ],
+   "e0": 3.33,
+   "e1": 5.21,
+   "text": "ok, saya akan buka,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    5.26,
+    6.43
+   ],
+   "e0": 5.21,
+   "e1": 6.38,
+   "text": "Masya Allah,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    6.62,
+    14.43
+   ],
+   "e0": 6.38,
+   "e1": 14.19,
+   "text": "dia akan bagi semua, ni detail dia akan bagi, produk guide, quick setup, semua dekat sini, ok, lepas tu,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    14.44,
+    22.46
+   ],
+   "e0": 14.19,
+   "e1": 22.21,
+   "text": "ok, kita akan ada juga, semualah, ok, kita akan ada dokumen dia, waranti dia, ok, manual detail dia semua dekat sini,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    22.5,
+    35.57
+   ],
+   "e0": 22.21,
+   "e1": 35.28,
+   "text": "ok, dan saat-saat yang di nanti, tengok guys, semua, macam mana dia punya pekerjaan dia, ok ke tak, ok, haa, perform tak perform, haa, ok, dan juga dia bagi juga sekali, dengan ni,"
+  },
+  {
+   "id": "S7",
+   "src": [
+    35.72,
+    37.9
+   ],
+   "e0": 35.28,
+   "e1": 37.46,
+   "text": "ada semua, ok, semua ada"
+  },
+  {
+   "id": "S8",
+   "src": [
+    37.92,
+    39.95
+   ],
+   "e0": 37.46,
+   "e1": 39.49,
+   "text": "semua ada, jangan risau, semua ada,"
+  },
+  {
+   "id": "S9",
+   "src": [
+    40.26,
+    41.12
+   ],
+   "e0": 39.49,
+   "e1": 40.35,
+   "text": "ok, Ok,"
+  }
+ ]
+}

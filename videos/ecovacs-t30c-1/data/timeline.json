@@ -1,0 +1,119 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   1.22
+  ],
+  [
+   4.7,
+   9.61
+  ],
+  [
+   9.72,
+   22.41
+  ],
+  [
+   22.46,
+   29.9
+  ],
+  [
+   32.14,
+   38.62
+  ],
+  [
+   38.7,
+   42.62
+  ],
+  [
+   43.02,
+   44.25
+  ],
+  [
+   44.32,
+   46.46
+  ]
+ ],
+ "total": 40.23,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    1.22
+   ],
+   "e0": 0.0,
+   "e1": 1.42,
+   "text": "Ok,"
+  },
+  {
+   "id": "S2",
+   "src": [
+    4.7,
+    9.61
+   ],
+   "e0": 1.42,
+   "e1": 6.33,
+   "text": "belum ada vacuum robot dekat rumah, tunggu sekejap,"
+  },
+  {
+   "id": "S3",
+   "src": [
+    9.72,
+    22.41
+   ],
+   "e0": 6.33,
+   "e1": 19.02,
+   "text": "izinkan saya nak bagitahu korang ni vacuum daripada Ecovacs, ok, Ecovacs robotik ni yang sangat-sangat function, bukan biasa-biasa punya robot ni tau, ok,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    22.46,
+    29.9
+   ],
+   "e0": 19.02,
+   "e1": 26.46,
+   "text": "robot D-Bot T30C Max Omni, ni robot dia, ok, saya akan tunjuk dekat korang,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    32.14,
+    38.62
+   ],
+   "e0": 26.46,
+   "e1": 32.94,
+   "text": "Haa, Masya Allah, berat guys, ok, haa, tengok harga dia sesuai lah, berat macam ni, solid guys,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    38.7,
+    42.62
+   ],
+   "e0": 32.94,
+   "e1": 36.86,
+   "text": "haa, dan dia sangat bekerja dengan baik, insyaAllah, ok, saya akan tunjukkan juga,"
+  },
+  {
+   "id": "S7",
+   "src": [
+    43.02,
+    44.25
+   ],
+   "e0": 36.86,
+   "e1": 38.09,
+   "text": "nampak apa tak,"
+  },
+  {
+   "id": "S8",
+   "src": [
+    44.32,
+    46.46
+   ],
+   "e0": 38.09,
+   "e1": 40.23,
+   "text": "saya akan tunjukkan juga kepada"
+  }
+ ]
+}

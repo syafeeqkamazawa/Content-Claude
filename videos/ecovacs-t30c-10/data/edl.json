@@ -1,0 +1,155 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#06121F",
+  "hot": "#3FE0FF"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Ecovacs Deebot T30C #10 — from VID_20261126 s183350 1-33.2 0.0-32.217 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 2, total 32.39 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 18.53,
+   "text": "Ok guys, bila korang dah scan, korang akan dapat macam ni tau. So korang boleh set up lah. Contoh macam aku ni, aku dah letak dekat situ kan. Ok ada tempat yang aku letak tadi. So dekat sini ni adalah dia mengadap kepada pintu rumah masuk akulah. Pintu rumah aku ni betul-betul",
+   "note": "src 0.10-18.63",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 18.53,
+   "out": 32.39,
+   "text": "sebelah kanan tu dia opposite dekat tempat rumah robot tu. So ni ruang tamu. Ok, so korang tekan je korang pilih area name.",
+   "note": "src 18.64-32.50",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [],
+ "punch": [],
+ "broll": [],
+ "photos": [],
+ "theme": {
+  "key": "#3FE0FF",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "ecovacs",
+  "deebot"
+ ],
+ "keywords": [
+  "mop",
+  "vacuum",
+  "habuk",
+  "bersih",
+  "mantap",
+  "app",
+  "station",
+  "promo",
+  "murah",
+  "kuning",
+  "air"
+ ],
+ "fx": [],
+ "mh": [],
+ "jm": [],
+ "sb": [],
+ "ld": [
+  {
+   "type": "hook",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "@",
+    4.2
+   ],
+   "kicker": "ECOVACS DEEBOT T30C",
+   "lines": [
+    "Peta rumah",
+    "terus dalam app"
+   ],
+   "hi": [
+    "app"
+   ],
+   "y": 150
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "letak#1"
+   ],
+   "to": [
+    "@",
+    13.68
+   ],
+   "text": "Tetapkan lokasi station",
+   "y": 330,
+   "side": "right"
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "area#1"
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "text": "Namakan setiap ruang",
+   "y": 760,
+   "side": "right"
+  },
+  {
+   "type": "cta",
+   "from": [
+    "-",
+    5.2
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "lines": [
+    "Dapatkan di",
+    "beg kuning"
+   ],
+   "hi": [
+    "kuning"
+   ],
+   "sub": "Harga promo, sementara masih murah",
+   "y": 170
+  }
+ ],
+ "pal": {
+  "key": "#3FE0FF",
+  "bg": "rgba(10,20,34,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#06121F",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

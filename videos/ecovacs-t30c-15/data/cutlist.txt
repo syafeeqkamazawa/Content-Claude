@@ -1,0 +1,15 @@
+TOTAL 34.28s  (11 A-roll segments, 1 B-roll shots, 0 photos, 6 audio fx, 60 caption cards)
+
+  0.00-  2.50  S1  src   0.00-  2.50  (1 pc)  Ia boleh naik ke sejadah
+  2.50-  4.47  S2  src   2.50-  4.47  (1 pc)  Ia boleh naik ke sejadah, ia akan sedut
+  4.47-  6.17  S3  src   4.47-  6.17  (1 pc)  semua.
+  6.17-  9.23  S4  src   6.17-  9.24  (1 pc)  Mantap. Nanti kita tengok scan ni.
+  9.23- 10.25  S5  src   9.24- 10.26  (1 pc)  Boleh
+ 10.25- 14.42  S6  src  10.26- 14.42  (1 pc)  lalu kat bawah kerusi. Ok, saya datang balik guys, ni, kita
+ 14.42- 18.83  S7  src  14.42- 18.83  (1 pc)  datang balik daripada stesen dia.
+ 18.83- 22.57  S8  src  18.83- 22.56  (1 pc)  Ok, kita nak ambil dari belakang ni, belakang ni,
+ 22.57- 26.58  S9  src  22.56- 26.58  (1 pc)  bilik belakang ni,
+ 26.58- 28.68  S10  src  26.58- 28.68  (1 pc)  ok. Oh, daripada ni,
+ 28.68- 34.28  S11  src  28.68- 34.28  (1 pc)  dia teruskan ambil sempadan bilik belakang tu, keluar.
+
+  cutaway   6.33- 12.58

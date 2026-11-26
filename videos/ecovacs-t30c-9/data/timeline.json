@@ -1,0 +1,105 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   14.92
+  ],
+  [
+   21.92,
+   25.34
+  ],
+  [
+   25.8,
+   30.12
+  ],
+  [
+   32.66,
+   37.42
+  ],
+  [
+   37.98,
+   39.85
+  ],
+  [
+   44.62,
+   46.92
+  ],
+  [
+   48.02,
+   49.8
+  ]
+ ],
+ "total": 33.57,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    14.92
+   ],
+   "e0": 0.0,
+   "e1": 15.12,
+   "text": "So guys, sekarang ni dia tengah mapping rumah. Okay, bila korang dapat app tu, bila dah semua dah register, dah siap semua, dah connected. Okay, korang buat yang ni dulu. Start mapping. So dia, sekarang ni dia tengah mapping lah."
+  },
+  {
+   "id": "S2",
+   "src": [
+    21.92,
+    25.34
+   ],
+   "e0": 15.12,
+   "e1": 18.54,
+   "text": "Okay guys, so sekarang ni dia tengah mapping lah guys. Okay."
+  },
+  {
+   "id": "S3",
+   "src": [
+    25.8,
+    30.12
+   ],
+   "e0": 18.54,
+   "e1": 22.86,
+   "text": "Tengah mapping untuk, apa, untuk,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    32.66,
+    37.42
+   ],
+   "e0": 22.86,
+   "e1": 27.62,
+   "text": "ni lah, floor-floor yang bawah ni. Okay, floor,"
+  },
+  {
+   "id": "S5",
+   "src": [
+    37.98,
+    39.85
+   ],
+   "e0": 27.62,
+   "e1": 29.49,
+   "text": "floor."
+  },
+  {
+   "id": "S6",
+   "src": [
+    44.62,
+    46.92
+   ],
+   "e0": 29.49,
+   "e1": 31.79,
+   "text": "Kita tengah mapping. Nak main"
+  },
+  {
+   "id": "S7",
+   "src": [
+    48.02,
+    49.8
+   ],
+   "e0": 31.79,
+   "e1": 33.57,
+   "text": "pun boleh tu."
+  }
+ ]
+}

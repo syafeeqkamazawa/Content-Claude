@@ -1,0 +1,119 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   1.47
+  ],
+  [
+   5.2,
+   8.96
+  ],
+  [
+   9.0,
+   12.44
+  ],
+  [
+   13.08,
+   27.32
+  ],
+  [
+   27.86,
+   33.32
+  ],
+  [
+   34.48,
+   42.09
+  ],
+  [
+   42.24,
+   46.38
+  ],
+  [
+   46.62,
+   49.32
+  ]
+ ],
+ "total": 43.02,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    1.47
+   ],
+   "e0": 0.0,
+   "e1": 1.67,
+   "text": "Untuk"
+  },
+  {
+   "id": "S2",
+   "src": [
+    5.2,
+    8.96
+   ],
+   "e0": 1.67,
+   "e1": 5.43,
+   "text": "beli Robok lecum Yang pertama"
+  },
+  {
+   "id": "S3",
+   "src": [
+    9.0,
+    12.44
+   ],
+   "e0": 5.43,
+   "e1": 8.87,
+   "text": "Beli yang betul-betul boleh mop Bukan"
+  },
+  {
+   "id": "S4",
+   "src": [
+    13.08,
+    27.32
+   ],
+   "e0": 8.87,
+   "e1": 23.11,
+   "text": "Bukan ni sekadar nak melepaskan batu ni tangga Jangan Memang tak berbanding Sebab kalau dia tak mop tu betul Korang kena mop kan Yang ni Korang tengok ni Dia mop Dia mop betul-betul Korang tengok ni"
+  },
+  {
+   "id": "S5",
+   "src": [
+    27.86,
+    33.32
+   ],
+   "e0": 23.11,
+   "e1": 28.57,
+   "text": "Bekas dia mop tu Memang sangat Liur tu lah kan dia"
+  },
+  {
+   "id": "S6",
+   "src": [
+    34.48,
+    42.09
+   ],
+   "e0": 28.57,
+   "e1": 36.18,
+   "text": "mode mode dia boleh keluar sekali tak supaya tepi-tepi dinding tu betul betul-betul"
+  },
+  {
+   "id": "S7",
+   "src": [
+    42.24,
+    46.38
+   ],
+   "e0": 36.18,
+   "e1": 40.32,
+   "text": "tempat yang mode mode mode buat semua ruang so"
+  },
+  {
+   "id": "S8",
+   "src": [
+    46.62,
+    49.32
+   ],
+   "e0": 40.32,
+   "e1": 43.02,
+   "text": "memang sangat-sangat fungsi"
+  }
+ ]
+}

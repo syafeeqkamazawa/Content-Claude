@@ -1,0 +1,216 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#06121F",
+  "hot": "#3FE0FF"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Ecovacs Deebot T30C #20 — from VID_20261126 220403 1-30.2 + 84-95.8 0.0-41.067 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 8, total 32.56 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 0.9,
+   "text": "Ok.",
+   "note": "src 0.13-1.03",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 0.9,
+   "out": 2.8,
+   "text": "tengok tengok tengok.",
+   "note": "src 3.48-5.38",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 2.8,
+   "out": 18.47,
+   "text": "Kita tiap hari penat nak layan dengan habuknya, makanannya yang berterabur. Kan anak-anak kita tu, terutama anak-anak yang kecil. Makan memang tidak ada nak elak. Mesti tumpah tu. Ok. So, jangan risau.",
+   "note": "src 8.49-24.16",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 18.47,
+   "out": 19.31,
+   "text": "Ok.",
+   "note": "src 24.35-25.19",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 19.31,
+   "out": 22.49,
+   "text": "Ni Ecovacs. InsyaAllah boleh bantu korang.",
+   "note": "src 25.21-28.39",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 22.49,
+   "out": 23.29,
+   "text": "Ok.",
+   "note": "src 28.59-29.39",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 23.29,
+   "out": 26.67,
+   "text": "sangat-sangat puas saya",
+   "note": "src 29.83-33.21",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 26.67,
+   "out": 32.56,
+   "text": "ada promo, promo payday",
+   "note": "src 35.44-41.33",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [],
+ "punch": [],
+ "broll": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "penat#1"
+   ],
+   "to": [
+    "*",
+    "Ok.#3"
+   ],
+   "note": "AI: A Malaysian toddler in a high chair spilling rice and food onto the tiled floor around the"
+  }
+ ],
+ "theme": {
+  "key": "#3FE0FF",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "ecovacs",
+  "deebot"
+ ],
+ "keywords": [
+  "mop",
+  "vacuum",
+  "habuk",
+  "bersih",
+  "mantap",
+  "app",
+  "station",
+  "promo",
+  "murah",
+  "kuning",
+  "air"
+ ],
+ "fx": [],
+ "mh": [],
+ "jm": [],
+ "sb": [],
+ "ld": [
+  {
+   "type": "hook",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "@",
+    4.2
+   ],
+   "kicker": "IBU AYAH",
+   "lines": [
+    "Anak kecil",
+    "makan bersepah?"
+   ],
+   "hi": [
+    "bersepah?"
+   ],
+   "y": 860
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "penat#1"
+   ],
+   "to": [
+    "*",
+    "Ok.#3"
+   ],
+   "text": "Habuk & makanan tumpah",
+   "y": 330,
+   "side": "right"
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "Ecovacs.#1"
+   ],
+   "to": [
+    "*",
+    "Ok.#4"
+   ],
+   "text": "Ecovacs boleh bantu",
+   "y": 330,
+   "side": "right"
+  },
+  {
+   "type": "cta",
+   "from": [
+    "-",
+    5.2
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "lines": [
+    "Banyak promo",
+    "sekarang"
+   ],
+   "hi": [
+    "promo"
+   ],
+   "sub": "Dapatkan di beg kuning",
+   "y": 700
+  }
+ ],
+ "pal": {
+  "key": "#3FE0FF",
+  "bg": "rgba(10,20,34,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#06121F",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}

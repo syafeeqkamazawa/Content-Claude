@@ -1,0 +1,13 @@
+TOTAL 38.03s  (10 A-roll segments, 0 B-roll shots, 0 photos, 6 audio fx, 79 caption cards)
+
+  0.00-  9.85  S1  src   0.00-  9.85  (1 pc)  Ok, ok room 2 tu adalah living room sebenarnya. Ok, living room confirm. Lepas tu room ni adalah dapur.
+  9.85- 14.35  S2  src   9.85- 14.35  (1 pc)  Dapur ni aku letak mana-mana dapur, kitchen. Ok,
+ 14.35- 20.82  S3  src  14.35- 20.81  (1 pc)  lepas tu yang ni belakang ni bilik belakang aku lah. Bilik belakang aku letak room je lah kan. Ok,
+ 20.82- 22.08  S4  src  20.81- 22.08  (1 pc)  so dah.
+ 22.08- 23.38  S5  src  22.08- 23.38  (1 pc)  .
+ 23.38- 25.80  S6  src  23.38- 25.79  (1 pc)  Ok, dah. Lepas tu
+ 25.80- 30.68  S7  src  25.79- 30.67  (1 pc)  Ok, divide. Ok, aku divide sebab living aku ni ada dining juga.
+ 30.68- 33.38  S8  src  30.67- 33.37  (1 pc)  So, dining aku pun dekat sini.
+ 33.38- 34.92  S9  src  33.37- 34.91  (1 pc)  Haa, dekat sini.
+ 34.92- 38.03  S10  src  34.91- 38.03  (1 pc)  Select room to divide. Ok. Ok, betul.
+

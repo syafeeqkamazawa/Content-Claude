@@ -1,0 +1,189 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   11.36
+  ],
+  [
+   12.28,
+   17.69
+  ],
+  [
+   18.38,
+   20.38
+  ],
+  [
+   20.92,
+   21.78
+  ],
+  [
+   21.9,
+   24.32
+  ],
+  [
+   24.4,
+   27.36
+  ],
+  [
+   27.51,
+   33.96
+  ],
+  [
+   34.02,
+   38.54
+  ],
+  [
+   38.65,
+   41.32
+  ],
+  [
+   43.42,
+   44.52
+  ],
+  [
+   44.6,
+   46.66
+  ],
+  [
+   46.84,
+   47.94
+  ],
+  [
+   48.16,
+   49.8
+  ]
+ ],
+ "total": 44.75,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    11.36
+   ],
+   "e0": 0.0,
+   "e1": 11.56,
+   "text": "kira ni kawasan dain ni pun, dengan kawasan kitchen, kitchen dah sebut, kitchen dah kat sini. So, ni kira kawasan dain ni rumah."
+  },
+  {
+   "id": "S2",
+   "src": [
+    12.28,
+    17.69
+   ],
+   "e0": 11.56,
+   "e1": 16.97,
+   "text": "Sampailah, dia akan pergi kat meja makan. Haa, ni dia akan pergi kat meja makan ni."
+  },
+  {
+   "id": "S3",
+   "src": [
+    18.38,
+    20.38
+   ],
+   "e0": 16.97,
+   "e1": 18.97,
+   "text": "So, tengoklah macam mana."
+  },
+  {
+   "id": "S4",
+   "src": [
+    20.92,
+    21.78
+   ],
+   "e0": 18.97,
+   "e1": 19.83,
+   "text": "Ok."
+  },
+  {
+   "id": "S5",
+   "src": [
+    21.9,
+    24.32
+   ],
+   "e0": 19.83,
+   "e1": 22.25,
+   "text": "So, meja bahagian semua kat bawah ni, dia akan tolong"
+  },
+  {
+   "id": "S6",
+   "src": [
+    24.4,
+    27.36
+   ],
+   "e0": 22.25,
+   "e1": 25.21,
+   "text": "bersihkan. InsyaAllah."
+  },
+  {
+   "id": "S7",
+   "src": [
+    27.51,
+    33.96
+   ],
+   "e0": 25.21,
+   "e1": 31.66,
+   "text": "best ni, dia keluar tau. Dia punya mug tu, tak sebelah, akan keluar. Sebab memang dia buat pattern ni, supaya"
+  },
+  {
+   "id": "S8",
+   "src": [
+    34.02,
+    38.54
+   ],
+   "e0": 31.66,
+   "e1": 36.18,
+   "text": "kalau dekat-dekat dinding, memang dia akan sapu habis lah."
+  },
+  {
+   "id": "S9",
+   "src": [
+    38.65,
+    41.32
+   ],
+   "e0": 36.18,
+   "e1": 38.85,
+   "text": "Dinding ni memang mantap lah."
+  },
+  {
+   "id": "S10",
+   "src": [
+    43.42,
+    44.52
+   ],
+   "e0": 38.85,
+   "e1": 39.95,
+   "text": "Baik."
+  },
+  {
+   "id": "S11",
+   "src": [
+    44.6,
+    46.66
+   ],
+   "e0": 39.95,
+   "e1": 42.01,
+   "text": "Ecovacs. Memang padu."
+  },
+  {
+   "id": "S12",
+   "src": [
+    46.84,
+    47.94
+   ],
+   "e0": 42.01,
+   "e1": 43.11,
+   "text": "Nice."
+  },
+  {
+   "id": "S13",
+   "src": [
+    48.16,
+    49.8
+   ],
+   "e0": 43.11,
+   "e1": 44.75,
+   "text": "Jangan tunggu lagi."
+  }
+ ]
+}

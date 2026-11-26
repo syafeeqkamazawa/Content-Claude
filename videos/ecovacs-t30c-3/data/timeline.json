@@ -1,0 +1,63 @@
+{
+ "pieces": [
+  [
+   0.2,
+   2.72
+  ],
+  [
+   2.84,
+   14.43
+  ],
+  [
+   14.54,
+   38.48
+  ],
+  [
+   38.49,
+   43.82
+  ]
+ ],
+ "total": 43.38,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    0.2,
+    2.72
+   ],
+   "e0": 0.0,
+   "e1": 2.52,
+   "text": "Tengok guys, Masya Allah."
+  },
+  {
+   "id": "S2",
+   "src": [
+    2.84,
+    14.43
+   ],
+   "e0": 2.52,
+   "e1": 14.11,
+   "text": "Memang sangat-sangat besar guys. Ok. Ini untuk tangki ni lah. Tangki air dengan tangki air kotor. Ok. Akan ada dekat sini. Ok."
+  },
+  {
+   "id": "S3",
+   "src": [
+    14.54,
+    38.48
+   ],
+   "e0": 14.11,
+   "e1": 38.05,
+   "text": "So guys, jom kita tengok sama-sama guys. Macam mana dia punya performance dia guys Masya Allah So guys, nilai barang ni guys, insyaAllah, tengok, cuba korang tengok dia punya, dia punya tayar dia, tayar dia boleh naik ke bawah tau, maknanya boleh panjat tau, ni, dan dia ada radar"
+  },
+  {
+   "id": "S4",
+   "src": [
+    38.49,
+    43.82
+   ],
+   "e0": 38.05,
+   "e1": 43.38,
+   "text": "dia boleh baca, dia detek barang-barang. Tengok tak"
+  }
+ ]
+}

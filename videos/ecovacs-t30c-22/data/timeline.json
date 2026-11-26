@@ -1,0 +1,91 @@
+{
+ "pieces": [
+  [
+   12.82,
+   14.75
+  ],
+  [
+   14.98,
+   19.94
+  ],
+  [
+   20.14,
+   23.55
+  ],
+  [
+   24.08,
+   29.44
+  ],
+  [
+   29.48,
+   48.58
+  ],
+  [
+   48.72,
+   53.9
+  ]
+ ],
+ "total": 39.94,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    12.82,
+    14.75
+   ],
+   "e0": 0.0,
+   "e1": 1.93,
+   "text": "korang yang ada anak, korang"
+  },
+  {
+   "id": "S2",
+   "src": [
+    14.98,
+    19.94
+   ],
+   "e0": 1.93,
+   "e1": 6.89,
+   "text": "yang ada anak kecil yang makan berterabur tu, korang janganlah."
+  },
+  {
+   "id": "S3",
+   "src": [
+    20.14,
+    23.55
+   ],
+   "e0": 6.89,
+   "e1": 10.3,
+   "text": "Apa tu, tunggu lagi, korang belilah ni,"
+  },
+  {
+   "id": "S4",
+   "src": [
+    24.08,
+    29.44
+   ],
+   "e0": 10.3,
+   "e1": 15.66,
+   "text": "robot Ecovacs ni, ni nak bersihkan kawasan-kawasan yang aku dah tanda lah."
+  },
+  {
+   "id": "S5",
+   "src": [
+    29.48,
+    48.58
+   ],
+   "e0": 15.66,
+   "e1": 34.76,
+   "text": "Ok, so korang tengok dia punya kualiti dia, memang kalau tengah harga tu memang korang, aku rasa sedikit mahal tapi sangat terbalut dengan, dia boleh naik disini dia boleh naik disini memang saya tidak puas tapi dengan fashion dia, fungsi dia,"
+  },
+  {
+   "id": "S6",
+   "src": [
+    48.72,
+    53.9
+   ],
+   "e0": 34.76,
+   "e1": 39.94,
+   "text": "kemampuan dia untuk bersihkan rumah, memang tak digaikan lagi guys. Okay."
+  }
+ ]
+}

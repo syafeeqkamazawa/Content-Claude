@@ -1,0 +1,14 @@
+TOTAL 39.47s  (11 A-roll segments, 0 B-roll shots, 0 photos, 5 audio fx, 81 caption cards)
+
+  0.00-  1.88  S1  src   0.00-  1.88  (1 pc)  Ok guys.
+  1.88-  2.75  S2  src   1.88-  2.74  (1 pc)  Ok guys,
+  2.75-  6.08  S3  src   2.74-  6.07  (1 pc)  so kita nak set up dia.
+  6.08-  8.70  S4  src   6.07-  8.68  (1 pc)  Ok, so cara dia ialah, ok
+  8.70- 15.25  S5  src   8.68- 15.23  (1 pc)  Satu ni, remove all protective material from the Deebot and the Omni Station.
+ 15.25- 17.07  S6  src  15.23- 17.04  (1 pc)  Ok, remove.
+ 17.07- 18.20  S7  src  17.04- 18.18  (1 pc)  Remove.
+ 18.20- 19.33  S8  src  18.18- 19.32  (1 pc)  Remove.
+ 19.33- 20.63  S9  src  19.32- 20.62  (1 pc)  Lepas tu,
+ 20.63- 29.32  S10  src  20.62- 29.31  (1 pc)  install the side brush and the base until you hear the click sound. So guys, dekat sini sebelah kanan tangki
+ 29.32- 39.47  S11  src  29.31- 39.46  (1 pc)  air bersih. Ok, kita isikan air ni. Dan sini tempat air kotor sebelah kiri dia. Ok, sebelah kanan tempat air bersih. So, jom kita isikan air dulu.
+

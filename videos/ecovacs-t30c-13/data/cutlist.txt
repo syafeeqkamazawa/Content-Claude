@@ -1,0 +1,17 @@
+TOTAL 42.83s  (14 A-roll segments, 0 B-roll shots, 0 photos, 5 audio fx, 85 caption cards)
+
+  0.00-  1.73  S1  src   0.00-  1.73  (1 pc)  So, deep cleaning.
+  1.73-  4.10  S2  src   1.73-  4.09  (1 pc)  Ok. Cleaning passes.
+  4.10-  5.82  S3  src   4.09-  5.81  (1 pc)  2 passes.
+  5.82-  6.98  S4  src   5.81-  6.97  (1 pc)  Maksud dia?
+  6.98-  8.92  S5  src   6.97-  8.91  (1 pc)  Kalau 1 pass.
+  8.92- 11.25  S6  src   8.91- 11.24  (1 pc)  Ambil lah 2 pass. Ok, so.
+ 11.25- 14.15  S7  src  11.24- 14.14  (1 pc)  Kita start dengan living room dulu.
+ 14.15- 17.18  S8  src  14.14- 17.18  (1 pc)  Jom, kita start. start vacuuming while walking.
+ 17.18- 27.42  S9  src  17.18- 27.42  (1 pc)  Ok. So, bila sebab aku suruh dia buat sekali. Serentak. Vacuum dan mop. So, bila aku suruh buat macam tu.
+ 27.42- 28.28  S10  src  27.42- 28.28  (1 pc)  Ok.
+ 28.28- 34.90  S11  src  28.28- 34.89  (1 pc)  dia akan isikan air dulu. Dia akan basahkan dulu mop. So, air bersih dekat sini tau.
+ 34.90- 37.45  S12  src  34.89- 37.44  (1 pc)  isi air dalam
+ 37.45- 40.45  S13  src  37.44- 40.44  (1 pc)  robot ni untuk dia mop nanti.
+ 40.45- 42.83  S14  src  40.44- 42.82  (1 pc)  So, kita dapat tengok lah. Ok kan?
+

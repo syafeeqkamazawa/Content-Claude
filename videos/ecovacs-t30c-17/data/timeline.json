@@ -1,0 +1,161 @@
+{
+ "pieces": [
+  [
+   -0.2,
+   14.89
+  ],
+  [
+   15.0,
+   17.93
+  ],
+  [
+   18.34,
+   21.29
+  ],
+  [
+   21.64,
+   22.89
+  ],
+  [
+   23.36,
+   26.19
+  ],
+  [
+   27.26,
+   30.8
+  ],
+  [
+   31.1,
+   33.23
+  ],
+  [
+   33.34,
+   39.31
+  ],
+  [
+   39.68,
+   41.44
+  ],
+  [
+   42.32,
+   44.5
+  ],
+  [
+   46.02,
+   46.74
+  ]
+ ],
+ "total": 41.35,
+ "lines": [
+  {
+   "id": "S1",
+   "src": [
+    -0.2,
+    14.89
+   ],
+   "e0": 0.0,
+   "e1": 15.09,
+   "text": "Okay guys, so ni dia dah mula start mopping, korang tengok Dia mopping dia yang best ni korang tengok. Tengok dia mopping, dia keluar, dia punya bilah mop tu, dia punya bulatan mop tu keluar guys."
+  },
+  {
+   "id": "S2",
+   "src": [
+    15.0,
+    17.93
+   ],
+   "e0": 15.09,
+   "e1": 18.02,
+   "text": "Tapi bila dia akan mop, dia akan mop dengan betul-betul guys."
+  },
+  {
+   "id": "S3",
+   "src": [
+    18.34,
+    21.29
+   ],
+   "e0": 18.02,
+   "e1": 20.97,
+   "text": "Dia mop tu betul-betul sampai kebucu guys."
+  },
+  {
+   "id": "S4",
+   "src": [
+    21.64,
+    22.89
+   ],
+   "e0": 20.97,
+   "e1": 22.22,
+   "text": "Ni, korang tengok"
+  },
+  {
+   "id": "S5",
+   "src": [
+    23.36,
+    26.19
+   ],
+   "e0": 22.22,
+   "e1": 25.05,
+   "text": "Dia akan mop sampai kebucu guys. Masya Allah."
+  },
+  {
+   "id": "S6",
+   "src": [
+    27.26,
+    30.8
+   ],
+   "e0": 25.05,
+   "e1": 28.59,
+   "text": "Haa, so memang, memang puas hati."
+  },
+  {
+   "id": "S7",
+   "src": [
+    31.1,
+    33.23
+   ],
+   "e0": 28.59,
+   "e1": 30.72,
+   "text": "Korang tengok dia punya mop je."
+  },
+  {
+   "id": "S8",
+   "src": [
+    33.34,
+    39.31
+   ],
+   "e0": 30.72,
+   "e1": 36.69,
+   "text": "Haa, dah dia boleh sesuaikan tengok. Okay, kalau tak mop dah lukut sini, tak mesti tak mop kan. Haa, dia lukut ni."
+  },
+  {
+   "id": "S9",
+   "src": [
+    39.68,
+    41.44
+   ],
+   "e0": 36.69,
+   "e1": 38.45,
+   "text": "Ni, jangan lukut ni guys."
+  },
+  {
+   "id": "S10",
+   "src": [
+    42.32,
+    44.5
+   ],
+   "e0": 38.45,
+   "e1": 40.63,
+   "text": "Haa, dia punya lukut lah. Haa."
+  },
+  {
+   "id": "S11",
+   "src": [
+    46.02,
+    46.74
+   ],
+   "e0": 40.63,
+   "e1": 41.35,
+   "text": "Okay."
+  }
+ ]
+}

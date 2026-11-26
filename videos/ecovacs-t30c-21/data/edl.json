@@ -1,0 +1,231 @@
+{
+ "fps": 60,
+ "width": 1080,
+ "height": 1920,
+ "captions": true,
+ "caption_style": "word",
+ "word": {
+  "font": "Rubik Mono One",
+  "size": 50,
+  "top": 1243,
+  "halo": false,
+  "fill": "#FFFFFF",
+  "stroke": "#06121F",
+  "hot": "#3FE0FF"
+ },
+ "fs_style": "cut",
+ "mirror": false,
+ "zoom_origin": "50% 42%",
+ "tighten": {
+  "max_pause": 2.0,
+  "keep": 0.5,
+  "threshold_db": -45,
+  "blip": 0.03
+ },
+ "titles": [],
+ "_owner_decisions": "11 Nov: 'Guna caption style sama seperti dalam gambar. Kedudukan caption iaitu jarak caption dengan beg kuning pun mesti sama seperti dalam gambar. Frame Kaabah, semua percakapan yang lengkap mesti jelas, jangan potong terlalu dekat, bagi ada 0.5 saat gap sebelum masuk klip lain. Overlay cukup bahagian penting sahaja untuk bagi mudah faham. Close up produk bila explain tentang function produk.' Caption = the 6 Nov Rubik Mono One word style (the screenshot shows the same style), size/position matched to the screenshot (cap height ~52 px, centred at ~74 % = 1423 px, ~230 px above the yellow-bag label). Segments keep ~0.2 s before and ~0.3 s after the speech and pauses inside a line shrink to 0.5 s (tighten keep 0.25). The clip is a wide living-room shot, so the A-roll is zoomed toward the owner and the frame; close-ups of the frame (same take) whenever he explains a feature. 21 Nov batch: keep every point (only repeats / err / unsuitable bits cut), 0.5 s between clips, caption + motion text in the product theme.",
+ "_note": "Ecovacs Deebot T30C #21 — from VID_20261126 220403 34-66 + 67-84 0.0-49.05 s (folder 'Video today'). Kept every VAD speech stretch; dropped only: nothing. Pieces: 8, total 43.02 s.",
+ "segments": [
+  {
+   "id": "S1",
+   "in": 0.0,
+   "out": 1.67,
+   "text": "Untuk",
+   "note": "src -0.20-1.47",
+   "zoom": 1.0
+  },
+  {
+   "id": "S2",
+   "in": 1.67,
+   "out": 5.43,
+   "text": "beli robot vacuum Yang pertama",
+   "note": "src 5.20-8.96",
+   "zoom": 1.06
+  },
+  {
+   "id": "S3",
+   "in": 5.43,
+   "out": 8.87,
+   "text": "Beli yang betul-betul boleh mop",
+   "note": "src 9.00-12.44",
+   "zoom": 1.0
+  },
+  {
+   "id": "S4",
+   "in": 8.87,
+   "out": 23.11,
+   "text": "Bukan sekadar nak melepaskan batuk di tangga Jangan Memang tak berbaloi Sebab kalau dia tak mop tu betul Korang kena mop kan Yang ni Korang tengok ni Dia mop Dia mop betul-betul Korang tengok ni",
+   "note": "src 13.08-27.32",
+   "zoom": 1.06
+  },
+  {
+   "id": "S5",
+   "in": 23.11,
+   "out": 28.57,
+   "text": "Bekas dia mop tu Memang sangat terlihat tu lah kan dia",
+   "note": "src 27.86-33.32",
+   "zoom": 1.0
+  },
+  {
+   "id": "S6",
+   "in": 28.57,
+   "out": 36.18,
+   "text": "mop mop dia boleh keluar sekali tak supaya tepi-tepi dinding tu betul betul-betul",
+   "note": "src 34.48-42.09",
+   "zoom": 1.06
+  },
+  {
+   "id": "S7",
+   "in": 36.18,
+   "out": 40.32,
+   "text": "tempat yang mop mop mop buat semua ruang so",
+   "note": "src 42.24-46.38",
+   "zoom": 1.0
+  },
+  {
+   "id": "S8",
+   "in": 40.32,
+   "out": 43.02,
+   "text": "memang sangat-sangat fungsi",
+   "note": "src 46.62-49.32",
+   "zoom": 1.06
+  }
+ ],
+ "kp": [],
+ "punch": [],
+ "broll": [],
+ "photos": [
+  {
+   "id": "A1",
+   "from": [
+    "*",
+    "Sebab#1"
+   ],
+   "to": [
+    "*",
+    "Yang#1"
+   ],
+   "note": "AI: A tired Malaysian woman mopping the living-room floor by hand with a bucket and mop, wipin"
+  }
+ ],
+ "theme": {
+  "key": "#3FE0FF",
+  "brand": "#FFFFFF"
+ },
+ "brand_words": [
+  "ecovacs",
+  "deebot"
+ ],
+ "keywords": [
+  "mop",
+  "vacuum",
+  "habuk",
+  "bersih",
+  "mantap",
+  "app",
+  "station",
+  "promo",
+  "murah",
+  "kuning",
+  "air"
+ ],
+ "fx": [],
+ "mh": [],
+ "jm": [],
+ "sb": [],
+ "ld": [
+  {
+   "type": "hook",
+   "from": [
+    "S1",
+    "start"
+   ],
+   "to": [
+    "@",
+    4.2
+   ],
+   "kicker": "TIP 1",
+   "lines": [
+    "Nak beli",
+    "robot vacuum?"
+   ],
+   "hi": [
+    "robot",
+    "vacuum?"
+   ],
+   "y": 700
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "Beli#1"
+   ],
+   "to": [
+    "*",
+    "Bukan#1"
+   ],
+   "text": "Pilih yang betul-betul mop",
+   "y": 1160,
+   "side": "right"
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "Bukan#1"
+   ],
+   "to": [
+    "*",
+    "Korang#2"
+   ],
+   "text": "Bukan sekadar lalu",
+   "y": 1050,
+   "side": "right"
+  },
+  {
+   "type": "chip",
+   "from": [
+    "*",
+    "tepi-tepi#1"
+   ],
+   "to": [
+    "@",
+    37.72
+   ],
+   "text": "Mop sampai tepi dinding",
+   "y": 760,
+   "side": "right"
+  },
+  {
+   "type": "cta",
+   "from": [
+    "-",
+    5.2
+   ],
+   "to": [
+    "LAST",
+    "end"
+   ],
+   "tag": "BEG KUNING",
+   "lines": [
+    "Dapatkan di",
+    "beg kuning"
+   ],
+   "hi": [
+    "kuning"
+   ],
+   "sub": "Harga promo, sementara masih murah",
+   "y": 170
+  }
+ ],
+ "pal": {
+  "key": "#3FE0FF",
+  "bg": "rgba(10,20,34,.9)",
+  "ink": "#FFFFFF",
+  "dark": "#06121F",
+  "sub": "#FFFFFF",
+  "tagink": "#111",
+  "cap": "#FFFFFF"
+ }
+}
