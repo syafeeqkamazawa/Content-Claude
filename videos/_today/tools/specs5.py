@@ -133,7 +133,7 @@ SPECS5 = {
     "e23": _eco(23, "hn215609 59.7-84 + 222642 0-8.5",
                 ld=[H(["Saya guarantee", "puas hati"], ["puas"], kicker="REVIEW JUJUR"), C("Quality & function padu", "quality#1", "Tak#1"),
                     C("Bukan sekadar lalu", "bukan#1", "Memang#3"), C("Meja makan bersih", "meja#1", E5), CTA()]),
-    "e24": _eco(24, "222049 26-53.2 + 222642 24.5-47",
+    "e24": _eco(24, "222049 26-53.2 + 222642 24.5-47", voice="strong",
                 ld=[H(["Dining & kitchen", "dia sapu habis"], ["habis"]), C("Bawah meja makan", "meja#1", "So,#2"),
                     C("Pad mop keluar ke tepi", "keluar#1", "kalau#1"), C("Dinding pun bersih", "dinding,#1", "Baik.#1"), CTA()]),
     "e25": _eco(25, "s221823 30-72.9",

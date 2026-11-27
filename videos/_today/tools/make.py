@@ -119,10 +119,20 @@ VOICE_CH = ("highpass=f=85:poles=2,afftdn=nr=18:nf=-58:tn=1:gs=8,equalizer=f=300
             "agate=threshold=0.01:ratio=2:range=0.3:attack=3:release=120")
 
 
-def enhance_voice(a_mp4, tmp):
+# "voice": "strong" (owner, 27 Nov, Ecovacs #24: "buang noise, tinggalkan suara saya bercakap sahaja"): an RNNoise speech
+# model (arnndn, models in tools-shared/rnnoise, from richardpl/arnndn-models) strips the robot / room noise first, then
+# the same voice chain with a firmer gate between words.
+RNN = pathlib.Path(__file__).resolve().parents[3] / "tools-shared/rnnoise/sh.rnnn"
+VOICE_STRONG = (f"highpass=f=90:poles=2,arnndn=m={RNN}:mix=1,arnndn=m={RNN}:mix=0.85,afftdn=nr=12:nf=-50:tn=1,"
+                "equalizer=f=300:t=q:w=1.1:g=-3,bass=g=2:f=120:w=0.7,equalizer=f=3000:t=q:w=1.2:g=4,equalizer=f=6000:t=q:w=1.5:g=1.5,"
+                "treble=g=1:f=10000,deesser=i=0.45:m=0.5:f=0.5,acompressor=threshold=-24dB:ratio=3.5:attack=5:release=120:makeup=3,"
+                "agate=threshold=0.02:ratio=4:range=0.06:attack=2:release=160:knee=3")
+
+
+def enhance_voice(a_mp4, tmp, strong=False):
     raw, ch, enh = tmp / "v-raw.wav", tmp / "v-chain.wav", tmp / "v-enh.wav"
     run("ffmpeg", "-v", "error", "-y", "-i", str(a_mp4), "-vn", "-ac", "1", "-ar", "48000", "-c:a", "pcm_s16le", str(raw))
-    run("ffmpeg", "-v", "error", "-y", "-i", str(raw), "-af", VOICE_CH, str(ch))
+    run("ffmpeg", "-v", "error", "-y", "-i", str(raw), "-af", VOICE_STRONG if strong else VOICE_CH, str(ch))
     r = subprocess.run(["ffmpeg", "-nostats", "-i", str(ch), "-af", "ebur128", "-f", "null", "-"], capture_output=True, text=True).stderr
     li = float(re.findall(r"^\s+I:\s+(-?[\d.]+)", r, re.M)[-1])
     run("ffmpeg", "-v", "error", "-y", "-i", str(ch), "-af", f"volume={round(-14 - li, 1)}dB,alimiter=limit=0.84:level=false:attack=3:release=60", str(enh))
@@ -188,7 +198,7 @@ def main(key, media=True):
             "-af", "alimiter=limit=0.89:level=false", "-c:v", "libx264", "-preset", "fast", "-crf", "15", "-r", "60", "-g", "30",
             "-c:a", "aac", "-b:a", "192k", str(P / "assets/a.mp4"))
         if spec.get("voice"):   # owner, 26 Nov (Ecovacs): phone-mic audio -> "betul betul jelas dalam TikTok"
-            enhance_voice(P / "assets/a.mp4", tmp)
+            enhance_voice(P / "assets/a.mp4", tmp, spec.get("voice") == "strong")
         b0, b1 = spec["range"]
         run("ffmpeg", "-v", "error", "-y", "-ss", str(b0), "-t", str(b1 - b0), "-i", str(SRC), "-vf", "scale=1080:1920,setsar=1,fps=60",
             "-an", "-c:v", "libx264", "-preset", "fast", "-crf", "17", "-pix_fmt", "yuv420p", "-g", "30", str(P / "assets/b.mp4"))
