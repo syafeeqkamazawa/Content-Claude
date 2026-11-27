@@ -130,7 +130,7 @@ SPECS5 = {
                 ld=[H(["Ada anak kecil", "di rumah?"], ["anak", "kecil"], kicker="IBU AYAH"), C("Bersihkan kawasan ditanda", "bersihkan#1", "Ok,#1"),
                     C("Kualiti padu", "kualiti#1", "dia#5"), C("Fungsi tak dinafikan", "fungsi#1", E5), CTA()],
                 ai=[("A1", W("yang#2"), W("Apa#1"), f"A happy Malaysian little boy at the dining table with rice and crumbs scattered around his plate and on the floor, his smiling mother beside him. {F} {K}")]),
-    "e23": _eco(23, "hn215609 59.7-84 + 222642 0-8.5",
+    "e23": _eco(23, "hn215609 59.7-84 + 222642 0-8.5", voice="strong",
                 ld=[H(["Saya guarantee", "puas hati"], ["puas"], kicker="REVIEW JUJUR"), C("Quality & function padu", "quality#1", "Tak#1"),
                     C("Bukan sekadar lalu", "bukan#1", "Memang#3"), C("Meja makan bersih", "meja#1", E5), CTA()]),
     "e24": _eco(24, "222049 26-53.2 + 222642 24.5-47", voice="strong",
